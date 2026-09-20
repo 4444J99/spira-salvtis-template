@@ -683,11 +683,11 @@ const nextNode =
   }
 
   .node-hero {
-    'min-height': 760px;
+    min-height: 760px;
   }
 
   .node-hero__field {
-    'z-index': -1;
+    z-index: -1;
     background:
       radial-gradient(
         circle at 68% 50%,
@@ -706,8 +706,8 @@ const nextNode =
   .node-vessel {
     position: relative;
     display: grid;
-    'place-items': center;
-    'min-height': 500px;
+    place-items: center;
+    min-height: 500px;
     filter: drop-shadow(
       0 0 54px color-mix(in srgb, var(--node-a1) 30%, transparent)
     );
@@ -716,7 +716,7 @@ const nextNode =
   .node-vessel__membrane {
     position: relative;
     width: min(82vw, 460px);
-    'aspect-ratio': 1;
+    aspect-ratio: 1;
     overflow: hidden;
     border: calc(1.5px + var(--v-boundary-weight, 0.7) * 1.35px) solid
       color-mix(in srgb, var(--node-a1) 68%, white 20%);
@@ -751,7 +751,7 @@ const nextNode =
         rgba(255, 255, 255, 0.17),
         rgba(255, 255, 255, 0.035)
       );
-    'box-shadow':
+    box-shadow:
       inset 0 0 calc(42px + var(--node-plasma) * 64px) rgba(255, 255, 255, 0.16),
       inset 0 -30px 72px
         color-mix(
@@ -764,7 +764,7 @@ const nextNode =
       0 44px 120px rgba(0, 0, 0, 0.5),
       0 0 calc(44px * var(--v-refraction, 1))
         color-mix(in srgb, var(--node-a1) 34%, transparent);
-    'backdrop-filter': blur(calc(4px + var(--v-refraction, 1) * 2px))
+    backdrop-filter: blur(calc(4px + var(--v-refraction, 1) * 2px))
       saturate(calc(118% + var(--v-refraction, 1) * 34%));
     transform: rotate(var(--v-rotation, 0deg));
   }
@@ -774,8 +774,8 @@ const nextNode =
     content: '';
     position: absolute;
     inset: 0;
-    'border-radius': inherit;
-    'pointer-events': none;
+    border-radius: inherit;
+    pointer-events: none;
   }
 
   .node-vessel__membrane::before {
@@ -801,7 +801,7 @@ const nextNode =
         transparent 76%,
         color-mix(in srgb, var(--node-a1) 58%, transparent)
       );
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
     opacity: 0.72;
   }
 
@@ -813,7 +813,7 @@ const nextNode =
   }
 
   .node-vessel--solar-forge .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       59% 31%,
       86% 12%,
@@ -859,7 +859,7 @@ const nextNode =
   }
 
   .node-vessel--polarity-chamber .node-vessel__membrane {
-    'border-radius': 50%;
+    border-radius: 50%;
     background:
       radial-gradient(
         circle at 32% 38%,
@@ -913,16 +913,16 @@ const nextNode =
   }
 
   .node-vessel--garden-threshold .node-vessel__membrane {
-    'clip-path': none;
-    'border-radius': 50%;
+    clip-path: none;
+    border-radius: 50%;
     -webkit-mask-image:
       radial-gradient(ellipse 37% 55% at 38% 50%, black 0 99%, transparent),
       radial-gradient(ellipse 37% 55% at 62% 50%, black 0 99%, transparent);
     -webkit-mask-composite: source-over;
-    'mask-image':
+    mask-image:
       radial-gradient(ellipse 37% 55% at 38% 50%, black 0 99%, transparent),
       radial-gradient(ellipse 37% 55% at 62% 50%, black 0 99%, transparent);
-    'mask-composite': add;
+    mask-composite: add;
     background:
       radial-gradient(
         ellipse at 37% 50%,
@@ -1053,25 +1053,25 @@ const nextNode =
   }
 
   .node-vessel--radial-emission .node-vessel__membrane {
-    'border-radius': 48% 52% 45% 55% / 58% 44% 56% 42%;
+    border-radius: 48% 52% 45% 55% / 58% 44% 56% 42%;
   }
   .node-vessel--floaty .node-vessel__membrane,
   .node-vessel--tidal .node-vessel__membrane {
-    'border-radius': 50%;
+    border-radius: 50%;
   }
   .node-vessel--dual-gyre .node-vessel__membrane {
-    'border-radius': 30% 70% 38% 62% / 54% 34% 66% 46%;
+    border-radius: 30% 70% 38% 62% / 54% 34% 66% 46%;
   }
   .node-vessel--rising .node-vessel__membrane {
-    'border-radius': 54% 46% 48% 52% / 30% 32% 68% 70%;
+    border-radius: 54% 46% 48% 52% / 30% 32% 68% 70%;
     transform: rotate(calc(var(--v-rotation, 0deg) + 8deg));
   }
   .node-vessel--spiraling .node-vessel__membrane {
-    'border-radius': 40% 60% 42% 58% / 48% 44% 56% 52%;
+    border-radius: 40% 60% 42% 58% / 48% 44% 56% 52%;
   }
   .node-vessel--lattice .node-vessel__membrane,
   .node-vessel--crystalline .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       88% 18%,
       100% 52%,
@@ -1084,7 +1084,7 @@ const nextNode =
   }
 
   .node-vessel--pyr .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       57% 31%,
       88% 12%,
@@ -1104,10 +1104,10 @@ const nextNode =
     );
   }
   .node-vessel--oculus .node-vessel__membrane {
-    'clip-path': ellipse(49% 31% at 50% 50%);
+    clip-path: ellipse(49% 31% at 50% 50%);
   }
   .node-vessel--dyad .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       73% 8%,
       91% 27%,
@@ -1121,13 +1121,13 @@ const nextNode =
       9% 27%,
       27% 8%
     );
-    'border-radius': 50%;
+    border-radius: 50%;
   }
   .node-vessel--pyramis .node-vessel__membrane {
-    'clip-path': polygon(50% 0, 100% 88%, 0 88%);
+    clip-path: polygon(50% 0, 100% 88%, 0 88%);
   }
   .node-vessel--hydor .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       62% 17%,
       77% 39%,
@@ -1141,14 +1141,14 @@ const nextNode =
       23% 39%,
       38% 17%
     );
-    'border-radius': 54% 46% 51% 49% / 62% 62% 38% 38%;
+    border-radius: 54% 46% 51% 49% / 62% 62% 38% 38%;
   }
   .node-vessel--mandorla .node-vessel__membrane {
-    'clip-path': ellipse(32% 49% at 42% 50%);
-    'border-radius': 50% / 62%;
+    clip-path: ellipse(32% 49% at 42% 50%);
+    border-radius: 50% / 62%;
   }
   .node-vessel--kenosis .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       64% 3%,
       89% 18%,
       100% 45%,
@@ -1161,7 +1161,7 @@ const nextNode =
     );
   }
   .node-vessel--shatkona .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       64% 28%,
       95% 28%,
@@ -1177,7 +1177,7 @@ const nextNode =
     );
   }
   .node-vessel--padma .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       61% 25%,
       84% 10%,
@@ -1195,13 +1195,13 @@ const nextNode =
       16% 10%,
       39% 25%
     );
-    'border-radius': 48%;
+    border-radius: 48%;
   }
   .node-vessel--bodhi .node-vessel__membrane {
-    'clip-path': polygon(50% 0, 95% 80%, 5% 80%);
+    clip-path: polygon(50% 0, 95% 80%, 5% 80%);
   }
   .node-vessel--tetrad .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       42% 0,
       58% 0,
       58% 39%,
@@ -1217,10 +1217,10 @@ const nextNode =
     );
   }
   .node-vessel--oktaedron .node-vessel__membrane {
-    'clip-path': polygon(50% 0, 92% 50%, 50% 100%, 8% 50%);
+    clip-path: polygon(50% 0, 92% 50%, 50% 100%, 8% 50%);
   }
   .node-vessel--ankh .node-vessel__membrane {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       70% 12%,
       74% 34%,
@@ -1255,12 +1255,12 @@ const nextNode =
   .node-vessel__corona {
     position: absolute;
     display: block;
-    'pointer-events': none;
+    pointer-events: none;
   }
 
   .node-vessel__core {
     inset: 28%;
-    'border-radius': inherit;
+    border-radius: inherit;
     background: radial-gradient(
       circle,
       white 0 8%,
@@ -1274,22 +1274,22 @@ const nextNode =
   .node-vessel__current {
     inset: 20%;
     border: 1px solid color-mix(in srgb, var(--node-a1) 56%, transparent);
-    'border-radius': 50%;
+    border-radius: 50%;
     transform: rotate(18deg) scaleX(1.38);
     opacity: 0.68;
   }
   .node-vessel__current--two {
     inset: 28%;
-    'border-color': color-mix(in srgb, var(--node-a2) 48%, transparent);
+    border-color: color-mix(in srgb, var(--node-a2) 48%, transparent);
     transform: rotate(-42deg) scaleX(1.5);
     opacity: 0.52;
   }
 
   .node-vessel__boundary {
     inset: 4%;
-    'border-radius': inherit;
+    border-radius: inherit;
     border: 1px solid color-mix(in srgb, var(--node-a1) 55%, white 20%);
-    'box-shadow':
+    box-shadow:
       inset 0 0 18px color-mix(in srgb, var(--node-a1) 22%, transparent),
       0 0 22px color-mix(in srgb, var(--node-a2) 18%, transparent);
     opacity: 0.82;
@@ -1305,8 +1305,8 @@ const nextNode =
     content: '';
     position: absolute;
     inset: 0;
-    'border-radius': inherit;
-    'pointer-events': none;
+    border-radius: inherit;
+    pointer-events: none;
   }
 
   .node-vessel__boundary::before {
@@ -1324,7 +1324,7 @@ const nextNode =
         transparent 53% 100%
       );
     opacity: calc(0.05 + var(--node-solid) * 0.55);
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__boundary::after {
@@ -1336,8 +1336,8 @@ const nextNode =
 
   .node-vessel__stars {
     inset: 13%;
-    'border-radius': inherit;
-    'background-image':
+    border-radius: inherit;
+    background-image:
       radial-gradient(
         circle at 17% 26%,
         color-mix(in srgb, white 80%, var(--node-a1) 20%) 0 1.5px,
@@ -1360,7 +1360,7 @@ const nextNode =
       );
     opacity: calc(0.34 + var(--node-gas) * 0.84 + var(--node-plasma) * 0.42);
     filter: drop-shadow(0 0 9px var(--node-a1));
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__stars--two {
@@ -1372,8 +1372,8 @@ const nextNode =
   .node-vessel__matter--gas {
     inset: 12% 16% auto auto;
     width: 46%;
-    'aspect-ratio': 1;
-    'border-radius': 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
     background: radial-gradient(
       circle,
       color-mix(in srgb, var(--node-a3) 24%, white 12%),
@@ -1390,7 +1390,7 @@ const nextNode =
     right: 8%;
     bottom: 12%;
     height: 32%;
-    'border-radius': 50%;
+    border-radius: 50%;
     background: linear-gradient(
       90deg,
       color-mix(in srgb, var(--node-a2) 42%, transparent),
@@ -1406,8 +1406,8 @@ const nextNode =
     left: 24%;
     top: 28%;
     width: 48%;
-    'aspect-ratio': 1;
-    'clip-path': polygon(
+    aspect-ratio: 1;
+    clip-path: polygon(
       50% 0,
       63% 34%,
       100% 42%,
@@ -1432,9 +1432,9 @@ const nextNode =
   }
   .node-vessel__matter--plasma {
     inset: 38%;
-    'border-radius': 999px;
+    border-radius: 999px;
     background: var(--node-a1);
-    'box-shadow':
+    box-shadow:
       0 0 32px var(--node-a1),
       0 0 80px var(--node-a2);
     opacity: min(
@@ -1445,13 +1445,13 @@ const nextNode =
 
   .node-vessel__phase-field {
     inset: 3%;
-    'border-radius': inherit;
+    border-radius: inherit;
     overflow: hidden;
     opacity: 0.9;
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
     transform: rotate(var(--render-tilt, 0deg))
       scale(var(--render-field-scale, 1));
-    'will-change': transform, filter;
+    will-change: transform, filter;
     animation: node-field-breathe var(--render-tempo, 20s) ease-in-out infinite
       alternate;
   }
@@ -1461,8 +1461,8 @@ const nextNode =
     content: '';
     position: absolute;
     inset: -12%;
-    'border-radius': inherit;
-    'pointer-events': none;
+    border-radius: inherit;
+    pointer-events: none;
   }
 
   .node-vessel__phase-field::before {
@@ -1542,17 +1542,17 @@ const nextNode =
 
   .node-vessel__nested {
     inset: 5%;
-    'border-radius': inherit;
+    border-radius: inherit;
     overflow: hidden;
     opacity: 0.96;
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__chamber {
-    'border-radius': inherit;
+    border-radius: inherit;
     overflow: hidden;
     border: 1px solid color-mix(in srgb, var(--node-a1) 26%, white 14%);
-    'box-shadow': inset 0 0 22px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 0 22px rgba(255, 255, 255, 0.08);
   }
 
   .node-vessel__chamber--gas {
@@ -1585,7 +1585,7 @@ const nextNode =
     right: 9%;
     bottom: 8%;
     height: calc(34% + var(--node-liquid) * var(--v-liquid-depth, 1) * 23%);
-    'border-radius': 50% 50% 42% 42% / 34% 34% 58% 58%;
+    border-radius: 50% 50% 42% 42% / 34% 34% 58% 58%;
     background:
       radial-gradient(
         ellipse at 50% 7%,
@@ -1597,8 +1597,8 @@ const nextNode =
         color-mix(in srgb, var(--node-a3) 26%, transparent),
         color-mix(in srgb, var(--node-a2) 64%, transparent)
       );
-    'border-color': color-mix(in srgb, var(--node-a2) 42%, white 16%);
-    'box-shadow':
+    border-color: color-mix(in srgb, var(--node-a2) 42%, white 16%);
+    box-shadow:
       inset 0 12px 18px rgba(255, 255, 255, 0.1),
       inset 0 -22px 42px color-mix(in srgb, var(--node-a1) 18%, transparent);
     opacity: min(
@@ -1609,7 +1609,7 @@ const nextNode =
 
   .node-vessel__chamber--solid {
     inset: 14% 19% 15%;
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       64% 28%,
       96% 36%,
@@ -1621,7 +1621,7 @@ const nextNode =
       4% 36%,
       36% 28%
     );
-    'border-radius': 0;
+    border-radius: 0;
     background:
       linear-gradient(
         135deg,
@@ -1635,7 +1635,7 @@ const nextNode =
         rgba(255, 255, 255, 0.34) 45% 47%,
         transparent 48% 100%
       );
-    'border-color': color-mix(in srgb, var(--node-a1) 54%, white 18%);
+    border-color: color-mix(in srgb, var(--node-a1) 54%, white 18%);
     opacity: min(
       0.92,
       calc((0.2 + var(--node-solid) * 0.72) * var(--v-solid-fracture, 1))
@@ -1644,7 +1644,7 @@ const nextNode =
 
   .node-vessel__chamber--plasma {
     inset: calc(34% - var(--node-plasma) * var(--v-plasma-reach, 1) * 10%);
-    'border-radius': 999px;
+    border-radius: 999px;
     background: radial-gradient(
       circle,
       white 0 14%,
@@ -1652,8 +1652,8 @@ const nextNode =
       color-mix(in srgb, var(--node-a2) 44%, transparent) 52%,
       transparent 78%
     );
-    'border-color': color-mix(in srgb, var(--node-a1) 64%, white 20%);
-    'box-shadow':
+    border-color: color-mix(in srgb, var(--node-a1) 64%, white 20%);
+    box-shadow:
       0 0 24px var(--node-a1),
       0 0 calc(38px + var(--node-plasma) * 48px) var(--node-a2),
       inset 0 0 18px rgba(255, 255, 255, 0.36);
@@ -1665,10 +1665,10 @@ const nextNode =
 
   .node-vessel__generated {
     inset: 0;
-    'border-radius': inherit;
+    border-radius: inherit;
     overflow: hidden;
     transform: rotate(var(--render-tilt, 0deg));
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
     opacity: 0.92;
   }
 
@@ -1676,14 +1676,14 @@ const nextNode =
     left: var(--atom-x);
     top: var(--atom-y);
     width: var(--atom-size);
-    'aspect-ratio': 1;
-    'border-radius': 999px;
+    aspect-ratio: 1;
+    border-radius: 999px;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.75);
-    'box-shadow': 0 0 12px currentColor;
+    box-shadow: 0 0 12px currentColor;
     color: color-mix(in srgb, var(--node-a1) 70%, white 20%);
     opacity: 0.72;
-    'will-change': transform, opacity;
+    will-change: transform, opacity;
     animation: node-atom-drift var(--atom-life, var(--render-tempo, 18s))
       ease-in-out var(--atom-delay, 0s) infinite alternate;
   }
@@ -1701,8 +1701,8 @@ const nextNode =
   }
 
   .node-vessel__atom--solid {
-    'border-radius': 18%;
-    'clip-path': polygon(50% 0, 100% 45%, 72% 100%, 18% 86%, 0 24%);
+    border-radius: 18%;
+    clip-path: polygon(50% 0, 100% 45%, 72% 100%, 18% 86%, 0 24%);
     color: color-mix(in srgb, var(--node-a4) 60%, white 24%);
     opacity: 0.68;
   }
@@ -1710,13 +1710,13 @@ const nextNode =
   .node-vessel__atom--plasma {
     color: color-mix(in srgb, var(--node-a1) 72%, white 24%);
     opacity: 0.82;
-    'box-shadow':
+    box-shadow:
       0 0 10px currentColor,
       0 0 24px color-mix(in srgb, var(--node-a2) 46%, transparent);
   }
 
   .node-vessel--dominant-gas .node-vessel__membrane {
-    'background-blend-mode': screen, screen, screen, normal;
+    background-blend-mode: screen, screen, screen, normal;
   }
   .node-vessel--dominant-gas .node-vessel__phase-field {
     opacity: 1;
@@ -1747,7 +1747,7 @@ const nextNode =
     filter: blur(calc(10px + var(--node-gas) * 18px));
   }
   .node-vessel--dominant-gas .node-vessel__boundary::after {
-    'border-style': dashed;
+    border-style: dashed;
     opacity: 0.74;
   }
   .node-vessel--dominant-gas .node-vessel__atom--gas {
@@ -1959,19 +1959,19 @@ const nextNode =
 
   .node-vessel--ankh .node-vessel__current {
     inset: 11% 29% 50%;
-    'border-color': color-mix(in srgb, white 34%, var(--node-a1) 50%);
-    'border-radius': 50%;
+    border-color: color-mix(in srgb, white 34%, var(--node-a1) 50%);
+    border-radius: 50%;
     transform: rotate(calc(var(--render-flow-a, 0deg) * 0.02)) scaleX(0.92);
     opacity: 0.95;
   }
 
   .node-vessel--ankh .node-vessel__current--two {
     inset: 37% 43% 7%;
-    'border-color': color-mix(in srgb, var(--node-a2) 58%, white 14%);
-    'border-radius': 999px;
+    border-color: color-mix(in srgb, var(--node-a2) 58%, white 14%);
+    border-radius: 999px;
     transform: rotate(0deg) scaleX(0.42);
     opacity: 0.9;
-    'box-shadow':
+    box-shadow:
       0 0 22px color-mix(in srgb, var(--node-a1) 32%, transparent),
       inset 0 0 18px color-mix(in srgb, white 18%, transparent);
   }
@@ -2038,13 +2038,13 @@ const nextNode =
     .node-vessel__atom,
     .node-vessel__phase-field {
       animation: none;
-      'will-change': auto;
+      will-change: auto;
     }
   }
 
   .node-vessel__lattice {
     inset: 10%;
-    'border-radius': inherit;
+    border-radius: inherit;
     background:
       linear-gradient(
         30deg,
@@ -2068,7 +2068,7 @@ const nextNode =
       0.9,
       calc((0.12 + var(--node-solid) * 0.72) * var(--v-solid-fracture, 1))
     );
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__lattice::before {
@@ -2090,7 +2090,7 @@ const nextNode =
     right: 7%;
     bottom: 14%;
     height: 36%;
-    'border-radius': 50% 50% 44% 46% / 42% 46% 56% 54%;
+    border-radius: 50% 50% 44% 46% / 42% 46% 56% 54%;
     background:
       radial-gradient(
         ellipse at 50% 8%,
@@ -2102,7 +2102,7 @@ const nextNode =
         color-mix(in srgb, var(--node-a3) 32%, transparent),
         color-mix(in srgb, var(--node-a2) 48%, transparent)
       );
-    'box-shadow':
+    box-shadow:
       inset 0 1px 0 rgba(255, 255, 255, 0.26),
       inset 0 -18px 34px color-mix(in srgb, var(--node-a1) 18%, transparent);
     filter: blur(1px);
@@ -2111,7 +2111,7 @@ const nextNode =
       calc((0.12 + var(--node-liquid) * 0.82) * var(--v-liquid-depth, 1))
     );
     transform: rotate(-4deg);
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__meniscus::before {
@@ -2128,7 +2128,7 @@ const nextNode =
 
   .node-vessel__veil {
     inset: 4%;
-    'border-radius': inherit;
+    border-radius: inherit;
     background:
       radial-gradient(
         circle at 18% 28%,
@@ -2150,7 +2150,7 @@ const nextNode =
       0.92,
       calc((0.12 + var(--node-gas) * 0.84) * var(--v-gas-scale, 1))
     );
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__veil::before {
@@ -2162,7 +2162,7 @@ const nextNode =
 
   .node-vessel__corona {
     inset: -6%;
-    'border-radius': inherit;
+    border-radius: inherit;
     background: conic-gradient(
       from 0deg,
       color-mix(in srgb, var(--node-a1) 65%, transparent),
@@ -2180,13 +2180,13 @@ const nextNode =
       0.94,
       calc((0.12 + var(--node-plasma) * 0.76) * var(--v-plasma-reach, 1))
     );
-    'mix-blend-mode': screen;
+    mix-blend-mode: screen;
   }
 
   .node-vessel__corona::before {
     inset: 13%;
     border: 1px solid color-mix(in srgb, var(--node-a1) 54%, white 18%);
-    'box-shadow':
+    box-shadow:
       0 0 18px color-mix(in srgb, var(--node-a1) 44%, transparent),
       0 0 44px color-mix(in srgb, var(--node-a2) 28%, transparent);
     opacity: calc(0.06 + var(--node-plasma) * 0.65);
@@ -2199,12 +2199,12 @@ const nextNode =
 
   .node-vessel--polarity-chamber .node-vessel__current {
     inset: 8%;
-    'border-color': rgba(255, 255, 255, 0.38);
+    border-color: rgba(255, 255, 255, 0.38);
     transform: rotate(36deg) scaleX(0.72);
     opacity: 0.92;
   }
   .node-vessel--polarity-chamber .node-vessel__current--two {
-    'border-color': color-mix(in srgb, var(--node-a4) 62%, transparent);
+    border-color: color-mix(in srgb, var(--node-a4) 62%, transparent);
     transform: rotate(-36deg) scaleX(0.72);
     opacity: 0.8;
   }
@@ -2231,13 +2231,13 @@ const nextNode =
 
   .node-vessel--garden-threshold .node-vessel__current {
     inset: 7% 36% 7% 8%;
-    'border-color': rgba(255, 174, 204, 0.72);
+    border-color: rgba(255, 174, 204, 0.72);
     transform: none;
     opacity: 0.88;
   }
   .node-vessel--garden-threshold .node-vessel__current--two {
     inset: 7% 8% 7% 36%;
-    'border-color': rgba(118, 232, 132, 0.68);
+    border-color: rgba(118, 232, 132, 0.68);
     transform: none;
     opacity: 0.82;
   }
@@ -2249,7 +2249,7 @@ const nextNode =
     opacity: 0.86;
   }
   .node-vessel--garden-threshold .node-vessel__matter--solid {
-    'clip-path': polygon(
+    clip-path: polygon(
       50% 0,
       62% 32%,
       92% 12%,
@@ -2271,13 +2271,13 @@ const nextNode =
   }
   .node-vessel--lunar-hollow .node-vessel__current {
     inset: 8% 18% 8% 3%;
-    'border-color': rgba(218, 232, 255, 0.52);
+    border-color: rgba(218, 232, 255, 0.52);
     transform: rotate(21deg) scaleX(0.54);
     opacity: 0.9;
   }
   .node-vessel--lunar-hollow .node-vessel__current--two {
     inset: 12% 28% 12% 2%;
-    'border-color': rgba(104, 132, 190, 0.44);
+    border-color: rgba(104, 132, 190, 0.44);
     transform: rotate(16deg) scaleX(0.44);
     opacity: 0.72;
   }
@@ -2303,30 +2303,30 @@ const nextNode =
 
   @media (max-width: 639px) {
     .node-world {
-      'overflow-x': hidden;
+      overflow-x: hidden;
     }
 
     .node-hero {
-      'min-height': 760px;
-      'padding-inline': 1.5rem;
+      min-height: 760px;
+      padding-inline: 1.5rem;
     }
 
     .node-hero h1 {
-      'max-width': calc(100vw - 3rem);
-      'font-size': clamp(2.5rem, 12vw, 3.2rem);
-      'line-height': 0.96;
+      max-width: calc(100vw - 3rem);
+      font-size: clamp(2.5rem, 12vw, 3.2rem);
+      line-height: 0.96;
     }
 
     .node-hero h1 + p {
-      'max-width': min(20rem, calc(100vw - 3rem));
-      'font-size': 1rem;
-      'line-height': 1.65;
-      'text-wrap': pretty;
+      max-width: min(20rem, calc(100vw - 3rem));
+      font-size: 1rem;
+      line-height: 1.65;
+      text-wrap: pretty;
     }
 
     .node-vessel {
-      'min-height': 390px;
-      'margin-inline': -1.5rem;
+      min-height: 390px;
+      margin-inline: -1.5rem;
     }
 
     .node-vessel__membrane {
@@ -2336,73 +2336,73 @@ const nextNode =
 
   .node-phase-row {
     display: grid;
-    'grid-template-columns': 5.5rem minmax(0, 1fr) 3rem;
-    'integrate-items': center;
+    grid-template-columns: 5.5rem minmax(0, 1fr) 3rem;
+    integrate-items: center;
     gap: 1rem;
     color: rgba(255, 255, 255, 0.42);
-    'font-size': 11px;
-    'letter-spacing': 0.16em;
-    'text-transform': uppercase;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
   }
   .node-phase-row i {
     height: 1px;
     width: var(--phase-width);
-    'min-width': 12px;
+    min-width: 12px;
     background: linear-gradient(90deg, var(--node-a1), var(--node-a3));
-    'box-shadow': 0 0 18px color-mix(in srgb, var(--node-a1) 45%, transparent);
+    box-shadow: 0 0 18px color-mix(in srgb, var(--node-a1) 45%, transparent);
   }
   .node-phase-row em {
     color: rgba(255, 255, 255, 0.28);
-    'font-style': normal;
-    'text-integrate': right;
+    font-style: normal;
+    text-integrate: right;
   }
 
   .node-container-rule {
-    'margin-top': 0.75rem;
-    'max-width': 32rem;
+    margin-top: 0.75rem;
+    max-width: 32rem;
     color: rgba(255, 255, 255, 0.34);
-    'font-size': 13px;
-    'font-weight': 300;
-    'line-height': 1.75;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.75;
   }
 
   .prose-node p {
-    'margin-bottom': 1.5rem;
+    margin-bottom: 1.5rem;
   }
   .prose-node p:last-child {
-    'margin-bottom': 0;
+    margin-bottom: 0;
   }
   .prose-node h2 {
-    'font-family': 'Cormorant Garamond', serif;
-    'font-size': 1.5rem;
-    'font-weight': 300;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.8);
-    'margin-top': 2.5rem;
-    'margin-bottom': 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
   }
   .prose-node h3 {
-    'font-family': 'Cormorant Garamond', serif;
-    'font-size': 1.25rem;
-    'font-weight': 300;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25rem;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
-    'margin-top': 2rem;
-    'margin-bottom': 0.75rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
   }
   .prose-node strong {
     color: rgba(255, 255, 255, 0.7);
-    'font-weight': 500;
+    font-weight: 500;
   }
   .prose-node em {
     color: rgba(255, 255, 255, 0.55);
-    'font-style': italic;
+    font-style: italic;
   }
   .prose-node ul,
   .prose-node ol {
-    'margin-bottom': 1.5rem;
-    'padding-left': 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
   }
   .prose-node li {
-    'margin-bottom': 0.5rem;
+    margin-bottom: 0.5rem;
   }
   .prose-node ul li::marker {
     color: rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.4);

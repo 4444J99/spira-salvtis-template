@@ -937,19 +937,19 @@ if (!isHome) {
      for tabs without a world binding). Background-trick underline: zero
      layout shift, GPU-friendly, static under reduced-motion. */
   .nav-tab {
-    'background-image': linear-gradient(
+    background-image: linear-gradient(
       to right,
       var(--tab-accent, #119a9e),
       var(--tab-accent, #119a9e)
     );
-    'background-repeat': no-repeat;
-    'background-size': 0% 1px;
-    'background-position': 0 100%;
-    'padding-bottom': 3px;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    padding-bottom: 3px;
     transition: background-size 0.4s ease;
   }
   .nav-tab:hover {
-    'background-size': 100% 1px;
+    background-size: 100% 1px;
   }
   @media (prefers-reduced-motion: reduce) {
     .nav-tab {
