@@ -207,7 +207,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gat
               href={ghlWaterUrl}
               target="_blank"
               rel="noopener"
-              data-ea-action="water_funnel_to_ghl"
+              data-ea-action="gateway_funnel_to_ghl"
               class="inline-block bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
             >
               Continue at the Gateway Hub →
@@ -340,7 +340,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gat
 </section>
 
 <script>
-  import type { FilterTier, WaterReport } from '../data/gateway.config';
+  import type { FilterTier, GatewayReport } from '../data/gateway.config';
   import { trackEvent } from '../lib/analytics';
 
   // --- Gateway source selection ---
@@ -476,7 +476,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gat
     }
 
     // Analytics: gateway funnel entry
-    trackEvent({ action: 'water_funnel_entry' });
+    trackEvent({ action: 'gateway_funnel_entry' });
 
     // Show results panel with loading state
     const results = document.getElementById('step-1-results');
@@ -491,9 +491,9 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gat
       const response = await fetch('/api/gateway-report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ zipCode: zipInput.value, waterSource: sourceInput.value }),
+        body: JSON.stringify({ zipCode: zipInput.value, gatewaySource: sourceInput.value }),
       });
-      const report = (await response.json()) as WaterReport & { isDemo?: boolean };
+      const report = (await response.json()) as GatewayReport & { isDemo?: boolean };
 
       // Update summary stats
       const totalEl = document.getElementById('result-total');

@@ -8,7 +8,7 @@
  * @see docs/decisions/2026-04-04-gateway-hub-placement.md
  */
 
-import bottledWaterPriceData from './runtime/bottled-prices.json' with { type: 'json' };
+import legacyGatewayPriceData from './runtime/bottled-prices.json' with { type: 'json' };
 
 // --- Step 1: Contaminant Lookup ---
 
@@ -33,9 +33,9 @@ export type ContaminantEffect =
   | 'reproductive'
   | 'carcinogenic';
 
-export interface WaterReport {
+export interface GatewayReport {
   zipCode: string;
-  waterSource: WaterSource;
+  gatewaySource: GatewaySource;
   utilityName: string;
   contaminants: Contaminant[];
   totalContaminants: number;
@@ -44,11 +44,11 @@ export interface WaterReport {
   lastUpdated: string;
 }
 
-export type WaterSource = 'tap' | 'well' | 'bottled' | 'unsure';
+export type GatewaySource = 'tap' | 'well' | 'bottled' | 'unsure';
 
 // --- Step 1: Cost Comparison ---
 
-export interface BottledWaterCost {
+export interface LegacyGatewayCost {
   brand: string;
   perBottle: number;
   perCase: number;
@@ -62,8 +62,8 @@ export interface BottledWaterCost {
   yearlyEstimate: number;
 }
 
-export type BottledWaterCostInput = Omit<
-  BottledWaterCost,
+export type LegacyGatewayCostInput = Omit<
+  LegacyGatewayCost,
   'monthlyEstimate' | 'yearlyEstimate'
 >;
 
@@ -127,7 +127,7 @@ export interface FilterRecommendation {
   reason: string;
   monthlySavings: number;
   yearlyComparison: {
-    bottledWater: number;
+    legacyGateway: number;
     thisFilter: number;
     savings: number;
   };
@@ -164,7 +164,7 @@ export interface FunnelStep {
 export interface HydrationConfig {
   steps: FunnelStep[];
   filterTiers: FilterTier[];
-  costData: BottledWaterCost[];
+  costData: LegacyGatewayCost[];
 }
 
 function roundCurrency(value: number): number {
@@ -190,9 +190,9 @@ function roundCurrency(value: number): number {
  * dollar values themselves remain unverified placeholders (`sourceCheckedAt:
  * null`, `trackingIssue: 63`) pending real shelf-price verification.
  */
-export function deriveBottledWaterCost(
-  record: BottledWaterCostInput,
-): BottledWaterCost {
+export function deriveLegacyGatewayCost(
+  record: LegacyGatewayCostInput,
+): LegacyGatewayCost {
   const monthlyEstimate = roundCurrency(
     record.perBottle * record.monthlyVolumeAssumption,
   );
@@ -270,7 +270,7 @@ export function matchFiltersToContaminants(
           Math.round(avgBottledMonthly - monthlyFilterCost),
         ),
         yearlyComparison: {
-          bottledWater: Math.round(avgBottledMonthly * 12),
+          legacyGateway: Math.round(avgBottledMonthly * 12),
           thisFilter: Math.round(monthlyFilterCost * 12),
           savings: Math.max(0, Math.round(yearlySavings)),
         },
@@ -312,9 +312,9 @@ const AFFILIATE_URLS = {
   k8: env?.PUBLIC_AFFILIATE_K8 ?? '',
 } as const;
 
-const bottledWaterCosts = (
-  bottledWaterPriceData as BottledWaterCostInput[]
-).map(deriveBottledWaterCost);
+const legacyGatewayCosts = (
+  legacyGatewayPriceData as LegacyGatewayCostInput[]
+).map(deriveLegacyGatewayCost);
 
 // --- Demo Data (Phase A) ---
 
@@ -473,5 +473,5 @@ export const hydrationConfig: HydrationConfig = {
     },
   ],
 
-  costData: bottledWaterCosts,
+  costData: legacyGatewayCosts,
 };

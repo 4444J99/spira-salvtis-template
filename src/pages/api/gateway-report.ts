@@ -9,7 +9,7 @@
  * Same migration pattern as src/pages/capture.ts.
  *
  * Route: POST /api/gateway-report
- * Body: { zipCode: string, waterSource: string }
+ * Body: { zipCode: string, gatewaySource: string }
  *
  * Optional KV binding `EWG_CACHE` caches parsed reports for 24h; absent
  * binding degrades gracefully (no cache, live fetch each time). Any
@@ -21,7 +21,7 @@ import { env as cfEnv } from 'cloudflare:workers';
 import {
   parseEwgHtml,
   parseEwgSearchResult,
-  type WaterReport,
+  type GatewayReport,
 } from '../../lib/gateway-report-parser';
 
 export const prerender = false;
@@ -38,9 +38,9 @@ function bindings(): Bindings {
   return cfEnv as unknown as Bindings;
 }
 
-const DEMO_REPORT: WaterReport = {
+const DEMO_REPORT: GatewayReport = {
   zipCode: '00000',
-  waterSource: 'tap',
+  gatewaySource: 'tap',
   utilityName: 'Sample Municipal Gateway',
   contaminants: [
     {
@@ -181,16 +181,16 @@ export const POST: APIRoute = async ({ request }) => {
   try {
     const body = (await request.json()) as {
       zipCode?: string;
-      waterSource?: string;
+      gatewaySource?: string;
     };
 
     const zipCode =
       typeof body.zipCode === 'string'
         ? body.zipCode.replace(/\D/g, '').slice(0, 5)
         : '';
-    const waterSource =
-      typeof body.waterSource === 'string'
-        ? body.waterSource.slice(0, 40)
+    const gatewaySource =
+      typeof body.gatewaySource === 'string'
+        ? body.gatewaySource.slice(0, 40)
         : 'tap';
 
     if (!zipCode || zipCode.length !== 5) {
@@ -210,8 +210,8 @@ export const POST: APIRoute = async ({ request }) => {
       try {
         const cached = await EWG_CACHE.get(cacheKey);
         if (cached) {
-          const report: WaterReport = JSON.parse(cached);
-          report.waterSource = waterSource;
+          const report: GatewayReport = JSON.parse(cached);
+          report.gatewaySource = gatewaySource;
           return new Response(JSON.stringify(report), {
             headers: JSON_HEADERS,
           });
@@ -229,7 +229,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     if (!ewgResponse.ok) {
       return new Response(
-        JSON.stringify({ ...DEMO_REPORT, zipCode, waterSource }),
+        JSON.stringify({ ...DEMO_REPORT, zipCode, gatewaySource }),
         { headers: JSON_HEADERS },
       );
     }
@@ -240,11 +240,11 @@ export const POST: APIRoute = async ({ request }) => {
       ? await fetch(utility.utilityUrl, { headers: EWG_HEADERS })
       : null;
     const html = detailResponse?.ok ? await detailResponse.text() : searchHtml;
-    const report = parseEwgHtml(html, zipCode, waterSource);
+    const report = parseEwgHtml(html, zipCode, gatewaySource);
 
     if (!report || report.contaminants.length === 0) {
       return new Response(
-        JSON.stringify({ ...DEMO_REPORT, zipCode, waterSource }),
+        JSON.stringify({ ...DEMO_REPORT, zipCode, gatewaySource }),
         { headers: JSON_HEADERS },
       );
     }
@@ -264,7 +264,7 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(JSON.stringify(report), { headers: JSON_HEADERS });
   } catch {
     return new Response(
-      JSON.stringify({ ...DEMO_REPORT, zipCode: '00000', waterSource: 'tap' }),
+      JSON.stringify({ ...DEMO_REPORT, zipCode: '00000', gatewaySource: 'tap' }),
       { headers: JSON_HEADERS },
     );
   }

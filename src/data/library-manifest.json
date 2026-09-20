@@ -812,8 +812,8 @@
         "isDir": false
       },
       {
-        "name": "2026-05-01-water-report-fluoride-bug-diagnosis.md",
-        "relPath": "docs/decisions/2026-05-01-water-report-fluoride-bug-diagnosis.md",
+        "name": "2026-05-01-gateway-report-fluoride-bug-diagnosis.md",
+        "relPath": "docs/decisions/2026-05-01-gateway-report-fluoride-bug-diagnosis.md",
         "ext": ".md",
         "sizeBytes": 7640,
         "mtimeIso": "2026-09-19T18:27:31.000Z",

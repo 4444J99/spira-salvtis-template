@@ -25,56 +25,56 @@ export const quizQuestions: QuizQuestion[] = [
   {
     step: 1,
     axis: 'phase',
-    text: 'Where does your energy want to start?',
+    text: 'Select initial topological vector:',
     subtitle:
-      "There's no wrong answer. Pick the one that feels truest right now.",
+      "Input is arbitrary; the architecture auto-corrects.",
     answers: [
       {
         value: 'INITIATE',
-        text: 'I need to feel better in my body — physically grounded, energized, present.',
+        text: 'Baseline physical stabilization. Low entropy.',
       },
       {
         value: 'INTEGRATE',
-        text: "I'm ready to do the system work — patterns, structure, alignment.",
+        text: "Systemic integration. Aligning structural nodes.",
       },
       {
         value: 'ACTIVATE',
-        text: "I'm ready for full expression and freedom — letting it all out.",
+        text: "High-velocity execution. Expanding the boundary.",
       },
       {
         value: 'ALL',
-        text: 'All of it — I want to integrate everything at once.',
+        text: 'Complete topological synthesis.',
       },
     ],
   },
   {
     step: 2,
     axis: 'pillar',
-    text: 'Which pillar feels most alive in you right now?',
-    subtitle: 'The one that pulls you, not the one you think you should pick.',
+    text: 'Select primary structural pillar:',
+    subtitle: 'Identify the vector of least resistance.',
     answers: [
       {
         value: 'foundation',
         text: 'Foundation',
-        sublabel: 'body, energy, gateway, sleep',
+        sublabel: 'Prima Materia variables',
         emoji: '🌊',
       },
       {
         value: 'system',
         text: 'System',
-        sublabel: 'emotions, regulation, awareness',
+        sublabel: 'Machina variables',
         emoji: '🕊️',
       },
       {
         value: 'structure',
         text: 'Structure',
-        sublabel: 'who I am, how I show up',
+        sublabel: 'Architectonica variables',
         emoji: '✨',
       },
       {
         value: 'vision',
         text: 'Vision',
-        sublabel: 'sovereignty over time + money',
+        sublabel: 'Oculus variables',
         emoji: '💠',
       },
     ],
@@ -82,68 +82,68 @@ export const quizQuestions: QuizQuestion[] = [
   {
     step: 3,
     axis: 'theme',
-    text: 'What does your system most need right now?',
-    subtitle: 'If you could only do one thing for yourself this week.',
+    text: 'Determine current processing deficit:',
+    subtitle: 'Isolate the highest-leverage operation.',
     answers: [
       {
         value: 'state-shifting,baseline,simple-pleasure',
-        text: 'To feel good and at ease — just to taste that again.',
+        text: 'Reduction of systemic friction.',
       },
       {
         value: 'witness,awareness,signal-reading',
-        text: "To understand what's happening to me — read my own signals.",
+        text: "Increased telemetry resolution.",
       },
       {
         value: 'release,reclaim,unwiring',
-        text: "To release patterns I'm tired of carrying.",
+        text: "Garbage collection. Purging legacy logic.",
       },
       {
         value: 'becoming,life-fueling,power',
-        text: "To step fully into who I'm becoming.",
+        text: "Compiling new structural paradigms.",
       },
     ],
   },
   {
     step: 4,
     axis: 'theme',
-    text: 'What feels foundational to address?',
-    subtitle: 'The thing under the thing.',
+    text: 'Identify root constraint:',
+    subtitle: 'Deep-layer dependencies.',
     answers: [
       {
         value: 'foundation,gateway,root-cause',
-        text: "Energy and absorption — my body's basic systems.",
+        text: "Hardware optimization.",
       },
       {
         value: 'regulation,balance,calm',
-        text: 'Calm and regulation — my nervous system.',
+        text: 'Bandwidth regulation.',
       },
       {
         value: 'ownership,gentleness,choice',
-        text: 'Choice and ownership — taking responsibility, gently.',
+        text: 'Read/write access control.',
       },
       {
         value: 'clarity,intention,coherence',
-        text: 'Coherence and clarity — knowing what I want.',
+        text: 'Algorithmic clarity.',
       },
     ],
   },
   {
     step: 5,
     axis: 'theme',
-    text: 'Where do you sense your growth edge?',
-    subtitle: 'The honest one. Not the impressive one.',
+    text: 'Identify expansion boundary:',
+    subtitle: 'Objective self-reporting required.',
     answers: [
       {
         value: 'integration,wholeness,pulling-together',
-        text: "I keep doing things that don't serve me.",
+        text: "Infinite loops detected in execution.",
       },
       {
         value: 'awakening,what-now,post-awakening',
-        text: "I notice patterns but can't change them yet.",
+        text: "Read-only access to legacy patterns.",
       },
       {
         value: 'expression,structure,loud-pride',
-        text: "I'm awake but unsure what to do with it.",
+        text: "Idle state awaiting instruction set.",
       },
       {
         // Normalized to a single node's 3-theme bundle (node 13 — Activate:
@@ -151,7 +151,7 @@ export const quizQuestions: QuizQuestion[] = [
         // the same 3 themes. The prior 6-theme bundle also pulled node 4's
         // INITIATE themes, buying double scoring weight for two funnel-end nodes.
         value: 'freedom,gifts-amplified,full-flow',
-        text: "I'm ready to act on what I know.",
+        text: "Ready for execution.",
       },
     ],
   },
@@ -181,7 +181,7 @@ export type QuizResultCopy = typeof quizResultCopy;
 export const quizCaptureCopy = {
   label: 'Stay connected (optional)',
   description:
-    'Get notes from admin as your node deepens. No spam, only sovereignty.',
+    'Telemetry ingestion active. Establish async connection. Pure signal, zero noise.',
   namePlaceholder: 'Your name',
   emailPlaceholder: 'your@email.com',
   submitLabel: 'Stay connected',

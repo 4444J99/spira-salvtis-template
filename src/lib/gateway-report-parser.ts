@@ -14,9 +14,9 @@ export interface Contaminant {
   effects: string[];
 }
 
-export interface WaterReport {
+export interface GatewayReport {
   zipCode: string;
-  waterSource: string;
+  gatewaySource: string;
   utilityName: string;
   contaminants: Contaminant[];
   totalContaminants: number;
@@ -320,8 +320,8 @@ function parseContaminants(lines: string[]): Contaminant[] {
 export function parseEwgHtml(
   html: string,
   zipCode: string,
-  waterSource: string,
-): WaterReport | null {
+  gatewaySource: string,
+): GatewayReport | null {
   const lines = htmlToTextLines(html);
   const contaminants = parseContaminants(lines);
 
@@ -329,7 +329,7 @@ export function parseEwgHtml(
 
   return {
     zipCode,
-    waterSource,
+    gatewaySource,
     utilityName: extractUtilityName(lines, html, zipCode),
     contaminants,
     totalContaminants: contaminants.length,

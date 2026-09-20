@@ -8,7 +8,7 @@ import { config } from '../../data/hub.config';
 
 // The gateway hub IS node 5's domain (the node whose url is /gateway/) —
 // derive its id from config so the binding can never drift (M2).
-const waterNodeId = config.nodes.find((n) => n.url === '/gateway/')?.id;
+const gatewayNodeId = config.nodes.find((n) => n.url === '/gateway/')?.id;
 
 // Outbound homes for the deep content (admin 2026-06-22 #35 "Option A — full
 // swap"): the spiral LINKS OUT, it doesn't host the deep gateway funnel.
@@ -28,7 +28,7 @@ const businessUrl = `https://${config.domains.business}`;
     subtext="Take care of your creature self first. When the body feels good, everything else becomes possible."
     section="Foundation Sovereignty"
   >
-    {waterNodeId && <WorldMotif slot="backdrop" nodeId={waterNodeId} />}
+    {gatewayNodeId && <WorldMotif slot="backdrop" nodeId={gatewayNodeId} />}
     <CTAButton
       href={bodyScienceUrl}
       label="Go deeper on the body science"

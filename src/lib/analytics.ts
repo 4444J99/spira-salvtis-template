@@ -23,7 +23,7 @@ export type AnalyticsEvent =
       score: number;
       source: 'hub' | 'gateway';
     }
-  | { action: 'water_funnel_entry'; branch?: string }
+  | { action: 'gateway_funnel_entry'; branch?: string }
   | { action: 'email_gate_submit'; page: string }
   | { action: 'branch_view'; branch: string }
   | { action: 'pillar_view'; pillar: string }

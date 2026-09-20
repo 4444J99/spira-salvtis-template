@@ -90,7 +90,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const DECISION_BOARD_SOURCE = 'decision-board';
 const DECISION_BOARD_DEFAULT_EMAIL = 'decisions@spira-salvtis.local';
 const DP_SIGNUP_SOURCE = 'dp-signup-interest';
-const WATER_PERSONALIZED_PLAN_SOURCE = 'gateway-personalized-plan';
+const GATEWAY_PERSONALIZED_PLAN_SOURCE = 'gateway-personalized-plan';
 const NONPROFIT_ARM_SOURCE = 'nonprofit-arm-interest';
 
 function randomId(): string {
@@ -308,7 +308,7 @@ export const POST: APIRoute = async ({ request }) => {
   }
 
   const plan: Partial<CapturePayload> = {};
-  if (source === WATER_PERSONALIZED_PLAN_SOURCE) {
+  if (source === GATEWAY_PERSONALIZED_PLAN_SOURCE) {
     // Free-text location (ZIP or street address) for admin's manual EWG
     // lookup. Capped, but not de-identified the way `ipHint` is — the
     // visitor volunteered it precisely so a plan can be mailed back.
