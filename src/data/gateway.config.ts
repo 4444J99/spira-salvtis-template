@@ -301,10 +301,10 @@ export function matchFiltersToContaminants(
 const env = import.meta.env;
 const AFFILIATE_URLS = {
   ionfaucet:
-    env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/admin-spiral',
+    env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/demo',
   multipure:
-    env?.PUBLIC_AFFILIATE_MULTIPURE ?? 'https://www.multipure.com/admin-wired',
-  purehome: env?.PUBLIC_AFFILIATE_PUREHOME ?? 'https://purehome.co/admin',
+    env?.PUBLIC_AFFILIATE_MULTIPURE ?? 'https://www.multipure.com/demo',
+  purehome: env?.PUBLIC_AFFILIATE_PUREHOME ?? 'https://purehome.co/demo',
   coldstream:
     env?.PUBLIC_AFFILIATE_COLDSTREAM ??
     'https://www.coldstreamfilters.com/?v=79cba1185463',

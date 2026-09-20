@@ -576,7 +576,7 @@ export const config: HubConfig = {
   },
   ghl: {
     quizFormUrl:
-      'https://api.leadconnectorhq.com/widget/quiz/qoZk7lZax3nSDwIVkZOW',
+      'https://api.leadconnectorhq.com/widget/quiz/demo',
     productUrl: 'https://gateway-spira-salvtis.dev',
   },
 };

@@ -7,13 +7,13 @@ const envOrigin =
 
 export const siteConfig = {
   githubRepo:
-    'https://github.com/organvm-iii-ergon/spira-salvtis--spiral-template',
+    'https://github.com/4444J99/spira-salvtis-template',
   cloudflare: {
     workerName: 'spira-salvtis',
     reviewOrigin: trimTrailingSlash(
-      envOrigin || 'https://spira-salvtis.ivixivi.workers.dev',
+      envOrigin || 'https://spira-salvtis-template.workers.dev',
     ),
-    legacyPagesOrigin: 'https://spira-salvtis.pages.dev',
+    legacyPagesOrigin: 'https://spira-salvtis-template.pages.dev',
   },
   domains: {
     primary: 'hub-spira-salvtis.dev',

@@ -65,7 +65,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: 'cdd046e',
     description:
       'First lightening pass on the spiral after the Apr 21 3D-helix realignment.',
-    iframeSrc: 'https://36993402.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
     notes:
       'Originally not CF-deployed (auto-deploy was broken Apr 19). Permanent URL backfilled 2026-05-16.',
   },
@@ -78,7 +78,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: '02c90a2',
     description:
       '5-point stars with chakra-aligned color spectrum, bottom-to-top.',
-    iframeSrc: 'https://3c27e19e.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'v3-helix-compressed',
@@ -89,7 +89,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: '845fcaf',
     description:
       'Background matches --color-ocean-900, helix height 14, camera (0,0,18), canvas height calc(100vh-240px).',
-    iframeSrc: 'https://929c4cf9.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'v4-dual-variants',
@@ -100,7 +100,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: 'b8d105b',
     description:
       'Two simultaneous aesthetics: 13 sacred symbols (Variant A) and generative refracted-light stars (Variant B).',
-    iframeSrc: 'https://b6f1d5ec.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
     notes: 'admin: "IM SO OBSESSED !!!!"',
   },
   {
@@ -112,7 +112,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: 'd8b34b6',
     description:
       'Each node holds a contained universe — phase states, biology, physics govern its materia. 10 sub-versions (V5.1–V5.10) in 3.5 hours iterating the containment physics.',
-    iframeSrc: 'https://cb683daa.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'v6-envvar-substrate',
@@ -123,7 +123,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: '447ab84',
     description:
       'IconWorld type + 13-entry table + EnvVar substrate binding 13 nodes to True Names. NAMING_CHAINS multi-lens lineage data added.',
-    iframeSrc: 'https://42a61ed2.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'v7-mathematical-primitives',
@@ -134,7 +134,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: '671818b',
     description:
       'Proposal C: 13 sacred-geometry-primitives + 7 lens modulations wired into the spiral render loop.',
-    iframeSrc: 'https://7f9572d5.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'v8-unique-universes',
@@ -145,7 +145,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     commit: '66a6f0b',
     description:
       'Planets re-enabled (2–6 per node), per-planet lineage RNG, lens-driven icon geometry from 7-tradition sequence, creation/destruction duality.',
-    iframeSrc: 'https://b8cbee30.spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
   },
   {
     id: 'live-current',
@@ -155,7 +155,7 @@ export const SPIRAL_VERSIONS: SpiralVersion[] = [
     status: 'live',
     description:
       'V8+ with chakra-color nodes (chakraColorForNode at spiral.ts:1248), IconWorlds physics, hybrid vessel-mode default.',
-    iframeSrc: 'https://spira-salvtis.pages.dev/',
+    iframeSrc: '/spiral',
     notes: 'Always reflects the current deployment.',
   },
 ];
