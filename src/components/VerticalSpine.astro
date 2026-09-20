@@ -1,0 +1,81 @@
+---
+
+---
+
+<div
+  class="spine-container pointer-events-none fixed inset-y-0 left-1/2 -translate-x-1/2 w-px z-[-1] overflow-hidden"
+>
+  <div
+    class="spine-line w-full h-full bg-gradient-to-b from-transparent via-ocean-500/20 to-transparent opacity-0 transition-opacity duration-1000"
+  >
+  </div>
+  <div
+    id="spine-progress"
+    class="absolute top-0 left-0 w-full bg-gradient-to-b from-ocean-400 to-ocean-600 shadow-[0_0_15px_rgba(61,191,196,0.3)] h-0"
+  >
+  </div>
+</div>
+
+<style>
+  .spine-container {
+    'mask-image': linear-gradient(
+      to bottom,
+      transparent,
+      black 15%,
+      black 85%,
+      transparent
+    );
+  }
+</style>
+
+<script>
+  const progress = document.getElementById('spine-progress');
+  const line = document.querySelector('.spine-line');
+
+  function updateSpine() {
+    if (!progress) return;
+
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    // Guard the denominator: a page with no scrollable height would yield
+    // winScroll / 0 = NaN → 'NaN%'. Default to 0% progress instead.
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+
+    progress.style.height = scrolled + '%';
+
+    if (winScroll > 50) {
+      line?.classList.remove('opacity-0');
+    } else {
+      line?.classList.add('opacity-0');
+    }
+  }
+
+  let ticking = false;
+  function onScroll() {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        updateSpine();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }
+
+  window.addEventListener('scroll', onScroll);
+  window.addEventListener('resize', updateSpine);
+  // Astro client scripts re-run on view-transition navigations; remove the
+  // handlers before each swap so listeners don't accumulate across pages.
+  document.addEventListener(
+    'astro:before-swap',
+    () => {
+      window.removeEventListener('scroll', onScroll);
+      window.removeEventListener('resize', updateSpine);
+    },
+    { once: true },
+  );
+  // Initial call
+  updateSpine();
+</script>

@@ -1,0 +1,84 @@
+---
+import {
+  businessRhythmStrategy,
+  personalizationDimensions,
+} from '../data/cycle.config';
+
+const statusLabel = {
+  live: 'Live',
+  'planner-ready': 'Planner',
+  'consent-gated': 'Consent',
+};
+
+const businessDimensions = personalizationDimensions.filter((dimension) =>
+  ['cycle', 'moon', 'astrology', 'human-design', 'thirteen-moon'].includes(
+    dimension.id,
+  ),
+);
+---
+
+<section
+  data-business-rhythm-layer
+  class="py-24 px-6 bg-ocean-900 border-t border-white/[0.03]"
+>
+  <div class="max-w-5xl mx-auto">
+    <div class="max-w-2xl mb-10">
+      <p
+        class="text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+      >
+        Personal Timing
+      </p>
+      <h2 class="font-heading text-[32px] font-light text-white mb-4">
+        Build the Business Around Capacity
+      </h2>
+      <p class="text-white/40 text-[15px] font-light leading-[1.8]">
+        The rhythm layer turns astrology, cycle syncing, and Human Design into
+        practical operating cues: when to reset, build, pitch, and consolidate.
+        Sensitive profile computation stays gated until consent and payment
+        boundaries are approved.
+      </p>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-4 mb-10">
+      {
+        businessRhythmStrategy.map((step) => (
+          <article class="glass-card p-5" data-business-rhythm-step={step.title}>
+            <p class="font-heading text-[19px] text-white/80 mb-2">
+              {step.title}
+            </p>
+            <p class="text-ocean-300/70 text-[11px] font-medium uppercase tracking-[0.14em] mb-4">
+              {step.phase}
+            </p>
+            <p class="text-white/38 text-[13px] leading-relaxed">
+              {step.action}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="grid gap-3 md:grid-cols-5">
+      {
+        businessDimensions.map((dimension) => (
+          <div
+            class="rounded-md border border-white/[0.05] bg-white/[0.018] p-4"
+            data-business-personalization-dimension={dimension.id}
+            data-business-personalization-status={dimension.status}
+          >
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <p class="font-heading text-[15px] leading-tight text-white/65">
+                {dimension.label}
+              </p>
+              <span class="rounded-[4px] border border-ocean-500/20 bg-ocean-500/10 px-2 py-1 text-[9px] font-medium uppercase tracking-[0.12em] text-ocean-300/70">
+                {statusLabel[dimension.status]}
+              </span>
+            </div>
+            <p class="text-white/32 text-[12px] leading-relaxed">
+              {dimension.role}
+            </p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

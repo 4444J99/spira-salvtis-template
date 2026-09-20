@@ -1,0 +1,80 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CTAButton from '../../components/CTAButton.astro';
+import ComingSoon from '../../components/ComingSoon.astro';
+import ResearchAccordion from '../../components/ResearchAccordion.astro';
+import VerticalSpine from '../../components/VerticalSpine.astro';
+import EmailGate from '../../components/EmailGate.astro';
+import WorldMotif from '../../components/WorldMotif.astro';
+import { config } from '../../data/hub.config';
+
+export async function getStaticPaths() {
+  const pillars = await getCollection('pillars');
+  return pillars.map((pillar) => ({
+    params: { slug: pillar.id },
+    props: { pillar },
+  }));
+}
+
+const { pillar } = Astro.props;
+const { Content } = await render(pillar);
+const { title, emoji, tagline, status } = pillar.data;
+const pillarConfig = config.pillars.find((p) => p.slug === pillar.id);
+const citationIds = pillarConfig?.citationIds || [];
+// The pillar inherits the ambient world of its LEAD node (first spiral node
+// belonging to this pillar) — derived from config, never hardcoded (M2).
+const leadNodeId = config.nodes.find((n) => n.pillarSlug === pillar.id)?.id;
+---
+
+<Base title={`${title} — ${config.name}`} description={tagline}>
+  <VerticalSpine />
+  <!-- Pillar header — FREE (Layer 1) -->
+  <section
+    class="relative min-h-[50vh] flex flex-col items-center justify-center text-center px-6 py-24 glow-bg overflow-hidden"
+  >
+    {leadNodeId && <WorldMotif nodeId={leadNodeId} />}
+    <div class="relative text-6xl mb-6">{emoji}</div>
+    <h1
+      class="relative font-heading text-[clamp(40px,5vw,64px)] font-light text-white leading-[1.1] mb-4"
+      style="text-shadow: 0 0 50px rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.12);"
+    >
+      {title}
+    </h1>
+    <p
+      class="relative font-heading italic text-white/40 text-[20px] leading-relaxed"
+    >
+      {tagline}
+    </p>
+  </section>
+
+  <!-- Deep content — GATED (Layer 2) -->
+  <div class="divider-line"></div>
+  <section class="py-16 px-6 bg-ocean-900">
+    <div class="max-w-[640px] mx-auto">
+      {
+        status === 'placeholder' ? (
+          <ComingSoon
+            title={title}
+            emoji={emoji}
+            message="This pillar is being built. The foundation comes first."
+          />
+        ) : (
+          <EmailGate
+            preview={`The full ${title} framework — what it addresses, where to start, and how it connects to the spiral.`}
+          >
+            <div class="branch-content text-[16px] leading-[1.9]">
+              <Content />
+            </div>
+            {citationIds.length > 0 && <ResearchAccordion ids={citationIds} />}
+          </EmailGate>
+        )
+      }
+    </div>
+  </section>
+
+  <!-- CTA — FREE -->
+  <section class="py-16 px-6 bg-ocean-900 text-center">
+    <CTAButton href="/" label="Back to the spiral" variant="secondary" />
+  </section>
+</Base>

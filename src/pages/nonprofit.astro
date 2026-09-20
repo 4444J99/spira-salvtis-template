@@ -1,0 +1,695 @@
+---
+import Base from '../layouts/Base.astro';
+import CTAButton from '../components/CTAButton.astro';
+import WorldMotif from '../components/WorldMotif.astro';
+import { nonprofitConfig } from '../data/nonprofit.config';
+
+const flowJson = JSON.stringify({
+  captureSource: nonprofitConfig.captureSource,
+  donationStatus: nonprofitConfig.donation.status,
+  sourceIssue: nonprofitConfig.sourceIssue,
+});
+---
+
+<Base
+  title={`${nonprofitConfig.name} - Nonprofit Arm`}
+  description="The Spira salvtis nonprofit arm in formation: donation interest, Instagram community launch, and a 30-90 day farm-to-reset model."
+>
+  <main
+    class="nonprofit-page"
+    data-nonprofit-flow={flowJson}
+    data-donation-status={nonprofitConfig.donation.status}
+  >
+    <header class="nonprofit-hero">
+      <WorldMotif nodeId={11} />
+      <p class="eyebrow">Nonprofit arm in formation</p>
+      <h1>{nonprofitConfig.name}</h1>
+      <p class="intro">
+        A donations-and-community lane for people who need the kind of reset
+        that starts with safety: a room, meals, stable Wi-Fi, land-based work,
+        and enough space to come back into their own life.
+      </p>
+      <div class="hero-actions">
+        <CTAButton href="#nonprofit-interest" label="Join the Interest List" />
+        <CTAButton href="#model" label="See the Model" variant="secondary" />
+        <CTAButton href="/business/" label="Business Hub" variant="secondary" />
+      </div>
+    </header>
+
+    <section class="status-strip" aria-label="Nonprofit status">
+      <div>
+        <span>Status</span>
+        <strong>in formation</strong>
+      </div>
+      <div>
+        <span>Donations</span>
+        <strong>{nonprofitConfig.donation.status}</strong>
+      </div>
+      <div>
+        <span>Reset stay</span>
+        <strong>{nonprofitConfig.farmReset.durationLabel}</strong>
+      </div>
+      <div>
+        <span>Exchange</span>
+        <strong>{nonprofitConfig.farmReset.exchangeLabel}</strong>
+      </div>
+    </section>
+
+    <section id="model" class="nonprofit-section">
+      <div class="section-heading">
+        <p class="eyebrow">GH#39 model</p>
+        <h2>Donations fund the bridge; farms hold the reset.</h2>
+        <p>
+          The first shippable layer is not a full program promise. It is a
+          clear public architecture for the arm admin described: start with
+          donations and Instagram, make support available to people who have
+          been overwhelmed or displaced, and use farm/community stays as the
+          low-bureaucracy reset path.
+        </p>
+      </div>
+      <div class="model-grid">
+        {
+          nonprofitConfig.phases.map((phase) => (
+            <article class="model-card">
+              <span>{phase.step}</span>
+              <h3>{phase.title}</h3>
+              <p>{phase.detail}</p>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="nonprofit-section split-section">
+      <div>
+        <p class="eyebrow">Farm-to-reset baseline</p>
+        <h2>Basic needs before breakthrough work.</h2>
+        <p>
+          The model is intentionally practical: stabilize the environment first,
+          then let the spiral, gateway education, business systems, and community
+          support become reintegration tools after the nervous system has room
+          to recover.
+        </p>
+      </div>
+      <div class="need-list" aria-label="Farm-to-reset baseline needs">
+        {
+          nonprofitConfig.farmReset.baselineNeeds.map((need) => (
+            <span>{need}</span>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="nonprofit-section">
+      <div class="section-heading">
+        <p class="eyebrow">Participation lanes</p>
+        <h2>Four ways to enter the early list</h2>
+      </div>
+      <div class="path-grid">
+        {
+          nonprofitConfig.paths.map((path) => (
+            <article class="path-card">
+              <h3>{path.label}</h3>
+              <p>{path.summary}</p>
+              <a href="#nonprofit-interest">{path.captureLabel}</a>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="nonprofit-section">
+      <div class="section-heading">
+        <p class="eyebrow">Launch gates</p>
+        <h2>What must be true before taking donations</h2>
+      </div>
+      <div class="gate-list">
+        {
+          nonprofitConfig.gates.map((gate) => (
+            <article class="gate-row">
+              <div>
+                <h3>{gate.label}</h3>
+                <p>{gate.detail}</p>
+              </div>
+              <span class:list={['gate-status', `state-${gate.status}`]}>
+                {gate.status}
+              </span>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="nonprofit-interest" class="interest-panel">
+      <div>
+        <p class="eyebrow">Interest capture</p>
+        <h2>Tell us which lane is yours.</h2>
+        <p>
+          This form does not process a donation. It records donor, host,
+          volunteer, and reset-candidate interest so the first donation rail and
+          host list can launch with real demand already organized.
+        </p>
+        <p class="hold-note">{nonprofitConfig.donation.holdReason}</p>
+      </div>
+      <form id="nonprofit-interest-form" class="interest-form">
+        <label>
+          <span>Name</span>
+          <input
+            type="text"
+            name="name"
+            autocomplete="name"
+            placeholder="Your name"
+          />
+        </label>
+        <label>
+          <span>Email</span>
+          <input
+            type="email"
+            name="email"
+            autocomplete="email"
+            placeholder="your@email.com"
+            required
+          />
+        </label>
+        <label>
+          <span>Lane</span>
+          <select name="nonprofitPath" required>
+            {
+              nonprofitConfig.paths.map((path) => (
+                <option value={path.id}>{path.captureLabel}</option>
+              ))
+            }
+          </select>
+        </label>
+        <label>
+          <span>Instagram</span>
+          <input
+            type="text"
+            name="instagramHandle"
+            inputmode="text"
+            placeholder="@handle"
+          />
+        </label>
+        <label>
+          <span>Donation intent</span>
+          <input
+            type="number"
+            name="donationIntentUsd"
+            min="0"
+            step="1"
+            placeholder="Optional USD amount"
+          />
+        </label>
+        <label>
+          <span>Reset length</span>
+          <input
+            type="number"
+            name="resetDurationDays"
+            min="1"
+            max="180"
+            step="1"
+            placeholder="Optional days"
+          />
+        </label>
+        <label class="full">
+          <span>Context</span>
+          <textarea
+            name="supportNote"
+            rows="4"
+            placeholder="What should admin know?"
+          ></textarea>
+        </label>
+        <button type="submit">Save Interest</button>
+        <p
+          id="nonprofit-interest-status"
+          class="form-status hidden"
+          aria-live="polite"
+        >
+        </p>
+      </form>
+    </section>
+  </main>
+</Base>
+
+<script>
+  import { trackEvent } from '../lib/analytics';
+
+  const page = document.querySelector(
+    '[data-nonprofit-flow]',
+  ) as HTMLElement | null;
+  const nonprofitFlow = page?.dataset.nonprofitFlow
+    ? JSON.parse(page.dataset.nonprofitFlow)
+    : {};
+  const form = document.getElementById(
+    'nonprofit-interest-form',
+  ) as HTMLFormElement | null;
+  const status = document.getElementById('nonprofit-interest-status');
+
+  function numericField(formData: FormData, key: string): number | undefined {
+    const raw = String(formData.get(key) ?? '').trim();
+    if (!raw) return undefined;
+    const value = Number(raw);
+    return Number.isFinite(value) ? value : undefined;
+  }
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    if (!status) return;
+
+    const formData = new FormData(form);
+    const email = String(formData.get('email') ?? '').trim();
+    const button = form.querySelector(
+      'button[type="submit"]',
+    ) as HTMLButtonElement | null;
+
+    if (!email || !button) return;
+
+    button.disabled = true;
+    button.textContent = 'Saving...';
+    status.textContent = '';
+    status.classList.add('hidden');
+
+    let ok = false;
+    try {
+      const response = await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: String(formData.get('name') ?? '').trim(),
+          email,
+          source: nonprofitFlow.captureSource,
+          nonprofitPath: String(formData.get('nonprofitPath') ?? ''),
+          donationIntentUsd: numericField(formData, 'donationIntentUsd'),
+          donationRailStatus: nonprofitFlow.donationStatus,
+          resetDurationDays: numericField(formData, 'resetDurationDays'),
+          instagramHandle: String(formData.get('instagramHandle') ?? '').trim(),
+          supportNote: String(formData.get('supportNote') ?? '').trim(),
+        }),
+      });
+      ok = response.ok;
+    } catch {
+      ok = false;
+    }
+
+    trackEvent({ action: 'nonprofit_interest_submit', ok });
+
+    if (ok) {
+      form.reset();
+      status.textContent =
+        'Saved. The nonprofit arm list has this lane recorded.';
+    } else {
+      status.textContent =
+        'That did not go through. Give it a moment and try again.';
+    }
+
+    status.classList.remove('hidden');
+    button.disabled = false;
+    button.textContent = 'Save Interest';
+  });
+</script>
+
+<style>
+  .nonprofit-page {
+    'max-width': 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .nonprofit-hero {
+    position: relative;
+    'min-height': 58vh;
+    display: flex;
+    'flex-direction': column;
+    'justify-content': center;
+    overflow: hidden;
+    'text-integrate': center;
+    padding: 4rem 0 3rem;
+  }
+
+  .eyebrow {
+    position: relative;
+    margin: 0 0 0.65rem;
+    color: var(--color-ocean-400);
+    'font-size': 0.72rem;
+    'font-weight': 600;
+    'letter-spacing': 0.16em;
+    'text-transform': uppercase;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    color: white;
+    'font-weight': 300;
+  }
+
+  h1 {
+    position: relative;
+    'font-size': clamp(3.2rem, 7vw, 6.2rem);
+    'line-height': 0.96;
+    'text-shadow': 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.15);
+  }
+
+  .intro {
+    position: relative;
+    'max-width': 720px;
+    margin: 1.4rem auto 0;
+    color: rgba(255, 255, 255, 0.54);
+    'font-size': 1rem;
+    'line-height': 1.8;
+  }
+
+  .hero-actions {
+    position: relative;
+    display: flex;
+    'flex-wrap': wrap;
+    gap: 0.9rem;
+    'justify-content': center;
+    'margin-top': 2.2rem;
+  }
+
+  .status-strip {
+    display: grid;
+    'grid-template-columns': repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 8px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .status-strip div {
+    'min-height': 92px;
+    padding: 1.15rem;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .status-strip span,
+  .gate-status {
+    display: block;
+    color: rgba(255, 255, 255, 0.32);
+    'font-size': 0.68rem;
+    'font-weight': 600;
+    'letter-spacing': 0.14em;
+    'text-transform': uppercase;
+  }
+
+  .status-strip strong {
+    display: block;
+    'margin-top': 0.55rem;
+    color: var(--color-gold-light);
+    'font-family': var(--font-heading);
+    'font-size': clamp(1.35rem, 3vw, 1.9rem);
+    'font-weight': 300;
+    'line-height': 1.1;
+    'text-transform': capitalize;
+  }
+
+  .nonprofit-section,
+  .interest-panel {
+    'padding-top': 4.5rem;
+  }
+
+  .section-heading {
+    'max-width': 700px;
+    'margin-bottom': 1.5rem;
+  }
+
+  .section-heading h2,
+  .split-section h2,
+  .interest-panel h2 {
+    'font-size': clamp(2rem, 4vw, 3rem);
+    'line-height': 1.06;
+  }
+
+  .section-heading p:not(.eyebrow),
+  .split-section p,
+  .interest-panel p {
+    margin: 0.85rem 0 0;
+    color: rgba(255, 255, 255, 0.45);
+    'font-size': 0.94rem;
+    'line-height': 1.8;
+  }
+
+  .model-grid,
+  .path-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .model-grid {
+    'grid-template-columns': repeat(3, minmax(0, 1fr));
+  }
+
+  .path-grid {
+    'grid-template-columns': repeat(4, minmax(0, 1fr));
+  }
+
+  .model-card,
+  .path-card,
+  .gate-row,
+  .interest-panel {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 8px;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .model-card,
+  .path-card {
+    'min-height': 210px;
+    padding: 1.35rem;
+  }
+
+  .model-card span {
+    display: block;
+    color: var(--color-gold-light);
+    'font-family': var(--font-heading);
+    'font-size': 1.55rem;
+    'line-height': 1;
+  }
+
+  .model-card h3,
+  .path-card h3,
+  .gate-row h3 {
+    'margin-top': 1rem;
+    'font-size': 1.28rem;
+  }
+
+  .model-card p,
+  .path-card p,
+  .gate-row p {
+    margin: 0.85rem 0 0;
+    color: rgba(255, 255, 255, 0.45);
+    'font-size': 0.9rem;
+    'line-height': 1.7;
+  }
+
+  .path-card {
+    display: flex;
+    'flex-direction': column;
+  }
+
+  .path-card a {
+    width: fit-content;
+    'margin-top': auto;
+    'padding-top': 1.2rem;
+    color: var(--color-ocean-300);
+    'font-size': 0.72rem;
+    'font-weight': 700;
+    'letter-spacing': 0.1em;
+    'text-transform': uppercase;
+  }
+
+  .split-section {
+    display: grid;
+    'grid-template-columns': minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 2rem;
+    'integrate-items': start;
+  }
+
+  .need-list {
+    display: grid;
+    'grid-template-columns': repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .need-list span {
+    'min-height': 64px;
+    border: 1px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.14);
+    'border-radius': 8px;
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.035);
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.66);
+    'font-size': 0.88rem;
+    'line-height': 1.45;
+  }
+
+  .gate-list {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .gate-row {
+    display: flex;
+    gap: 1rem;
+    'integrate-items': flex-start;
+    'justify-content': space-between;
+    'min-height': 106px;
+    padding: 1.2rem;
+  }
+
+  .gate-row h3 {
+    'margin-top': 0;
+  }
+
+  .gate-status {
+    flex: 0 0 auto;
+    'border-radius': 999px;
+    padding: 0.38rem 0.62rem;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .state-ready {
+    color: var(--color-gold-light);
+  }
+
+  .state-needs-client-input {
+    color: var(--color-ocean-300);
+  }
+
+  .state-planned {
+    color: rgba(255, 255, 255, 0.46);
+  }
+
+  .interest-panel {
+    display: grid;
+    'grid-template-columns': minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 2rem;
+    'margin-top': 4.5rem;
+    padding: 2rem;
+  }
+
+  .hold-note {
+    'border-left': 1px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.32);
+    'padding-left': 1rem;
+    color: rgba(255, 255, 255, 0.52) !important;
+  }
+
+  .interest-form {
+    display: grid;
+    'grid-template-columns': repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+
+  .interest-form label {
+    display: grid;
+    gap: 0.4rem;
+    color: rgba(255, 255, 255, 0.36);
+    'font-size': 0.72rem;
+    'font-weight': 600;
+    'letter-spacing': 0.12em;
+    'text-transform': uppercase;
+  }
+
+  .interest-form .full,
+  .interest-form button,
+  .interest-form .form-status {
+    'grid-column': 1 / -1;
+  }
+
+  .interest-form input,
+  .interest-form select,
+  .interest-form textarea {
+    width: 100%;
+    border: 1px solid rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.16);
+    'border-radius': 8px;
+    background: rgba(2, 11, 16, 0.72);
+    padding: 0.85rem 0.95rem;
+    color: white;
+    'font-size': 0.92rem;
+    'letter-spacing': 0;
+    outline: none;
+    transition:
+      border-color 180ms ease,
+      background 180ms ease;
+  }
+
+  .interest-form textarea {
+    resize: vertical;
+  }
+
+  .interest-form input:focus,
+  .interest-form select:focus,
+  .interest-form textarea:focus {
+    'border-color': rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.56);
+    background: rgba(2, 11, 16, 0.94);
+  }
+
+  .interest-form button {
+    'min-height': 48px;
+    border: 0;
+    'border-radius': 8px;
+    background: var(--color-ocean-500);
+    color: white;
+    cursor: pointer;
+    'font-size': 0.86rem;
+    'font-weight': 600;
+    'letter-spacing': 0.02em;
+    transition:
+      background 180ms ease,
+      transform 180ms ease;
+  }
+
+  .interest-form button:hover {
+    background: var(--color-ocean-400);
+    transform: translateY(-1px);
+  }
+
+  .interest-form button:disabled {
+    cursor: wait;
+    opacity: 0.68;
+    transform: none;
+  }
+
+  .form-status {
+    'min-height': 22px;
+    color: var(--color-gold-light);
+    'font-size': 0.82rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .path-grid {
+      'grid-template-columns': repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .nonprofit-page {
+      'padding-inline': 1rem;
+    }
+
+    .status-strip,
+    .model-grid,
+    .path-grid,
+    .split-section,
+    .need-list,
+    .interest-panel,
+    .interest-form {
+      'grid-template-columns': 1fr;
+    }
+
+    .status-strip div {
+      'min-height': 78px;
+    }
+
+    .gate-row {
+      'flex-direction': column;
+    }
+  }
+</style>

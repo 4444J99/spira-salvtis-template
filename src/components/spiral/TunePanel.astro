@@ -1,0 +1,403 @@
+---
+/**
+ * TunePanel — the live "point at any element and dial it" control surface.
+ *
+ * Directive (Anthony, 2026-06-24): "every element needs a name we can point to
+ * and define and tweak (parameters)." This panel renders ENTIRELY from the
+ * Spiral Parameter Registry (src/data/spiral-params.ts): one collapsible section
+ * per element, one control per param, bounds/labels/descriptions straight from
+ * the registry — so the panel and the renderer can never drift.
+ *
+ * Internal tool, URL-gated like ?vessel=/?nav=: hidden unless ?tune=1 is present
+ * (no nav link points here). A change writes ?p.<element>.<param>=<value> into
+ * the URL (only values that differ from the registry default, so the link stays
+ * short + readable), debounce-reloads so the spiral re-reads via resolveParams,
+ * and "Copy link" yields a single shareable/bookmarkable URL that reproduces the
+ * exact tuned look — the mechanism for being specific with admin.
+ *
+ * `wired:false` params render disabled with a "wiring pending" tag: documented +
+ * point-at-able now, never a slider that silently does nothing.
+ */
+import { SPIRAL_PARAMS } from '../../data/spiral-params';
+
+const fmt = (v: number | string | boolean): string =>
+  typeof v === 'boolean' ? (v ? '1' : '0') : String(v);
+---
+
+<aside id="spiral-tune-panel" hidden aria-label="Spiral parameter tuner">
+  <header class="tp-head">
+    <div>
+      <strong>Spiral Tuner</strong>
+      <span class="tp-sub">live element parameters · internal</span>
+    </div>
+    <button type="button" class="tp-x" data-tp-close aria-label="Close tuner"
+      >×</button
+    >
+  </header>
+
+  <div class="tp-actions">
+    <button type="button" data-tp-copy>Copy link</button>
+    <button type="button" data-tp-apply>Apply ⟳</button>
+    <button type="button" data-tp-reset>Reset</button>
+  </div>
+  <p class="tp-hint">
+    Drag a knob → the link below updates and the spiral re-renders. Copy the
+    link to share an exact look.
+  </p>
+
+  <div class="tp-groups">
+    {
+      SPIRAL_PARAMS.map((el, ei) => (
+        <details class="tp-group" open={ei === 0}>
+          <summary>
+            {el.label}
+            <span class="tp-cat">{el.category}</span>
+          </summary>
+          <p class="tp-desc">{el.description}</p>
+          {el.params.map((p) => {
+            const wired = p.wired !== false;
+            return (
+              <div class="tp-row" data-wired={wired ? '1' : '0'}>
+                <label for={`tp-${p.key}`} title={p.description}>
+                  {p.label}
+                  {!wired && <span class="tp-pending">wiring pending</span>}
+                </label>
+                <div class="tp-control">
+                  {p.control === 'range' && (
+                    <>
+                      <input
+                        type="range"
+                        id={`tp-${p.key}`}
+                        data-key={p.key}
+                        data-default={fmt(p.value)}
+                        data-control="range"
+                        min={p.min}
+                        max={p.max}
+                        step={p.step}
+                        value={fmt(p.value)}
+                        disabled={!wired}
+                      />
+                      <output class="tp-val" for={`tp-${p.key}`}>
+                        {fmt(p.value)}
+                        {p.unit}
+                      </output>
+                    </>
+                  )}
+                  {p.control === 'color' && (
+                    <input
+                      type="color"
+                      id={`tp-${p.key}`}
+                      data-key={p.key}
+                      data-default={fmt(p.value)}
+                      data-control="color"
+                      value={fmt(p.value)}
+                      disabled={!wired}
+                    />
+                  )}
+                  {p.control === 'toggle' && (
+                    <input
+                      type="checkbox"
+                      id={`tp-${p.key}`}
+                      data-key={p.key}
+                      data-default={fmt(p.value)}
+                      data-control="toggle"
+                      checked={p.value === true}
+                      disabled={!wired}
+                    />
+                  )}
+                  {p.control === 'select' && (
+                    <select
+                      id={`tp-${p.key}`}
+                      data-key={p.key}
+                      data-default={fmt(p.value)}
+                      data-control="select"
+                      disabled={!wired}
+                    >
+                      {(p.options ?? []).map((o) => (
+                        <option value={o} selected={o === p.value}>
+                          {o}
+                        </option>
+                      ))}
+                    </select>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </details>
+      ))
+    }
+  </div>
+</aside>
+
+<style>
+  #spiral-tune-panel {
+    position: fixed;
+    top: 64px;
+    right: 12px;
+    'z-index': 50;
+    width: 320px;
+    'max-width': calc(100vw - 24px);
+    'max-height': calc(100vh - 88px);
+    'overflow-y': auto;
+    background: rgba(2, 11, 16, 0.92);
+    'backdrop-filter': blur(8px);
+    border: 1px solid rgba(125, 211, 215, 0.28);
+    'border-radius': 12px;
+    padding: 12px;
+    color: #d7eef0;
+    'font-size': 12px;
+    'line-height': 1.35;
+    'box-shadow': 0 10px 40px rgba(0, 0, 0, 0.5);
+  }
+  #spiral-tune-panel[hidden] {
+    display: none;
+  }
+  .tp-head {
+    display: flex;
+    'integrate-items': flex-start;
+    'justify-content': space-between;
+    gap: 8px;
+    'margin-bottom': 8px;
+  }
+  .tp-head strong {
+    'font-size': 13px;
+    'letter-spacing': 0.04em;
+  }
+  .tp-sub {
+    display: block;
+    color: #6f9499;
+    'font-size': 10px;
+    'text-transform': uppercase;
+    'letter-spacing': 0.1em;
+  }
+  .tp-x {
+    background: none;
+    border: none;
+    color: #9fc6c9;
+    'font-size': 20px;
+    'line-height': 1;
+    cursor: pointer;
+    padding: 0 4px;
+  }
+  .tp-actions {
+    display: flex;
+    gap: 6px;
+    'margin-bottom': 6px;
+  }
+  .tp-actions button {
+    flex: 1;
+    background: rgba(17, 154, 158, 0.18);
+    border: 1px solid rgba(125, 211, 215, 0.35);
+    color: #cfeef0;
+    'border-radius': 7px;
+    padding: 5px 6px;
+    'font-size': 11px;
+    cursor: pointer;
+  }
+  .tp-actions button:hover {
+    background: rgba(17, 154, 158, 0.32);
+  }
+  .tp-hint {
+    color: #6f9499;
+    'font-size': 10px;
+    margin: 0 0 10px;
+  }
+  .tp-group {
+    'border-top': 1px solid rgba(125, 211, 215, 0.14);
+    padding: 6px 0;
+  }
+  .tp-group > summary {
+    cursor: pointer;
+    'font-weight': 600;
+    'list-style': none;
+    display: flex;
+    'integrate-items': center;
+    'justify-content': space-between;
+    gap: 6px;
+  }
+  .tp-group > summary::-webkit-details-marker {
+    display: none;
+  }
+  .tp-cat {
+    color: #6f9499;
+    'font-size': 9px;
+    'text-transform': uppercase;
+    'letter-spacing': 0.1em;
+    border: 1px solid rgba(125, 211, 215, 0.22);
+    'border-radius': 4px;
+    padding: 1px 4px;
+  }
+  .tp-desc {
+    color: #88abaf;
+    'font-size': 10px;
+    margin: 4px 0 8px;
+  }
+  .tp-row {
+    display: grid;
+    'grid-template-columns': 1fr;
+    gap: 3px;
+    'margin-bottom': 9px;
+  }
+  .tp-row[data-wired='0'] {
+    opacity: 0.5;
+  }
+  .tp-row label {
+    display: flex;
+    'integrate-items': center;
+    gap: 6px;
+    color: #b8d8da;
+  }
+  .tp-pending {
+    color: #c9a96e;
+    'font-size': 9px;
+    'text-transform': uppercase;
+    'letter-spacing': 0.08em;
+    border: 1px solid rgba(201, 169, 110, 0.4);
+    'border-radius': 4px;
+    padding: 0 4px;
+  }
+  .tp-control {
+    display: flex;
+    'integrate-items': center;
+    gap: 8px;
+  }
+  .tp-control input[type='range'] {
+    flex: 1;
+    'accent-color': #3dbfc4;
+  }
+  .tp-val {
+    'min-width': 48px;
+    'text-integrate': right;
+    'font-variant-numeric': tabular-nums;
+    color: #e6f6f7;
+  }
+  .tp-control input[type='color'] {
+    width: 40px;
+    height: 24px;
+    background: none;
+    border: 1px solid rgba(125, 211, 215, 0.3);
+    'border-radius': 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+</style>
+
+<script>
+  // Gate: panel exists in the DOM but only un-hides for ?tune=1. No nav link
+  // points here — it is a URL-only internal tool, like ?vessel=/?nav=.
+  const TUNE_ON = new URLSearchParams(location.search).get('tune') === '1';
+  const panel = document.getElementById('spiral-tune-panel');
+  if (TUNE_ON && panel) {
+    panel.hidden = false;
+
+    const inputs = Array.from(
+      panel.querySelectorAll<HTMLElement>('[data-key]'),
+    ) as Array<HTMLInputElement | HTMLSelectElement>;
+
+    // Current value of one control as the string the URL/resolveParams expects.
+    const readValue = (el: HTMLInputElement | HTMLSelectElement): string => {
+      const control = el.dataset.control;
+      if (control === 'toggle') {
+        return (el as HTMLInputElement).checked ? '1' : '0';
+      }
+      return el.value;
+    };
+
+    // Build the ?p.* query of only NON-default values (short, readable, diffable)
+    // while preserving every non-p. flag already on the URL (tune, vessel, …).
+    const buildSearch = (): URLSearchParams => {
+      const q = new URLSearchParams(location.search);
+      // Drop existing p.* so removed-back-to-default knobs disappear.
+      for (const k of Array.from(q.keys())) if (k.startsWith('p.')) q.delete(k);
+      for (const el of inputs) {
+        if ((el as HTMLInputElement).disabled) continue;
+        const def = el.dataset.default ?? '';
+        const val = readValue(el);
+        // Compare colors case-insensitively; numbers numerically.
+        const same =
+          el.dataset.control === 'color'
+            ? val.toLowerCase() === def.toLowerCase()
+            : el.dataset.control === 'range'
+              ? Number(val) === Number(def)
+              : val === def;
+        if (!same) q.set('p.' + el.dataset.key, val);
+      }
+      return q;
+    };
+
+    const writeUrl = (): void => {
+      const q = buildSearch();
+      const qs = q.toString();
+      history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+    };
+
+    // Apply the current URL params to the live spiral. Prefer an INSTANT in-place
+    // re-init (window.__spiralReboot, exposed by SpiralIsland) so a knob change
+    // shows immediately; fall back to a full reload only if it isn't present.
+    // (Fixes admin's "it won't update the changes" — the old path did a full
+    // reload deferred up to ~2s by requestIdleCallback, which read as no-op.)
+    const applyNow = (): void => {
+      if (typeof window.__spiralReboot === 'function') {
+        window.__spiralReboot();
+      } else {
+        location.reload();
+      }
+    };
+    let applyTimer: number | undefined;
+    const scheduleApply = (): void => {
+      window.clearTimeout(applyTimer);
+      applyTimer = window.setTimeout(applyNow, 200);
+    };
+
+    for (const el of inputs) {
+      const evt = el.dataset.control === 'range' ? 'input' : 'change';
+      el.addEventListener(evt, () => {
+        // Live readout for ranges (instant, no reload).
+        if (el.dataset.control === 'range') {
+          const out = panel.querySelector<HTMLOutputElement>(
+            `output[for="tp-${el.dataset.key}"]`,
+          );
+          if (out) out.textContent = el.value;
+        }
+        writeUrl();
+        scheduleApply();
+      });
+    }
+
+    panel.querySelector('[data-tp-apply]')?.addEventListener('click', () => {
+      window.clearTimeout(applyTimer);
+      applyNow();
+    });
+
+    panel.querySelector('[data-tp-reset]')?.addEventListener('click', () => {
+      const q = new URLSearchParams(location.search);
+      for (const k of Array.from(q.keys())) if (k.startsWith('p.')) q.delete(k);
+      const qs = q.toString();
+      location.href = qs ? '?' + qs : location.pathname;
+    });
+
+    panel
+      .querySelector('[data-tp-copy]')
+      ?.addEventListener('click', async () => {
+        writeUrl();
+        const url = location.href;
+        try {
+          await navigator.clipboard.writeText(url);
+          const btn = panel.querySelector('[data-tp-copy]');
+          if (btn) {
+            const prev = btn.textContent;
+            btn.textContent = 'Copied ✓';
+            window.setTimeout(() => (btn.textContent = prev), 1400);
+          }
+        } catch {
+          // Clipboard blocked — fall back to a prompt the user can copy from.
+          window.prompt('Copy this tuned-look link:', url);
+        }
+      });
+
+    panel.querySelector('[data-tp-close]')?.addEventListener('click', () => {
+      panel.hidden = true;
+    });
+  }
+</script>

@@ -1,0 +1,431 @@
+---
+import Base from '../layouts/Base.astro';
+import WorldMotif from '../components/WorldMotif.astro';
+import {
+  LIBRARY,
+  libraryByGroup,
+  formatBytes,
+  GROUP_LABEL,
+  GROUP_DESCRIPTION,
+  GITHUB_BLOB_BASE,
+  GITHUB_TREE_BASE,
+  type DiscoveredFile,
+} from '../lib/docs-library';
+import libraryManifest from '../data/library-manifest.json';
+
+// File listings are precomputed at build time by
+// scripts/generate-library-manifest.mjs — workerd prerender (Cloudflare v13)
+// has no host filesystem, so the page can't call node:fs at render time.
+type EntryFiles = {
+  exists?: boolean;
+  files: DiscoveredFile[];
+  total: number;
+  shown: number;
+};
+const manifest = libraryManifest as Record<string, EntryFiles>;
+
+const populatedBySlug = new Map<string, EntryFiles>(
+  LIBRARY.map((entry) => [
+    entry.slug,
+    manifest[entry.slug] ?? { exists: false, files: [], total: 0, shown: 0 },
+  ]),
+);
+const groups = libraryByGroup();
+const groupKeys = Object.keys(groups) as Array<keyof typeof groups>;
+const totalFiles = LIBRARY.reduce(
+  (acc, e) => acc + (manifest[e.slug]?.total ?? 0),
+  0,
+);
+
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+function linkFor(file: DiscoveredFile): string {
+  return `${file.isDir ? GITHUB_TREE_BASE : GITHUB_BLOB_BASE}/${file.relPath}`;
+}
+---
+
+<Base
+  title="Library"
+  description="Surfaces every docs/ category and notable repo-root artifact in one browseable index."
+>
+  <main class="library-page">
+    <header class="library-hero" style="position:relative; overflow:hidden;">
+      {/* Node 8 — Crystal Cave (lattice): the vault where records re-seat */}
+      <WorldMotif nodeId={8} />
+      <p class="eyebrow">Internal · Studio + Client</p>
+      <h1>Library</h1>
+      <p class="intro">
+        An index of every <code>docs/</code> category and notable repo-root artifact,
+        grouped by stream. Each entry shows what's there and links out to the GitHub
+        source so you can read, download, or share.
+      </p>
+      <p class="stats">
+        <strong>{LIBRARY.length}</strong> entries ·
+        <strong>{totalFiles}</strong> files surfaced
+      </p>
+    </header>
+
+    <nav class="library-toc">
+      {
+        groupKeys.map((g) => (
+          <a href={`#${g}`}>
+            {GROUP_LABEL[g]} <span>({groups[g].length})</span>
+          </a>
+        ))
+      }
+    </nav>
+
+    {
+      groupKeys.map((g) => (
+        <section class="library-group" id={g}>
+          <header class="group-header">
+            <h2>{GROUP_LABEL[g]}</h2>
+            <p>{GROUP_DESCRIPTION[g]}</p>
+          </header>
+
+          <div class="entry-grid">
+            {groups[g].map((entry) => {
+              const ef = populatedBySlug.get(entry.slug);
+              return (
+                <article class="entry-card" id={entry.slug}>
+                  <header class="entry-header">
+                    <h3>{entry.label}</h3>
+                    <span class="entry-kind">
+                      {entry.kind === 'single-file' ? 'file' : 'dir'}
+                    </span>
+                  </header>
+                  <p class="entry-desc">{entry.description}</p>
+                  <p class="entry-path">
+                    {ef?.exists !== false ? (
+                      <a
+                        href={`${entry.kind === 'single-file' ? GITHUB_BLOB_BASE : GITHUB_TREE_BASE}/${entry.path}`}
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        <code>{entry.path}</code>
+                      </a>
+                    ) : (
+                      <code>{entry.path}</code>
+                    )}
+                  </p>
+
+                  {ef && ef.files.length > 0 && (
+                    <ul class="file-list">
+                      {ef.files.map((f) => (
+                        <li>
+                          <a
+                            href={linkFor(f)}
+                            target="_blank"
+                            rel="noopener"
+                            class={f.isDir ? 'is-dir' : ''}
+                          >
+                            <span class="file-name">
+                              {f.isDir ? `${f.name}/` : f.name}
+                            </span>
+                            <span class="file-meta">
+                              {!f.isDir && (
+                                <>
+                                  <span>{formatBytes(f.sizeBytes)}</span>
+                                  <span class="dot">·</span>
+                                </>
+                              )}
+                              <span>{fmtDate(f.mtimeIso)}</span>
+                            </span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {ef && ef.total > ef.shown && (
+                    <p class="more-link">
+                      + {ef.total - ef.shown} more in this directory ·{' '}
+                      <a
+                        href={`${GITHUB_TREE_BASE}/${entry.path}`}
+                        target="_blank"
+                        rel="noopener"
+                      >
+                        view all on GitHub →
+                      </a>
+                    </p>
+                  )}
+
+                  {ef && ef.files.length === 0 && (
+                    <p class="empty-note">
+                      No files match this category's filter yet.
+                    </p>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+        </section>
+      ))
+    }
+
+    <footer class="library-footer">
+      <p>
+        This index is generated at build time from <code
+          >src/lib/docs-library.ts</code
+        >. To add a new category, append a <code>LibraryEntry</code> there and rebuild.
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<style>
+  .library-page {
+    'max-width': 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+    color: var(--color-text, #e8e6e1);
+  }
+
+  .library-hero {
+    'text-integrate': center;
+    'margin-bottom': 3rem;
+  }
+  .eyebrow {
+    'font-size': 0.75rem;
+    'letter-spacing': 0.2em;
+    'text-transform': uppercase;
+    opacity: 0.6;
+    'margin-bottom': 0.5rem;
+  }
+  .library-hero h1 {
+    'font-size': clamp(2rem, 5vw, 3rem);
+    margin: 0 0 1rem;
+    'font-weight': 300;
+    'letter-spacing': -0.02em;
+  }
+  .intro {
+    'max-width': 640px;
+    margin: 0 auto 1.25rem;
+    'font-size': 1.05rem;
+    'line-height': 1.6;
+    opacity: 0.85;
+  }
+  .intro code,
+  .library-footer code {
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.15em 0.4em;
+    'border-radius': 3px;
+    'font-size': 0.9em;
+  }
+  .stats {
+    'font-size': 0.875rem;
+    opacity: 0.7;
+  }
+  .stats strong {
+    color: var(--color-accent, #c9a96e);
+    'font-weight': 500;
+  }
+
+  .library-toc {
+    display: flex;
+    'flex-wrap': wrap;
+    gap: 0.75rem;
+    'justify-content': center;
+    padding: 1rem 0 2.5rem;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.08);
+    'margin-bottom': 3rem;
+  }
+  .library-toc a {
+    color: var(--color-accent, #c9a96e);
+    'font-size': 0.875rem;
+    'text-decoration': none;
+    padding: 0.4rem 0.85rem;
+    border: 1px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.25);
+    'border-radius': 999px;
+    transition:
+      background 0.15s ease,
+      border-color 0.15s ease;
+  }
+  .library-toc a span {
+    opacity: 0.55;
+    'margin-left': 0.3rem;
+  }
+  .library-toc a:hover {
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.08);
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
+  }
+
+  .library-group {
+    'margin-bottom': 4rem;
+  }
+  .group-header h2 {
+    'font-size': 1.5rem;
+    'font-weight': 400;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.1);
+    'padding-bottom': 0.75rem;
+    margin: 0 0 0.5rem;
+  }
+  .group-header p {
+    'font-size': 0.95rem;
+    opacity: 0.65;
+    margin: 0 0 2rem;
+  }
+
+  .entry-grid {
+    display: grid;
+    'grid-template-columns': repeat(auto-fill, minmax(360px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .entry-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 12px;
+    padding: 1.5rem;
+    display: flex;
+    'flex-direction': column;
+    transition:
+      border-color 0.2s ease,
+      background 0.2s ease;
+  }
+  .entry-card:hover {
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.4);
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .entry-header {
+    display: flex;
+    'justify-content': space-between;
+    'integrate-items': flex-start;
+    gap: 0.75rem;
+    'margin-bottom': 0.4rem;
+  }
+  .entry-header h3 {
+    'font-size': 1.05rem;
+    'font-weight': 500;
+    margin: 0;
+    'line-height': 1.3;
+    'letter-spacing': -0.01em;
+  }
+  .entry-kind {
+    'font-size': 0.62rem;
+    'letter-spacing': 0.12em;
+    padding: 0.18rem 0.5rem;
+    'border-radius': 4px;
+    background: rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.6);
+    'text-transform': uppercase;
+    'font-weight': 600;
+    'white-space': nowrap;
+  }
+  .entry-desc {
+    'font-size': 0.9rem;
+    'line-height': 1.5;
+    opacity: 0.8;
+    margin: 0 0 0.85rem;
+  }
+  .entry-path {
+    margin: 0 0 1rem;
+  }
+  .entry-path a {
+    color: rgba(255, 255, 255, 0.4);
+    'text-decoration': none;
+    transition: color 0.15s ease;
+  }
+  .entry-path a:hover {
+    color: var(--color-accent, #c9a96e);
+  }
+  .entry-path code {
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.78rem;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.15em 0.4em;
+    'border-radius': 3px;
+  }
+
+  .file-list {
+    'list-style': none;
+    padding: 0;
+    margin: 0 0 0.75rem;
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .file-list li {
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.04);
+  }
+  .file-list a {
+    display: flex;
+    'justify-content': space-between;
+    'integrate-items': center;
+    gap: 0.75rem;
+    padding: 0.55rem 0;
+    'text-decoration': none;
+    color: rgba(255, 255, 255, 0.7);
+    'font-size': 0.84rem;
+    transition: color 0.15s ease;
+  }
+  .file-list a:hover {
+    color: var(--color-accent, #c9a96e);
+  }
+  .file-name {
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.78rem;
+    overflow: hidden;
+    'text-overflow': ellipsis;
+    'white-space': nowrap;
+    flex: 1;
+  }
+  .file-meta {
+    display: flex;
+    gap: 0.45rem;
+    'font-size': 0.72rem;
+    opacity: 0.55;
+    'white-space': nowrap;
+  }
+  .file-meta .dot {
+    opacity: 0.4;
+  }
+  .file-list a.is-dir .file-name {
+    color: var(--color-accent, #c9a96e);
+  }
+
+  .more-link {
+    'font-size': 0.78rem;
+    opacity: 0.6;
+    margin: 0.5rem 0 0;
+  }
+  .more-link a {
+    color: var(--color-accent, #c9a96e);
+    'text-decoration': none;
+  }
+  .more-link a:hover {
+    'text-decoration': underline;
+  }
+
+  .empty-note {
+    'font-size': 0.82rem;
+    opacity: 0.45;
+    'font-style': italic;
+    margin: 0;
+  }
+
+  .library-footer {
+    'margin-top': 3rem;
+    'padding-top': 2rem;
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
+    'font-size': 0.8rem;
+    'line-height': 1.6;
+    opacity: 0.55;
+  }
+
+  @media (max-width: 640px) {
+    .library-page {
+      padding: 2rem 1rem 4rem;
+    }
+    .entry-grid {
+      'grid-template-columns': 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,65 @@
+---
+import { config } from '../data/hub.config';
+import { quizEmbedCopy } from '../data/quiz.config';
+
+interface Props {
+  formUrl?: string;
+}
+
+const { formUrl = config.ghl.quizFormUrl } = Astro.props;
+---
+
+<div class="w-full">
+  {
+    formUrl ? (
+      <>
+        <p id="quiz-loading" class="text-text-muted text-sm text-center py-4">
+          {quizEmbedCopy.loading}
+        </p>
+        <iframe
+          id="quiz-iframe"
+          src={formUrl}
+          title="Assessment Quiz"
+          class="w-full min-h-[600px] border-0"
+          loading="lazy"
+        />
+      </>
+    ) : (
+      <div class="max-w-md mx-auto py-8">
+        <div
+          class="glass-card p-10 text-center"
+          style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+        >
+          <div class="w-10 h-px bg-ocean-500/30 mx-auto mb-6" />
+          <h2 class="font-heading text-[24px] font-light text-white mb-3">
+            {quizEmbedCopy.heading}
+          </h2>
+          <p class="text-white/35 text-[15px] font-light mb-8 leading-relaxed">
+            {quizEmbedCopy.description}
+          </p>
+          <a
+            href="/quiz"
+            class="inline-block w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+          >
+            {quizEmbedCopy.ctaLabel}
+          </a>
+          <p class="mt-6 text-[10px] text-white/15 uppercase tracking-[0.15em]">
+            {quizEmbedCopy.footnote}
+          </p>
+        </div>
+      </div>
+    )
+  }
+</div>
+
+<script>
+  // Hide the loading note once the iframe finishes loading. Guarded against
+  // a missing element (the inline onload handler this replaced would throw a
+  // null-deref if #quiz-loading were ever removed/renamed) and avoids the
+  // inline-handler CSP smell.
+  const iframe = document.getElementById('quiz-iframe');
+  iframe?.addEventListener('load', () => {
+    const loading = document.getElementById('quiz-loading');
+    if (loading) loading.style.display = 'none';
+  });
+</script>

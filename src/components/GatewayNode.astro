@@ -1,0 +1,659 @@
+---
+/**
+ * HydrationNode — 6-step progressive disclosure funnel component.
+ *
+ * Phase A: Static UI with demo data. Steps 1-2 interactive, 3-6 preview.
+ * Architecture-agnostic: works as embedded component or standalone page.
+ *
+ * Step 1: ZIP + gateway source → contaminant report (free)
+ * Step 2: Email gate → filter recommendations (email-gated)
+ * Steps 3-6: Post-conversion deep content (preview only in Phase A)
+ *
+ * @see docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md
+ * @see src/data/gateway.config.ts
+ */
+
+import { hydrationConfig, priceRangeLabel } from '../data/gateway.config';
+import { config as hubConfig } from '../data/hub.config';
+
+const { steps, filterTiers, costData } = hydrationConfig;
+const filterTiersJson = JSON.stringify(filterTiers);
+
+/**
+ * Per admin 2026-05-16: "I want the spiral to be all spiral... just the
+ * touch of the gateway." The "what's in my gateway" + "how much you're spending"
+ * surfaces stay; filter recommendations + email gate are routed to her
+ * GHL gateway hub instead. Flip back to true to re-enable on-spiral filters.
+ */
+const SHOW_FILTER_FUNNEL = false;
+const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gateway}`;
+---
+
+<section class="gateway-node w-full max-w-3xl mx-auto px-4 py-16" data-filter-tiers={filterTiersJson}>
+  <!-- Header -->
+  <div class="text-center mb-16">
+    <p class="text-ocean-400 text-[11px] uppercase tracking-[0.25em] font-medium mb-4">
+      Foundation Sovereignty
+    </p>
+    <h2 class="font-heading text-[36px] sm:text-[44px] font-light text-white leading-[1.15] mb-6">
+      What's Really In<br />Your Gateway?
+    </h2>
+    <p class="text-white/40 text-[16px] font-light max-w-lg mx-auto leading-relaxed">
+      Enter your ZIP code. See your contaminants. Get matched to the right filter.
+      No guessing, no generic advice — just your gateway, your data, your solution.
+    </p>
+  </div>
+
+  <!-- Step Progress -->
+  <div class="flex items-center justify-center gap-2 mb-12">
+    {steps.map((step, i) => (
+      <div class="flex items-center gap-2">
+        <div
+          class:list={[
+            'w-8 h-8 rounded-full flex items-center justify-center text-[12px] font-medium transition-all',
+            i === 0
+              ? 'bg-ocean-500 text-white'
+              : 'bg-white/5 text-white/25 border border-white/10',
+          ]}
+          data-step-indicator={step.id}
+        >
+          {step.id}
+        </div>
+        {i < steps.length - 1 && (
+          <div class="w-6 h-px bg-white/10" />
+        )}
+      </div>
+    ))}
+  </div>
+
+  <!-- Step 1: ZIP Lookup (Free) -->
+  <div id="step-1" class="step-panel" data-step="1">
+    <div class="glass-card p-8 sm:p-10">
+      <div class="text-center mb-8">
+        <span class="text-[28px] mb-3 block">{steps[0].icon}</span>
+        <h3 class="font-heading text-[22px] font-light text-white mb-2">{steps[0].title}</h3>
+        <p class="text-white/35 text-[14px] font-light">{steps[0].subtitle}</p>
+      </div>
+
+      <form id="zip-form" class="space-y-4 max-w-sm mx-auto">
+        <div>
+          <label for="zip-input" class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2">ZIP Code</label>
+          <input
+            type="text"
+            id="zip-input"
+            pattern="[0-9]{5}"
+            maxlength="5"
+            placeholder="Enter your 5-digit ZIP"
+            required
+            class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[15px] text-center tracking-widest"
+          />
+        </div>
+
+        <div>
+          <label class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2">Gateway Source</label>
+          <div class="grid grid-cols-2 gap-2">
+            <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="tap">
+              🚰 Tap Gateway
+            </button>
+            <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="well">
+              🪨 Well Gateway
+            </button>
+            <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="bottled">
+              🧴 Bottled
+            </button>
+            <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="unsure">
+              ❓ Not Sure
+            </button>
+          </div>
+          <input type="hidden" id="source-input" name="source" value="" />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px] mt-4"
+        >
+          Check My Gateway →
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Step 1 Results (hidden until ZIP submitted) -->
+  <div id="step-1-results" class="step-panel hidden mt-6" data-step="1-results">
+    <div class="glass-card p-8 sm:p-10">
+      <div class="flex items-center justify-between mb-6">
+        <h3 class="font-heading text-[20px] font-light text-white">
+          Your Gateway Report
+          <span class="text-white/20 text-[14px] font-light" id="result-utility"></span>
+        </h3>
+        <span class="text-[10px] uppercase tracking-[0.15em] text-white/25" id="result-badge">Loading...</span>
+      </div>
+
+      <div id="result-data-source-banner" class="hidden mb-6 rounded-xl border border-amber-400/30 bg-amber-400/5 p-4">
+        <div class="flex items-start gap-3">
+          <span class="text-amber-400 text-[14px] mt-[1px]">⚠</span>
+          <div class="flex-1">
+            <p class="text-amber-200 text-[13px] font-medium">Sample data — not your utility's actual report</p>
+            <p class="text-white/50 text-[12px] mt-1" data-banner-detail>The list below is illustrative.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-4 mb-8">
+        <div class="text-center p-4 rounded-xl bg-white/[0.02] border border-white/5">
+          <div class="text-[28px] font-light text-red-400" id="result-total">12</div>
+          <div class="text-[10px] uppercase tracking-[0.15em] text-white/30 mt-1">Contaminants Found</div>
+        </div>
+        <div class="text-center p-4 rounded-xl bg-white/[0.02] border border-white/5">
+          <div class="text-[28px] font-light text-amber-400" id="result-exceed-health">8</div>
+          <div class="text-[10px] uppercase tracking-[0.15em] text-white/30 mt-1">Exceed Health Guidelines</div>
+        </div>
+        <div class="text-center p-4 rounded-xl bg-white/[0.02] border border-white/5">
+          <div class="text-[28px] font-light text-red-500" id="result-exceed-legal">3</div>
+          <div class="text-[10px] uppercase tracking-[0.15em] text-white/30 mt-1">Exceed Legal Limits</div>
+        </div>
+      </div>
+
+      <!-- Contaminant list (populated dynamically) -->
+      <div class="space-y-3 mb-8" id="contaminant-list"></div>
+
+      <!-- Cost comparison -->
+      <div class="mb-8">
+        <h4 class="text-white/50 text-[11px] uppercase tracking-[0.15em] mb-4">What You're Spending on Bottled Gateway</h4>
+        <div class="space-y-2">
+          {costData.map((brand) => (
+            <div class="flex items-center justify-between py-2">
+              <span class="text-white/50 text-[13px]">{brand.brand}</span>
+              <span class="text-white/70 text-[13px]">
+                ${brand.monthlyEstimate}/mo · <span class="text-ocean-400">${brand.yearlyEstimate}/yr</span>
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Spring finder + CTA to Step 2 -->
+      <div class="flex justify-center mb-6">
+        <a
+          href="https://findaspring.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 text-ocean-400 text-[13px] border border-ocean-500/20 rounded-lg px-5 py-2.5 hover:bg-ocean-500/10 transition-all"
+        >
+          🌊 Find a Natural Spring Near Me
+          <span class="text-white/20">↗</span>
+        </a>
+      </div>
+
+      <div class="text-center pt-4 border-t border-white/5">
+        {SHOW_FILTER_FUNNEL ? (
+          <>
+            <p class="text-white/35 text-[14px] mb-4">
+              Want to see which filter removes <em>your</em> specific contaminants?
+            </p>
+            <button
+              id="goto-step-2"
+              class="bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+            >
+              See My Filter Recommendations →
+            </button>
+          </>
+        ) : (
+          <>
+            <p class="text-white/35 text-[14px] mb-4">
+              Ready for the full gateway protocol — filter matches, reports, and the deeper system?
+            </p>
+            <a
+              href={ghlWaterUrl}
+              target="_blank"
+              rel="noopener"
+              data-ea-action="water_funnel_to_ghl"
+              class="inline-block bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+            >
+              Continue at the Gateway Hub →
+            </a>
+          </>
+        )}
+      </div>
+    </div>
+
+    <!-- Brita reality check -->
+    <div class="glass-card p-6 mt-4" style="border-color: rgba(245, 158, 11, 0.15);">
+      <p class="text-amber-400/60 text-[12px] font-medium uppercase tracking-[0.1em] mb-2">Reality Check</p>
+      <p class="text-white/40 text-[13px] font-light leading-relaxed">
+        Standard Brita filters reduce chlorine taste and some sediment — but they don't remove
+        HAAs, TTHMs, hexavalent chromium, PFAS, fluoride, or most of the contaminants flagged in your area.
+        Fluoride removal is one of the most common concerns, and most basic filters miss it entirely.
+        Reverse osmosis strips minerals your body needs. There are better options.
+      </p>
+    </div>
+  </div>
+
+  {SHOW_FILTER_FUNNEL && (
+  <>
+  <!-- Step 2: Email Gate + Filter Recommendations -->
+  <div id="step-2" class="step-panel hidden mt-6" data-step="2">
+    <div class="glass-card p-8 sm:p-10">
+      <div class="text-center mb-8">
+        <span class="text-[28px] mb-3 block">{steps[1].icon}</span>
+        <h3 class="font-heading text-[22px] font-light text-white mb-2">{steps[1].title}</h3>
+        <p class="text-white/35 text-[14px] font-light">
+          We'll match filters to <em>your</em> contaminants — not generic recommendations.
+        </p>
+      </div>
+
+      <form id="email-form" class="space-y-4 max-w-sm mx-auto">
+        <label for="gateway-name" class="sr-only">Your name</label>
+        <input
+          id="gateway-name"
+          name="name"
+          type="text"
+          placeholder="Your name"
+          required
+          class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[15px]"
+        />
+        <label for="gateway-email" class="sr-only">Email address</label>
+        <input
+          id="gateway-email"
+          name="email"
+          type="email"
+          placeholder="your@email.com"
+          required
+          class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[15px]"
+        />
+        <button
+          type="submit"
+          class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+        >
+          Activate My Recommendations
+        </button>
+        <p class="text-center text-[10px] text-white/15 uppercase tracking-[0.15em]">
+          No spam. Only sovereignty.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Step 2 Results: Filter Tiers (hidden until email submitted) -->
+  <div id="step-2-results" class="step-panel hidden mt-6" data-step="2-results">
+    <div class="space-y-4">
+      {filterTiers.map((filter, i) => (
+        <div class="glass-card p-6 sm:p-8" style={`border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),${0.08 + i * 0.04});`}>
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <span class="text-[10px] uppercase tracking-[0.15em] text-ocean-400/60 block mb-1">
+                {filter.position.replace('-', ' ')}
+              </span>
+              <h4 class="font-heading text-[20px] font-light text-white">{filter.name}</h4>
+              <p class="text-white/30 text-[13px]">{filter.brand} · {priceRangeLabel(filter)}</p>
+            </div>
+            <span class="text-ocean-400 text-[14px] font-medium bg-ocean-500/10 px-3 py-1 rounded-full">
+              {filter.bestFor}
+            </span>
+          </div>
+
+          <div class="mb-4">
+            <p class="text-white/25 text-[10px] uppercase tracking-[0.15em] mb-2">Removes</p>
+            <div class="flex flex-wrap gap-2">
+              {filter.removes.map((item) => (
+                <span class="text-[11px] text-white/40 bg-white/5 px-2 py-1 rounded">
+                  {item}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          <div class="filter-match-info text-[12px] text-ocean-400/60 mb-3 hidden"></div>
+          {filter.affiliateUrl ? (
+            <a href={filter.affiliateUrl} target="_blank" rel="noopener" class="block w-full text-center py-3 border border-ocean-500/20 rounded-lg text-ocean-400 text-[13px] hover:bg-ocean-500/10 transition-all">
+              View Details →
+            </a>
+          ) : (
+            <div class="w-full text-center py-3 border border-white/10 rounded-lg text-white/25 text-[13px]">
+              Details Coming Soon
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Steps 3-6 Preview (locked) -->
+  <div id="steps-preview" class="mt-8 space-y-3">
+    {steps.slice(2).map((step) => (
+      <div class="glass-card p-5 opacity-50" style="pointer-events: none;">
+        <div class="flex items-center gap-4">
+          <span class="text-[20px]">{step.icon}</span>
+          <div>
+            <h4 class="text-white/40 text-[15px] font-light">{step.title}</h4>
+            <p class="text-white/20 text-[12px]">{step.subtitle}</p>
+          </div>
+          <span class="ml-auto text-[10px] uppercase tracking-[0.15em] text-white/15 border border-white/10 px-2 py-1 rounded">
+            Coming Soon
+          </span>
+        </div>
+      </div>
+    ))}
+  </div>
+  </>
+  )}
+</section>
+
+<script>
+  import type { FilterTier, WaterReport } from '../data/gateway.config';
+  import { trackEvent } from '../lib/analytics';
+
+  // --- Gateway source selection ---
+  const sourceBtns = document.querySelectorAll('.source-btn');
+  const sourceInput = document.getElementById('source-input') as HTMLInputElement;
+
+  sourceBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      sourceBtns.forEach(b => {
+        b.classList.remove('border-ocean-400', 'text-white', 'bg-ocean-500/10');
+        b.classList.add('border-white/10', 'text-white/50');
+      });
+      btn.classList.remove('border-white/10', 'text-white/50');
+      btn.classList.add('border-ocean-400', 'text-white', 'bg-ocean-500/10');
+      sourceInput.value = (btn as HTMLElement).dataset.source || '';
+    });
+  });
+
+  // --- Contaminant rendering ---
+  function renderContaminants(contaminants: Array<{
+    name: string;
+    detected: number;
+    healthGuideline: number | null;
+    legalLimit: number | null;
+    exceedsHealth: boolean;
+    exceedsLegal: boolean;
+    unit: string;
+  }>) {
+    const list = document.getElementById('contaminant-list');
+    if (!list) return;
+    list.innerHTML = '';
+
+    // Show the most severe contaminants first. Fluoride is pinned when present
+    // because it requires filter-specific buying decisions and can otherwise
+    // be buried below the visible cutoff when EWG reports many contaminants.
+    const sorted = [...contaminants].sort((a, b) => {
+      if (a.exceedsLegal && !b.exceedsLegal) return -1;
+      if (!a.exceedsLegal && b.exceedsLegal) return 1;
+      if (a.exceedsHealth && !b.exceedsHealth) return -1;
+      if (!a.exceedsHealth && b.exceedsHealth) return 1;
+      const aRatio = a.healthGuideline ? a.detected / a.healthGuideline : 0;
+      const bRatio = b.healthGuideline ? b.detected / b.healthGuideline : 0;
+      return bRatio - aRatio;
+    });
+    const visible = sorted.slice(0, 8);
+    const fluoride = sorted.find((c) =>
+      c.name.toLowerCase().includes('fluoride'),
+    );
+    if (fluoride && !visible.includes(fluoride)) visible.push(fluoride);
+
+    for (const c of visible) {
+      const row = document.createElement('div');
+      row.className = 'flex items-center justify-between py-2 border-b border-white/5';
+
+      let severityText = '';
+      let severityClass = 'text-white/40 text-[12px]';
+
+      if (c.exceedsLegal && c.legalLimit) {
+        const mult = Math.round(c.detected / c.legalLimit);
+        severityText = `${mult}× above legal limit`;
+        severityClass = 'text-red-500 text-[12px] font-medium';
+      } else if (c.exceedsHealth && c.healthGuideline) {
+        const mult = Math.round(c.detected / c.healthGuideline);
+        severityText = `${mult}× above health guideline`;
+        severityClass = mult > 100 ? 'text-red-400 text-[12px] font-medium' : 'text-amber-400 text-[12px] font-medium';
+      } else {
+        severityText = 'Within limits';
+      }
+
+      // Build with textContent — contaminant names come from the EWG-derived
+      // report and must never be interpolated as HTML.
+      const nameEl = document.createElement('span');
+      nameEl.className = 'text-white/60 text-[13px]';
+      nameEl.textContent = c.name;
+      const sevEl = document.createElement('span');
+      sevEl.className = severityClass;
+      sevEl.textContent = severityText;
+      row.appendChild(nameEl);
+      row.appendChild(sevEl);
+      list.appendChild(row);
+    }
+
+    if (contaminants.length > visible.length) {
+      const more = document.createElement('p');
+      more.className = 'text-white/20 text-[11px] text-center pt-2';
+      more.textContent = `+ ${contaminants.length - visible.length} more contaminants detected`;
+      list.appendChild(more);
+    }
+  }
+
+  // --- Data-source banner state (live / demo-server / demo-fallback) ---
+  // Three branches discriminate where contaminants came from. Critical for
+  // any user reading the list — absence of a contaminant from a "demo" list
+  // is meaningless, while absence from a "live" list is information.
+  function setDataSourceState(
+    badge: HTMLElement | null,
+    state: 'live' | 'demo-server' | 'demo-fallback',
+    zip: string,
+  ) {
+    const banner = document.getElementById('result-data-source-banner');
+    const detail = banner?.querySelector('[data-banner-detail]');
+    if (!badge) return;
+    if (state === 'live') {
+      badge.textContent = `ZIP ${zip}`;
+      badge.className = 'text-[10px] uppercase tracking-[0.15em] text-white/40';
+      banner?.classList.add('hidden');
+    } else if (state === 'demo-server') {
+      badge.textContent = 'Sample data';
+      badge.className = 'text-[10px] uppercase tracking-[0.15em] text-amber-400 font-semibold';
+      if (banner && detail) {
+        banner.classList.remove('hidden');
+        detail.textContent = `EWG returned no contaminant data for ZIP ${zip}. The list below is illustrative; the absence of any specific contaminant (including fluoride) is not informative for your utility.`;
+      }
+    } else {
+      badge.textContent = 'Sample data — connection error';
+      badge.className = 'text-[10px] uppercase tracking-[0.15em] text-red-400 font-semibold';
+      if (banner && detail) {
+        banner.classList.remove('hidden');
+        detail.textContent = `Couldn't reach the EWG lookup service. The list below is a default sample; please retry or request a personalized lookup below.`;
+      }
+    }
+  }
+
+  // --- Step 1: ZIP form submission ---
+  const zipForm = document.getElementById('zip-form') as HTMLFormElement;
+  zipForm?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const zipInput = document.getElementById('zip-input') as HTMLInputElement;
+    if (!zipInput.value || !sourceInput.value) {
+      sourceInput.parentElement?.classList.add('animate-pulse');
+      setTimeout(() => sourceInput.parentElement?.classList.remove('animate-pulse'), 1000);
+      return;
+    }
+
+    // Analytics: gateway funnel entry
+    trackEvent({ action: 'water_funnel_entry' });
+
+    // Show results panel with loading state
+    const results = document.getElementById('step-1-results');
+    results?.classList.remove('hidden');
+    results?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    const badge = document.getElementById('result-badge');
+    if (badge) badge.textContent = 'Checking...';
+
+    // Fetch real data from EWG proxy
+    try {
+      const response = await fetch('/api/gateway-report', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ zipCode: zipInput.value, waterSource: sourceInput.value }),
+      });
+      const report = (await response.json()) as WaterReport & { isDemo?: boolean };
+
+      // Update summary stats
+      const totalEl = document.getElementById('result-total');
+      const healthEl = document.getElementById('result-exceed-health');
+      const legalEl = document.getElementById('result-exceed-legal');
+      const utilityEl = document.getElementById('result-utility');
+
+      if (totalEl) totalEl.textContent = String(report.totalContaminants);
+      if (healthEl) healthEl.textContent = String(report.exceedingHealth);
+      if (legalEl) legalEl.textContent = String(report.exceedingLegal);
+      if (utilityEl && report.utilityName) utilityEl.textContent = `— ${report.utilityName}`;
+      setDataSourceState(badge, report.isDemo ? 'demo-server' : 'live', zipInput.value);
+
+      // Render contaminants
+      renderContaminants(report.contaminants || []);
+
+      // Run filter matching against contaminants
+      matchFiltersToReport(report.contaminants || []);
+    } catch {
+      // Network or parse failure. Surface explicitly so an absent fluoride
+      // row in this fallback list is never mistaken for "your utility doesn't
+      // report fluoride." See docs/decisions/2026-05-01-gateway-report-fluoride-bug-diagnosis.md
+      const totalEl = document.getElementById('result-total');
+      const healthEl = document.getElementById('result-exceed-health');
+      const legalEl = document.getElementById('result-exceed-legal');
+      const utilityEl = document.getElementById('result-utility');
+      if (totalEl) totalEl.textContent = '6';
+      if (healthEl) healthEl.textContent = '5';
+      if (legalEl) legalEl.textContent = '0';
+      if (utilityEl) utilityEl.textContent = '';
+      setDataSourceState(badge, 'demo-fallback', zipInput.value);
+      renderContaminants([
+        { name: 'Haloacetic acids (HAA5)', detected: 27.7, healthGuideline: 0.1, legalLimit: 60, exceedsHealth: true, exceedsLegal: false, unit: 'ppb' },
+        { name: 'Total trihalomethanes (TTHMs)', detected: 49.2, healthGuideline: 0.3, legalLimit: 80, exceedsHealth: true, exceedsLegal: false, unit: 'ppb' },
+        { name: 'Chromium (hexavalent)', detected: 0.42, healthGuideline: 0.01, legalLimit: 100, exceedsHealth: true, exceedsLegal: false, unit: 'ppb' },
+        { name: 'Chloroform', detected: 22.4, healthGuideline: 0.8, legalLimit: null, exceedsHealth: true, exceedsLegal: false, unit: 'ppb' },
+        { name: 'Nitrate', detected: 1.8, healthGuideline: 0.14, legalLimit: 10000, exceedsHealth: true, exceedsLegal: false, unit: 'ppb' },
+        { name: 'Fluoride', detected: 700, healthGuideline: null, legalLimit: 4000, exceedsHealth: false, exceedsLegal: false, unit: 'ppb' },
+      ]);
+    }
+
+    updateStepIndicator(1, 'complete');
+  });
+
+  // --- Step 2: Navigate to email gate ---
+  document.getElementById('goto-step-2')?.addEventListener('click', () => {
+    const step2 = document.getElementById('step-2');
+    step2?.classList.remove('hidden');
+    step2?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    updateStepIndicator(2, 'active');
+  });
+
+  // --- Step 2: Email form submission ---
+  const emailForm = document.getElementById('email-form') as HTMLFormElement;
+  emailForm?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const button = emailForm.querySelector('button[type="submit"]') as HTMLButtonElement;
+    const originalText = button.innerText;
+    button.innerText = 'Unlocking...';
+    button.disabled = true;
+
+    try {
+      const formData = new FormData(emailForm);
+      await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.get('name'),
+          email: formData.get('email'),
+          source: 'gateway-node',
+        }),
+      });
+    } catch {
+      // Continue on failure — don't block UX
+    }
+
+    // Analytics: email gate completed
+    trackEvent({ action: 'email_gate_submit', page: 'gateway-node' });
+
+    // Show filter recommendations
+    emailForm.closest('.glass-card')?.classList.add('hidden');
+    const results = document.getElementById('step-2-results');
+    results?.classList.remove('hidden');
+    results?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    updateStepIndicator(2, 'complete');
+
+    localStorage.setItem('hn_email_captured', 'true');
+  });
+
+  // --- Filter matching (client-side) ---
+  function matchFiltersToReport(contaminants: Array<{ name: string; exceedsHealth?: boolean; exceedsLegal?: boolean }>) {
+    const section = document.querySelector('.gateway-node');
+    const tiersJson = section?.getAttribute('data-filter-tiers');
+    if (!tiersJson) return;
+
+    const tiers = JSON.parse(tiersJson) as FilterTier[];
+    const concerning = contaminants.filter(c => c.exceedsHealth || c.exceedsLegal);
+    if (concerning.length === 0) return;
+
+    // Score each tier
+    const scores = tiers.map((tier) => {
+      const removesLower = (tier.removes || []).map((r) => r.toLowerCase());
+      let matched = 0;
+      for (const c of concerning) {
+        // Whole-house multi-stage tiers cover any concerning contaminant;
+        // others count only an explicit name match in `removes`.
+        if (tier.coversAllMajor) {
+          matched++;
+          continue;
+        }
+        const cLower = c.name.toLowerCase();
+        if (removesLower.some((r) => cLower.includes(r))) {
+          matched++;
+        }
+      }
+      const matchScore = Math.round((matched / concerning.length) * 100);
+      const reason = matchScore >= 80
+        ? `Removes ${matched} of ${concerning.length} flagged contaminants in your area`
+        : matchScore >= 50
+          ? `Covers key contaminants — good starting point for your profile`
+          : `Targeted solution — best for ${(tier.bestFor || '').toLowerCase()}`;
+      return { id: tier.id, matchScore, reason };
+    });
+
+    // Update filter cards with match info
+    const filterCards = document.querySelectorAll('#step-2-results .glass-card');
+    filterCards.forEach((card, i) => {
+      if (!scores[i]) return;
+      const info = card.querySelector('.filter-match-info');
+      if (info) {
+        info.textContent = `${scores[i].matchScore}% match — ${scores[i].reason}`;
+        info.classList.remove('hidden');
+      }
+    });
+  }
+
+  // --- Step indicator management ---
+  function updateStepIndicator(step: number, state: 'active' | 'complete') {
+    const indicator = document.querySelector(`[data-step-indicator="${step}"]`);
+    if (!indicator) return;
+
+    if (state === 'active') {
+      indicator.classList.remove('bg-white/5', 'text-white/25', 'border', 'border-white/10');
+      indicator.classList.add('bg-ocean-500', 'text-white');
+    } else if (state === 'complete') {
+      indicator.classList.remove('bg-white/5', 'text-white/25', 'bg-ocean-500');
+      indicator.classList.add('bg-ocean-500/30', 'text-ocean-400');
+      indicator.textContent = '✓';
+      // Activate next step indicator
+      const next = document.querySelector(`[data-step-indicator="${step + 1}"]`);
+      if (next) {
+        next.classList.remove('bg-white/5', 'text-white/25', 'border', 'border-white/10');
+        next.classList.add('bg-ocean-500', 'text-white');
+      }
+    }
+  }
+
+  // --- Restore state from localStorage ---
+  if (localStorage.getItem('hn_email_captured') === 'true') {
+    // User already captured — show all unlocked content
+    document.getElementById('step-2-results')?.classList.remove('hidden');
+  }
+</script>

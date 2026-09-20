@@ -1,0 +1,50 @@
+node_modules/
+dist/
+.astro/
+.netlify/
+.superpowers/
+.DS_Store
+# Ensure public/ assets are tracked (overrides global gitignore)
+!public/
+.wrangler/
+
+output/
+*.txt
+# Track durable client-IP exports (e.g. ChatGPT conversation forwards from admin).
+# These are durable artifacts that satisfy Universal Rule #2 (nothing local only);
+# the broader *.txt ignore prevents accidental commits of ephemeral session logs.
+!docs/admin/chat-exports/*.txt
+
+# IDE / editor caches
+.vscode/
+.history/
+.lh/
+
+# AI tooling caches (NOT .conductor/ — entry permits live there)
+.gemini/
+.specstory/
+
+# Session export artifacts (ephemeral)
+export-*.md
+session-ses_*.md
+
+# Local raw media mirrors can be large client-IP binaries. Keep committed
+# manifests/proofs in docs; keep downloaded payloads local unless LFS is added.
+docs/admin/media/doc-1b-drive-assets/raw/
+
+# Debug heap dumps (regenerable; never committed)
+*.heapsnapshot
+
+# Cross-client IP isolation — local-only artifacts that touch
+# multi-client showcases or pre-publication client docs.
+# README is tracked so the convention is discoverable; everything else local-only.
+.private/*
+!.private/README.md
+.playwright-mcp/
+
+# removed inadvertently-committed local session artifacts (PII containment)
+.claude/sessions
+.claude/plans
+.conductor/archive-2026-05-17-post-transcription-audit-handoff.md
+docs/internal/2026-04-05-cross-session-github-board-alignment-transcript.md
+docs/internal/2026-05-16-admin-imessage-transcript-and-signals.md

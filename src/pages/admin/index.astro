@@ -1,0 +1,97 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base title="Admin Hub - Spira Salvtis" description="Central command for Spira Salvtis internal tools">
+  <div class="admin-dashboard">
+    <div class="hub-header">
+      <h1>Command Center</h1>
+      <p>Select an operational panel to continue.</p>
+    </div>
+    
+    <div class="panel-grid">
+      <a href="/decisions" class="panel-card">
+        <h2>Decision Ledger</h2>
+        <p>Async architectural tension resolution.</p>
+      </a>
+      <a href="/admin/node-picker" class="panel-card">
+        <h2>Node Configurator</h2>
+        <p>Tune spiral physics, color schemes, and node logic.</p>
+      </a>
+      <a href="/aesthetics" class="panel-card">
+        <h2>Aesthetics Engine</h2>
+        <p>Global design vocabulary and variables.</p>
+      </a>
+      <a href="/timeline" class="panel-card">
+        <h2>Visual Timeline</h2>
+        <p>Explore the deployed visual history of the spiral.</p>
+      </a>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .admin-dashboard {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+  }
+
+  .hub-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+  }
+
+  .hub-header p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+  }
+
+  .panel-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .panel-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .panel-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+  }
+
+  .panel-card h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--color-gold, #c9a96e);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .panel-card p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+</style>

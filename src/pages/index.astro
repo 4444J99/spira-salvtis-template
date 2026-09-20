@@ -1,0 +1,231 @@
+---
+import Base from '../layouts/Base.astro';
+import SpiralIsland from '../components/spiral/SpiralIsland.astro';
+import SpiralFallback from '../components/spiral/SpiralFallback.astro';
+import PillarCard from '../components/PillarCard.astro';
+import CTAButton from '../components/CTAButton.astro';
+import VideoEmbed from '../components/VideoEmbed.astro';
+import { config } from '../data/hub.config';
+import { nonprofitConfig } from '../data/nonprofit.config';
+---
+
+<Base
+  title={config.name}
+  description="Rebuilding life from the foundation up. A 13-node spiral journey through body, mind, life, and freedom."
+>
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      name: config.name,
+      url: `https://${config.domains.hub}`,
+      description: config.tagline,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `https://${config.domains.hub}/quiz`,
+        name: 'Take the Quiz',
+      },
+    })}
+  />
+  <!-- Spiral Hero -->
+  <section class="bg-ocean-900">
+    <div class="px-6 pt-16 md:pt-20 pb-6 text-center">
+      <h1
+        class="font-heading text-[clamp(36px,6vw,64px)] font-light text-white leading-[1.08] tracking-tight"
+        style="text-shadow: 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+      >
+        Spira salvtis Spiral
+      </h1>
+      <p
+        class="mt-4 text-[15px] md:text-[17px] font-light text-white/40 max-w-[480px] mx-auto leading-relaxed"
+      >
+        {config.tagline}
+      </p>
+      <div class="mt-7 flex flex-wrap justify-center gap-3">
+        <CTAButton href="/quiz" label="Take the Quiz" />
+        <CTAButton
+          href="/spiral"
+          label="Enter the Spiral"
+          variant="secondary"
+        />
+      </div>
+    </div>
+    <div class="relative overflow-hidden">
+      <SpiralIsland />
+      <SpiralFallback />
+    </div>
+  </section>
+
+  <!-- Quiz CTA -->
+  <section class="py-20 px-6 bg-ocean-900 text-center">
+    <div class="max-w-xl mx-auto">
+      <p
+        class="text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+      >
+        Explore the Spiral
+      </p>
+      <h2
+        class="font-heading text-[clamp(28px,4vw,44px)] font-light text-white mb-4"
+      >
+        Find your starting point
+      </h2>
+      <p
+        class="text-white/40 text-[15px] font-light max-w-[440px] mx-auto mb-10 leading-relaxed"
+      >
+        Take the quiz to find where you are on the spiral — and where to begin.
+      </p>
+      <CTAButton href="/quiz" label="Take the Quiz" />
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="py-24 px-6 bg-ocean-900">
+    <div class="max-w-[680px] mx-auto text-center">
+      <div class="w-10 h-px bg-gold/40 mx-auto mb-12"></div>
+      <blockquote
+        class="font-heading text-[clamp(22px,3vw,32px)] font-light italic leading-[1.6] text-white/70"
+      >
+        Most people try to fix their mindset while their foundation is unstable.
+        Growth isn't linear. It's spiral. But it requires a backbone.
+      </blockquote>
+      <div class="w-10 h-px bg-gold/40 mx-auto mt-12"></div>
+    </div>
+  </section>
+
+  <!-- Video — What is this? -->
+  <section class="py-20 px-6 bg-ocean-900">
+    <div class="max-w-3xl mx-auto">
+      <p
+        class="text-center text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+      >
+        The Story
+      </p>
+      <h2
+        class="font-heading text-[clamp(24px,3vw,36px)] font-light text-white text-center mb-10"
+      >
+        What is Spira salvtis?
+      </h2>
+      <VideoEmbed placeholder={true} title="What is Spira salvtis?" />
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider-line"></div>
+
+  <!-- Pillar Phases (structural reference) -->
+  <section class="py-24 px-6 bg-ocean-900">
+    <div class="max-w-[800px] mx-auto">
+      <p
+        class="text-center text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+      >
+        The Architecture
+      </p>
+      <h2
+        class="font-heading text-[clamp(32px,4vw,48px)] font-light text-white text-center mb-16"
+      >
+        Four Phases of Sovereignty
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        {config.pillars.map((pillar) => <PillarCard pillar={pillar} />)}
+      </div>
+
+      <!-- Initiate / Integrate / Activate framework -->
+      <div class="mt-16 pt-12 border-t border-white/[0.04]">
+        <p
+          class="text-center text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-6"
+        >
+          The Journey
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+          <div>
+            <div
+              class="text-[28px] font-heading font-light text-white mb-2"
+              style="color:var(--color-ocean-500, #119a9e);"
+            >
+              Initiate
+            </div>
+            <p class="text-white/30 text-[13px] leading-relaxed">
+              Stabilize the body. Clean your inputs. Build a foundation foundation
+              you can trust.
+            </p>
+          </div>
+          <div>
+            <div
+              class="text-[28px] font-heading font-light text-white mb-2"
+              style="color:var(--color-ocean-350, #8cc5d3);"
+            >
+              Integrate
+            </div>
+            <p class="text-white/30 text-[13px] leading-relaxed">
+              Clear emotional weight. Find your rhythm. Let who you really are
+              come forward.
+            </p>
+          </div>
+          <div>
+            <div
+              class="text-[28px] font-heading font-light text-white mb-2"
+              style="color:var(--color-ocean-400, #3dbfc4);"
+            >
+              Activate
+            </div>
+            <p class="text-white/30 text-[13px] leading-relaxed">
+              Build systems that work without you. Turn sovereignty into
+              freedom.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Arm -->
+  <section class="py-24 px-6 bg-ocean-900 border-t border-white/[0.03]">
+    <div
+      class="max-w-[860px] mx-auto grid md:grid-cols-[0.9fr_1.1fr] gap-10 items-center"
+    >
+      <div>
+        <p
+          class="text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+        >
+          Impact arm
+        </p>
+        <h2
+          class="font-heading text-[clamp(30px,4vw,46px)] font-light text-white leading-tight"
+        >
+          Donations and farm-to-reset, in formation.
+        </h2>
+      </div>
+      <div>
+        <p class="text-white/45 text-[15px] font-light leading-relaxed mb-7">
+          {nonprofitConfig.name} holds the future nonprofit lane: donation
+          interest, Instagram community launch, and a 30-90 day reset model
+          built around room, meals, Wi-Fi, and land-based contribution.
+        </p>
+        <CTAButton
+          href={nonprofitConfig.route}
+          label="Explore the Impact Arm"
+          variant="secondary"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-28 px-6 glow-bg text-center">
+    <div class="relative max-w-xl mx-auto">
+      <h2
+        class="font-heading text-[clamp(36px,5vw,56px)] font-light text-white mb-4"
+        style="text-shadow: 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.12);"
+      >
+        Start the spiral
+      </h2>
+      <p
+        class="text-white/40 text-[16px] font-light max-w-[440px] mx-auto mb-10 leading-relaxed"
+      >
+        Growth isn't linear. Find where you are and begin.
+      </p>
+      <CTAButton href="/quiz" label="Take the Quiz" />
+    </div>
+  </section>
+</Base>

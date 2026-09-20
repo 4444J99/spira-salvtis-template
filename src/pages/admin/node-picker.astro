@@ -1,0 +1,2010 @@
+---
+import Base from '../../layouts/Base.astro';
+import { config } from '../../data/hub.config';
+import { worldFor, hexToCss } from '../../data/icon-worlds';
+import { visualForNode } from '../../data/node-visuals';
+import { deriveLifeMotionLaw } from '../../data/life-motion-laws';
+import {
+  LENSES,
+  defaultLensForEnvVar,
+  modulatePrimitive,
+} from '../../data/lens-geometry';
+import { chainsFor } from '../../data/naming-chains';
+
+const nodePickerData = config.nodes.map((node) => {
+  const world = worldFor(node.id);
+  const visual = visualForNode(node.id);
+  const law = deriveLifeMotionLaw(node.envVar, world);
+  const chain = chainsFor(node.envVar);
+  const defaultLens = defaultLensForEnvVar(node.envVar);
+  const lensOptions = LENSES.map((lens) => {
+    const binding = chain.find((item) => item.lens === lens);
+
+    return {
+      lens,
+      name: binding?.name ?? lens,
+      connotation: binding?.connotation ?? '',
+      source: binding?.source ?? '',
+      primitive: modulatePrimitive(node.envVar, lens),
+    };
+  });
+
+  return {
+    node,
+    world: {
+      ...world,
+      accentPalette: world.accentPalette.map(hexToCss),
+    },
+    visual,
+    law,
+    defaultLens,
+    lensOptions,
+  };
+});
+
+const pickerJson = JSON.stringify(nodePickerData);
+---
+
+<Base
+  title={`Node Picker Admin - ${config.name}`}
+  description="Internal node-universe picker for designing one Spira salvtis spiral node at a time."
+  hideBreadcrumbs
+  noindex
+>
+  <main class="node-picker" data-node-picker-app>
+    <aside class="node-rail" aria-label="Spiral nodes">
+      <div class="node-rail__header">
+        <span>Node Picker</span>
+        <strong data-node-count>{config.nodes.length}</strong>
+      </div>
+      <div class="node-rail__list">
+        {
+          nodePickerData.map(({ node, world }) => (
+            <button
+              type="button"
+              class="node-button"
+              data-node-button={node.id}
+              style={`--node-color: ${node.color}; --node-world: ${world.accentPalette[0]};`}
+            >
+              <span>{String(node.id).padStart(2, '0')}</span>
+              <strong>{node.name}</strong>
+              <em>{node.phase}</em>
+            </button>
+          ))
+        }
+      </div>
+    </aside>
+
+    <section class="studio">
+      <header class="studio-header">
+        <div>
+          <p class="eyebrow">Internal / GH#98</p>
+          <h1>Node Universe Picker</h1>
+        </div>
+        <div class="studio-actions">
+          <a href="/spiral?labels=always" target="_blank" rel="noopener">
+            Live spiral
+          </a>
+          <button type="button" data-save-draft>Save draft</button>
+          <button type="button" data-reset-draft>Reset draft</button>
+        </div>
+      </header>
+
+      <div class="studio-grid">
+        <section class="preview-panel" aria-labelledby="preview-title">
+          <div class="preview-head">
+            <div>
+              <p class="eyebrow" data-current-phase>INITIATE</p>
+              <h2 id="preview-title" data-current-name>Feel Good First</h2>
+            </div>
+            <span class="status-pill" data-current-status>live</span>
+          </div>
+
+          <div class="universe-stage">
+            <div class="universe-orb" data-preview-orb>
+              <span class="orb-glow"></span>
+              <span class="orb-boundary"></span>
+              <span class="orb-core"></span>
+              <span class="orb-liquid"></span>
+              <span class="orb-solid"></span>
+              <span class="orb-plasma"></span>
+              <span class="orb-grid"></span>
+              <span class="orb-particles" data-particle-field></span>
+            </div>
+          </div>
+
+          <div class="structure-strip">
+            <span>
+              <small>EnvVar</small>
+              <strong data-current-env>PYR</strong>
+            </span>
+            <span>
+              <small>World</small>
+              <strong data-current-world>Forge of Dawn</strong>
+            </span>
+            <span>
+              <small>Lens</small>
+              <strong data-current-lens>Physics</strong>
+            </span>
+            <span>
+              <small>Behavior</small>
+              <strong data-current-behavior>radial-emission</strong>
+            </span>
+          </div>
+
+          <div class="phase-bars" aria-label="Matter phase mix">
+            <p>
+              <span>Gas</span>
+              <i><b data-phase-bar="gas"></b></i>
+              <em data-phase-value="gas">0%</em>
+            </p>
+            <p>
+              <span>Liquid</span>
+              <i><b data-phase-bar="liquid"></b></i>
+              <em data-phase-value="liquid">0%</em>
+            </p>
+            <p>
+              <span>Solid</span>
+              <i><b data-phase-bar="solid"></b></i>
+              <em data-phase-value="solid">0%</em>
+            </p>
+            <p>
+              <span>Plasma</span>
+              <i><b data-phase-bar="plasma"></b></i>
+              <em data-phase-value="plasma">0%</em>
+            </p>
+          </div>
+
+          <div class="preview-links">
+            <a data-node-page href="/nodes/1" target="_blank" rel="noopener">
+              Node page
+            </a>
+            <a
+              data-lineage-page
+              href="/lineage/pyr"
+              target="_blank"
+              rel="noopener"
+            >
+              Lineage
+            </a>
+          </div>
+        </section>
+
+        <section class="editor-panel" aria-label="Node universe editor">
+          <div class="editor-grid">
+            <fieldset>
+              <legend>World</legend>
+              <label>
+                <span>Theme name</span>
+                <input data-draft-path="world.themeName" type="text" />
+              </label>
+              <label>
+                <span>Behavior</span>
+                <select data-draft-path="world.particleBehavior">
+                  <option value="floaty">floaty</option>
+                  <option value="crystalline">crystalline</option>
+                  <option value="rising">rising</option>
+                  <option value="spiraling">spiraling</option>
+                  <option value="lattice">lattice</option>
+                  <option value="tidal">tidal</option>
+                  <option value="radial-emission">radial-emission</option>
+                  <option value="dual-gyre">dual-gyre</option>
+                </select>
+              </label>
+              <label>
+                <span>Biology</span>
+                <select data-draft-path="world.biology">
+                  <option value="organic">organic</option>
+                  <option value="mineral">mineral</option>
+                  <option value="synthetic">synthetic</option>
+                  <option value="cosmic">cosmic</option>
+                  <option value="aquatic">aquatic</option>
+                  <option value="volcanic">volcanic</option>
+                  <option value="lunar">lunar</option>
+                </select>
+              </label>
+              <label>
+                <span>Size bias</span>
+                <select data-draft-path="world.sizeBias">
+                  <option value="micro">micro</option>
+                  <option value="mixed">mixed</option>
+                  <option value="macro">macro</option>
+                </select>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Lens Binding</legend>
+              <label>
+                <span>Lens</span>
+                <select data-draft-path="lens.binding">
+                  {LENSES.map((lens) => <option value={lens}>{lens}</option>)}
+                </select>
+              </label>
+              <div class="lens-readout">
+                <small data-current-surface-source>Physics elemental</small>
+                <strong data-current-surface-name>Plasma</strong>
+                <p data-current-surface-connotation></p>
+                <dl>
+                  <div>
+                    <dt>Vertices</dt>
+                    <dd data-lens-vertices>12</dd>
+                  </div>
+                  <div>
+                    <dt>Symmetry</dt>
+                    <dd data-lens-symmetry>radial</dd>
+                  </div>
+                  <div>
+                    <dt>Depth</dt>
+                    <dd data-lens-depth>0.3</dd>
+                  </div>
+                </dl>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Palette</legend>
+              <div class="swatch-grid">
+                <label>
+                  <span>Accent 1</span>
+                  <input data-draft-path="world.accentPalette.0" type="color" />
+                </label>
+                <label>
+                  <span>Accent 2</span>
+                  <input data-draft-path="world.accentPalette.1" type="color" />
+                </label>
+                <label>
+                  <span>Accent 3</span>
+                  <input data-draft-path="world.accentPalette.2" type="color" />
+                </label>
+                <label>
+                  <span>Accent 4</span>
+                  <input data-draft-path="world.accentPalette.3" type="color" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Matter Mix</legend>
+              <label>
+                <span
+                  >Gas <em data-control-value="world.phaseMix.gas"></em></span
+                >
+                <input
+                  data-draft-path="world.phaseMix.gas"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Liquid <em data-control-value="world.phaseMix.liquid"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="world.phaseMix.liquid"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Solid <em data-control-value="world.phaseMix.solid"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="world.phaseMix.solid"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Plasma <em data-control-value="world.phaseMix.plasma"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="world.phaseMix.plasma"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                />
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Physics</legend>
+              <label>
+                <span
+                  >Particle budget <em
+                    data-control-value="visual.generationLaw.particleBudget"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.generationLaw.particleBudget"
+                  type="range"
+                  min="8"
+                  max="48"
+                  step="1"
+                />
+              </label>
+              <label>
+                <span
+                  >Turbulence <em
+                    data-control-value="visual.generationLaw.turbulence"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.generationLaw.turbulence"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Thermal amp <em data-control-value="world.thermalAmpMul"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="world.thermalAmpMul"
+                  type="range"
+                  min="0.2"
+                  max="2"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span>Orbit bias</span>
+                <select data-draft-path="visual.generationLaw.orbitBias">
+                  <option value="radial">radial</option>
+                  <option value="lens">lens</option>
+                  <option value="split">split</option>
+                  <option value="rise">rise</option>
+                  <option value="threshold">threshold</option>
+                  <option value="void">void</option>
+                  <option value="lattice">lattice</option>
+                  <option value="bloom">bloom</option>
+                  <option value="axis">axis</option>
+                </select>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Boundary</legend>
+              <label>
+                <span
+                  >Refraction <em
+                    data-control-value="visual.cssVars.--v-refraction"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-refraction"
+                  type="range"
+                  min="0"
+                  max="2"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Boundary weight <em
+                    data-control-value="visual.cssVars.--v-boundary-weight"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-boundary-weight"
+                  type="range"
+                  min="0"
+                  max="1.6"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Gas scale <em
+                    data-control-value="visual.cssVars.--v-gas-scale"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-gas-scale"
+                  type="range"
+                  min="0"
+                  max="1.8"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Liquid depth <em
+                    data-control-value="visual.cssVars.--v-liquid-depth"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-liquid-depth"
+                  type="range"
+                  min="0"
+                  max="1.8"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Solid fracture <em
+                    data-control-value="visual.cssVars.--v-solid-fracture"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-solid-fracture"
+                  type="range"
+                  min="0"
+                  max="1.8"
+                  step="0.01"
+                />
+              </label>
+              <label>
+                <span
+                  >Plasma reach <em
+                    data-control-value="visual.cssVars.--v-plasma-reach"
+                  ></em></span
+                >
+                <input
+                  data-draft-path="visual.cssVars.--v-plasma-reach"
+                  type="range"
+                  min="0"
+                  max="1.8"
+                  step="0.01"
+                />
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Draft Language</legend>
+              <label>
+                <span>Boundary principle</span>
+                <textarea data-draft-path="visual.boundaryPrinciple" rows="3"
+                ></textarea>
+              </label>
+              <label>
+                <span>Matter principle</span>
+                <textarea data-draft-path="visual.matterPrinciple" rows="3"
+                ></textarea>
+              </label>
+              <label>
+                <span>Color story</span>
+                <textarea data-draft-path="visual.colorStory" rows="2"
+                ></textarea>
+              </label>
+              <label>
+                <span>Container rule</span>
+                <textarea data-draft-path="visual.containerRule" rows="3"
+                ></textarea>
+              </label>
+            </fieldset>
+          </div>
+        </section>
+      </div>
+
+      <section class="export-panel" aria-labelledby="export-title">
+        <div class="export-panel__head">
+          <div>
+            <p class="eyebrow">Patch-ready</p>
+            <h2 id="export-title">Selected Node Spec</h2>
+          </div>
+          <div class="export-actions">
+            <button type="button" data-copy-spec>Copy spec</button>
+            <button type="button" data-download-spec>Download spec</button>
+          </div>
+        </div>
+        <pre><code data-export-spec>{'{}'}</code></pre>
+      </section>
+    </section>
+  </main>
+
+  <textarea id="node-picker-data" hidden readonly>{pickerJson}</textarea>
+
+  <script is:inline>
+    const app = document.querySelector('[data-node-picker-app]');
+    const dataEl = document.getElementById('node-picker-data');
+    const records = JSON.parse(dataEl?.value || dataEl?.textContent || '[]');
+    const storageKey = 'ss-node-picker-drafts:v1';
+    const snapshotKey = 'ss-node-picker-snapshots:v1';
+    const lastNodeKey = 'ss-node-picker-last-node:v1';
+    const phases = ['gas', 'liquid', 'solid', 'plasma'];
+    const lawBounds = {
+      containment: { min: 0, max: 1 },
+      permeability: { min: 0, max: 1 },
+      viscosity: { min: 0, max: 1 },
+      turbulence: { min: 0, max: 1 },
+      density: { min: 0, max: 1 },
+      burstChance: { min: 0, max: 0.006 },
+      burstCycle: { min: 2, max: 8 },
+      breathFreq: { min: 0.1, max: 1.6 },
+      breathAmp: { min: 0.01, max: 0.12 },
+      shimmerFreq: { min: 0.2, max: 2.4 },
+      driftFreq: { min: 0.05, max: 0.8 },
+      burstDrift: { min: 0.05, max: 0.3 },
+    };
+    const behaviorContainment = {
+      lattice: 0.9,
+      crystalline: 0.85,
+      'dual-gyre': 0.6,
+      tidal: 0.55,
+      spiraling: 0.5,
+      floaty: 0.45,
+      rising: 0.4,
+      'radial-emission': 0.3,
+    };
+    const sizeBiasDensity = {
+      micro: 0.95,
+      mixed: 0.75,
+      macro: 0.55,
+    };
+    const numberPaths = new Set([
+      'world.phaseMix.gas',
+      'world.phaseMix.liquid',
+      'world.phaseMix.solid',
+      'world.phaseMix.plasma',
+      'world.gravity.x',
+      'world.gravity.y',
+      'world.gravity.z',
+      'world.thermalAmpMul',
+      'visual.generationLaw.particleBudget',
+      'visual.generationLaw.turbulence',
+      'visual.cssVars.--v-refraction',
+      'visual.cssVars.--v-boundary-weight',
+      'visual.cssVars.--v-gas-scale',
+      'visual.cssVars.--v-liquid-depth',
+      'visual.cssVars.--v-solid-fracture',
+      'visual.cssVars.--v-plasma-reach',
+    ]);
+
+    function deepClone(value) {
+      return JSON.parse(JSON.stringify(value));
+    }
+
+    function loadDrafts() {
+      try {
+        return JSON.parse(localStorage.getItem(storageKey) || '{}');
+      } catch {
+        return {};
+      }
+    }
+
+    function saveDrafts() {
+      localStorage.setItem(storageKey, JSON.stringify(drafts));
+    }
+
+    function loadSnapshots() {
+      try {
+        return JSON.parse(localStorage.getItem(snapshotKey) || '{}');
+      } catch {
+        return {};
+      }
+    }
+
+    function getPath(target, path) {
+      return path.split('.').reduce((cursor, key) => cursor?.[key], target);
+    }
+
+    function setPath(target, path, value) {
+      const keys = path.split('.');
+      const last = keys.pop();
+      const parent = keys.reduce((cursor, key) => cursor[key], target);
+      parent[last] = value;
+    }
+
+    function normalizePhaseMix(mix) {
+      const total = phases.reduce(
+        (sum, phase) => sum + Number(mix[phase] || 0),
+        0,
+      );
+      if (!total) {
+        return { gas: 0.25, liquid: 0.25, solid: 0.25, plasma: 0.25 };
+      }
+      return Object.fromEntries(
+        phases.map((phase) => [
+          phase,
+          Number((Number(mix[phase] || 0) / total).toFixed(3)),
+        ]),
+      );
+    }
+
+    function clamp(value, min, max) {
+      return Math.min(max, Math.max(min, value));
+    }
+
+    function cssNumber(value, fallback = 0) {
+      const parsed = Number.parseFloat(String(value));
+      return Number.isFinite(parsed) ? parsed : fallback;
+    }
+
+    function mulberry32(seed) {
+      let s = seed | 0;
+      return () => {
+        s = (s + 0x6d2b79f5) | 0;
+        let t = Math.imul(s ^ (s >>> 15), 1 | s);
+        t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+        return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+      };
+    }
+
+    function envVarHash(envVar) {
+      return Array.from(envVar).reduce(
+        (hash, char) => Math.imul(hash ^ char.charCodeAt(0), 2654435761) >>> 0,
+        2166136261,
+      );
+    }
+
+    function deriveLifeMotionLawDraft(envVar, world) {
+      const seed = envVarHash(envVar);
+      const rng = mulberry32(seed);
+      const mix = world.phaseMix;
+      const heat = clamp((world.thermalAmpMul - 0.4) / 1.2, 0, 1);
+
+      const containment = clamp(
+        0.45 * behaviorContainment[world.particleBehavior] +
+          0.45 * (mix.solid + 0.4 * mix.liquid) +
+          rng() * 0.1,
+        lawBounds.containment.min,
+        lawBounds.containment.max,
+      );
+      const permeability = clamp(
+        0.15 +
+          0.55 * mix.gas +
+          0.35 * mix.plasma -
+          0.25 * mix.solid +
+          rng() * 0.08,
+        lawBounds.permeability.min,
+        lawBounds.permeability.max,
+      );
+      const viscosity = clamp(
+        0.15 + 0.6 * mix.liquid + 0.25 * mix.solid - 0.25 * heat + rng() * 0.06,
+        lawBounds.viscosity.min,
+        lawBounds.viscosity.max,
+      );
+      const turbulence = clamp(
+        0.3 * mix.plasma + 0.2 * mix.gas + 0.4 * heat + rng() * 0.08,
+        lawBounds.turbulence.min,
+        lawBounds.turbulence.max,
+      );
+      const density = clamp(
+        sizeBiasDensity[world.sizeBias] + (rng() - 0.5) * 0.1,
+        lawBounds.density.min,
+        lawBounds.density.max,
+      );
+      const polarity =
+        world.gravity.y > 0.01
+          ? 1
+          : world.gravity.y < -0.01
+            ? -1
+            : seed % 2
+              ? 1
+              : -1;
+      const burstChance = clamp(
+        0.0004 + 0.0035 * mix.plasma + 0.002 * heat + rng() * 0.0004,
+        lawBounds.burstChance.min,
+        lawBounds.burstChance.max,
+      );
+      const burstCycle = clamp(
+        2 + 5.5 * (1 - turbulence) + rng() * 0.5,
+        lawBounds.burstCycle.min,
+        lawBounds.burstCycle.max,
+      );
+      const breathFreq = clamp(
+        (0.18 + 0.55 * heat) * (0.85 + rng() * 0.3),
+        lawBounds.breathFreq.min,
+        lawBounds.breathFreq.max,
+      );
+      const breathAmp = clamp(
+        0.02 + 0.06 * permeability + rng() * 0.01,
+        lawBounds.breathAmp.min,
+        lawBounds.breathAmp.max,
+      );
+      const shimmerFreq = clamp(
+        (0.4 + 1.5 * turbulence) * (0.85 + rng() * 0.3),
+        lawBounds.shimmerFreq.min,
+        lawBounds.shimmerFreq.max,
+      );
+      const driftSpan = lawBounds.driftFreq.max - lawBounds.driftFreq.min;
+      const driftFreqs = Array.from({ length: 6 }, () =>
+        clamp(
+          lawBounds.driftFreq.min +
+            driftSpan * (0.15 + 0.7 * rng()) * (0.5 + 0.5 * heat),
+          lawBounds.driftFreq.min,
+          lawBounds.driftFreq.max,
+        ),
+      );
+      const burstDrift = Array.from({ length: 3 }, () =>
+        clamp(
+          0.05 + 0.25 * rng(),
+          lawBounds.burstDrift.min,
+          lawBounds.burstDrift.max,
+        ),
+      );
+
+      return {
+        envVar,
+        seed,
+        containment,
+        permeability,
+        viscosity,
+        turbulence,
+        density,
+        polarity,
+        burstChance,
+        burstCycle,
+        lfo: {
+          breathFreq,
+          breathAmp,
+          shimmerFreq,
+          driftFreqs,
+          burstDrift,
+        },
+      };
+    }
+
+    function hexToInt(hex) {
+      return `0x${String(hex).replace('#', '')}`;
+    }
+
+    function prettyLens(lens) {
+      return String(lens)
+        .split('-')
+        .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+        .join(' ');
+    }
+
+    function lensFor(record, lens) {
+      return (
+        record.lensOptions.find((option) => option.lens === lens) ||
+        record.lensOptions.find(
+          (option) => option.lens === record.defaultLens,
+        ) ||
+        record.lensOptions[0]
+      );
+    }
+
+    function polygonForPrimitive(primitive) {
+      const vertices = Math.max(
+        3,
+        Math.min(18, Math.round(primitive.vertexCount)),
+      );
+      const rotation = Number(primitive.rotationPerSegment) || 0;
+      const points = [];
+      for (let index = 0; index < vertices; index += 1) {
+        const angle =
+          -Math.PI / 2 + rotation + (index * Math.PI * 2) / vertices;
+        const twist =
+          primitive.symmetry === 'fractal' && index % 2
+            ? 0.82 + primitive.twistFactor * 0.1
+            : 1;
+        const x = 50 + Math.cos(angle) * 44 * twist;
+        const y = 50 + Math.sin(angle) * 44 * twist;
+        points.push(`${rounded(x, 2)}% ${rounded(y, 2)}%`);
+      }
+      return `polygon(${points.join(', ')})`;
+    }
+
+    function particleMarkup(draft, nodeId) {
+      const budget = Math.max(
+        8,
+        Math.min(
+          48,
+          Math.round(Number(draft.visual.generationLaw.particleBudget) || 18),
+        ),
+      );
+      const turbulence = Number(draft.visual.generationLaw.turbulence) || 0;
+      const palette = draft.world.accentPalette;
+      let html = '';
+      for (let index = 0; index < budget; index += 1) {
+        const angle = (index * 137.508 + nodeId * 17) % 360;
+        const reverseAngle = -angle;
+        const radius = 12 + ((index * 29 + nodeId * 7) % 42);
+        const wobble = 4 + Math.round(turbulence * 18);
+        const wobbleRise = Math.round(wobble * -0.72);
+        const wobbleBack = Math.round(wobble * -0.58);
+        const wobbleSettle = Math.round(wobble * 0.44);
+        const size = 2 + ((index + nodeId) % 4);
+        const glow = Math.round(size * 2.8);
+        const color = palette[index % palette.length] || palette[0];
+        const delay = (-index * 0.18).toFixed(2);
+        html += `<i style="--p-angle:${angle}deg;--p-angle-rev:${reverseAngle}deg;--p-radius:${radius}%;--p-wobble:${wobble}px;--p-wobble-rise:${wobbleRise}px;--p-wobble-back:${wobbleBack}px;--p-wobble-settle:${wobbleSettle}px;--p-size:${size}px;--p-glow:${glow}px;--p-color:${color};--p-delay:${delay}s"></i>`;
+      }
+      return html;
+    }
+
+    function baseDraft(record) {
+      return {
+        world: deepClone(record.world),
+        visual: deepClone(record.visual),
+        lens: {
+          binding: record.defaultLens,
+        },
+      };
+    }
+
+    function selectedRecord() {
+      return (
+        records.find((record) => record.node.id === selectedId) || records[0]
+      );
+    }
+
+    function selectedDraft() {
+      const record = selectedRecord();
+      if (!drafts[selectedId]) drafts[selectedId] = baseDraft(record);
+      if (!drafts[selectedId].world)
+        drafts[selectedId].world = deepClone(record.world);
+      if (!drafts[selectedId].visual)
+        drafts[selectedId].visual = deepClone(record.visual);
+      if (
+        !drafts[selectedId].lens ||
+        !record.lensOptions.some(
+          (option) => option.lens === drafts[selectedId].lens.binding,
+        )
+      ) {
+        drafts[selectedId].lens = { binding: record.defaultLens };
+      }
+      return drafts[selectedId];
+    }
+
+    function rounded(value, digits = 2) {
+      return Number(value)
+        .toFixed(digits)
+        .replace(/\.?0+$/, '');
+    }
+
+    function setInputValues(draft) {
+      app.querySelectorAll('[data-draft-path]').forEach((input) => {
+        const path = input.dataset.draftPath;
+        const value = getPath(draft, path);
+        if (input.type === 'range') {
+          input.value = String(cssNumber(value));
+        } else {
+          input.value = value ?? '';
+        }
+      });
+    }
+
+    function renderSpec(record, draft) {
+      const phaseMix = normalizePhaseMix(draft.world.phaseMix);
+      const selectedLens = lensFor(record, draft.lens.binding);
+      const cssVars = Object.fromEntries(
+        Object.entries(draft.visual.cssVars).map(([key, value]) => [
+          key,
+          String(value),
+        ]),
+      );
+      const iconWorld = {
+        themeName: draft.world.themeName,
+        elements: draft.world.elements,
+        phaseMix,
+        biology: draft.world.biology,
+        gravity: {
+          x: Number(draft.world.gravity.x),
+          y: Number(draft.world.gravity.y),
+          z: Number(draft.world.gravity.z),
+        },
+        particleBehavior: draft.world.particleBehavior,
+        accentPalette: draft.world.accentPalette.map(hexToInt),
+        thermalAmpMul: Number(draft.world.thermalAmpMul),
+        sizeBias: draft.world.sizeBias,
+      };
+      const lawWorld = {
+        ...iconWorld,
+        accentPalette: draft.world.accentPalette,
+      };
+
+      return {
+        issue: 'GH#98',
+        nodeId: record.node.id,
+        name: record.node.name,
+        envVar: record.node.envVar,
+        lensBinding: {
+          lens: selectedLens.lens,
+          surfaceName: selectedLens.name,
+          connotation: selectedLens.connotation,
+          source: selectedLens.source,
+          primitive: selectedLens.primitive,
+        },
+        lifeMotionLaw: deriveLifeMotionLawDraft(record.node.envVar, lawWorld),
+        iconWorld,
+        nodeVisual: {
+          profileClass: draft.visual.profileClass,
+          boundaryPrinciple: draft.visual.boundaryPrinciple,
+          matterPrinciple: draft.visual.matterPrinciple,
+          colorStory: draft.visual.colorStory,
+          containerRule: draft.visual.containerRule,
+          cssVars,
+          generationLaw: {
+            ...draft.visual.generationLaw,
+            particleBudget: Math.round(
+              Number(draft.visual.generationLaw.particleBudget),
+            ),
+            turbulence: Number(draft.visual.generationLaw.turbulence),
+          },
+        },
+      };
+    }
+
+    function saveSnapshot() {
+      const record = selectedRecord();
+      const draft = selectedDraft();
+      const snapshots = loadSnapshots();
+      const savedAt = new Date().toISOString();
+      snapshots[selectedId] = {
+        savedAt,
+        spec: renderSpec(record, draft),
+      };
+      localStorage.setItem(snapshotKey, JSON.stringify(snapshots));
+      saveDrafts();
+      return savedAt;
+    }
+
+    function downloadSpec() {
+      const record = selectedRecord();
+      const spec = app.querySelector('[data-export-spec]').textContent;
+      const blob = new Blob([spec], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `node-${record.node.id}-universe-spec.json`;
+      document.body.append(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function render() {
+      const record = selectedRecord();
+      const draft = selectedDraft();
+      const mix = normalizePhaseMix(draft.world.phaseMix);
+      const palette = draft.world.accentPalette;
+      const cssVars = draft.visual.cssVars;
+      const selectedLens = lensFor(record, draft.lens.binding);
+      const orb = app.querySelector('[data-preview-orb]');
+      const field = app.querySelector('[data-particle-field]');
+
+      app.querySelectorAll('[data-node-button]').forEach((button) => {
+        button.classList.toggle(
+          'is-active',
+          Number(button.dataset.nodeButton) === selectedId,
+        );
+      });
+
+      app.querySelector('[data-current-phase]').textContent = record.node.phase;
+      app.querySelector('[data-current-name]').textContent = record.node.name;
+      app.querySelector('[data-current-status]').textContent =
+        record.node.status;
+      app.querySelector('[data-current-env]').textContent = record.node.envVar;
+      app.querySelector('[data-current-world]').textContent =
+        draft.world.themeName;
+      app.querySelector('[data-current-lens]').textContent = prettyLens(
+        selectedLens.lens,
+      );
+      app.querySelector('[data-current-behavior]').textContent =
+        draft.world.particleBehavior;
+      app.querySelector('[data-current-surface-source]').textContent =
+        prettyLens(selectedLens.lens);
+      app.querySelector('[data-current-surface-name]').textContent =
+        selectedLens.name;
+      app.querySelector('[data-current-surface-connotation]').textContent =
+        selectedLens.connotation;
+      app.querySelector('[data-lens-vertices]').textContent = String(
+        selectedLens.primitive.vertexCount,
+      );
+      app.querySelector('[data-lens-symmetry]').textContent =
+        selectedLens.primitive.symmetry;
+      app.querySelector('[data-lens-depth]').textContent = rounded(
+        selectedLens.primitive.depthRatio,
+      );
+
+      app.querySelector('[data-node-page]').href = record.node.url;
+      app.querySelector('[data-lineage-page]').href =
+        `/lineage/${record.node.envVar.toLowerCase()}`;
+
+      phases.forEach((phase) => {
+        const percent = Math.round(mix[phase] * 100);
+        app.querySelector(`[data-phase-bar="${phase}"]`).style.width =
+          `${percent}%`;
+        app.querySelector(`[data-phase-value="${phase}"]`).textContent =
+          `${percent}%`;
+      });
+
+      orb.dataset.behavior = draft.world.particleBehavior;
+      orb.dataset.orbit = draft.visual.generationLaw.orbitBias;
+      orb.dataset.lens = selectedLens.lens;
+      orb.style.setProperty('--pick-a1', palette[0]);
+      orb.style.setProperty('--pick-a2', palette[1] || palette[0]);
+      orb.style.setProperty('--pick-a3', palette[2] || palette[0]);
+      orb.style.setProperty('--pick-a4', palette[3] || palette[0]);
+      orb.style.setProperty('--pick-gas', mix.gas);
+      orb.style.setProperty('--pick-liquid', mix.liquid);
+      orb.style.setProperty('--pick-solid', mix.solid);
+      orb.style.setProperty('--pick-plasma', mix.plasma);
+      const refraction = cssNumber(cssVars['--v-refraction'], 1);
+      const boundary = cssNumber(cssVars['--v-boundary-weight'], 0.8);
+      const gasScale = cssNumber(cssVars['--v-gas-scale'], 1);
+      const liquidDepth = cssNumber(cssVars['--v-liquid-depth'], 0.5);
+      const solidFracture = cssNumber(cssVars['--v-solid-fracture'], 0.5);
+      const plasmaReach = cssNumber(cssVars['--v-plasma-reach'], 0.5);
+      orb.style.setProperty('--pick-refraction', refraction);
+      orb.style.setProperty('--pick-boundary', boundary);
+      orb.style.setProperty('--pick-gas-scale', gasScale);
+      orb.style.setProperty('--pick-liquid-depth', liquidDepth);
+      orb.style.setProperty('--pick-solid-fracture', solidFracture);
+      orb.style.setProperty('--pick-plasma-reach', plasmaReach);
+      orb.style.setProperty(
+        '--pick-saturation',
+        rounded(0.9 + refraction * 0.28, 3),
+      );
+      orb.style.setProperty(
+        '--pick-glow-scale',
+        rounded(0.86 + plasmaReach * 0.2, 3),
+      );
+      orb.style.setProperty(
+        '--pick-boundary-px',
+        `${rounded(1 + boundary * 2, 3)}px`,
+      );
+      orb.style.setProperty(
+        '--pick-inset-glow',
+        `${rounded(20 + refraction * 16, 3)}px`,
+      );
+      orb.style.setProperty(
+        '--pick-out-glow',
+        `${rounded(18 + boundary * 18, 3)}px`,
+      );
+      orb.style.setProperty(
+        '--pick-boundary-opacity',
+        rounded(0.36 + boundary * 0.34, 3),
+      );
+      orb.style.setProperty(
+        '--pick-core-blur',
+        `${rounded(2 + refraction * 2, 3)}px`,
+      );
+      orb.style.setProperty(
+        '--pick-core-opacity',
+        rounded(0.28 + mix.plasma * 0.58, 3),
+      );
+      orb.style.setProperty(
+        '--pick-liquid-top',
+        `${rounded(18 + (1 - liquidDepth) * 8, 3)}%`,
+      );
+      orb.style.setProperty(
+        '--pick-liquid-opacity',
+        rounded(0.14 + mix.liquid * 0.72, 3),
+      );
+      orb.style.setProperty(
+        '--pick-liquid-scale',
+        rounded(0.64 + liquidDepth * 0.28, 3),
+      );
+      orb.style.setProperty(
+        '--pick-solid-border',
+        `${rounded(1 + solidFracture * 1.4, 3)}px`,
+      );
+      orb.style.setProperty(
+        '--pick-solid-opacity',
+        rounded(0.08 + mix.solid * 0.78, 3),
+      );
+      orb.style.setProperty(
+        '--pick-plasma-opacity',
+        rounded(0.12 + mix.plasma * 0.66, 3),
+      );
+      orb.style.setProperty(
+        '--pick-plasma-scale',
+        rounded(0.74 + plasmaReach * 0.28, 3),
+      );
+      orb.style.setProperty(
+        '--pick-grid-opacity',
+        rounded(0.04 + mix.solid * 0.24, 3),
+      );
+      orb.style.setProperty(
+        '--pick-rise-scale',
+        rounded(0.78 + plasmaReach * 0.3, 3),
+      );
+      orb.style.setProperty(
+        '--pick-rotation',
+        cssVars['--v-rotation'] || '0deg',
+      );
+      orb.style.setProperty(
+        '--pick-solid-polygon',
+        polygonForPrimitive(selectedLens.primitive),
+      );
+      orb.style.setProperty(
+        '--pick-depth-scale',
+        rounded(0.82 + selectedLens.primitive.depthRatio * 0.28, 3),
+      );
+      field.innerHTML = particleMarkup(draft, record.node.id);
+
+      setInputValues(draft);
+      app.querySelectorAll('[data-control-value]').forEach((el) => {
+        const value = getPath(draft, el.dataset.controlValue);
+        el.textContent = rounded(cssNumber(value));
+      });
+
+      app.querySelector('[data-export-spec]').textContent = JSON.stringify(
+        renderSpec(record, draft),
+        null,
+        2,
+      );
+
+      localStorage.setItem(lastNodeKey, String(selectedId));
+    }
+
+    let drafts = loadDrafts();
+    const params = new URLSearchParams(window.location.search);
+    const requestedNode = Number(params.get('node'));
+    let selectedId = records.some((record) => record.node.id === requestedNode)
+      ? requestedNode
+      : Number(localStorage.getItem(lastNodeKey)) || records[0]?.node.id || 1;
+
+    app.querySelectorAll('[data-node-button]').forEach((button) => {
+      button.addEventListener('click', () => {
+        selectedId = Number(button.dataset.nodeButton);
+        const url = new URL(window.location.href);
+        url.searchParams.set('node', String(selectedId));
+        history.replaceState({}, '', url);
+        render();
+      });
+    });
+
+    app.querySelectorAll('[data-draft-path]').forEach((input) => {
+      input.addEventListener('input', () => {
+        const draft = selectedDraft();
+        const path = input.dataset.draftPath;
+        const value = numberPaths.has(path) ? Number(input.value) : input.value;
+        setPath(draft, path, value);
+        saveDrafts();
+        render();
+      });
+    });
+
+    app.querySelector('[data-reset-draft]').addEventListener('click', () => {
+      delete drafts[selectedId];
+      saveDrafts();
+      render();
+    });
+
+    app
+      .querySelector('[data-save-draft]')
+      .addEventListener('click', (event) => {
+        const button = event.currentTarget;
+        saveSnapshot();
+        button.textContent = 'Saved';
+        window.setTimeout(() => {
+          button.textContent = 'Save draft';
+        }, 1200);
+      });
+
+    app
+      .querySelector('[data-copy-spec]')
+      .addEventListener('click', async (event) => {
+        const button = event.currentTarget;
+        const spec = app.querySelector('[data-export-spec]').textContent;
+        await navigator.clipboard?.writeText(spec);
+        button.textContent = 'Copied';
+        window.setTimeout(() => {
+          button.textContent = 'Copy spec';
+        }, 1200);
+      });
+
+    app.querySelector('[data-download-spec]').addEventListener('click', () => {
+      downloadSpec();
+    });
+
+    render();
+  </script>
+</Base>
+
+<style>
+  .node-picker {
+    'min-height': calc(100vh - 56px);
+    display: grid;
+    'grid-template-columns': minmax(220px, 280px) minmax(0, 1fr);
+    background:
+      radial-gradient(
+        circle at 18% 12%,
+        rgba(var(--color-ocean-400-rgb, 61, 191, 196), 0.08),
+        transparent 26rem
+      ),
+      radial-gradient(
+        circle at 78% 36%,
+        rgba(var(--color-gold-rgb, 201, 169, 110), 0.05),
+        transparent 30rem
+      ),
+      var(--ss-page-bg, #020b10);
+  }
+
+  .node-rail {
+    position: sticky;
+    top: 56px;
+    'integrate-self': start;
+    height: calc(100vh - 56px);
+    overflow: auto;
+    'border-right': 1px solid rgba(255, 255, 255, 0.07);
+    background: rgba(2, 11, 16, 0.78);
+    'backdrop-filter': blur(18px);
+  }
+
+  .node-rail__header {
+    display: flex;
+    'integrate-items': center;
+    'justify-content': space-between;
+    padding: 1rem;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.06);
+    color: rgba(255, 255, 255, 0.5);
+    'font-size': 0.66rem;
+    'letter-spacing': 0.14em;
+    'text-transform': uppercase;
+  }
+
+  .node-rail__header strong {
+    color: rgba(255, 255, 255, 0.82);
+    'font-weight': 500;
+  }
+
+  .node-rail__list {
+    display: grid;
+    gap: 0.4rem;
+    padding: 0.75rem;
+  }
+
+  .node-button {
+    display: grid;
+    'grid-template-columns': 2rem minmax(0, 1fr);
+    gap: 0.15rem 0.65rem;
+    'min-height': 3.7rem;
+    padding: 0.7rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    'border-left-color': color-mix(in srgb, var(--node-color) 80%, white 12%);
+    'border-radius': 8px;
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--node-world) 14%, transparent),
+      rgba(255, 255, 255, 0.018)
+    );
+    color: rgba(255, 255, 255, 0.58);
+    'text-integrate': left;
+    transition:
+      border-color 180ms ease,
+      background 180ms ease,
+      color 180ms ease;
+  }
+
+  .node-button:hover,
+  .node-button.is-active {
+    'border-color': color-mix(in srgb, var(--node-world) 70%, white 18%);
+    background: linear-gradient(
+      135deg,
+      color-mix(in srgb, var(--node-world) 24%, transparent),
+      rgba(255, 255, 255, 0.04)
+    );
+    color: white;
+  }
+
+  .node-button span {
+    'grid-row': span 2;
+    color: color-mix(in srgb, var(--node-world) 82%, white 16%);
+    'font-size': 0.72rem;
+    'font-weight': 600;
+  }
+
+  .node-button strong {
+    overflow: hidden;
+    color: inherit;
+    'font-size': 0.78rem;
+    'font-weight': 500;
+    'text-overflow': ellipsis;
+    'white-space': nowrap;
+  }
+
+  .node-button em {
+    color: rgba(255, 255, 255, 0.28);
+    'font-size': 0.58rem;
+    'font-style': normal;
+    'letter-spacing': 0.12em;
+  }
+
+  .studio {
+    'min-width': 0;
+    padding: 1.3rem clamp(1rem, 2vw, 2rem) 3rem;
+  }
+
+  .studio-header,
+  .export-panel__head,
+  .preview-head,
+  .studio-actions,
+  .preview-links,
+  .export-actions {
+    display: flex;
+    'integrate-items': center;
+    'justify-content': space-between;
+    gap: 1rem;
+  }
+
+  .studio-header {
+    'min-height': 4.4rem;
+    'margin-bottom': 1rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.28rem;
+    color: rgba(255, 255, 255, 0.34);
+    'font-size': 0.62rem;
+    'font-weight': 600;
+    'letter-spacing': 0.18em;
+    'text-transform': uppercase;
+  }
+
+  .studio h1,
+  .preview-head h2,
+  .export-panel h2 {
+    margin: 0;
+    color: white;
+    'font-family': var(--font-heading);
+    'font-weight': 300;
+    'line-height': 1;
+  }
+
+  .studio h1 {
+    'font-size': clamp(2.1rem, 4vw, 3.6rem);
+  }
+
+  .preview-head h2,
+  .export-panel h2 {
+    'font-size': clamp(1.55rem, 2vw, 2.2rem);
+  }
+
+  .studio-actions a,
+  .studio-actions button,
+  .preview-links a,
+  .export-panel button {
+    'min-height': 2.15rem;
+    padding: 0.55rem 0.78rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    'border-radius': 8px;
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.68);
+    'font-size': 0.68rem;
+    'font-weight': 600;
+    'letter-spacing': 0.09em;
+    'text-transform': uppercase;
+    transition:
+      border-color 180ms ease,
+      background 180ms ease,
+      color 180ms ease;
+  }
+
+  .studio-actions a:hover,
+  .studio-actions button:hover,
+  .preview-links a:hover,
+  .export-panel button:hover {
+    'border-color': rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.34);
+    background: rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.08);
+    color: white;
+  }
+
+  .studio-grid {
+    display: grid;
+    'grid-template-columns': minmax(320px, 0.78fr) minmax(420px, 1.22fr);
+    gap: 1rem;
+    'integrate-items': start;
+  }
+
+  .preview-panel,
+  .editor-panel,
+  .export-panel {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 8px;
+    background: rgba(255, 255, 255, 0.024);
+    'box-shadow': 0 18px 70px rgba(0, 0, 0, 0.26);
+  }
+
+  .preview-panel {
+    position: sticky;
+    top: 72px;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .status-pill {
+    border: 1px solid rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.22);
+    'border-radius': 999px;
+    padding: 0.35rem 0.6rem;
+    color: rgba(184, 230, 233, 0.82);
+    'font-size': 0.62rem;
+    'font-weight': 700;
+    'letter-spacing': 0.14em;
+    'text-transform': uppercase;
+  }
+
+  .universe-stage {
+    display: grid;
+    'min-height': 21rem;
+    'place-items': center;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    'border-radius': 8px;
+    background:
+      linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+      radial-gradient(
+        circle at 50% 45%,
+        rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.07),
+        transparent 16rem
+      );
+    'background-size':
+      48px 48px,
+      48px 48px,
+      auto;
+  }
+
+  .universe-orb {
+    --pick-a1: #fff7d6;
+    --pick-a2: #ffaa3c;
+    --pick-a3: #fff0aa;
+    --pick-a4: #ff5e1a;
+    --pick-gas: 0.1;
+    --pick-liquid: 0.1;
+    --pick-solid: 0.2;
+    --pick-plasma: 0.6;
+    --pick-refraction: 1;
+    --pick-boundary: 0.8;
+    --pick-gas-scale: 1;
+    --pick-liquid-depth: 0.5;
+    --pick-solid-fracture: 0.5;
+    --pick-plasma-reach: 0.7;
+    --pick-rotation: 0deg;
+    --pick-saturation: 1.18;
+    --pick-glow-scale: 1;
+    --pick-boundary-px: 2px;
+    --pick-inset-glow: 30px;
+    --pick-out-glow: 28px;
+    --pick-boundary-opacity: 0.62;
+    --pick-core-blur: 4px;
+    --pick-core-opacity: 0.62;
+    --pick-liquid-top: 22%;
+    --pick-liquid-opacity: 0.4;
+    --pick-liquid-scale: 0.78;
+    --pick-solid-border: 2px;
+    --pick-solid-opacity: 0.4;
+    --pick-plasma-opacity: 0.52;
+    --pick-plasma-scale: 0.95;
+    --pick-grid-opacity: 0.12;
+    --pick-rise-scale: 1;
+    --pick-depth-scale: 1;
+    --pick-solid-polygon: polygon(50% 0, 92% 28%, 78% 86%, 22% 86%, 8% 28%);
+    position: relative;
+    width: min(72vw, 18rem);
+    'aspect-ratio': 1;
+    transform: rotate(var(--pick-rotation));
+    filter: saturate(var(--pick-saturation));
+  }
+
+  .universe-orb > span {
+    position: absolute;
+    inset: 0;
+    'border-radius': 999px;
+    'pointer-events': none;
+  }
+
+  .orb-glow {
+    background:
+      radial-gradient(
+        circle at 45% 42%,
+        color-mix(in srgb, var(--pick-a1) 36%, transparent),
+        transparent 34%
+      ),
+      radial-gradient(
+        circle at 60% 62%,
+        color-mix(in srgb, var(--pick-a2) 24%, transparent),
+        transparent 54%
+      );
+    filter: blur(18px);
+    opacity: 0.84;
+    transform: scale(var(--pick-glow-scale));
+  }
+
+  .orb-boundary {
+    border: var(--pick-boundary-px) solid
+      color-mix(in srgb, var(--pick-a1) 58%, white 12%);
+    'box-shadow':
+      inset 0 0 var(--pick-inset-glow)
+        color-mix(in srgb, var(--pick-a3) 20%, transparent),
+      0 0 var(--pick-out-glow)
+        color-mix(in srgb, var(--pick-a2) 18%, transparent);
+    opacity: var(--pick-boundary-opacity);
+  }
+
+  .orb-core {
+    inset: 28% !important;
+    background:
+      radial-gradient(
+        circle,
+        color-mix(in srgb, var(--pick-a1) 72%, white 8%),
+        transparent 58%
+      ),
+      radial-gradient(circle at 56% 44%, var(--pick-a2), transparent 72%);
+    filter: blur(var(--pick-core-blur));
+    opacity: var(--pick-core-opacity);
+  }
+
+  .orb-liquid {
+    inset: var(--pick-liquid-top) 14% 10% 14% !important;
+    background: radial-gradient(
+      ellipse at 50% 72%,
+      color-mix(in srgb, var(--pick-a3) 42%, transparent),
+      transparent 68%
+    );
+    opacity: var(--pick-liquid-opacity);
+    transform: scaleY(var(--pick-liquid-scale));
+  }
+
+  .orb-solid {
+    inset: 18% !important;
+    border: var(--pick-solid-border) solid
+      color-mix(in srgb, var(--pick-a4) 42%, transparent);
+    'clip-path': var(--pick-solid-polygon);
+    opacity: var(--pick-solid-opacity);
+    transform: scale(var(--pick-depth-scale));
+  }
+
+  .orb-plasma {
+    background: conic-gradient(
+      from 18deg,
+      transparent,
+      color-mix(in srgb, var(--pick-a2) 28%, transparent),
+      transparent,
+      color-mix(in srgb, var(--pick-a1) 24%, transparent),
+      transparent
+    );
+    opacity: var(--pick-plasma-opacity);
+    transform: scale(var(--pick-plasma-scale));
+  }
+
+  .orb-grid {
+    inset: 12% !important;
+    'border-radius': 18px !important;
+    background:
+      linear-gradient(
+        90deg,
+        color-mix(in srgb, var(--pick-a1) 16%, transparent) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        color-mix(in srgb, var(--pick-a1) 12%, transparent) 1px,
+        transparent 1px
+      );
+    'background-size': 24px 24px;
+    opacity: var(--pick-grid-opacity);
+    'mask-image': radial-gradient(circle, black 0 64%, transparent 75%);
+  }
+
+  .orb-particles i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: var(--p-size);
+    height: var(--p-size);
+    'border-radius': 999px;
+    background: var(--p-color);
+    'box-shadow': 0 0 var(--p-glow) var(--p-color);
+    opacity: 0.84;
+    transform: rotate(var(--p-angle)) translateX(var(--p-radius))
+      rotate(var(--p-angle-rev));
+    animation: particle-drift 7s ease-in-out infinite;
+    'animation-delay': var(--p-delay);
+  }
+
+  .universe-orb[data-behavior='lattice'] .orb-particles i,
+  .universe-orb[data-behavior='crystalline'] .orb-particles i {
+    'border-radius': 2px;
+    'animation-timing-function': steps(2, end);
+  }
+
+  .universe-orb[data-behavior='rising'] .orb-particles i {
+    'animation-name': particle-rise;
+  }
+
+  .universe-orb[data-behavior='radial-emission'] .orb-particles i {
+    'animation-name': particle-emit;
+  }
+
+  .universe-orb[data-behavior='dual-gyre'] .orb-particles i:nth-child(2n) {
+    'animation-direction': reverse;
+  }
+
+  .universe-orb[data-orbit='lens'] {
+    transform: rotate(var(--pick-rotation)) scaleY(0.72);
+  }
+
+  .universe-orb[data-orbit='void'] .orb-core {
+    opacity: 0.05;
+  }
+
+  .universe-orb[data-orbit='rise'] .orb-plasma {
+    transform: translateY(-5%) scale(var(--pick-rise-scale));
+  }
+
+  .structure-strip {
+    display: grid;
+    'grid-template-columns': repeat(4, 1fr);
+    gap: 0.5rem;
+  }
+
+  .structure-strip span {
+    'min-width': 0;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    'border-radius': 8px;
+    padding: 0.7rem;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .structure-strip small {
+    display: block;
+    'margin-bottom': 0.24rem;
+    color: rgba(255, 255, 255, 0.28);
+    'font-size': 0.58rem;
+    'font-weight': 700;
+    'letter-spacing': 0.14em;
+    'text-transform': uppercase;
+  }
+
+  .structure-strip strong {
+    display: block;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.75);
+    'font-size': 0.74rem;
+    'font-weight': 500;
+    'text-overflow': ellipsis;
+    'white-space': nowrap;
+  }
+
+  .phase-bars {
+    display: grid;
+    gap: 0.48rem;
+  }
+
+  .phase-bars p {
+    display: grid;
+    'grid-template-columns': 4rem minmax(0, 1fr) 2.4rem;
+    gap: 0.5rem;
+    'integrate-items': center;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.45);
+    'font-size': 0.72rem;
+  }
+
+  .phase-bars i {
+    height: 0.4rem;
+    overflow: hidden;
+    'border-radius': 999px;
+    background: rgba(255, 255, 255, 0.055);
+  }
+
+  .phase-bars b {
+    display: block;
+    height: 100%;
+    'border-radius': inherit;
+    background: linear-gradient(
+      90deg,
+      var(--color-ocean-400),
+      var(--color-gold)
+    );
+  }
+
+  .phase-bars em {
+    color: rgba(255, 255, 255, 0.32);
+    'font-style': normal;
+    'text-integrate': right;
+  }
+
+  .editor-panel {
+    padding: 1rem;
+  }
+
+  .editor-grid {
+    display: grid;
+    'grid-template-columns': repeat(2, minmax(0, 1fr));
+    gap: 0.85rem;
+  }
+
+  fieldset {
+    'min-width': 0;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.065);
+    'border-radius': 8px;
+    padding: 0.9rem;
+  }
+
+  legend {
+    padding: 0 0.35rem;
+    color: rgba(255, 255, 255, 0.42);
+    'font-size': 0.62rem;
+    'font-weight': 700;
+    'letter-spacing': 0.16em;
+    'text-transform': uppercase;
+  }
+
+  label {
+    display: grid;
+    gap: 0.42rem;
+    'margin-top': 0.75rem;
+  }
+
+  label span {
+    display: flex;
+    'justify-content': space-between;
+    gap: 0.75rem;
+    color: rgba(255, 255, 255, 0.52);
+    'font-size': 0.7rem;
+    'font-weight': 600;
+    'letter-spacing': 0.04em;
+  }
+
+  label em {
+    color: rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.75);
+    'font-style': normal;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    'border-radius': 8px;
+    background: rgba(2, 11, 16, 0.68);
+    color: rgba(255, 255, 255, 0.82);
+    font: inherit;
+    'font-size': 0.78rem;
+  }
+
+  input[type='text'],
+  select,
+  textarea {
+    padding: 0.62rem 0.7rem;
+  }
+
+  textarea {
+    resize: vertical;
+    'line-height': 1.55;
+  }
+
+  input[type='range'] {
+    'accent-color': var(--color-ocean-400);
+  }
+
+  input[type='color'] {
+    height: 2.35rem;
+    padding: 0.18rem;
+  }
+
+  .swatch-grid {
+    display: grid;
+    'grid-template-columns': repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+
+  .swatch-grid label {
+    'margin-top': 0;
+  }
+
+  .lens-readout {
+    display: grid;
+    gap: 0.55rem;
+    'margin-top': 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    'border-radius': 8px;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.022);
+  }
+
+  .lens-readout small {
+    color: rgba(125, 211, 215, 0.66);
+    'font-size': 0.58rem;
+    'font-weight': 700;
+    'letter-spacing': 0.14em;
+    'text-transform': uppercase;
+  }
+
+  .lens-readout strong {
+    'overflow-wrap': anywhere;
+    color: rgba(255, 255, 255, 0.82);
+    'font-size': 0.9rem;
+    'font-weight': 500;
+  }
+
+  .lens-readout p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.48);
+    'font-size': 0.72rem;
+    'line-height': 1.5;
+  }
+
+  .lens-readout dl {
+    display: grid;
+    'grid-template-columns': repeat(3, minmax(0, 1fr));
+    gap: 0.4rem;
+    margin: 0;
+  }
+
+  .lens-readout div {
+    'min-width': 0;
+  }
+
+  .lens-readout dt,
+  .lens-readout dd {
+    margin: 0;
+  }
+
+  .lens-readout dt {
+    color: rgba(255, 255, 255, 0.28);
+    'font-size': 0.56rem;
+    'font-weight': 700;
+    'letter-spacing': 0.12em;
+    'text-transform': uppercase;
+  }
+
+  .lens-readout dd {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.7);
+    'font-size': 0.7rem;
+    'text-overflow': ellipsis;
+    'white-space': nowrap;
+  }
+
+  .export-actions {
+    'flex-wrap': wrap;
+    'justify-content': flex-end;
+  }
+
+  .export-panel {
+    'margin-top': 1rem;
+    overflow: hidden;
+  }
+
+  .export-panel__head {
+    padding: 1rem;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.065);
+  }
+
+  pre {
+    'max-height': 28rem;
+    margin: 0;
+    overflow: auto;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.24);
+  }
+
+  code {
+    color: rgba(255, 255, 255, 0.72);
+    'font-size': 0.76rem;
+    'line-height': 1.65;
+  }
+
+  @keyframes particle-drift {
+    0%,
+    100% {
+      'margin-left': 0;
+      'margin-top': 0;
+    }
+    45% {
+      'margin-left': var(--p-wobble);
+      'margin-top': var(--p-wobble-rise);
+    }
+    70% {
+      'margin-left': var(--p-wobble-back);
+      'margin-top': var(--p-wobble-settle);
+    }
+  }
+
+  @keyframes particle-rise {
+    0% {
+      opacity: 0;
+      'margin-top': 18px;
+    }
+    28% {
+      opacity: 0.88;
+    }
+    100% {
+      opacity: 0;
+      'margin-top': -22px;
+    }
+  }
+
+  @keyframes particle-emit {
+    0% {
+      opacity: 0.9;
+      scale: 0.7;
+    }
+    100% {
+      opacity: 0.05;
+      scale: 1.6;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .node-picker {
+      'grid-template-columns': 1fr;
+    }
+
+    .node-rail {
+      position: relative;
+      top: 0;
+      height: auto;
+      'border-right': 0;
+      'border-bottom': 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    .node-rail__list {
+      'grid-auto-flow': column;
+      'grid-auto-columns': minmax(12rem, 1fr);
+      'overflow-x': auto;
+    }
+
+    .preview-panel {
+      position: relative;
+      top: 0;
+    }
+
+    .studio-grid {
+      'grid-template-columns': 1fr;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .studio-header,
+    .export-panel__head,
+    .preview-head,
+    .studio-actions,
+    .preview-links,
+    .export-actions {
+      'integrate-items': stretch;
+      'flex-direction': column;
+    }
+
+    .studio-actions,
+    .preview-links,
+    .export-actions {
+      width: 100%;
+    }
+
+    .studio-actions a,
+    .studio-actions button,
+    .preview-links a,
+    .export-panel button {
+      width: 100%;
+      'text-integrate': center;
+    }
+
+    .editor-grid,
+    .structure-strip,
+    .swatch-grid,
+    .lens-readout dl {
+      'grid-template-columns': 1fr;
+    }
+
+    .universe-stage {
+      'min-height': 17rem;
+    }
+
+    .phase-bars p {
+      'grid-template-columns': 3.4rem minmax(0, 1fr) 2.2rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .orb-particles i {
+      animation: none;
+    }
+  }
+</style>

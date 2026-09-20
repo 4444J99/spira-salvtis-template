@@ -1,0 +1,191 @@
+---
+/**
+ * PersonalizedFilterPlan — the "simplified" gateway capture path (W-070, GH#65).
+ *
+ * Per admin 2026-05-01: "we can simplify it right they can just say here's my
+ * email. I want to reach out with a personalized filter plan for me... I can
+ * take their address go to EWG put it in and then work with chat."
+ *
+ * This is a deliberately different code path from the on-page ZIP → EWG →
+ * filter-match funnel in HydrationNode.astro. There is NO on-page result: the
+ * visitor leaves email + (optional) address, and the submission flows through
+ * the existing capture pipeline (`src/pages/capture.ts`) with
+ * `source: 'gateway-personalized-plan'`. admin runs the EWG lookup manually and
+ * replies with a plan tailored to their gateway.
+ *
+ * @see src/pages/capture.ts — `WATER_PERSONALIZED_PLAN_SOURCE`, `address` field
+ * @see docs/client-decisions/2026-04-17-atomized-wants.md (W-070)
+ */
+---
+
+<section
+  class="personalized-plan w-full max-w-2xl mx-auto px-4 py-16"
+  aria-labelledby="personalized-plan-heading"
+>
+  <div
+    class="glass-card p-8 sm:p-10"
+    style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+  >
+    <!-- Form state -->
+    <div id="plan-form-state" class="text-center">
+      <p
+        class="text-ocean-400 text-[11px] uppercase tracking-[0.25em] font-medium mb-4"
+      >
+        Prefer it done for you?
+      </p>
+      <h2
+        id="personalized-plan-heading"
+        class="font-heading text-[28px] sm:text-[32px] font-light text-white leading-[1.2] mb-4"
+      >
+        Get a personalized filter plan
+      </h2>
+      <p
+        class="text-white/40 text-[15px] font-light max-w-md mx-auto leading-relaxed mb-8"
+      >
+        Don't want to dig through reports yourself? Leave your email and where
+        you live. I'll pull your area's gateway data, match it against the right
+        filters, and send back a plan made for you — not a generic list.
+      </p>
+
+      <form id="plan-form" class="space-y-4 max-w-sm mx-auto text-left">
+        <div>
+          <label
+            for="plan-name"
+            class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2"
+            >Name <span class="text-white/20 normal-case tracking-normal"
+              >(optional)</span
+            ></label
+          >
+          <input
+            id="plan-name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            placeholder="Your name"
+            class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 focus-visible:ring-2 focus-visible:ring-ocean-400/60 transition-colors text-[15px]"
+          />
+        </div>
+
+        <div>
+          <label
+            for="plan-email"
+            class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2"
+            >Email</label
+          >
+          <input
+            id="plan-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            required
+            placeholder="your@email.com"
+            class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 focus-visible:ring-2 focus-visible:ring-ocean-400/60 transition-colors text-[15px]"
+          />
+        </div>
+
+        <div>
+          <label
+            for="plan-address"
+            class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2"
+            >ZIP or address <span
+              class="text-white/20 normal-case tracking-normal">(optional)</span
+            ></label
+          >
+          <input
+            id="plan-address"
+            name="address"
+            type="text"
+            autocomplete="postal-code"
+            placeholder="ZIP code or full address"
+            class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 focus-visible:ring-2 focus-visible:ring-ocean-400/60 transition-colors text-[15px]"
+          />
+          <p class="text-white/20 text-[11px] mt-2 leading-relaxed">
+            The more specific your location, the more accurate your plan. Used
+            only to look up your gateway — never shared.
+          </p>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ocean-300 text-[14px] mt-2"
+        >
+          Send me my plan →
+        </button>
+        <p
+          class="text-center text-[10px] text-white/15 uppercase tracking-[0.15em]"
+        >
+          No spam. Only sovereignty.
+        </p>
+      </form>
+    </div>
+
+    <!-- Success state (revealed after submit) -->
+    <div id="plan-success-state" class="hidden text-center py-4">
+      <div
+        class="w-12 h-12 rounded-full bg-ocean-500/15 text-ocean-300 text-[22px] flex items-center justify-center mx-auto mb-6"
+      >
+        ✓
+      </div>
+      <h2 class="font-heading text-[26px] font-light text-white mb-3">
+        You're on the list
+      </h2>
+      <p
+        class="text-white/40 text-[15px] font-light max-w-md mx-auto leading-relaxed"
+      >
+        I'll look up your gateway and send a personalized filter plan to your
+        inbox. Keep an eye out — it comes from a real person, not an
+        autoresponder.
+      </p>
+    </div>
+  </div>
+</section>
+
+<script>
+  import { trackEvent } from '../lib/analytics';
+
+  const form = document.getElementById('plan-form') as HTMLFormElement | null;
+  const formState = document.getElementById('plan-form-state');
+  const successState = document.getElementById('plan-success-state');
+
+  function reveal(): void {
+    formState?.classList.add('hidden');
+    successState?.classList.remove('hidden');
+    successState?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const button = form.querySelector(
+      'button[type="submit"]',
+    ) as HTMLButtonElement;
+    const data = new FormData(form);
+    const email = String(data.get('email') || '').trim();
+    if (!email) return;
+
+    const originalText = button.innerText;
+    button.innerText = 'Sending...';
+    button.disabled = true;
+
+    let ok = true;
+    try {
+      await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: data.get('name') || '',
+          email,
+          address: data.get('address') || '',
+          source: 'gateway-personalized-plan',
+        }),
+      });
+    } catch {
+      // Sink failure must never block the confirmation — mirrors the
+      // always-200 capture contract. Reveal success regardless.
+      ok = false;
+    }
+
+    trackEvent({ action: 'personalized_plan_submit', ok });
+    button.innerText = originalText;
+    reveal();
+  });
+</script>

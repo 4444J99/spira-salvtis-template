@@ -1,0 +1,84 @@
+---
+import { citations } from '../data/citations';
+
+interface Props {
+  ids: string[];
+}
+
+const { ids } = Astro.props;
+const relevantCitations = citations.filter((c) => ids.includes(c.id));
+---
+
+<div class="mt-20 border-t border-ocean-500/20 pt-10">
+  <details class="group">
+    <summary class="flex items-center justify-between cursor-pointer list-none">
+      <h3
+        class="font-heading text-[18px] font-light text-white/60 group-hover:text-white transition-colors"
+      >
+        Technical Research &#x26; Citations
+      </h3>
+      <span class="text-ocean-500 group-open:rotate-180 transition-transform">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"><path d="m6 9 6 6 6-9"></path></svg
+        >
+      </span>
+    </summary>
+
+    <div class="mt-8 space-y-8">
+      {
+        relevantCitations.map((c) => (
+          <div class="grid md:grid-cols-[100px_1fr] gap-4 pb-8 border-b border-ocean-500/10 last:border-0">
+            <div class="text-[12px] font-mono text-ocean-500/60 font-bold">
+              {c.id}
+            </div>
+            <div>
+              <h4 class="text-[15px] font-medium text-white mb-2">
+                {c.source}
+              </h4>
+              <p class="text-[14px] text-white/50 leading-relaxed italic mb-3">
+                "{c.detail}"
+              </p>
+              <div class="text-[11px] font-mono text-ocean-400/80">
+                {c.context.startsWith('http') ? (
+                  <a
+                    href={c.context}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-ocean-300 transition-colors underline underline-offset-4 decoration-ocean-500/30"
+                  >
+                    View Source &#x2192;
+                  </a>
+                ) : (
+                  <span>{c.context}</span>
+                )}
+              </div>
+            </div>
+          </div>
+        ))
+      }
+
+      <div class="pt-4">
+        <a
+          href="/research"
+          class="text-[13px] text-ocean-400 hover:text-ocean-300 transition-colors font-medium underline underline-offset-4 decoration-ocean-500/30"
+        >
+          View full bibliography &#x2192;
+        </a>
+      </div>
+    </div>
+  </details>
+</div>
+
+<style>
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+</style>

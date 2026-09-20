@@ -1,0 +1,2410 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CTAButton from '../../components/CTAButton.astro';
+import WorldMotif from '../../components/WorldMotif.astro';
+import { config } from '../../data/hub.config';
+import type { SpiralNode } from '../../data/hub.config';
+import { worldFor, hexToCss } from '../../data/icon-worlds';
+import { visualForNode } from '../../data/node-visuals';
+
+const allNodeContent = await getCollection('nodes');
+
+export function getStaticPaths() {
+  // Node 5 (Gateway) lives at /gateway/, not /nodes/5 — only nodes whose
+  // canonical url is under /nodes/ get a page here (12 of the 13). Keying
+  // off the url keeps the route set in lockstep with hub.config.
+  return config.nodes
+    .filter((node) => node.url.startsWith('/nodes/'))
+    .map((node) => ({
+      params: { id: String(node.id) },
+      props: { node },
+    }));
+}
+
+interface Props {
+  node: SpiralNode;
+}
+
+const { node } = Astro.props;
+const pillar = config.pillars.find((p) => p.slug === node.pillarSlug);
+const phaseLabel = `${node.phase.charAt(0)}${node.phase.slice(1).toLowerCase()} Phase`;
+const isLive = node.status === 'live';
+const world = worldFor(node.id);
+const visual = visualForNode(node.id);
+const palette = world.accentPalette.map(hexToCss);
+const nodeThemeStyle = [
+  `--node-a1: ${palette[0]}`,
+  `--node-a2: ${palette[1] ?? palette[0]}`,
+  `--node-a3: ${palette[2] ?? palette[0]}`,
+  `--node-a4: ${palette[3] ?? palette[0]}`,
+  `--node-gas: ${world.phaseMix.gas}`,
+  `--node-liquid: ${world.phaseMix.liquid}`,
+  `--node-solid: ${world.phaseMix.solid}`,
+  `--node-plasma: ${world.phaseMix.plasma}`,
+  ...Object.entries(visual.cssVars).map(([key, value]) => `${key}: ${value}`),
+].join('; ');
+const nodeEnvClass = `node-vessel--${node.envVar.toLowerCase()}`;
+const nodeVisualClass = `node-vessel--${visual.profileClass}`;
+const generationOrder = visual.generationLaw.createOrder.join(',');
+const phaseEntries = Object.entries(world.phaseMix).filter(
+  ([, value]) => value > 0,
+);
+const dominantPhase = [...phaseEntries].sort((a, b) => b[1] - a[1])[0]?.[0];
+const dominantMatter = phaseEntries
+  .sort((a, b) => b[1] - a[1])
+  .map(([name]) => name)
+  .slice(0, 2)
+  .join(' + ');
+const nodeWorldHref = (n: SpiralNode) =>
+  n.url.startsWith('/nodes/') ? n.url : `/nodes/${n.id}`;
+const nodeActivation =
+  node.pillarSlug === 'foundation'
+    ? {
+        eyebrow: 'Continue from here',
+        title: 'Bring the work into the body.',
+        body: 'Start with the gateway pathway and turn the node into a concrete next step.',
+        primaryHref: '/gateway/quiz',
+        primaryLabel: 'Take the Gateway Quiz',
+        secondaryHref: '/quiz',
+        secondaryLabel: 'Retake Spiral Quiz',
+      }
+    : node.pillarSlug === 'vision'
+      ? {
+          eyebrow: 'Continue from here',
+          title: 'Turn clarity into systems.',
+          body: 'Move from the spiral into the business pathway for time, money, and offer structure.',
+          primaryHref: '/business/',
+          primaryLabel: 'Explore Business',
+          secondaryHref: '/quiz',
+          secondaryLabel: 'Retake Spiral Quiz',
+        }
+      : {
+          eyebrow: 'Continue from here',
+          title: 'Find the live doorway.',
+          body: 'Use the assessment to locate the open node that can hold this layer right now.',
+          primaryHref: '/quiz',
+          primaryLabel: 'Find Your Starting Point',
+          secondaryHref: pillar?.url,
+          secondaryLabel: pillar ? `Explore ${pillar.name}` : undefined,
+        };
+
+// Content collection lookup
+const nodeContent = allNodeContent.find((c) => c.data.nodeId === node.id);
+const hasContent = !!nodeContent;
+let Content: Awaited<ReturnType<typeof render>>['Content'] | null = null;
+let data: CollectionEntry<'nodes'>['data'] | null = null;
+if (nodeContent) {
+  const rendered = await render(nodeContent);
+  Content = rendered.Content;
+  data = nodeContent.data;
+}
+
+// Sequential navigation
+const allNodes = config.nodes;
+const currentIndex = allNodes.findIndex((n) => n.id === node.id);
+const prevNode = currentIndex > 0 ? allNodes[currentIndex - 1] : null;
+const nextNode =
+  currentIndex < allNodes.length - 1 ? allNodes[currentIndex + 1] : null;
+---
+
+<Base
+  title={`${node.name} — ${config.name}`}
+  description={data?.intention || node.tagline}
+>
+  <div class="node-world" style={nodeThemeStyle}>
+    <section
+      class="node-hero relative isolate overflow-hidden px-6 py-24 md:px-10 md:py-32"
+    >
+      <WorldMotif nodeId={node.id} />
+      <div class="node-hero__field absolute inset-0" aria-hidden="true"></div>
+      <div
+        class="relative z-10 mx-auto grid max-w-6xl gap-12 md:grid-cols-[minmax(0,0.88fr)_minmax(320px,0.72fr)] md:items-center"
+      >
+        <div>
+          <p
+            class="mb-5 text-[10px] font-medium uppercase tracking-[0.22em] text-white/35"
+          >
+            Node {node.id} / {phaseLabel}
+          </p>
+          <h1
+            class="font-heading text-[46px] font-light leading-none text-white md:text-[76px]"
+          >
+            {node.name}
+          </h1>
+          <p
+            class="mt-7 max-w-xl text-[18px] font-light leading-[1.8] text-white/55"
+          >
+            {node.tagline}
+          </p>
+          <div
+            class="mt-9 flex flex-wrap gap-x-6 gap-y-3 text-[10px] uppercase tracking-[0.18em] text-white/38"
+          >
+            <span>{world.themeName}</span>
+            <span>{dominantMatter}</span>
+            <span>{world.biology}</span>
+          </div>
+        </div>
+
+        <div
+          class={`node-vessel node-vessel--${world.particleBehavior} node-vessel--dominant-${dominantPhase} ${nodeEnvClass} ${nodeVisualClass}`}
+          data-node-id={node.id}
+          data-render-law={visual.generationLaw.orbitBias}
+          data-create-order={generationOrder}
+          data-particle-budget={visual.generationLaw.particleBudget}
+          data-turbulence={visual.generationLaw.turbulence}
+          aria-hidden="true"
+        >
+          <div class="node-vessel__membrane">
+            <span class="node-vessel__core"></span>
+            <span class="node-vessel__current node-vessel__current--one"></span>
+            <span class="node-vessel__current node-vessel__current--two"></span>
+            <span class="node-vessel__boundary"></span>
+            <span class="node-vessel__stars node-vessel__stars--one"></span>
+            <span class="node-vessel__stars node-vessel__stars--two"></span>
+            <span class="node-vessel__matter node-vessel__matter--gas"></span>
+            <span class="node-vessel__matter node-vessel__matter--liquid"
+            ></span>
+            <span class="node-vessel__matter node-vessel__matter--solid"></span>
+            <span class="node-vessel__matter node-vessel__matter--plasma"
+            ></span>
+            <span class="node-vessel__phase-field" aria-hidden="true"></span>
+            <span class="node-vessel__nested" aria-hidden="true">
+              <span class="node-vessel__chamber node-vessel__chamber--gas">
+                <span class="node-vessel__chamber node-vessel__chamber--liquid">
+                  <span
+                    class="node-vessel__chamber node-vessel__chamber--solid"
+                  >
+                    <span
+                      class="node-vessel__chamber node-vessel__chamber--plasma"
+                    ></span>
+                  </span>
+                </span>
+              </span>
+            </span>
+            <span class="node-vessel__generated" aria-hidden="true"></span>
+            <span class="node-vessel__lattice"></span>
+            <span class="node-vessel__meniscus"></span>
+            <span class="node-vessel__veil"></span>
+            <span class="node-vessel__corona"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="node-material px-6 py-10 md:px-10">
+      <div
+        class="mx-auto grid max-w-6xl gap-7 border-y border-white/[0.06] py-8 md:grid-cols-[0.8fr_1fr] md:items-center"
+      >
+        <div>
+          <p
+            class="text-[10px] font-medium uppercase tracking-[0.2em] text-white/25"
+          >
+            Interior matter
+          </p>
+          <p
+            class="mt-3 font-heading text-[26px] font-light leading-tight text-white/72"
+          >
+            {visual.boundaryPrinciple}
+          </p>
+          <p class="mt-4 text-[15px] font-light leading-[1.8] text-white/42">
+            {visual.matterPrinciple}
+          </p>
+          <p class="mt-3 text-[11px] uppercase tracking-[0.18em] text-white/28">
+            {visual.colorStory}
+          </p>
+        </div>
+        <div class="grid gap-3">
+          {
+            phaseEntries.map(([phase, value]) => (
+              <div class="node-phase-row">
+                <span>{phase}</span>
+                <i style={`--phase-width: ${(value * 100).toFixed(0)}%`} />
+                <em>{(value * 100).toFixed(0)}%</em>
+              </div>
+            ))
+          }
+          <p class="node-container-rule">{visual.containerRule}</p>
+        </div>
+      </div>
+    </section>
+
+    {
+      isLive && hasContent ? (
+        <section class="py-20 px-6">
+          <div class="max-w-2xl mx-auto">
+            {/* Sub-header quote */}
+            {data?.subHeader && (
+              <p class="font-heading text-[20px] italic text-ocean-400 text-center mb-12 leading-relaxed">
+                {data.subHeader}
+              </p>
+            )}
+
+            {/* Intention box */}
+            {data?.intention && (
+              <div class="mb-12">
+                <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-3">
+                  Intention
+                </p>
+                <div
+                  class="glass-card p-6 sm:p-8"
+                  style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.12);"
+                >
+                  <p class="font-heading text-[18px] font-light text-white/70 leading-[1.7]">
+                    {data.intention}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* Markdown body content (Content is null when no markdown entry exists) */}
+            {Content && (
+              <div class="prose-node text-white/45 text-[16px] font-light leading-[1.9] mb-12">
+                <Content />
+              </div>
+            )}
+
+            {/* Core steps */}
+            {data?.steps && data.steps.length > 0 && (
+              <div class="mb-12">
+                <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-6">
+                  Core Steps
+                </p>
+                <div class="space-y-6">
+                  {data.steps.map((step, i) => (
+                    <div class="flex gap-4">
+                      <span class="font-heading text-[28px] text-white/10 leading-none mt-1">
+                        {String(i + 1).padStart(2, '0')}
+                      </span>
+                      <div>
+                        <h3 class="text-white/80 text-[16px] font-medium mb-2">
+                          {step.title}
+                        </h3>
+                        <p class="text-white/40 text-[15px] font-light leading-[1.8]">
+                          {step.text}
+                        </p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Practice table (Science / Sacred / Soul) */}
+            {data?.practiceTable && data.practiceTable.length > 0 && (
+              <div class="mb-12">
+                <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-4">
+                  Practice
+                </p>
+                <div class="overflow-x-auto">
+                  <table class="w-full text-[13px] border-collapse">
+                    <thead>
+                      <tr class="border-b border-white/10">
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Science
+                        </th>
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Sacred
+                        </th>
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Soul Practice
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.practiceTable.map((row) => (
+                        <tr class="border-b border-white/5">
+                          <td class="py-3 px-2 text-white/35 font-light">
+                            {row.science}
+                          </td>
+                          <td class="py-3 px-2 text-white/35 font-light font-heading italic">
+                            {row.sacred}
+                          </td>
+                          <td class="py-3 px-2 text-ocean-400/70 font-medium">
+                            {row.soul}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* Tools table (Tool / Purpose / Sacred) */}
+            {data?.toolsTable && data.toolsTable.length > 0 && (
+              <div class="mb-12">
+                <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-4">
+                  Regulation Tools
+                </p>
+                <div class="overflow-x-auto">
+                  <table class="w-full text-[13px] border-collapse">
+                    <thead>
+                      <tr class="border-b border-white/10">
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Tool
+                        </th>
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Purpose
+                        </th>
+                        <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
+                          Sacred Mirror
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {data.toolsTable.map((row) => (
+                        <tr class="border-b border-white/5">
+                          <td class="py-3 px-2 text-ocean-400/70 font-medium">
+                            {row.tool}
+                          </td>
+                          <td class="py-3 px-2 text-white/35 font-light">
+                            {row.purpose}
+                          </td>
+                          <td class="py-3 px-2 text-white/35 font-light font-heading italic">
+                            {row.sacred}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {/* Reflection prompts */}
+            {data?.reflectionPrompts && data.reflectionPrompts.length > 0 && (
+              <div class="mb-12">
+                <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-4">
+                  Reflection
+                </p>
+                <div
+                  class="glass-card p-6 sm:p-8 text-center"
+                  style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.08);"
+                >
+                  {data.reflectionPrompts.map((prompt: string) => (
+                    <p class="font-heading text-[18px] italic text-white/50 leading-[1.7] mb-3 last:mb-0">
+                      "{prompt}"
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Closing line */}
+            {data?.closingLine && (
+              <p class="font-heading text-[20px] font-light text-white/60 text-center leading-relaxed mt-12">
+                {data.closingLine}
+              </p>
+            )}
+          </div>
+        </section>
+      ) : isLive ? (
+        <section class="py-20 px-6">
+          <div class="max-w-2xl mx-auto">
+            <p class="text-white/45 text-[16px] font-light leading-[1.9]">
+              {node.tagline}
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section class="py-20 px-6">
+          <div class="max-w-md mx-auto text-center">
+            <div
+              class="glass-card p-10"
+              style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+            >
+              <div class="w-10 h-px bg-ocean-500/30 mx-auto mb-6" />
+              <p class="text-[48px] mb-4">{node.emoji}</p>
+              <h2 class="font-heading text-[24px] font-light text-white mb-3">
+                Coming Soon
+              </h2>
+              <p class="text-white/35 text-[15px] font-light leading-relaxed mb-8">
+                This node is part of the {phaseLabel}. It will activate as the
+                spiral grows.
+              </p>
+              {pillar && (
+                <CTAButton
+                  href={pillar.url}
+                  label={`Explore ${pillar.name}`}
+                  variant="secondary"
+                />
+              )}
+            </div>
+          </div>
+        </section>
+      )
+    }
+
+    {/* Activation CTA — prevents node pages from ending as cul-de-sacs. */}
+    <section class="px-6 py-16 border-t border-white/[0.04]">
+      <div class="mx-auto max-w-2xl text-center">
+        <p
+          class="text-[10px] font-medium uppercase tracking-[0.2em] text-white/20"
+        >
+          {nodeActivation.eyebrow}
+        </p>
+        <h2
+          class="mt-4 font-heading text-[clamp(28px,4vw,40px)] font-light text-white/82"
+        >
+          {nodeActivation.title}
+        </h2>
+        <p class="mx-auto mt-4 max-w-md text-[15px] font-light leading-[1.8] text-white/42">
+          {nodeActivation.body}
+        </p>
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <CTAButton
+            href={nodeActivation.primaryHref}
+            label={nodeActivation.primaryLabel}
+          />
+          {
+            nodeActivation.secondaryHref && nodeActivation.secondaryLabel && (
+              <CTAButton
+                href={nodeActivation.secondaryHref}
+                label={nodeActivation.secondaryLabel}
+                variant="secondary"
+              />
+            )
+          }
+        </div>
+      </div>
+    </section>
+
+    {/* Lineage link — surface name to True Name to chain of traditions */}
+    <section class="py-10 px-6 border-t border-white/[0.04]">
+      <div class="max-w-2xl mx-auto text-center">
+        <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-3">
+          Substrate
+        </p>
+        <a
+          href={`/lineage/${node.envVar.toLowerCase()}`}
+          class="inline-block group"
+        >
+          <span
+            class="font-heading text-[28px] font-light text-white/65 group-hover:text-white tracking-wide transition-colors"
+          >
+            {node.envVar}
+          </span>
+          <p
+            class="mt-2 text-[12px] text-white/30 group-hover:text-ocean-400/70 uppercase tracking-[0.15em] transition-colors"
+          >
+            See lineage across traditions &rarr;
+          </p>
+        </a>
+      </div>
+    </section>
+
+    {/* Sequential navigation */}
+    <section class="py-12 px-6 border-t border-white/[0.04]">
+      <div class="max-w-2xl mx-auto">
+        <div class="flex items-center justify-between">
+          {
+            prevNode ? (
+              <a
+                href={nodeWorldHref(prevNode)}
+                class="group flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors"
+              >
+                <span class="text-[18px] group-hover:-translate-x-1 transition-transform">
+                  &larr;
+                </span>
+                <div class="text-right">
+                  <span class="text-[10px] uppercase tracking-[0.15em] text-white/20 block">
+                    Previous
+                  </span>
+                  <span class="text-[14px]">
+                    {prevNode.emoji} {prevNode.name}
+                  </span>
+                </div>
+              </a>
+            ) : (
+              <div />
+            )
+          }
+          <a
+            href="/spiral"
+            class="text-[11px] uppercase tracking-[0.15em] text-white/20 hover:text-white/40 transition-colors"
+          >
+            Spiral
+          </a>
+          {
+            nextNode ? (
+              <a
+                href={nodeWorldHref(nextNode)}
+                class="group flex items-center gap-2 text-white/30 hover:text-white/60 transition-colors"
+              >
+                <div>
+                  <span class="text-[10px] uppercase tracking-[0.15em] text-white/20 block">
+                    Next
+                  </span>
+                  <span class="text-[14px]">
+                    {nextNode.emoji} {nextNode.name}
+                  </span>
+                </div>
+                <span class="text-[18px] group-hover:translate-x-1 transition-transform">
+                  &rarr;
+                </span>
+              </a>
+            ) : (
+              <div />
+            )
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<script is:inline>
+  (() => {
+    const reducedMotion = window.matchMedia(
+      '(prefers-reduced-motion: reduce)',
+    ).matches;
+    const vessels = document.querySelectorAll('[data-render-law]');
+
+    const biasPoint = (bias, phase, random) => {
+      if (bias === 'lens') return [18 + random() * 64, 42 + random() * 20];
+      if (bias === 'split') {
+        const left = random() > 0.5;
+        return [
+          left ? 22 + random() * 18 : 60 + random() * 18,
+          22 + random() * 56,
+        ];
+      }
+      if (bias === 'rise') return [38 + random() * 24, 72 - random() * 58];
+      if (bias === 'threshold') return [32 + random() * 36, 26 + random() * 48];
+      if (bias === 'void') return [18 + random() * 40, 28 + random() * 54];
+      if (bias === 'lattice')
+        return [
+          24 + Math.round(random() * 4) * 12,
+          20 + Math.round(random() * 4) * 14,
+        ];
+      if (bias === 'bloom') {
+        const angle = random() * Math.PI * 2;
+        const radius = phase === 'solid' ? 36 : 16 + random() * 34;
+        return [50 + Math.cos(angle) * radius, 50 + Math.sin(angle) * radius];
+      }
+      if (bias === 'axis') return [45 + random() * 10, 18 + random() * 64];
+      const angle = random() * Math.PI * 2;
+      const radius = 12 + random() * 42;
+      return [50 + Math.cos(angle) * radius, 50 + Math.sin(angle) * radius];
+    };
+
+    for (const vessel of vessels) {
+      const field = vessel.querySelector('.node-vessel__generated');
+      if (!field) continue;
+
+      const nodeId = Number(vessel.dataset.nodeId || 1);
+      const bias = vessel.dataset.renderLaw || 'radial';
+      const order = (vessel.dataset.createOrder || 'gas,liquid,solid,plasma')
+        .split(',')
+        .filter(Boolean);
+      const budget = Math.min(
+        reducedMotion ? 14 : 30,
+        Math.max(8, Number(vessel.dataset.particleBudget || 18)),
+      );
+      const turbulence = Math.max(0, Number(vessel.dataset.turbulence || 0.4));
+      const seed =
+        nodeId * 2654435761 +
+        Math.floor(performance.now() * 1000) +
+        Math.floor(Math.random() * 1000000);
+      let state = seed >>> 0;
+      const random = () => {
+        state = (state * 1664525 + 1013904223) >>> 0;
+        return state / 4294967296;
+      };
+
+      vessel.style.setProperty('--render-tilt', `${(random() - 0.5) * 18}deg`);
+      vessel.style.setProperty('--render-drift', `${8 + random() * 20}px`);
+      vessel.style.setProperty('--render-tempo', `${14 + random() * 18}s`);
+      vessel.style.setProperty('--render-flow-a', `${random() * 360}deg`);
+      vessel.style.setProperty('--render-flow-b', `${random() * 360}deg`);
+      vessel.style.setProperty(
+        '--render-field-scale',
+        `${0.82 + random() * 0.36}`,
+      );
+      vessel.style.setProperty(
+        '--render-field-warp',
+        `${10 + random() * 28}px`,
+      );
+
+      const fragment = document.createDocumentFragment();
+      for (let index = 0; index < budget; index += 1) {
+        const phase = order[index % order.length] || 'gas';
+        const atom = document.createElement('span');
+        const [x, y] = biasPoint(bias, phase, random);
+        const size =
+          phase === 'solid'
+            ? 4.2 + random() * 8.8
+            : phase === 'liquid'
+              ? 4.8 + random() * 10.4
+              : phase === 'plasma'
+                ? 3.2 + random() * 8.8
+                : 2.8 + random() * 7.4;
+        atom.className = `node-vessel__atom node-vessel__atom--${phase}`;
+        atom.style.setProperty('--atom-x', `${x}%`);
+        atom.style.setProperty('--atom-y', `${y}%`);
+        atom.style.setProperty('--atom-size', `${size}px`);
+        atom.style.setProperty(
+          '--atom-drift-x',
+          `${(random() - 0.5) * 16 * turbulence}px`,
+        );
+        atom.style.setProperty(
+          '--atom-drift-y',
+          `${(random() - 0.5) * 16 * turbulence}px`,
+        );
+        atom.style.setProperty('--atom-delay', `${random() * -18}s`);
+        atom.style.setProperty('--atom-life', `${12 + random() * 16}s`);
+        atom.style.setProperty('--atom-orbit', `${random() * 360}deg`);
+        atom.style.setProperty('--atom-lfo-a', `${0.78 + random() * 0.72}`);
+        atom.style.setProperty('--atom-lfo-b', `${0.68 + random() * 0.82}`);
+        fragment.append(atom);
+      }
+
+      field.replaceChildren(fragment);
+    }
+  })();
+</script>
+
+<style is:global>
+  .node-world {
+    background:
+      radial-gradient(
+        circle at 68% 18%,
+        rgba(33, 126, 154, 0.055),
+        transparent 36rem
+      ),
+      radial-gradient(
+        circle at 18% 30%,
+        rgba(255, 255, 255, 0.018),
+        transparent 38rem
+      ),
+      var(--ss-page-bg, #020b10);
+  }
+
+  .node-hero {
+    'min-height': 760px;
+  }
+
+  .node-hero__field {
+    'z-index': -1;
+    background:
+      radial-gradient(
+        circle at 68% 50%,
+        rgba(255, 255, 255, 0.032),
+        transparent 24rem
+      ),
+      linear-gradient(
+        115deg,
+        transparent 0 42%,
+        rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.035) 48%,
+        transparent 58% 100%
+      );
+    opacity: 0.54;
+  }
+
+  .node-vessel {
+    position: relative;
+    display: grid;
+    'place-items': center;
+    'min-height': 500px;
+    filter: drop-shadow(
+      0 0 54px color-mix(in srgb, var(--node-a1) 30%, transparent)
+    );
+  }
+
+  .node-vessel__membrane {
+    position: relative;
+    width: min(82vw, 460px);
+    'aspect-ratio': 1;
+    overflow: hidden;
+    border: calc(1.5px + var(--v-boundary-weight, 0.7) * 1.35px) solid
+      color-mix(in srgb, var(--node-a1) 68%, white 20%);
+    background:
+      radial-gradient(
+        circle at 34% 28%,
+        rgba(255, 255, 255, 0.34),
+        transparent 12%
+      ),
+      radial-gradient(
+        circle at 54% 58%,
+        color-mix(
+          in srgb,
+          var(--node-a2)
+            calc(20% + var(--node-liquid) * var(--v-liquid-depth, 1) * 42%),
+          transparent
+        ),
+        transparent 38%
+      ),
+      radial-gradient(
+        circle at 46% 48%,
+        color-mix(
+          in srgb,
+          var(--node-a1)
+            calc(12% + var(--node-plasma) * var(--v-plasma-reach, 1) * 36%),
+          transparent
+        ),
+        transparent 56%
+      ),
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.17),
+        rgba(255, 255, 255, 0.035)
+      );
+    'box-shadow':
+      inset 0 0 calc(42px + var(--node-plasma) * 64px) rgba(255, 255, 255, 0.16),
+      inset 0 -30px 72px
+        color-mix(
+          in srgb,
+          var(--node-a4)
+            calc(12% + var(--node-solid) * var(--v-solid-fracture, 1) * 38%),
+          transparent
+        ),
+      0 0 0 1px rgba(255, 255, 255, 0.05),
+      0 44px 120px rgba(0, 0, 0, 0.5),
+      0 0 calc(44px * var(--v-refraction, 1))
+        color-mix(in srgb, var(--node-a1) 34%, transparent);
+    'backdrop-filter': blur(calc(4px + var(--v-refraction, 1) * 2px))
+      saturate(calc(118% + var(--v-refraction, 1) * 34%));
+    transform: rotate(var(--v-rotation, 0deg));
+  }
+
+  .node-vessel__membrane::before,
+  .node-vessel__membrane::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    'border-radius': inherit;
+    'pointer-events': none;
+  }
+
+  .node-vessel__membrane::before {
+    background:
+      radial-gradient(
+        circle at 50% 50%,
+        color-mix(in srgb, var(--node-a1) 18%, transparent) 0 18%,
+        transparent 42%
+      ),
+      radial-gradient(
+        circle at 50% 50%,
+        transparent 0 50%,
+        color-mix(in srgb, var(--node-a1) 38%, white 10%) 66%,
+        transparent 74%
+      ),
+      conic-gradient(
+        from 18deg,
+        color-mix(in srgb, var(--node-a1) 58%, transparent),
+        transparent 18%,
+        color-mix(in srgb, var(--node-a2) 46%, transparent),
+        transparent 48%,
+        color-mix(in srgb, var(--node-a3) 42%, transparent),
+        transparent 76%,
+        color-mix(in srgb, var(--node-a1) 58%, transparent)
+      );
+    'mix-blend-mode': screen;
+    opacity: 0.72;
+  }
+
+  .node-vessel__membrane::after {
+    inset: 8%;
+    border: 1px solid color-mix(in srgb, white 18%, var(--node-a1) 32%);
+    opacity: 0.58;
+    filter: blur(0.3px);
+  }
+
+  .node-vessel--solar-forge .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      59% 31%,
+      86% 12%,
+      70% 42%,
+      100% 50%,
+      70% 58%,
+      86% 88%,
+      59% 69%,
+      50% 100%,
+      41% 69%,
+      14% 88%,
+      30% 58%,
+      0 50%,
+      30% 42%,
+      14% 12%,
+      41% 31%
+    );
+    background:
+      radial-gradient(circle, white 0 10%, #ffd86a 15%, transparent 30%),
+      conic-gradient(
+        from -8deg,
+        rgba(255, 255, 255, 0.72),
+        rgba(255, 154, 60, 0.22),
+        rgba(255, 59, 59, 0.5),
+        rgba(255, 255, 255, 0.66)
+      );
+  }
+
+  .node-vessel--lunar-lens .node-vessel__membrane {
+    transform: rotate(var(--v-rotation, 0deg)) scaleX(1.34) scaleY(0.66);
+    background:
+      radial-gradient(
+        ellipse at 50% 68%,
+        rgba(130, 130, 255, 0.58),
+        transparent 44%
+      ),
+      radial-gradient(
+        ellipse at 50% 28%,
+        rgba(255, 255, 255, 0.4),
+        transparent 34%
+      ),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.2), rgba(80, 92, 172, 0.2));
+  }
+
+  .node-vessel--polarity-chamber .node-vessel__membrane {
+    'border-radius': 50%;
+    background:
+      radial-gradient(
+        circle at 32% 38%,
+        rgba(255, 255, 255, 0.72),
+        transparent 18%
+      ),
+      radial-gradient(
+        circle at 68% 62%,
+        color-mix(in srgb, var(--node-a4) 76%, black 8%),
+        transparent 20%
+      ),
+      conic-gradient(
+        from 270deg,
+        rgba(255, 255, 255, 0.82) 0 25%,
+        color-mix(in srgb, var(--node-a1) 58%, transparent) 25% 48%,
+        rgba(8, 5, 18, 0.9) 48% 74%,
+        color-mix(in srgb, var(--node-a4) 52%, transparent) 74% 100%
+      );
+  }
+
+  .node-vessel--volcanic-pyre .node-vessel__membrane {
+    background:
+      radial-gradient(
+        circle at 50% 62%,
+        rgba(255, 60, 40, 0.9),
+        transparent 22%
+      ),
+      linear-gradient(20deg, rgba(25, 8, 5, 0.72), rgba(255, 126, 45, 0.22)),
+      conic-gradient(
+        from 180deg,
+        rgba(255, 40, 20, 0.2),
+        rgba(255, 180, 60, 0.66),
+        rgba(35, 8, 4, 0.86),
+        rgba(255, 40, 20, 0.2)
+      );
+  }
+
+  .node-vessel--aquifer-drop .node-vessel__membrane {
+    background:
+      radial-gradient(
+        ellipse at 50% 74%,
+        rgba(83, 222, 236, 0.72),
+        transparent 42%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.32),
+        rgba(31, 122, 190, 0.45) 60%,
+        rgba(35, 225, 218, 0.34)
+      );
+  }
+
+  .node-vessel--garden-threshold .node-vessel__membrane {
+    'clip-path': none;
+    'border-radius': 50%;
+    -webkit-mask-image:
+      radial-gradient(ellipse 37% 55% at 38% 50%, black 0 99%, transparent),
+      radial-gradient(ellipse 37% 55% at 62% 50%, black 0 99%, transparent);
+    -webkit-mask-composite: source-over;
+    'mask-image':
+      radial-gradient(ellipse 37% 55% at 38% 50%, black 0 99%, transparent),
+      radial-gradient(ellipse 37% 55% at 62% 50%, black 0 99%, transparent);
+    'mask-composite': add;
+    background:
+      radial-gradient(
+        ellipse at 37% 50%,
+        rgba(255, 126, 174, 0.58),
+        transparent 44%
+      ),
+      radial-gradient(
+        ellipse at 63% 50%,
+        rgba(98, 224, 116, 0.56),
+        transparent 44%
+      ),
+      radial-gradient(
+        circle at 50% 50%,
+        rgba(255, 226, 108, 0.68),
+        transparent 24%
+      );
+  }
+
+  .node-vessel--lunar-hollow .node-vessel__membrane {
+    background:
+      radial-gradient(
+        circle at 65% 43%,
+        var(--ss-page-bg, #020b10) 0 35%,
+        transparent 36%
+      ),
+      radial-gradient(
+        ellipse at 34% 58%,
+        rgba(210, 228, 255, 0.6),
+        transparent 42%
+      ),
+      linear-gradient(
+        120deg,
+        rgba(220, 235, 255, 0.58),
+        rgba(72, 98, 150, 0.24)
+      );
+  }
+
+  .node-vessel--crystal-cave .node-vessel__membrane,
+  .node-vessel--crystal-vault .node-vessel__membrane {
+    background:
+      linear-gradient(
+        60deg,
+        rgba(255, 255, 255, 0.58),
+        color-mix(in srgb, var(--node-a1) 44%, transparent),
+        rgba(255, 255, 255, 0.16)
+      ),
+      conic-gradient(
+        from 0deg,
+        rgba(255, 255, 255, 0.52),
+        color-mix(in srgb, var(--node-a2) 48%, transparent),
+        color-mix(in srgb, var(--node-a3) 44%, transparent),
+        rgba(255, 255, 255, 0.52)
+      );
+  }
+
+  .node-vessel--spring-bloom .node-vessel__membrane {
+    background:
+      radial-gradient(
+        circle at 50% 50%,
+        rgba(255, 245, 235, 0.74),
+        transparent 18%
+      ),
+      conic-gradient(
+        from 18deg,
+        rgba(255, 160, 188, 0.72),
+        rgba(115, 220, 135, 0.3),
+        rgba(232, 220, 150, 0.52),
+        rgba(190, 120, 220, 0.4),
+        rgba(255, 160, 188, 0.72)
+      );
+  }
+
+  .node-vessel--clarity-prism .node-vessel__membrane {
+    background:
+      radial-gradient(
+        circle at 48% 45%,
+        rgba(255, 255, 255, 0.78),
+        transparent 18%
+      ),
+      linear-gradient(
+        120deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(220, 180, 80, 0.28)
+      ),
+      conic-gradient(
+        from 30deg,
+        rgba(255, 255, 255, 0.42),
+        rgba(255, 214, 74, 0.54),
+        rgba(255, 255, 255, 0.22)
+      );
+  }
+
+  .node-vessel--cardinal-cross .node-vessel__membrane {
+    background:
+      radial-gradient(circle, rgba(255, 40, 36, 0.88), transparent 18%),
+      linear-gradient(
+        90deg,
+        rgba(255, 59, 59, 0.48),
+        transparent 48% 52%,
+        rgba(80, 220, 105, 0.42)
+      ),
+      linear-gradient(
+        0deg,
+        rgba(255, 210, 60, 0.46),
+        transparent 48% 52%,
+        rgba(150, 96, 222, 0.42)
+      );
+  }
+
+  .node-vessel--golden-current .node-vessel__membrane {
+    background:
+      radial-gradient(
+        circle at 50% 36%,
+        rgba(255, 230, 90, 0.92),
+        transparent 18%
+      ),
+      linear-gradient(
+        180deg,
+        rgba(255, 230, 88, 0.44),
+        rgba(195, 128, 45, 0.36)
+      ),
+      conic-gradient(
+        from 0deg,
+        rgba(255, 235, 110, 0.54),
+        rgba(175, 110, 40, 0.22),
+        rgba(255, 214, 70, 0.58)
+      );
+  }
+
+  .node-vessel--radial-emission .node-vessel__membrane {
+    'border-radius': 48% 52% 45% 55% / 58% 44% 56% 42%;
+  }
+  .node-vessel--floaty .node-vessel__membrane,
+  .node-vessel--tidal .node-vessel__membrane {
+    'border-radius': 50%;
+  }
+  .node-vessel--dual-gyre .node-vessel__membrane {
+    'border-radius': 30% 70% 38% 62% / 54% 34% 66% 46%;
+  }
+  .node-vessel--rising .node-vessel__membrane {
+    'border-radius': 54% 46% 48% 52% / 30% 32% 68% 70%;
+    transform: rotate(calc(var(--v-rotation, 0deg) + 8deg));
+  }
+  .node-vessel--spiraling .node-vessel__membrane {
+    'border-radius': 40% 60% 42% 58% / 48% 44% 56% 52%;
+  }
+  .node-vessel--lattice .node-vessel__membrane,
+  .node-vessel--crystalline .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      88% 18%,
+      100% 52%,
+      76% 90%,
+      43% 100%,
+      10% 77%,
+      0 36%,
+      18% 10%
+    );
+  }
+
+  .node-vessel--pyr .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      57% 31%,
+      88% 12%,
+      69% 43%,
+      100% 50%,
+      69% 57%,
+      88% 88%,
+      57% 69%,
+      50% 100%,
+      43% 69%,
+      12% 88%,
+      31% 57%,
+      0 50%,
+      31% 43%,
+      12% 12%,
+      43% 31%
+    );
+  }
+  .node-vessel--oculus .node-vessel__membrane {
+    'clip-path': ellipse(49% 31% at 50% 50%);
+  }
+  .node-vessel--dyad .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      73% 8%,
+      91% 27%,
+      100% 50%,
+      91% 73%,
+      73% 92%,
+      50% 100%,
+      27% 92%,
+      9% 73%,
+      0 50%,
+      9% 27%,
+      27% 8%
+    );
+    'border-radius': 50%;
+  }
+  .node-vessel--pyramis .node-vessel__membrane {
+    'clip-path': polygon(50% 0, 100% 88%, 0 88%);
+  }
+  .node-vessel--hydor .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      62% 17%,
+      77% 39%,
+      88% 61%,
+      86% 78%,
+      72% 93%,
+      50% 100%,
+      28% 93%,
+      14% 78%,
+      12% 61%,
+      23% 39%,
+      38% 17%
+    );
+    'border-radius': 54% 46% 51% 49% / 62% 62% 38% 38%;
+  }
+  .node-vessel--mandorla .node-vessel__membrane {
+    'clip-path': ellipse(32% 49% at 42% 50%);
+    'border-radius': 50% / 62%;
+  }
+  .node-vessel--kenosis .node-vessel__membrane {
+    'clip-path': polygon(
+      64% 3%,
+      89% 18%,
+      100% 45%,
+      90% 73%,
+      65% 94%,
+      34% 100%,
+      52% 74%,
+      58% 48%,
+      52% 23%
+    );
+  }
+  .node-vessel--shatkona .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      64% 28%,
+      95% 28%,
+      78% 51%,
+      95% 78%,
+      64% 72%,
+      50% 100%,
+      36% 72%,
+      5% 78%,
+      22% 51%,
+      5% 28%,
+      36% 28%
+    );
+  }
+  .node-vessel--padma .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      61% 25%,
+      84% 10%,
+      75% 36%,
+      100% 45%,
+      75% 58%,
+      92% 83%,
+      64% 75%,
+      50% 100%,
+      36% 75%,
+      8% 83%,
+      25% 58%,
+      0 45%,
+      25% 36%,
+      16% 10%,
+      39% 25%
+    );
+    'border-radius': 48%;
+  }
+  .node-vessel--bodhi .node-vessel__membrane {
+    'clip-path': polygon(50% 0, 95% 80%, 5% 80%);
+  }
+  .node-vessel--tetrad .node-vessel__membrane {
+    'clip-path': polygon(
+      42% 0,
+      58% 0,
+      58% 39%,
+      100% 39%,
+      100% 61%,
+      58% 61%,
+      58% 100%,
+      42% 100%,
+      42% 61%,
+      0 61%,
+      0 39%,
+      42% 39%
+    );
+  }
+  .node-vessel--oktaedron .node-vessel__membrane {
+    'clip-path': polygon(50% 0, 92% 50%, 50% 100%, 8% 50%);
+  }
+  .node-vessel--ankh .node-vessel__membrane {
+    'clip-path': polygon(
+      50% 0,
+      70% 12%,
+      74% 34%,
+      62% 49%,
+      80% 49%,
+      80% 63%,
+      59% 63%,
+      59% 100%,
+      41% 100%,
+      41% 63%,
+      20% 63%,
+      20% 49%,
+      38% 49%,
+      26% 34%,
+      30% 12%
+    );
+  }
+
+  .node-vessel__core,
+  .node-vessel__current,
+  .node-vessel__boundary,
+  .node-vessel__stars,
+  .node-vessel__matter,
+  .node-vessel__phase-field,
+  .node-vessel__nested,
+  .node-vessel__chamber,
+  .node-vessel__generated,
+  .node-vessel__atom,
+  .node-vessel__lattice,
+  .node-vessel__meniscus,
+  .node-vessel__veil,
+  .node-vessel__corona {
+    position: absolute;
+    display: block;
+    'pointer-events': none;
+  }
+
+  .node-vessel__core {
+    inset: 28%;
+    'border-radius': inherit;
+    background: radial-gradient(
+      circle,
+      white 0 8%,
+      var(--node-a1) 18%,
+      transparent 68%
+    );
+    opacity: calc(0.62 + var(--node-plasma) * 0.5);
+    filter: blur(1px);
+  }
+
+  .node-vessel__current {
+    inset: 20%;
+    border: 1px solid color-mix(in srgb, var(--node-a1) 56%, transparent);
+    'border-radius': 50%;
+    transform: rotate(18deg) scaleX(1.38);
+    opacity: 0.68;
+  }
+  .node-vessel__current--two {
+    inset: 28%;
+    'border-color': color-mix(in srgb, var(--node-a2) 48%, transparent);
+    transform: rotate(-42deg) scaleX(1.5);
+    opacity: 0.52;
+  }
+
+  .node-vessel__boundary {
+    inset: 4%;
+    'border-radius': inherit;
+    border: 1px solid color-mix(in srgb, var(--node-a1) 55%, white 20%);
+    'box-shadow':
+      inset 0 0 18px color-mix(in srgb, var(--node-a1) 22%, transparent),
+      0 0 22px color-mix(in srgb, var(--node-a2) 18%, transparent);
+    opacity: 0.82;
+  }
+
+  .node-vessel__boundary::before,
+  .node-vessel__boundary::after,
+  .node-vessel__lattice::before,
+  .node-vessel__lattice::after,
+  .node-vessel__meniscus::before,
+  .node-vessel__veil::before,
+  .node-vessel__corona::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    'border-radius': inherit;
+    'pointer-events': none;
+  }
+
+  .node-vessel__boundary::before {
+    background:
+      linear-gradient(
+        90deg,
+        transparent 0 46%,
+        color-mix(in srgb, white 18%, var(--node-a1) 36%) 49%,
+        transparent 53% 100%
+      ),
+      linear-gradient(
+        0deg,
+        transparent 0 46%,
+        color-mix(in srgb, white 12%, var(--node-a2) 30%) 49%,
+        transparent 53% 100%
+      );
+    opacity: calc(0.05 + var(--node-solid) * 0.55);
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__boundary::after {
+    inset: -1px;
+    border: 1px dotted color-mix(in srgb, var(--node-a3) 58%, transparent);
+    opacity: calc(0.08 + var(--node-gas) * 0.52);
+    filter: blur(0.5px);
+  }
+
+  .node-vessel__stars {
+    inset: 13%;
+    'border-radius': inherit;
+    'background-image':
+      radial-gradient(
+        circle at 17% 26%,
+        color-mix(in srgb, white 80%, var(--node-a1) 20%) 0 1.5px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 73% 31%,
+        color-mix(in srgb, white 70%, var(--node-a2) 30%) 0 1px,
+        transparent 1.8px
+      ),
+      radial-gradient(
+        circle at 47% 69%,
+        color-mix(in srgb, white 68%, var(--node-a3) 32%) 0 1.4px,
+        transparent 2.2px
+      ),
+      radial-gradient(
+        circle at 31% 78%,
+        color-mix(in srgb, white 74%, var(--node-a4) 26%) 0 0.9px,
+        transparent 1.7px
+      );
+    opacity: calc(0.34 + var(--node-gas) * 0.84 + var(--node-plasma) * 0.42);
+    filter: drop-shadow(0 0 9px var(--node-a1));
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__stars--two {
+    inset: 20%;
+    transform: rotate(37deg) scale(0.86);
+    opacity: calc(0.18 + var(--node-gas) * 0.58);
+  }
+
+  .node-vessel__matter--gas {
+    inset: 12% 16% auto auto;
+    width: 46%;
+    'aspect-ratio': 1;
+    'border-radius': 50%;
+    background: radial-gradient(
+      circle,
+      color-mix(in srgb, var(--node-a3) 24%, white 12%),
+      transparent 64%
+    );
+    filter: blur(18px);
+    opacity: min(
+      0.54,
+      calc((0.14 + var(--node-gas) * 0.38) * var(--v-gas-scale, 1))
+    );
+  }
+  .node-vessel__matter--liquid {
+    left: 10%;
+    right: 8%;
+    bottom: 12%;
+    height: 32%;
+    'border-radius': 50%;
+    background: linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--node-a2) 42%, transparent),
+      color-mix(in srgb, var(--node-a3) 34%, transparent)
+    );
+    filter: blur(8px);
+    opacity: min(
+      0.5,
+      calc((0.1 + var(--node-liquid) * 0.42) * var(--v-liquid-depth, 1))
+    );
+  }
+  .node-vessel__matter--solid {
+    left: 24%;
+    top: 28%;
+    width: 48%;
+    'aspect-ratio': 1;
+    'clip-path': polygon(
+      50% 0,
+      63% 34%,
+      100% 42%,
+      68% 60%,
+      78% 100%,
+      50% 72%,
+      22% 100%,
+      32% 60%,
+      0 42%,
+      37% 34%
+    );
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.72),
+      color-mix(in srgb, var(--node-a1) 58%, transparent),
+      color-mix(in srgb, var(--node-a4) 28%, transparent)
+    );
+    opacity: min(
+      0.48,
+      calc((0.1 + var(--node-solid) * 0.38) * var(--v-solid-fracture, 1))
+    );
+  }
+  .node-vessel__matter--plasma {
+    inset: 38%;
+    'border-radius': 999px;
+    background: var(--node-a1);
+    'box-shadow':
+      0 0 32px var(--node-a1),
+      0 0 80px var(--node-a2);
+    opacity: min(
+      0.62,
+      calc((0.08 + var(--node-plasma) * 0.48) * var(--v-plasma-reach, 1))
+    );
+  }
+
+  .node-vessel__phase-field {
+    inset: 3%;
+    'border-radius': inherit;
+    overflow: hidden;
+    opacity: 0.9;
+    'mix-blend-mode': screen;
+    transform: rotate(var(--render-tilt, 0deg))
+      scale(var(--render-field-scale, 1));
+    'will-change': transform, filter;
+    animation: node-field-breathe var(--render-tempo, 20s) ease-in-out infinite
+      alternate;
+  }
+
+  .node-vessel__phase-field::before,
+  .node-vessel__phase-field::after {
+    content: '';
+    position: absolute;
+    inset: -12%;
+    'border-radius': inherit;
+    'pointer-events': none;
+  }
+
+  .node-vessel__phase-field::before {
+    background:
+      radial-gradient(
+        ellipse at 24% 30%,
+        color-mix(in srgb, var(--node-a3) 18%, white 6%),
+        transparent calc(14% + var(--node-gas) * 20%)
+      ),
+      radial-gradient(
+        ellipse at 72% 28%,
+        color-mix(in srgb, var(--node-a2) 22%, transparent),
+        transparent calc(12% + var(--node-liquid) * 24%)
+      ),
+      conic-gradient(
+        from var(--render-flow-a, 0deg),
+        color-mix(
+          in srgb,
+          var(--node-a1) calc(var(--node-plasma) * 74%),
+          transparent
+        ),
+        transparent 9%,
+        color-mix(
+            in srgb,
+            var(--node-a4) calc(var(--node-solid) * 66%),
+            transparent
+          )
+          18%,
+        transparent 29%,
+        color-mix(
+            in srgb,
+            var(--node-a2) calc(var(--node-liquid) * 70%),
+            transparent
+          )
+          44%,
+        transparent 58%,
+        color-mix(
+            in srgb,
+            var(--node-a3) calc(var(--node-gas) * 72%),
+            transparent
+          )
+          74%,
+        transparent 88%,
+        color-mix(
+          in srgb,
+          var(--node-a1) calc(var(--node-plasma) * 74%),
+          transparent
+        )
+      );
+    filter: blur(calc(1px + var(--node-gas) * 8px));
+    opacity: 0.86;
+  }
+
+  .node-vessel__phase-field::after {
+    background:
+      linear-gradient(
+        calc(var(--render-flow-b, 90deg) + 0deg),
+        transparent 0 38%,
+        color-mix(in srgb, white 26%, var(--node-a1) 22%) 42% 43%,
+        transparent 47% 100%
+      ),
+      linear-gradient(
+        calc(var(--render-flow-b, 90deg) + 64deg),
+        transparent 0 46%,
+        color-mix(in srgb, white 18%, var(--node-a4) 36%) 48% 49%,
+        transparent 52% 100%
+      ),
+      repeating-radial-gradient(
+        circle at 50% 50%,
+        transparent 0 16px,
+        color-mix(in srgb, var(--node-a2) 20%, transparent) 17px 18px,
+        transparent 19px 34px
+      );
+    opacity: calc(0.18 + var(--node-solid) * 0.32 + var(--node-plasma) * 0.26);
+    filter: blur(0.4px);
+  }
+
+  .node-vessel__nested {
+    inset: 5%;
+    'border-radius': inherit;
+    overflow: hidden;
+    opacity: 0.96;
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__chamber {
+    'border-radius': inherit;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, var(--node-a1) 26%, white 14%);
+    'box-shadow': inset 0 0 22px rgba(255, 255, 255, 0.08);
+  }
+
+  .node-vessel__chamber--gas {
+    inset: 0;
+    background:
+      radial-gradient(
+        circle at 20% 24%,
+        color-mix(in srgb, var(--node-a3) 22%, white 10%),
+        transparent 20%
+      ),
+      radial-gradient(
+        circle at 74% 18%,
+        color-mix(in srgb, var(--node-a4) 18%, white 8%),
+        transparent 18%
+      ),
+      radial-gradient(
+        circle at 60% 78%,
+        color-mix(in srgb, var(--node-a2) 16%, transparent),
+        transparent 24%
+      );
+    filter: blur(calc(var(--node-gas) * 1.4px));
+    opacity: min(
+      0.94,
+      calc((0.28 + var(--node-gas) * 0.72) * var(--v-gas-scale, 1))
+    );
+  }
+
+  .node-vessel__chamber--liquid {
+    left: 9%;
+    right: 9%;
+    bottom: 8%;
+    height: calc(34% + var(--node-liquid) * var(--v-liquid-depth, 1) * 23%);
+    'border-radius': 50% 50% 42% 42% / 34% 34% 58% 58%;
+    background:
+      radial-gradient(
+        ellipse at 50% 7%,
+        rgba(255, 255, 255, 0.54),
+        transparent 13%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--node-a3) 26%, transparent),
+        color-mix(in srgb, var(--node-a2) 64%, transparent)
+      );
+    'border-color': color-mix(in srgb, var(--node-a2) 42%, white 16%);
+    'box-shadow':
+      inset 0 12px 18px rgba(255, 255, 255, 0.1),
+      inset 0 -22px 42px color-mix(in srgb, var(--node-a1) 18%, transparent);
+    opacity: min(
+      0.92,
+      calc((0.24 + var(--node-liquid) * 0.7) * var(--v-liquid-depth, 1))
+    );
+  }
+
+  .node-vessel__chamber--solid {
+    inset: 14% 19% 15%;
+    'clip-path': polygon(
+      50% 0,
+      64% 28%,
+      96% 36%,
+      70% 56%,
+      80% 100%,
+      50% 76%,
+      20% 100%,
+      30% 56%,
+      4% 36%,
+      36% 28%
+    );
+    'border-radius': 0;
+    background:
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.68),
+        color-mix(in srgb, var(--node-a1) 54%, transparent),
+        color-mix(in srgb, var(--node-a4) 34%, transparent)
+      ),
+      linear-gradient(
+        60deg,
+        transparent 0 44%,
+        rgba(255, 255, 255, 0.34) 45% 47%,
+        transparent 48% 100%
+      );
+    'border-color': color-mix(in srgb, var(--node-a1) 54%, white 18%);
+    opacity: min(
+      0.92,
+      calc((0.2 + var(--node-solid) * 0.72) * var(--v-solid-fracture, 1))
+    );
+  }
+
+  .node-vessel__chamber--plasma {
+    inset: calc(34% - var(--node-plasma) * var(--v-plasma-reach, 1) * 10%);
+    'border-radius': 999px;
+    background: radial-gradient(
+      circle,
+      white 0 14%,
+      var(--node-a1) 22%,
+      color-mix(in srgb, var(--node-a2) 44%, transparent) 52%,
+      transparent 78%
+    );
+    'border-color': color-mix(in srgb, var(--node-a1) 64%, white 20%);
+    'box-shadow':
+      0 0 24px var(--node-a1),
+      0 0 calc(38px + var(--node-plasma) * 48px) var(--node-a2),
+      inset 0 0 18px rgba(255, 255, 255, 0.36);
+    opacity: min(
+      0.98,
+      calc((0.36 + var(--node-plasma) * 0.7) * var(--v-plasma-reach, 1))
+    );
+  }
+
+  .node-vessel__generated {
+    inset: 0;
+    'border-radius': inherit;
+    overflow: hidden;
+    transform: rotate(var(--render-tilt, 0deg));
+    'mix-blend-mode': screen;
+    opacity: 0.92;
+  }
+
+  .node-vessel__atom {
+    left: var(--atom-x);
+    top: var(--atom-y);
+    width: var(--atom-size);
+    'aspect-ratio': 1;
+    'border-radius': 999px;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.75);
+    'box-shadow': 0 0 12px currentColor;
+    color: color-mix(in srgb, var(--node-a1) 70%, white 20%);
+    opacity: 0.72;
+    'will-change': transform, opacity;
+    animation: node-atom-drift var(--atom-life, var(--render-tempo, 18s))
+      ease-in-out var(--atom-delay, 0s) infinite alternate;
+  }
+
+  .node-vessel__atom--gas {
+    color: color-mix(in srgb, var(--node-a3) 62%, white 18%);
+    filter: blur(1.4px);
+    opacity: 0.56;
+  }
+
+  .node-vessel__atom--liquid {
+    width: calc(var(--atom-size) * 1.65);
+    color: color-mix(in srgb, var(--node-a2) 68%, white 12%);
+    opacity: 0.5;
+  }
+
+  .node-vessel__atom--solid {
+    'border-radius': 18%;
+    'clip-path': polygon(50% 0, 100% 45%, 72% 100%, 18% 86%, 0 24%);
+    color: color-mix(in srgb, var(--node-a4) 60%, white 24%);
+    opacity: 0.68;
+  }
+
+  .node-vessel__atom--plasma {
+    color: color-mix(in srgb, var(--node-a1) 72%, white 24%);
+    opacity: 0.82;
+    'box-shadow':
+      0 0 10px currentColor,
+      0 0 24px color-mix(in srgb, var(--node-a2) 46%, transparent);
+  }
+
+  .node-vessel--dominant-gas .node-vessel__membrane {
+    'background-blend-mode': screen, screen, screen, normal;
+  }
+  .node-vessel--dominant-gas .node-vessel__phase-field {
+    opacity: 1;
+    filter: blur(calc(2px + var(--node-gas) * 10px));
+  }
+  .node-vessel--dominant-gas .node-vessel__phase-field::before {
+    background:
+      radial-gradient(
+        ellipse at 26% 24%,
+        color-mix(in srgb, white 10%, var(--node-a3) 34%),
+        transparent 18%
+      ),
+      radial-gradient(
+        ellipse at 72% 62%,
+        color-mix(in srgb, var(--node-a1) 26%, transparent),
+        transparent 23%
+      ),
+      repeating-conic-gradient(
+        from var(--render-flow-a, 0deg),
+        color-mix(in srgb, var(--node-a3) 28%, transparent) 0 10deg,
+        transparent 12deg 30deg
+      );
+    transform: translateY(calc(var(--render-field-warp, 18px) * -0.18));
+  }
+  .node-vessel--dominant-gas .node-vessel__veil,
+  .node-vessel--dominant-gas .node-vessel__chamber--gas {
+    opacity: 1;
+    filter: blur(calc(10px + var(--node-gas) * 18px));
+  }
+  .node-vessel--dominant-gas .node-vessel__boundary::after {
+    'border-style': dashed;
+    opacity: 0.74;
+  }
+  .node-vessel--dominant-gas .node-vessel__atom--gas {
+    width: calc(var(--atom-size) * 1.35);
+    opacity: 0.78;
+  }
+
+  .node-vessel--dominant-liquid .node-vessel__chamber--liquid,
+  .node-vessel--dominant-liquid .node-vessel__meniscus {
+    opacity: 1;
+    filter: blur(0.6px);
+  }
+  .node-vessel--dominant-liquid .node-vessel__phase-field::before {
+    background:
+      radial-gradient(
+        ellipse at 44% 68%,
+        color-mix(in srgb, var(--node-a2) 58%, white 8%),
+        transparent 34%
+      ),
+      repeating-linear-gradient(
+        calc(var(--render-flow-a, 0deg) + 88deg),
+        transparent 0 22px,
+        color-mix(in srgb, white 18%, var(--node-a3) 20%) 23px 24px,
+        transparent 25px 48px
+      );
+    filter: blur(1.2px);
+  }
+  .node-vessel--dominant-liquid .node-vessel__chamber--liquid {
+    left: 4%;
+    right: 4%;
+    bottom: 5%;
+    height: calc(42% + var(--node-liquid) * var(--v-liquid-depth, 1) * 26%);
+  }
+  .node-vessel--dominant-liquid .node-vessel__atom--liquid {
+    width: calc(var(--atom-size) * 2.1);
+    opacity: 0.72;
+  }
+
+  .node-vessel--dominant-solid .node-vessel__chamber--solid {
+    inset: 6% 10% 8%;
+    opacity: 0.98;
+    filter: drop-shadow(
+      0 0 14px color-mix(in srgb, var(--node-a1) 36%, transparent)
+    );
+  }
+  .node-vessel--dominant-solid .node-vessel__lattice {
+    inset: 4%;
+    opacity: 1;
+  }
+  .node-vessel--dominant-solid .node-vessel__phase-field {
+    opacity: 0.96;
+    filter: contrast(1.18);
+  }
+  .node-vessel--dominant-solid .node-vessel__phase-field::before {
+    background:
+      linear-gradient(
+        calc(var(--render-flow-a, 0deg) + 24deg),
+        transparent 0 34%,
+        color-mix(in srgb, white 42%, var(--node-a1) 38%) 35% 37%,
+        transparent 38% 100%
+      ),
+      linear-gradient(
+        calc(var(--render-flow-b, 0deg) - 48deg),
+        transparent 0 44%,
+        color-mix(in srgb, var(--node-a4) 46%, white 16%) 45% 47%,
+        transparent 48% 100%
+      ),
+      conic-gradient(
+        from var(--render-flow-b, 0deg),
+        color-mix(in srgb, var(--node-a1) 30%, transparent),
+        transparent 18%,
+        color-mix(in srgb, var(--node-a3) 24%, transparent),
+        transparent 41%,
+        color-mix(in srgb, var(--node-a4) 34%, transparent),
+        transparent 64%,
+        color-mix(in srgb, var(--node-a2) 28%, transparent),
+        transparent 88%,
+        color-mix(in srgb, var(--node-a1) 30%, transparent)
+      );
+    filter: none;
+  }
+  .node-vessel--dominant-solid .node-vessel__atom--solid {
+    width: calc(var(--atom-size) * 1.24);
+    opacity: 0.86;
+  }
+
+  .node-vessel--dominant-plasma .node-vessel__chamber--plasma {
+    inset: calc(22% - var(--node-plasma) * var(--v-plasma-reach, 1) * 9%);
+    opacity: 1;
+  }
+  .node-vessel--dominant-plasma .node-vessel__phase-field {
+    inset: -2%;
+    opacity: 1;
+    filter: saturate(1.25);
+  }
+  .node-vessel--dominant-plasma .node-vessel__phase-field::before {
+    background:
+      radial-gradient(circle at 50% 50%, white 0 4%, transparent 12%),
+      repeating-conic-gradient(
+        from var(--render-flow-a, 0deg),
+        color-mix(in srgb, var(--node-a1) 72%, white 12%) 0 5deg,
+        transparent 7deg 18deg,
+        color-mix(in srgb, var(--node-a2) 42%, transparent) 20deg 24deg,
+        transparent 26deg 42deg
+      );
+    filter: blur(1px);
+  }
+  .node-vessel--dominant-plasma .node-vessel__phase-field::after {
+    background:
+      repeating-radial-gradient(
+        circle at 50% 50%,
+        color-mix(in srgb, white 20%, var(--node-a1) 40%) 0 1px,
+        transparent 2px 20px
+      ),
+      conic-gradient(
+        from var(--render-flow-b, 0deg),
+        transparent,
+        color-mix(in srgb, var(--node-a2) 34%, transparent),
+        transparent 42%,
+        color-mix(in srgb, var(--node-a3) 26%, transparent),
+        transparent
+      );
+    opacity: 0.76;
+  }
+  .node-vessel--dominant-plasma .node-vessel__corona {
+    inset: -9%;
+    opacity: 1;
+    filter: blur(calc(7px + var(--node-plasma) * 12px));
+  }
+  .node-vessel--dominant-plasma .node-vessel__atom--plasma {
+    width: calc(var(--atom-size) * 1.3);
+    opacity: 0.94;
+  }
+
+  .node-vessel--ankh.node-vessel--dominant-gas .node-vessel__membrane {
+    background:
+      radial-gradient(
+        ellipse at 50% 28%,
+        color-mix(in srgb, white 40%, var(--node-a1) 50%),
+        transparent 24%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--node-a1) 54%, white 14%),
+        color-mix(in srgb, var(--node-a2) 32%, transparent) 54%,
+        color-mix(in srgb, var(--node-a4) 26%, transparent)
+      ),
+      repeating-linear-gradient(
+        88deg,
+        transparent 0 24px,
+        color-mix(in srgb, white 16%, var(--node-a1) 28%) 25px 26px,
+        transparent 27px 52px
+      );
+  }
+
+  .node-vessel--ankh.node-vessel--dominant-gas .node-vessel__phase-field {
+    inset: -7% 5% -3%;
+    filter: blur(1.2px) saturate(1.25);
+  }
+
+  .node-vessel--ankh.node-vessel--dominant-gas
+    .node-vessel__phase-field::before {
+    background:
+      radial-gradient(
+        ellipse at 50% 25%,
+        color-mix(in srgb, white 54%, var(--node-a1) 36%),
+        transparent 20%
+      ),
+      repeating-conic-gradient(
+        from var(--render-flow-a, 0deg) at 50% 28%,
+        color-mix(in srgb, var(--node-a1) 58%, transparent) 0 8deg,
+        transparent 10deg 22deg,
+        color-mix(in srgb, var(--node-a2) 34%, transparent) 24deg 29deg,
+        transparent 31deg 48deg
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 37%,
+        color-mix(in srgb, white 36%, var(--node-a1) 44%) 38% 39%,
+        transparent 40% 47%,
+        color-mix(in srgb, var(--node-a2) 36%, transparent) 48% 49%,
+        transparent 50% 100%
+      );
+  }
+
+  .node-vessel--ankh.node-vessel--dominant-gas
+    .node-vessel__phase-field::after {
+    background:
+      radial-gradient(
+        ellipse at 50% 27%,
+        transparent 0 16%,
+        color-mix(in srgb, white 36%, var(--node-a1) 42%) 17% 19%,
+        transparent 21% 100%
+      ),
+      linear-gradient(
+        180deg,
+        transparent 0 32%,
+        color-mix(in srgb, white 24%, var(--node-a2) 38%) 34% 82%,
+        transparent 86% 100%
+      ),
+      repeating-radial-gradient(
+        ellipse at 50% 66%,
+        transparent 0 22px,
+        color-mix(in srgb, var(--node-a1) 34%, transparent) 23px 24px,
+        transparent 25px 44px
+      );
+    opacity: 0.9;
+  }
+
+  .node-vessel--ankh .node-vessel__current {
+    inset: 11% 29% 50%;
+    'border-color': color-mix(in srgb, white 34%, var(--node-a1) 50%);
+    'border-radius': 50%;
+    transform: rotate(calc(var(--render-flow-a, 0deg) * 0.02)) scaleX(0.92);
+    opacity: 0.95;
+  }
+
+  .node-vessel--ankh .node-vessel__current--two {
+    inset: 37% 43% 7%;
+    'border-color': color-mix(in srgb, var(--node-a2) 58%, white 14%);
+    'border-radius': 999px;
+    transform: rotate(0deg) scaleX(0.42);
+    opacity: 0.9;
+    'box-shadow':
+      0 0 22px color-mix(in srgb, var(--node-a1) 32%, transparent),
+      inset 0 0 18px color-mix(in srgb, white 18%, transparent);
+  }
+
+  .node-vessel--ankh .node-vessel__boundary::before {
+    background:
+      radial-gradient(
+        ellipse at 50% 26%,
+        transparent 0 17%,
+        color-mix(in srgb, white 40%, var(--node-a1) 48%) 18% 20%,
+        transparent 22% 100%
+      ),
+      linear-gradient(
+        180deg,
+        transparent 0 40%,
+        color-mix(in srgb, white 22%, var(--node-a2) 42%) 42% 86%,
+        transparent 89% 100%
+      );
+    opacity: 0.82;
+  }
+
+  @keyframes node-atom-drift {
+    0% {
+      transform: translate(-50%, -50%) rotate(var(--atom-orbit, 0deg))
+        translateX(calc(var(--atom-drift-x, 0px) * -0.32))
+        translateY(calc(var(--atom-drift-y, 0px) * -0.22))
+        scale(calc(0.72 + var(--atom-lfo-a, 1) * 0.14));
+      opacity: 0.34;
+    }
+    50% {
+      transform: translate(-50%, -50%)
+        translate(
+          calc(var(--atom-drift-x, 0px) * var(--atom-lfo-a, 1)),
+          calc(var(--atom-drift-y, 0px) * var(--atom-lfo-b, 1))
+        )
+        scale(1.12);
+      opacity: 0.84;
+    }
+    100% {
+      transform: translate(
+          calc(-50% + var(--atom-drift-x, 0px)),
+          calc(-50% + var(--atom-drift-y, 0px))
+        )
+        rotate(calc(var(--atom-orbit, 0deg) * -1))
+        scale(calc(0.92 + var(--atom-lfo-b, 1) * 0.22));
+      opacity: 0.58;
+    }
+  }
+
+  @keyframes node-field-breathe {
+    0% {
+      transform: rotate(calc(var(--render-tilt, 0deg) - 3deg))
+        translateY(calc(var(--render-field-warp, 18px) * -0.08))
+        scale(calc(var(--render-field-scale, 1) * 0.96));
+    }
+    100% {
+      transform: rotate(calc(var(--render-tilt, 0deg) + 4deg))
+        translateY(calc(var(--render-field-warp, 18px) * 0.08))
+        scale(calc(var(--render-field-scale, 1) * 1.04));
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .node-vessel__atom,
+    .node-vessel__phase-field {
+      animation: none;
+      'will-change': auto;
+    }
+  }
+
+  .node-vessel__lattice {
+    inset: 10%;
+    'border-radius': inherit;
+    background:
+      linear-gradient(
+        30deg,
+        transparent 0 43%,
+        color-mix(in srgb, var(--node-a1) 32%, white 18%) 44% 45%,
+        transparent 46% 100%
+      ),
+      linear-gradient(
+        90deg,
+        transparent 0 49%,
+        color-mix(in srgb, var(--node-a3) 34%, white 14%) 50% 51%,
+        transparent 52% 100%
+      ),
+      linear-gradient(
+        150deg,
+        transparent 0 48%,
+        color-mix(in srgb, var(--node-a2) 28%, white 12%) 49% 50%,
+        transparent 51% 100%
+      );
+    opacity: min(
+      0.9,
+      calc((0.12 + var(--node-solid) * 0.72) * var(--v-solid-fracture, 1))
+    );
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__lattice::before {
+    inset: 16%;
+    border: 1px solid color-mix(in srgb, white 22%, var(--node-a3) 24%);
+    transform: rotate(45deg);
+    opacity: calc(0.05 + var(--node-solid) * 0.55);
+  }
+
+  .node-vessel__lattice::after {
+    inset: 30%;
+    border: 1px solid color-mix(in srgb, var(--node-a2) 40%, transparent);
+    transform: rotate(-18deg);
+    opacity: calc(0.04 + var(--node-solid) * 0.42);
+  }
+
+  .node-vessel__meniscus {
+    left: 7%;
+    right: 7%;
+    bottom: 14%;
+    height: 36%;
+    'border-radius': 50% 50% 44% 46% / 42% 46% 56% 54%;
+    background:
+      radial-gradient(
+        ellipse at 50% 8%,
+        rgba(255, 255, 255, 0.34),
+        transparent 12%
+      ),
+      linear-gradient(
+        180deg,
+        color-mix(in srgb, var(--node-a3) 32%, transparent),
+        color-mix(in srgb, var(--node-a2) 48%, transparent)
+      );
+    'box-shadow':
+      inset 0 1px 0 rgba(255, 255, 255, 0.26),
+      inset 0 -18px 34px color-mix(in srgb, var(--node-a1) 18%, transparent);
+    filter: blur(1px);
+    opacity: min(
+      0.9,
+      calc((0.12 + var(--node-liquid) * 0.82) * var(--v-liquid-depth, 1))
+    );
+    transform: rotate(-4deg);
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__meniscus::before {
+    inset: 14% 6% auto;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.7),
+      transparent
+    );
+    opacity: calc(0.08 + var(--node-liquid) * 0.88);
+  }
+
+  .node-vessel__veil {
+    inset: 4%;
+    'border-radius': inherit;
+    background:
+      radial-gradient(
+        circle at 18% 28%,
+        color-mix(in srgb, var(--node-a3) 20%, transparent),
+        transparent 21%
+      ),
+      radial-gradient(
+        circle at 72% 22%,
+        color-mix(in srgb, white 12%, var(--node-a2) 16%),
+        transparent 19%
+      ),
+      radial-gradient(
+        circle at 62% 76%,
+        color-mix(in srgb, var(--node-a4) 22%, transparent),
+        transparent 24%
+      );
+    filter: blur(calc(8px + var(--node-gas) * 16px));
+    opacity: min(
+      0.92,
+      calc((0.12 + var(--node-gas) * 0.84) * var(--v-gas-scale, 1))
+    );
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__veil::before {
+    inset: 10%;
+    border: 1px dashed color-mix(in srgb, var(--node-a3) 42%, transparent);
+    opacity: calc(0.06 + var(--node-gas) * 0.5);
+    transform: rotate(28deg) scaleX(0.78);
+  }
+
+  .node-vessel__corona {
+    inset: -6%;
+    'border-radius': inherit;
+    background: conic-gradient(
+      from 0deg,
+      color-mix(in srgb, var(--node-a1) 65%, transparent),
+      transparent 8%,
+      color-mix(in srgb, var(--node-a2) 44%, transparent) 16%,
+      transparent 25%,
+      color-mix(in srgb, var(--node-a3) 48%, transparent) 39%,
+      transparent 52%,
+      color-mix(in srgb, var(--node-a1) 62%, transparent) 66%,
+      transparent 78%,
+      color-mix(in srgb, var(--node-a4) 42%, transparent)
+    );
+    filter: blur(calc(8px + var(--node-plasma) * 9px));
+    opacity: min(
+      0.94,
+      calc((0.12 + var(--node-plasma) * 0.76) * var(--v-plasma-reach, 1))
+    );
+    'mix-blend-mode': screen;
+  }
+
+  .node-vessel__corona::before {
+    inset: 13%;
+    border: 1px solid color-mix(in srgb, var(--node-a1) 54%, white 18%);
+    'box-shadow':
+      0 0 18px color-mix(in srgb, var(--node-a1) 44%, transparent),
+      0 0 44px color-mix(in srgb, var(--node-a2) 28%, transparent);
+    opacity: calc(0.06 + var(--node-plasma) * 0.65);
+  }
+
+  .node-vessel--floaty .node-vessel__lattice,
+  .node-vessel--tidal .node-vessel__lattice {
+    transform: rotate(18deg) scale(0.72);
+  }
+
+  .node-vessel--polarity-chamber .node-vessel__current {
+    inset: 8%;
+    'border-color': rgba(255, 255, 255, 0.38);
+    transform: rotate(36deg) scaleX(0.72);
+    opacity: 0.92;
+  }
+  .node-vessel--polarity-chamber .node-vessel__current--two {
+    'border-color': color-mix(in srgb, var(--node-a4) 62%, transparent);
+    transform: rotate(-36deg) scaleX(0.72);
+    opacity: 0.8;
+  }
+  .node-vessel--polarity-chamber .node-vessel__boundary::before {
+    background:
+      linear-gradient(
+        110deg,
+        transparent 0 47%,
+        rgba(255, 255, 255, 0.46) 49%,
+        transparent 52% 100%
+      ),
+      radial-gradient(
+        circle at 34% 36%,
+        rgba(255, 255, 255, 0.62),
+        transparent 6%
+      ),
+      radial-gradient(
+        circle at 66% 64%,
+        color-mix(in srgb, var(--node-a4) 78%, transparent),
+        transparent 7%
+      );
+    opacity: 0.9;
+  }
+
+  .node-vessel--garden-threshold .node-vessel__current {
+    inset: 7% 36% 7% 8%;
+    'border-color': rgba(255, 174, 204, 0.72);
+    transform: none;
+    opacity: 0.88;
+  }
+  .node-vessel--garden-threshold .node-vessel__current--two {
+    inset: 7% 8% 7% 36%;
+    'border-color': rgba(118, 232, 132, 0.68);
+    transform: none;
+    opacity: 0.82;
+  }
+  .node-vessel--garden-threshold .node-vessel__meniscus {
+    left: 20%;
+    right: 20%;
+    bottom: 34%;
+    height: 22%;
+    opacity: 0.86;
+  }
+  .node-vessel--garden-threshold .node-vessel__matter--solid {
+    'clip-path': polygon(
+      50% 0,
+      62% 32%,
+      92% 12%,
+      74% 43%,
+      100% 58%,
+      65% 61%,
+      50% 100%,
+      35% 61%,
+      0 58%,
+      26% 43%,
+      8% 12%,
+      38% 32%
+    );
+  }
+
+  .node-vessel--lunar-hollow .node-vessel__core,
+  .node-vessel--lunar-hollow .node-vessel__matter--plasma {
+    opacity: 0.12;
+  }
+  .node-vessel--lunar-hollow .node-vessel__current {
+    inset: 8% 18% 8% 3%;
+    'border-color': rgba(218, 232, 255, 0.52);
+    transform: rotate(21deg) scaleX(0.54);
+    opacity: 0.9;
+  }
+  .node-vessel--lunar-hollow .node-vessel__current--two {
+    inset: 12% 28% 12% 2%;
+    'border-color': rgba(104, 132, 190, 0.44);
+    transform: rotate(16deg) scaleX(0.44);
+    opacity: 0.72;
+  }
+  .node-vessel--lunar-hollow .node-vessel__veil {
+    inset: 2% 28% 2% 0;
+    filter: blur(10px);
+  }
+
+  .node-vessel--dual-gyre .node-vessel__meniscus,
+  .node-vessel--spiraling .node-vessel__meniscus {
+    transform: rotate(18deg) scaleX(0.82);
+    bottom: 24%;
+  }
+
+  .node-vessel--rising .node-vessel__veil {
+    transform: translateY(-8%) scaleY(1.18);
+  }
+
+  .node-vessel--lattice .node-vessel__meniscus,
+  .node-vessel--crystalline .node-vessel__meniscus {
+    opacity: calc(0.01 + var(--node-liquid) * 0.36);
+  }
+
+  @media (max-width: 639px) {
+    .node-world {
+      'overflow-x': hidden;
+    }
+
+    .node-hero {
+      'min-height': 760px;
+      'padding-inline': 1.5rem;
+    }
+
+    .node-hero h1 {
+      'max-width': calc(100vw - 3rem);
+      'font-size': clamp(2.5rem, 12vw, 3.2rem);
+      'line-height': 0.96;
+    }
+
+    .node-hero h1 + p {
+      'max-width': min(20rem, calc(100vw - 3rem));
+      'font-size': 1rem;
+      'line-height': 1.65;
+      'text-wrap': pretty;
+    }
+
+    .node-vessel {
+      'min-height': 390px;
+      'margin-inline': -1.5rem;
+    }
+
+    .node-vessel__membrane {
+      width: min(78vw, 340px);
+    }
+  }
+
+  .node-phase-row {
+    display: grid;
+    'grid-template-columns': 5.5rem minmax(0, 1fr) 3rem;
+    'integrate-items': center;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 0.42);
+    'font-size': 11px;
+    'letter-spacing': 0.16em;
+    'text-transform': uppercase;
+  }
+  .node-phase-row i {
+    height: 1px;
+    width: var(--phase-width);
+    'min-width': 12px;
+    background: linear-gradient(90deg, var(--node-a1), var(--node-a3));
+    'box-shadow': 0 0 18px color-mix(in srgb, var(--node-a1) 45%, transparent);
+  }
+  .node-phase-row em {
+    color: rgba(255, 255, 255, 0.28);
+    'font-style': normal;
+    'text-integrate': right;
+  }
+
+  .node-container-rule {
+    'margin-top': 0.75rem;
+    'max-width': 32rem;
+    color: rgba(255, 255, 255, 0.34);
+    'font-size': 13px;
+    'font-weight': 300;
+    'line-height': 1.75;
+  }
+
+  .prose-node p {
+    'margin-bottom': 1.5rem;
+  }
+  .prose-node p:last-child {
+    'margin-bottom': 0;
+  }
+  .prose-node h2 {
+    'font-family': 'Cormorant Garamond', serif;
+    'font-size': 1.5rem;
+    'font-weight': 300;
+    color: rgba(255, 255, 255, 0.8);
+    'margin-top': 2.5rem;
+    'margin-bottom': 1rem;
+  }
+  .prose-node h3 {
+    'font-family': 'Cormorant Garamond', serif;
+    'font-size': 1.25rem;
+    'font-weight': 300;
+    color: rgba(255, 255, 255, 0.7);
+    'margin-top': 2rem;
+    'margin-bottom': 0.75rem;
+  }
+  .prose-node strong {
+    color: rgba(255, 255, 255, 0.7);
+    'font-weight': 500;
+  }
+  .prose-node em {
+    color: rgba(255, 255, 255, 0.55);
+    'font-style': italic;
+  }
+  .prose-node ul,
+  .prose-node ol {
+    'margin-bottom': 1.5rem;
+    'padding-left': 1.5rem;
+  }
+  .prose-node li {
+    'margin-bottom': 0.5rem;
+  }
+  .prose-node ul li::marker {
+    color: rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.4);
+  }
+</style>

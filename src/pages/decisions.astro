@@ -1,0 +1,683 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import VerticalSpine from '../components/VerticalSpine.astro';
+import WorldMotif from '../components/WorldMotif.astro';
+import {
+  DECISIONS,
+  decisionsByCategory,
+  overallProgress,
+  categoryLabel,
+  ownerLabel,
+  type DecisionItem,
+  type DecisionOption,
+} from '../data/decisions';
+
+const groups = decisionsByCategory();
+const stats = overallProgress();
+const categoryOrder = [
+  'urgent',
+  'client-gated',
+  'strategic',
+  'studio-internal',
+] as const;
+
+// Each option button POSTs to /capture (source='decision-board') so clicks
+// land in KV with the studio's suggestion captured alongside the answer.
+// Mailto: still acts as graceful fallback if the fetch fails (offline,
+// runtime error, ad-blocker, etc.).
+// Recipient is sourced from env (M2 — no PII / dynamic data inlined). Falls
+// back to the same synthetic address capture.ts uses for the decision board.
+const DECISIONS_EMAIL =
+  import.meta.env.PUBLIC_DECISIONS_EMAIL ?? 'decisions@spira-salvtis.local';
+
+function mailtoFor(item: DecisionItem, option: DecisionOption): string {
+  const to = DECISIONS_EMAIL;
+  const subj = `Decision: ${item.title}`;
+  const body = [
+    `Decision ID: ${item.id}`,
+    `My choice: ${option.label}`,
+    '',
+    `(${option.description})`,
+    '',
+    `Studio suggestion: ${item.suggestion}`,
+    `Was the recommended option? ${option.recommended ? 'yes' : 'no'}`,
+    '',
+    `— sent from /decisions`,
+  ].join('\n');
+  return `mailto:${to}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+}
+
+function statusIcon(status: 'open' | 'partial' | 'resolved'): string {
+  return { open: '○', partial: '◐', resolved: '●' }[status];
+}
+---
+
+<Base
+  title="Decisions & Open Paths"
+  description="What needs an answer to move the site forward. Curated for admin + 4jp."
+  noindex
+>
+  <VerticalSpine />
+  <Hero
+    heading="Decisions & Open Paths"
+    subtext="Every open question, hanging headache, and binary/multi-option path that's currently sitting between us and 100%. Tap any option to send your choice (opens your email pre-filled)."
+    section="Client × Studio · Interaction Board"
+  >
+    {
+      /* Node 3 — Polarity Hall (dual-gyre): two poles weighed against
+        each other — the decision surface's own physics */
+    }
+    <WorldMotif slot="backdrop" nodeId={3} />
+    <div class="aggregate">
+      <div class="agg-ring" style={`--pct: ${stats.pct}`}>
+        <div class="agg-pct">
+          <strong>{stats.pct}%</strong><span>to 100%</span>
+        </div>
+      </div>
+      <div class="agg-stats">
+        <div><strong>{stats.count}</strong> total</div>
+        <div><strong>{stats.resolved}</strong> resolved</div>
+        <div><strong>{stats.partial}</strong> partial</div>
+        <div><strong>{stats.open}</strong> open</div>
+      </div>
+    </div>
+  </Hero>
+
+  <main
+    class="decisions-page relative z-10 bg-ocean-900 border-t border-white/[0.03]"
+  >
+    {
+      categoryOrder.map((cat) => {
+        const items = groups[cat];
+        if (!items.length) return null;
+        return (
+          <section class={`category-section cat-${cat}`}>
+            <h2>
+              {categoryLabel(cat)}{' '}
+              <span class="cat-count">({items.length})</span>
+            </h2>
+            <div class="decision-grid">
+              {items.map((item) => (
+                <article
+                  class={`decision-card status-${item.status} type-${item.type}`}
+                >
+                  <header class="card-top">
+                    <span class="status-icon" title={item.status}>
+                      {statusIcon(item.status)}
+                    </span>
+                    <h3>{item.title}</h3>
+                    <div class="card-meta">
+                      <span class={`owner-badge owner-${item.ownerNeeded}`}>
+                        {ownerLabel(item.ownerNeeded)}
+                      </span>
+                      <span class="urgency">{item.urgencyHint}</span>
+                    </div>
+                  </header>
+
+                  <div class="progress-wrap">
+                    <div class="progress-bar">
+                      <div
+                        class="progress-fill"
+                        style={`width: ${item.progress}%`}
+                      />
+                    </div>
+                    <span class="progress-label">{item.progress}%</span>
+                  </div>
+
+                  <dl class="card-body">
+                    <dt>Effects</dt>
+                    <dd>{item.effects}</dd>
+
+                    <dt>Suggestion</dt>
+                    <dd>{item.suggestion}</dd>
+
+                    {item.options && item.options.length > 0 && (
+                      <>
+                        <dt>
+                          {item.type === 'binary'
+                            ? 'Pick one'
+                            : 'Choose a path'}
+                        </dt>
+                        <dd>
+                          <div class="options">
+                            {item.options.map((opt) => (
+                              <a
+                                class={`option-btn ${opt.recommended ? 'recommended' : ''}`}
+                                href={mailtoFor(item, opt)}
+                                data-decision-id={item.id}
+                                data-option-label={opt.label}
+                                data-option-recommended={
+                                  opt.recommended ? 'true' : 'false'
+                                }
+                                data-suggestion={item.suggestion}
+                                data-category={item.category}
+                                data-owner={item.ownerNeeded}
+                              >
+                                <span class="opt-label">
+                                  {opt.recommended && (
+                                    <span class="rec-tag">recommended</span>
+                                  )}
+                                  {opt.label}
+                                </span>
+                                <span class="opt-desc">{opt.description}</span>
+                                {opt.consequence && (
+                                  <span class="opt-conseq">
+                                    → {opt.consequence}
+                                  </span>
+                                )}
+                                <span class="opt-status" aria-live="polite" />
+                              </a>
+                            ))}
+                          </div>
+                        </dd>
+                      </>
+                    )}
+
+                    {item.type === 'observation' && (
+                      <>
+                        <dt>Status</dt>
+                        <dd class="observation-note">
+                          Tracking only — no action needed from you right now.
+                        </dd>
+                      </>
+                    )}
+
+                    {item.notes && (
+                      <>
+                        <dt>Notes</dt>
+                        <dd class="card-notes">{item.notes}</dd>
+                      </>
+                    )}
+
+                    {item.links && item.links.length > 0 && (
+                      <>
+                        <dt>Links</dt>
+                        <dd>
+                          <ul class="links">
+                            {item.links.map((l) => (
+                              <li>
+                                <a href={l.url} target="_blank" rel="noopener">
+                                  {l.label} ↗
+                                </a>
+                              </li>
+                            ))}
+                          </ul>
+                        </dd>
+                      </>
+                    )}
+                  </dl>
+                </article>
+              ))}
+            </div>
+          </section>
+        );
+      })
+    }
+
+    <footer class="decisions-footer">
+      <p>
+        To add or edit decisions: <code>src/data/decisions.ts</code>. Option
+        clicks POST to <code>/capture</code> with <code
+          >source: 'decision-board'</code
+        >; the studio's suggestion is captured in the same payload as the chosen
+        option. Mailto: still fires as graceful fallback if the POST fails.
+      </p>
+      <p class="footer-meta">
+        Generated from {stats.count} curated items · last index update on commit deploy.
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<script is:inline>
+  // Intercept option-button clicks: POST to /capture first, then either
+  // show "Saved ✓" inline or fall through to the mailto: href so the user
+  // never loses their click.
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.option-btn');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', async (evt) => {
+        const el = evt.currentTarget;
+        if (!(el instanceof HTMLAnchorElement)) return;
+        const status = el.querySelector('.opt-status');
+        if (status && status.textContent === 'Saved ✓') {
+          // Already saved this click — let the user open mailto: if they want
+          // to follow up by email. Don't double-POST.
+          return;
+        }
+        evt.preventDefault();
+        if (status) status.textContent = 'Saving…';
+        try {
+          const resp = await fetch('/capture', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              source: 'decision-board',
+              decisionId: el.dataset.decisionId,
+              chosenOptionLabel: el.dataset.optionLabel,
+              chosenOptionRecommended: el.dataset.optionRecommended === 'true',
+              studioSuggestion: el.dataset.suggestion,
+              decisionCategory: el.dataset.category,
+              decisionOwner: el.dataset.owner,
+            }),
+          });
+          if (!resp.ok) throw new Error('non-2xx');
+          if (status) status.textContent = 'Saved ✓';
+          el.classList.add('saved');
+        } catch {
+          // Graceful fallback: let the mailto: open so the user's click
+          // isn't lost. Reset status so the next click retries the fetch.
+          if (status) status.textContent = '';
+          window.location.href = el.href;
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  .decisions-page {
+    'max-width': 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+    color: var(--color-text, #e8e6e1);
+  }
+
+  .decisions-hero {
+    'text-integrate': center;
+    'margin-bottom': 3rem;
+  }
+  .hero-eyebrow {
+    'font-size': 0.7rem;
+    'letter-spacing': 0.22em;
+    'text-transform': uppercase;
+    opacity: 0.55;
+    'margin-bottom': 0.5rem;
+  }
+  .decisions-hero h1 {
+    'font-size': clamp(2rem, 5vw, 3rem);
+    'font-weight': 300;
+    'letter-spacing': -0.02em;
+    margin: 0 0 1rem;
+  }
+  .hero-intro {
+    'max-width': 640px;
+    margin: 0 auto 2rem;
+    'line-height': 1.6;
+    opacity: 0.85;
+  }
+
+  .aggregate {
+    display: flex;
+    'justify-content': center;
+    'integrate-items': center;
+    gap: 2.5rem;
+    'flex-wrap': wrap;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 16px;
+    padding: 1.5rem 2rem;
+    'max-width': 580px;
+    margin: 0 auto;
+  }
+  .agg-ring {
+    width: 96px;
+    height: 96px;
+    'border-radius': 50%;
+    background: conic-gradient(
+      var(--color-accent, #c9a96e) calc(var(--pct) * 1%),
+      rgba(255, 255, 255, 0.08) 0
+    );
+    display: flex;
+    'integrate-items': center;
+    'justify-content': center;
+    position: relative;
+  }
+  .agg-ring::before {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    'border-radius': 50%;
+    background: var(--ss-page-bg, var(--color-ocean-900));
+  }
+  .agg-pct {
+    position: relative;
+    'text-integrate': center;
+  }
+  .agg-pct strong {
+    'font-size': 1.3rem;
+    'font-weight': 500;
+    color: var(--color-accent, #c9a96e);
+    display: block;
+  }
+  .agg-pct span {
+    display: block;
+    'font-size': 0.7rem;
+    opacity: 0.6;
+    'letter-spacing': 0.05em;
+  }
+  .agg-stats {
+    display: grid;
+    'grid-template-columns': repeat(2, auto);
+    gap: 0.5rem 1.5rem;
+    'font-size': 0.9rem;
+  }
+  .agg-stats strong {
+    color: var(--color-accent, #c9a96e);
+    'font-weight': 500;
+    'font-size': 1.1rem;
+    'margin-right': 0.4rem;
+  }
+
+  .category-section {
+    'margin-bottom': 3.5rem;
+  }
+  .category-section h2 {
+    'font-size': 1.4rem;
+    'font-weight': 400;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.1);
+    'padding-bottom': 0.6rem;
+    'margin-bottom': 1.5rem;
+    'letter-spacing': -0.005em;
+  }
+  .cat-count {
+    'font-size': 0.85rem;
+    opacity: 0.5;
+    'font-weight': 400;
+  }
+
+  .cat-urgent h2 {
+    color: #e8a878;
+  }
+  .cat-strategic h2 {
+    color: var(--color-gold);
+  }
+  .cat-client-gated h2 {
+    color: #a8c4d4;
+  }
+  .cat-studio-internal h2 {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .decision-grid {
+    display: grid;
+    'grid-template-columns': 1fr;
+    gap: 1.25rem;
+  }
+
+  .decision-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    'border-left': 3px solid rgba(255, 255, 255, 0.15);
+    'border-radius': 10px;
+    padding: 1.5rem;
+    transition:
+      border-color 0.2s ease,
+      background 0.2s ease;
+  }
+  .decision-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  .cat-urgent .decision-card {
+    'border-left-color': rgba(232, 168, 120, 0.55);
+  }
+  .cat-strategic .decision-card {
+    'border-left-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.55);
+  }
+  .cat-client-gated .decision-card {
+    'border-left-color': rgba(168, 196, 212, 0.55);
+  }
+  .cat-studio-internal .decision-card {
+    'border-left-color': rgba(255, 255, 255, 0.25);
+  }
+
+  .card-top {
+    display: grid;
+    'grid-template-columns': auto 1fr auto;
+    'integrate-items': center;
+    gap: 0.75rem;
+    'margin-bottom': 1rem;
+  }
+  .card-top h3 {
+    'font-size': 1.05rem;
+    'font-weight': 500;
+    margin: 0;
+    'letter-spacing': -0.005em;
+    'line-height': 1.3;
+  }
+  .status-icon {
+    'font-size': 1.2rem;
+    opacity: 0.7;
+    cursor: help;
+  }
+  .status-resolved .status-icon {
+    color: #78c4a8;
+    opacity: 1;
+  }
+  .status-partial .status-icon {
+    color: var(--color-gold);
+    opacity: 1;
+  }
+  .status-open .status-icon {
+    opacity: 0.4;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: 0.5rem;
+    'integrate-items': center;
+    'flex-wrap': wrap;
+    'justify-content': flex-end;
+  }
+  .owner-badge {
+    'font-size': 0.7rem;
+    padding: 0.2rem 0.55rem;
+    'border-radius': 4px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    'letter-spacing': 0.02em;
+    'white-space': nowrap;
+  }
+  .urgency {
+    'font-size': 0.7rem;
+    opacity: 0.55;
+    'font-style': italic;
+    'white-space': nowrap;
+  }
+
+  .progress-wrap {
+    display: flex;
+    'integrate-items': center;
+    gap: 0.75rem;
+    'margin-bottom': 1.25rem;
+  }
+  .progress-bar {
+    flex: 1;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.06);
+    'border-radius': 3px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      var(--color-accent, #c9a96e),
+      var(--color-gold-light, #e0c992)
+    );
+    'border-radius': 3px;
+    transition: width 0.4s ease;
+  }
+  .progress-label {
+    'font-size': 0.75rem;
+    opacity: 0.65;
+    'font-weight': 500;
+    'min-width': 2.5rem;
+    'text-integrate': right;
+  }
+
+  .card-body {
+    margin: 0;
+    display: grid;
+    'grid-template-columns': 1fr;
+    gap: 0.5rem;
+  }
+  .card-body dt {
+    'font-size': 0.7rem;
+    'font-weight': 600;
+    'letter-spacing': 0.1em;
+    'text-transform': uppercase;
+    opacity: 0.55;
+    'margin-top': 0.5rem;
+  }
+  .card-body dd {
+    margin: 0;
+    'font-size': 0.9rem;
+    'line-height': 1.55;
+    opacity: 0.9;
+  }
+  .observation-note {
+    'font-style': italic;
+    opacity: 0.6;
+  }
+  .card-notes {
+    'font-size': 0.85rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    'border-left': 2px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.4);
+    'border-radius': 0 4px 4px 0;
+  }
+
+  .options {
+    display: grid;
+    'grid-template-columns': 1fr;
+    gap: 0.6rem;
+    'margin-top': 0.25rem;
+  }
+  .option-btn {
+    display: block;
+    padding: 0.85rem 1rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    'border-radius': 8px;
+    color: inherit;
+    'text-decoration': none;
+    transition: all 0.15s ease;
+  }
+  .option-btn:hover {
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.1);
+    'border-color': var(--color-accent, #c9a96e);
+    transform: translateX(2px);
+  }
+  .option-btn.recommended {
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.4);
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.05);
+  }
+  .opt-label {
+    display: flex;
+    'integrate-items': center;
+    gap: 0.5rem;
+    'font-weight': 500;
+    'font-size': 0.92rem;
+    'margin-bottom': 0.25rem;
+  }
+  .rec-tag {
+    'font-size': 0.6rem;
+    padding: 0.1rem 0.4rem;
+    background: var(--color-accent, #c9a96e);
+    color: #1a1a1a;
+    'border-radius': 3px;
+    'text-transform': uppercase;
+    'letter-spacing': 0.08em;
+    'font-weight': 600;
+  }
+  .opt-desc {
+    display: block;
+    'font-size': 0.82rem;
+    opacity: 0.75;
+    'line-height': 1.5;
+  }
+  .opt-conseq {
+    display: block;
+    'font-size': 0.75rem;
+    opacity: 0.55;
+    'margin-top': 0.35rem;
+    'font-style': italic;
+  }
+  .opt-status {
+    display: block;
+    'font-size': 0.78rem;
+    'margin-top': 0.5rem;
+    color: var(--color-accent, #c9a96e);
+    'font-weight': 500;
+    'min-height': 1em;
+  }
+  .option-btn.saved {
+    'border-color': var(--color-accent, #c9a96e);
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.08);
+  }
+
+  .links {
+    'list-style': none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    'flex-wrap': wrap;
+    gap: 0.5rem 1rem;
+  }
+  .links a {
+    color: var(--color-accent, #c9a96e);
+    'text-decoration': none;
+    'font-size': 0.82rem;
+    'border-bottom': 1px solid transparent;
+    transition: border-color 0.15s ease;
+  }
+  .links a:hover {
+    'border-bottom-color': currentColor;
+  }
+
+  .decisions-footer {
+    'margin-top': 4rem;
+    'padding-top': 2rem;
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
+    'font-size': 0.8rem;
+    'line-height': 1.6;
+    opacity: 0.5;
+  }
+  .decisions-footer code {
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.15em 0.4em;
+    'border-radius': 3px;
+    'font-size': 0.9em;
+  }
+  .footer-meta {
+    'margin-top': 0.5rem;
+    opacity: 0.6;
+  }
+
+  @media (min-width: 720px) {
+    .decision-grid {
+      'grid-template-columns': repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 540px) {
+    .decisions-page {
+      padding: 2rem 1rem 4rem;
+    }
+    .card-top {
+      'grid-template-columns': auto 1fr;
+    }
+    .card-meta {
+      'grid-column': 1 / -1;
+      'justify-content': flex-start;
+      'margin-top': 0.25rem;
+    }
+    .agg-stats {
+      'grid-template-columns': 1fr 1fr;
+    }
+  }
+</style>

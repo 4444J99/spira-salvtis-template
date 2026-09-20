@@ -1,0 +1,204 @@
+---
+/**
+ * /lineage/[envvar] — chronological lineage of one substrate.
+ *
+ * Renders the chain of names this essence has carried across traditions
+ * and centuries. Driven by NAMING_CHAINS data; future multi-lens viewer
+ * will reuse the same data via viewThroughLens().
+ */
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import { config } from '../../data/hub.config';
+import type { EnvVar } from '../../data/hub.config';
+import {
+  chainsFor,
+  NAMING_CHAINS,
+  LENSES_IN_DISPLAY_ORDER,
+} from '../../data/naming-chains';
+import type { Lens } from '../../data/naming-chains';
+
+export function getStaticPaths() {
+  // One static page per distinct EnvVar in NAMING_CHAINS.
+  const seen = new Set<EnvVar>();
+  const params: { params: { envvar: string }; props: { envVar: EnvVar } }[] =
+    [];
+  for (const binding of NAMING_CHAINS) {
+    if (!seen.has(binding.envVar)) {
+      seen.add(binding.envVar);
+      params.push({
+        params: { envvar: binding.envVar.toLowerCase() },
+        props: { envVar: binding.envVar },
+      });
+    }
+  }
+  return params;
+}
+
+interface Props {
+  envVar: EnvVar;
+}
+
+const { envVar } = Astro.props;
+const chain = chainsFor(envVar);
+
+// Map back to the spiral node bound to this envVar (so we can deep-link).
+const sourceNode = config.nodes.find((n) => n.envVar === envVar);
+
+const lensLabel: Record<Lens, string> = {
+  egyptian: 'Egyptian',
+  'sanskrit-vedic': 'Sanskrit / Vedic',
+  'greek-classical': 'Greek-Classical',
+  'christian-mystical': 'Christian-Mystical',
+  jungian: 'Jungian',
+  'physics-elemental': 'Physics / Elemental',
+  'modern-wellness': 'Modern Wellness',
+};
+
+const description = sourceNode
+  ? `Lineage of ${envVar} — the substrate beneath "${sourceNode.name}". Same essence, named through Egyptian, Vedic, Greek, mystical, Jungian, foundation, and modern traditions.`
+  : `Lineage of ${envVar} — same essence, named through many traditions.`;
+
+// Cross-link to the other 12 substrates.
+const allEnvVars = Array.from(new Set(NAMING_CHAINS.map((b) => b.envVar)));
+---
+
+<Base title={`${envVar} — Lineage — ${config.name}`} description={description}>
+  <Hero
+    heading={envVar}
+    subtext={chain[0]?.connotation ||
+      `The substrate beneath the ${sourceNode?.name ?? 'spiral'} node.`}
+    section="Lineage"
+  />
+
+  <section class="py-20 px-6 bg-ocean-900">
+    <div class="max-w-3xl mx-auto">
+      {
+        sourceNode && (
+          <div class="mb-16 text-center">
+            <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-3">
+              Surface Binding
+            </p>
+            <a
+              href={sourceNode.url}
+              class="inline-block font-heading text-[24px] font-light text-white/75 hover:text-white transition-colors"
+            >
+              {sourceNode.emoji} {sourceNode.name}
+            </a>
+            <p class="mt-2 text-[14px] text-white/35 italic">
+              {sourceNode.tagline}
+            </p>
+          </div>
+        )
+      }
+
+      <div class="mb-12">
+        <p
+          class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-6 text-center"
+        >
+          Chain of Names — {chain.length} traditions
+        </p>
+        <ol class="space-y-8">
+          {
+            chain.map((binding) => (
+              <li
+                class="glass-card p-6 sm:p-8"
+                style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.10);"
+              >
+                <div class="flex items-baseline justify-between flex-wrap gap-2 mb-3">
+                  <p class="text-[10px] uppercase tracking-[0.2em] text-ocean-400/60">
+                    {lensLabel[binding.lens]}
+                  </p>
+                  {binding.era && (
+                    <p class="text-[11px] text-white/30 font-mono">
+                      {binding.era}
+                    </p>
+                  )}
+                </div>
+                <h2 class="font-heading text-[28px] font-light text-white/85 leading-tight">
+                  {binding.name}
+                  {binding.script && (
+                    <span class="ml-3 text-white/40 text-[20px]">
+                      {binding.script}
+                    </span>
+                  )}
+                </h2>
+                <p class="mt-3 text-[15px] font-light text-white/50 leading-[1.7]">
+                  {binding.connotation}
+                </p>
+                {binding.source && (
+                  <p class="mt-3 text-[11px] uppercase tracking-[0.15em] text-white/25">
+                    {binding.source}
+                  </p>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+
+      {/* Lens index — what perspectives this lineage spans */}
+      <div class="mb-12">
+        <p
+          class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-3 text-center"
+        >
+          Lenses Present
+        </p>
+        <div class="flex flex-wrap gap-2 justify-center">
+          {
+            LENSES_IN_DISPLAY_ORDER.filter((l) =>
+              chain.some((b) => b.lens === l),
+            ).map((lens) => (
+              <span class="text-[11px] px-3 py-1 rounded-full bg-white/[0.04] text-white/40 border border-white/10">
+                {lensLabel[lens]}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Cross-link to all other substrates */}
+  <section class="py-12 px-6 bg-ocean-900 border-t border-white/[0.04]">
+    <div class="max-w-3xl mx-auto">
+      <p
+        class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-6 text-center"
+      >
+        Other Substrates
+      </p>
+      <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-2">
+        {
+          allEnvVars
+            .filter((e) => e !== envVar)
+            .map((other) => {
+              const otherNode = config.nodes.find((n) => n.envVar === other);
+              return (
+                <a
+                  href={`/lineage/${other.toLowerCase()}`}
+                  class="text-center py-3 px-2 rounded bg-white/[0.02] hover:bg-white/[0.06] border border-white/5 hover:border-ocean-500/30 transition-colors group"
+                  title={otherNode?.name}
+                >
+                  <span class="block text-[11px] uppercase tracking-[0.1em] text-white/35 group-hover:text-ocean-400/80">
+                    {other}
+                  </span>
+                  {otherNode && (
+                    <span class="block mt-1 text-[10px] text-white/20 truncate">
+                      {otherNode.name}
+                    </span>
+                  )}
+                </a>
+              );
+            })
+        }
+      </div>
+      <div class="mt-8 text-center">
+        <a
+          href="/"
+          class="text-[11px] uppercase tracking-[0.15em] text-white/25 hover:text-white/50 transition-colors"
+        >
+          &larr; Back to Spiral
+        </a>
+      </div>
+    </div>
+  </section>
+</Base>
