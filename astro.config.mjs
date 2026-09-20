@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 import cloudflare from '@astrojs/cloudflare';
 
 export default defineConfig({
-  site: 'https://hub-example.com',
+  site: 'https://hub-spira-salvtis.dev',
   // imageService 'compile' uses Astro's build-time image service (the site
   // does no astro:assets optimization), avoiding the v13 default that requires
   // a Cloudflare 'IMAGES' binding this project doesn't provision.

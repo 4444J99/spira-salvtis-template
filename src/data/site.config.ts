@@ -9,16 +9,16 @@ export const siteConfig = {
   githubRepo:
     'https://github.com/organvm-iii-ergon/sovereign-systems--spiral-template',
   cloudflare: {
-    workerName: 'sovereign-systems-spiral',
+    workerName: 'spira-salvtis',
     reviewOrigin: trimTrailingSlash(
-      envOrigin || 'https://sovereign-systems-spiral.ivixivi.workers.dev',
+      envOrigin || 'https://spira-salvtis.ivixivi.workers.dev',
     ),
-    legacyPagesOrigin: 'https://sovereign-systems-spiral.pages.dev',
+    legacyPagesOrigin: 'https://spira-salvtis.pages.dev',
   },
   domains: {
-    primary: 'hub-example.com',
-    water: 'water-example.com',
-    business: 'business-example.com',
+    primary: 'hub-spira-salvtis.dev',
+    water: 'water-spira-salvtis.dev',
+    business: 'business-spira-salvtis.dev',
   },
 } as const;
 

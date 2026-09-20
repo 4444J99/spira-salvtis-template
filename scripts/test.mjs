@@ -204,7 +204,7 @@ assert.match(
 );
 assert.doesNotMatch(
   decisionsSource,
-  /sovereign-systems-spiral\.(pages|ivixivi\.workers)\.dev/,
+  /spira-salvtis\.(pages|ivixivi\.workers)\.dev/,
   'decision-board live links should not hardcode Pages or Worker origins',
 );
 assert.match(

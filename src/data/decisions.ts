@@ -410,7 +410,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "Unlocks the right fix for the missing-fluoride report — three possible fixes (~30 min, ~1-2 hr, ~45 min) depending on your answer. Without this we can't pick the right one.",
     suggestion:
-      'CLOSED / N/A 2026-06-22 (admin #1): fluoride bug closed. The water-report / contaminant funnel it lived in is no longer surfaced on the spiral (moved to GHL / water-example.com per #35), so the badge bug is moot here.',
+      'CLOSED / N/A 2026-06-22 (admin #1): fluoride bug closed. The water-report / contaminant funnel it lived in is no longer surfaced on the spiral (moved to GHL / water-spira-salvtis.dev per #35), so the badge bug is moot here.',
     type: 'multi',
     progress: 100,
     status: 'resolved',
@@ -456,7 +456,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       'Currently the spiral hero quiz CTA falls back to local /quiz (the affinity quiz that scores into 1 of 13 nodes). If you want the CTA to point to your GHL form, name the URL.',
     suggestion:
-      'RESOLVED 2026-06-22 (admin #2): keep local /quiz. No book-a-call button. Affiliate/call CTAs replaced site-wide with two outbound links — water-example.com (body science) + business-example.com (business).',
+      'RESOLVED 2026-06-22 (admin #2): keep local /quiz. No book-a-call button. Affiliate/call CTAs replaced site-wide with two outbound links — water-spira-salvtis.dev (body science) + business-spira-salvtis.dev (business).',
     type: 'binary',
     progress: 100,
     status: 'resolved',
@@ -812,7 +812,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "Decides the public-vs-behind-capture content architecture. Affects: what's on /water/[slug] (currently 6 studio branches), what the public site's voice feels like, what depth library lives in GHL.",
     suggestion:
-      'RESOLVED 2026-06-22 (admin #35): Option A — FULL swap. ALL water funnel branch content (planet, energy, cancer, how-cells-work) belongs in GHL / water-example.com. The spiral LINKS OUT, it does not host deep water content. All 6 branches now visible:false (unlinked, markdown preserved); /water/ rebuilt as a foundation-first section with two outbound CTAs. Supersedes the earlier "keep 3 visible" mapping.',
+      'RESOLVED 2026-06-22 (admin #35): Option A — FULL swap. ALL water funnel branch content (planet, energy, cancer, how-cells-work) belongs in GHL / water-spira-salvtis.dev. The spiral LINKS OUT, it does not host deep water content. All 6 branches now visible:false (unlinked, markdown preserved); /water/ rebuilt as a foundation-first section with two outbound CTAs. Supersedes the earlier "keep 3 visible" mapping.',
     type: 'multi',
     progress: 100,
     status: 'resolved',
@@ -846,7 +846,7 @@ export const DECISIONS: DecisionItem[] = [
   },
   {
     id: 'custom-domain-elevatealign',
-    title: 'Connect hub-example.com via Cloudflare',
+    title: 'Connect hub-spira-salvtis.dev via Cloudflare',
     category: 'client-gated',
     ownerNeeded: 'admin',
     urgencyHint: 'Whenever',

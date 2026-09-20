@@ -23,7 +23,7 @@ export interface Branch {
    * the route still resolves for direct links and HTML extraction — but no
    * navigation surface exposes them. Per admin 2026-05-16 voice note:
    * spiral = 3 visible branches (Inflammation, Hormone Health, Energy + Focus);
-   * the other 3 move to her GHL water hub at water-example.com.
+   * the other 3 move to her GHL water hub at water-spira-salvtis.dev.
    */
   visible?: boolean;
 }
@@ -485,7 +485,7 @@ export const config: HubConfig = {
         'S-16',
       ],
       // Unlinked (admin 2026-06-22 #35 "Option A — full swap"): deep water
-      // branch content moves to GHL / water-example.com; markdown preserved.
+      // branch content moves to GHL / water-spira-salvtis.dev; markdown preserved.
       visible: false,
     },
     {
@@ -570,13 +570,13 @@ export const config: HubConfig = {
     },
   ],
   domains: {
-    hub: 'hub-example.com',
-    water: 'water-example.com',
-    business: 'business-example.com',
+    hub: 'hub-spira-salvtis.dev',
+    water: 'water-spira-salvtis.dev',
+    business: 'business-spira-salvtis.dev',
   },
   ghl: {
     quizFormUrl:
       'https://api.leadconnectorhq.com/widget/quiz/qoZk7lZax3nSDwIVkZOW',
-    productUrl: 'https://water-example.com',
+    productUrl: 'https://water-spira-salvtis.dev',
   },
 };
