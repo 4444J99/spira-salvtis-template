@@ -23,10 +23,10 @@ Each piece has been graded SIGNAL (build-worthy) and classified as SCRIPT (actio
 
 | Pillar | Count |
 |--------|-------|
-| Physical | 54 |
-| Financial | 18 |
-| Inner | 18 |
-| Identity | 4 |
+| Foundation | 54 |
+| Vision | 18 |
+| System | 18 |
+| Structure | 4 |
 
 ## Editorial Status
 

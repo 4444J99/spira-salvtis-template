@@ -30,7 +30,7 @@ export interface MathPrimitive {
   symmetry: SymmetryType;
   /** Golden ratio scaling exponent */
   phiExponent: number;
-  /** Inner radius ratio (between 0 and 1) */
+  /** System radius ratio (between 0 and 1) */
   innerRatio: number;
   /** Rotation per segment in radians */
   rotationPerSegment: number;
@@ -93,7 +93,7 @@ export const PRIMITIVES: Record<EnvVar, MathPrimitive> = {
     depthRatio: 0.5,
   },
 
-  // 5 — HYDOR (Water/Teardrop) — radial, fluid, the flow
+  // 5 — HYDOR (Gateway/Teardrop) — radial, fluid, the flow
   HYDOR: {
     vertexCount: 8,
     symmetry: 'radial',

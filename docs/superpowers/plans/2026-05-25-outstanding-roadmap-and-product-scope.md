@@ -4,7 +4,7 @@
 - **Status:** Planning — scopes every open issue into horizons, with the product
   decisions and MVP slices each needs before code.
 - **Context:** V1 is live (Astro 6, Cloudflare Pages, `npm audit` 0). The spiral
-  hub, water funnel, quiz, capture pipeline, 4 pillars / 6 branches / 13 nodes
+  hub, gateway funnel, quiz, capture pipeline, 4 pillars / 6 branches / 13 nodes
   all shipped. Everything below is post-launch: unblock, monetize, personalize,
   expand.
 
@@ -61,8 +61,8 @@ The monetization stack. Build order is dependency-driven.
 The prerequisite. Produce a per-surface matrix (page · pillar · node → tier).
 Recommended starting model:
 
-- **Free:** spiral hub, pillar overviews, branch hooks, quiz, water ZIP lookup.
-- **Email-gated:** node deep-dives, full water report, research bibliography.
+- **Free:** spiral hub, pillar overviews, branch hooks, quiz, gateway ZIP lookup.
+- **Email-gated:** node deep-dives, full gateway report, research bibliography.
 - **Paid:** subscription hub, the personalization layer (#30), automated video
   series, planner.
 
@@ -81,15 +81,15 @@ into `EmailGate` + a future paywall component.
 
 ### #10 — Store 🧭🛠️ (deps: what's being sold)
 
-- **Decision:** Shopify Buy Button (if physical inventory) vs Stripe Checkout
-  (digital + simple physical) vs Snipcart. **Recommend Stripe** for parity with
+- **Decision:** Shopify Buy Button (if foundation inventory) vs Stripe Checkout
+  (digital + simple foundation) vs Snipcart. **Recommend Stripe** for parity with
   #38 unless inventory/fulfilment needs Shopify.
 - **MVP:** one purchasable product on a `/store` page.
 
 ### #65 — Email-simplified personalized filter plan 🔒🛠️ (W-070; deps: #62)
 
-- Add `source=water-personalized-plan` + optional `address` to `CapturePayload`;
-  new CTA on `/water/`. admin does the manual EWG lookup → personalized plan.
+- Add `source=gateway-personalized-plan` + optional `address` to `CapturePayload`;
+  new CTA on `/gateway/`. admin does the manual EWG lookup → personalized plan.
 - Small once #62 clarifies the canonical EWG path.
 
 ### #18 — Video hosting 🧭🔒 (deps: #14 asset access)
@@ -107,7 +107,7 @@ PERSONAL" and the core value of the subscription tier. Covers ~61 untracked
 atoms. Largest feature; ship in slices.
 
 - **Slice 1 — cycle content (no code, M1-cited):** cycle-synced protocols in 3
-  branches (gut / fertility / athletic). `CycleAwareness.astro` already exists as
+  branches (gut / archetype-delta / archetype-alpha). `CycleAwareness.astro` already exists as
   the surface. Lowest effort, highest immediate value.
 - **Slice 2 — profile + compute 🧭:** a personalization profile (birth
   date/time/location → chart; current cycle phase). **Decision:** build vs
@@ -129,7 +129,7 @@ the privacy decision + the monetization stack.
 
 - Donations (start simple: Stripe + Instagram), farm-to-reset (WWOOF, 20hr/wk
   work-for-stay), housing/reset resources, and the Sacred Symbols Canvas as the
-  nonprofit's visual identity.
+  nonprofit's visual structure.
 - Gated on admin's location/nonprofit-formation decisions. **MVP:** a nonprofit
   landing page using the canvas aesthetic + a donation link.
 
@@ -142,7 +142,7 @@ the privacy decision + the monetization stack.
   host once node-shape becomes editable structure). Needs admin's authoring
   engagement.
 
-### #20 Creature Selves / #19 Inner Child Book 🧭🔒
+### #20 Creature Selves / #19 System Child Book 🧭🔒
 
 - Concept-disposition decisions (keep / defer / archive). #19 could become a
   standalone gated product. The *decision* is cheap; the build depends on it.
@@ -160,7 +160,7 @@ the privacy decision + the monetization stack.
 
 ## Triple-reference note
 
-Per the repo's identity-by-triangulation law, each prioritized item should exist
+Per the repo's structure-by-triangulation law, each prioritized item should exist
 in three surfaces — atomized-wants `W-###`, an IRF entry, and a GH issue. Most
 have GH issues; when an item is pulled into a build cycle, file the missing
 `W-###` / IRF references so it reaches CONSTITUTED (3/3).

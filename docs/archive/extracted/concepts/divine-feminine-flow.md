@@ -80,7 +80,7 @@ Before I rise, I listen: to my breath, my womb, my dreams. I ask, What do I need
 
 
 In this state, I do not rush.
-I prepare warm lemon water, maybe with a sprig of holy basil or a spoon of honey, tuning into what my body desires.
+I prepare warm lemon gateway, maybe with a sprig of holy basil or a spoon of honey, tuning into what my body desires.
 Movement comes next—but not forced.
 Maybe a slow flow, some cat-cow stretches, or a barefoot walk outside, letting the earth remind me that I belong.
 

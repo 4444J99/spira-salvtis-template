@@ -20,7 +20,7 @@ source_file: "ChatGPT-Astrology Social Media Strategy !!!!!.txt"
 source_folder: "business"
 nodes: [3, 5, 11]
 readiness: "Partial"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -34,7 +34,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -67,7 +67,7 @@ context_above: "Astrology Social Media Strategy !!!!!"
 provenance: LOCAL
 nature: TOOL
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Please act as an astrological guide & specialist to depict this chart and highlight how to best promote my health and wellness products as well as my freedom base lifestyle and online business using social media platforms, I am open to Facebook (have a business and a personal page) Instagram (have a personal page and got locked out of my business page but working on getting back in) and possibly tiktok, between those five platforms, is it best to just use one or utilize more than one? I was thinking possibly using my personal insta for lifestyle, using with my business Facebook or insta to talk about the water Nd health and wellness and then use maybe use my personal Facebook as a blog/business update spot cause I always max out my caption on Instagram. I feel I struggle to consolidate all of my ideas into my page and that is what I have been trying to do, but don’t know why I’m struggling so hard. Any tips or tricks you can give me to post consistently and authentically, well articulated and organized, will help a lot! Please ask if you have any questions that will give you better insight! Thank you lots(:
+Please act as an astrological guide & specialist to depict this chart and highlight how to best promote my health and wellness products as well as my freedom base lifestyle and online business using social media platforms, I am open to Facebook (have a business and a personal page) Instagram (have a personal page and got locked out of my business page but working on getting back in) and possibly tiktok, between those five platforms, is it best to just use one or utilize more than one? I was thinking possibly using my personal insta for lifestyle, using with my business Facebook or insta to talk about the gateway Nd health and wellness and then use maybe use my personal Facebook as a blog/business update spot cause I always max out my caption on Instagram. I feel I struggle to consolidate all of my ideas into my page and that is what I have been trying to do, but don’t know why I’m struggling so hard. Any tips or tricks you can give me to post consistently and authentically, well articulated and organized, will help a lot! Please ask if you have any questions that will give you better insight! Thank you lots(:
 
 
 Sun - Libra, 24°48'
@@ -111,7 +111,7 @@ context_above: "Please act as an astrological guide & specialist to depict this 
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -173,7 +173,7 @@ Tip: Use your Aquarius energy to experiment with different types of posts (video
 6. Personal Development and Freedom (Sun in Libra, 24°48’)
 
 
-Your Libra Sun seeks balance and harmony, making it important for you to create a brand that aligns with your personal values and lifestyle. The freedom-based nature of your business is a core part of your identity, and it’s important to showcase that through your content.
+Your Libra Sun seeks balance and harmony, making it important for you to create a brand that aligns with your personal values and lifestyle. The freedom-based nature of your business is a core part of your structure, and it’s important to showcase that through your content.
 
 
 Tip: Use your personal Instagram to highlight lifestyle content—such as travel, self-care, and your freedom-based lifestyle. Showcase how your business supports this and how it’s a part of your daily life.
@@ -237,7 +237,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -263,7 +263,7 @@ context_above: "Will you help me come up with a few prompts or questions to figu
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -377,7 +377,7 @@ context_above: "Absolutely! To figure out how deep and personal you want to go w
 provenance: HYBRID
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -407,7 +407,7 @@ context_above: "This is amazing thank you!!"
 provenance: LOCAL
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -415,7 +415,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Since I can’t get back into my business Instagram account right now, I want to use my business Facebook for the water until I can get back into my business insta, then my Facebook for life updates and longer posts and then my personal insta for lifestyle and freedom aspects - from a social media strategists perspective, how would you go about planning a content calendar to make sure that I am consistently posting to each, including stories to my instagram a few times a day
+Since I can’t get back into my business Instagram account right now, I want to use my business Facebook for the gateway until I can get back into my business insta, then my Facebook for life updates and longer posts and then my personal insta for lifestyle and freedom aspects - from a social media strategists perspective, how would you go about planning a content calendar to make sure that I am consistently posting to each, including stories to my instagram a few times a day
 
 
 <!-- ATM-B-049 OUT
@@ -433,7 +433,7 @@ context_above: "Since I can’t get back into my business Instagram account righ
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -450,7 +450,7 @@ From a social media strategist’s perspective, a content calendar will help ens
 1. Define Your Content Pillars for Each Platform:
 
 
-Business Facebook (Water & Health Products):
+Business Facebook (Gateway & Health Products):
 Product features and benefits
 
 Educational content (e.g., health tips, product demonstrations)
@@ -505,7 +505,7 @@ Assign specific themes for each day of the week to keep content varied.
 Example:
 Monday: Motivational/Inspirational post (on Instagram or Facebook)
 
-Tuesday: Educational content about the water (Facebook or Instagram)
+Tuesday: Educational content about the gateway (Facebook or Instagram)
 
 Wednesday: Behind-the-scenes or lifestyle content (Instagram Stories)
 
@@ -550,7 +550,7 @@ Example Weekly Content Plan:
 
 
 Monday:
-Business FB Post: Health tip related to the water (product-focused)
+Business FB Post: Health tip related to the gateway (product-focused)
 
 Personal FB Post: Weekly goals or personal insights (longer post)
 
@@ -617,7 +617,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -643,7 +643,7 @@ context_above: "Thank you! Will you break it out into a 30 day calander for me"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -658,7 +658,7 @@ Week 1:
 
 
 Day 1 (Monday):
-Business FB: Health tip or water benefits (educational)
+Business FB: Health tip or gateway benefits (educational)
 
 Personal FB: Personal goals for the week (longer post)
 
@@ -712,7 +712,7 @@ Week 2:
 
 
 Day 8 (Monday):
-Business FB Post: Educational post on water and health
+Business FB Post: Educational post on gateway and health
 
 Personal FB Post: Share your new week's goals
 
@@ -766,7 +766,7 @@ Week 3:
 
 
 Day 15 (Monday):
-Business FB: Share health tips or another benefit of your water
+Business FB: Share health tips or another benefit of your gateway
 
 Personal FB Post: Share your intentions for the week ahead
 
@@ -791,7 +791,7 @@ Instagram Post: Inspirational lifestyle moment or business tip
 
 Instagram Stories: Share a favorite part of your day
 
-Business FB Post: Educate your audience on how your water benefits health
+Business FB Post: Educate your audience on how your gateway benefits health
 
 Day 19 (Friday):
 Business FB Story: Share a wellness tip related to your product
@@ -820,7 +820,7 @@ Week 4:
 
 
 Day 22 (Monday):
-Business FB Post: Health tip or water-related product feature
+Business FB Post: Health tip or gateway-related product feature
 
 Personal FB Post: Share a thought on setting intentions for the week
 
@@ -869,7 +869,7 @@ Instagram Post: Rest and recovery or personal growth moment
 Instagram Stories: Share your Sunday wellness ritual
 
 Day 29 (Monday):
-Business FB: Water benefits or educational content
+Business FB: Gateway benefits or educational content
 
 Personal FB Post: New goals for the week ahead
 
@@ -902,7 +902,7 @@ context_above: "Of course! Here's a 30-day content calendar that breaks down you
 provenance: LOCAL
 nature: QUESTION
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -928,7 +928,7 @@ context_above: "Thank you so much! Do you have any recommendations on different 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1050,7 +1050,7 @@ context_above: "You're welcome! Here are a few growth strategies that are curren
 provenance: HYBRID
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

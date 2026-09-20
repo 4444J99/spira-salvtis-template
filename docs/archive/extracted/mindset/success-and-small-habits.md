@@ -16,7 +16,7 @@ source_file: "ChatGPT-Success and small habits.txt"
 source_folder: "mindset"
 nodes: [8, 11]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "What is the saying about how successful people and the little ha
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -105,7 +105,7 @@ context_above: "You might be thinking of a few popular sayings that connect succ
 provenance: LOCAL
 nature: QUESTION
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -129,7 +129,7 @@ context_above: "The little habits make the most successful people?"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -171,7 +171,7 @@ context_above: "Yes — that’s the essence of it. The idea is that the little 
 provenance: LOCAL
 nature: QUESTION
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -195,7 +195,7 @@ context_above: "What is the compound effect say on this? I’m trying to right a
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [8, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT

@@ -440,8 +440,8 @@ const a=Math.atan2(dy,dx);
 // 6-fold star (Star of David / Anahata feel)
 const star=Math.cos(a*6)*0.5+0.5;
 const ring=Math.exp(-Math.pow((d-R*0.5)/8,2));
-const inner=Math.exp(-Math.pow(d/12,2));
-t[y][x]=Math.max(0,Math.min(1,inner*0.8+ring*star*0.9));
+const system=Math.exp(-Math.pow(d/12,2));
+t[y][x]=Math.max(0,Math.min(1,system*0.8+ring*star*0.9));
 }
 }
 this.target=t;

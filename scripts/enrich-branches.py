@@ -22,46 +22,46 @@ BRANCHES_DIR = Path("src/content/branches")
 
 # Map source file topics to branches
 SOURCE_TO_BRANCH = {
-    # gut-hormones
-    "health/gut-rebuilding-diet": "gut-hormones",
-    "health/hormone-cycle-guide": "gut-hormones",
-    "health/inflammation-self-check": "gut-hormones",
-    "health/cortisol-stress-carousel": "gut-hormones",
-    "health/hydration-and-blood-sugar": "gut-hormones",
-    "health/hemorrhoids-and-daily-discomfort": "gut-hormones",
-    "health/period-related-rest": "gut-hormones",
-    "health-hormones-and-healing": "gut-hormones",
-    "health/aerosols-and-cleaning-products": "gut-hormones",
-    # fertility
-    "health/birth-control-resources-guide": "fertility",
-    "health/endometriosis": "fertility",
-    "health/medical-research-gender-gap": "fertility",
-    "health/chlorine-absorption": "fertility",
-    # autoimmune
-    "health/fascia-and-emotions": "autoimmune",
-    "health/heds-diagnosis": "autoimmune",
-    "health/neurodivergence-and-autoimmune": "autoimmune",
-    "health/heroin-healing-journey": "autoimmune",
-    "health/heroines-healing-journey": "autoimmune",
-    "health/sonoluminescence-phenomenon-explained": "autoimmune",
-    "health/cellular-reprogramming-through-voice": "autoimmune",
-    # athletic
-    "health/30-day-acupressure-routine": "athletic",
-    "health/bubble-butt-guide": "athletic",
-    "health/feel-good-first-script": "athletic",
-    "health/fda-just-a-little-bit-carcinogens": "athletic",
-    # cancer-support
-    "health/sulphur-and-glutathione": "cancer-support",
-    "health/cancer-support-resources": "cancer-support",
-    # sustainability
-    "water/well-water-costs": "sustainability",
-    "water/water-hub-design": "sustainability",
-    "water/water-hub-framework-breakdown": "sustainability",
-    "water/2-5-ph-acidic-water": "sustainability",
-    "water/hydrogen-water-science-health-and-business": "sustainability",
-    "water/ionized-water-benefits": "sustainability",
-    "water/kangen-water-content-ideas": "sustainability",
-    "water/water-sales-strategy-plan": "sustainability",
+    # archetype-epsilon
+    "health/gut-rebuilding-diet": "archetype-epsilon",
+    "health/hormone-cycle-guide": "archetype-epsilon",
+    "health/inflammation-self-check": "archetype-epsilon",
+    "health/cortisol-stress-carousel": "archetype-epsilon",
+    "health/gateway-and-blood-sugar": "archetype-epsilon",
+    "health/hemorrhoids-and-daily-discomfort": "archetype-epsilon",
+    "health/period-related-rest": "archetype-epsilon",
+    "health-hormones-and-healing": "archetype-epsilon",
+    "health/aerosols-and-cleaning-products": "archetype-epsilon",
+    # archetype-delta
+    "health/birth-control-resources-guide": "archetype-delta",
+    "health/endometriosis": "archetype-delta",
+    "health/medical-research-gender-gap": "archetype-delta",
+    "health/chlorine-absorption": "archetype-delta",
+    # archetype-beta
+    "health/fascia-and-emotions": "archetype-beta",
+    "health/heds-diagnosis": "archetype-beta",
+    "health/neurodivergence-and-archetype-beta": "archetype-beta",
+    "health/heroin-healing-journey": "archetype-beta",
+    "health/heroines-healing-journey": "archetype-beta",
+    "health/sonoluminescence-phenomenon-explained": "archetype-beta",
+    "health/cellular-reprogramming-through-voice": "archetype-beta",
+    # archetype-alpha
+    "health/30-day-acupressure-routine": "archetype-alpha",
+    "health/bubble-butt-guide": "archetype-alpha",
+    "health/feel-good-first-script": "archetype-alpha",
+    "health/fda-just-a-little-bit-carcinogens": "archetype-alpha",
+    # archetype-gamma
+    "health/sulphur-and-glutathione": "archetype-gamma",
+    "health/archetype-gamma-resources": "archetype-gamma",
+    # archetype-zeta
+    "gateway/well-gateway-costs": "archetype-zeta",
+    "gateway/gateway-hub-design": "archetype-zeta",
+    "gateway/gateway-hub-framework-breakdown": "archetype-zeta",
+    "gateway/2-5-ph-acidic-gateway": "archetype-zeta",
+    "gateway/hydrogen-gateway-science-health-and-business": "archetype-zeta",
+    "gateway/ionized-gateway-benefits": "archetype-zeta",
+    "gateway/kangen-gateway-content-ideas": "archetype-zeta",
+    "gateway/gateway-sales-strategy-plan": "archetype-zeta",
 }
 
 
@@ -72,11 +72,11 @@ def match_branch(source_file):
     for pattern, branch in SOURCE_TO_BRANCH.items():
         if pattern in source_file or stem == pattern.split("/")[-1]:
             return branch
-    # Heuristic: health/ files → gut-hormones as default
+    # Heuristic: health/ files → archetype-epsilon as default
     if source_file.startswith("health/"):
-        return "gut-hormones"
-    if source_file.startswith("water/"):
-        return "sustainability"
+        return "archetype-epsilon"
+    if source_file.startswith("gateway/"):
+        return "archetype-zeta"
     return None
 
 

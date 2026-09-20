@@ -10,8 +10,8 @@
 
 # Multi-domain redirects (activate when custom domains are connected)
 # [[redirects]]
-#   from = "https://water-example.com/*"
-#   to = "/water/:splat"
+#   from = "https://gateway-example.com/*"
+#   to = "/gateway/:splat"
 #   status = 200
 
 # [[redirects]]

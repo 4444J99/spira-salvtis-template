@@ -13,17 +13,17 @@ sections:
     atoms: [ATM-W-009]
 -->
 ---
-title: "Step-by-step eczema water protocol"
-source_file: "ChatGPT-Eczema Skin Water Protocol.txt"
-source_folder: "water"
+title: "Step-by-step eczema gateway protocol"
+source_file: "ChatGPT-Eczema Skin Gateway Protocol.txt"
+source_folder: "gateway"
 nodes: [6, 9]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-007 IN
-idea: "Eczema Skin Water Protocol"
+idea: "Eczema Skin Gateway Protocol"
 section: "Main"
 position: 1
 of_total: 4
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: PROTOCOL
 nodes: [6, 9]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -41,7 +41,7 @@ strike_phase: 2C
 
 
 
-Eczema Skin Water Protocol
+Eczema Skin Gateway Protocol
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 12/29/2025 17:00:34
@@ -52,20 +52,20 @@ Link: https://chatgpt.com/c/69532409-de74-832d-9f4a-ac681c8b498b
 
 <!-- ATM-W-007 OUT
 next: ATM-W-008
-context_below: "For dry skin that is very eczema prone what water protocol should I give them? J..."
+context_below: "For dry skin that is very eczema prone what gateway protocol should I give them? J..."
 -->
 
 <!-- ATM-W-008 IN
-idea: "For dry skin that is very eczema prone what water protocol should I give them? J..."
+idea: "For dry skin that is very eczema prone what gateway protocol should I give them? J..."
 section: "Prompt"
 position: 2
 of_total: 4
 prev: ATM-W-007
-context_above: "Eczema Skin Water Protocol"
+context_above: "Eczema Skin Gateway Protocol"
 provenance: LOCAL
 nature: QUESTION
 nodes: [6, 9]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -73,7 +73,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-For dry skin that is very eczema prone what water protocol should I give them? Just 11.5 to keep it clean and then 6.0 maybe?!
+For dry skin that is very eczema prone what gateway protocol should I give them? Just 11.5 to keep it clean and then 6.0 maybe?!
 
 
 <!-- ATM-W-008 OUT
@@ -87,11 +87,11 @@ section: "Response"
 position: 3
 of_total: 4
 prev: ATM-W-008
-context_above: "For dry skin that is very eczema prone what water protocol should I give them? J..."
+context_above: "For dry skin that is very eczema prone what gateway protocol should I give them? J..."
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [6, 9]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -102,11 +102,11 @@ strike_phase: 2C
 Great question — and yes, you’re thinking in the right direction. For very dry, eczema-prone skin, the goal is clean + barrier-protective + non-irritating, not over-stripping or over-alkalizing.
 
 
-Here’s the safe, skin-respecting water protocol I recommend 👇
+Here’s the safe, skin-respecting gateway protocol I recommend 👇
 
 
 
-🌊 Eczema-Safe Water Protocol (External Use)
+🌊 Eczema-Safe Gateway Protocol (External Use)
 
 
 1️⃣ Start with 11.5 ONLY for cleaning (brief use)
@@ -126,7 +126,7 @@ Do NOT use daily if skin is flaring badly
 
 
 Why:
-11.5 is great for breaking down oils, chlorine, hard-water residue, and product buildup — but overuse can worsen dryness if skin is already compromised.
+11.5 is great for breaking down oils, chlorine, hard-gateway residue, and product buildup — but overuse can worsen dryness if skin is already compromised.
 
 
 👉 Think of it like a gentle pre-clean, not a treatment.
@@ -138,7 +138,7 @@ Why:
 
 Use a non-foaming, fragrance-free cleanser
 
-Lukewarm water only
+Lukewarm gateway only
 
 No scrubs, no loofahs
 
@@ -189,7 +189,7 @@ Quick 11.5 (optional, 1–2x/week)
 
 Always finish with 6.0
 
-No hot water
+No hot gateway
 
 Moisturize immediately after
 
@@ -252,7 +252,7 @@ context_above: "Great question — and yes, you’re thinking in the right direc
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 9]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

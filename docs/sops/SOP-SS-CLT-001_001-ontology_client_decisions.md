@@ -25,15 +25,15 @@ Track all issues requiring external decision/input from the client (admin). This
 | # | Issue Title | Decision Needed | Priority | Status | Gate Date |
 |---|-------------|-----------------|----------|--------|-----------|
 | 13 | Lock final Spiral node architecture (13 vs 14 + order) | Confirm 13-node structure, confirm ordering, confirm dropped nodes | P0 | PENDING | |
-| 5 | Formalize 10% revenue agreement | Written/text confirmation: 10% water sales, 12 months, $10K cap | P0 | PENDING | |
+| 5 | Formalize 10% revenue agreement | Written/text confirmation: 10% gateway sales, 12 months, $10K cap | P0 | PENDING | |
 | 3 | Connect custom domains (Cloudflare) | DNS registrar access (GoDaddy), confirm DNS changes | P1 | PENDING | |
 | 14 | Verify doc 1b reel/video asset access | Re-share any inaccessible Google Drive folders | P1 | PENDING | |
-| 17 | Decide Water Hub placement | ~~Dedicated site vs nested sub-page~~ **UPDATE 2026-04-03:** Hydration Node funnel spec implies standalone application. Confirm: separate domain (water-example.com) or sub-route (/water/hydration-node)? | P1 ↑ | IN-REVIEW | |
+| 17 | Decide Gateway Hub placement | ~~Dedicated site vs nested sub-page~~ **UPDATE 2026-04-03:** Gateway Node funnel spec implies standalone application. Confirm: separate domain (gateway-example.com) or sub-route (/gateway/gateway-node)? | P1 ↑ | IN-REVIEW | |
 | 18 | Decide video hosting strategy | Choose host: Google Drive, YouTube, Vimeo, other | P2 | PENDING | |
-| 9 | Start Here quiz routing + GHL integration | GHL embed URL, routing rules by pillar. **UPDATE 2026-04-03:** Hydration Node Step 3 introduces "optional deeper health survey" — may replace or supplement quiz. Needs clarification. | P1 | PENDING | |
-| 7 | Subscription boundary and gated content model | ~~Define free vs email-gated vs paid per node/pillar~~ **UPDATE 2026-04-03:** Hydration Node defines clear split: Step 1 = free (no email), Step 2 = email-gated (filter recs), Steps 3-6 = post-conversion. Confirm this applies to water pillar only or system-wide. | P2 | IN-REVIEW | |
+| 9 | Start Here quiz routing + GHL integration | GHL embed URL, routing rules by pillar. **UPDATE 2026-04-03:** Gateway Node Step 3 introduces "optional deeper health survey" — may replace or supplement quiz. Needs clarification. | P1 | PENDING | |
+| 7 | Subscription boundary and gated content model | ~~Define free vs email-gated vs paid per node/pillar~~ **UPDATE 2026-04-03:** Gateway Node defines clear split: Step 1 = free (no email), Step 2 = email-gated (filter recs), Steps 3-6 = post-conversion. Confirm this applies to gateway pillar only or system-wide. | P2 | IN-REVIEW | |
 | 20 | Creature Selves concept decision | Keep live, defer to future, or archive | P3 | PENDING | |
-| 19 | Inner Child Book packaging decision | Standalone product, Spiral-integrated, or deferred. **UPDATE 2026-06-18:** Studio recommendation recorded — standalone product, post-launch scope. See `docs/design-proposals/2026-06-18-inner-child-book-packaging-decision.md`. Awaiting admin confirm. | P3 | IN-REVIEW | |
+| 19 | System Child Book packaging decision | Standalone product, Spiral-integrated, or deferred. **UPDATE 2026-06-18:** Studio recommendation recorded — standalone product, post-launch scope. See `docs/design-proposals/2026-06-18-system-child-book-packaging-decision.md`. Awaiting admin confirm. | P3 | IN-REVIEW | |
 
 ## Status Definitions
 
@@ -70,10 +70,10 @@ Track all issues requiring external decision/input from the client (admin). This
 
 **Current State:** PENDING - Waiting for written confirmation
 
-**Verbal Agreement:** 10% of water sales until $10K cap, 12 month term
+**Verbal Agreement:** 10% of gateway sales until $10K cap, 12 month term
 
 **Required Output:** Text/email from admin explicitly stating:
-- "I agree to 10% of water sales"
+- "I agree to 10% of gateway sales"
 - "For 12 months"
 - "Up to $10,000 total"
 
@@ -93,14 +93,14 @@ Track all issues requiring external decision/input from the client (admin). This
 
 **Required Output:** Re-share notification for any inaccessible folders
 
-### Issue #17: Water Hub Placement
+### Issue #17: Gateway Hub Placement
 
-**Current State:** IN-REVIEW - Hydration Node funnel spec (2026-04-03) strongly implies standalone application
+**Current State:** IN-REVIEW - Gateway Node funnel spec (2026-04-03) strongly implies standalone application
 
 **Options:**
-1. ~~Dedicated site (`water-example.com` becomes full site)~~ → Hydration Node as standalone app at `water-example.com`
-2. ~~Nested section (`/water/` sub-section of Physical Sovereignty)~~ → Hydration Node as `/water/hydration-node` route within Astro site
-3. Hybrid: Astro site hosts the UI, `water-example.com` is a CNAME alias to the same route
+1. ~~Dedicated site (`gateway-example.com` becomes full site)~~ → Gateway Node as standalone app at `gateway-example.com`
+2. ~~Nested section (`/gateway/` sub-section of Foundation Sovereignty)~~ → Gateway Node as `/gateway/gateway-node` route within Astro site
+3. Hybrid: Astro site hosts the UI, `gateway-example.com` is a CNAME alias to the same route
 
 **New Context (2026-04-03):** admin's 6-step funnel spec describes a data-driven application (ZIP lookup, EWG integration, dynamic filter recommendations, email capture, cost calculator). Step 4 (contractor demo) suggests the page must work as an independent reusable tool. This leans heavily toward option 1 or 3.
 
@@ -127,16 +127,16 @@ Track all issues requiring external decision/input from the client (admin). This
 
 ### Issue #7: Subscription Boundaries
 
-**Current State:** IN-REVIEW - Hydration Node funnel spec (2026-04-03) defines water pillar gating
+**Current State:** IN-REVIEW - Gateway Node funnel spec (2026-04-03) defines gateway pillar gating
 
-**Defined (Water Pillar Only):**
+**Defined (Gateway Pillar Only):**
 | Layer | Access | Content |
 |-------|--------|---------|
-| Step 1 | FREE (no email) | Contaminant data, bottled water costs, spring locator, Brita/RO check |
+| Step 1 | FREE (no email) | Contaminant data, bottled gateway costs, spring locator, Brita/RO check |
 | Step 2 | EMAIL-GATED (name + email) | Personalized filter recommendations, cost savings |
 | Steps 3-6 | POST-CONVERSION | Health survey, deep-dive content, upsells |
 
-**Remaining Decision:** Confirm whether this free/email-gated/paid model applies system-wide or only to the water funnel. Other pillars (Inner, Identity, Financial) still need their gating defined.
+**Remaining Decision:** Confirm whether this free/email-gated/paid model applies system-wide or only to the gateway funnel. Other pillars (System, Structure, Vision) still need their gating defined.
 
 ### Issue #20: Creature Selves
 
@@ -147,7 +147,7 @@ Track all issues requiring external decision/input from the client (admin). This
 - Defer to future product/brand branch
 - Archive from current build
 
-### Issue #19: Inner Child Book
+### Issue #19: System Child Book
 
 **Current State:** IN-REVIEW - Studio recommendation recorded 2026-06-18; awaiting admin confirmation
 
@@ -156,7 +156,7 @@ Track all issues requiring external decision/input from the client (admin). This
 - Spiral-integrated gated asset
 - Deferred/archive for later
 
-**Recommendation (2026-06-18):** Standalone product, assigned to post-launch scope (γ "Later" / Horizon 3). The concept spans 7 of 13 nodes and its 5-part structure mirrors the E•A•U Spiral — too large and self-contained to dilute inside one node, and the source frames it as a signature product. Not launch-blocking; build gated behind #31 (product pipeline) + #7 (free/email/paid boundary). Optional interim: a spiral waitlist CTA to capture demand. Decision record: `docs/design-proposals/2026-06-18-inner-child-book-packaging-decision.md`. Surfaced on `/decisions` (`inner-child-book-packaging`) and outbound at `docs/admin/2026-06-18-inner-child-book-packaging.md`.
+**Recommendation (2026-06-18):** Standalone product, assigned to post-launch scope (γ "Later" / Horizon 3). The concept spans 7 of 13 nodes and its 5-part structure mirrors the E•A•U Spiral — too large and self-contained to dilute inside one node, and the source frames it as a signature product. Not launch-blocking; build gated behind #31 (product pipeline) + #7 (free/email/paid boundary). Optional interim: a spiral waitlist CTA to capture demand. Decision record: `docs/design-proposals/2026-06-18-system-child-book-packaging-decision.md`. Surfaced on `/decisions` (`system-child-book-packaging`) and outbound at `docs/admin/2026-06-18-system-child-book-packaging.md`.
 
 **Required Output:** admin's explicit pick (standalone / integrated / defer) to move IN-REVIEW → RESOLVED.
 
@@ -167,7 +167,7 @@ Client decisions block the following work:
 ```
 #13 (P0) ─────┬─► #15 Spiral merge
               ├─► #8 Spiral interaction
-              └─► #6 Physical build
+              └─► #6 Foundation build
 
 #5 (P0) ──────► All revenue-generating work
 
@@ -176,13 +176,13 @@ Client decisions block the following work:
 #14 (P1) ─────► #18 Video hosting
                └─► #9 Quiz routing (media assets)
 
-#17 (P2) ─────► #6 Physical build (architecture)
+#17 (P2) ─────► #6 Foundation build (architecture)
 
-#18 (P2) ─────► #6 Physical build (media integration)
+#18 (P2) ─────► #6 Foundation build (media integration)
 
-#9 (P1) ──────► #6 Physical build (funnel)
+#9 (P1) ──────► #6 Foundation build (funnel)
 
-#7 (P2) ──────► #6 Physical build (gating)
+#7 (P2) ──────► #6 Foundation build (gating)
 
 #20 (P3) ─────► γ-phase content planning
 
@@ -218,9 +218,9 @@ When a client sends a content drop (Drive export, iMessage, screenshots), a deci
 
 | Date | Change |
 |------|--------|
-| 2026-06-18 | Updated #19 (Inner Child Book) PENDING → IN-REVIEW. Studio recommendation recorded: standalone product, post-launch scope. Decision record at `docs/design-proposals/2026-06-18-inner-child-book-packaging-decision.md`; surfaced on `/decisions` board + admin outbound draft. Held at IN-REVIEW — RESOLVED requires admin's explicit pick. |
+| 2026-06-18 | Updated #19 (System Child Book) PENDING → IN-REVIEW. Studio recommendation recorded: standalone product, post-launch scope. Decision record at `docs/design-proposals/2026-06-18-system-child-book-packaging-decision.md`; surfaced on `/decisions` board + admin outbound draft. Held at IN-REVIEW — RESOLVED requires admin's explicit pick. |
 | 2026-04-03 (PM-2) | Added Content Drop Protocol section linking to SOP-SS-CNT-001. Pattern discovered during Drive export extraction: content drops partially resolve decisions without explicit verbal confirmation. Added SOP-SS-CNT-001 to related SOPs. |
-| 2026-04-03 (PM) | Updated #17 to IN-REVIEW (Hydration Node funnel spec implies standalone app). Updated #7 to IN-REVIEW (water pillar gating defined). Added context to #9 (health survey may replace quiz). Bumped #17 to P1. Source: `docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md` |
+| 2026-04-03 (PM) | Updated #17 to IN-REVIEW (Gateway Node funnel spec implies standalone app). Updated #7 to IN-REVIEW (gateway pillar gating defined). Added context to #9 (health survey may replace quiz). Bumped #17 to P1. Source: `docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md` |
 | 2026-04-03 | Initial creation |
 
 **Last Updated:** 2026-04-03

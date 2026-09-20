@@ -691,7 +691,7 @@ Shedding
 Letting go of illusions, purging old timelines
 3
 Rooting
-Grounding, inner safety, ancestral healing
+Grounding, system safety, ancestral healing
 4
 Reclamation
 Calling back power, body connection
@@ -1758,7 +1758,7 @@ The Maya channeled them through sky, nature, and spirit
 Why 20-day months?
 20 day signs = full sacred cycle (Haab’ months = 20 days)
 Did they have weekdays?
-No. Each day had a unique sacred identity, not a “slot” in a repeating week
+No. Each day had a unique sacred structure, not a “slot” in a repeating week
 
 
 🧠 Your Brain Hurts Because…
@@ -1929,9 +1929,9 @@ Deer 🦌
 Grace, healing, hands
 8. Lamat
 Star ✨
-Beauty, harmony, fertility
+Beauty, harmony, archetype-delta
 9. Muluk
-Water 💧
+Gateway 💧
 Emotions, purification, moon
 10. Ok
 Dog 🐕
@@ -2495,7 +2495,7 @@ Mayan Tzolk’in
 Core Self
 Sun Sign
 Day Sign (glyph)
-Inner World
+System World
 Moon Sign
 Tzolk’in tone (1–13)
 Path
@@ -2529,7 +2529,7 @@ You were born on 10 Ak’bal
 Ak’bal = Night, Darkness, Dreams, the Void 🌌
 → You’re the dreamwalker, the intuitive seer, one who births light from shadow.
 
-Tone 10 = Manifestation, anchoring ideas into the physical
+Tone 10 = Manifestation, anchoring ideas into the foundation
 
 
 ✨ Together: You're a visionary communicator who brings beauty and wisdom from the hidden places. A bridge between worlds.
@@ -2676,7 +2676,7 @@ You have natural psychic sensitivity and can thrive in solitude, shadow work, an
 Your mission is to bring light from darkness — to pull insight from the void and birth it into form
 
 
-Tone 10 gives you the power to build. You’re here to take dreams and anchor them into the physical world. You have the potential to turn visions into real movements, projects, and healing.
+Tone 10 gives you the power to build. You’re here to take dreams and anchor them into the foundation world. You have the potential to turn visions into real movements, projects, and healing.
 
 “You are the portal. The darkness doesn’t scare you — it speaks to you.”
 
@@ -3005,7 +3005,7 @@ OR follow the full 260-day journey as a sacred time spiral
 It becomes a timeless spiritual tool that can be used:
 
 
-As a 260-day inner journey (like The Artist’s Way or I Ching)
+As a 260-day system journey (like The Artist’s Way or I Ching)
 
 Or as a daily reference forever (you can loop back to the beginning once done)
 
@@ -3628,7 +3628,7 @@ Day 5 — 8 Kab’an 🌍
 
 
 Date: June 19, 2025
-Glyph: The Earth – movement, evolution, inner tremors
+Glyph: The Earth – movement, evolution, system tremors
 
 
 Tone 8 – Justice & Balance
@@ -3757,7 +3757,7 @@ Kawak is the storm that comes not to harm, but to cleanse. It shakes what needs 
 
 
 🕯️ Ritual Prompt:
-Write down every feeling you’ve swallowed this week. Soak the paper in water. Tear it up. Release.
+Write down every feeling you’ve swallowed this week. Soak the paper in gateway. Tear it up. Release.
 
 
 🧘 Affirmation:

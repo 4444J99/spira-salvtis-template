@@ -16,7 +16,7 @@ source_file: "ChatGPT-Neuro-signatures and Pruning Explained.txt"
 source_folder: "mindset"
 nodes: [2, 8]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Can you break down neuro-signatures, pruning and neurodivergent 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -224,7 +224,7 @@ context_above: "Absolutely — let’s break it all down clearly first, and then
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -248,7 +248,7 @@ context_above: "What is the topic or breakdown of what I’m trying to get at - 
 provenance: HYBRID
 nature: QUESTION
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -383,7 +383,7 @@ context_above: "Absolutely — let’s break this down like you're in 3rd grade,
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -407,7 +407,7 @@ context_above: "How does this tie into habits and the compound effect"
 provenance: HYBRID
 nature: QUESTION
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -444,7 +444,7 @@ Tiny actions, repeated over time, create massive change.
 Kind of like:
 
 
-Water dripping every day can carve a rock
+Gateway dripping every day can carve a rock
 
 One push-up a day can turn into a fit body
 
@@ -559,7 +559,7 @@ context_above: "Love this question — because this is where the magic happens w
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -583,7 +583,7 @@ context_above: "I need a better example that ties it together"
 provenance: HYBRID
 nature: QUESTION
 nodes: [2, 8]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

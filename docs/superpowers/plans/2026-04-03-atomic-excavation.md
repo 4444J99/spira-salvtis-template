@@ -24,11 +24,11 @@ docs/archive/extracted/
 ├── 2b-nodular-flow-refinement.md             # NEW — extract from source-bundle, ~30 atoms
 ├── health-hormones-and-healing.md            # ~25 atoms
 ├── mindset-rhythms-and-rituals.md            # ~20 atoms
-├── water-learn-more-about-erw.md             # ~10 atoms
+├── gateway-learn-more-about-erw.md             # ~10 atoms
 ├── health/   (30 files, ~270 atoms)
 ├── mindset/  (38 files, ~330 atoms)
 ├── business/ (15 files, ~100 atoms)
-├── water/    (15 files, ~140 atoms)
+├── gateway/    (15 files, ~140 atoms)
 ├── time-astro/ (9 files, ~50 atoms)
 └── concepts/ (13 files, ~70 atoms)
 ```
@@ -87,7 +87,7 @@ context_above: "{one-line summary of previous atom's idea}"
 provenance: {LOCAL|HYBRID|ALIEN}
 nature: {CLAIM|FRAMEWORK|TOOL|SCRIPT|STATISTIC|PROTOCOL|NARRATIVE|CITATION|PRODUCT|MODEL|QUESTION|INSTRUCTION}
 nodes: [{comma-separated node numbers 1-13}]
-pillar: {Physical|Inner|Identity|Financial|Cross-cutting}
+pillar: {Foundation|System|Structure|Vision|Cross-cutting}
 build_state: {EXISTS|PARTIAL|MISSING|N/A}
 editorial: {CLEAN|UNVERIFIED|FLAGGED}
 strike_phase: {1A|1B|1C|2A|2B|2C|2D|3A|3B|3C|4A|4B|4C}
@@ -144,14 +144,14 @@ Read `src/content/branches/*.md` and `src/content/pillars/*.md`. For each atom:
 | `1A` | Unblocked | Architecture atoms (FRAMEWORK, MODEL, INSTRUCTION from root docs) |
 | `1B` | Unblocked | Editorial triage (FLAGGED atoms) |
 | `1C` | Unblocked | Client decision extraction (QUESTION, INSTRUCTION atoms) |
-| `2A` | GH#13 | Node 1-5 deep-dive content (Physical Sovereignty) |
-| `2B` | GH#13, GH#17 | Water funnel atoms (Hydration Node) |
+| `2A` | GH#13 | Node 1-5 deep-dive content (Foundation Sovereignty) |
+| `2B` | GH#13, GH#17 | Gateway funnel atoms (Gateway Node) |
 | `2C` | GH#13 | Branch enrichment (PARTIAL build_state atoms for existing branches) |
 | `2D` | GH#13 | Standalone health tools (TOOL nature atoms) |
-| `3A` | Phase 2 | Node 6-9 Inner Sovereignty |
-| `3B` | Phase 2 | Node 10-12 Identity Sovereignty |
+| `3A` | Phase 2 | Node 6-9 System Sovereignty |
+| `3B` | Phase 2 | Node 10-12 Structure Sovereignty |
 | `3C` | Phase 2 | Standalone mindset tools |
-| `4A` | Phase 3 | Node 13 Financial Sovereignty |
+| `4A` | Phase 3 | Node 13 Vision Sovereignty |
 | `4B` | Phase 3 | Standalone products (PRODUCT nature atoms) |
 | `4C` | Phase 3 | Social content pipeline (SCRIPT nature atoms) |
 
@@ -163,7 +163,7 @@ Read `src/content/branches/*.md` and `src/content/pillars/*.md`. For each atom:
 | health/ | ATM-H- | ATM-H-001 |
 | mindset/ | ATM-M- | ATM-M-001 |
 | business/ | ATM-B- | ATM-B-001 |
-| water/ | ATM-W- | ATM-W-001 |
+| gateway/ | ATM-W- | ATM-W-001 |
 | time-astro/ | ATM-T- | ATM-T-001 |
 | concepts/ | ATM-C- | ATM-C-001 |
 
@@ -438,7 +438,7 @@ Read each file. Note: `hormones-eating-cycles.md` is Empty (readiness: Empty) �
 
 - [ ] **Step 2: For each file, identify sections and atoms**
 
-Apply the boundary rule. Tag provenance by checking for `## Prompt:` sections. Classify nature. Assign nodes from existing frontmatter. Determine build state against `src/content/branches/{gut-hormones,fertility,autoimmune,athletic,cancer-support,sustainability}.md` and `src/content/pillars/physical.md`.
+Apply the boundary rule. Tag provenance by checking for `## Prompt:` sections. Classify nature. Assign nodes from existing frontmatter. Determine build state against `src/content/branches/{archetype-epsilon,archetype-delta,archetype-beta,archetype-alpha,archetype-gamma,archetype-zeta}.md` and `src/content/pillars/foundation.md`.
 
 - [ ] **Step 3: Write DOC-ENVELOPE and ATM-H-NNN IN/OUT fences for every file**
 
@@ -469,11 +469,11 @@ git commit -m "feat: excavate health/ — ~300 atoms marked in-situ (ATM-H-*)"
 
 - [ ] **Step 1: Read all 39 mindset files**
 
-Note: `send-pdf-to-kindle.md` is N/A (utility). `inner-child-book-concept.md` is the IMPORTANT COMPONENT file — likely ~30 atoms (full book concept, 5 parts, 11 chapters).
+Note: `send-pdf-to-kindle.md` is N/A (utility). `system-child-book-concept.md` is the IMPORTANT COMPONENT file — likely ~30 atoms (full book concept, 5 parts, 11 chapters).
 
 - [ ] **Step 2: Identify sections and atoms per file**
 
-Build state checks against `src/content/pillars/{inner,identity}.md`.
+Build state checks against `src/content/pillars/{system,structure}.md`.
 
 - [ ] **Step 3: Write DOC-ENVELOPE and ATM-M-NNN fences**
 
@@ -505,7 +505,7 @@ Note: `instagram-grid-visualization.md` and `website-launch-and-app-timeline.md`
 
 - [ ] **Step 2: Identify sections and atoms per file**
 
-Build state checks against `src/content/pillars/financial.md`.
+Build state checks against `src/content/pillars/vision.md`.
 
 - [ ] **Step 3: Write DOC-ENVELOPE and ATM-B-NNN fences**
 
@@ -522,19 +522,19 @@ git commit -m "feat: excavate business/ — ~100 atoms marked in-situ (ATM-B-*)"
 
 ---
 
-## Task 7: Excavate water/ (16 files, ~150 atoms)
+## Task 7: Excavate gateway/ (16 files, ~150 atoms)
 
 **Files:**
-- Modify: All 15 files in `docs/archive/extracted/water/`
-- Modify: `docs/archive/extracted/water-learn-more-about-erw.md`
+- Modify: All 15 files in `docs/archive/extracted/gateway/`
+- Modify: `docs/archive/extracted/gateway-learn-more-about-erw.md`
 
-- [ ] **Step 1: Read all 16 water files**
+- [ ] **Step 1: Read all 16 gateway files**
 
-Build state checks against `src/content/branches/{gut-hormones,fertility,autoimmune,athletic,cancer-support,sustainability}.md` — these are the water-focused branch pages.
+Build state checks against `src/content/branches/{archetype-epsilon,archetype-delta,archetype-beta,archetype-alpha,archetype-gamma,archetype-zeta}.md` — these are the gateway-focused branch pages.
 
 - [ ] **Step 2-5: Same pattern as above**
 
-Use ATM-W- prefix. Commit message: `feat: excavate water/ — ~150 atoms marked in-situ (ATM-W-*)`
+Use ATM-W- prefix. Commit message: `feat: excavate gateway/ — ~150 atoms marked in-situ (ATM-W-*)`
 
 ---
 
@@ -604,7 +604,7 @@ Same pattern. Group atoms by pillar, provenance, nature respectively.
 For each strike phase (1A through 4C), filter atoms from the registry. Write `docs/archive/strikes/phase-{N}.md`:
 
 ```markdown
-# Phase 2: Physical Sovereignty
+# Phase 2: Foundation Sovereignty
 
 ## Strike 2A: Node 1-5 Deep-Dive Content
 Gate: GH#13 (node architecture locked)
@@ -690,7 +690,7 @@ Tasks 3-9 (excavation by category) are **fully independent** and can be dispatch
 - Agent 1: Task 3 (root docs — largest, most critical)
 - Agent 2: Task 4 (health/)
 - Agent 3: Task 5 (mindset/)
-- Agent 4: Tasks 6+7 (business/ + water/ — smaller, combinable)
+- Agent 4: Tasks 6+7 (business/ + gateway/ — smaller, combinable)
 - Agent 5: Tasks 8+9 (time-astro/ + concepts/ — smallest, combinable)
 
 Tasks 1-2 must complete before Tasks 3-9 begin.

@@ -5,10 +5,10 @@ Master Doc. I'll make sure nothing critical gets left behind, including:
 
 - All pillars and content topics
 
-- Water, health, reset experiments, and assessments (Light & Fruit Test,
-  3-day reset, lymph, cacao, microdosing, fertility, autoimmune, etc.)
+- Gateway, health, reset experiments, and assessments (Light & Fruit Test,
+  3-day reset, lymph, cacao, microdosing, archetype-delta, archetype-beta, etc.)
 
-- Mindset & identity frameworks (Burnt Toast, Pancake, Lantern, Maslow,
+- Mindset & structure frameworks (Burnt Toast, Pancake, Lantern, Maslow,
   Radical Forgiveness, Compound Effect, 40/70 Rule, Chicken/Robot
   consciousness, subconscious reprogramming, Feel Good First, archetypal
   journey, yin/yang, etc.)
@@ -29,8 +29,8 @@ Here's the fully updated Spiral Master Doc structure:
 ### **Top Summary (READ THIS FIRST)**
 
 > This is an interactive spiral-based ecosystem designed to guide users
-> through four pillars of sovereignty (Physical, Inner, Identity,
-> Financial).
+> through four pillars of sovereignty (Foundation, System, Structure,
+> Vision).
 >
 > The site is exploratory first, conversion second.
 >
@@ -57,7 +57,7 @@ Core framework: Elevate • Align • Unlock (EAU)
 
 Mission / Vibe:
 
-- Guide people to sovereignty in mind, body, identity, and finance
+- Guide people to sovereignty in mind, body, structure, and finance
 
 - "Feel Good First" philosophy
 
@@ -79,35 +79,35 @@ Foundational Theories & Assessments:
                           / right on time         / resetting
                                                   expectations
 
-  Pancake Theory          Inner / Identity        Layering
+  Pancake Theory          System / Structure        Layering
                                                   responsibilities /
                                                   prioritization /
                                                   mindset
 
-  Lantern Theory          Inner / identity        Guidance / illumination
+  Lantern Theory          System / structure        Guidance / illumination
                                                   / intuition
 
-  Maslow's Hierarchy of   physical, Inner /       Human motivation
-  Needs                   Identity                framework
+  Maslow's Hierarchy of   foundation, System /       Human motivation
+  Needs                   Structure                framework
 
-  The Compound Effect     Financial / Personal    Small consistent
+  The Compound Effect     Vision / Personal    Small consistent
                                                   actions compound over
                                                   time
 
-  Radical Forgiveness     Inner / Identity        Reframing limiting
+  Radical Forgiveness     System / Structure        Reframing limiting
                                                   beliefs / emotional
                                                   freedom
 
-  40/70 Rule              Identity /              Taking action with 40%
+  40/70 Rule              Structure /              Taking action with 40%
                           Decision-making         clarity instead of
                                                   waiting for perfection
 
-  Chicken / Robot         Inner / Identity        Awareness experiment:
+  Chicken / Robot         System / Structure        Awareness experiment:
   Consciousness                                   observing unconscious
                                                   vs conscious thought
                                                   patterns
 
-  Light & Fruit Test      Physical / Inner        Self-assessment of
+  Light & Fruit Test      Foundation / System        Self-assessment of
                                                   nutrition, energy
                                                   alignment, lifestyle
                                                   habits
@@ -116,7 +116,7 @@ Foundational Theories & Assessments:
                                                   for all decisions and
                                                   habits
 
-  Archetypal Journey / 60 Inner / Identity        Transformational
+  Archetypal Journey / 60 System / Structure        Transformational
   Days of Grace                                   program structure for
                                                   self-sovereignty
   -----------------------------------------------------------------------
@@ -141,16 +141,16 @@ the sovereign systems layout and the nodules doc
   -----------------------------------------------------------------------
   **Pillar**                          **Destination / Funnel**
   ----------------------------------- -----------------------------------
-  Physical                            Site page with info overview , talk
-                                      about water to → GHL water funnel
+  Foundation                            Site page with info overview , talk
+                                      about gateway to → GHL gateway funnel
 
-  Inner                               Site page with info → Subscription
+  System                               Site page with info → Subscription
                                       content
 
-  Identity                            Site page with info → Courses /
+  Structure                            Site page with info → Courses /
                                       personal growth
 
-  Financial                           Site page with info → GHL business
+  Vision                           Site page with info → GHL business
                                       funnel
   -----------------------------------------------------------------------
 
@@ -168,9 +168,9 @@ Spiral Visual Details:
 
 ## **4. Pillars & Content (sovereign systems are frame work - wont be seen visually on landing page but explained below the spiral)** 
 
-### **Physical Sovereignty**
+### **Foundation Sovereignty**
 
-- Water (structured, hydrogen, filtration)
+- Gateway (structured, hydrogen, filtration)
 
 - Blood sugar regulation
 
@@ -184,9 +184,9 @@ Spiral Visual Details:
 
 - Sleep optimization
 
-- Hormones & fertility
+- Hormones & archetype-delta
 
-- Autoimmune root healing
+- Archetype-beta root healing
 
 - Tongue diagnostics (Chinese medicine)
 
@@ -200,7 +200,7 @@ Spiral Visual Details:
 
   - Mood/substance choice maps
 
-### **Inner Sovereignty**
+### **System Sovereignty**
 
 - Nervous system regulation
 
@@ -230,7 +230,7 @@ Spiral Visual Details:
 
   - Chicken / Robot Consciousness experiment
 
-### **Identity Sovereignty**
+### **Structure Sovereignty**
 
 - Self-worth & self-love
 
@@ -252,7 +252,7 @@ Spiral Visual Details:
 
   - Lantern Theory
 
-### **Financial Sovereignty**
+### **Vision Sovereignty**
 
 - Business as self-expression
 
@@ -276,7 +276,7 @@ Content Already Created:
 
 - Instagram reels (educational/storytelling)
 
-- Water demo videos
+- Gateway demo videos
 
 - Personal healing story
 
@@ -299,13 +299,13 @@ in the modular doc 2b.
 
 ## **5. Funnels & Lead Flows**
 
-Water Funnel: CTA from Physical pillar → GHL funnel → lead capture →
+Gateway Funnel: CTA from Foundation pillar → GHL funnel → lead capture →
 email sequence → purchase
 
-Business Funnel: CTA from Financial pillar → GHL funnel → lead capture →
+Business Funnel: CTA from Vision pillar → GHL funnel → lead capture →
 guidance / education
 
-Subscription Flow: CTA from Inner pillar → subscription hub → exclusive
+Subscription Flow: CTA from System pillar → subscription hub → exclusive
 videos / calls / product perks
 
 Free vs Paid Access:
@@ -349,7 +349,7 @@ Reels & Scripts: (working on this!
 
 Video Library:
 
-- Water demos (down the line!)
+- Gateway demos (down the line!)
 
 - Personal story clips (can please give me prompts or spots to best plug
   in? Was thinking this could be after they subscribe idk though)
@@ -386,7 +386,7 @@ link)
 
 1.  Spiral hub live & polished
 
-2.  Water funnel connected
+2.  Gateway funnel connected
 
 3.  Business funnel connected
 

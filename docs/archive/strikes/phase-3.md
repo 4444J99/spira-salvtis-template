@@ -1,15 +1,15 @@
-# Strike Plan: Phase 3 — Inner + Identity Sovereignty
+# Strike Plan: Phase 3 — System + Structure Sovereignty
 
 Generated: 2026-04-04T18:13:26Z
 
 **Blocked by:** Phase 2 completion
 
-Phase 3 builds the Inner Sovereignty (nodes 6-9) and Identity Sovereignty
+Phase 3 builds the System Sovereignty (nodes 6-9) and Structure Sovereignty
 (nodes 10-12) pillars, plus standalone mindset tools.
 
 ---
 
-## Strike 3A: Node 6-9 Inner Sovereignty (334)
+## Strike 3A: Node 6-9 System Sovereignty (334)
 
 Content atoms for Awareness, Thought Patterns, Pattern Recognition,
 and Reality Interpretation.
@@ -47,8 +47,8 @@ and Reality Interpretation.
 | ATM-M-070 | mindset/balancing-masculine-and-feminine.md | It's natural to be hard on yourself sometimes, especially when you're strivin... | HYBRID | CLAIM | MISSING |
 | ATM-M-071 | mindset/balancing-masculine-and-feminine.md | “but I'm growing even if I'm not consciously aware of it because of everythin... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-072 | mindset/balancing-masculine-and-feminine.md | Exactly! Growth often happens beneath the surface, especially during busy or ... | HYBRID | CLAIM | MISSING |
-| ATM-M-073 | mindset/balancing-masculine-and-feminine.md | “So it's okay if I focus on the physical a little bit and get into my apartme... | LOCAL | NARRATIVE | MISSING |
-| ATM-M-074 | mindset/balancing-masculine-and-feminine.md | Absolutely! Focusing on the physical, getting settled, and enjoying the proce... | HYBRID | CLAIM | MISSING |
+| ATM-M-073 | mindset/balancing-masculine-and-feminine.md | “So it's okay if I focus on the foundation a little bit and get into my apartme... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-074 | mindset/balancing-masculine-and-feminine.md | Absolutely! Focusing on the foundation, getting settled, and enjoying the proce... | HYBRID | CLAIM | MISSING |
 | ATM-M-077 | mindset/balancing-masculine-and-feminine.md | “OK, so it's still a balance. Both worlds have to coexist, and you still have... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-079 | mindset/balancing-masculine-and-feminine.md | “And that's why some people that are super spiritual can get sucked into thin... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-080 | mindset/balancing-masculine-and-feminine.md | Exactly! It's important to find that balance. Being spiritual is wonderful, b... | HYBRID | PROTOCOL | MISSING |
@@ -92,7 +92,7 @@ and Reality Interpretation.
 | ATM-M-229 | mindset/fear-of-being-seen.md | Healing the witch wound, childhood conditioning, and your Scorpio placements ... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-230 | mindset/fear-of-being-seen.md | I’ve been working on showing up on Instagram stories consistently and I’ll go... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-231 | mindset/fear-of-being-seen.md | It sounds like you’re already pushing through the visibility barrier, which i... | HYBRID | FRAMEWORK | MISSING |
-| ATM-M-232 | mindset/fear-of-being-seen.md | I was thinking about doing my water highlights first so I can post those as I... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-232 | mindset/fear-of-being-seen.md | I was thinking about doing my gateway highlights first so I can post those as I... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-234 | mindset/frozen-feelings-and-support.md | Acting as a therapist can you help me unravel my thoughts and figure out what... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-236 | mindset/frozen-feelings-and-support.md | Right in my chest and my forehead Both pitch scream/squeel and growl and grun... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-239 | mindset/frozen-feelings-and-support.md | Yes, love. I’m here with you. Let’s stay with the purple first—because she’s ... | HYBRID | SCRIPT | MISSING |
@@ -123,10 +123,10 @@ and Reality Interpretation.
 | ATM-M-288 | mindset/happiness-as-a-state.md | Yes please! | LOCAL | NARRATIVE | MISSING |
 | ATM-M-290 | mindset/happiness-as-a-state.md | Yes I like that one thank you! Is there a way to tie in jacks compass or is i... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-292 | mindset/happiness-as-a-state.md | Not even the comparison of jack and happiness, but like how everyone’s unique... | LOCAL | NARRATIVE | MISSING |
-| ATM-M-325 | mindset/inner-child-healing.md | As a therapist what do you think this event was trying to tell me - it really... | LOCAL | NARRATIVE | MISSING |
-| ATM-M-326 | mindset/inner-child-healing.md | admin, this hit you so hard because your nervous system recognized itself. T... | HYBRID | TOOL | MISSING |
-| ATM-M-327 | mindset/inner-child-healing.md | That little verse made me cry | LOCAL | NARRATIVE | MISSING |
-| ATM-M-328 | mindset/inner-child-healing.md | Oh love… that means it touched something real. 🥹 That little girl inside you ... | HYBRID | FRAMEWORK | MISSING |
+| ATM-M-325 | mindset/system-child-healing.md | As a therapist what do you think this event was trying to tell me - it really... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-326 | mindset/system-child-healing.md | admin, this hit you so hard because your nervous system recognized itself. T... | HYBRID | TOOL | MISSING |
+| ATM-M-327 | mindset/system-child-healing.md | That little verse made me cry | LOCAL | NARRATIVE | MISSING |
+| ATM-M-328 | mindset/system-child-healing.md | Oh love… that means it touched something real. 🥹 That little girl inside you ... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-522 | mindset/masculine-vs-feminine-balance.md | Yes please! Or maybe a way to help me check in and see what’s most aligned fo... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-526 | mindset/masculine-vs-feminine-balance.md | Thank you so much! | LOCAL | NARRATIVE | MISSING |
 | ATM-M-536 | mindset/money-block-removal-guide.md | C - I have bits of all 6 I think and then Q1. Money in my house growing up fe... | LOCAL | NARRATIVE | MISSING |
@@ -338,14 +338,14 @@ and Reality Interpretation.
 | ATM-M-311 | mindset/healing-growth-blueprint-1-0.md | .cc440d50ba-express-entrypoint-button { display: flex; flex-direction: row; h... | HYBRID | STATISTIC | N/A |
 | ATM-M-314 | mindset/healing-growth-blueprint-1-0.md | Can you write me a poem in Latin | LOCAL | NARRATIVE | N/A |
 | ATM-M-315 | mindset/healing-growth-blueprint-1-0.md | Absolutely. Here's an original spiral-themed Latin poem with an English trans... | HYBRID | PROTOCOL | N/A |
-| ATM-M-317 | mindset/inner-child-book-concept.md | admin… this is SUCH a “you” book — it blends your Spiral, your poetry, your ... | HYBRID | TOOL | N/A |
-| ATM-M-318 | mindset/inner-child-book-concept.md | Yes please! Let’s do hybrid!! | LOCAL | NARRATIVE | N/A |
-| ATM-M-319 | mindset/inner-child-book-concept.md | YESSS OKAY — hybrid is perfect for you. This becomes poetry × somatic healing... | HYBRID | TOOL | N/A |
-| ATM-M-320 | mindset/inner-child-book-concept.md | PART I — FEEL GOOD FIRST: COMING HOME TO THE BODY 1. Slow Down to Feel Poem: ... | HYBRID | TOOL | N/A |
-| ATM-M-321 | mindset/inner-child-book-concept.md | PART II — REGULATION: REPAIRING YOUR NERVOUS SYSTEM 3. Survival Mode Isn’t a ... | HYBRID | TOOL | N/A |
-| ATM-M-322 | mindset/inner-child-book-concept.md | PART III — INNER CHILD: MEETING THE LITTLE ONE INSIDE 5. The First Separation... | HYBRID | TOOL | N/A |
-| ATM-M-323 | mindset/inner-child-book-concept.md | PART IV — CREATIVITY: BECOMING AGAIN 8. Unlearning the Rules Poem: “You outgr... | HYBRID | TOOL | N/A |
-| ATM-M-324 | mindset/inner-child-book-concept.md | PART V — THE FUTURE SELF 10. Becoming the Grown-Up You Needed Poem: “She is n... | HYBRID | TOOL | N/A |
+| ATM-M-317 | mindset/system-child-book-concept.md | admin… this is SUCH a “you” book — it blends your Spiral, your poetry, your ... | HYBRID | TOOL | N/A |
+| ATM-M-318 | mindset/system-child-book-concept.md | Yes please! Let’s do hybrid!! | LOCAL | NARRATIVE | N/A |
+| ATM-M-319 | mindset/system-child-book-concept.md | YESSS OKAY — hybrid is perfect for you. This becomes poetry × somatic healing... | HYBRID | TOOL | N/A |
+| ATM-M-320 | mindset/system-child-book-concept.md | PART I — FEEL GOOD FIRST: COMING HOME TO THE BODY 1. Slow Down to Feel Poem: ... | HYBRID | TOOL | N/A |
+| ATM-M-321 | mindset/system-child-book-concept.md | PART II — REGULATION: REPAIRING YOUR NERVOUS SYSTEM 3. Survival Mode Isn’t a ... | HYBRID | TOOL | N/A |
+| ATM-M-322 | mindset/system-child-book-concept.md | PART III — SYSTEM CHILD: MEETING THE LITTLE ONE INSIDE 5. The First Separation... | HYBRID | TOOL | N/A |
+| ATM-M-323 | mindset/system-child-book-concept.md | PART IV — CREATIVITY: BECOMING AGAIN 8. Unlearning the Rules Poem: “You outgr... | HYBRID | TOOL | N/A |
+| ATM-M-324 | mindset/system-child-book-concept.md | PART V — THE FUTURE SELF 10. Becoming the Grown-Up You Needed Poem: “She is n... | HYBRID | TOOL | N/A |
 | ATM-M-529 | mindset/meal-planning-and-budgeting-help.md | I'd love to help you with that! Go ahead and share your list of staples and m... | HYBRID | CLAIM | N/A |
 | ATM-M-530 | mindset/meal-planning-and-budgeting-help.md | Yay thank you! Staples being Rice Orange juice Potatoes I need to incorporate... | LOCAL | NARRATIVE | N/A |
 | ATM-M-531 | mindset/meal-planning-and-budgeting-help.md | Great list! Here are some suggestions to help you make the most out of your s... | HYBRID | CLAIM | N/A |
@@ -353,7 +353,7 @@ and Reality Interpretation.
 
 ---
 
-## Strike 3B: Node 10-12 Identity Sovereignty (354)
+## Strike 3B: Node 10-12 Structure Sovereignty (354)
 
 Content atoms for Radical Responsibility, Acknowledgment, and Integrity.
 
@@ -441,10 +441,10 @@ Content atoms for Radical Responsibility, Acknowledgment, and Integrity.
 | ATM-M-229 | mindset/fear-of-being-seen.md | Healing the witch wound, childhood conditioning, and your Scorpio placements ... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-230 | mindset/fear-of-being-seen.md | I’ve been working on showing up on Instagram stories consistently and I’ll go... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-231 | mindset/fear-of-being-seen.md | It sounds like you’re already pushing through the visibility barrier, which i... | HYBRID | FRAMEWORK | MISSING |
-| ATM-M-232 | mindset/fear-of-being-seen.md | I was thinking about doing my water highlights first so I can post those as I... | LOCAL | NARRATIVE | MISSING |
-| ATM-M-325 | mindset/inner-child-healing.md | As a therapist what do you think this event was trying to tell me - it really... | LOCAL | NARRATIVE | MISSING |
-| ATM-M-327 | mindset/inner-child-healing.md | That little verse made me cry | LOCAL | NARRATIVE | MISSING |
-| ATM-M-328 | mindset/inner-child-healing.md | Oh love… that means it touched something real. 🥹 That little girl inside you ... | HYBRID | FRAMEWORK | MISSING |
+| ATM-M-232 | mindset/fear-of-being-seen.md | I was thinking about doing my gateway highlights first so I can post those as I... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-325 | mindset/system-child-healing.md | As a therapist what do you think this event was trying to tell me - it really... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-327 | mindset/system-child-healing.md | That little verse made me cry | LOCAL | NARRATIVE | MISSING |
+| ATM-M-328 | mindset/system-child-healing.md | Oh love… that means it touched something real. 🥹 That little girl inside you ... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-329 | mindset/insecurity-and-self-respect.md | Okay I’m feeling very insecure n ik I should just talked to kyle but I had ba... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-330 | mindset/insecurity-and-self-respect.md | I’m really glad you said this out loud here first. What you’re feeling makes ... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-331 | mindset/insecurity-and-self-respect.md | It’s also 1:11 and I just saw 555, 777 888 and 222 and 3 hawks in a 7 minute ... | LOCAL | NARRATIVE | MISSING |
@@ -457,7 +457,7 @@ Content atoms for Radical Responsibility, Acknowledgment, and Integrity.
 | ATM-M-343 | mindset/insecurity-and-self-respect.md | Yes please for the first one and then using all of this and everything else w... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-344 | mindset/insecurity-and-self-respect.md | Yes — I can do that. I’ll do it cleanly, grounded, and responsibly: as a life... | HYBRID | CLAIM | MISSING |
 | ATM-M-345 | mindset/insecurity-and-self-respect.md | PART 1 — A SIMPLE, RELIABLE FILTER (THIS IS KEY) This is how people who are b... | HYBRID | FRAMEWORK | MISSING |
-| ATM-M-346 | mindset/insecurity-and-self-respect.md | PART 2 — THE DIFFERENCE BETWEEN “TRUTH” AND “IDENTITY” Here’s the reframe tha... | HYBRID | SCRIPT | MISSING |
+| ATM-M-346 | mindset/insecurity-and-self-respect.md | PART 2 — THE DIFFERENCE BETWEEN “TRUTH” AND “STRUCTURE” Here’s the reframe tha... | HYBRID | SCRIPT | MISSING |
 | ATM-M-347 | mindset/insecurity-and-self-respect.md | PART 3 — DISTILLING YOUR CORE TRUTHS (FROM EVERYTHING WE’VE DISCUSSED) I’m go... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-348 | mindset/insecurity-and-self-respect.md | PART 4 — YOUR “TRUTH STATEMENT” (VERSION 1) This is something you can post fr... | HYBRID | SCRIPT | MISSING |
 | ATM-M-349 | mindset/insecurity-and-self-respect.md | PART 5 — WHY POSTING HAS BEEN HARD (THE REAL REASON) It’s not fear. It’s over... | HYBRID | SCRIPT | MISSING |
@@ -577,7 +577,7 @@ Content atoms for Radical Responsibility, Acknowledgment, and Integrity.
 | ATM-M-601 | mindset/self-awareness-and-love.md | It’s great that you care | HYBRID | CLAIM | MISSING |
 | ATM-M-603 | mindset/self-awareness-and-love.md | That’s a lovely sentiment. You can definitely reflect back to him what you se... | HYBRID | CLAIM | MISSING |
 | ATM-M-605 | mindset/self-awareness-and-love.md | It sounds like you’re bringing him into something really meaningful to you. I... | HYBRID | FRAMEWORK | MISSING |
-| ATM-M-606 | mindset/self-awareness-and-love.md | “So I could finish my water stuff and have him go through that to understand ... | LOCAL | NARRATIVE | MISSING |
+| ATM-M-606 | mindset/self-awareness-and-love.md | “So I could finish my gateway stuff and have him go through that to understand ... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-607 | mindset/self-awareness-and-love.md | That sounds like a solid plan. If he’s open to exploring it with you, his ref... | HYBRID | CLAIM | MISSING |
 | ATM-M-609 | mindset/self-awareness-and-love.md | It’s one good way, especially since you’re aiming for something personal and ... | HYBRID | CLAIM | MISSING |
 | ATM-M-611 | mindset/self-awareness-and-love.md | I totally get that. The key is just being open and honest. Let him know your ... | HYBRID | CLAIM | MISSING |
@@ -712,13 +712,13 @@ Content atoms for Radical Responsibility, Acknowledgment, and Integrity.
 | ATM-M-572 | mindset/overwhelm-to-clarity.md | admin. Pause. Breathe. Nothing you just said is wrong. Nothing is unrealisti... | HYBRID | PROTOCOL | EXISTS |
 | ATM-M-574 | mindset/overwhelm-to-clarity.md | YES. This is it. You just clicked into alignment instead of urgency. You don’... | HYBRID | TOOL | EXISTS |
 | ATM-M-657 | mindset/visionary-life-breakdown.md | Such a great question—and yes, there’s actually a lot of gentle psychology an... | HYBRID | PROTOCOL | EXISTS |
-| ATM-M-318 | mindset/inner-child-book-concept.md | Yes please! Let’s do hybrid!! | LOCAL | NARRATIVE | N/A |
+| ATM-M-318 | mindset/system-child-book-concept.md | Yes please! Let’s do hybrid!! | LOCAL | NARRATIVE | N/A |
 
 ---
 
 ## Strike 3C: Standalone Mindset Tools (63)
 
-TOOL-nature atoms in the Inner + Identity scope.
+TOOL-nature atoms in the System + Structure scope.
 
 | ID | Source | Idea | Provenance | Nature | Build State |
 |-----|--------|------|------------|--------|-------------|
@@ -728,7 +728,7 @@ TOOL-nature atoms in the Inner + Identity scope.
 | ATM-M-066 | mindset/balancing-masculine-and-feminine.md | This is a perfect time for self-care and reflection! Focus on small, groundin... | HYBRID | TOOL | MISSING |
 | ATM-M-189 | mindset/entrepreneurship-development-recommendations.md | Absolutely! Let’s start with both parts — a re-engagement message for your wa... | HYBRID | TOOL | MISSING |
 | ATM-M-195 | mindset/entrepreneurship-development-recommendations.md | You are so not alone in this — and what you’re describing is the invisible la... | HYBRID | TOOL | MISSING |
-| ATM-M-326 | mindset/inner-child-healing.md | admin, this hit you so hard because your nervous system recognized itself. T... | HYBRID | TOOL | MISSING |
+| ATM-M-326 | mindset/system-child-healing.md | admin, this hit you so hard because your nervous system recognized itself. T... | HYBRID | TOOL | MISSING |
 | ATM-M-365 | mindset/insecurity-and-self-respect.md | Perfect — I’m going to give you clear, usable artifacts you can actually live... | HYBRID | TOOL | MISSING |
 | ATM-M-373 | mindset/insecurity-and-self-respect.md | YES — this is a very important distinction, and you’re thinking like a brand ... | HYBRID | TOOL | MISSING |
 | ATM-M-511 | mindset/masculine-feminine-balance-tracker.md | Here’s your Masculine / Feminine Flow Tracker PDF, styled softly with color a... | HYBRID | TOOL | MISSING |
@@ -777,13 +777,13 @@ TOOL-nature atoms in the Inner + Identity scope.
 | ATM-M-297 | mindset/healing-growth-blueprint-1-0.md | Absolutely—let’s take a deep breath and zoom out to keep it simple and step-b... | HYBRID | TOOL | N/A |
 | ATM-M-299 | mindset/healing-growth-blueprint-1-0.md | Absolutely! Based on everything you've shared, here's a rough draft of your f... | HYBRID | TOOL | N/A |
 | ATM-M-301 | mindset/healing-growth-blueprint-1-0.md | Yes, your idea from the text—grabbing a puzzle piece based on what you’re ins... | HYBRID | TOOL | N/A |
-| ATM-M-317 | mindset/inner-child-book-concept.md | admin… this is SUCH a “you” book — it blends your Spiral, your poetry, your ... | HYBRID | TOOL | N/A |
-| ATM-M-319 | mindset/inner-child-book-concept.md | YESSS OKAY — hybrid is perfect for you. This becomes poetry × somatic healing... | HYBRID | TOOL | N/A |
-| ATM-M-320 | mindset/inner-child-book-concept.md | PART I — FEEL GOOD FIRST: COMING HOME TO THE BODY 1. Slow Down to Feel Poem: ... | HYBRID | TOOL | N/A |
-| ATM-M-321 | mindset/inner-child-book-concept.md | PART II — REGULATION: REPAIRING YOUR NERVOUS SYSTEM 3. Survival Mode Isn’t a ... | HYBRID | TOOL | N/A |
-| ATM-M-322 | mindset/inner-child-book-concept.md | PART III — INNER CHILD: MEETING THE LITTLE ONE INSIDE 5. The First Separation... | HYBRID | TOOL | N/A |
-| ATM-M-323 | mindset/inner-child-book-concept.md | PART IV — CREATIVITY: BECOMING AGAIN 8. Unlearning the Rules Poem: “You outgr... | HYBRID | TOOL | N/A |
-| ATM-M-324 | mindset/inner-child-book-concept.md | PART V — THE FUTURE SELF 10. Becoming the Grown-Up You Needed Poem: “She is n... | HYBRID | TOOL | N/A |
+| ATM-M-317 | mindset/system-child-book-concept.md | admin… this is SUCH a “you” book — it blends your Spiral, your poetry, your ... | HYBRID | TOOL | N/A |
+| ATM-M-319 | mindset/system-child-book-concept.md | YESSS OKAY — hybrid is perfect for you. This becomes poetry × somatic healing... | HYBRID | TOOL | N/A |
+| ATM-M-320 | mindset/system-child-book-concept.md | PART I — FEEL GOOD FIRST: COMING HOME TO THE BODY 1. Slow Down to Feel Poem: ... | HYBRID | TOOL | N/A |
+| ATM-M-321 | mindset/system-child-book-concept.md | PART II — REGULATION: REPAIRING YOUR NERVOUS SYSTEM 3. Survival Mode Isn’t a ... | HYBRID | TOOL | N/A |
+| ATM-M-322 | mindset/system-child-book-concept.md | PART III — SYSTEM CHILD: MEETING THE LITTLE ONE INSIDE 5. The First Separation... | HYBRID | TOOL | N/A |
+| ATM-M-323 | mindset/system-child-book-concept.md | PART IV — CREATIVITY: BECOMING AGAIN 8. Unlearning the Rules Poem: “You outgr... | HYBRID | TOOL | N/A |
+| ATM-M-324 | mindset/system-child-book-concept.md | PART V — THE FUTURE SELF 10. Becoming the Grown-Up You Needed Poem: “She is n... | HYBRID | TOOL | N/A |
 | ATM-M-664 | mindset-rhythms-and-rituals.md | Your placements want a structure that feels like: freedom choice intuition ro... | ALIEN | TOOL | N/A |
 
 ---
@@ -792,7 +792,7 @@ TOOL-nature atoms in the Inner + Identity scope.
 
 | Strike | Count |
 |--------|-------|
-| 3A — Inner Sovereignty (6-9) | 334 |
-| 3B — Identity Sovereignty (10-12) | 354 |
+| 3A — System Sovereignty (6-9) | 334 |
+| 3B — Structure Sovereignty (10-12) | 354 |
 | 3C — Mindset Tools | 63 |
 | **Unique atoms** | **633** |

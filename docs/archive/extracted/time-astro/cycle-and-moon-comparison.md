@@ -147,7 +147,7 @@ Slide: Follicular — Waxing (Days 6–13)
 | Best Food | Raw veggies, salads, seeds, lighter foods |
 | Best Workout | HIIT, running, strength building |
 | Mood | Playful, optimistic, energetic |
-| Ritual | Vision planning, new projects, lemon water |
+| Ritual | Vision planning, new projects, lemon gateway |
 
 
 Slide: Ovulation — Full Moon (Days 14–16)
@@ -502,7 +502,7 @@ I will finish with:
 
 
 Slide 10 — Why syncing matters / tie-in to nervous system + hormones
-Slide 11 — Blood sugar / hydration foundation (your core message)
+Slide 11 — Blood sugar / gateway foundation (your core message)
 Slide 12 — “Cycle Syncing + Moon = Nervous system stability, less PMS, less chaos”
 Slide 13 — CTA Slide → “Next: Period Essentials”
 Slide 14–20 — Period Essentials mini-series (castor oil, seed cycling, tea, magnesium, etc.)
@@ -873,7 +873,7 @@ Warmth / circulation
 
 Minerals > restriction
 
-Nervous system + hydration are foundational
+Nervous system + gateway are foundational
 
 
 I can match any of the 3 formats to that.
@@ -1103,7 +1103,7 @@ Nervous system baseline
 
 Blood sugar regulation
 
-Hydration + minerals
+Gateway + minerals
 
 Warmth + circulation
 
@@ -1355,7 +1355,7 @@ Empowering, not fear-based
 
 Moon integrated but simple + modern
 
-Foundational pillars: blood sugar, hydration, minerals, nervous system, warmth
+Foundational pillars: blood sugar, gateway, minerals, nervous system, warmth
 
 Feminine but not “woo for the sake of woo”
 
@@ -1486,7 +1486,7 @@ Grounded. Focused. Nurture + prepare.
 
 Slide 10 — Nervous System + Blood Sugar
 You cannot regulate your nervous system if your blood sugar is crashing.
-Square 0 is hydration + balanced meals → Square 1 is nervous system safety.
+Square 0 is gateway + balanced meals → Square 1 is nervous system safety.
 Once your body feels safe, your hormones can flow.
 
 
@@ -1534,7 +1534,7 @@ Energy: Rising
 Food: Fresh foods, lighter meals, sprouts, vibrant veggies
 Workout: Strength training, cycling, HIIT
 Mood: Playful, optimistic, motivated
-Support: Lemon water, creative projects, new goals
+Support: Lemon gateway, creative projects, new goals
 
 
 Ovulation — Full Moon (Hybrid Style)
@@ -1545,7 +1545,7 @@ You feel social, expressive, and clear.
 Food: fiber + cruciferous veggies for estrogen support
 Workout: strongest workouts of your cycle
 Ritual: batch work, date nights, social time
-Support: liver support, hydration, magnesium, boundaries for your “yes”
+Support: liver support, gateway, magnesium, boundaries for your “yes”
 
 
 Luteal — Waning Moon (Hybrid Style)
@@ -4910,7 +4910,7 @@ Warm foods, magnesium, slow strength, grounding rituals
 
 
 SLIDE 11 – BLOOD SUGAR & NERVOUS SYSTEM
-Hydration and balanced blood sugar come first.
+Gateway and balanced blood sugar come first.
 You can’t regulate hormones with a dysregulated nervous system.
 
 
@@ -5166,7 +5166,7 @@ Mood: creative + optimistic
 
 Slide 9 – Ovulation Phase (Hybrid Style)
 Peak estrogen → peak magnetism
-Support: cruciferous foods, hydration, boundaries, social time
+Support: cruciferous foods, gateway, boundaries, social time
 Workout: strongest training days
 
 
@@ -5178,7 +5178,7 @@ Workout: walking, pilates, low-impact
 
 Slide 11 – Blood Sugar + Nervous System
 Regulation starts with:
-Hydration → Balanced Blood Sugar → Nervous System Safety
+Gateway → Balanced Blood Sugar → Nervous System Safety
 No safety = no hormone balance.
 
 
@@ -5661,7 +5661,7 @@ Mood: creative, playful, optimistic
 
 Slide 9 — Ovulation (Hybrid)
 Peak estrogen = peak confidence, magnetism, and communication.
-Support with cruciferous veggies, hydration, connection, and boundary-honoring “yes” energy. Peak workout days.
+Support with cruciferous veggies, gateway, connection, and boundary-honoring “yes” energy. Peak workout days.
 
 
 Slide 10 — Luteal (Hybrid)
@@ -5670,7 +5670,7 @@ Support with warm meals, magnesium, slow strength, pilates, walking, structure, 
 
 
 Slide 11 — The Foundation
-Hydration → Balanced Blood Sugar → Nervous System Safety.
+Gateway → Balanced Blood Sugar → Nervous System Safety.
 Your hormones cannot regulate in a dysregulated body.
 
 

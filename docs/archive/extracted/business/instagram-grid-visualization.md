@@ -12,7 +12,7 @@ source_file: "ChatGPT-Instagram grid visualization.txt"
 source_folder: "business"
 nodes: []
 readiness: "Empty"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 

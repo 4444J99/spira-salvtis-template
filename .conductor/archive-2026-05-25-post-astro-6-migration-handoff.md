@@ -82,7 +82,7 @@ f1536f9  fix: opt out of v13 SESSION KV binding + complete Pages CMS config
 ## Next Actions
 
 This PR grew beyond the handoff rotation: it now also carries 3 HIGH fixes
-from a full-codebase review (water-report APIRoute port, vacuum-gate
+from a full-codebase review (gateway-report APIRoute port, vacuum-gate
 fail-closed, capture.ts IPv6 de-id). They ride here because this is the
 task-pinned branch; split into a separate PR if cleaner.
 
@@ -90,7 +90,7 @@ task-pinned branch; split into a separate PR if cleaner.
 # 1. CI green on PR #105 — build + Trunk + CodeQL verified (commit 1c4df35).
 # 2. Owner reads this handoff + the full-codebase review comment on PR #105.
 # 3. Merge PR #105 (squash) — lands the handoff rotation + 3 HIGH fixes;
-#    auto-closes #164 (water-report), #165 (vacuum-gate), #166 (IPv6).
+#    auto-closes #164 (gateway-report), #165 (vacuum-gate), #166 (IPv6).
 # 4. HOST-SIDE ONLY (unreachable from the remote container): IRF + cross-repo
 #    index propagation — tracked + assigned at GH#167. Add 3 IRF-OPS entries,
 #    update omega; #164/#165/#166 reach 3/3 triple-reference once IRF IDs exist.

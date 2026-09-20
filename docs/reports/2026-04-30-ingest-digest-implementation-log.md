@@ -21,12 +21,12 @@ Current manifest census:
 - Added `npm run test` and `npm run test:all`.
 - Added `scripts/test.mjs` to check content/config sync, 13-node spiral invariants, quiz serialization, capture validation, citation JSON parseability, and manifest parseability.
 - Fixed `/quiz` client data by serializing `status: n.status` and typing it in the browser-side quiz contract.
-- Replaced `/water/quiz` empty-GHL fallback waitlist with a direct path to the existing local node-placement assessment.
+- Replaced `/gateway/quiz` empty-GHL fallback waitlist with a direct path to the existing local node-placement assessment.
 - Removed the unused waitlist script from `QuizEmbed.astro`.
 - Made `CycleAwareness.astro` use `branchSlug` for branch-specific guidance instead of carrying generic future-tense copy.
-- Converted all six water branch resource sections from "coming soon" placeholders into concrete start-here, evidence-anchor, boundary, and next-build guidance.
+- Converted all six gateway branch resource sections from "coming soon" placeholders into concrete start-here, evidence-anchor, boundary, and next-build guidance.
 - Updated `VideoEmbed.astro` placeholder copy to name the reserved story slot rather than presenting a generic unfinished documentary message.
-- Updated `CLAUDE.md` route table so `/water/quiz` no longer describes the old empty GHL placeholder state.
+- Updated `CLAUDE.md` route table so `/gateway/quiz` no longer describes the old empty GHL placeholder state.
 
 ## Review Chain
 
@@ -38,7 +38,7 @@ Weaknesses: some client-asset gaps remain because the final video assets and GHL
 
 ### 2. Logic Check
 
-The previous `/water/quiz` logic was contradictory: the repo had a local quiz, but the water funnel still showed an "almost ready" fallback when `quizFormUrl` was empty. The fix routes users to the local assessment while preserving the optional GHL embed path if the URL is later provided.
+The previous `/gateway/quiz` logic was contradictory: the repo had a local quiz, but the gateway funnel still showed an "almost ready" fallback when `quizFormUrl` was empty. The fix routes users to the local assessment while preserving the optional GHL embed path if the URL is later provided.
 
 ### 3. Logos Review
 
@@ -50,7 +50,7 @@ User-facing branch copy now gives readers something to do today. The tone stays 
 
 ### 5. Ethos Review
 
-Medical-adjacent branches now keep care boundaries visible, especially fertility, autoimmune, and cancer-support content. The strongest public credibility still depends on keeping citations current and not overstating H2 claims beyond the cited evidence.
+Medical-adjacent branches now keep care boundaries visible, especially archetype-delta, archetype-beta, and archetype-gamma content. The strongest public credibility still depends on keeping citations current and not overstating H2 claims beyond the cited evidence.
 
 ### 6. Blind Spots
 
@@ -88,7 +88,7 @@ The repo now has a baseline test and manifest loop:
 | Item | Current fallback | Gate | Next action |
 |---|---|---|---|
 | Homepage story video | Reserved story slot with title | Final client video asset | Add `src` when asset is supplied |
-| Water story video | Reserved story slot with title | Final client video asset | Add `src` when asset is supplied |
+| Gateway story video | Reserved story slot with title | Final client video asset | Add `src` when asset is supplied |
 | Business story video | Reserved story slot with title | Final client video asset | Add `src` when asset is supplied |
 | GHL quiz embed | Local `/quiz` node-placement assessment | admin's GHL URL | Set `config.ghl.quizFormUrl` only when provided |
 | Business application | Static "Application opening soon" state | Offer/application intake decision | Replace with live capture or scheduling route when approved |

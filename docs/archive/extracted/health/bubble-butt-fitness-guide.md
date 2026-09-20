@@ -17,7 +17,7 @@ source_file: "ChatGPT-Bubble Butt Fitness Guide.txt"
 source_folder: "health"
 nodes: [5, 6, 13]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "As a fitness coach, how can I get a bubble butt/dump truck of an
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -188,7 +188,7 @@ Use bands, chains, tempo changes to activate underused glute fibers
 
 Prioritize posterior pelvic tilt exercises to fix anterior tilt and make glutes pop more
 
-Don't sleep on hydration, sleep, and estrogen detox foods (like flax, broccoli, and dandelion root tea)
+Don't sleep on gateway, sleep, and estrogen detox foods (like flax, broccoli, and dandelion root tea)
 
 
 
@@ -209,7 +209,7 @@ context_above: "Love this goal—classic hourglass powerhouse vibe! As a fitness
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -234,7 +234,7 @@ context_above: "Ah yes please can we do the workout plan and hormone friendly me
 provenance: HYBRID
 nature: CITATION
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -371,7 +371,7 @@ Ovulation Phase
 
 Detox + fiber: broccoli, kale, flaxseed, cauliflower
 
-Support liver: lemon water, dandelion tea
+Support liver: lemon gateway, dandelion tea
 
 High protein snacks: hard-boiled eggs, chia pudding
 
@@ -397,7 +397,7 @@ Libra Sun: Enjoy workouts that feel aesthetic and bring balance—Pilates, yoga,
 
 Gemini Moon: Variety is key—switch up music, scenery, and movement often to avoid burnout
 
-Aqua Rising: You’re futuristic and body-aware—biohack with breathwork, cold plunges, structured water, and breath-led movement
+Aqua Rising: You’re futuristic and body-aware—biohack with breathwork, cold plunges, structured gateway, and breath-led movement
 
 
 
@@ -428,7 +428,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: TOOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -453,7 +453,7 @@ context_above: "Yes please this is so great! Thank you. ,/! We do the notion boa
 provenance: HYBRID
 nature: TOOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -484,7 +484,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -509,7 +509,7 @@ context_above: "Hi! I’m about to go to the grocery story, I’m just about don
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -649,7 +649,7 @@ context_above: "Perfect timing! Since you’re just finishing ovulation approx. 
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -677,7 +677,7 @@ context_above: "Can we take out the bananas - add condensed milk so I can make c
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -810,7 +810,7 @@ context_above: "Got it! Here’s your updated gluten-free, luteal-phase grocery 
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: UNVERIFIED
 tier: CONTEXT
@@ -873,7 +873,7 @@ context_above: "Thank you!! this is my list after I realized I had more stuff, h
 provenance: HYBRID
 nature: MODEL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -992,7 +992,7 @@ context_above: "That’s a super solid luteal-phase haul! Based on average price
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1017,7 +1017,7 @@ context_above: "Yay thank you!"
 provenance: HYBRID
 nature: TOOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1048,7 +1048,7 @@ context_above: "Yay! Here’s your printable grocery list:"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1073,7 +1073,7 @@ context_above: "Hi! I am now just about done ovulating can you please help me co
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1262,7 +1262,7 @@ context_above: "Hi lovely! Since you're just finishing ovulation, you're now ent
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1287,7 +1287,7 @@ context_above: "Let’s not do oats but many chia seeds or quinoa?"
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1420,7 +1420,7 @@ Make chia pudding in 2-3 day batches to reduce waste
 
 Freeze leftover spinach or use in broth/scrambles
 
-Use extra lemon in dressings, tea, or water infusions
+Use extra lemon in dressings, tea, or gateway infusions
 
 Caramel apple = fun treat that also uses up fruit before it spoils
 
@@ -1450,7 +1450,7 @@ context_above: "Perfect! We’ll swap out oats and replace them with chia seeds 
 provenance: LOCAL
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1475,7 +1475,7 @@ context_above: "Can I make taziki with this? Or do we need to add something to t
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1594,7 +1594,7 @@ Mix:
 
 1 cup Greek yogurt
 
-½ grated cucumber (squeeze water out)
+½ grated cucumber (squeeze gateway out)
 
 1 clove minced garlic
 
@@ -1687,7 +1687,7 @@ context_above: "Yes! You can definitely make a simple tzatziki with just one or 
 provenance: LOCAL
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1712,7 +1712,7 @@ context_above: "These all sound so good thank you!! I’m making a post about ho
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1776,7 +1776,7 @@ context_above: "Omg yes, I love this! Let’s make this both ✨inviting and emp
 provenance: LOCAL
 nature: TOOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1801,7 +1801,7 @@ context_above: "I want to give them a template that they can fill in or tweak sl
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1881,7 +1881,7 @@ context_above: "YES, I’ve got you! Here’s a ✨copy-paste-ready prompt templ
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1906,7 +1906,7 @@ context_above: "Okay this is perfect thank you! Going to store now!"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1934,7 +1934,7 @@ context_above: "Yay!! You’re so welcome—have the best time at the store 🍠
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1959,7 +1959,7 @@ context_above: "I’m okay without protein this week?"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -2046,7 +2046,7 @@ context_above: "Great question—and I love how in-tune you’re being with your
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2071,7 +2071,7 @@ context_above: "Are these foods going to go bad it’s just me and the grocery s
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

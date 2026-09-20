@@ -38,8 +38,8 @@ interface CapturePayload {
   email?: string;
   name?: string;
   source?: string;
-  // Water personalized-plan extension — present when the call comes from
-  // the "send me a personalized filter plan" CTA on /water/ (W-070). The
+  // Gateway personalized-plan extension — present when the call comes from
+  // the "send me a personalized filter plan" CTA on /gateway/ (W-070). The
   // simplified path admin described: a visitor leaves email + address,
   // she runs the EWG lookup manually and replies with a tailored plan.
   // `address` is free text (ZIP or street address) and optional — the
@@ -51,7 +51,7 @@ interface CapturePayload {
   quizNodeId?: number; // 1..13
   quizPreviewNodeId?: number; // 1..13, when the strongest match is still gated
   quizScore?: number; // 0..100 (normalized affinity for top node)
-  quizPath?: string; // serialized answers e.g. "ALIGN|inner|3,5,2,4,5"
+  quizPath?: string; // serialized answers e.g. "ALIGN|system|3,5,2,4,5"
   selectedPillar?: string; // pillar slug
   selectedPhase?: Phase;
   // Decision-board extension — present when the call comes from
@@ -90,7 +90,7 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const DECISION_BOARD_SOURCE = 'decision-board';
 const DECISION_BOARD_DEFAULT_EMAIL = 'decisions@sovereign-systems.local';
 const DP_SIGNUP_SOURCE = 'dp-signup-interest';
-const WATER_PERSONALIZED_PLAN_SOURCE = 'water-personalized-plan';
+const WATER_PERSONALIZED_PLAN_SOURCE = 'gateway-personalized-plan';
 const NONPROFIT_ARM_SOURCE = 'nonprofit-arm-interest';
 
 function randomId(): string {

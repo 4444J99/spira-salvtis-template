@@ -38,19 +38,19 @@ The `prebuild` step is notable — it extracts citation data into a JSON file co
 | Route | File | Status | Notes |
 |-------|------|--------|-------|
 | `/` | `src/pages/index.astro` | Live | Hub — spiral + 4-pillar grid |
-| `/pillars/physical` | `src/pages/pillars/[slug].astro` | Live | Dynamic route (Zod-validated) |
-| `/pillars/inner` | `src/pages/pillars/[slug].astro` | Live | |
-| `/pillars/identity` | `src/pages/pillars/[slug].astro` | Live | |
-| `/water/` | `src/pages/water/index.astro` | Live | Physical Sovereignty / water funnel home |
-| `/water/explore` | `src/pages/water/explore.astro` | Live | Branch explorer (6 branches) |
-| `/water/quiz` | `src/pages/water/quiz.astro` | Live (stub) | GHL quiz embed — URL TBD |
-| `/water/gut-hormones` | `src/pages/water/[slug].astro` | Live | Dynamic branch pages (6 total) |
-| `/water/fertility` | ↑ | Live | |
-| `/water/athletic` | ↑ | Live | |
-| `/water/autoimmune` | ↑ | Live | |
-| `/water/cancer-support` | ↑ | Live | |
-| `/water/sustainability` | ↑ | Live | |
-| `/business/` | `src/pages/business/index.astro` | Live | Financial Sovereignty / EauCo Hub |
+| `/pillars/foundation` | `src/pages/pillars/[slug].astro` | Live | Dynamic route (Zod-validated) |
+| `/pillars/system` | `src/pages/pillars/[slug].astro` | Live | |
+| `/pillars/structure` | `src/pages/pillars/[slug].astro` | Live | |
+| `/gateway/` | `src/pages/gateway/index.astro` | Live | Foundation Sovereignty / gateway funnel home |
+| `/gateway/explore` | `src/pages/gateway/explore.astro` | Live | Branch explorer (6 branches) |
+| `/gateway/quiz` | `src/pages/gateway/quiz.astro` | Live (stub) | GHL quiz embed — URL TBD |
+| `/gateway/archetype-epsilon` | `src/pages/gateway/[slug].astro` | Live | Dynamic branch pages (6 total) |
+| `/gateway/archetype-delta` | ↑ | Live | |
+| `/gateway/archetype-alpha` | ↑ | Live | |
+| `/gateway/archetype-beta` | ↑ | Live | |
+| `/gateway/archetype-gamma` | ↑ | Live | |
+| `/gateway/archetype-zeta` | ↑ | Live | |
+| `/business/` | `src/pages/business/index.astro` | Live | Vision Sovereignty / EauCo Hub |
 | `/research` | `src/pages/research.astro` | Live | Research citations page |
 
 ### Pages That Need to Exist (blocked by GH#13)
@@ -58,7 +58,7 @@ The `prebuild` step is notable — it extracts citation data into a JSON file co
 | Route | Purpose | Gate |
 |-------|---------|------|
 | `/spiral/node-1` through `/spiral/node-13` | Node deep-dive pages | GH#13 |
-| `/water/hydration-node` | Hydration Node tool | GH#13 + GH#17 |
+| `/gateway/gateway-node` | Gateway Node tool | GH#13 + GH#17 |
 | `/about` | About / Philosophy | No gate (low priority) |
 | `/tools` | Free tools + self-assessments | No gate (content ready) |
 
@@ -73,12 +73,12 @@ Defined in `src/content.config.ts` with Zod validation:
 
 | File | Status | Content State |
 |------|--------|---------------|
-| `gut-hormones.md` | live | Studio-written; ~25 atoms ready for enrichment |
-| `fertility.md` | live | Studio-written; ~20 atoms ready |
-| `athletic.md` | live | Studio-written; ~15 atoms ready |
-| `autoimmune.md` | live | Studio-written; ~20 atoms ready |
-| `cancer-support.md` | live | Studio-written; ~10 atoms ready |
-| `sustainability.md` | live | Studio-written; ~10 atoms ready |
+| `archetype-epsilon.md` | live | Studio-written; ~25 atoms ready for enrichment |
+| `archetype-delta.md` | live | Studio-written; ~20 atoms ready |
+| `archetype-alpha.md` | live | Studio-written; ~15 atoms ready |
+| `archetype-beta.md` | live | Studio-written; ~20 atoms ready |
+| `archetype-gamma.md` | live | Studio-written; ~10 atoms ready |
+| `archetype-zeta.md` | live | Studio-written; ~10 atoms ready |
 
 ### Pillars Collection (3 files + hub config)
 **Schema:** `title` (string), `emoji` (string), `tagline` (string), `status` (live|placeholder), `order` (number)
@@ -114,11 +114,11 @@ Defined in `src/content.config.ts` with Zod validation:
 | Domain | Purpose | DNS | Connected |
 |--------|---------|-----|-----------|
 | `hub-example.com` | Hub — spiral + all pillars | GoDaddy | No (GH#3) |
-| `water-example.com` | Water funnel (`/water/` alias) | TBD | No |
+| `gateway-example.com` | Gateway funnel (`/gateway/` alias) | TBD | No |
 | `business-example.com` | Business funnel (`/business/` alias) | TBD | No |
 | `sovereign-systems-spiral.pages.dev` | Cloudflare Pages default | Cloudflare | Yes (active) |
 
-**Architecture decision pending (GH#17):** Whether `water-example.com` routes to `/water/` as an alias or becomes a standalone experience with the Hydration Node tool.
+**Architecture decision pending (GH#17):** Whether `gateway-example.com` routes to `/gateway/` as an alias or becomes a standalone experience with the Gateway Node tool.
 
 ---
 
@@ -127,7 +127,7 @@ Defined in `src/content.config.ts` with Zod validation:
 ### Serverless Functions
 - `functions/capture.ts` — Cloudflare Pages Function for email capture (1,133 bytes)
 - No other functions deployed
-- Extensible for Hydration Node API endpoints (ZIP lookup, filter recommendations)
+- Extensible for Gateway Node API endpoints (ZIP lookup, filter recommendations)
 
 ### Citation System
 - `scripts/parse-citations.ts` → `src/data/citations.json` (prebuild step)
@@ -140,7 +140,7 @@ Defined in `src/content.config.ts` with Zod validation:
 | GHL (Go High Level) | Partial | CRM/funnel — quiz form URL empty in config |
 | Stripe | Not connected | Future payments |
 | Cloudflare Pages | Active | Hosting and deploy |
-| EWG Database | Not connected | Future Hydration Node (ZIP → contaminant lookup) |
+| EWG Database | Not connected | Future Gateway Node (ZIP → contaminant lookup) |
 
 ---
 
@@ -205,7 +205,7 @@ The seed.yaml declares this project as the proof case for the eight-organ model.
 | R3 | Editorial liability (104 FLAGGED atoms) | MEDIUM | MEDIUM | Editorial review session before any flagged content goes live |
 | R4 | Governance drift (board vs local vs external handoff) | LOW | MEDIUM | Maintain single-source registry + regular sync |
 | R5 | Revenue agreement remains verbal | HIGH | HIGH | Prepare written agreement for admin's confirmation |
-| R6 | Hydration Node scope creep (static pages → full application) | MEDIUM | MEDIUM | Treat as Phase 2 after core spiral is live |
+| R6 | Gateway Node scope creep (static pages → full application) | MEDIUM | MEDIUM | Treat as Phase 2 after core spiral is live |
 | R7 | 63 N/A atoms unrouted | LOW | LOW | Route via GH#21, most are cross-cutting build instructions |
 | R8 | Domain connection delay | LOW | LOW | Site functional on pages.dev; custom domain is cosmetic |
 
@@ -239,11 +239,11 @@ The seed.yaml declares this project as the proof case for the eight-organ model.
 
 ### Defer
 
-10. **Hydration Node tool.** Full application with ZIP lookup, filter recommendations, health survey. Build after core spiral is proven.
+10. **Gateway Node tool.** Full application with ZIP lookup, filter recommendations, health survey. Build after core spiral is proven.
 
 11. **Subscription model.** Free/paid tiers require the node architecture and content to exist first.
 
-12. **Standalone products.** Inner Child Book, Astrology Hormone Moon Planner — packaging decisions after core site.
+12. **Standalone products.** System Child Book, Astrology Hormone Moon Planner — packaging decisions after core site.
 
 ---
 

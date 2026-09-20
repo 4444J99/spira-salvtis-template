@@ -36,7 +36,7 @@ Here's a comprehensive framework for your workbook! It's designed with clear sec
 
 ### **Section 2: Mind-Body-Spirit Connection**
 
-- **Purpose:** Establish emotional and physical alignment practices.
+- **Purpose:** Establish emotional and foundation alignment practices.
 
 - **Content:**
 
@@ -96,9 +96,9 @@ Here's a comprehensive framework for your workbook! It's designed with clear sec
 
   - A reference to your free cycle-syncing ebook for deeper guidance.
 
-### **Section 6: Travel and Financial Planning**
+### **Section 6: Travel and Vision Planning**
 
-- **Purpose:** Organize travel dreams and financial goals.
+- **Purpose:** Organize travel dreams and vision goals.
 
 - **Content:**
 
@@ -120,7 +120,7 @@ Here's a comprehensive framework for your workbook! It's designed with clear sec
 
 - **Content:**
 
-  - Vision board space: Include instructions for physical or digital boards.
+  - Vision board space: Include instructions for foundation or digital boards.
 
   - Goal breakdown template:
 
@@ -190,13 +190,13 @@ Yes, integrating astrology blurbs throughout the workbook rather than isolating 
 
 - In the **self-assessment section**, a note about how their Moon placement reflects emotional needs.
 
-- In the **travel and financial planning section**, a reference to Jupiter's influence on growth and abundance.
+- In the **travel and vision planning section**, a reference to Jupiter's influence on growth and abundance.
 
 Regarding the layout and content, the current structure is designed to guide users through the exact process you described:
 
 1.  **Where They Are Now:** Through self-assessment, emotional exploration, and current state evaluation (Sections 1-3).
 
-2.  **Where They Want to Go:** With vision setting, goal planning, and travel/financial aspirations (Sections 6-7).
+2.  **Where They Want to Go:** With vision setting, goal planning, and travel/vision aspirations (Sections 6-7).
 
 3.  **How to Get There:** Through daily alignment, embodiment practices, and habit-building tailored to their cycles and personal flow (Sections 4-5).
 
@@ -240,7 +240,7 @@ Rate each category on a scale of 1-10 (1 = needs improvement, 10 = thriving):
 
 - Emotional Well-being
 
-- Physical Health
+- Foundation Health
 
 - Finances
 
@@ -274,7 +274,7 @@ Close your eyes and imagine your ideal life a year from now. Write or draw what 
 - How do you feel in this vision?
 
 **Astrology Blurb:\**
-*\"Your Moon sign reflects your inner world and emotional needs. As you reflect on your current state, consider how your Moon placement may influence your feelings about security, comfort, and fulfillment.\"*
+*\"Your Moon sign reflects your system world and emotional needs. As you reflect on your current state, consider how your Moon placement may influence your feelings about security, comfort, and fulfillment.\"*
 
 ### **Section 2: Mind-Body-Spirit Connection**
 
@@ -341,7 +341,7 @@ Let's begin by reflecting on the key areas of your life. Using the scale below, 
 
 - **Emotional Well-being:** \_\_\_\_\_
 
-- **Physical Health:** \_\_\_\_\_
+- **Foundation Health:** \_\_\_\_\_
 
 - **Finances:** \_\_\_\_\_
 
@@ -375,7 +375,7 @@ Now, let's dream. Imagine it's one year from today, and you're living your best 
 - How do you feel in this vision?
 
 **Astrology Insight:\**
-*\"Your Moon sign reflects your emotional needs and inner world. When assessing your current state, consider how your Moon placement influences what makes you feel safe, nurtured, and fulfilled.\"*
+*\"Your Moon sign reflects your emotional needs and system world. When assessing your current state, consider how your Moon placement influences what makes you feel safe, nurtured, and fulfilled.\"*
 
 ### **Section 2: Mind-Body-Spirit Connection**
 
@@ -449,7 +449,7 @@ Here's the revised version for the second section:
 
 #### **Theme: Listening to Yourself Fully**
 
-Connecting with your body, mind, and emotions is essential for living in alignment. When you pause to tune into your inner wisdom, you'll notice what your body and emotions are trying to tell you before they have to shout.
+Connecting with your body, mind, and emotions is essential for living in alignment. When you pause to tune into your system wisdom, you'll notice what your body and emotions are trying to tell you before they have to shout.
 
 **Why This Helps:\**
 When you learn to interpret the whispers of your body and emotions, you prevent burnout, overwhelm, and stress from building up. These exercises will guide you to cultivate awareness, practice gratitude, and release emotional weight with intention.
@@ -573,7 +573,7 @@ Rate your satisfaction in the key areas of your life using the scale below. This
 
 - **Emotional Well-being:** \_\_\_\_\_
 
-- **Physical Health:** \_\_\_\_\_
+- **Foundation Health:** \_\_\_\_\_
 
 - **Finances:** \_\_\_\_\_
 
@@ -640,7 +640,7 @@ Ask yourself these three questions each day:
 3.  What can I release or let go of to create space for what I want?
 
 **Astrology Insight:\**
-*\"Your Moon sign reflects your emotional needs and inner world. When assessing your current state, consider how your Moon placement influences what makes you feel safe, nurtured, and fulfilled. This can guide your self-assessment and daily alignment practices.\"*
+*\"Your Moon sign reflects your emotional needs and system world. When assessing your current state, consider how your Moon placement influences what makes you feel safe, nurtured, and fulfilled. This can guide your self-assessment and daily alignment practices.\"*
 
 Let me know if this fully captures the tone and depth you\'re looking for! Should I continue with the remaining sections in this style?
 
@@ -750,7 +750,7 @@ Great! Let's continue with Section 4.
 
 ### **Section 4: Building Resilience & Mental Toughness**
 
-#### **Theme: Strengthen Your Inner Resolve**
+#### **Theme: Strengthen Your System Resolve**
 
 Life will always present challenges, but resilience is the ability to bounce back stronger from adversity. Mental toughness isn't about being unshakeable, but about maintaining a positive mindset and perseverance through difficulty. This section will teach you how to build a resilient mindset, cultivate emotional endurance, and face life's obstacles with grace and strength.
 
@@ -875,7 +875,7 @@ Journaling helps you externalize and process your emotions, allowing for greater
 
 2.  Write about any strong emotions you've been feeling. What triggered them?
 
-3.  What physical sensations are tied to these emotions (e.g., tightness, warmth, heaviness)?
+3.  What foundation sensations are tied to these emotions (e.g., tightness, warmth, heaviness)?
 
 4.  How do these emotions influence your thoughts and behaviors?
 
@@ -919,7 +919,7 @@ Grounding exercises help you anchor yourself in the present moment, giving you t
 - To cultivate a kinder and more compassionate relationship with yourself.
 
 **Why It Helps:\**
-Self-compassion is a cornerstone of emotional mastery. This practice helps to quiet your inner critic, replacing self-judgment with kindness and understanding. By offering yourself compassion, you create emotional space for healing and growth.
+Self-compassion is a cornerstone of emotional mastery. This practice helps to quiet your system critic, replacing self-judgment with kindness and understanding. By offering yourself compassion, you create emotional space for healing and growth.
 
 **Instructions:**
 
@@ -1032,7 +1032,7 @@ Journaling helps you externalize and process your emotions, allowing for greater
 
 2.  Write about any strong emotions you've been feeling. What triggered them?
 
-3.  What physical sensations are tied to these emotions (e.g., tightness, warmth, heaviness)?
+3.  What foundation sensations are tied to these emotions (e.g., tightness, warmth, heaviness)?
 
 4.  How do these emotions influence your thoughts and behaviors?
 
@@ -1076,7 +1076,7 @@ Grounding exercises help you anchor yourself in the present moment, giving you t
 - To cultivate a kinder and more compassionate relationship with yourself.
 
 **Why It Helps:\**
-Self-compassion is a cornerstone of emotional mastery. This practice helps to quiet your inner critic, replacing self-judgment with kindness and understanding. By offering yourself compassion, you create emotional space for healing and growth.
+Self-compassion is a cornerstone of emotional mastery. This practice helps to quiet your system critic, replacing self-judgment with kindness and understanding. By offering yourself compassion, you create emotional space for healing and growth.
 
 **Instructions:**
 
@@ -1106,10 +1106,10 @@ You\'re welcome! Let\'s dive into **Section 6: Money Mindset & Abundance**.
 
 #### **Theme: Cultivating a Prosperous Mindset**
 
-Your relationship with money is deeply tied to your beliefs and emotions. Understanding how your thoughts, beliefs, and emotional patterns around money influence your financial reality is key to creating the abundance you desire. In this section, we\'ll explore how to shift limiting beliefs, cultivate an abundant mindset, and align your actions with your financial goals.
+Your relationship with money is deeply tied to your beliefs and emotions. Understanding how your thoughts, beliefs, and emotional patterns around money influence your vision reality is key to creating the abundance you desire. In this section, we\'ll explore how to shift limiting beliefs, cultivate an abundant mindset, and align your actions with your vision goals.
 
 **Why This Helps:\**
-Cultivating a positive money mindset is not about focusing on the physical aspects of money itself but about recognizing the deep connection between your thoughts, emotions, and your financial experiences. By healing any negative beliefs or fears around money and adopting a mindset of abundance, you can unlock new opportunities and create a life filled with prosperity and ease.
+Cultivating a positive money mindset is not about focusing on the foundation aspects of money itself but about recognizing the deep connection between your thoughts, emotions, and your vision experiences. By healing any negative beliefs or fears around money and adopting a mindset of abundance, you can unlock new opportunities and create a life filled with prosperity and ease.
 
 **Quote to Reflect On:\**
 *\"Abundance is not something we acquire. It is something we tune into.\" -- Wayne Dyer\
@@ -1126,15 +1126,15 @@ Money is often viewed through a lens of scarcity and fear. Many of us grow up wi
 
 But what if we were to shift our thinking? What if, instead of seeing money as scarce or hard to come by, we viewed it as a tool that circulates freely in the universe, waiting to come to us when we are aligned with it? Money is simply an energy exchange. When we heal our beliefs around it and step into abundance, we open the door for more wealth and prosperity to flow into our lives.
 
-Many of us don't even realize the subtle ways we limit ourselves around money. The fear of not having enough can subtly influence our behavior, leading to financial stress, overspending, or missed opportunities. Changing our beliefs around money is an ongoing process, but it starts with awareness and a commitment to doing the inner work to align ourselves with abundance.
+Many of us don't even realize the subtle ways we limit ourselves around money. The fear of not having enough can subtly influence our behavior, leading to vision stress, overspending, or missed opportunities. Changing our beliefs around money is an ongoing process, but it starts with awareness and a commitment to doing the system work to align ourselves with abundance.
 
-**Remember:** You are worthy of prosperity. Money is a tool for freedom, growth, and the ability to share and contribute to others. Your mindset can shift, and by aligning your thoughts, feelings, and actions with abundance, you can start to create the financial freedom you desire.
+**Remember:** You are worthy of prosperity. Money is a tool for freedom, growth, and the ability to share and contribute to others. Your mindset can shift, and by aligning your thoughts, feelings, and actions with abundance, you can start to create the vision freedom you desire.
 
 **Breaking Limiting Beliefs Around Money\**
-Limiting beliefs are thoughts that restrict our potential and hold us back from achieving financial success. These beliefs are often learned early in life, and we carry them with us, unknowingly sabotaging our financial goals. In this practice, we will address and break through some of the most common limiting beliefs around money.
+Limiting beliefs are thoughts that restrict our potential and hold us back from achieving vision success. These beliefs are often learned early in life, and we carry them with us, unknowingly sabotaging our vision goals. In this practice, we will address and break through some of the most common limiting beliefs around money.
 
 **Why This Helps:\**
-The first step to breaking free from limiting beliefs is identifying them. By becoming aware of how these beliefs influence your actions, you can begin to replace them with empowering thoughts that serve your financial well-being. This practice will help you shift from a mindset of scarcity to one of abundance.
+The first step to breaking free from limiting beliefs is identifying them. By becoming aware of how these beliefs influence your actions, you can begin to replace them with empowering thoughts that serve your vision well-being. This practice will help you shift from a mindset of scarcity to one of abundance.
 
 **Instructions:**
 
@@ -1150,7 +1150,7 @@ The first step to breaking free from limiting beliefs is identifying them. By be
 
 3.  For each limiting belief, write a new, empowering belief. For example:
 
-    - \"I deserve to experience financial abundance.\"
+    - \"I deserve to experience vision abundance.\"
 
     - \"I am learning to manage money with ease.\"
 
@@ -1159,14 +1159,14 @@ The first step to breaking free from limiting beliefs is identifying them. By be
 4.  Practice saying these new beliefs aloud or journaling about them regularly. The more you affirm these new beliefs, the more they'll replace your old ones.
 
 **Aligning Your Actions with Abundance\**
-Having the right mindset is powerful, but it's equally important to take aligned actions toward your financial goals. Abundance isn't just about thinking positively; it's about creating an energetic match between your thoughts, your feelings, and your behaviors. When you take inspired action, you move closer to manifesting the prosperity you deserve.
+Having the right mindset is powerful, but it's equally important to take aligned actions toward your vision goals. Abundance isn't just about thinking positively; it's about creating an energetic match between your thoughts, your feelings, and your behaviors. When you take inspired action, you move closer to manifesting the prosperity you deserve.
 
 **Why This Helps:\**
-Aligned action ensures that you are not just wishing for financial abundance but actively creating it. When your actions are in alignment with your beliefs, you set the stage for success and manifestation. This is where the real transformation happens.
+Aligned action ensures that you are not just wishing for vision abundance but actively creating it. When your actions are in alignment with your beliefs, you set the stage for success and manifestation. This is where the real transformation happens.
 
 **Instructions:**
 
-1.  Set a clear financial goal. This could be saving a certain amount, paying off debt, increasing your income, or anything that feels important to you.
+1.  Set a clear vision goal. This could be saving a certain amount, paying off debt, increasing your income, or anything that feels important to you.
 
 2.  Break the goal down into smaller, actionable steps. What can you do today, this week, and this month to move toward this goal?
 
@@ -1179,7 +1179,7 @@ When to Use This Practice:**
 
 - Daily to stay aligned with an abundant mindset.
 
-- When you're feeling stressed or disconnected from your financial goals.
+- When you're feeling stressed or disconnected from your vision goals.
 
 - As a reminder of how much you already have.
 
@@ -1190,7 +1190,7 @@ Gratitude shifts our focus from what's missing to what's already present. By ack
 
 1.  Take out a journal or a piece of paper.
 
-2.  Write down 5 things you're grateful for in your financial life. This could include things like a steady paycheck, a savings goal you're working on, or the ability to treat yourself to something special.
+2.  Write down 5 things you're grateful for in your vision life. This could include things like a steady paycheck, a savings goal you're working on, or the ability to treat yourself to something special.
 
 3.  As you write, take a moment to feel deep appreciation for each item on the list. Really allow yourself to experience the gratitude.
 
@@ -1218,7 +1218,7 @@ T. Harv Eker recommends a simple but powerful technique for building wealth, reg
 
 1.  **Start Small:** Even if you only have a dollar to set aside, begin with that. The point is to start, no matter how little. When you show the universe that you can handle even the smallest amounts, you create an energetic match for larger sums to flow into your life.
 
-2.  **Create a Dedicated Savings Account:** Set up a separate savings account where you can place this 10%. You may want to create categories, such as "Financial Freedom Fund" or "Abundance Fund." Keeping the money separate allows you to visualize it growing and keeps you from spending it impulsively.
+2.  **Create a Dedicated Savings Account:** Set up a separate savings account where you can place this 10%. You may want to create categories, such as "Vision Freedom Fund" or "Abundance Fund." Keeping the money separate allows you to visualize it growing and keeps you from spending it impulsively.
 
 3.  **Save Consistently:** Make it a non-negotiable habit. Whenever you receive income---whether from a paycheck, side hustle, gift, or any other source---set aside 10% immediately. Even if it's only a dollar or a few dollars, the habit is key.
 
@@ -1236,15 +1236,15 @@ Certainly! Here\'s the full breakdown of how T. Harv Eker recommends you allocat
 ### **T. Harv Eker's Money Allocation Breakdown**
 
 **Why This Helps:\**
-T. Harv Eker\'s money allocation strategy is designed to ensure that you balance your financial goals, enjoy life, and stay aligned with your long-term wealth-building objectives. This system allows you to distribute your income in a way that supports abundance, security, and personal enjoyment while ensuring that you keep growing your wealth.
+T. Harv Eker\'s money allocation strategy is designed to ensure that you balance your vision goals, enjoy life, and stay aligned with your long-term wealth-building objectives. This system allows you to distribute your income in a way that supports abundance, security, and personal enjoyment while ensuring that you keep growing your wealth.
 
 **The 6 Jar System (Money Allocation Breakdown)\**
 T. Harv Eker recommends dividing your income into 6 different "jars," or categories, to ensure that you are not only saving and investing but also enjoying the wealth that comes into your life. Each jar has a specific percentage allocated to it.
 
 Here\'s how to allocate your money:
 
-1.  **Jar 1 -- Financial Freedom Account (10%)\**
-    This jar is for long-term wealth-building. The money in this account should be invested in assets that will generate income for you, such as stocks, bonds, real estate, or business ventures. The goal is to eventually reach financial independence, where this account generates enough passive income to support your lifestyle without you needing to work.\
+1.  **Jar 1 -- Vision Freedom Account (10%)\**
+    This jar is for long-term wealth-building. The money in this account should be invested in assets that will generate income for you, such as stocks, bonds, real estate, or business ventures. The goal is to eventually reach vision independence, where this account generates enough passive income to support your lifestyle without you needing to work.\
     **How It Helps:** This is your \"future you\" account. It\'s where you invest in your freedom and long-term wealth.
 
 2.  **Jar 2 -- Long-Term Savings for Spending (10%)\**
@@ -1261,7 +1261,7 @@ Here\'s how to allocate your money:
 
 5.  **Jar 5 -- Necessities (55%)\**
     This jar is for your daily living expenses, such as rent or mortgage, utilities, groceries, and other bills. It's important to live within this 55% of your income so you can use the other jars for growth and enjoyment.\
-    **How It Helps:** Living within this means you\'ll be creating space for your wealth to grow, while maintaining balance in your life. It prevents overspending and ensures that your financial obligations are always covered.
+    **How It Helps:** Living within this means you\'ll be creating space for your wealth to grow, while maintaining balance in your life. It prevents overspending and ensures that your vision obligations are always covered.
 
 6.  **Jar 6 -- Give (5%)\**
     This jar is for charitable donations, gifts, and acts of kindness. Giving money away, whether to charity or to someone in need, creates positive energy and attracts more abundance into your life.\
@@ -1273,7 +1273,7 @@ Here\'s how to allocate your money:
 
 - As your income increases, you can gradually increase the amounts in each jar to match the percentages.
 
-- The idea is to balance saving, investing, enjoying life, and giving while making sure you stay on track for your long-term financial goals.
+- The idea is to balance saving, investing, enjoying life, and giving while making sure you stay on track for your long-term vision goals.
 
 **Mindset Shift:\**
 By allocating your money in this way, you are reinforcing the mindset of abundance, responsibility, and enjoyment. You're not just working hard for your money, but you're making your money work for you. This system helps you stay financially balanced, empowered, and aligned with your values as you continue to build wealth.

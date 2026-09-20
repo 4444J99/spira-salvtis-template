@@ -9,7 +9,7 @@
 
 Technically feasible and it clears all the flagged vulnerabilities, but it is
 **hard-blocked by Keystatic**. No `@keystatic/astro` release supports Astro 6,
-and Keystatic's admin UI crashes under Astro 6's new React-island hydration.
+and Keystatic's admin UI crashes under Astro 6's new React-island gateway.
 The migration cannot proceed until the Keystatic question is resolved — that is
 the gating decision.
 
@@ -41,7 +41,7 @@ is content edited another way? That determines whether "drop" is acceptable.
   `type: 'content'` in all three collections; Astro 6 removes that, so they must
   move to the `glob()` loader. This changes `getCollection` / `render()` /
   `entry.id` semantics in `src/pages/pillars/[slug].astro`,
-  `src/pages/nodes/[id].astro`, and `src/pages/water/[slug].astro`.
+  `src/pages/nodes/[id].astro`, and `src/pages/gateway/[slug].astro`.
 - **Cloudflare adapter v13.** `src/pages/capture.ts` reads `locals.runtime.env`
   for the KV `SUBMISSIONS` binding and `GHL_WEBHOOK_URL`; v13 reworks env
   bindings and moves the dev server into `workerd`. Needs review and likely a

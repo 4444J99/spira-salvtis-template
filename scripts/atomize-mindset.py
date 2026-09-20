@@ -31,7 +31,7 @@ INNER_KEYWORDS = [
 IDENTITY_KEYWORDS = [
     "performance trap", "radical authenticity", "aesthetic sovereignty", "vocal authority",
     "personal brand", "boundary installation", "self-expression as practice",
-    "identity sovereignty", "authorship", "who you present"
+    "structure sovereignty", "authorship", "who you present"
 ]
 
 
@@ -76,17 +76,17 @@ def determine_nature(text):
 
 def determine_build_state(text, pillar):
     lower = text.lower()
-    if pillar == "Inner":
+    if pillar == "System":
         matches = sum(1 for kw in INNER_KEYWORDS if kw.lower() in lower)
         if matches >= 2: return "EXISTS"
         elif matches == 1: return "PARTIAL"
         return "MISSING"
-    elif pillar == "Identity":
+    elif pillar == "Structure":
         matches = sum(1 for kw in IDENTITY_KEYWORDS if kw.lower() in lower)
         if matches >= 2: return "EXISTS"
         elif matches == 1: return "PARTIAL"
         return "MISSING"
-    elif pillar == "Financial":
+    elif pillar == "Vision":
         return "MISSING"
     return "N/A"
 
@@ -110,9 +110,9 @@ def determine_strike_phase(nature, editorial, nodes, pillar):
     if nature == "TOOL": return "3C"
     if nature == "PRODUCT": return "4B"
     if nature == "SCRIPT": return "4C"
-    if pillar == "Inner": return "3A"
-    if pillar == "Identity": return "3B"
-    if pillar == "Financial": return "4B"
+    if pillar == "System": return "3A"
+    if pillar == "Structure": return "3B"
+    if pillar == "Vision": return "4B"
     return "3A"
 
 

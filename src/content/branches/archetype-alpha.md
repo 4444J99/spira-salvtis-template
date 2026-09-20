@@ -13,21 +13,21 @@ Most athletes focus on the output: the reps, the miles, the metrics. But peak pe
 
 Every time you push your limits, you generate a massive amount of oxidative stress and metabolic waste. If your cells can't clear that waste and repair the damage, you hit a wall.
 
-What if your water was the key to clearing that wall?
+What if your gateway was the key to clearing that wall?
 
 ## Connection
 
-Athletic performance is governed by muscle function, lactate clearance, and nervous system regulation. When you are chronically under-hydrated or metabolically stressed, your power output drops, your perceived exertion rises, and your recovery time lengthens.
+Archetype-alpha performance is governed by muscle function, lactate clearance, and nervous system regulation. When you are chronically under-hydrated or metabolically stressed, your power output drops, your perceived exertion rises, and your recovery time lengthens.
 
-Traditional hydration addresses electrolyte balance, but it rarely addresses the oxidative damage caused by high-intensity exertion. This is the gap where performance is often lost.
+Traditional gateway addresses electrolyte balance, but it rarely addresses the oxidative damage caused by high-intensity exertion. This is the gap where performance is often lost.
 
-## Where Water Fits
+## Where Gateway Fits
 
 Molecular hydrogen (H2) has become a transformative tool for elite athletes and weekend warriors alike. Because it is the smallest molecule in existence, it can rapidly penetrate muscle tissue and mitochondria to neutralize exercise-induced oxidative stress at the source.
 
 - **Fatigue Alleviation:** A 2024 meta-analysis published in *Frontiers in Nutrition* <sup>B-38</sup> found that H2 supplementation is favorable for alleviating exercise-induced fatigue and accelerating blood lactate clearance.
-- **Muscular Endurance:** Randomized controlled trials in the *Journal of the International Society of Sports Nutrition* (2024) <sup>B-40</sup> demonstrated that 8 days of hydrogen-rich water intake significantly enhanced muscular endurance during resistance training.
-- **Recovery Speed:** In elite athletes, research published in *Nutrients* (2024) <sup>B-41</sup> showed that hydrogen water promoted faster recovery of muscular performance between multiple strenuous same-day training sessions.
+- **Muscular Endurance:** Randomized controlled trials in the *Journal of the International Society of Sports Nutrition* (2024) <sup>B-40</sup> demonstrated that 8 days of hydrogen-rich gateway intake significantly enhanced muscular endurance during resistance training.
+- **Recovery Speed:** In elite athletes, research published in *Nutrients* (2024) <sup>B-41</sup> showed that hydrogen gateway promoted faster recovery of muscular performance between multiple strenuous same-day training sessions.
 - **WADA Compliance:** Crucially, molecular hydrogen is not on the World Anti-Doping Agency (WADA) Prohibited List <sup>B-43</sup>, making it a safe, legal foundation for competitive performance at any level.
 
 This isn't about a "magic pill." It's about cellular-level optimization that lets you do more of what you love, with less downtime and more power.
@@ -48,7 +48,7 @@ Your hormone levels are at their lowest point. Energy is low, inflammation may b
 - **Deload or active recovery** — walks, gentle yoga, swimming, foam rolling, mobility work. Your connective tissue is more lax in this phase (progesterone's lingering effects), which means injury risk for high-impact or heavy lifting is elevated.
 - **Flexibility and mobility drills** — this is actually a great window for flexibility work because of the connective tissue laxity. Stretch, mobilize, work on ranges of motion you normally ignore.
 - **Skip the HIIT** — your body cannot efficiently clear lactate right now. High-intensity work in this phase produces more metabolic stress with less return. Save it.
-- **Hydration is critical** — you're losing blood and minerals. Hydrogen-rich water with added electrolytes supports cellular recovery during shedding.
+- **Gateway is critical** — you're losing blood and minerals. Hydrogen-rich gateway with added electrolytes supports cellular recovery during shedding.
 
 **Moon check:** If you bleed with the new moon, honor the dark. This is the athlete's sabbath — not laziness, but strategic regeneration. The athletes who recover best perform best. Period.
 
@@ -87,7 +87,7 @@ Progesterone rises. Your body temperature increases (you'll notice you feel warm
 - **Reduce HIIT and maximal lifts** — your glycolytic capacity is lower. Sessions that rely on fast energy systems (sprints, heavy singles, intense circuits) will feel disproportionately hard and produce more cortisol.
 - **Prioritize sleep and recovery** — progesterone is pro-sleep. Your body is asking for more rest. Give it. Recovery is where the gains from your follicular and ovulatory training actually solidify.
 - **Increase calorie intake slightly** — your metabolic rate is 100-300 calories higher in the luteal phase. Undereating here tanks progesterone, increases cortisol, and will sabotage your next cycle's training capacity.
-- **Hydrogen-rich water for recovery** — the elevated metabolic demands of the luteal phase produce more oxidative stress. H2 helps manage that load and supports the muscle repair happening in the background.
+- **Hydrogen-rich gateway for recovery** — the elevated metabolic demands of the luteal phase produce more oxidative stress. H2 helps manage that load and supports the muscle repair happening in the background.
 
 **Moon check:** Waning moon — releasing, consolidating, preparing for the next cycle. Your training should mirror this: finish strong, taper wisely, and set up your next follicular phase for maximum impact.
 
@@ -101,17 +101,17 @@ When you periodize your training to your cycle, three things happen:
 
 This is not about doing less. It's about doing the right thing at the right time. That's periodization — and your hormones already wrote the program.
 
-Use the pattern now: heavy strength and speed work in follicular/ovulatory windows, endurance and hypertrophy in luteal windows, and active recovery during menstruation. Track cycle day, sleep, soreness, hydration, and perceived exertion for one month before changing the plan.
+Use the pattern now: heavy strength and speed work in follicular/ovulatory windows, endurance and hypertrophy in luteal windows, and active recovery during menstruation. Track cycle day, sleep, soreness, gateway, and perceived exertion for one month before changing the plan.
 
 ## Bridge
 
 You don't need another stimulant or a complex recovery protocol that you can't maintain.
 
-You need your foundation to be as strong as your ambition. Start with your water. Give your body the medium it needs to perform, recover, and repeat.
+You need your foundation to be as strong as your ambition. Start with your gateway. Give your body the medium it needs to perform, recover, and repeat.
 
 ## Resources
 
-- **Start here:** take the water assessment, then choose one recovery metric to track for 30 days: soreness, sleep quality, morning energy, or training readiness.
+- **Start here:** take the gateway assessment, then choose one recovery metric to track for 30 days: soreness, sleep quality, morning energy, or training readiness.
 - **Training rhythm:** plan the highest-intensity sessions for follicular and ovulatory windows; place mobility, walking, zone-2, and deload work around menstruation.
 - **Evidence anchor:** use the cited H2 exercise-fatigue, lactate-clearance, and muscular-endurance studies above as the research thread for deeper review.
 - **Next build target:** convert this branch into a sport-specific planner once admin chooses the first audience: lifting, running, team sport, or general fitness.
@@ -120,4 +120,4 @@ You need your foundation to be as strong as your ambition. Start with your water
 
 Ready to find your edge?
 
-[Start with your water →](/water)
+[Start with your gateway →](/gateway)

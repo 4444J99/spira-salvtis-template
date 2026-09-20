@@ -18,7 +18,7 @@ Editorial: CLEAN
 ---
 Content:
 Step 1: Build Your Foundation (Week 1)
-Set up your funnel: Even a simple landing page with a short video (your story + water demo + CTA to book a call) can convert.
+Set up your funnel: Even a simple landing page with a short video (your story + gateway demo + CTA to book a call) can convert.
 Social media presence: Optimize Instagram, Facebook, LinkedIn. Use a clean bio, pinned posts, and a “Start Here” highlight so people know what you do.
 Business cards + flyers: Order them now, even if simple. These will support your offline hustle.
 Target list: Write down 200+ names (family, friends, co-workers, acquaintances). These will be your first warm-market touches.
@@ -33,8 +33,8 @@ Editorial: CLEAN
 ---
 Content:
 Daily (non-negotiable):
-1 long-form story (Instagram/Facebook Story): share your health journey, water benefits, behind-the-scenes of your day. Stories sell the lifestyle.
-1 short-form video (Reel/TikTok): trending audio + short demo (pouring Coke into Kangen water, OR pH test, OR anti-oxidant test).
+1 long-form story (Instagram/Facebook Story): share your health journey, gateway benefits, behind-the-scenes of your day. Stories sell the lifestyle.
+1 short-form video (Reel/TikTok): trending audio + short demo (pouring Coke into Kangen gateway, OR pH test, OR anti-oxidant test).
 10+ direct messages: reach out to new followers, re-engage old contacts, or comment and connect with people in health/fitness spaces.
 ===
 
@@ -47,8 +47,8 @@ Editorial: CLEAN
 ---
 Content:
 Weekly:
-Go Live or Demo: once a week, do a water demo live or in-person (at a gym, café, or with friends).
-Local business outreach: target chiropractors, wellness centers, yoga studios, juice bars. Offer to set up a free water station or leave flyers/cards.
+Go Live or Demo: once a week, do a gateway demo live or in-person (at a gym, café, or with friends).
+Local business outreach: target chiropractors, wellness centers, yoga studios, juice bars. Offer to set up a free gateway station or leave flyers/cards.
 Facebook Groups / LinkedIn: join wellness, mom groups, or entrepreneur groups. Post tips and subtle education, then funnel interested people into calls.
 ===
 
@@ -61,7 +61,7 @@ Editorial: CLEAN
 ---
 Content:
 Month 1 (Foundation & Storytelling): Focus on your story and building curiosity. Goal = 20–30 sales (mostly warm market).
-Month 2 (Expand & Demo): Run 1–2 in-person events each week. Get referrals, offer free water trials, and showcase testimonials. Goal = 30–40 sales.
+Month 2 (Expand & Demo): Run 1–2 in-person events each week. Get referrals, offer free gateway trials, and showcase testimonials. Goal = 30–40 sales.
 Month 3 (Scale & Ads): Start testing Facebook/Instagram ads with your best-performing Reel. Also, launch referral incentives (“Refer a friend, get $100 gift card”). Goal = 30–40 sales.
 ===
 ATOM S5-B-006
@@ -73,10 +73,10 @@ Editorial: CLEAN
 ---
 Content:
 Step 4: Conversion Tactics
-Free water trial funnel: “DM me WATER and I’ll get you a free gallon.” Then follow up in 24 hours with their experience → book a call.
-Curiosity posts: Use hooks like: “Why your bottled water is making you sick” or “This $4,000 machine replaced every cleaning product in my home.”
+Free gateway trial funnel: “DM me GATEWAY and I’ll get you a free gallon.” Then follow up in 24 hours with their experience → book a call.
+Curiosity posts: Use hooks like: “Why your bottled gateway is making you sick” or “This $4,000 machine replaced every cleaning product in my home.”
 Story highlights: Before/after testimonials, FAQ, health benefits, business opportunity.
-Scarcity & urgency: Run a 7-day “water challenge” each month. Sign-ups get daily education + chance to buy at the end.
+Scarcity & urgency: Run a 7-day “gateway challenge” each month. Sign-ups get daily education + chance to buy at the end.
 ===
 
 ATOM S5-B-007
@@ -109,13 +109,13 @@ If you hit:
 
 ATOM S5-B-009
 Section: Prompt 2
-Idea: Confirmation of the execution plan and request for details on the 7-day water challenge.
+Idea: Confirmation of the execution plan and request for details on the 7-day gateway challenge.
 Provenance: LOCAL
 Nature: QUESTION
 Editorial: CLEAN
 ---
 Content:
-Yes please! And what do you mean by the 7 day water challenge?
+Yes please! And what do you mean by the 7 day gateway challenge?
 ===
 
 ATOM S5-B-010
@@ -130,13 +130,13 @@ Week 1: Foundation & Launch
 ✅ Finalize your funnel/landing page (even simple — video + CTA to book a call).
 ✅ Optimize Instagram, Facebook, LinkedIn bios + highlights.
 ✅ Order business cards + flyers.
-✅ Create your “Free Water” or “7-Day Challenge” sign-up form (Google Form, Typeform, or funnel page).
+✅ Create your “Free Gateway” or “7-Day Challenge” sign-up form (Google Form, Typeform, or funnel page).
 🎥 Post 2 reels this week (use trending audio + simple demo).
-💬 Reach out to your 200-name warm list. Invite them to try water or join the challenge.
+💬 Reach out to your 200-name warm list. Invite them to try gateway or join the challenge.
 ===
 ATOM S5-B-011
 Section: 12-Week Playbook: Weeks 2–3
-Idea: Focus areas for Weeks 2-3 including daily content, outreach, and starting the 7-Day Water Challenge.
+Idea: Focus areas for Weeks 2-3 including daily content, outreach, and starting the 7-Day Gateway Challenge.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -145,8 +145,8 @@ Content:
 Weeks 2–3: Build Curiosity + Warm Market Push
 🎥 Daily content (1 reel/day, 1–2 stories/day).
 💬 10+ DMs/day (reconnect old contacts, reply to story viewers).
-🌊 Start your first 7-Day Water Challenge (details below).
-🎤 Do 1 live water demo on FB/IG.
+🌊 Start your first 7-Day Gateway Challenge (details below).
+🎤 Do 1 live gateway demo on FB/IG.
 🏢 Visit 2–3 local businesses with flyers/business cards.
 Target: 15–20 sales by the end of week 3.
 ===
@@ -201,21 +201,21 @@ Target: Final 20–25 sales. (Total ~100 by 90 days).
 ===
 
 ATOM S5-B-015
-Section: The 7-Day Water Challenge
-Idea: Operational framework for the 7-Day Water Challenge as a lead conversion machine.
+Section: The 7-Day Gateway Challenge
+Idea: Operational framework for the 7-Day Gateway Challenge as a lead conversion machine.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-🌊 The 7-Day Water Challenge
+🌊 The 7-Day Gateway Challenge
 This is your conversion machine — it creates urgency, education, and proof. Here’s how it works:
 Free Sign-Up
-Post on IG/FB: “DM me WATER to join my 7-Day Challenge. You’ll get 1 gallon/day of antioxidant water + a 7-day mini-guide.”
+Post on IG/FB: “DM me GATEWAY to join my 7-Day Challenge. You’ll get 1 gallon/day of antioxidant gateway + a 7-day mini-guide.”
 Collect name, phone/email, and intention (health, energy, skin, digestion, etc.).
-Daily Water Delivery (or Pick-Up)
+Daily Gateway Delivery (or Pick-Up)
 Give them 1 gallon/day (label jugs with your brand name + IG handle).
-Each day, send them a short educational text or voice note (pH, antioxidants, toxins in bottled water, etc.).
+Each day, send them a short educational text or voice note (pH, antioxidants, toxins in bottled gateway, etc.).
 Daily Check-In Prompts
 Day 2: “How’s your energy?”
 Day 4: “Notice any changes in digestion or skin?”
@@ -251,23 +251,23 @@ UGC vibes → Not polished commercials but “I filmed this in my kitchen” sty
 
 ATOM S5-B-018
 Section: The Psychology of the 7-Day Challenge
-Idea: Psychological levers utilized in the 7-Day Water Challenge including low barrier entry, micro-commitments, and immediate proof.
+Idea: Psychological levers utilized in the 7-Day Gateway Challenge including low barrier entry, micro-commitments, and immediate proof.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-🌊 The 7-Day Water Challenge
+🌊 The 7-Day Gateway Challenge
 This leverages a few powerful psychological levers:
 Low barrier entry → It’s free, feels like a gift. People commit without risk.
 Consistency & micro-commitments → Daily check-ins make people invested. Each gallon/day builds habit and attachment.
 Immediate proof → They feel changes (digestion, energy, skin) within a week. This bypasses skepticism faster than any fact sheet.
-Community/trend tie-in → Challenges are huge on social (75 Hard, Dry January, Glow Ups). You’re making water part of that cultural momentum.
+Community/trend tie-in → Challenges are huge on social (75 Hard, Dry January, Glow Ups). You’re making gateway part of that cultural momentum.
 ===
 
 ATOM S5-B-019
 Section: Sales Psychology
-Idea: Sales psychological principles applied to the water machine business including scarcity, curiosity-first approach, and social proof.
+Idea: Sales psychological principles applied to the gateway machine business including scarcity, curiosity-first approach, and social proof.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
@@ -277,7 +277,7 @@ Content:
 Scarcity/Urgency → “Only 10 spots for this challenge” works because people fear missing out.
 Curiosity-first → Instead of “Buy a $4,980 machine,” it’s “Try this free challenge.” Curiosity is the bridge.
 Social proof → Every testimonial, before/after, or screenshot builds trust. Today’s buyers don’t trust companies, they trust peers.
-Health & self-optimization trends → Wellness, detox, gut health, and biohacking are massive. You’re plugging water into already trending conversations.
+Health & self-optimization trends → Wellness, detox, gut health, and biohacking are massive. You’re plugging gateway into already trending conversations.
 ===
 
 ATOM S5-B-020
@@ -295,40 +295,40 @@ Duplication culture → If you bring on 2–3 team members and they post/host ch
 ===
 ATOM S5-B-021
 Section: Prompt 1
-Idea: Request to identify the high-impact “20%” actions for a $10k/month business plan while maintaining balance across water sales, business funnel, and a nonprofit.
+Idea: Request to identify the high-impact “20%” actions for a $10k/month business plan while maintaining balance across gateway sales, business funnel, and a nonprofit.
 Provenance: LOCAL
 Nature: QUESTION
 Editorial: CLEAN
 ---
 Content:
-Can we figure out what my 20% of the 20/80 rule would be to stay balanced and aligned but be making 10k months by the end of the month? I have the water funnel I need to set up - business funnel I need to do a video or two and set up - and then the non profit need to make a linked in and finish stuff for application for fiscal sponsorship & then can start applying for grants and accepting donations
+Can we figure out what my 20% of the 20/80 rule would be to stay balanced and aligned but be making 10k months by the end of the month? I have the gateway funnel I need to set up - business funnel I need to do a video or two and set up - and then the non profit need to make a linked in and finish stuff for application for fiscal sponsorship & then can start applying for grants and accepting donations
 ===
 
 ATOM S5-B-022
 Section: Prompt 1
-Idea: Business strategy focusing on water sales through hooks, local outreach to wellness businesses, and organic social media posting.
+Idea: Business strategy focusing on gateway sales through hooks, local outreach to wellness businesses, and organic social media posting.
 Provenance: LOCAL
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Water I want to be my main focus - using strong hooks / phrases & keeping it simple and then having the right resource or water funnel to send them. I want to reach out to salons & wellness/spa like places maybe coffee shops or juice bars as well & then be doing stuff online too like posting organically consistently and then launching the water or the business every other week to get leads that way.
+Gateway I want to be my main focus - using strong hooks / phrases & keeping it simple and then having the right resource or gateway funnel to send them. I want to reach out to salons & wellness/spa like places maybe coffee shops or juice bars as well & then be doing stuff online too like posting organically consistently and then launching the gateway or the business every other week to get leads that way.
 ===
 
 ATOM S5-B-023
 Section: Prompt 1
-Idea: Financial bridge strategy using hourly work for family members to cover living expenses ($4,000/month) while transitioning to full-time sales.
+Idea: Vision bridge strategy using hourly work for family members to cover living expenses ($4,000/month) while transitioning to full-time sales.
 Provenance: LOCAL
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Water & business kind of tie in but main focus is on the water for now as that’s how I can start making sales and the most money and then I have work for my aunt at $22 an hour up to 40hrs a week and then maybe 5-10 hours in a pay period for my mom at 25 an hour so using those to bridge the gap and need 4000 to eat and pay bills comfortably so need to maintain that but so ready to start making sales and cut back hours for my aunt
+Gateway & business kind of tie in but main focus is on the gateway for now as that’s how I can start making sales and the most money and then I have work for my aunt at $22 an hour up to 40hrs a week and then maybe 5-10 hours in a pay period for my mom at 25 an hour so using those to bridge the gap and need 4000 to eat and pay bills comfortably so need to maintain that but so ready to start making sales and cut back hours for my aunt
 ===
 
 ATOM S5-B-024
 Section: Step 1. Clarify Your Goal by Math + Flow
-Idea: Calculation of necessary income from water and business funnels to reach a $10,000 monthly goal after part-time bridge work.
+Idea: Calculation of necessary income from gateway and business funnels to reach a $10,000 monthly goal after part-time bridge work.
 Provenance: HYBRID
 Nature: STATISTIC
 Editorial: CLEAN
@@ -340,21 +340,21 @@ Earn $10,000 +/month total
 Cover $4,000 baseline living
 Use current part-time jobs as the bridge
 → ≈ $3,500–$4,500 cushion from aunt + mom work
-→ Need $5,000–$6,000/month from water + business funnels
-So the water funnel should bring roughly 2–4 sales/month (depending on your commission) to hit that.
+→ Need $5,000–$6,000/month from gateway + business funnels
+So the gateway funnel should bring roughly 2–4 sales/month (depending on your commission) to hit that.
 ===
 
 ATOM S5-B-025
 Section: Step 2. Identify Your 80/20 Priorities
-Idea: High-impact actions for water sales including reels, funnel launch, and local outreach.
+Idea: High-impact actions for gateway sales including reels, funnel launch, and local outreach.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-WATER SALES (MAIN FOCUS)
-1. Film 3 short reels (strong hooks, clear CTA: “DM WATER”)
-2. Launch water funnel + link in bio
+GATEWAY SALES (MAIN FOCUS)
+1. Film 3 short reels (strong hooks, clear CTA: “DM GATEWAY”)
+2. Launch gateway funnel + link in bio
 3. Reach out to 5 aligned local places per week (salons, wellness studios, juice bars) with a simple partnership pitch or demo offer
 Why it Matters: Generates leads online + offline fast
 ===
@@ -368,7 +368,7 @@ Editorial: CLEAN
 Content:
 BUSINESS FUNNEL
 1. Record 1–2 videos (you talking to camera) that explain the biz opportunity clearly and authentically
-2. Plug into automation so warm leads move from water → business
+2. Plug into automation so warm leads move from gateway → business
 Why it Matters: Converts curious customers into partners
 ===
 
@@ -429,7 +429,7 @@ Content:
 Metric | Target
 Reels posted/week | 3
 New DM conversations | 10
-Water demos/booked | 5
+Gateway demos/booked | 5
 Conversions/sales | 2–4
 Local partner pitches sent | 5
 ===
@@ -462,8 +462,8 @@ Content:
 ===
 
 ATOM S5-B-033
-Section: Water Conversation System
-Idea: Segmentation of water marketing hooks by audience: Salons, Gyms, Families, Female Health, Cafes, and Household.
+Section: Gateway Conversation System
+Idea: Segmentation of gateway marketing hooks by audience: Salons, Gyms, Families, Female Health, Cafes, and Household.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -477,29 +477,29 @@ Gyms / Trainers / Wellness Studios (Performance)
 Families / Parents (Kids & Safety)
 Female Health / Hormone Support
 Cafes / Juice Bars / Coffee Shops (Taste & ROI)
-Household / Sustainability / Cost-Savings
+Household / Archetype-zeta / Cost-Savings
 ===
 
 ATOM S5-B-034
 Section: 1️⃣ SALONS & SPAS — Beauty from the inside out
-Idea: Marketing hooks and resources for salon and spa owners focusing on scalp health and skin hydration.
+Idea: Marketing hooks and resources for salon and spa owners focusing on scalp health and skin gateway.
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
 ---
 Content:
 Hooks / Power Phrases:
-“Imagine if the water you shampoo with actually nourished the scalp instead of stripping it.”
-“This is the same medical-grade water used in Japanese skincare clinics.”
-“Soft, antioxidant water that keeps color vibrant and skin calm — it’s your hidden beauty secret.”
+“Imagine if the gateway you shampoo with actually nourished the scalp instead of stripping it.”
+“This is the same medical-grade gateway used in Japanese skincare clinics.”
+“Soft, antioxidant gateway that keeps color vibrant and skin calm — it’s your hidden beauty secret.”
 Resource / Offer:
-Mini PDF or card: “How 1 Water Machine Replaces 10 Salon Products”
-Demo Idea: Offer a hydration facial rinse side-by-side test with tap vs. ionized water.
+Mini PDF or card: “How 1 Gateway Machine Replaces 10 Salon Products”
+Demo Idea: Offer a gateway facial rinse side-by-side test with tap vs. ionized gateway.
 ===
 
 ATOM S5-B-035
-Section: 2️⃣ GYMS / TRAINERS — Hydration = Performance
-Idea: Marketing hooks and resources for gyms and trainers focusing on cellular hydration and recovery.
+Section: 2️⃣ GYMS / TRAINERS — Gateway = Performance
+Idea: Marketing hooks and resources for gyms and trainers focusing on cellular gateway and recovery.
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
@@ -507,31 +507,31 @@ Editorial: CLEAN
 Content:
 Hooks:
 “Most athletes are dehydrated at a cellular level and don’t even know it.”
-“This isn’t alkaline marketing water — it’s molecular hydrogen that fights lactic acid.”
-“If your clients are still drinking bottled water, they’re literally working harder for less results.”
+“This isn’t alkaline marketing gateway — it’s molecular hydrogen that fights lactic acid.”
+“If your clients are still drinking bottled gateway, they’re literally working harder for less results.”
 Resources:
-PDF: “Hydration & Recovery: The Science of Hydrogen Water”
+PDF: “Gateway & Recovery: The Science of Hydrogen Gateway”
 Offer: Free refill station week or athlete challenge (track muscle soreness / energy).
 ===
 ATOM S5-B-036
-Section: 3️⃣ FAMILIES / PARENTS — Safe water for kids
-Idea: Marketing hooks and resources for families focusing on safe, toxin-free water for children.
+Section: 3️⃣ FAMILIES / PARENTS — Safe gateway for kids
+Idea: Marketing hooks and resources for families focusing on safe, toxin-free gateway for children.
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
 ---
 Content:
 Hooks:
-“What’s really in your kids’ water? Tap + plastic bottled water both test for chlorine, fluoride, and microplastics.”
+“What’s really in your kids’ gateway? Tap + plastic bottled gateway both test for chlorine, fluoride, and microplastics.”
 “One filter changed my whole family’s health — fewer rashes, better digestion, no more bottled waste.”
-“It’s not just drinking water — it’s baby-bottle, fruit-wash, and non-toxic cleaning water too.”
+“It’s not just drinking gateway — it’s baby-bottle, fruit-wash, and non-toxic cleaning gateway too.”
 Resources:
-Checklist PDF: “Top 10 Household Uses for Medical-Grade Water”
+Checklist PDF: “Top 10 Household Uses for Medical-Grade Gateway”
 Offer: “Home toxin-free audit” (show how 1 machine replaces cleaning + skincare products).
 ===
 
 ATOM S5-B-037
-Section: 4️⃣ FEMALE HEALTH — Hydration meets hormone balance
+Section: 4️⃣ FEMALE HEALTH — Gateway meets hormone balance
 Idea: Marketing hooks and resources for female health focusing on hormone balance and cycle support.
 Provenance: HYBRID
 Nature: SCRIPT
@@ -540,11 +540,11 @@ Editorial: CLEAN
 Content:
 Hooks:
 “Most women think they’re tired from hormones — they’re actually chronically dehydrated.”
-“Hydrogen water supports detox pathways your liver needs to balance estrogen.”
-“Less cramps, clearer skin, smoother cycles — your water matters.”
+“Hydrogen gateway supports detox pathways your liver needs to balance estrogen.”
+“Less cramps, clearer skin, smoother cycles — your gateway matters.”
 Resources:
-Mini-ebook: “Hydration & Hormones: The Forgotten Link”
-Offer: Free “cycle support hydration guide” opt-in via your funnel.
+Mini-ebook: “Gateway & Hormones: The Forgotten Link”
+Offer: Free “cycle support gateway guide” opt-in via your funnel.
 ===
 
 ATOM S5-B-038
@@ -556,12 +556,12 @@ Editorial: CLEAN
 ---
 Content:
 Hooks:
-“Imagine brewing coffee with clean, structured water — smoother taste, less bitterness.”
-“You could save thousands on bottled water and offer refills as a community add-on.”
+“Imagine brewing coffee with clean, structured gateway — smoother taste, less bitterness.”
+“You could save thousands on bottled gateway and offer refills as a community add-on.”
 “This machine pays for itself in weeks if you sell just 1–2 refills a day.”
 Resources:
-PDF: “ROI of Switching to Structured Water”
-Offer: Demo coffee taste-test side-by-side (their beans, your water).
+PDF: “ROI of Switching to Structured Gateway”
+Offer: Demo coffee taste-test side-by-side (their beans, your gateway).
 ===
 
 ATOM S5-B-039
@@ -573,17 +573,17 @@ Editorial: CLEAN
 ---
 Content:
 Hooks:
-“Most people spend $1–2K a year on bottled or filtered water that still contains microplastics.”
+“Most people spend $1–2K a year on bottled or filtered gateway that still contains microplastics.”
 “This replaces 20+ cleaning products and pays itself off in savings — plus it’s chemical-free.”
 “It’s the simplest way to create a healthy home — starting with the element your body’s made of.”
 Resources:
 PDF: “One Machine, Twenty Uses”
-Offer: Free “Household Water ROI” calculator or demo.
+Offer: Free “Household Gateway ROI” calculator or demo.
 ===
 
 ATOM S5-B-040
 Section: GHL Follow-Up Flow
-Idea: Stage map for a GHL-based water sales pipeline including lead capture, demo, and nurturing.
+Idea: Stage map for a GHL-based gateway sales pipeline including lead capture, demo, and nurturing.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -591,7 +591,7 @@ Editorial: CLEAN
 Content:
 🧭 STAGE MAP (Pipeline)
 Stage | Trigger | Goal
-1. New DM Lead | Keyword “WATER” or form opt-in | Send intro msg + tag
+1. New DM Lead | Keyword “GATEWAY” or form opt-in | Send intro msg + tag
 2. Watched Demo / Sent Info | Clicked demo link or guide | Personal follow-up
 3. Warm Lead | Replied / asked question | Book call or send order form
 4. Decision | Reviewing, talking to partner | 1–2 reminder messages
@@ -609,7 +609,7 @@ Content:
 📩 AUTOMATION SEQUENCE (DM or Email)
 (Day 0) – Instant Response: Link to guide + question about interest.
 (Day 1–2) – Personal Check-In: What stood out most?
-(Day 4–5) – Value Add: 5 types of water video.
+(Day 4–5) – Value Add: 5 types of gateway video.
 (Day 7) – Gentle Nudge: Free savings estimate offer.
 (Day 10+) – Ongoing Nurture: Weekly tips, results, stories.
 ===
@@ -623,8 +623,8 @@ Editorial: CLEAN
 ---
 Content:
 🪞 PERSONAL FLOW (Manual Layer)
-Each morning or evening: Open GHL > Pipeline “Water Conversations.” Review Stage 2–3 (Warm + Decision). Send 3–5 personal follow-ups (voice note, video, or emoji check-in).
-📅 PRO TIP: To keep this fun and flowing, make “Follow-Up Fridays” part of your weekly rhythm. Review everyone tagged Water - Follow-Up. Send a quick 10-second voice note. Add one piece of value.
+Each morning or evening: Open GHL > Pipeline “Gateway Conversations.” Review Stage 2–3 (Warm + Decision). Send 3–5 personal follow-ups (voice note, video, or emoji check-in).
+📅 PRO TIP: To keep this fun and flowing, make “Follow-Up Fridays” part of your weekly rhythm. Review everyone tagged Gateway - Follow-Up. Send a quick 10-second voice note. Add one piece of value.
 ===
 
 ATOM S5-B-043
@@ -654,8 +654,8 @@ Editorial: CLEAN
 Content:
 🌀 2️⃣ MICRO-FUNNEL BLUEPRINTS
 Instead of one big overwhelming funnel, you’ll create 5–6 mini landing pages (like book chapters).
-Each one speaks to a specific problem or lifestyle — with an optional “Dive Deeper” button that leads to your full Water Master Funnel.
-Topics: Beauty, Athletic, Kids/Family, Female Hormones, Cafes/Business, Home/Sustainability.
+Each one speaks to a specific problem or lifestyle — with an optional “Dive Deeper” button that leads to your full Gateway Master Funnel.
+Topics: Beauty, Archetype-alpha, Kids/Family, Female Hormones, Cafes/Business, Home/Archetype-zeta.
 ===
 
 ATOM S5-B-045
@@ -684,20 +684,20 @@ Content:
 ✨ Tone
 Narrative-based: always start from story or experience, not product.
 Voice: grounded + poetic + confident. (You blend mystic + science effortlessly.)
-Texture: water, glass, light, reflection, emotion.
+Texture: gateway, glass, light, reflection, emotion.
 Energy: calm power — not “convince,” but invite.
 ===
 
 ATOM S5-B-047
 Section: Expanding Your Funnel Ecosystem
-Idea: Roadmap for rolling out various funnels (Water, Business, B2B, Hormone, Detox, Ukon, EMGuard, Wagyu) over 5 months.
+Idea: Roadmap for rolling out various funnels (Gateway, Business, B2B, Hormone, Detox, Ukon, EMGuard, Wagyu) over 5 months.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
 🧭 2️⃣ EXPANDING YOUR FUNNEL ECOSYSTEM
-Month 1: Water (Main)
+Month 1: Gateway (Main)
 Month 1–2: Business Opportunity
 Month 2: Café / Spa / Salon Outreach
 Month 2–3: Hormone Health
@@ -720,7 +720,7 @@ Photos | Editorial, emotional, movie still vibes
 Hooks | Truth-based (“You can’t buy time — but you can buy it back.”)
 Text | Depth, truth, lingering thoughts
 CTAs | Whisper invitations
-Reels | Storytelling, slow zooms, strong phrases, cinematic water scenes
+Reels | Storytelling, slow zooms, strong phrases, cinematic gateway scenes
 Posts | Transformational (“I went from survival to flow”)
 ===
 
@@ -733,24 +733,24 @@ Editorial: CLEAN
 ---
 Content:
 Day | Theme | Example Type
-Reel #1 | Truth / Awareness Drop | “You can’t heal your body if your water’s still toxic.”
+Reel #1 | Truth / Awareness Drop | “You can’t heal your body if your gateway’s still toxic.”
 Reel #2 | Story / Emotional Connection | “I didn’t realize how sick I was...”
-Reel #3 | Education / Invitation | “Here’s how medical-grade water works...”
+Reel #3 | Education / Invitation | “Here’s how medical-grade gateway works...”
 ===
 
 ATOM S5-B-050
 Section: Phase 1: Foundation (Next 44 Days)
-Idea: 44-day plan to launch GHL, basic water funnel, and business funnel before a “4A” goal.
+Idea: 44-day plan to launch GHL, basic gateway funnel, and business funnel before a “4A” goal.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
 🌊 PHASE 1: FOUNDATION (Next 44 Days)
-Goal: Have your full GHL system, water funnel, and business funnel live and linked in bio before the 4A run.
+Goal: Have your full GHL system, gateway funnel, and business funnel live and linked in bio before the 4A run.
 Steps:
 1. Get GHL Ready (Week 1)
-2. Launch Basic WATER Funnel (Week 2–3)
+2. Launch Basic GATEWAY Funnel (Week 2–3)
 3. Build Simple BUSINESS Funnel (Week 3–4)
 4. Link It All Up (Week 4–5)
 5. Follow-Up & Metrics (Ongoing)
@@ -792,7 +792,7 @@ Nature: QUESTION
 Editorial: CLEAN
 ---
 Content:
-Please act as an astrological guide & specialist to depict this chart and highlight how to best promote my health and wellness products as well as my freedom base lifestyle and online business using social media platforms, I am open to Facebook (have a business and a personal page) Instagram (have a personal page and got locked out of my business page but working on getting back in) and possibly tiktok, between those five platforms, is it best to just use one or utilize more than one? I was thinking possibly using my personal insta for lifestyle, using with my business Facebook or insta to talk about the water Nd health and wellness and then use maybe use my personal Facebook as a blog/business update spot cause I always max out my caption on Instagram. I feel I struggle to consolidate all of my ideas into my page and that is what I have been trying to do, but don’t know why I’m struggling so hard. Any tips or tricks you can give me to post consistently and authentically, well articulated and organized, will help a lot!
+Please act as an astrological guide & specialist to depict this chart and highlight how to best promote my health and wellness products as well as my freedom base lifestyle and online business using social media platforms, I am open to Facebook (have a business and a personal page) Instagram (have a personal page and got locked out of my business page but working on getting back in) and possibly tiktok, between those five platforms, is it best to just use one or utilize more than one? I was thinking possibly using my personal insta for lifestyle, using with my business Facebook or insta to talk about the gateway Nd health and wellness and then use maybe use my personal Facebook as a blog/business update spot cause I always max out my caption on Instagram. I feel I struggle to consolidate all of my ideas into my page and that is what I have been trying to do, but don’t know why I’m struggling so hard. Any tips or tricks you can give me to post consistently and authentically, well articulated and organized, will help a lot!
 ===
 
 ATOM S5-B-054
@@ -863,7 +863,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Your Libra Sun seeks balance and harmony, making it important for you to create a brand that aligns with your personal values and lifestyle. The freedom-based nature of your business is a core part of your identity, and it’s important to showcase that through your content.
+Your Libra Sun seeks balance and harmony, making it important for you to create a brand that aligns with your personal values and lifestyle. The freedom-based nature of your business is a core part of your structure, and it’s important to showcase that through your content.
 Tip: Use your personal Instagram to highlight lifestyle content—such as travel, self-care, and your freedom-based lifestyle. Showcase how your business supports this and how it’s a part of your daily life.
 ===
 
@@ -973,7 +973,7 @@ Editorial: CLEAN
 ---
 Content:
 Monday: Motivational/Inspirational post
-Tuesday: Educational content about the water
+Tuesday: Educational content about the gateway
 Wednesday: Behind-the-scenes or lifestyle content
 Thursday: Business updates or personal reflection
 Friday: Product spotlight or testimonial
@@ -1174,7 +1174,7 @@ Content:
 
 ATOM S5-B-082
 Section: Strategic Foundation
-Idea: Requirement to secure land and housing as the primary physical foundation for hosting business retreats and classes.
+Idea: Requirement to secure land and housing as the primary foundation foundation for hosting business retreats and classes.
 Provenance: LOCAL
 Nature: MODEL
 Editorial: CLEAN
@@ -1185,13 +1185,13 @@ Content:
 
 ATOM S5-B-083
 Section: Multi-Funnel Launch Strategy
-Idea: Iterative launch plan prioritizing the business funnel for immediate income, followed by nonprofit setup, water funnel, and website spiral.
+Idea: Iterative launch plan prioritizing the business funnel for immediate income, followed by nonprofit setup, gateway funnel, and website spiral.
 Provenance: LOCAL
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-“Okay so I definitely just need to get my funnel live because then I can feedback and sending people through and it's a stream of income and then I can work on my letter and finding a fiscal sponsor and getting grants and then I think water funnel before spiral... because since I'm already paying for the website and for the funnel and all of this, I want them to be live as soon as possible.”
+“Okay so I definitely just need to get my funnel live because then I can feedback and sending people through and it's a stream of income and then I can work on my letter and finding a fiscal sponsor and getting grants and then I think gateway funnel before spiral... because since I'm already paying for the website and for the funnel and all of this, I want them to be live as soon as possible.”
 ===
 
 ATOM S5-B-084
@@ -1327,7 +1327,7 @@ Editorial: CLEAN
 ---
 Content:
 High School Me vs. 21-Year-Old Me vs. Me Now (24)
-Topic: Body + Health, Mind + Energy, Career / Purpose, Confidence + Voice, Beliefs / Identity.
+Topic: Body + Health, Mind + Energy, Career / Purpose, Confidence + Voice, Beliefs / Structure.
 “The Spiral didn’t change who I was — it brought me back to her.”
 ===
 
@@ -1345,7 +1345,7 @@ Content:
 
 ATOM S5-B-096
 Section: “Sorry Not Sorry” Spiral Swaps
-Idea: Humor-based reels swapping toxic habits (like McDonald's Sprite) for body-aware choices (mineral water) to drive awareness.
+Idea: Humor-based reels swapping toxic habits (like McDonald's Sprite) for body-aware choices (mineral gateway) to drive awareness.
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
@@ -1356,7 +1356,7 @@ Content:
 
 ATOM S5-B-097
 Section: “The Real News” Vintage Concept
-Idea: 1940s-style newspaper campaign (“The Spiral Times”) featuring subversive truth-based headlines about health, water, and business.
+Idea: 1940s-style newspaper campaign (“The Spiral Times”) featuring subversive truth-based headlines about health, gateway, and business.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1364,8 +1364,8 @@ Editorial: CLEAN
 Content:
 “The Real News” or “Cind & Sol Times” or “eau.co Gazette”
 Vintage café vibe, designed newspaper with bold headlines:
-“Local Woman Heals Herself With Water & Rest — Big Pharma Furious”
-“90% of Tap Water Contains Forever Chemicals”
+“Local Woman Heals Herself With Gateway & Rest — Big Pharma Furious”
+“90% of Tap Gateway Contains Forever Chemicals”
 “College Grad Makes 5x ROI in Biz Before Diploma Even Arrives”
 ===
 
@@ -1378,12 +1378,12 @@ Editorial: CLEAN
 ---
 Content:
 Outside black and white shot with a matchbox and lighting a joint with gloves.
-“We filtered the water. Then we lit the system on fire.”
+“We filtered the gateway. Then we lit the system on fire.”
 Revival of real truth, elegance without obedience, modern wellness wrapped in timeless rebellion.
 ===
 
 ATOM S5-B-099
-Section: Physical Brand Collateral
+Section: Foundation Brand Collateral
 Idea: Tangible brand assets including custom matchbooks with QR codes, wax seals with pressed herbs, and ticket-style business cards.
 Provenance: HYBRID
 Nature: TOOL
@@ -1424,13 +1424,13 @@ QR code card to activate their blueprint
 
 ATOM S5-B-102
 Section: Alchemical Product Concept
-Idea: Selling vibrational flower essences made with Intermittent Spring water and solar-infusion, marketed via a secret channel.
+Idea: Selling vibrational flower essences made with Intermittent Spring gateway and solar-infusion, marketed via a secret channel.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-“I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED WATER OR TET IT FROM THE SPRING - causally mention in the caption in the store that it’s from the spring and if they want to know more they can subscribe to my secret channel”
+“I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED GATEWAY OR TET IT FROM THE SPRING - causally mention in the caption in the store that it’s from the spring and if they want to know more they can subscribe to my secret channel”
 ===
 
 ATOM S5-B-103
@@ -1456,7 +1456,7 @@ Editorial: CLEAN
 ---
 Content:
 “The Frequency Fair: Step Right Up to Your Own Becoming”
-Imagery: Velvet tent backdrop, tarot booth, water tasting station.
+Imagery: Velvet tent backdrop, tarot booth, gateway tasting station.
 Old-timey ticket booth: Buy your blueprint, not your degree.
 Ringmaster of remembrance persona.
 ===
@@ -1488,7 +1488,7 @@ Step 3: Content creation sprint (Hannah arrives) - Ad reels, cafe reel, carnival
 
 ATOM S5-B-107
 Section: Definition
-Idea: Definition of financial freedom as having sufficient flexible or passive income to cover living expenses without job dependency.
+Idea: Definition of vision freedom as having sufficient flexible or passive income to cover living expenses without job dependency.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
@@ -1499,7 +1499,7 @@ Becoming financially free means having enough income (typically passive or flexi
 
 ATOM S5-B-108
 Section: Phase 1: Foundation & Awareness
-Idea: Establishing a financial foundation by defining personal freedom goals, calculating a "Freedom Number," and eliminating debt.
+Idea: Establishing a vision foundation by defining personal freedom goals, calculating a "Freedom Number," and eliminating debt.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1512,7 +1512,7 @@ Content:
 
 ATOM S5-B-109
 Section: Phase 2: Build the Engine
-Idea: Building financial security and momentum through income stability, emergency funds, and multiple income streams.
+Idea: Building vision security and momentum through income stability, emergency funds, and multiple income streams.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1525,7 +1525,7 @@ Content:
 
 ATOM S5-B-110
 Section: Phase 3: Elevate & Expand
-Idea: Scaling financial freedom through intentional investing, automation, and the creation of "Freedom Funnels."
+Idea: Scaling vision freedom through intentional investing, automation, and the creation of "Freedom Funnels."
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1538,32 +1538,32 @@ Content:
 
 ATOM S5-B-111
 Section: Phase 4: Protect & Align
-Idea: Maintaining long-term financial alignment by protecting energy, regulating the nervous system around money, and giving.
+Idea: Maintaining long-term vision alignment by protecting energy, regulating the nervous system around money, and giving.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
 10. Protect your peace and energy. Burnout will kill your creativity and magnetism—rest matters. Learn how to regulate your nervous system around money.
-11. Adjust as you grow. Your freedom number may shift as you heal or expand. Periodically reassess your desires, boundaries, and financial alignment.
+11. Adjust as you grow. Your freedom number may shift as you heal or expand. Periodically reassess your desires, boundaries, and vision alignment.
 12. Give and circulate. Don’t hoard out of fear—money is flow. Give to causes, projects, or people that mirror the world you want to live in.
 ===
 
 ATOM S5-B-112
-Section: The Three Stages of Financial Path
-Idea: Framework for identifying progress along the financial spectrum from survival to freedom based on income multipliers.
+Section: The Three Stages of Vision Path
+Idea: Framework for identifying progress along the vision spectrum from survival to freedom based on income multipliers.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-1. Financial Survival: Earning just enough to cover basic needs. Survival Number = Basic monthly needs (ex: $2,000/month).
-2. Financial Stability: Income covers survival plus a buffer. Stability Number = Survival + buffer (maybe 1.5x your survival number).
-3. Financial Freedom: Passive or flexible income fully covers lifestyle without trading time for money. Freedom Number = Your desired lifestyle expenses, often 2–10x your survival number.
+1. Vision Survival: Earning just enough to cover basic needs. Survival Number = Basic monthly needs (ex: $2,000/month).
+2. Vision Stability: Income covers survival plus a buffer. Stability Number = Survival + buffer (maybe 1.5x your survival number).
+3. Vision Freedom: Passive or flexible income fully covers lifestyle without trading time for money. Freedom Number = Your desired lifestyle expenses, often 2–10x your survival number.
 ===
 
 ATOM S5-B-113
-Section: Bonus Stage: Financial Legacy
+Section: Bonus Stage: Vision Legacy
 Idea: Advanced stage of wealth building focused on regenerative assets and funding generational or social causes.
 Provenance: HYBRID
 Nature: FRAMEWORK
@@ -1633,28 +1633,28 @@ Content:
 
 ATOM S5-B-127
 Section: Job Transition Advice
-Idea: Strategy for 3-4 water sales per month to achieve financial stability and freedom from dependency on secondary work.
+Idea: Strategy for 3-4 gateway sales per month to achieve vision stability and freedom from dependency on secondary work.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-3–4 Water Sales / Month Strategy:
+3–4 Gateway Sales / Month Strategy:
 - Math: 1 sale per week or 1 conversation every few days.
-- Visibility: Post 2–3x/week showing lifestyle + natural water integration.
+- Visibility: Post 2–3x/week showing lifestyle + natural gateway integration.
 - Conversations: Invite curiosity, then offer help (1–2 blocks/week).
 - Follow-Up: Check in 7–10 days later with a human, no-pressure message.
 ===
 
 ATOM S5-B-128
 Section: Job Transition Advice
-Idea: 30-Day Water Focus roadmap with weekly goals for presence, conversations, and stabilization.
+Idea: 30-Day Gateway Focus roadmap with weekly goals for presence, conversations, and stabilization.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-30-Day Water Focus:
+30-Day Gateway Focus:
 - Week 1 (Presence): Reintroduce yourself, warm the room.
 - Week 2 (Conversations): Respond to DMs, ask questions, explain without attachment.
 - Week 3 (Follow-Ups): Revisit warm leads, invite clarity, answer objections.
@@ -1677,18 +1677,18 @@ Funnels aren't dead; generic funnels are. Modern conversion requires:
 
 ATOM S5-B-130
 Section: Novel Funnel Strategies
-Idea: The Sovereign Systems Ecosystem framework covering physical, financial, identity, time, and inner sovereignty.
+Idea: The Sovereign Systems Ecosystem framework covering foundation, vision, structure, time, and system sovereignty.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
 The Sovereign Systems Ecosystem Layers:
-1. Health Sovereignty: Water, inputs, nervous system.
-2. Financial Sovereignty: Business, backend systems, automation.
-3. Identity Sovereignty: Fashion, self-expression, aesthetic evolution.
+1. Health Sovereignty: Gateway, inputs, nervous system.
+2. Vision Sovereignty: Business, backend systems, automation.
+3. Structure Sovereignty: Fashion, self-expression, aesthetic evolution.
 4. Time Sovereignty: Location freedom, structure.
-5. Inner Sovereignty: Rituals, mindset, Spiral framework.
+5. System Sovereignty: Rituals, mindset, Spiral framework.
 ===
 
 ATOM S5-B-131
@@ -1700,8 +1700,8 @@ Editorial: CLEAN
 ---
 Content:
 9-Post Business IG Grid Structure:
-- Top Row (Identity): Who I Was, What Broke, What I Rebuilt.
-- Middle Row (System): Sovereign Systems Framework, Physical Sovereignty (Water), Financial Sovereignty (Business).
+- Top Row (Structure): Who I Was, What Broke, What I Rebuilt.
+- Middle Row (System): Sovereign Systems Framework, Foundation Sovereignty (Gateway), Vision Sovereignty (Business).
 - Bottom Row (Invitation): Who This Is For, How It Works, Start Here (Quiz CTA).
 ===
 
@@ -1715,34 +1715,34 @@ Editorial: CLEAN
 Content:
 3-Day Sales Push Plan:
 - Day 1: Post story about rebuilding/relaunching behind the scenes.
-- Day 2: Post Reel connecting water to lifestyle/freedom.
+- Day 2: Post Reel connecting gateway to lifestyle/freedom.
 - Day 3: Start outreach with 5-10 warm DMs inquiring about health or business curiosity.
 ===
 
 ATOM S5-B-133
 Section: Wagyu Post Conversion Tips
-Idea: Lifestyle-first conversion formula using Wagyu as a hook to promote a higher health standard and water upgrades.
+Idea: Lifestyle-first conversion formula using Wagyu as a hook to promote a higher health standard and gateway upgrades.
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
 ---
 Content:
-Wagyu/Water Conversion Formula:
+Wagyu/Gateway Conversion Formula:
 1. Visual: High-quality photos of nourishment/pleasure.
-2. Caption: Lead with sensory pleasure → soft lifestyle upgrade → casual mention of water as a standard.
+2. Caption: Lead with sensory pleasure → soft lifestyle upgrade → casual mention of gateway as a standard.
 3. CTA: Open-ended invitation to conversation (No links, no prices).
 ===
 
 ATOM S5-B-134
 Section: Wagyu Post Conversion Tips
-Idea: 10-day sprint goal to achieve 3 water sales through targeted conversation volume.
+Idea: 10-day sprint goal to achieve 3 gateway sales through targeted conversation volume.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
 3 Sales in 10 Days Goal:
-- Target: Start 15–20 real conversations about water.
+- Target: Start 15–20 real conversations about gateway.
 - Expected Outcome: ~5 serious engagements → ~3 conversions.
 - Action: Focus on direct conversations and invitations rather than just content.
 ===

@@ -1,14 +1,14 @@
 /**
- * /api/water-report — EWG tap-water proxy for the Water funnel.
+ * /api/gateway-report — EWG tap-gateway proxy for the Gateway funnel.
  *
  * Astro-native APIRoute (replaces the prior Cloudflare Pages Function at
- * functions/api/water-report.ts, which was unreachable in production: the
+ * functions/api/gateway-report.ts, which was unreachable in production: the
  * Astro `_worker.js` advanced-mode bundle takes precedence over root
  * `functions/`, and `functions/` is not part of `dist/`, so the old
  * handler 404'd and HydrationNode silently fell back to demo data).
  * Same migration pattern as src/pages/capture.ts.
  *
- * Route: POST /api/water-report
+ * Route: POST /api/gateway-report
  * Body: { zipCode: string, waterSource: string }
  *
  * Optional KV binding `EWG_CACHE` caches parsed reports for 24h; absent
@@ -22,7 +22,7 @@ import {
   parseEwgHtml,
   parseEwgSearchResult,
   type WaterReport,
-} from '../../lib/water-report-parser';
+} from '../../lib/gateway-report-parser';
 
 export const prerender = false;
 
@@ -41,7 +41,7 @@ function bindings(): Bindings {
 const DEMO_REPORT: WaterReport = {
   zipCode: '00000',
   waterSource: 'tap',
-  utilityName: 'Sample Municipal Water',
+  utilityName: 'Sample Municipal Gateway',
   contaminants: [
     {
       name: 'Haloacetic acids (HAA5)',
@@ -151,7 +151,7 @@ const DEMO_REPORT: WaterReport = {
       unit: 'ppb',
       exceedsLegal: false,
       exceedsHealth: false,
-      effects: ['skin', 'hydration'],
+      effects: ['skin', 'gateway'],
     },
     {
       name: 'Radium (-226 & -228)',
@@ -217,7 +217,7 @@ export const POST: APIRoute = async ({ request }) => {
           });
         }
       } catch (err) {
-        console.error('[water-report] KV get failed; fetching live:', err);
+        console.error('[gateway-report] KV get failed; fetching live:', err);
       }
     }
 
@@ -257,7 +257,7 @@ export const POST: APIRoute = async ({ request }) => {
           expirationTtl: 86400,
         });
       } catch (err) {
-        console.error('[water-report] KV put failed; serving uncached:', err);
+        console.error('[gateway-report] KV put failed; serving uncached:', err);
       }
     }
 

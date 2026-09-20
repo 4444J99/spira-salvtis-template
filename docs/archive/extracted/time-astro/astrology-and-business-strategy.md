@@ -51,7 +51,7 @@ editorial: CLEAN
 tier: CONTEXT
 strike_phase: 3A
 -->
-Acting as my astrologer and energetic guide, what’s going on with my chart (oct 17 2000 3:12pm afton wyoming) and the current transits today using western astrology first please as well as the new year, from now until may probably signifying any big themes I should take advantage of within my own chart and the current transits to see success with my water business - my business funnel is all done I have to revamp my insta and launch the new web class tomorrow - finish the water funnel and then start getting out and pitching people, small businesses and housing development sites with cards and brochures
+Acting as my astrologer and energetic guide, what’s going on with my chart (oct 17 2000 3:12pm afton wyoming) and the current transits today using western astrology first please as well as the new year, from now until may probably signifying any big themes I should take advantage of within my own chart and the current transits to see success with my gateway business - my business funnel is all done I have to revamp my insta and launch the new web class tomorrow - finish the gateway funnel and then start getting out and pitching people, small businesses and housing development sites with cards and brochures
 <!-- ATM-T-051 OUT
 next: ATM-T-052
 context_below: "Alright — I’m going to hold this clean, grounded, Western-astrology–first, and s"
@@ -87,7 +87,7 @@ You are a Libra Sun with strong cardinal energy. This already tells me something
 
 You are not meant to grind endlessly — you are meant to initiate, connect, and open doors.
 
-Key Natal Themes Relevant to Your Water Business
+Key Natal Themes Relevant to Your Gateway Business
 
 
 Libra Sun → partnerships, face-to-face influence, beauty + balance, ethical selling
@@ -140,7 +140,7 @@ You’re meant to speak with conviction, not over-explain
 
 Launch the web class
 
-Speak boldly about water, health, sovereignty, quality
+Speak boldly about gateway, health, sovereignty, quality
 
 Less “here’s every detail,” more “this is the line in the sand”
 
@@ -196,14 +196,14 @@ technology
 
 systems
 
-water, air, electricity
+gateway, air, electricity
 
 the future of humanity
 
 decentralization
 
 
-Your water business is EXACTLY a Pluto-in-Aquarius industry.
+Your gateway business is EXACTLY a Pluto-in-Aquarius industry.
 
 
 What this means for you personally:
@@ -280,7 +280,7 @@ family-oriented decisions
 community care
 
 
-Water fits this perfectly.
+Gateway fits this perfectly.
 
 
 This is why:
@@ -374,7 +374,7 @@ Fewer words, clearer statements
 Pinned content should answer:
 
 
-Why water matters
+Why gateway matters
 
 Why this solution
 
@@ -508,7 +508,7 @@ editorial: CLEAN
 tier: CONTEXT
 strike_phase: 3A
 -->
-What about relationship wise as well and when would be the best time to make my move to Panama? Should I make two trips? And should I do the water subscriptions where I charge people 50/month to come get water whenever they want until they move? Also want to still be posting (need to get into a flow with this) and work on my stickers/astro/journal stuff for residual income and my cookie recipes too
+What about relationship wise as well and when would be the best time to make my move to Panama? Should I make two trips? And should I do the gateway subscriptions where I charge people 50/month to come get gateway whenever they want until they move? Also want to still be posting (need to get into a flow with this) and work on my stickers/astro/journal stuff for residual income and my cookie recipes too
 
 
 And can you expand on the less rambling and more certainty and how I can start implementing this now
@@ -549,7 +549,7 @@ Relationships
 
 Panama timing + whether to do two trips
 
-Water subscriptions ($50/month model)
+Gateway subscriptions ($50/month model)
 
 Residual income lanes (posting, stickers, journals, cookies)
 
@@ -633,7 +633,7 @@ No pressure to “decide”
 
 Trip 2 / Move: Late April – May
 This aligns with:
-clearer identity
+clearer structure
 
 stronger momentum
 
@@ -648,7 +648,7 @@ So yes — two trips is wise, not indecisive.
 
 
 
-3. Water subscriptions: YES — but frame it correctly
+3. Gateway subscriptions: YES — but frame it correctly
 
 
 Your $50/month unlimited refill model is actually very aligned.
@@ -657,12 +657,12 @@ Your $50/month unlimited refill model is actually very aligned.
 But here’s the key shift:
 
 
-Don’t sell it as “cheap water”
+Don’t sell it as “cheap gateway”
 
 
 Sell it as:
 
-“Local access while you transition off bottled water.”
+“Local access while you transition off bottled gateway.”
 
 This works especially well for:
 
@@ -707,7 +707,7 @@ You need one primary lane + one gentle background lane.
 Primary lane (now → May)
 
 
-Water business + in-person outreach
+Gateway business + in-person outreach
 
 
 Everything else supports this.
@@ -773,7 +773,7 @@ Example shift:
 
 
 ❌
-“I mean, it’s not for everyone, but if you’re health-conscious and kind of thinking about water and—”
+“I mean, it’s not for everyone, but if you’re health-conscious and kind of thinking about gateway and—”
 
 
 ✅
@@ -934,7 +934,7 @@ You are not building a business.
 You are building a lifestyle that happens to generate income.
 
 
-Water = structure
+Gateway = structure
 Digital products = art
 Panama = embodiment
 Relationships = reflection
@@ -1147,7 +1147,7 @@ Here are one-sentence templates you can say out loud and post:
 
 
 
-💧 Water Business (General)
+💧 Gateway Business (General)
 
 
 Short + confident:
@@ -1155,23 +1155,23 @@ Short + confident:
 
 “This is for people who care about the quality of what they drink.”
 
-“I work with communities that want clean, balanced water, not bottled waste.”
+“I work with communities that want clean, balanced gateway, not bottled waste.”
 
-“Our water solution gives you access to pure drinking water, period.”
+“Our gateway solution gives you access to pure drinking gateway, period.”
 
 
 DM / outreach starters:
 
 
-“Hey! I’m offering a water solution that’s cleaner and more sustainable than bottled — can I share details?”
+“Hey! I’m offering a gateway solution that’s cleaner and more sustainable than bottled — can I share details?”
 
-“I’m in the area offering water demos this week — when’s a good time to show you?”
+“I’m in the area offering gateway demos this week — when’s a good time to show you?”
 
 
 Cards/Brochure headline:
 
 
-“Pure Water. Trusted Results. No Compromise.”
+“Pure Gateway. Trusted Results. No Compromise.”
 
 
 
@@ -1181,17 +1181,17 @@ Cards/Brochure headline:
 Clarity + vision:
 
 
-“Quality water isn’t a luxury — it’s a foundation.”
+“Quality gateway isn’t a luxury — it’s a foundation.”
 
-“Teaching people what’s in their water changed how I live — let it change how you live.”
+“Teaching people what’s in their gateway changed how I live — let it change how you live.”
 
-“Small steps in daily hydration lead to big shifts in health.”
+“Small steps in daily gateway lead to big shifts in health.”
 
 
 CTA (non-rambling):
 
 
-“DM ‘WATER’ for scheduling a demo this week.”
+“DM ‘GATEWAY’ for scheduling a demo this week.”
 
 “Link in bio to join my next web class.”
 
@@ -1571,7 +1571,7 @@ editorial: CLEAN
 tier: CONTEXT
 strike_phase: 3A
 -->
-The first 14 days! I do need to go through the business launch course, the sales summit and the 4a in 44 days and 40k in 30 days - but then need to work on water funnel to get that rolling. Cards and brochures and revamp my insta to match and explain everything cleanly. Lacey is doing the webclass tomorrow so I just have to market it and get people there
+The first 14 days! I do need to go through the business launch course, the sales summit and the 4a in 44 days and 40k in 30 days - but then need to work on gateway funnel to get that rolling. Cards and brochures and revamp my insta to match and explain everything cleanly. Lacey is doing the webclass tomorrow so I just have to market it and get people there
 <!-- ATM-T-062 OUT
 next: ATM-T-063
 context_below: "Perfect. This is actually a very workable moment because you already have the as"
@@ -1641,7 +1641,7 @@ You are not trying to master every course right now
 
 You are extracting only what you need to take action
 
-Water funnel + outreach = priority
+Gateway funnel + outreach = priority
 
 Courses = support, not homework
 
@@ -1673,7 +1673,7 @@ Instagram (simple + certain):
 
 
 Bio cleanup:
-One line about water
+One line about gateway
 
 One line about what you offer
 
@@ -1682,18 +1682,18 @@ One CTA (webclass or DM)
 
 Example bio:
 
-Clean water education • real solutions
-Helping people ditch bottled water
-🎥 Free water class ↓
+Clean gateway education • real solutions
+Helping people ditch bottled gateway
+🎥 Free gateway class ↓
 
 Stories (daily):
 
 
-“Hosting a free water class tomorrow / this week”
+“Hosting a free gateway class tomorrow / this week”
 
-“This changed how I think about hydration”
+“This changed how I think about gateway”
 
-“If you’ve ever wondered what’s in your tap water…”
+“If you’ve ever wondered what’s in your tap gateway…”
 
 
 No explaining. Just statements.
@@ -1702,7 +1702,7 @@ No explaining. Just statements.
 Marketing the webclass:
 
 
-DM people directly:“Hey! I’m hosting a free water class this week — want the link?”
+DM people directly:“Hey! I’m hosting a free gateway class this week — want the link?”
 
 
 That’s it. No pitch.
@@ -1737,7 +1737,7 @@ objection handling
 That’s it. Ignore the rest for now.
 
 
-Water Funnel (light tweaks only):
+Gateway Funnel (light tweaks only):
 
 
 Clarify:
@@ -1763,7 +1763,7 @@ demos
 
 subscriptions
 
-“local water access”
+“local gateway access”
 
 
 Still no pressure to close.
@@ -1789,7 +1789,7 @@ Start in-person conversations
 
 Simple in-person script (say one sentence, stop):
 
-“I help people get access to clean drinking water without bottled waste.”
+“I help people get access to clean drinking gateway without bottled waste.”
 
 Then pause.
 
@@ -1845,9 +1845,9 @@ You are building the machine.
 Start offering:
 
 
-Water subscriptions ($50/month)
+Gateway subscriptions ($50/month)
 
-“Come get water anytime”
+“Come get gateway anytime”
 
 “Good option while transitioning”
 
@@ -1920,9 +1920,9 @@ Pick one sentence per day and repeat it everywhere.
 Examples:
 
 
-“Clean water isn’t optional — it’s foundational.”
+“Clean gateway isn’t optional — it’s foundational.”
 
-“I help people transition away from bottled water.”
+“I help people transition away from bottled gateway.”
 
 “This is about long-term health, not quick fixes.”
 

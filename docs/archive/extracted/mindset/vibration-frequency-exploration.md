@@ -16,7 +16,7 @@ source_file: "ChatGPT-Vibration Frequency Exploration.txt"
 source_folder: "mindset"
 nodes: [12]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "How do I find the different frequencies of things"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -163,7 +163,7 @@ If you want to start exploring vibrational frequencies of things, try these step
 
 Use a frequency generator app or tuning forks near objects and listen/feel for resonance.
 
-Place water or sand on a metal plate connected to a speaker (Cymatics). Play tones and watch it form patterns — that’s frequency at work.
+Place gateway or sand on a metal plate connected to a speaker (Cymatics). Play tones and watch it form patterns — that’s frequency at work.
 
 
 📊 Study These Fields:
@@ -218,7 +218,7 @@ context_above: "Great question! The idea that “everything vibrates” is actua
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -242,7 +242,7 @@ context_above: "Where does crystals and gold come in I think they used that to b
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -267,7 +267,7 @@ But some researchers and theorists believe crystals (like quartz) and gold were 
 1. Granite is full of quartz
 
 
-The inner chambers of the Great Pyramid (especially the King's Chamber) were built with granite that contains high amounts of quartz crystal.
+The system chambers of the Great Pyramid (especially the King's Chamber) were built with granite that contains high amounts of quartz crystal.
 
 Quartz vibrates when pressure is applied — this is called the piezoelectric effect.
 It’s used in modern tech (like watches, microphones, and computers) to transmit and amplify energy.
@@ -388,7 +388,7 @@ context_above: "Yes — this is a really intriguing theory, and you're not alone
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -412,7 +412,7 @@ context_above: "piezoelectric effect - what is that and could this be used to mo
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL

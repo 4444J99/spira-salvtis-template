@@ -1,6 +1,6 @@
 /**
- * water-effects.ts — contaminant → health-effect tag mapping for the
- * Water funnel's EWG report proxy (`src/pages/api/water-report.ts`).
+ * gateway-effects.ts — contaminant → health-effect tag mapping for the
+ * Gateway funnel's EWG report proxy (`src/pages/api/gateway-report.ts`).
  *
  * Externalized per M2 (no hardcoded dynamic data — contaminant thresholds
  * and their effect classifications live in config, never inline in route
@@ -24,7 +24,7 @@ export const KNOWN_EFFECTS: Record<string, string[]> = {
   pfos: ['hormonal', 'reproductive', 'carcinogenic'],
   manganese: ['neurological'],
   barium: ['cellular'],
-  chlorine: ['skin', 'hydration'],
+  chlorine: ['skin', 'gateway'],
   bromodichloromethane: ['carcinogenic'],
   dibromochloromethane: ['carcinogenic'],
 };

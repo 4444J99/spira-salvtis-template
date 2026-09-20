@@ -23,11 +23,11 @@ The same querystring works on every page (the override applies to whichever nav 
 
 ### pillar-first (current default)
 
-Desktop top-nav (5 items): **Water · Inner · Identity · Business · Research**
+Desktop top-nav (5 items): **Gateway · System · Structure · Business · Research**
 
 Mobile drawer:
-- "Water" section: Water Home, Take the Quiz, Explore Branches
-- "The Spiral" section: Inner Sovereignty, Identity Sovereignty, Business, Research
+- "Gateway" section: Gateway Home, Take the Quiz, Explore Branches
+- "The Spiral" section: System Sovereignty, Structure Sovereignty, Business, Research
 
 The user's mental model is "which pillar am I working on?" — entry points are pillar pages. Spiral is encountered as a visual on the home page; nodes are sub-pages of pillars.
 

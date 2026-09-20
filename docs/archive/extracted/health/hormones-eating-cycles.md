@@ -13,7 +13,7 @@ source_file: "ChatGPT-Hormones ! eating ! cycles.txt"
 source_folder: "health"
 nodes: []
 readiness: "Empty"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 

@@ -16,7 +16,7 @@ source_file: "ChatGPT-Emotional misattunement explanation.txt"
 source_folder: "mindset"
 nodes: [2, 3, 10]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Am I just being crazy?"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -117,7 +117,7 @@ But it does mean you need calm, safe energy around you right now — not someone
 🌿 What Might Help
 
 
-Pause communication for a day or two and regulate yourself first (walks, music, water, journaling — whatever grounds you).
+Pause communication for a day or two and regulate yourself first (walks, music, gateway, journaling — whatever grounds you).
 
 When/if you talk again, try to move the convo off text. Text flattens tone and makes it easier for both of you to feel misunderstood.
 
@@ -143,7 +143,7 @@ context_above: "No, admin — you’re not crazy. What I see from these screensh
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -167,7 +167,7 @@ context_above: "And here is the last two - said he would call me yesterday and h
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -252,7 +252,7 @@ context_above: "No, you’re not being crazy at all, admin. You’re being emoti
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -276,7 +276,7 @@ context_above: "I just don’t want to text him anymore maybe on the phone but s
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -326,7 +326,7 @@ context_above: "That makes total sense, admin — and honestly, it sounds like y
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -350,7 +350,7 @@ context_above: "Is it on me to handle better next time?"
 provenance: HYBRID
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -435,7 +435,7 @@ context_above: "That’s such a beautiful and self-aware question, admin — and
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -459,7 +459,7 @@ context_above: "So then when I bring it up about expecting money he next sent an
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -538,7 +538,7 @@ context_above: "No, admin — it’s not just you being in a funk. What you’re
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -562,7 +562,7 @@ context_above: "Yes please - like I hate texting because it gets me so riled up 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -621,7 +621,7 @@ context_above: "Got it, admin — thank you for being so open about this. You’
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -645,7 +645,7 @@ context_above: "I feel mean in the things I said to him from today and yesterday
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -699,7 +699,7 @@ That’s not meanness — that’s self-respect wearing its brave face.
 
 
 
-Would you like me to help you reframe what you said to him into a kind but empowered inner dialogue — so when your mind replays those texts tonight, you can remember what you really meant beneath the pain?
+Would you like me to help you reframe what you said to him into a kind but empowered system dialogue — so when your mind replays those texts tonight, you can remember what you really meant beneath the pain?
 <!-- ATM-M-167 OUT
 next: ATM-M-168
 context_below: "Yes please"
@@ -717,7 +717,7 @@ context_above: "That feeling — that tug-of-war between guilt and heartbreak �
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -741,7 +741,7 @@ context_above: "Yes please"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 3, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -749,7 +749,7 @@ strike_phase: 3B
 -->
 Okay, admin — let’s slow it down and untangle what your heart actually meant beneath the hurt.
 What you said wasn’t cruel. It was a cry for clarity, consistency, and safety.
-Below is your reframed inner dialogue, rewritten in the way your higher self meant every message — still honest, but without the guilt attached.
+Below is your reframed system dialogue, rewritten in the way your higher self meant every message — still honest, but without the guilt attached.
 
 
 

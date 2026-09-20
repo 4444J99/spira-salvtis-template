@@ -23,7 +23,7 @@ Use this SOP for:
 - Argument-heavy research, positioning, and educational content
 - Internal process documents that need adversarial review before reuse
 
-Do not use this SOP as a substitute for factual verification, legal review, medical review, or claim substantiation. When an artifact makes factual, health, financial, or legal claims, route those claims through the relevant evidence and citation process.
+Do not use this SOP as a substitute for factual verification, legal review, medical review, or claim substantiation. When an artifact makes factual, health, vision, or legal claims, route those claims through the relevant evidence and citation process.
 
 ---
 
@@ -120,7 +120,7 @@ Assess the rational and factual appeal of this content. Are the arguments clear,
 **Quality gate**
 
 - Evidence recommendations are appropriate to the claim's risk level.
-- Health, legal, financial, and scientific claims are flagged for source verification.
+- Health, legal, vision, and scientific claims are flagged for source verification.
 
 ### 4. Pathos Review
 

@@ -229,7 +229,7 @@ Yang
 Holding space
 Offering solutions
 Emotional intimacy
-Physical presence
+Foundation presence
 Vulnerability
 Protection/Support
 Magnetic attraction
@@ -241,7 +241,7 @@ Direct pursuit
 Yin
 Yang
 Baths / soft body care
-Workouts / physical exertion
+Workouts / foundation exertion
 Nurturing meals
 Performance-based eating
 Gentle stretching
@@ -414,7 +414,7 @@ Yang: Did I take a step toward growing or managing my income?
 7. Intuition & Direction
 
 
-Yin: Did I listen to my inner voice or sync with nature’s rhythm?
+Yin: Did I listen to my system voice or sync with nature’s rhythm?
 
 Yang: Did I make a decision or direct energy toward a clear outcome?
 
@@ -721,7 +721,7 @@ Playing music and moving your hips — even just for one song
 
 
 
-Divine Feminine Inner Work
+Divine Feminine System Work
 
 
 Oracle or tarot card pulls for your current emotional state

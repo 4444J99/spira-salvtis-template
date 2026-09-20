@@ -20,7 +20,7 @@ The site must be accessible at production domains. Domain connection is a prereq
 
 ### In-Scope
 - Connect hub-example.com via Cloudflare Pages Custom Domains
-- Connect water-example.com
+- Connect gateway-example.com
 - Connect business-example.com
 - Verify DNS propagation
 
@@ -31,7 +31,7 @@ The site must be accessible at production domains. Domain connection is a prereq
 
 ### Boundaries
 - hub-example.com: GoDaddy DNS (requires admin's access or action)
-- water-example.com: Cloudflare (may already be configured)
+- gateway-example.com: Cloudflare (may already be configured)
 - business-example.com: Cloudflare (may already be configured)
 
 ## Output
@@ -41,7 +41,7 @@ All 3 domains resolve to Cloudflare Pages deployment
 
 ### Success Criteria
 - [ ] hub-example.com → sovereign-systems-spiral.pages.dev
-- [ ] water-example.com → sovereign-systems-spiral.pages.dev
+- [ ] gateway-example.com → sovereign-systems-spiral.pages.dev
 - [ ] business-example.com → sovereign-systems-spiral.pages.dev
 - [ ] All domains show production site
 - [ ] SSL certificates auto-provisioned
@@ -63,7 +63,7 @@ Visit each domain in browser, verify content loads correctly
 
 - [ ] Review `docs/domain-setup.md` for instructions
 - [ ] Contact admin for GoDaddy access (hub-example.com)
-- [ ] Check Cloudflare for water-example.com and business-example.com
+- [ ] Check Cloudflare for gateway-example.com and business-example.com
 - [ ] Add Custom Domains in Cloudflare Pages dashboard
 - [ ] Update DNS records (or guide admin to do so)
 - [ ] Wait for propagation (up to 48 hours)

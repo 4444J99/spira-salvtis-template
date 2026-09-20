@@ -17,7 +17,7 @@ source_file: "ChatGPT-Aerosols and cleaning products.txt"
 source_folder: "health"
 nodes: [6, 8]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: SCRIPT
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "Caption about aerosols and the stuff that comes off cleaners and
 provenance: HYBRID
 nature: SCRIPT
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -120,7 +120,7 @@ CTA: Want the swaps that healed my inflammation? Comment CLEAN.
 
 
 
-Want a carousel to go with this? Or a version that ties hydration + inflammation into it?
+Want a carousel to go with this? Or a version that ties gateway + inflammation into it?
 
 <!-- ATM-H-028 OUT
 next: null

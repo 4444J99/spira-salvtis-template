@@ -13,7 +13,7 @@
 | health/ | 372 | 362 | 83 | 0.97x | 0.22x |
 | mindset/ | 664 | 320 | 88 | 0.48x | 0.13x |
 | business/ | 219 | 125 | 47 | 0.57x | 0.21x |
-| water/ | 139 | 162 | 26 | 1.17x | 0.19x |
+| gateway/ | 139 | 162 | 26 | 1.17x | 0.19x |
 | time-astro/ | 178 | 86* | 13 | 0.48x | 0.07x |
 | concepts/ | 104 | (in 86*) | pending | — | — |
 | root docs | 145 | 28 | 84 | 0.19x | 0.58x |
@@ -21,7 +21,7 @@
 
 *Gemini combined time-astro and concepts into one batch (S7: 86 atoms).
 
-**NOTE:** Gemini's self-reported summary hallucinated our numbers (claimed 1,821 total, 813 water atoms). Actual file contents verified: 1,083 atoms. Summary confabulation documented — file-level data is trustworthy, aggregate reporting is not.
+**NOTE:** Gemini's self-reported summary hallucinated our numbers (claimed 1,821 total, 813 gateway atoms). Actual file contents verified: 1,083 atoms. Summary confabulation documented — file-level data is trustworthy, aggregate reporting is not.
 
 ## What The Numbers Mean
 
@@ -46,7 +46,7 @@ Specifically:
 - Feel Good First as core framework: identified by all three
 - 13-node spiral structure: identified by all three
 - Cortisol 90-second reset: identified by all three
-- Inner Child book as standalone product: identified by all three
+- System Child book as standalone product: identified by all three
 - Yin/Yang as cross-cutting throughline: identified by all three
 - Bio-Safety Pyramid / Square Zero: identified by all three
 - 94% disease statistic as FLAGGED/UNVERIFIED: caught by all three
@@ -86,7 +86,7 @@ No provenance disagreements detected across any model.
 ### Editorial Flags (Conservative Convergence)
 
 All three models flagged the same high-risk claims:
-- Water memory / EZ water / Emoto (FLAGGED by all)
+- Gateway memory / EZ gateway / Emoto (FLAGGED by all)
 - 94% disease caused by stress (FLAGGED by all)
 - Cell-talking / biophotonics (FLAGGED by all)
 - Sound frequency healing specifics (FLAGGED by all)

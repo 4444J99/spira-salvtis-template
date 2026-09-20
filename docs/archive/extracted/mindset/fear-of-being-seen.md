@@ -16,7 +16,7 @@ source_file: "ChatGPT-Fear of Being Seen.txt"
 source_folder: "mindset"
 nodes: [10, 2, 9, 13]
 readiness: "Partial"
-pillar: "Identity"
+pillar: "Structure"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "What is it called when you have a problem/block when it comes to
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -111,7 +111,7 @@ context_above: "What you’re describing is often referred to as “visibility w
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -135,13 +135,13 @@ context_above: "Yes that resonates a lot, I’d say it’s a witch wound or chil
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-Healing the witch wound, childhood conditioning, and your Scorpio placements around visibility requires a mix of inner work, nervous system regulation, and intentional action to reprogram the belief that being seen is safe. Here’s a layered approach to help you start working through it:
+Healing the witch wound, childhood conditioning, and your Scorpio placements around visibility requires a mix of system work, nervous system regulation, and intentional action to reprogram the belief that being seen is safe. Here’s a layered approach to help you start working through it:
 
 
 1. Rewire the Core Beliefs (Subconscious Healing)
@@ -156,7 +156,7 @@ What do I fear will happen if I let myself be fully visible?
 
 What new belief would I like to embody about being seen?
 
-Inner Child Healing
+System Child Healing
 Close your eyes and imagine your younger self at the moment she first felt afraid to be seen. Let her know she’s safe now. Visualize holding her, protecting her, and telling her that her presence in the world is valuable.
 
 Write her a letter affirming that she is safe, loved, and doesn’t have to hide anymore.
@@ -243,13 +243,13 @@ context_above: "Healing the witch wound, childhood conditioning, and your Scorpi
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-I’ve been working on showing up on Instagram stories consistently and I’ll go in and out of being good about posting. There for a week or so I got on lives pretty regularly too. I just feel like I’m kind of all over the place so then I get discouraged but I really want to put together a water webinar and film it so then I can post that and my website together for my official launch for Facebook
+I’ve been working on showing up on Instagram stories consistently and I’ll go in and out of being good about posting. There for a week or so I got on lives pretty regularly too. I just feel like I’m kind of all over the place so then I get discouraged but I really want to put together a gateway webinar and film it so then I can post that and my website together for my official launch for Facebook
 <!-- ATM-M-230 OUT
 next: ATM-M-231
 context_below: "It sounds like you’re already pushing through the visibility barrier, which is huge!"
@@ -267,7 +267,7 @@ context_above: "I’ve been working on showing up on Instagram stories consisten
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -276,7 +276,7 @@ strike_phase: 3A
 It sounds like you’re already pushing through the visibility barrier, which is huge! The inconsistency is likely just your nervous system adjusting—so instead of seeing it as a failure, think of it as part of the process.
 
 
-Since you’re preparing for a water webinar and website launch, a structured plan might help you stay on track without feeling overwhelmed. Here’s a simple way to organize your visibility efforts leading up to the launch:
+Since you’re preparing for a gateway webinar and website launch, a structured plan might help you stay on track without feeling overwhelmed. Here’s a simple way to organize your visibility efforts leading up to the launch:
 
 
 1. Create a Simple Content Flow for Consistency
@@ -285,14 +285,14 @@ Since you’re preparing for a water webinar and website launch, a structured pl
 Instead of feeling like you have to post everything all the time, focus on a cycle that makes posting easier:
 
 
-Mon-Wed: Educate (water benefits, oxidative stress, why tap water isn’t enough, personal story)
+Mon-Wed: Educate (gateway benefits, oxidative stress, why tap gateway isn’t enough, personal story)
 
 Thurs-Fri: Engage (polls, Q&A, myth-busting, behind the scenes of webinar prep)
 
 Sat-Sun: Show up personally (lifestyle, casual check-ins, reflections)
 
 
-Lives: Maybe pick one or two set days to go live each week so it’s more predictable (e.g., “Water Wednesdays” or a short live Q&A every Friday).
+Lives: Maybe pick one or two set days to go live each week so it’s more predictable (e.g., “Gateway Wednesdays” or a short live Q&A every Friday).
 
 
 2. Break Down Your Webinar Creation
@@ -312,7 +312,7 @@ Set a Recording Date: Pick a day/time you’ll film and stick to it like an appo
 
 Teasers on Stories: Drop hints about something exciting coming.
 
-Engagement Posts: Ask people what they struggle with when it comes to water, health, or energy levels.
+Engagement Posts: Ask people what they struggle with when it comes to gateway, health, or energy levels.
 
 Countdowns: Start a countdown for your website/webinar launch to build anticipation.
 
@@ -320,13 +320,13 @@ Countdowns: Start a countdown for your website/webinar launch to build anticipat
 Would you like help organizing your webinar outline or planning your launch posts so it all flows together?
 <!-- ATM-M-231 OUT
 next: ATM-M-232
-context_below: "I was thinking about doing my water highlights first so I can post those as I go and am putting it t..."
+context_below: "I was thinking about doing my gateway highlights first so I can post those as I go and am putting it t..."
 -->
 
 ## Prompt:
 
 <!-- ATM-M-232 IN
-idea: "I was thinking about doing my water highlights first so I can post those as I go and am putting it t..."
+idea: "I was thinking about doing my gateway highlights first so I can post those as I go and am putting it t..."
 section: "Prompt"
 position: 7
 of_total: 8
@@ -335,37 +335,37 @@ context_above: "It sounds like you’re already pushing through the visibility b
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-I was thinking about doing my water highlights first so I can post those as I go and am putting it together so that’s a good teaser, I might need help with the webinar presentation in a little bit but not right now!
+I was thinking about doing my gateway highlights first so I can post those as I go and am putting it together so that’s a good teaser, I might need help with the webinar presentation in a little bit but not right now!
 <!-- ATM-M-232 OUT
 next: ATM-M-233
-context_below: "That’s a great plan! Updating your water highlights first will give people a solid foundation to exp..."
+context_below: "That’s a great plan! Updating your gateway highlights first will give people a solid foundation to exp..."
 -->
 
 ## Response:
 
 <!-- ATM-M-233 IN
-idea: "That’s a great plan! Updating your water highlights first will give people a solid foundation to exp..."
+idea: "That’s a great plan! Updating your gateway highlights first will give people a solid foundation to exp..."
 section: "Response"
 position: 8
 of_total: 8
 prev: ATM-M-232
-context_above: "I was thinking about doing my water highlights first so I can post those as I go and am putting it t..."
+context_above: "I was thinking about doing my gateway highlights first so I can post those as I go and am putting it t..."
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [10, 2, 9, 13]
-pillar: Identity
+pillar: Structure
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
 strike_phase: 1C
 -->
-That’s a great plan! Updating your water highlights first will give people a solid foundation to explore while you build up to the webinar. Let me know whenever you're ready for help with the webinar presentation or anything else related to your launch!
+That’s a great plan! Updating your gateway highlights first will give people a solid foundation to explore while you build up to the webinar. Let me know whenever you're ready for help with the webinar presentation or anything else related to your launch!
 <!-- ATM-M-233 OUT
 next: null
 context_below: null

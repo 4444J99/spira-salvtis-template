@@ -130,7 +130,7 @@ context_above: "EAU framework embedded, not front-and-center"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -245,7 +245,7 @@ context_below: "The first 13 nodes locked structure begins"
 
 
 <!-- ATM-R-006 IN
-idea: "Phase 1 ELEVATE nodes 1-5: Feel Good First, Body, Blood Sugar, Nervous System, Sleep = Physical Sovereignty"
+idea: "Phase 1 ELEVATE nodes 1-5: Feel Good First, Body, Blood Sugar, Nervous System, Sleep = Foundation Sovereignty"
 section: "13-Node Locked Structure"
 position: 6
 of_total: 32
@@ -254,7 +254,7 @@ context_above: "Node page content structure modeled on Shinn trilogy"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 3, 4, 5]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -318,7 +318,7 @@ Exhaustion distorts reality.
 ⸻
 
 
-👉 This cluster = Physical Sovereignty
+👉 This cluster = Foundation Sovereignty
 <!-- ATM-R-006 OUT
 next: ATM-R-007
 context_below: "Phase 2 ALIGN awareness nodes 6-9"
@@ -334,11 +334,11 @@ section: "13-Node Locked Structure"
 position: 7
 of_total: 32
 prev: ATM-R-006
-context_above: "Phase 1 ELEVATE — 5 Physical Sovereignty nodes"
+context_above: "Phase 1 ELEVATE — 5 Foundation Sovereignty nodes"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [6, 7, 8, 9]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -400,7 +400,7 @@ context_above: "Phase 2 ALIGN awareness nodes 6-9"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [10, 11, 12]
-pillar: Identity
+pillar: Structure
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -459,7 +459,7 @@ context_above: "Phase 3 ALIGN accountability nodes 10-12"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -657,7 +657,7 @@ context_above: "Non-linear transformation philosophy"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -816,7 +816,7 @@ context_below: "admin's detailed tweaks to node assignments and ordering"
 
 
 <!-- ATM-R-016 IN
-idea: "admin's detailed tweaks: merge nodes 3-5, add stress/inflammation, split awareness, rearrange accountability, identity transition before unlock"
+idea: "admin's detailed tweaks: merge nodes 3-5, add stress/inflammation, split awareness, rearrange accountability, structure transition before unlock"
 section: "admin's Tweaks to Node Structure"
 position: 16
 of_total: 32
@@ -839,10 +839,10 @@ But switch the absorption & efficiently / cells one and put the stress/inflammat
 Then we can do the full accountability with love.
 
 
-6 I think should be two - if you think feeling like shit is normal then ofc you're not gonna care to move your body or drink more water but if you start becoming aware of what you do want / what doesn't serve you etc then you can start to build the habits - good spot to tie in the compound effect.
+6 I think should be two - if you think feeling like shit is normal then ofc you're not gonna care to move your body or drink more gateway but if you start becoming aware of what you do want / what doesn't serve you etc then you can start to build the habits - good spot to tie in the compound effect.
 
 
-Then 7 - into some inner stuff- then can do the full accountability with love part - 8 before seven & after accountability tho !!
+Then 7 - into some system stuff- then can do the full accountability with love part - 8 before seven & after accountability tho !!
 And maybe 7 & 9 can be conjoined!?
 
 
@@ -873,7 +873,7 @@ context_above: "admin's detailed tweaks to node ordering"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 3, 4, 5]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -895,7 +895,7 @@ Introduces Maslow's triangle (foundation → awareness → expansion)
 Sets the tone: stabilize your state before you change your life
 
 
-Body & Physical Sovereignty Nodes (combine your tweaks):
+Body & Foundation Sovereignty Nodes (combine your tweaks):
 2. Your Body Is the Starting Point
 
 
@@ -926,7 +926,7 @@ Optional Additions:
 Absolution & efficiency: simplify routines, remove friction, build clean habits
 
 
-✅ This cluster = Physical & Creature Sovereignty
+✅ This cluster = Foundation & Creature Sovereignty
 <!-- ATM-R-017 OUT
 next: ATM-R-018
 context_below: "Refined Phase 2 ALIGN awareness and accountability"
@@ -944,7 +944,7 @@ context_above: "Refined Phase 1 ELEVATE with merged and new nodes"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [6, 7, 8, 9, 10, 11, 12]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -963,12 +963,12 @@ Focus on what you do want and what doesn't serve you
 Tie in Compound Effect for small wins stacking
 
 
-5b. Inner Observation / Not Your Thoughts
+5b. System Observation / Not Your Thoughts
 
 
-Become the observer of your inner landscape
+Become the observer of your system landscape
 
-Conjoin some inner work & reflection
+Conjoin some system work & reflection
 Patterns Run Until Seen
 
 
@@ -1006,13 +1006,13 @@ Integrity Builds Self-Trust
 ✅ Cluster = Ownership & Alignment in Action
 <!-- ATM-R-018 OUT
 next: ATM-R-019
-context_below: "Refined Phase 4 UNLOCK with identity transition and full integration"
+context_below: "Refined Phase 4 UNLOCK with structure transition and full integration"
 -->
 
 
 
 <!-- ATM-R-019 IN
-idea: "Refined Phase 4 UNLOCK: Systems Create Freedom, Identity & Authentic Expression (transition), Full Integration"
+idea: "Refined Phase 4 UNLOCK: Systems Create Freedom, Structure & Authentic Expression (transition), Full Integration"
 section: "Refined Nodular Flow (Response to Tweaks)"
 position: 19
 of_total: 32
@@ -1021,7 +1021,7 @@ context_above: "Refined Phase 2/3 ALIGN awareness and accountability"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11, 12, 13]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1034,7 +1034,7 @@ Systems Create Freedom
 *   Structures that support freedom & alignment
 *   Can lean into subtle wealth/money references here
 
-Identity & Authentic Expression (transition node)
+Structure & Authentic Expression (transition node)
 *   Bridges accountability & unlock
 *   How stability/security enables authentic self-expression
 *   Business/money as first step to full self-integration
@@ -1050,7 +1050,7 @@ context_below: "Simplified node flow gravity map and designer notes"
 
 
 <!-- ATM-R-020 IN
-idea: "Simplified gravity map: Entry → Physical → Mental → Accountability → Unlock, plus designer notes"
+idea: "Simplified gravity map: Entry → Foundation → Mental → Accountability → Unlock, plus designer notes"
 section: "Refined Nodular Flow (Response to Tweaks)"
 position: 20
 of_total: 32
@@ -1068,7 +1068,7 @@ strike_phase: 1A
 ⚡ Node Flow (Simplified Gravity Map)
 
 
-Entry → Physical Sovereignty → Mental Clarity → Accountability → Unlock / Integration
+Entry → Foundation Sovereignty → Mental Clarity → Accountability → Unlock / Integration
 
 
 Entry: Feel Good First
@@ -1079,7 +1079,7 @@ Mind: Awareness Creates Choice → Not Your Thoughts → Patterns Run → Realit
 
 Ownership: Radical Responsibility → Acknowledgment → Integrity / Confidence
 
-Unlock: Systems → Identity → Full Integration
+Unlock: Systems → Structure → Full Integration
 
 
 
@@ -1122,7 +1122,7 @@ context_above: "Simplified gravity map and designer notes"
 provenance: LOCAL
 nature: INSTRUCTION
 nodes: [8, 9]
-pillar: Identity
+pillar: Structure
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
@@ -1151,7 +1151,7 @@ context_above: "admin flags node 9 redundancy"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [8, 9, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1184,7 +1184,7 @@ Hovering over the nodes: users get concise, compelling titles that hint at what'
 Starting at the bottom (Feel Good First):
 Entry feels natural — body → mind → ownership → expansion
 
-Clusters are gradual: physical first, mental second, accountability third, unlock last
+Clusters are gradual: foundation first, mental second, accountability third, unlock last
 
 Even if someone skips around, hover titles still make sense in isolation and connect to the spiral's gravity
 
@@ -1198,7 +1198,7 @@ Basically, a new user would see:
 
 Hover over next star → curiosity → click → expand understanding
 
-Keep progressing, naturally building from physical to mental to self-responsibility to integration
+Keep progressing, naturally building from foundation to mental to self-responsibility to integration
 
 
 So yes — flow works both linearly and exploratorily.
@@ -1298,7 +1298,7 @@ Hovering shows title, clicking opens full panel
 Cluster Breakdown
 
 
-🌱 Elevate — Physical Sovereignty
+🌱 Elevate — Foundation Sovereignty
 
 
 Feel Good First (entry, Maslow triangle intro)
@@ -1316,7 +1316,7 @@ Notes: Optional smaller subnodes for "Absolution & Efficiency" if designers want
 
 
 5a. Awareness Creates Choice (small wins + compound effect)
-5b. Inner Observation / Not Your Thoughts (observer of self)
+5b. System Observation / Not Your Thoughts (observer of self)
 6. Patterns Run Until Seen (unconscious cycles)
 7. Your Reality Is Interpreted (reaction → meaning)
 
@@ -1334,7 +1334,7 @@ Notes: Designer can visually nest Accountability nodes under Align cluster while
 
 Systems Create Freedom (structure enables freedom, subtle wealth tie-in)
 
-Identity & Authentic Expression (bridge from alignment → unlock; stability → authentic self / business / money)
+Structure & Authentic Expression (bridge from alignment → unlock; stability → authentic self / business / money)
 
 Full Integration / Expansion (authentic self fully expressed across life / work / spirit)
 
@@ -1426,7 +1426,7 @@ Color / Cluster Coding
 
 
 
-🌱 ELEVATE — Physical + Awareness Foundation
+🌱 ELEVATE — Foundation + Awareness Foundation
 
 
 Feel Good First (entry, Maslow triangle intro)
@@ -1445,7 +1445,7 @@ Stabilize & Optimize (blood sugar, sleep, nervous system, efficiency / absorptio
 
 Stress & Inflammation (creature self, keep it simple, actionable root solutions)
 
-Notes: This cluster now flows from body → awareness → physical optimization → stress management, all under Elevate
+Notes: This cluster now flows from body → awareness → foundation optimization → stress management, all under Elevate
 
 
 🧠 ALIGN — Accountability & Ownership
@@ -1476,7 +1476,7 @@ Structure enables freedom & alignment
 
 Subtle wealth / stability tie-in
 
-Identity & Authentic Expression
+Structure & Authentic Expression
 *   Transition node: stability → authentic self / business / money
 
 
@@ -1501,7 +1501,7 @@ Hover titles: concise, compelling
 
 Click: full panel
 
-Flow is intuitive: physical + awareness first, accountability second, unlock last
+Flow is intuitive: foundation + awareness first, accountability second, unlock last
 
 Feedback loops can be shown visually with dotted lines if needed
 
@@ -1583,11 +1583,11 @@ Here are some questions and considerations to narrow it down:
 1. Where in the Spiral should they sit?
 
 
-Elevate cluster (🌱) → Physical + Awareness
+Elevate cluster (🌱) → Foundation + Awareness
 Could deepen foundational health / mental clarity / state management
 
 Align cluster (🧠) → Accountability & Ownership
-Could expand inner work, emotional mastery, confidence, or pattern disruption
+Could expand system work, emotional mastery, confidence, or pattern disruption
 
 Unlock cluster (🔓) → Expansion / Integration
 Could start integrating wealth, self-expression, or lifestyle design
@@ -1607,7 +1607,7 @@ Practical & actionable (body/mind hacks, efficiency, habits)
 
 Inspirational & mindset-focused (confidence, self-mastery, clarity)
 
-Expansion-oriented (freedom, money, identity, creativity)
+Expansion-oriented (freedom, money, structure, creativity)
 
 
 Question: Do you want the new nodes to lean more practical, more inspirational, or more expansive / aspirational?
@@ -1629,9 +1629,9 @@ Question: Should these nodes introduce new concepts, or reinforce / deepen what'
 
 Sovereign Systems: Elevate / Align / Unlock
 
-Maslow / Physical Sovereignty
+Maslow / Foundation Sovereignty
 
-Radical Responsibility / Integrity / Identity
+Radical Responsibility / Integrity / Structure
 
 Optional: Compound Effect, efficiency, freedom, money, authentic self
 
@@ -1686,7 +1686,7 @@ context_below: "Two new nodes proposed: Energy & Flow (Elevate) and Boundaries &
 
 ## Response:
 <!-- ATM-R-030 IN
-idea: "New Elevate node: 'Energy & Flow' — energy as first currency, bridges physical foundation and awareness"
+idea: "New Elevate node: 'Energy & Flow' — energy as first currency, bridges foundation foundation and awareness"
 section: "Final Locked Layout + New Nodes"
 position: 30
 of_total: 32
@@ -1695,7 +1695,7 @@ context_above: "admin decides one Elevate, one Align"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1716,9 +1716,9 @@ Why it fits:
 
 Expands Elevate without overcomplicating
 
-Addresses state beyond just physical stability — taps into vitality, energy regulation, and readiness for growth
+Addresses state beyond just foundation stability — taps into vitality, energy regulation, and readiness for growth
 
-Connects directly to physical sovereignty, stress/inflammation, sleep, and nervous system work
+Connects directly to foundation sovereignty, stress/inflammation, sleep, and nervous system work
 
 
 Core Truth / Title Example:
@@ -1747,7 +1747,7 @@ Story / Teaching: small rituals for energy reset, micro-habits for flow
 
 Pillar Tags: Body / Mind
 
-Adds a bridge between physical foundation and awareness, so users see Elevate as both stabilizing and energizing
+Adds a bridge between foundation foundation and awareness, so users see Elevate as both stabilizing and energizing
 <!-- ATM-R-030 OUT
 next: ATM-R-031
 context_below: "New Align node: Boundaries & Choice"
@@ -1764,7 +1764,7 @@ context_above: "New Elevate node: Energy & Flow"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1862,7 +1862,7 @@ NEW: Boundaries & Choice
 
 🔓 Unlock
 9. Systems Create Freedom
-10. Identity & Authentic Expression
+10. Structure & Authentic Expression
 11. Full Integration / Expansion
 
 

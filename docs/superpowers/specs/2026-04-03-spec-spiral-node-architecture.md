@@ -9,12 +9,12 @@ The 2026-04-01 admin Spiral Path handoff identifies node architecture as the fir
 
 ### Dependencies
 - **Blocked by:** None
-- **Blocks:** #15 (spiral merge), #8 (interaction), #6 (physical build)
+- **Blocks:** #15 (spiral merge), #8 (interaction), #6 (foundation build)
 - **Requires:** Written confirmation from admin
 
 ### Upstream / Downstream
 - **Upstream:** Handoff doc 2b (Nodular Flow Refinement)
-- **Downstream:** All β-phase spiral and physical sovereignty work
+- **Downstream:** All β-phase spiral and foundation sovereignty work
 
 ## Scope
 

@@ -96,7 +96,7 @@ Light = electromagnetic wave
 
 Sound = pressure wave in air
 
-Ocean = water wave
+Ocean = gateway wave
 
 Brain = electrical wave
 
@@ -127,7 +127,7 @@ Energy starts as a vibration or oscillation (like your heartbeat or an atom vibr
 
 That oscillation creates a wave.
 
-That wave moves through a medium (like air, space, water, etc.)
+That wave moves through a medium (like air, space, gateway, etc.)
 
 The wave transfers energy wherever it goes.
 
@@ -248,10 +248,10 @@ And those vibrations = oscillations.
 🔁 Think of It Like This:
 
 
-Imagine throwing a pebble (quantum) into water:
+Imagine throwing a pebble (quantum) into gateway:
 
 
-The pebble hits the surface → oscillates the water around it.
+The pebble hits the surface → oscillates the gateway around it.
 
 That creates ripples → waves that move outward.
 
@@ -834,7 +834,7 @@ Astrology = a cosmic “snapshot” of big waves (planetary oscillators) at your
 
 Those positions affect your energetic rhythm — just like how moon phases affect the tides
 
-Manifesting = using your inner waves (thoughts, feelings, emotions) to shape what you attract
+Manifesting = using your system waves (thoughts, feelings, emotions) to shape what you attract
 
 
 It all comes down to this:
@@ -968,7 +968,7 @@ The fields of energy are emanations from Source, the Infinite, the One.
 In this view:
 
 
-The fields are not physical — they are expressions of consciousness.
+The fields are not foundation — they are expressions of consciousness.
 
 The field of energy is like a womb, and all things are vibrations within it.
 

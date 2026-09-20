@@ -18,12 +18,12 @@ export interface Branch {
   citationIds: string[];
   ghlUrl?: string;
   /**
-   * Whether the branch surfaces on the spiral site (water hub teasers, nav, etc).
-   * Default true. Hidden branches keep their /water/[slug] route + .md source —
+   * Whether the branch surfaces on the spiral site (gateway hub teasers, nav, etc).
+   * Default true. Hidden branches keep their /gateway/[slug] route + .md source —
    * the route still resolves for direct links and HTML extraction — but no
    * navigation surface exposes them. Per admin 2026-05-16 voice note:
    * spiral = 3 visible branches (Inflammation, Hormone Health, Energy + Focus);
-   * the other 3 move to her GHL water hub at water-spira-salvtis.dev.
+   * the other 3 move to her GHL gateway hub at gateway-spira-salvtis.dev.
    */
   visible?: boolean;
 }
@@ -44,7 +44,7 @@ export type EnvVar =
   | 'OCULUS' // 2 — Eye — witness / observation
   | 'DYAD' // 3 — Yin-Yang — polarity / pair
   | 'PYRAMIS' // 4 — Triangle — pyramid / ascending volume
-  | 'HYDOR' // 5 — Teardrop — water / source
+  | 'HYDOR' // 5 — Teardrop — gateway / source
   | 'MANDORLA' // 6 — Vesica Piscis — overlap / sacred gate
   | 'KENOSIS' // 7 — Crescent — emptying / receptive vessel
   | 'SHATKONA' // 8 — Hexagram — six-pointed union
@@ -75,7 +75,7 @@ export type QuizTheme =
   | 'beyond-baseline'
   | 'knowing-better' // node 4
   | 'foundation'
-  | 'hydration'
+  | 'gateway'
   | 'root-cause' // node 5
   | 'ownership'
   | 'gentleness'
@@ -96,7 +96,7 @@ export type QuizTheme =
   | 'wholeness'
   | 'pulling-together' // node 11
   | 'expression'
-  | 'identity'
+  | 'structure'
   | 'loud-pride' // node 12
   | 'freedom'
   | 'gifts-amplified'
@@ -112,7 +112,7 @@ export interface SpiralNode {
   color: string;
   status: 'live' | 'locked';
   url: string;
-  /** Immutable substrate identity — see EnvVar type above. */
+  /** Immutable substrate structure — see EnvVar type above. */
   envVar: EnvVar;
   /**
    * Theme tags used by the node-placement quiz. The themes describe
@@ -145,7 +145,7 @@ export interface HubConfig {
   branches: Branch[];
   domains: {
     hub: string;
-    water: string;
+    gateway: string;
     business: string;
   };
   ghl: {
@@ -157,7 +157,7 @@ export interface HubConfig {
 /**
  * VesselMode — how spiral nodes render their substrate.
  *
- *  invisible       — mesh hidden, particle field is the visual identity
+ *  invisible       — mesh hidden, particle field is the visual structure
  *  visible         — mesh shown as a translucent membrane, particle field retained
  *  refracted-star  — mesh shown with stars-variant transmission/IOR/dispersion
  *                    material; particle field suppressed; prismatic look
@@ -171,7 +171,7 @@ export type VesselMode = 'invisible' | 'visible' | 'refracted-star' | 'hybrid';
 /**
  * NavVariant — top-of-page navigation surface.
  *
- *  pillar-first  — current default; nav links to /pillars/:slug + /water/ + /business/
+ *  pillar-first  — current default; nav links to /pillars/:slug + /gateway/ + /business/
  *  spiral-first  — alternate; nav links directly to /nodes/1..13 sequence
  */
 export type NavVariant = 'pillar-first' | 'spiral-first';
@@ -232,44 +232,44 @@ export const ui: UIConfig = {
 export const config: HubConfig = {
   name: 'Sovereign Systems Spiral',
   tagline:
-    'Rebuilding life from the foundation up \u2014 stabilizing the body, strengthening inner authority, refining identity, and installing financial systems.',
+    'Rebuilding life from the foundation up \u2014 stabilizing the body, strengthening system authority, refining structure, and installing vision systems.',
   pillars: [
     {
-      name: 'Physical Sovereignty',
-      slug: 'physical',
+      name: 'Foundation Sovereignty',
+      slug: 'foundation',
       emoji: '\u{1F30A}',
       tagline: 'Control your inputs. Stabilize your body.',
       color: '#ff9a3c',
-      url: '/pillars/physical',
+      url: '/pillars/foundation',
       status: 'live',
       order: 1,
       citationIds: ['B-01', 'B-78', 'S-14', 'S-19'],
     },
     {
-      name: 'Inner Sovereignty',
-      slug: 'inner',
+      name: 'System Sovereignty',
+      slug: 'system',
       emoji: '\u{1F54A}',
       tagline: 'Control your internal state.',
       color: '#4ed158',
-      url: '/pillars/inner',
+      url: '/pillars/system',
       status: 'live',
       order: 2,
       citationIds: ['S-36', 'S-39', 'S-44', 'B-79', 'B-80', 'B-87', 'B-91'],
     },
     {
-      name: 'Identity Sovereignty',
-      slug: 'identity',
+      name: 'Structure Sovereignty',
+      slug: 'structure',
       emoji: '\u2728',
       tagline: 'Control your self-expression.',
       color: '#6c4cd6',
-      url: '/pillars/identity',
+      url: '/pillars/structure',
       status: 'live',
       order: 3,
       citationIds: ['S-61', 'S-62', 'S-68', 'S-78', 'B-104', 'B-105', 'B-106'],
     },
     {
-      name: 'Financial Sovereignty',
-      slug: 'financial',
+      name: 'Vision Sovereignty',
+      slug: 'vision',
       emoji: '\u{1F4A0}',
       tagline: 'Control your income and systems.',
       color: '#c97ce8',
@@ -280,12 +280,12 @@ export const config: HubConfig = {
     },
   ],
   nodes: [
-    // ELEVATE: body → Physical Sovereignty (nodes 1-5)
+    // ELEVATE: body → Foundation Sovereignty (nodes 1-5)
     {
       id: 1,
       name: 'Feel Good First',
       phase: 'ELEVATE',
-      pillarSlug: 'physical',
+      pillarSlug: 'foundation',
       emoji: '✦',
       tagline: 'Feeling good is the baseline — not the bonus.',
       color: '#ff3b3b',
@@ -299,7 +299,7 @@ export const config: HubConfig = {
       id: 2,
       name: 'Awareness',
       phase: 'ELEVATE',
-      pillarSlug: 'physical',
+      pillarSlug: 'foundation',
       emoji: '🧬',
       tagline: 'Your body is always speaking — are you listening?',
       color: '#ff563c',
@@ -313,7 +313,7 @@ export const config: HubConfig = {
       id: 3,
       name: 'Regulation',
       phase: 'ELEVATE',
-      pillarSlug: 'physical',
+      pillarSlug: 'foundation',
       emoji: '⚖️',
       tagline: 'Balance your energy, calm your system.',
       color: '#ff723c',
@@ -327,7 +327,7 @@ export const config: HubConfig = {
       id: 4,
       name: 'Elevate',
       phase: 'ELEVATE',
-      pillarSlug: 'physical',
+      pillarSlug: 'foundation',
       emoji: '🛡️',
       tagline:
         'Feeling like shit is not normal — when you know better, you do better.',
@@ -342,22 +342,22 @@ export const config: HubConfig = {
       id: 5,
       name: 'Root Healing',
       phase: 'ELEVATE',
-      pillarSlug: 'physical',
+      pillarSlug: 'foundation',
       emoji: '🌊',
       tagline: 'Optimize your absorption & energy flow.',
       color: '#ffad3c',
       status: 'live',
-      url: '/water/',
+      url: '/gateway/',
       envVar: 'HYDOR',
-      themes: ['foundation', 'hydration', 'root-cause'],
+      themes: ['foundation', 'gateway', 'root-cause'],
       chakra: 'sacral',
     },
-    // ALIGN: mind + life → Inner & Identity Sovereignty (nodes 6-10)
+    // ALIGN: mind + life → System & Structure Sovereignty (nodes 6-10)
     {
       id: 6,
       name: 'Responsibility (with Love)',
       phase: 'ALIGN',
-      pillarSlug: 'inner',
+      pillarSlug: 'system',
       emoji: '🕊️',
       tagline: 'Own your choices, gently.',
       color: '#ffcd3b',
@@ -371,7 +371,7 @@ export const config: HubConfig = {
       id: 7,
       name: 'Unbecoming',
       phase: 'ALIGN',
-      pillarSlug: 'inner',
+      pillarSlug: 'system',
       emoji: '🌙',
       tagline: 'Reclaim / Remember / Release.',
       color: '#a7d24a',
@@ -385,7 +385,7 @@ export const config: HubConfig = {
       id: 8,
       name: 'Alignment',
       phase: 'ALIGN',
-      pillarSlug: 'inner',
+      pillarSlug: 'system',
       emoji: '🔮',
       tagline: 'See clearly, act intentionally.',
       color: '#4dce65',
@@ -399,7 +399,7 @@ export const config: HubConfig = {
       id: 9,
       name: 'The Becoming',
       phase: 'ALIGN',
-      pillarSlug: 'identity',
+      pillarSlug: 'structure',
       emoji: '🪷',
       tagline: 'Know your power — your choices create a life that fuels you.',
       color: '#43b6c1',
@@ -413,7 +413,7 @@ export const config: HubConfig = {
       id: 10,
       name: 'Awakening',
       phase: 'ALIGN',
-      pillarSlug: 'identity',
+      pillarSlug: 'structure',
       emoji: '✨',
       tagline: "I'm awake, I have all this power — now what?",
       color: '#4992ed',
@@ -423,12 +423,12 @@ export const config: HubConfig = {
       themes: ['awakening', 'what-now', 'post-awakening'],
       chakra: 'crown',
     },
-    // UNLOCK: integration + freedom → Identity & Financial Sovereignty (nodes 11-13)
+    // UNLOCK: integration + freedom → Structure & Vision Sovereignty (nodes 11-13)
     {
       id: 11,
       name: 'Integrate',
       phase: 'UNLOCK',
-      pillarSlug: 'identity',
+      pillarSlug: 'structure',
       emoji: '⨁',
       tagline: 'Pull it all together; your wholeness is the work.',
       color: '#645bdb',
@@ -442,21 +442,21 @@ export const config: HubConfig = {
       id: 12,
       name: 'Authenticate',
       phase: 'UNLOCK',
-      pillarSlug: 'financial',
+      pillarSlug: 'vision',
       emoji: '💠',
       tagline: 'Be YOU — loudly, proudly, unapologetically.',
       color: '#9360de',
       status: 'locked',
       url: '/nodes/12',
       envVar: 'OKTAEDRON',
-      themes: ['expression', 'identity', 'loud-pride'],
+      themes: ['expression', 'structure', 'loud-pride'],
       chakra: 'throat',
     },
     {
       id: 13,
       name: 'Unlock',
       phase: 'UNLOCK',
-      pillarSlug: 'financial',
+      pillarSlug: 'vision',
       emoji: '⚡',
       tagline: 'Level up fully — your gifts, flow, and freedom amplified.',
       color: '#c97ce8',
@@ -470,7 +470,7 @@ export const config: HubConfig = {
   branches: [
     {
       name: 'Hormone Health',
-      slug: 'gut-hormones',
+      slug: 'archetype-epsilon',
       emoji: '\u{1F33F}',
       order: 1,
       citationIds: [
@@ -484,13 +484,13 @@ export const config: HubConfig = {
         'B-20',
         'S-16',
       ],
-      // Unlinked (admin 2026-06-22 #35 "Option A — full swap"): deep water
-      // branch content moves to GHL / water-spira-salvtis.dev; markdown preserved.
+      // Unlinked (admin 2026-06-22 #35 "Option A — full swap"): deep gateway
+      // branch content moves to GHL / gateway-spira-salvtis.dev; markdown preserved.
       visible: false,
     },
     {
-      name: 'Fertility',
-      slug: 'fertility',
+      name: 'Archetype-delta',
+      slug: 'archetype-delta',
       emoji: '\u{1F90D}',
       order: 2,
       citationIds: [
@@ -509,7 +509,7 @@ export const config: HubConfig = {
     },
     {
       name: 'Energy + Focus',
-      slug: 'athletic',
+      slug: 'archetype-alpha',
       emoji: '\u{1F4AA}',
       order: 3,
       citationIds: [
@@ -527,7 +527,7 @@ export const config: HubConfig = {
     },
     {
       name: 'Inflammation',
-      slug: 'autoimmune',
+      slug: 'archetype-beta',
       emoji: '\u{1F525}',
       order: 4,
       citationIds: [
@@ -545,7 +545,7 @@ export const config: HubConfig = {
     },
     {
       name: 'Cancer Support',
-      slug: 'cancer-support',
+      slug: 'archetype-gamma',
       emoji: '\u{1F397}',
       order: 5,
       citationIds: [
@@ -561,8 +561,8 @@ export const config: HubConfig = {
       visible: false,
     },
     {
-      name: 'Sustainability / Savings',
-      slug: 'sustainability',
+      name: 'Archetype-zeta / Savings',
+      slug: 'archetype-zeta',
       emoji: '\u{1F30E}',
       order: 6,
       citationIds: ['S-13', 'S-17', 'S-19'],
@@ -571,12 +571,12 @@ export const config: HubConfig = {
   ],
   domains: {
     hub: 'hub-spira-salvtis.dev',
-    water: 'water-spira-salvtis.dev',
+    gateway: 'gateway-spira-salvtis.dev',
     business: 'business-spira-salvtis.dev',
   },
   ghl: {
     quizFormUrl:
       'https://api.leadconnectorhq.com/widget/quiz/qoZk7lZax3nSDwIVkZOW',
-    productUrl: 'https://water-spira-salvtis.dev',
+    productUrl: 'https://gateway-spira-salvtis.dev',
   },
 };

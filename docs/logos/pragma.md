@@ -4,19 +4,19 @@
 
 ## What Is Built
 
-Hub-and-spoke Astro 6 site deployed to Cloudflare Workers + Static Assets. The build now generates **~51 routes** (prerendered pages + 2 server APIRoutes — `/capture` and `/api/water-report`; recount from `npm run build` output rather than trusting the figure) across 3 domains:
+Hub-and-spoke Astro 6 site deployed to Cloudflare Workers + Static Assets. The build now generates **~51 routes** (prerendered pages + 2 server APIRoutes — `/capture` and `/api/gateway-report`; recount from `npm run build` output rather than trusting the figure) across 3 domains:
 
 | Domain | Purpose | Connected |
 |--------|---------|-----------|
 | hub-example.com | Central hub | No (CF dashboard pending) |
-| water-example.com | Water filtration funnel | Configured |
-| business-example.com | Financial Sovereignty / business arm | Not yet |
+| gateway-example.com | Gateway filtration funnel | Configured |
+| business-example.com | Vision Sovereignty / business arm | Not yet |
 
 ### Architecture
 
 - **13-node golden-angle spiral** — Phase 1 ELEVATE (5 nodes live), Phases 2-4 (8 nodes locked)
 - **Spiral-first homepage** — canvas hero (80vh), quiz CTA, pillar phases, video placeholder
-- **Water page** scoped to mini version — Hero, video, education, HydrationNode funnel, research
+- **Gateway page** scoped to mini version — Hero, video, education, HydrationNode funnel, research
 - **Quiz routing** — name+email gate, pillar routing options at `/quiz`
 - **6-step HydrationNode funnel** — ZIP lookup via EWG API, email-gated filter recommendations, 5 filter tiers, spring locator
 - **Content collections** — 6 branch pages, 4 pillar pages, 12 node pages

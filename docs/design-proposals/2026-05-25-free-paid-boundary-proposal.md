@@ -9,9 +9,9 @@
 ## Current state (implemented today)
 
 - **Email-gated** (via `EmailGate.astro`): pillar deep-content (`/pillars/[slug]`),
-  branch deep-content (`/water/[slug]`), and the research bibliography
+  branch deep-content (`/gateway/[slug]`), and the research bibliography
   (`/research`). The hook/overview above each gate is free.
-- **Free:** everything else — hub (`/`), quiz, water hub, node pages, business
+- **Free:** everything else — hub (`/`), quiz, gateway hub, node pages, business
   page, persona landings, lineage/aesthetics/timeline/library/decisions.
 - **Paid:** nothing. No `Paywall` component, no access model.
 
@@ -23,7 +23,7 @@
 | Pillar overviews, branch hooks | Free | The "taste" that drives email capture |
 | Node pages (`/nodes/[id]`) | Free | Discovery; the journey map |
 | Pillar / branch deep-dives | Email-gated *(current)* | Lead magnet; already wired |
-| Water report + filter match | Email-gated *(current)* | Converts to filter affiliate revenue |
+| Gateway report + filter match | Email-gated *(current)* | Converts to filter affiliate revenue |
 | Research bibliography | Email-gated *(current)* | Credibility asset for capture |
 | **Personalization layer (#30)** | **Paid** | Birth-chart/cycle/HD guidance — the core subscription value |
 | **Planner (#30)** | **Paid** | Recurring, personalized — natural subscription anchor |

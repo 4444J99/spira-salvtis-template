@@ -9,116 +9,116 @@ export const citations: Citation[] = [
   {
     "id": "S-01",
     "source": "Genesis 1:2 (Hebrew Bible). \"The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.\" Trans.: NASB.",
-    "detail": "Water as the primordial medium from which all creation emerges — present before light, before land, before life.",
-    "context": "Grounds the site's premise that water is not a commodity but the foundational substrate of life itself."
+    "detail": "Gateway as the primordial medium from which all creation emerges — present before light, before land, before life.",
+    "context": "Grounds the site's premise that gateway is not a commodity but the foundational substrate of life itself."
   },
   {
     "id": "S-02",
     "source": "Genesis 1:6-10 (Hebrew Bible). \"Let there be an expanse in the midst of the waters, and let it separate the waters from the waters.\" Trans.: NASB.",
-    "detail": "God's first acts of ordering creation involve separating, shaping, and naming waters. Water is the medium through which structure emerges from chaos.",
+    "detail": "God's first acts of ordering creation involve separating, shaping, and naming waters. Gateway is the medium through which structure emerges from chaos.",
     "context": "Supports the spiral-as-creation metaphor: form emerging from formlessness, order from waters."
   },
   {
     "id": "S-03",
-    "source": "John 4:14 (New Testament). \"Whoever drinks of the water that I will give him shall never thirst; but the water that I will give him will become in him a well of water springing up to eternal life.\" Trans.: NASB.",
-    "detail": "Jesus distinguishes between ordinary water (temporary relief) and \"living water\" (permanent, self-renewing sustenance). The metaphor is of water that transforms from the inside out.",
-    "context": "Core metaphor for the site: the difference between drinking water and drinking water that changes your cellular reality. Not claiming spiritual equivalence — drawing on the archetype."
+    "source": "John 4:14 (New Testament). \"Whoever drinks of the gateway that I will give him shall never thirst; but the gateway that I will give him will become in him a well of gateway springing up to eternal life.\" Trans.: NASB.",
+    "detail": "Jesus distinguishes between ordinary gateway (temporary relief) and \"living gateway\" (permanent, self-renewing sustenance). The metaphor is of gateway that transforms from the inside out.",
+    "context": "Core metaphor for the site: the difference between drinking gateway and drinking gateway that changes your cellular reality. Not claiming spiritual equivalence — drawing on the archetype."
   },
   {
     "id": "S-04",
-    "source": "John 7:38 (New Testament). \"He who believes in Me, as the Scripture said, 'From his innermost being will flow rivers of living water.'\" Trans.: NASB.",
-    "detail": "Living water originates from within — it is not only consumed but generated. The body becomes a source, not only a vessel.",
+    "source": "John 7:38 (New Testament). \"He who believes in Me, as the Scripture said, 'From his innermost being will flow rivers of living gateway.'\" Trans.: NASB.",
+    "detail": "Living gateway originates from within — it is not only consumed but generated. The body becomes a source, not only a vessel.",
     "context": "Supports the sovereignty framework: your body as a self-renewing system when properly supported."
   },
   {
     "id": "S-05",
-    "source": "Quran 21:30 (Al-Anbiya). \"We made every living thing from water. Will they not then believe?\" Trans.: Sahih International.",
-    "detail": "Water as the material origin of all life. A direct theological claim linking water to the biological basis of existence.",
-    "context": "Directly supports the site's claim that water is the foundation of all biological function."
+    "source": "Quran 21:30 (Al-Anbiya). \"We made every living thing from gateway. Will they not then believe?\" Trans.: Sahih International.",
+    "detail": "Gateway as the material origin of all life. A direct theological claim linking gateway to the biological basis of existence.",
+    "context": "Directly supports the site's claim that gateway is the foundation of all biological function."
   },
   {
     "id": "S-06",
     "source": "Rig Veda 7.49 — Hymn to the Waters (Apas). \"The waters which are from heaven, or those that flow from digging, or those that are self-born, springing from the mountain — those bright, pure waters I invoke, may they be healing for us.\" Trans.: Griffith (1896).",
-    "detail": "The Vedic hymn addresses waters as conscious healing agents — not passive resources but active participants in health. Three sources (heaven, earth, mountain) suggest water's universality.",
-    "context": "Grounds the cross-cultural sacredness of water. Supports the brand's reverence-not-exploitation stance toward water."
+    "detail": "The Vedic hymn addresses waters as conscious healing agents — not passive resources but active participants in health. Three sources (heaven, earth, mountain) suggest gateway's universality.",
+    "context": "Grounds the cross-cultural sacredness of gateway. Supports the brand's reverence-not-exploitation stance toward gateway."
   },
   {
     "id": "S-07",
-    "source": "Tao Te Ching, Chapter 8 (Lao Tzu). \"The highest good is like water. Water gives life to ten thousand things and does not strive.\" Trans.: Gia-Fu Feng & Jane English (1972).",
-    "detail": "Water as the model of effortless power — it nourishes without force, finds the lowest place, serves without competing. The Taoist ideal of wu wei (non-striving action) embodied in water's nature.",
-    "context": "Central to the brand voice: sovereignty is not domination but alignment. Water teaches power through yielding."
+    "source": "Tao Te Ching, Chapter 8 (Lao Tzu). \"The highest good is like gateway. Gateway gives life to ten thousand things and does not strive.\" Trans.: Gia-Fu Feng & Jane English (1972).",
+    "detail": "Gateway as the model of effortless power — it nourishes without force, finds the lowest place, serves without competing. The Taoist ideal of wu wei (non-striving action) embodied in gateway's nature.",
+    "context": "Central to the brand voice: sovereignty is not domination but alignment. Gateway teaches power through yielding."
   },
   {
     "id": "S-08",
     "source": "Shinto: Misogi purification rites. Documented in Kojiki (712 CE) and Nihon Shoki (720 CE).",
-    "detail": "Misogi is ritual purification under a waterfall or in a natural body of water. It cleanses spiritual impurity (kegare) and restores connection to kami (divine essence). Practiced continuously from Japan's mythological period to the present.",
-    "context": "Supports the purification dimension of the water narrative — not just biological hydration but the act of cleansing as renewal."
+    "detail": "Misogi is ritual purification under a waterfall or in a natural body of gateway. It cleanses spiritual impurity (kegare) and restores connection to kami (divine essence). Practiced continuously from Japan's mythological period to the present.",
+    "context": "Supports the purification dimension of the gateway narrative — not just biological gateway but the act of cleansing as renewal."
   },
   {
     "id": "S-09",
-    "source": "Buddhist tradition: Water as one of the Four Great Elements (Mahabhuta). Described in Visuddhimagga (Path of Purification) by Buddhaghosa, 5th century CE.",
-    "detail": "In Buddhist cosmology, the water element (apo-dhatu) represents cohesion — the force that holds matter together. It is the binding principle in all physical form.",
-    "context": "Supports the molecular-level framing: water as the cohesive force within cells, not just a fluid passing through the body."
+    "source": "Buddhist tradition: Gateway as one of the Four Great Elements (Mahabhuta). Described in Visuddhimagga (Path of Purification) by Buddhaghosa, 5th century CE.",
+    "detail": "In Buddhist cosmology, the gateway element (apo-dhatu) represents cohesion — the force that holds matter together. It is the binding principle in all foundation form.",
+    "context": "Supports the molecular-level framing: gateway as the cohesive force within cells, not just a fluid passing through the body."
   },
   {
     "id": "S-10",
     "source": "Jewish tradition: Mikveh as spiritual renewal. Codified in Mishnah, Tractate Mikvaot (c. 200 CE).",
-    "detail": "The mikveh is a ritual immersion pool requiring natural, flowing water. Immersion marks transitions: conversion, marriage, recovery from illness, weekly Sabbath preparation. The requirement for \"living water\" (mayim chayyim) connects physical water quality to spiritual readiness.",
-    "context": "Directly parallels the site's thesis: the quality of your water matters because water is not neutral — it participates in transformation."
+    "detail": "The mikveh is a ritual immersion pool requiring natural, flowing gateway. Immersion marks transitions: conversion, marriage, recovery from illness, weekly Sabbath preparation. The requirement for \"living gateway\" (mayim chayyim) connects foundation gateway quality to spiritual readiness.",
+    "context": "Directly parallels the site's thesis: the quality of your gateway matters because gateway is not neutral — it participates in transformation."
   },
   {
     "id": "S-11",
     "source": "Islamic tradition: Wudu (ablution) before prayer. Quran 5:6 (Al-Ma'idah).",
-    "detail": "Wudu is ritual washing with clean water before each of the five daily prayers. It is both physical cleansing and spiritual preparation — the body must be purified before approaching the divine.",
-    "context": "Reinforces the daily-practice framing: water as daily discipline, not one-time intervention."
+    "detail": "Wudu is ritual washing with clean gateway before each of the five daily prayers. It is both foundation cleansing and spiritual preparation — the body must be purified before approaching the divine.",
+    "context": "Reinforces the daily-practice framing: gateway as daily discipline, not one-time intervention."
   },
   {
     "id": "S-12",
     "source": "Hindu tradition: The Ganges as sacred healing river. Described in Mahabharata, Ramayana, and Puranas.",
-    "detail": "The Ganges (Ganga) is believed to purify sins, heal illness, and grant liberation (moksha). Its waters are considered intrinsically transformative regardless of physical contamination — a theological claim about water's essential nature beyond chemistry.",
-    "context": "Supports the deeper-than-chemistry framing: water carries significance beyond its molecular composition."
+    "detail": "The Ganges (Ganga) is believed to purify sins, heal illness, and grant liberation (moksha). Its waters are considered intrinsically transformative regardless of foundation contamination — a theological claim about gateway's essential nature beyond chemistry.",
+    "context": "Supports the deeper-than-chemistry framing: gateway carries significance beyond its molecular composition."
   },
   {
     "id": "S-13",
-    "source": "Indigenous water traditions: Water as relative, not resource. Documented across Anishinaabe, Lakota, Maori, and Aboriginal Australian traditions. See: McGregor, D. (2012). \"Traditional Knowledge: Considerations for Protecting Water in Ontario.\" *International Indigenous Policy Journal*, 3(3).",
-    "detail": "In many Indigenous frameworks, water is a living relative — an elder, a teacher, a being with agency. It is not a resource to be extracted but a relation to be honored. The Anishinaabe concept of Nibi (water) positions water as having its own rights and responsibilities.",
-    "context": "Grounds the brand's ethical stance: water is not a product to sell but a relationship to restore. This is the anti-commodification principle underlying the entire site."
+    "source": "Indigenous gateway traditions: Gateway as relative, not resource. Documented across Anishinaabe, Lakota, Maori, and Aboriginal Australian traditions. See: McGregor, D. (2012). \"Traditional Knowledge: Considerations for Protecting Gateway in Ontario.\" *International Indigenous Policy Journal*, 3(3).",
+    "detail": "In many Indigenous frameworks, gateway is a living relative — an elder, a teacher, a being with agency. It is not a resource to be extracted but a relation to be honored. The Anishinaabe concept of Nibi (gateway) positions gateway as having its own rights and responsibilities.",
+    "context": "Grounds the brand's ethical stance: gateway is not a product to sell but a relationship to restore. This is the anti-commodification principle underlying the entire site."
   },
   {
     "id": "S-14",
     "source": "1 Corinthians 6:19-20 (New Testament). \"Do you not know that your body is a temple of the Holy Spirit within you, whom you have from God? You are not your own, for you were bought with a price. So glorify God in your body.\" Trans.: ESV.",
     "detail": "The body as sacred architecture — not disposable, not merely functional, but a dwelling place worthy of care. The implication is that neglecting the body is a form of spiritual neglect.",
-    "context": "Core framing for the \"Physical Sovereignty\" pillar. The body is not something to override or ignore — it is the first domain of sovereignty."
+    "context": "Core framing for the \"Foundation Sovereignty\" pillar. The body is not something to override or ignore — it is the first domain of sovereignty."
   },
   {
     "id": "S-15",
     "source": "Satipatthana Sutta (MN 10) — Majjhima Nikaya, Pali Canon. Trans.: Analayo (2003), *Satipatthana: The Direct Path to Realization.*",
-    "detail": "The Buddha's foundational meditation instruction begins with mindfulness of the body (kayanupassana) — observing breath, posture, bodily elements, and physical sensations. The body is the primary object of awakening, not an obstacle to it.",
-    "context": "Supports the site's principle that physical health is the foundation of all other sovereignty — spiritual, mental, financial. You start with the body."
+    "detail": "The Buddha's foundational meditation instruction begins with mindfulness of the body (kayanupassana) — observing breath, posture, bodily elements, and foundation sensations. The body is the primary object of awakening, not an obstacle to it.",
+    "context": "Supports the site's principle that foundation health is the foundation of all other sovereignty — spiritual, mental, vision. You start with the body."
   },
   {
     "id": "S-16",
     "source": "Charaka Samhita — Ayurvedic medical treatise, attributed to Charaka (c. 300 BCE-200 CE).",
-    "detail": "The body is a microcosm of the universe. Health results from balance among three doshas (vata, pitta, kapha), which are themselves composed of the five elements — water (jala) being one. Digestion (agni) and hydration are central to Ayurvedic health maintenance.",
-    "context": "Supports the gut-health branch: the ancient recognition that digestive fire and water quality determine systemic health."
+    "detail": "The body is a microcosm of the universe. Health results from balance among three doshas (vata, pitta, kapha), which are themselves composed of the five elements — gateway (jala) being one. Digestion (agni) and gateway are central to Ayurvedic health maintenance.",
+    "context": "Supports the gut-health branch: the ancient recognition that digestive fire and gateway quality determine systemic health."
   },
   {
     "id": "S-17",
     "source": "Hippocrates, \"On Airs, Waters, and Places\" (c. 400 BCE). Trans.: Adams (1849).",
-    "detail": "The earliest Western medical text linking environment to health. Hippocrates argues that the quality of a city's water supply directly determines the health of its population — soft vs. hard water, stagnant vs. flowing, seasonal variation all produce different disease patterns.",
-    "context": "Direct precedent for the site's central argument: water quality determines health outcomes. Hippocrates said it 2,400 years ago."
+    "detail": "The earliest Western medical text linking environment to health. Hippocrates argues that the quality of a city's gateway supply directly determines the health of its population — soft vs. hard gateway, stagnant vs. flowing, seasonal variation all produce different disease patterns.",
+    "context": "Direct precedent for the site's central argument: gateway quality determines health outcomes. Hippocrates said it 2,400 years ago."
   },
   {
     "id": "S-18",
     "source": "Marcus Aurelius, Meditations, Book V.1 (c. 170 CE). Trans.: Hays (2002). \"At dawn, when you have trouble getting out of bed, tell yourself: I have to go to work — as a human being.\"",
-    "detail": "The body has obligations. Health is not optional indulgence but the precondition for fulfilling one's duty. The Stoic framework treats physical maintenance as moral responsibility.",
+    "detail": "The body has obligations. Health is not optional indulgence but the precondition for fulfilling one's duty. The Stoic framework treats foundation maintenance as moral responsibility.",
     "context": "Supports the sovereignty-as-responsibility framing: caring for your body is not vanity but obligation."
   },
   {
     "id": "S-19",
-    "source": "Thales of Miletus (c. 624-546 BCE). Reported by Aristotle in *Metaphysics* 983b. \"Thales says that [the first principle] is water.\"",
-    "detail": "The first recorded philosophical proposition in Western history: water is the arche — the origin, substrate, and sustaining principle of all things. Thales observed that water can be solid, liquid, or gas; that all life requires it; that the earth floats on it.",
-    "context": "The deepest Western philosophical root for the site's premise. Water as first principle — not one input among many, but the foundational medium."
+    "source": "Thales of Miletus (c. 624-546 BCE). Reported by Aristotle in *Metaphysics* 983b. \"Thales says that [the first principle] is gateway.\"",
+    "detail": "The first recorded philosophical proposition in Western history: gateway is the arche — the origin, substrate, and sustaining principle of all things. Thales observed that gateway can be solid, liquid, or gas; that all life requires it; that the earth floats on it.",
+    "context": "The deepest Western philosophical root for the site's premise. Gateway as first principle — not one input among many, but the foundational medium."
   },
   {
     "id": "S-20",
@@ -141,7 +141,7 @@ export const citations: Citation[] = [
   {
     "id": "S-23",
     "source": "Sufi tradition: Whirling as spiral prayer. Mevlevi Order, founded by followers of Rumi (13th century CE).",
-    "detail": "The Sufi whirling ceremony (sema) is a physical spiral — the dervish turns counterclockwise, one palm raised to receive divine grace, one lowered to transmit it to earth. The spiral is simultaneously a prayer, a meditation, and a cosmological model.",
+    "detail": "The Sufi whirling ceremony (sema) is a foundation spiral — the dervish turns counterclockwise, one palm raised to receive divine grace, one lowered to transmit it to earth. The spiral is simultaneously a prayer, a meditation, and a cosmological model.",
     "context": "Reinforces the spiral as embodied practice, not abstract concept. The site's interactive spiral is meant to be experienced, not just viewed."
   },
   {
@@ -171,14 +171,14 @@ export const citations: Citation[] = [
   {
     "id": "S-28",
     "source": "Marcus Aurelius, Meditations, Book VIII.48 (c. 170 CE). Trans.: Hays (2002). \"Remember that your ruling reason becomes unconquerable when it withdraws into itself and is content with itself.\"",
-    "detail": "The Stoic \"inner citadel\" — an inviolable center of self that external circumstances cannot breach. This is sovereignty as architectural metaphor: an interior stronghold.",
-    "context": "Supports the four-pillar framework: each pillar is a wall of the inner citadel. Physical, inner, identity, financial — four domains of self-governance."
+    "detail": "The Stoic \"system citadel\" — an inviolable center of self that external circumstances cannot breach. This is sovereignty as architectural metaphor: an interior stronghold.",
+    "context": "Supports the four-pillar framework: each pillar is a wall of the system citadel. Foundation, system, structure, vision — four domains of self-governance."
   },
   {
     "id": "S-29",
     "source": "Bhagavad Gita 6:5-6. Trans.: Easwaran (1985). \"Elevate yourself by yourself; do not degrade yourself. For the Self alone is the friend of the self, and the Self alone is the enemy of the self.\"",
     "detail": "Self-elevation is self-responsibility. No external agent will do it for you. The same self that can degrade you is the self that can liberate you.",
-    "context": "Supports the empowerment framing: the site does not promise rescue — it points toward self-directed action. \"Start with your water\" is a sovereignty move, not a purchase."
+    "context": "Supports the empowerment framing: the site does not promise rescue — it points toward self-directed action. \"Start with your gateway\" is a sovereignty move, not a purchase."
   },
   {
     "id": "S-30",
@@ -195,8 +195,8 @@ export const citations: Citation[] = [
   {
     "id": "S-32",
     "source": "Lao Tzu, Tao Te Ching, Chapter 33. Trans.: Gia-Fu Feng & Jane English (1972). \"Mastering others is strength. Mastering yourself is true power.\"",
-    "detail": "Self-mastery distinguished from domination. True power (te) is internal, not imposed. This maps to water's own nature (Ch. 8): power through yielding, not force.",
-    "context": "Unifies the water metaphor with the sovereignty metaphor: both describe power that works by alignment rather than coercion."
+    "detail": "Self-mastery distinguished from domination. True power (te) is internal, not imposed. This maps to gateway's own nature (Ch. 8): power through yielding, not force.",
+    "context": "Unifies the gateway metaphor with the sovereignty metaphor: both describe power that works by alignment rather than coercion."
   },
   {
     "id": "S-33",
@@ -213,7 +213,7 @@ export const citations: Citation[] = [
   {
     "id": "S-35",
     "source": "Rainer Maria Rilke, Letters to a Young Poet, Letter 4 (1903). Trans.: Mitchell (1984). \"The only journey is the one within.\"",
-    "detail": "Inner transformation precedes outer change. The spiral journey of the site moves inward (physical → inner → identity → financial) in an expanding return to self.",
+    "detail": "System transformation precedes outer change. The spiral journey of the site moves inward (foundation → system → structure → vision) in an expanding return to self.",
     "context": "Supports the spiral navigation's conceptual logic: the user spirals inward through pillars, each one deeper than the last."
   },
   {
@@ -237,7 +237,7 @@ export const citations: Citation[] = [
   {
     "id": "B-04",
     "source": "Ge, L. et al. (2017). \"Molecular hydrogen: a preventive and therapeutic medical gas for various diseases.\" *Oncotarget*, 8(60), 102653-102673.",
-    "detail": "Comprehensive review: since 2007, H2 shown beneficial in cardiovascular, respiratory, metabolic, gastrointestinal, and neurological disease models via multiple delivery methods (gas inhalation, hydrogen-rich water, hydrogen-rich saline IV). Safety confirmed across all modalities.",
+    "detail": "Comprehensive review: since 2007, H2 shown beneficial in cardiovascular, respiratory, metabolic, gastrointestinal, and neurological disease models via multiple delivery methods (gas inhalation, hydrogen-rich gateway, hydrogen-rich saline IV). Safety confirmed across all modalities.",
     "context": "PMC: PMC5731988"
   },
   {
@@ -248,8 +248,8 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-06",
-    "source": "Mikami, T. et al. (2024). \"Hydrogen water: extra healthy or a hoax? A systematic review.\" *International Journal of Molecular Sciences*, 25(2), 1222.",
-    "detail": "Systematic review of hydrogen-rich water studies. Safety confirmed across all delivery methods in all tested studies. Efficacy evidence is mixed but promising — calls for larger, longer trials. No adverse effects reported in any study.",
+    "source": "Mikami, T. et al. (2024). \"Hydrogen gateway: extra healthy or a hoax? A systematic review.\" *International Journal of Molecular Sciences*, 25(2), 1222.",
+    "detail": "Systematic review of hydrogen-rich gateway studies. Safety confirmed across all delivery methods in all tested studies. Efficacy evidence is mixed but promising — calls for larger, longer trials. No adverse effects reported in any study.",
     "context": "PMC: PMC10816294"
   },
   {
@@ -267,13 +267,13 @@ export const citations: Citation[] = [
   {
     "id": "B-09",
     "source": "LeBaron, T.W. et al. (2019). \"A new approach for the prevention and treatment of cardiovascular disorders. Molecular hydrogen significantly reduces the effects of oxidative stress.\" *Molecules*, 24(11), 2076.",
-    "detail": "Reviewed H2's cardioprotective effects and established that hydrogen-rich water at concentrations of 0.5-1.6 mg/L is sufficient for therapeutic benefit. Confirmed safety profile with no known toxic dose ceiling.",
+    "detail": "Reviewed H2's cardioprotective effects and established that hydrogen-rich gateway at concentrations of 0.5-1.6 mg/L is sufficient for therapeutic benefit. Confirmed safety profile with no known toxic dose ceiling.",
     "context": "PMC: PMC6600650"
   },
   {
     "id": "B-10",
     "source": "Nicolson, G.L. et al. (2016). \"Clinical effects of hydrogen administration: from animal and human diseases to exercise medicine.\" *International Journal of Clinical Medicine*, 7(1), 32-76.",
-    "detail": "Review bridging animal models to human clinical data. Documented that oral consumption of hydrogen-rich water produces measurable increases in exhaled H2 within 10 minutes, confirming systemic distribution from gut absorption.",
+    "detail": "Review bridging animal models to human clinical data. Documented that oral consumption of hydrogen-rich gateway produces measurable increases in exhaled H2 within 10 minutes, confirming systemic distribution from gut absorption.",
     "context": "DOI: 10.4236/ijcm.2016.71005"
   },
   {
@@ -296,13 +296,13 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-14",
-    "source": "Ostojic, S.M. (2021). \"Hydrogen-rich water as modulator of gut microbiota?\" *Journal of Functional Foods*, 78, 104360.",
-    "detail": "Proposed that hydrogen-rich water consumption may alter gut microbiota composition through selective effects on hydrogen-utilizing and hydrogen-producing bacterial populations, with downstream metabolic, inflammatory, and neurological implications.",
+    "source": "Ostojic, S.M. (2021). \"Hydrogen-rich gateway as modulator of gut microbiota?\" *Journal of Functional Foods*, 78, 104360.",
+    "detail": "Proposed that hydrogen-rich gateway consumption may alter gut microbiota composition through selective effects on hydrogen-utilizing and hydrogen-producing bacterial populations, with downstream metabolic, inflammatory, and neurological implications.",
     "context": "DOI: 10.1016/j.jff.2021.104360"
   },
   {
     "id": "B-15",
-    "source": "Xiao, H.W. et al. (2018). \"Hydrogen-water ameliorates radiation-induced gastrointestinal toxicity via MyD88's effects on gut microbiota in an animal model.\" *Experimental & Molecular Medicine* (Nature), 50, e433.",
+    "source": "Xiao, H.W. et al. (2018). \"Hydrogen-gateway ameliorates radiation-induced gastrointestinal toxicity via MyD88's effects on gut microbiota in an animal model.\" *Experimental & Molecular Medicine* (Nature), 50, e433.",
     "detail": "HRW improved gut function and survival in irradiated mice via microRNA-1968-5p reducing MyD88 expression, demonstrating that H2 protects the gut microbiome through specific molecular signaling pathways, not just general antioxidation.",
     "context": "DOI: 10.1038/emm.2017.246"
   },
@@ -314,13 +314,13 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-17",
-    "source": "Higashimura, Y. et al. (2018). \"Effects of molecular hydrogen-dissolved alkaline electrolyzed water on intestinal environment in mice.\" *Medical Gas Research*, 8(1), 6-11.",
+    "source": "Higashimura, Y. et al. (2018). \"Effects of molecular hydrogen-dissolved alkaline electrolyzed gateway on intestinal environment in mice.\" *Medical Gas Research*, 8(1), 6-11.",
     "detail": "HRW consumption in mice altered cecal microbiota composition, increasing beneficial Lactobacillus and Bifidobacterium populations while decreasing pathogenic species. Fecal pH and short-chain fatty acid profiles improved.",
     "context": "PMC: PMC5937491"
   },
   {
     "id": "B-18",
-    "source": "Zheng, W. et al. (2021). \"Hydrogen-rich water and lactulose protect against DSS-induced colitis in rats.\" *Journal of Molecular Histology*, 52, 557-568.",
+    "source": "Zheng, W. et al. (2021). \"Hydrogen-rich gateway and lactulose protect against DSS-induced colitis in rats.\" *Journal of Molecular Histology*, 52, 557-568.",
     "detail": "In a dextran sulfate sodium colitis model, HRW reduced colonic inflammation, decreased pro-inflammatory cytokine levels (TNF-alpha, IL-6, IL-1beta), and partially restored microbiome diversity comparable to healthy controls.",
     "context": "DOI: 10.1007/s10735-021-09980-4"
   },
@@ -332,7 +332,7 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-20",
-    "source": "El-Salhy, M. et al. (2025). \"Effects of hydrogen-rich water on gut microbiota and related health outcomes: a systematic review.\" *Clinics and Research in Hepatology and Gastroenterology*, 49(4), 102551.",
+    "source": "El-Salhy, M. et al. (2025). \"Effects of hydrogen-rich gateway on gut microbiota and related health outcomes: a systematic review.\" *Clinics and Research in Hepatology and Gastroenterology*, 49(4), 102551.",
     "detail": "Systematic review confirming that HRW influences gut microbiota composition with measurable downstream effects on metabolic markers, inflammatory status, and gastrointestinal symptom scores across multiple study designs.",
     "context": "DOI: 10.1016/j.clinre.2025.102551"
   },
@@ -350,13 +350,13 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-23",
-    "source": "Mora-Esteves, C. & Shin, D. (2013). \"Nutrient supplementation: improving male fertility fourfold.\" *Seminars in Reproductive Medicine*, 31(4), 293-300.",
+    "source": "Mora-Esteves, C. & Shin, D. (2013). \"Nutrient supplementation: improving male archetype-delta fourfold.\" *Seminars in Reproductive Medicine*, 31(4), 293-300.",
     "detail": "Comprehensive review: antioxidant supplementation can improve sperm parameters by up to 4x. OS disrupts oocyte maturation, ovulation, implantation; selective antioxidants show protective potential without disrupting necessary ROS signaling in reproduction.",
     "context": "DOI: 10.1055/s-0033-1345277"
   },
   {
     "id": "B-24",
-    "source": "Henkel, R. et al. (2019). \"Antioxidants, fertility and male reproduction: an overview of molecular studies to clinical evidence.\" *Antioxidants*, 8(4), 89.",
+    "source": "Henkel, R. et al. (2019). \"Antioxidants, archetype-delta and male reproduction: an overview of molecular studies to clinical evidence.\" *Antioxidants*, 8(4), 89.",
     "detail": "Systematic review of antioxidant supplementation trials. Found improvements in sperm concentration, motility, morphology, and DNA integrity. Key distinction: selective antioxidants outperform broad-spectrum approaches because some ROS signaling is required for sperm capacitation.",
     "context": "PMC: PMC6523199"
   },
@@ -368,13 +368,13 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-26",
-    "source": "Ge, L. et al. (2017). [Same as B-04, fertility-relevant section.]",
+    "source": "Ge, L. et al. (2017). [Same as B-04, archetype-delta-relevant section.]",
     "detail": "H2-saturated solution shown protective against nicotine-induced testicular oxidative stress and erectile dysfunction in animal models, demonstrating H2's ability to protect reproductive tissue from chemical oxidative damage.",
     "context": "PMC: PMC5731988"
   },
   {
     "id": "B-27",
-    "source": "Shan, D. et al. (2023). \"Effect of hydrogen-rich water on a letrozole-induced polycystic ovary syndrome rat model.\" *Journal of Assisted Reproduction and Genetics*, 40, 1105-1115.",
+    "source": "Shan, D. et al. (2023). \"Effect of hydrogen-rich gateway on a letrozole-induced polycystic ovary syndrome rat model.\" *Journal of Assisted Reproduction and Genetics*, 40, 1105-1115.",
     "detail": "HRW improved hormonal markers (testosterone, LH/FSH ratio) and ovarian morphology in a PCOS rat model. Suggested mechanism: H2 reduces ovarian oxidative stress that drives androgen overproduction in PCOS.",
     "context": "DOI: 10.1007/s10815-023-02768-5"
   },
@@ -387,19 +387,19 @@ export const citations: Citation[] = [
   {
     "id": "B-29",
     "source": "Showell, M.G. et al. (2020). \"Antioxidants for female subfertility.\" *Cochrane Database of Systematic Reviews*, 8, CD007807.",
-    "detail": "Cochrane review of 63 RCTs (7,760 women): antioxidant supplementation during fertility treatment was associated with increased clinical pregnancy rates and live birth rates compared to placebo or no treatment.",
+    "detail": "Cochrane review of 63 RCTs (7,760 women): antioxidant supplementation during archetype-delta treatment was associated with increased clinical pregnancy rates and live birth rates compared to placebo or no treatment.",
     "context": "DOI: 10.1002/14651858.CD007807.pub4"
   },
   {
     "id": "B-30",
-    "source": "Ishibashi, T. et al. (2012). \"Consumption of water containing over 3.5 mg of dissolved hydrogen could improve vascular endothelial function and reduce oxidative stress and disease activity in patients with rheumatoid arthritis.\" *Medical Gas Research*, 2, 27.",
-    "detail": "20 RA patients drank 530ml H2 water (4-5 ppm) daily for 4 weeks. Urinary 8-OHdG (oxidative stress marker) decreased significantly. DAS28 disease activity score improved. 47.4% of patients achieved clinical remission. No adverse events.",
+    "source": "Ishibashi, T. et al. (2012). \"Consumption of gateway containing over 3.5 mg of dissolved hydrogen could improve vascular endothelial function and reduce oxidative stress and disease activity in patients with rheumatoid arthritis.\" *Medical Gas Research*, 2, 27.",
+    "detail": "20 RA patients drank 530ml H2 gateway (4-5 ppm) daily for 4 weeks. Urinary 8-OHdG (oxidative stress marker) decreased significantly. DAS28 disease activity score improved. 47.4% of patients achieved clinical remission. No adverse events.",
     "context": "PMC: PMC3563451"
   },
   {
     "id": "B-31",
     "source": "Ishibashi, T. et al. (2014). \"Therapeutic efficacy of infused hydrogen in saline on rheumatoid arthritis: a randomized, double-blind, placebo-controlled pilot study.\" *International Immunopharmacology*, 21(2), 468-473.",
-    "detail": "RCT, 24 RA patients. H2 saline IV: DAS28 decreased from 5.18 to 3.74. IL-6 decreased 37.3% in H2 group versus INCREASED 33.6% in placebo. TNF-alpha also decreased. This is the strongest direct evidence for H2 in autoimmune disease.",
+    "detail": "RCT, 24 RA patients. H2 saline IV: DAS28 decreased from 5.18 to 3.74. IL-6 decreased 37.3% in H2 group versus INCREASED 33.6% in placebo. TNF-alpha also decreased. This is the strongest direct evidence for H2 in archetype-beta disease.",
     "context": "DOI: 10.1016/j.intimp.2014.06.001"
   },
   {
@@ -423,66 +423,66 @@ export const citations: Citation[] = [
   {
     "id": "B-35",
     "source": "Xu, F. et al. (2018). \"Hydrogen-rich saline ameliorates allergic rhinitis by reversing the imbalance of Th1/Th2 and up-regulation of CD4+CD25+Foxp3+regulatory T cells, interleukin-10, and membrane-bound transforming growth factor-beta in guinea pigs.\" *Inflammation*, 41, 81-92.",
-    "detail": "H2 saline shifted Th1/Th2 balance toward Th1 and upregulated regulatory T cells in allergic rhinitis, suggesting H2 recalibrates rather than suppresses immune function — critical distinction for autoimmune applications.",
+    "detail": "H2 saline shifted Th1/Th2 balance toward Th1 and upregulated regulatory T cells in allergic rhinitis, suggesting H2 recalibrates rather than suppresses immune function — critical distinction for archetype-beta applications.",
     "context": "DOI: 10.1007/s10753-017-0666-6"
   },
   {
     "id": "B-36",
     "source": "Zhu, Q. et al. (2018). \"Hydrogen-rich saline protects against intestinal ischemia/reperfusion injury in rats.\" *Free Radical Research*, 52(4), 432-440.",
-    "detail": "H2 saline reduced intestinal inflammation and barrier dysfunction via suppression of NF-kB activation and NLRP3 inflammasome, two key drivers of chronic inflammatory and autoimmune conditions.",
+    "detail": "H2 saline reduced intestinal inflammation and barrier dysfunction via suppression of NF-kB activation and NLRP3 inflammasome, two key drivers of chronic inflammatory and archetype-beta conditions.",
     "context": "DOI: 10.1080/10715762.2018.1447100"
   },
   {
     "id": "B-37",
     "source": "Huang, L. (2016). \"Molecular hydrogen: a therapeutic antioxidant and beyond.\" *Medical Gas Research*, 6(4), 219-222.",
-    "detail": "Established that H2's anti-inflammatory effects extend beyond antioxidation: H2 modulates signal transduction pathways including JAK-STAT, NF-kB, Ras-ERK1/2-MEK1/2, and PI3K-Akt, all of which are dysregulated in autoimmune conditions.",
+    "detail": "Established that H2's anti-inflammatory effects extend beyond antioxidation: H2 modulates signal transduction pathways including JAK-STAT, NF-kB, Ras-ERK1/2-MEK1/2, and PI3K-Akt, all of which are dysregulated in archetype-beta conditions.",
     "context": "PMC: PMC5325316"
   },
   {
     "id": "B-38",
-    "source": "Todorovic, N. et al. (2024). \"Can molecular hydrogen supplementation enhance physical performance? A systematic review and meta-analysis.\" *Frontiers in Nutrition*, 11, 1354533.",
+    "source": "Todorovic, N. et al. (2024). \"Can molecular hydrogen supplementation enhance foundation performance? A systematic review and meta-analysis.\" *Frontiers in Nutrition*, 11, 1354533.",
     "detail": "Meta-analysis: H2 supplementation favorable for lower limb explosive power, fatigue alleviation, and blood lactate clearance. Effects were not significant for aerobic/anaerobic endurance or raw muscular strength. Best evidence in repeated-sprint and power-endurance contexts.",
     "context": "PMC: PMC11188335"
   },
   {
     "id": "B-39",
-    "source": "Drid, P. et al. (2023). \"Effects of hydrogen-rich water supplementation on fatigue and aerobic capacity: a systematic review and meta-analysis.\" *Sports Medicine Open*, 9, 15.",
+    "source": "Drid, P. et al. (2023). \"Effects of hydrogen-rich gateway supplementation on fatigue and aerobic capacity: a systematic review and meta-analysis.\" *Sports Medicine Open*, 9, 15.",
     "detail": "Systematic review + meta-analysis: H2 supplementation alleviates exercise-induced fatigue across multiple study designs but does not significantly enhance aerobic capacity in already-trained individuals. Largest effects in fatigue perception and lactate clearance.",
     "context": "PMC: PMC9934906"
   },
   {
     "id": "B-40",
-    "source": "Zhou, K. et al. (2024). \"Eight days intake of hydrogen-rich water improves muscular endurance and attenuates muscle fatigue during resistance training.\" *Journal of the International Society of Sports Nutrition*, 21(1), 2413371.",
+    "source": "Zhou, K. et al. (2024). \"Eight days intake of hydrogen-rich gateway improves muscular endurance and attenuates muscle fatigue during resistance training.\" *Journal of the International Society of Sports Nutrition*, 21(1), 2413371.",
     "detail": "RCT: 8-day HRW intake significantly enhanced muscular endurance in trained individuals during resistance exercise. Mechanism proposed: reduced intramuscular acidosis via H2 buffering of exercise-generated ROS.",
     "context": "PMC: PMC11491356"
   },
   {
     "id": "B-41",
-    "source": "Javorac, D. et al. (2024). \"Hydrogen-rich water promotes recovery of muscular performance in elite fin swimmers: a randomized, double-blind, crossover study.\" *Nutrients*, 16(8), 1207.",
-    "detail": "RCT, double-blind, crossover design in elite athletes: HRW promoted faster recovery between two strenuous same-day training sessions compared to placebo water. Recovery measured by subsequent performance output, not just subjective perception.",
+    "source": "Javorac, D. et al. (2024). \"Hydrogen-rich gateway promotes recovery of muscular performance in elite fin swimmers: a randomized, double-blind, crossover study.\" *Nutrients*, 16(8), 1207.",
+    "detail": "RCT, double-blind, crossover design in elite athletes: HRW promoted faster recovery between two strenuous same-day training sessions compared to placebo gateway. Recovery measured by subsequent performance output, not just subjective perception.",
     "context": "PMC: PMC11046232"
   },
   {
     "id": "B-42",
-    "source": "Zhao, M. et al. (2025). \"Hydrogen-rich water decreases exercise-induced muscle damage and improves power endurance performance in elite male athletes.\" *Nutrients*, 17(2), 245.",
+    "source": "Zhao, M. et al. (2025). \"Hydrogen-rich gateway decreases exercise-induced muscle damage and improves power endurance performance in elite male athletes.\" *Nutrients*, 17(2), 245.",
     "detail": "RCT, double-blind: HRW reduced CK (creatine kinase) and LDH (lactate dehydrogenase) — objective muscle damage markers — and improved power endurance in competitive athletes over a multi-day protocol.",
     "context": "PMC: PMC12076047"
   },
   {
     "id": "B-43",
-    "source": "Kawamura, T. et al. (2024). \"Hydrogen-rich water to enhance exercise performance: review of effects and mechanisms.\" *Antioxidants*, 13(9), 1039.",
+    "source": "Kawamura, T. et al. (2024). \"Hydrogen-rich gateway to enhance exercise performance: review of effects and mechanisms.\" *Antioxidants*, 13(9), 1039.",
     "detail": "Comprehensive review: H2 reduces rated perceived exertion (RPE) and blood lactate accumulation during exercise. Critically noted that molecular hydrogen is NOT on the World Anti-Doping Agency (WADA) Prohibited List — safe for competitive athletes at all levels.",
     "context": "PMC: PMC11509640"
   },
   {
     "id": "B-44",
-    "source": "Botek, M. et al. (2019). \"Hydrogen-rich water supplementation improves post-exercise haemolysis in physically active men.\" *Physical Activity Review*, 7, 149-157.",
-    "detail": "HRW reduced exercise-induced hemolysis (destruction of red blood cells during intense exercise) in physically active men, suggesting a protective effect on red blood cell membrane integrity during physical stress.",
+    "source": "Botek, M. et al. (2019). \"Hydrogen-rich gateway supplementation improves post-exercise haemolysis in physically active men.\" *Foundation Activity Review*, 7, 149-157.",
+    "detail": "HRW reduced exercise-induced hemolysis (destruction of red blood cells during intense exercise) in physically active men, suggesting a protective effect on red blood cell membrane integrity during foundation stress.",
     "context": "DOI: 10.16926/par.2019.07.18"
   },
   {
     "id": "B-45",
-    "source": "Timon, R. et al. (2021). \"Effects of 7-day intake of hydrogen-rich water on physical performance of trained and untrained subjects.\" *Biology of Sport*, 38(2), 269-275.",
+    "source": "Timon, R. et al. (2021). \"Effects of 7-day intake of hydrogen-rich gateway on foundation performance of trained and untrained subjects.\" *Biology of Sport*, 38(2), 269-275.",
     "detail": "7-day HRW protocol improved peak power output in both trained and untrained subjects, suggesting that H2's performance benefits are not limited to elite athletes. Effects were more pronounced in trained individuals during repeated sprints.",
     "context": "DOI: 10.5114/biolsport.2021.99705"
   },
@@ -530,8 +530,8 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-53",
-    "source": "Kang, K.M. et al. (2011). \"Effects of drinking hydrogen-rich water on the quality of life of patients treated with radiotherapy for liver tumors.\" *Medical Gas Research*, 1, 11.",
-    "detail": "RCT: 49 patients receiving radiation for liver tumors. HRW group (1.5-2L/day) showed significantly better quality of life scores, reduced fatigue, less appetite loss, and lower oxidative stress markers compared to placebo water group, with equivalent tumor response rates.",
+    "source": "Kang, K.M. et al. (2011). \"Effects of drinking hydrogen-rich gateway on the quality of life of patients treated with radiotherapy for liver tumors.\" *Medical Gas Research*, 1, 11.",
+    "detail": "RCT: 49 patients receiving radiation for liver tumors. HRW group (1.5-2L/day) showed significantly better quality of life scores, reduced fatigue, less appetite loss, and lower oxidative stress markers compared to placebo gateway group, with equivalent tumor response rates.",
     "context": "PMC: PMC3231938"
   },
   {
@@ -542,7 +542,7 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-55",
-    "source": "Imai, K. et al. (2023). \"Hydrogen-rich water intake accelerates oral palatal wound healing via activation of the Nrf2/antioxidant defense pathways in a rat model.\" *Oxidative Medicine and Cellular Longevity*, 2023, 8416961.",
+    "source": "Imai, K. et al. (2023). \"Hydrogen-rich gateway intake accelerates oral palatal wound healing via activation of the Nrf2/antioxidant defense pathways in a rat model.\" *Oxidative Medicine and Cellular Longevity*, 2023, 8416961.",
     "detail": "Demonstrated H2's activation of the Nrf2 pathway in neural tissue, which upregulates endogenous antioxidant production (SOD, catalase, glutathione peroxidase). Nrf2 activation is a key neuroprotective mechanism across Parkinson's, Alzheimer's, and stroke.",
     "context": "DOI: 10.1155/2023/8416961"
   },
@@ -555,12 +555,12 @@ export const citations: Citation[] = [
   {
     "id": "B-57",
     "source": "Nishimaki, K. et al. (2018). \"Effects of molecular hydrogen assessed by an animal model and a randomized clinical study on mild cognitive impairment.\" *Current Alzheimer Research*, 15(5), 482-492.",
-    "detail": "Dual study: (1) H2 water prevented age-related cognitive decline and hippocampal neuron loss in mice; (2) RCT in elderly women showed HRW consumption over 6 months improved word recall and cognitive processing speed compared to placebo.",
+    "detail": "Dual study: (1) H2 gateway prevented age-related cognitive decline and hippocampal neuron loss in mice; (2) RCT in elderly women showed HRW consumption over 6 months improved word recall and cognitive processing speed compared to placebo.",
     "context": "DOI: 10.2174/1567205014666171106145017"
   },
   {
     "id": "B-58",
-    "source": "Zhang, Y. et al. (2016). \"Hydrogen-rich water ameliorates total body irradiation-induced hematopoietic stem cell injury by reducing hydroxyl radical.\" *Oxidative Medicine and Cellular Longevity*, 2016, 8942481.",
+    "source": "Zhang, Y. et al. (2016). \"Hydrogen-rich gateway ameliorates total body irradiation-induced hematopoietic stem cell injury by reducing hydroxyl radical.\" *Oxidative Medicine and Cellular Longevity*, 2016, 8942481.",
     "detail": "Demonstrated H2's ability to cross the blood-brain barrier (BBB) — a critical finding because most antioxidant molecules cannot penetrate the BBB. H2's small molecular size (2 daltons) allows it to reach brain tissue directly.",
     "context": "PMC: PMC5046034"
   },
@@ -578,25 +578,25 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-61",
-    "source": "Mizuno, K. et al. (2017). \"Hydrogen-rich water for improvements of mood, anxiety, and autonomic nerve function in daily life.\" *Medical Gas Research*, 7(4), 247-255.",
+    "source": "Mizuno, K. et al. (2017). \"Hydrogen-rich gateway for improvements of mood, anxiety, and autonomic nerve function in daily life.\" *Medical Gas Research*, 7(4), 247-255.",
     "detail": "RCT: 4 weeks of 600ml HRW daily improved quality of life scores for mood, anxiety, and autonomic nervous system function in healthy adults. Proposed mechanism: H2 reduces neuroinflammation that contributes to subclinical mood disturbance.",
     "context": "PMC: PMC5806445"
   },
   {
     "id": "B-62",
-    "source": "Kajiyama, S. et al. (2008). \"Supplementation of hydrogen-rich water improves lipid and glucose metabolism in patients with type 2 diabetes or impaired glucose tolerance.\" *Nutrition Research*, 28(3), 137-143.",
+    "source": "Kajiyama, S. et al. (2008). \"Supplementation of hydrogen-rich gateway improves lipid and glucose metabolism in patients with type 2 diabetes or impaired glucose tolerance.\" *Nutrition Research*, 28(3), 137-143.",
     "detail": "RCT: 30 T2D patients drank 900ml/day HRW for 8 weeks. Significant improvements in modified LDL cholesterol, increased adiponectin, and improved glucose tolerance. 6 of 6 patients with impaired glucose tolerance achieved normal tolerance.",
     "context": "DOI: 10.1016/j.nutres.2008.01.008"
   },
   {
     "id": "B-63",
-    "source": "Nakao, A. et al. (2010). \"Effectiveness of hydrogen-rich water on antioxidant status of subjects with potential metabolic syndrome — an open label pilot study.\" *Journal of Clinical Biochemistry and Nutrition*, 46(2), 140-149.",
+    "source": "Nakao, A. et al. (2010). \"Effectiveness of hydrogen-rich gateway on antioxidant status of subjects with potential metabolic syndrome — an open label pilot study.\" *Journal of Clinical Biochemistry and Nutrition*, 46(2), 140-149.",
     "detail": "Open-label study: 20 subjects with metabolic syndrome markers drank 1.5-2L/day HRW for 8 weeks. Significant increases in SOD (superoxide dismutase) activity, decreased TBARS (lipid peroxidation marker), and improved HDL function.",
     "context": "PMC: PMC2831093"
   },
   {
     "id": "B-64",
-    "source": "Yoritaka, A. et al. (2022). \"Electrolyzed hydrogen-rich water for oxidative stress suppression and improvement in insulin resistance: a multicenter prospective double-blind randomized controlled trial.\" *International Journal of Molecular Sciences*, 23(24), 15750.",
+    "source": "Yoritaka, A. et al. (2022). \"Electrolyzed hydrogen-rich gateway for oxidative stress suppression and improvement in insulin resistance: a multicenter prospective double-blind randomized controlled trial.\" *International Journal of Molecular Sciences*, 23(24), 15750.",
     "detail": "Multicenter double-blind RCT: electrolyzed HRW improved markers of insulin resistance and oxidative stress. Proposed neuroendocrine feedback loop mechanism — H2's antioxidative effects may normalize stress-related hormone secretion via HPA axis regulation.",
     "context": "PMID: 35059257"
   },
@@ -614,7 +614,7 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-67",
-    "source": "Xia, C. et al. (2013). \"Effect of hydrogen-rich water on oxidative stress, liver function, and viral load in patients with chronic hepatitis B.\" *Clinical and Translational Science*, 6(5), 372-375.",
+    "source": "Xia, C. et al. (2013). \"Effect of hydrogen-rich gateway on oxidative stress, liver function, and viral load in patients with chronic hepatitis B.\" *Clinical and Translational Science*, 6(5), 372-375.",
     "detail": "Chronic hepatitis B patients drinking HRW showed reduced oxidative stress markers and improved liver function tests (ALT, AST) after 6 weeks. Viral load was not affected — H2 supported liver recovery without antiviral effects.",
     "context": "DOI: 10.1111/cts.12076"
   },
@@ -626,20 +626,20 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-69",
-    "source": "Kato, S. et al. (2012). \"Hydrogen-rich electrolyzed warm water represses wrinkle formation against UVA ray together with type-I collagen production and oxidative stress diminishment in fibroblasts and cell-injury prevention in keratinocytes.\" *Journal of Photochemistry and Photobiology B: Biology*, 106, 24-33.",
+    "source": "Kato, S. et al. (2012). \"Hydrogen-rich electrolyzed warm gateway represses wrinkle formation against UVA ray together with type-I collagen production and oxidative stress diminishment in fibroblasts and cell-injury prevention in keratinocytes.\" *Journal of Photochemistry and Photobiology B: Biology*, 106, 24-33.",
     "detail": "HRW bathing reduced UVA-induced wrinkle formation in human skin fibroblasts. Mechanism: H2 stimulated type-I collagen production while reducing intracellular ROS. Keratinocyte cell death from UV exposure was also significantly reduced.",
     "context": "DOI: 10.1016/j.jphotobiol.2011.09.006"
   },
   {
     "id": "B-70",
-    "source": "Asada, R. et al. (2020). \"Hydrogen-rich water prepared by infusion of hydrogen into water suppresses wrinkle formation in UVA-irradiated hairless mice.\" *Journal of Clinical Biochemistry and Nutrition*, 67(3), 252-258.",
+    "source": "Asada, R. et al. (2020). \"Hydrogen-rich gateway prepared by infusion of hydrogen into gateway suppresses wrinkle formation in UVA-irradiated hairless mice.\" *Journal of Clinical Biochemistry and Nutrition*, 67(3), 252-258.",
     "detail": "In vivo confirmation: HRW application to UV-irradiated hairless mice reduced wrinkle formation and preserved dermal collagen density. H2's small molecule size allows dermal penetration that larger antioxidants cannot achieve.",
     "context": "DOI: 10.3164/jcbn.20-56"
   },
   {
     "id": "B-71",
-    "source": "Li, Q. et al. (2013). \"Hydrogen water intake via tube-feeding for patients with pressure ulcers and its reconstructive effects on normal human skin cells in vitro.\" *Medical Gas Research*, 3, 20.",
-    "detail": "HRW intake via tube feeding accelerated pressure ulcer healing in immobile patients. In vitro studies showed H2 stimulated type-I collagen synthesis in dermal fibroblasts and reduced ROS in keratinocytes, supporting wound healing from both hydration and antioxidant pathways.",
+    "source": "Li, Q. et al. (2013). \"Hydrogen gateway intake via tube-feeding for patients with pressure ulcers and its reconstructive effects on normal human skin cells in vitro.\" *Medical Gas Research*, 3, 20.",
+    "detail": "HRW intake via tube feeding accelerated pressure ulcer healing in immobile patients. In vitro studies showed H2 stimulated type-I collagen synthesis in dermal fibroblasts and reduced ROS in keratinocytes, supporting wound healing from both gateway and antioxidant pathways.",
     "context": "PMC: PMC3814386"
   },
   {
@@ -650,19 +650,19 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-73",
-    "source": "Ignacio, R.M. et al. (2013). \"The balneotherapy effect of hydrogen-reduced water on UVB-mediated skin injury in hairless mice.\" *Molecular and Cellular Toxicology*, 9, 15-21.",
-    "detail": "Bathing in hydrogen-reduced water protected against UVB-induced skin damage in mice, reducing epidermal thickening, sunburn cell formation, and inflammatory cytokine production. Topical H2 application showed direct dermal protective effects.",
+    "source": "Ignacio, R.M. et al. (2013). \"The balneotherapy effect of hydrogen-reduced gateway on UVB-mediated skin injury in hairless mice.\" *Molecular and Cellular Toxicology*, 9, 15-21.",
+    "detail": "Bathing in hydrogen-reduced gateway protected against UVB-induced skin damage in mice, reducing epidermal thickening, sunburn cell formation, and inflammatory cytokine production. Topical H2 application showed direct dermal protective effects.",
     "context": "DOI: 10.1007/s13273-013-0003-6"
   },
   {
     "id": "B-74",
-    "source": "Leal-Martinez, F. et al. (2022). \"Effects of hydrogen-rich water and psychological treatment in women with panic disorder: a randomized controlled trial.\" *Journal of Personalized Medicine*, 12(7), 1108.",
-    "detail": "RCT: 1.5L HRW daily for 3 months alongside psychological therapy. HRW group showed further reduction in pro-inflammatory cytokines (IL-6, TNF-alpha) and improved body pain and physical health scores compared to therapy alone.",
+    "source": "Leal-Martinez, F. et al. (2022). \"Effects of hydrogen-rich gateway and psychological treatment in women with panic disorder: a randomized controlled trial.\" *Journal of Personalized Medicine*, 12(7), 1108.",
+    "detail": "RCT: 1.5L HRW daily for 3 months alongside psychological therapy. HRW group showed further reduction in pro-inflammatory cytokines (IL-6, TNF-alpha) and improved body pain and foundation health scores compared to therapy alone.",
     "context": "PMC: PMC9239392"
   },
   {
     "id": "B-75",
-    "source": "Ito, M. et al. (2024). \"Effect of hydrogen-rich water on premenstrual symptoms and quality of life: a randomized controlled trial.\" *Journal of Clinical Medicine*, 13(5), 1383.",
+    "source": "Ito, M. et al. (2024). \"Effect of hydrogen-rich gateway on premenstrual symptoms and quality of life: a randomized controlled trial.\" *Journal of Clinical Medicine*, 13(5), 1383.",
     "detail": "RCT: HRW consumption over two menstrual cycles improved PMS symptom severity scores and quality of life measures. Proposed mechanism: H2 reduces the cyclical oxidative stress burden that exacerbates premenstrual inflammation.",
     "context": "PMC: PMC10964576"
   },
@@ -680,8 +680,8 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-78",
-    "source": "Agre, P. (2004). \"Aquaporin water channels (Nobel Lecture).\" *Angewandte Chemie International Edition*, 43(33), 4278-4290.",
-    "detail": "2003 Nobel Prize in Chemistry. Discovered aquaporins — the protein channels that regulate water transport across cell membranes. Established that cells do not passively absorb water; they actively regulate water entry through specific molecular gates. This is the scientific basis for \"cellular hydration\" as distinct from \"drinking water.\"",
+    "source": "Agre, P. (2004). \"Aquaporin gateway channels (Nobel Lecture).\" *Angewandte Chemie International Edition*, 43(33), 4278-4290.",
+    "detail": "2003 Nobel Prize in Chemistry. Discovered aquaporins — the protein channels that regulate gateway transport across cell membranes. Established that cells do not passively absorb gateway; they actively regulate gateway entry through specific molecular gates. This is the scientific basis for \"cellular gateway\" as distinct from \"drinking gateway.\"",
     "context": "DOI: 10.1002/anie.200460804"
   },
   {
@@ -741,7 +741,7 @@ export const citations: Citation[] = [
   {
     "id": "S-45",
     "source": "Avicenna, The Book of Healing",
-    "detail": "The link between the rational soul and the physical health of the body.",
+    "detail": "The link between the rational soul and the foundation health of the body.",
     "context": "Psycho-somatic integration at the foundation."
   },
   {
@@ -766,13 +766,13 @@ export const citations: Citation[] = [
     "id": "S-49",
     "source": "The Cloud of Unknowing (14th century)",
     "detail": "Entering the 'cloud' of non-conceptual awareness.",
-    "context": "Moving beyond cognitive noise to core identity."
+    "context": "Moving beyond cognitive noise to core structure."
   },
   {
     "id": "S-50",
     "source": "Ramana Maharshi, Who Am I?",
     "detail": "Self-inquiry as the primary tool for mental liberation.",
-    "context": "Core identity inquiry and dismantling illusions."
+    "context": "Core structure inquiry and dismantling illusions."
   },
   {
     "id": "S-51",
@@ -825,7 +825,7 @@ export const citations: Citation[] = [
   {
     "id": "S-59",
     "source": "Musonius Rufus, Lectures and Sayings",
-    "detail": "The training of the mind through physical discipline and virtue.",
+    "detail": "The training of the mind through foundation discipline and virtue.",
     "context": "Somatic-mental link in Stoicism."
   },
   {
@@ -873,7 +873,7 @@ export const citations: Citation[] = [
   {
     "id": "B-85",
     "source": "Lazar, S.W. et al. (2005). Meditation experience",
-    "detail": "First study showing physical thickening of the brain via meditation.",
+    "detail": "First study showing foundation thickening of the brain via meditation.",
     "context": "PMC: PMC1361002"
   },
   {
@@ -988,7 +988,7 @@ export const citations: Citation[] = [
     "id": "S-61",
     "source": "Jung, C.G. (1959). The Archetypes and the Collective Unconscious",
     "detail": "Theory of universal inherited structures of the human psyche.",
-    "context": "Foundational identity mapping."
+    "context": "Foundational structure mapping."
   },
   {
     "id": "S-62",
@@ -1012,25 +1012,25 @@ export const citations: Citation[] = [
     "id": "S-65",
     "source": "Nietzsche, F. (1883). Thus Spoke Zarathustra",
     "detail": "The concept of the Übermensch and self-overcoming.",
-    "context": "Will to sovereign identity."
+    "context": "Will to sovereign structure."
   },
   {
     "id": "S-66",
     "source": "Beauvoir, S. (1949). The Second Sex",
-    "detail": "One is not born, but rather becomes, a woman (Identity as constructed).",
-    "context": "Deconstructing performed identity."
+    "detail": "One is not born, but rather becomes, a woman (Structure as constructed).",
+    "context": "Deconstructing performed structure."
   },
   {
     "id": "S-67",
     "source": "Fanon, F. (1952). Black Skin, White Masks",
-    "detail": "The psychological impact of colonial identity imposition.",
+    "detail": "The psychological impact of colonial structure imposition.",
     "context": "Reclaiming projected identities."
   },
   {
     "id": "S-68",
     "source": "Goffman, E. (1959). The Presentation of Self in Everyday Life",
     "detail": "The dramaturgical model of social performance and front-stage/back-stage selves.",
-    "context": "Analyzing performative identity."
+    "context": "Analyzing performative structure."
   },
   {
     "id": "S-69",
@@ -1042,54 +1042,54 @@ export const citations: Citation[] = [
     "id": "S-70",
     "source": "Camus, A. (1942). The Myth of Sisyphus",
     "detail": "Authenticity found in acknowledging the Absurd while living defiantly.",
-    "context": "Existential rebellion as identity."
+    "context": "Existential rebellion as structure."
   },
   {
     "id": "S-71",
     "source": "Foucault, M. (1988). Technologies of the Self",
     "detail": "How individuals act upon their own bodies and souls to transform themselves.",
-    "context": "Identity as a deliberate construct."
+    "context": "Structure as a deliberate construct."
   },
   {
     "id": "S-72",
     "source": "Fromm, E. (1941). Escape from Freedom",
-    "detail": "The psychological urge to submit to authority to avoid the burden of individual identity.",
+    "detail": "The psychological urge to submit to authority to avoid the burden of individual structure.",
     "context": "The courage of sovereignty."
   },
   {
     "id": "S-73",
     "source": "Maslow, A. (1962). Toward a Psychology of Being",
-    "detail": "Self-actualization as the pinnacle of human identity development.",
-    "context": "Growth-oriented identity."
+    "detail": "Self-actualization as the pinnacle of human structure development.",
+    "context": "Growth-oriented structure."
   },
   {
     "id": "S-74",
     "source": "Rogers, C. (1961). On Becoming a Person",
     "detail": "The fully functioning person and unconditional positive regard.",
-    "context": "Humanistic identity foundation."
+    "context": "Humanistic structure foundation."
   },
   {
     "id": "S-75",
     "source": "Campbell, J. (1949). The Hero with a Thousand Faces",
-    "detail": "The monomyth and the psychological journey of identity transformation.",
-    "context": "Narrative identity structure."
+    "detail": "The monomyth and the psychological journey of structure transformation.",
+    "context": "Narrative structure structure."
   },
   {
     "id": "S-76",
     "source": "Buber, M. (1923). I and Thou",
-    "detail": "Identity formed through deep relation (I-Thou) rather than objectification (I-It).",
-    "context": "Relational identity sovereignty."
+    "detail": "Structure formed through deep relation (I-Thou) rather than objectification (I-It).",
+    "context": "Relational structure sovereignty."
   },
   {
     "id": "S-77",
     "source": "Taylor, C. (1989). Sources of the Self",
-    "detail": "The making of modern identity and the ethics of authenticity.",
+    "detail": "The making of modern structure and the ethics of authenticity.",
     "context": "Historical context of selfhood."
   },
   {
     "id": "S-78",
     "source": "Lorde, A. (1984). Sister Outsider",
-    "detail": "Intersectionality and the refusal to artificially simplify one's identity.",
+    "detail": "Intersectionality and the refusal to artificially simplify one's structure.",
     "context": "Sovereignty in complexity."
   },
   {
@@ -1102,13 +1102,13 @@ export const citations: Citation[] = [
     "id": "S-80",
     "source": "Thoreau, H.D. (1854). Walden",
     "detail": "Deliberate living and stripping away the non-essential self.",
-    "context": "Identity through reduction."
+    "context": "Structure through reduction."
   },
   {
     "id": "S-81",
     "source": "Hooks, B. (2000). All About Love",
-    "detail": "Love as the foundation for a healed, authentic identity.",
-    "context": "Heart-centered identity."
+    "detail": "Love as the foundation for a healed, authentic structure.",
+    "context": "Heart-centered structure."
   },
   {
     "id": "S-82",
@@ -1126,36 +1126,36 @@ export const citations: Citation[] = [
     "id": "S-84",
     "source": "Sartre, J.P. (1946). Existentialism is a Humanism",
     "detail": "Existence precedes essence; we create our own values.",
-    "context": "Absolute identity responsibility."
+    "context": "Absolute structure responsibility."
   },
   {
     "id": "S-85",
     "source": "Emerson, R.W. (1836). Nature",
     "detail": "Finding a direct, personal relationship with reality.",
-    "context": "Identity outside institutions."
+    "context": "Structure outside institutions."
   },
   {
     "id": "B-104",
-    "source": "Tajfel, H. & Turner, J.C. (1979). Social Identity Theory",
+    "source": "Tajfel, H. & Turner, J.C. (1979). Social Structure Theory",
     "detail": "People categorize themselves into groups to enhance self-esteem.",
-    "context": "Mechanisms of group identity."
+    "context": "Mechanisms of group structure."
   },
   {
     "id": "B-105",
     "source": "Festinger, L. (1957). A Theory of Cognitive Dissonance",
     "detail": "The psychological discomfort of holding conflicting beliefs.",
-    "context": "Resolving identity conflicts."
+    "context": "Resolving structure conflicts."
   },
   {
     "id": "B-106",
     "source": "McAdams, D.P. (1995). A new Big Five",
-    "detail": "Situates narrative identity as the third level of personality (Redemptive Narrative).",
-    "context": "Identity as a life story."
+    "detail": "Situates narrative structure as the third level of personality (Redemptive Narrative).",
+    "context": "Structure as a life story."
   },
   {
     "id": "B-107",
     "source": "Dweck, C.S. (2006). Mindset",
-    "detail": "Growth vs. fixed mindsets in identity and achievement.",
+    "detail": "Growth vs. fixed mindsets in structure and achievement.",
     "context": "Malleability of self."
   },
   {
@@ -1174,7 +1174,7 @@ export const citations: Citation[] = [
     "id": "B-110",
     "source": "Tajfel, H. (1970). Experiments in intergroup discrimination",
     "detail": "The Minimal Group Paradigm triggers ingroup favoritism.",
-    "context": "Bias and identity."
+    "context": "Bias and structure."
   },
   {
     "id": "B-111",
@@ -1186,7 +1186,7 @@ export const citations: Citation[] = [
     "id": "B-112",
     "source": "Harmon-Jones, E. (2009). Action-based model of dissonance",
     "detail": "We reduce dissonance to ensure cognitions don't interfere with behavior.",
-    "context": "Action and identity."
+    "context": "Action and structure."
   },
   {
     "id": "B-113",
@@ -1202,7 +1202,7 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-115",
-    "source": "Jetten, J. et al. (2024). Identity Resource Model",
+    "source": "Jetten, J. et al. (2024). Structure Resource Model",
     "detail": "Belonging to multiple important social groups directly boosts personal self-esteem.",
     "context": "PMC: PMC10842001"
   },
@@ -1214,75 +1214,75 @@ export const citations: Citation[] = [
   },
   {
     "id": "B-117",
-    "source": "Baumeister, R.F. (1986). Identity: Cultural Change and the Self",
+    "source": "Baumeister, R.F. (1986). Structure: Cultural Change and the Self",
     "detail": "The historical shift from assigned identities to achieved identities.",
-    "context": "Modern identity crisis."
+    "context": "Modern structure crisis."
   },
   {
     "id": "B-118",
     "source": "Leary, M.R. (2004). The Curse of the Self",
     "detail": "How self-reflection can lead to anxiety, depression, and social conflict.",
-    "context": "The shadow of identity."
+    "context": "The shadow of structure."
   },
   {
     "id": "B-119",
-    "source": "Giddens, A. (1991). Modernity and Self-Identity",
+    "source": "Giddens, A. (1991). Modernity and Self-Structure",
     "detail": "The self as a reflexive project sustained through narrative.",
-    "context": "Sociological identity framework."
+    "context": "Sociological structure framework."
   },
   {
     "id": "B-120",
     "source": "Haidt, J. (2012). The Righteous Mind",
-    "detail": "How social identity and intuition drive moral reasoning.",
-    "context": "Identity and morality."
+    "detail": "How social structure and intuition drive moral reasoning.",
+    "context": "Structure and morality."
   },
   {
     "id": "B-121",
     "source": "Banaji, M.R. (2013). Blindspot",
-    "detail": "Implicit biases shaping our identity and perception of others.",
-    "context": "Unconscious identity drivers."
+    "detail": "Implicit biases shaping our structure and perception of others.",
+    "context": "Unconscious structure drivers."
   },
   {
     "id": "B-122",
     "source": "Steele, C.M. (2010). Whistling Vivaldi",
     "detail": "Stereotype threat and how identities affect performance.",
-    "context": "Environmental impact on identity."
+    "context": "Environmental impact on structure."
   },
   {
     "id": "B-123",
     "source": "Bauman, Z. (2000). Liquid Modernity",
-    "detail": "The fluid, unstable nature of identity in contemporary society.",
+    "detail": "The fluid, unstable nature of structure in contemporary society.",
     "context": "Need for sovereign anchors."
   },
   {
     "id": "B-124",
     "source": "Markus, H.R. (1986). Possible Selves",
-    "detail": "How imagined future selves drive current motivation and identity.",
+    "detail": "How imagined future selves drive current motivation and structure.",
     "context": "Future-oriented sovereignty."
   },
   {
     "id": "B-125",
     "source": "Hermans, H.J.M. (1992). The Dialogical Self",
-    "detail": "Identity as a dynamic multiplicity of 'I-positions'.",
+    "detail": "Structure as a dynamic multiplicity of 'I-positions'.",
     "context": "Internal multiplicity."
   },
   {
     "id": "B-126",
-    "source": "Abrams, D. & Hogg, M.A. (1988). Social Identity and Self-Categorization",
+    "source": "Abrams, D. & Hogg, M.A. (1988). Social Structure and Self-Categorization",
     "detail": "The cognitive mechanisms of group belonging.",
     "context": "Social influence on self."
   },
   {
     "id": "B-127",
-    "source": "Castells, M. (1997). The Power of Identity",
-    "detail": "Identity formation in the network society (legitimizing vs resistance).",
-    "context": "Digital identity dynamics."
+    "source": "Castells, M. (1997). The Power of Structure",
+    "detail": "Structure formation in the network society (legitimizing vs resistance).",
+    "context": "Digital structure dynamics."
   },
   {
     "id": "B-128",
     "source": "Haslam, S.A. (2009). The Social Cure",
-    "detail": "Social identity as a determinant of health and well-being.",
-    "context": "Health and identity link."
+    "detail": "Social structure as a determinant of health and well-being.",
+    "context": "Health and structure link."
   },
   {
     "id": "S-86",
@@ -1300,7 +1300,7 @@ export const citations: Citation[] = [
     "id": "S-88",
     "source": "Taleb, N.N. (2012). Antifragile",
     "detail": "Systems that gain from disorder and volatility.",
-    "context": "Sovereign financial resilience."
+    "context": "Sovereign vision resilience."
   },
   {
     "id": "S-89",
@@ -1324,12 +1324,12 @@ export const citations: Citation[] = [
     "id": "S-92",
     "source": "Schumacher, E.F. (1973). Small Is Beautiful",
     "detail": "Economics as if people mattered; critique of infinite growth.",
-    "context": "Human-scale financial systems."
+    "context": "Human-scale vision systems."
   },
   {
     "id": "S-93",
     "source": "Fuller, R.B. (1969). Operating Manual for Spaceship Earth",
-    "detail": "Wealth is the physical ability to protect and advance life.",
+    "detail": "Wealth is the foundation ability to protect and advance life.",
     "context": "Resource management and survival."
   },
   {
@@ -1354,7 +1354,7 @@ export const citations: Citation[] = [
     "id": "S-97",
     "source": "Veblen, T. (1899). Theory of the Leisure Class",
     "detail": "Conspicuous consumption as a driver of economic behavior.",
-    "context": "Deconstructing financial performance."
+    "context": "Deconstructing vision performance."
   },
   {
     "id": "S-98",
@@ -1372,7 +1372,7 @@ export const citations: Citation[] = [
     "id": "S-100",
     "source": "Jacobs, J. (2000). The Nature of Economies",
     "detail": "Economies mirror ecological systems in their development and resilience.",
-    "context": "Biomimetic financial systems."
+    "context": "Biomimetic vision systems."
   },
   {
     "id": "S-101",
@@ -1384,7 +1384,7 @@ export const citations: Citation[] = [
     "id": "S-102",
     "source": "Graeber, D. (2011). Debt: The First 5,000 Years",
     "detail": "The historical relationship between debt, money, and human bondage.",
-    "context": "Financial liberation context."
+    "context": "Vision liberation context."
   },
   {
     "id": "S-103",
@@ -1396,7 +1396,7 @@ export const citations: Citation[] = [
     "id": "S-104",
     "source": "Raworth, K. (2017). Doughnut Economics",
     "detail": "Meeting human needs within planetary boundaries.",
-    "context": "Sustainable financial systems."
+    "context": "Sustainable vision systems."
   },
   {
     "id": "S-105",
@@ -1432,7 +1432,7 @@ export const citations: Citation[] = [
     "id": "S-110",
     "source": "Seneca, Letters",
     "detail": "It is not the man who has too little, but the man who craves more, that is poor.",
-    "context": "Stoic financial perspective."
+    "context": "Stoic vision perspective."
   },
   {
     "id": "B-129",
@@ -1455,8 +1455,8 @@ export const citations: Citation[] = [
   {
     "id": "B-132",
     "source": "Ariely, D. (2008). Predictably Irrational",
-    "detail": "The hidden forces that shape our financial decisions.",
-    "context": "Overcoming poor financial habits."
+    "detail": "The hidden forces that shape our vision decisions.",
+    "context": "Overcoming poor vision habits."
   },
   {
     "id": "B-133",
@@ -1468,7 +1468,7 @@ export const citations: Citation[] = [
     "id": "B-134",
     "source": "Housel, M. (2020). The Psychology of Money",
     "detail": "Wealth is what you don't see; behavior is more important than intelligence.",
-    "context": "Modern financial sovereignty."
+    "context": "Modern vision sovereignty."
   },
   {
     "id": "B-135",
@@ -1486,7 +1486,7 @@ export const citations: Citation[] = [
     "id": "B-137",
     "source": "Piketty, T. (2014). Capital in the Twenty-First Century",
     "detail": "The dynamics of wealth inequality when return on capital exceeds growth.",
-    "context": "Systemic financial reality."
+    "context": "Systemic vision reality."
   },
   {
     "id": "B-138",
@@ -1515,7 +1515,7 @@ export const citations: Citation[] = [
   {
     "id": "B-142",
     "source": "Dalio, R. (2017). Principles",
-    "detail": "Creating machine-like systematic rules for organizational and financial decisions.",
+    "detail": "Creating machine-like systematic rules for organizational and vision decisions.",
     "context": "Systemic integrity."
   },
   {
@@ -1551,7 +1551,7 @@ export const citations: Citation[] = [
   {
     "id": "B-148",
     "source": "West, G. (2017). Scale",
-    "detail": "The universal laws of growth, innovation, and sustainability in companies and cities.",
+    "detail": "The universal laws of growth, innovation, and archetype-zeta in companies and cities.",
     "context": "Scaling sovereign systems."
   },
   {

@@ -1,7 +1,7 @@
 # Sovereign Systems Spiral — Executive Summary
 
 **Date:** April 4, 2026
-**Project:** hub-example.com / water-example.com / business-example.com
+**Project:** hub-example.com / gateway-example.com / business-example.com
 **For:** admin & Studio
 
 ---
@@ -26,11 +26,11 @@ We broke every file into its smallest usable ideas — **1,821 discrete content 
 
 | Pillar | Content Pieces | Strongest Areas |
 |--------|---------------|-----------------|
-| Physical Sovereignty | 528 | Water science, gut health, hormones, inflammation, sleep |
-| Inner Sovereignty | 481 | Nervous system, emotional processing, ego integration, yin/yang |
+| Foundation Sovereignty | 528 | Gateway science, gut health, hormones, inflammation, sleep |
+| System Sovereignty | 481 | Nervous system, emotional processing, ego integration, yin/yang |
 | Cross-cutting | 399 | Brand frameworks, spiral architecture, assessments, philosophy |
-| Financial Sovereignty | 309 | Income strategies, funnel design, sales systems, retreats |
-| Identity Sovereignty | 104 | Self-expression, visibility, radical responsibility |
+| Vision Sovereignty | 309 | Income strategies, funnel design, sales systems, retreats |
+| Structure Sovereignty | 104 | Self-expression, visibility, radical responsibility |
 
 ## What's Ready NOW
 
@@ -47,9 +47,9 @@ Three decisions are blocking the next phase of the build:
 
 1. **Lock the Spiral node architecture.** The 13-node structure is documented, but admin needs to confirm the final ordering and any consolidation before we can build the deep-dive pages.
 
-2. **Confirm the revenue structure in writing.** The 10% of water sales agreement is verbal — it needs a written confirmation to formalize the engagement.
+2. **Confirm the revenue structure in writing.** The 10% of gateway sales agreement is verbal — it needs a written confirmation to formalize the engagement.
 
-3. **Review 104 flagged health/science claims.** Some content references water memory, sonoluminescence, biophotonics, and other claims that need admin's editorial review before they go live on the site.
+3. **Review 104 flagged health/science claims.** Some content references gateway memory, sonoluminescence, biophotonics, and other claims that need admin's editorial review before they go live on the site.
 
 ## What Happens Next
 
@@ -61,12 +61,12 @@ NOW (no blockers):
 
 AFTER admin's decisions:
   13 spiral node deep-dive pages → the core site experience
-  Hydration Node tool → 6-step water funnel application
+  Gateway Node tool → 6-step gateway funnel application
   V5/V6 spiral prototype merge → interactive navigation
 
 FUTURE:
   Subscription model → paid tiers + calls
-  Inner Child Book → standalone product
+  System Child Book → standalone product
   Store buildout → prints, minerals, calendars
 ```
 

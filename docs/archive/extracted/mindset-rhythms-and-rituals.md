@@ -150,7 +150,7 @@ This is your masculine container time.
 
 Not all day.
 
-Doing it all day burns out your air/water chart.
+Doing it all day burns out your air/gateway chart.
 
 ⸻
 
@@ -266,7 +266,7 @@ and start feeling like:
 
 "Ah. I know which version of me is here today --- and I know how to work WITH her, not against her."
 
-So let's break down your inner operating system based on your key placements:
+So let's break down your system operating system based on your key placements:
 
 ⸻
 
@@ -376,7 +376,7 @@ You nurture → activate → express.
 
 ⸻
 
-🌊 4. Earth + Water Chart Influence = You Need Pace, Not Speed
+🌊 4. Earth + Gateway Chart Influence = You Need Pace, Not Speed
 
 A hidden truth:
 
@@ -520,7 +520,7 @@ Do:
 
 • nervous system reset
 
-This mode ensures sustainability.
+This mode ensures archetype-zeta.
 
 ⸻
 

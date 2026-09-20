@@ -15,7 +15,7 @@ A multi-domain static website system for admin's Sovereign Systems Spiral brand.
 | Domain | Role | Content State |
 |--------|------|---------------|
 | hub-example.com | Hub — interactive spiral, 4 pillars | Spiral built, pillar pages 2/4 placeholder |
-| water-example.com | Water pillar — documentary funnel, quiz, 6 branches | 3/6 branch copies done, landing copy done |
+| gateway-example.com | Gateway pillar — documentary funnel, quiz, 6 branches | 3/6 branch copies done, landing copy done |
 | business-example.com | Business pillar — placeholder | Placeholder only |
 
 ### Design Decisions (from client questionnaire)
@@ -24,11 +24,11 @@ A multi-domain static website system for admin's Sovereign Systems Spiral brand.
 |----------|--------|
 | Spiral feel | Alive & breathing — slow orbital float, organic |
 | Color palette | Teal/ocean tones — evolve existing, don't reinvent |
-| Water page entry | Headline + hook text → documentary video |
+| Gateway page entry | Headline + hook text → documentary video |
 | Quiz | GHL embed (preserves existing tagging/workflows) |
 | Visible pillars | All 4 from day one, "coming soon" for unbuilt |
 | Content editing | Markdown files she can edit + studio for structural changes |
-| Build priority | Full skeleton with both domains, water side more polished |
+| Build priority | Full skeleton with both domains, gateway side more polished |
 
 ---
 
@@ -54,40 +54,40 @@ sovereign-systems--spiral-template/
 ├── src/
 │   ├── layouts/
 │   │   ├── Base.astro                  # <html>, <head>, fonts, nav, footer
-│   │   ├── WaterLayout.astro           # Water pillar variant (teal accents)
+│   │   ├── WaterLayout.astro           # Gateway pillar variant (teal accents)
 │   │   └── HubLayout.astro             # Hub variant (if palette diverges later)
 │   ├── components/
 │   │   ├── spiral/
 │   │   │   ├── spiral.ts              # Vanilla canvas: orbital animation, Perlin noise, pillar nodes
 │   │   │   ├── SpiralIsland.astro     # Astro island wrapper with client:media="(min-width: 768px)"
 │   │   │   └── SpiralFallback.astro   # Mobile: CSS-animated vertical list (no canvas)
-│   │   ├── BranchSection.astro         # Single section of a branch page (hook/education/water/bridge/resources/cta)
+│   │   ├── BranchSection.astro         # Single section of a branch page (hook/education/gateway/bridge/resources/cta)
 │   │   ├── VideoEmbed.astro            # Responsive video player (Vimeo/YouTube/self-hosted)
 │   │   ├── QuizEmbed.astro             # GHL form embed with loading state
-│   │   ├── MiniSpiral.astro            # Smaller spiral for water "Explore" section
+│   │   ├── MiniSpiral.astro            # Smaller spiral for gateway "Explore" section
 │   │   ├── PillarCard.astro            # Card for pillar overview on hub
 │   │   ├── ComingSoon.astro            # Placeholder for unbuilt pillar/branch pages
 │   │   ├── Hero.astro                  # Reusable hero section
 │   │   └── CTAButton.astro             # Consistent call-to-action styling
 │   ├── content/
-│   │   ├── branches/                   # Water pillar branch pages (Markdown)
-│   │   │   ├── gut-hormones.md         # ✅ Copy from ChatGPT spec
-│   │   │   ├── fertility.md            # ✅ Copy from ChatGPT spec
-│   │   │   ├── autoimmune.md           # ✅ Copy from ChatGPT spec
-│   │   │   ├── athletic.md             # Placeholder
-│   │   │   ├── cancer-support.md       # Placeholder (special soft tone)
-│   │   │   └── sustainability.md       # Placeholder
+│   │   ├── branches/                   # Gateway pillar branch pages (Markdown)
+│   │   │   ├── archetype-epsilon.md         # ✅ Copy from ChatGPT spec
+│   │   │   ├── archetype-delta.md            # ✅ Copy from ChatGPT spec
+│   │   │   ├── archetype-beta.md           # ✅ Copy from ChatGPT spec
+│   │   │   ├── archetype-alpha.md             # Placeholder
+│   │   │   ├── archetype-gamma.md       # Placeholder (special soft tone)
+│   │   │   └── archetype-zeta.md       # Placeholder
 │   │   └── pillars/                    # Sovereign Systems pillars (Markdown)
-│   │       ├── physical.md             # Content from ChatGPT spec
-│   │       ├── inner.md                # Content from ChatGPT spec
-│   │       ├── identity.md             # Placeholder
-│   │       └── financial.md            # Placeholder
+│   │       ├── foundation.md             # Content from ChatGPT spec
+│   │       ├── system.md                # Content from ChatGPT spec
+│   │       ├── structure.md             # Placeholder
+│   │       └── vision.md            # Placeholder
 │   ├── pages/
 │   │   ├── index.astro                 # Hub landing — hero + spiral + 4 pillar cards
 │   │   ├── pillars/
 │   │   │   └── [slug].astro            # Dynamic pillar page from content/pillars/*.md
-│   │   ├── water/
-│   │   │   ├── index.astro             # Water landing — headline → video → education → CTAs
+│   │   ├── gateway/
+│   │   │   ├── index.astro             # Gateway landing — headline → video → education → CTAs
 │   │   │   ├── quiz.astro              # Quiz page with GHL embed
 │   │   │   ├── explore.astro           # Mini spiral showing 6 branches
 │   │   │   └── [slug].astro            # Dynamic branch page from content/branches/*.md
@@ -127,7 +127,7 @@ Teal/ocean palette, evolved from her existing sites.
 --color-ocean-600: #1a6b6b;       /* Secondary elements */
 --color-ocean-500: #119a9e;       /* Primary brand — from hub-example.com */
 --color-ocean-400: #3dbfc4;       /* Hover states, accents */
---color-ocean-300: #8cc5d3;       /* From water-example.com */
+--color-ocean-300: #8cc5d3;       /* From gateway-example.com */
 --color-ocean-200: #b8dfe6;       /* Light accents */
 --color-ocean-100: #e0f0f0;       /* Lightest tint */
 
@@ -165,7 +165,7 @@ Teal/ocean palette, evolved from her existing sites.
 - Center node: "Sovereign Systems" label with subtle pulse (opacity oscillation via sine)
 - 4 pillar nodes orbit at different radii and speeds
 - Orbital paths drawn as faint dotted arcs (canvas arc + setLineDash)
-- Spiral line connects center → physical → inner → identity → financial in a logarithmic spiral
+- Spiral line connects center → foundation → system → structure → vision in a logarithmic spiral
 
 **Animation:**
 - Constant slow rotation (0.001 rad/frame base speed)
@@ -190,32 +190,32 @@ interface HubConfig {
   name: string;              // "Sovereign Systems Spiral"
   tagline: string;           // Positioning statement
   pillars: Pillar[];
-  branches: Branch[];        // Water pillar branches
+  branches: Branch[];        // Gateway pillar branches
   domains: {
     hub: string;             // "hub-example.com"
-    water: string;           // "water-example.com"
+    gateway: string;           // "gateway-example.com"
     business: string;        // "business-example.com"
   };
   ghl: {
     quizFormUrl: string;     // GHL embed URL (provided by client)
-    productUrl: string;      // CTA destination for "start with your water"
+    productUrl: string;      // CTA destination for "start with your gateway"
   };
 }
 
 interface Pillar {
-  name: string;              // "Physical Sovereignty"
-  slug: string;              // "physical"
+  name: string;              // "Foundation Sovereignty"
+  slug: string;              // "foundation"
   emoji: string;             // "🌊"
   tagline: string;           // "Control your inputs. Stabilize your body."
   color: string;             // Tint from palette
-  url: string;               // "/pillars/physical" or external domain
+  url: string;               // "/pillars/foundation" or external domain
   status: 'live' | 'coming-soon';
   order: number;             // Orbital position (1-4)
 }
 
 interface Branch {
   name: string;              // "Gut + Hormones"
-  slug: string;              // "gut-hormones"
+  slug: string;              // "archetype-epsilon"
   emoji: string;             // "🌿"
   order: number;
 }
@@ -225,7 +225,7 @@ This single config file is the studio's reusability hook — a future client pro
 
 ### 5.2 Branch Page Template
 
-All 6 water branches use identical structure, rendered from Markdown frontmatter + body.
+All 6 gateway branches use identical structure, rendered from Markdown frontmatter + body.
 
 **Markdown schema (content.config.ts):**
 ```ts
@@ -237,8 +237,8 @@ branches: defineCollection({
     status: z.enum(['live', 'placeholder']),
     tone: z.enum(['standard', 'soft']).default('standard'),
     // 'soft' tone renders: muted color accent (ocean-200 instead of ocean-500),
-    // gentler CTA text ("Explore gently" vs "Start with your water"),
-    // no quiz-digging language. Used for cancer-support.
+    // gentler CTA text ("Explore gently" vs "Start with your gateway"),
+    // no quiz-digging language. Used for archetype-gamma.
     order: z.number(),
   })
 })
@@ -247,23 +247,23 @@ branches: defineCollection({
 **Rendered sections (from Markdown headings):**
 1. `## Hook` — Relatable emotional entry
 2. `## Connection` — What's happening in the body
-3. `## Where Water Fits` — Hydrogen benefits, grounded
+3. `## Where Gateway Fits` — Hydrogen benefits, grounded
 4. `## Bridge` — "This doesn't have to be overwhelming"
 5. `## Resources` — Videos/clips (expandable later)
-6. `## CTA` — "Start with your water" → product link
+6. `## CTA` — "Start with your gateway" → product link
 
 Each section maps to a `<BranchSection>` component with consistent spacing, typography, and a subtle teal left-border accent.
 
-### 5.3 Water Landing Page (water/index.astro)
+### 5.3 Gateway Landing Page (gateway/index.astro)
 
 **Flow (top to bottom):**
-1. **Hero** — Headline: "Water changed everything for me." + 2-3 sentences of context
+1. **Hero** — Headline: "Gateway changed everything for me." + 2-3 sentences of context
 2. **Documentary** — `<VideoEmbed>` component, large, centered. Placeholder state: thumbnail + "Documentary coming soon" overlay
 3. **Post-video grounding** — Short section: "What you just watched" (2-3 sentences)
 4. **Mini demo** — Optional second video embed (1-2 min product demo)
-5. **Simple education** — "What is molecular hydrogen?" + "Why hydration ≠ just water anymore"
-6. **Primary CTA** — "Find what your body actually needs" → /water/quiz
-7. **Secondary CTA** — "Explore by category" → /water/explore (mini spiral)
+5. **Simple education** — "What is molecular hydrogen?" + "Why gateway ≠ just gateway anymore"
+6. **Primary CTA** — "Find what your body actually needs" → /gateway/quiz
+7. **Secondary CTA** — "Explore by category" → /gateway/explore (mini spiral)
 8. **Final CTA** — "If something in you is curious... follow that."
 
 ### 5.4 QuizEmbed Component
@@ -289,11 +289,11 @@ GHL form URL provided by admin. Styling of the embed controlled in GHL to match 
 
 After quiz submission, the user needs to land on the correct branch page. Two options depending on GHL capability:
 
-1. **GHL handles redirect** — GHL form "thank you page" URL is set per-result to `/water/gut-hormones`, `/water/fertility`, etc. Quiz routing logic lives entirely in GHL. Simplest approach if GHL supports conditional redirects.
+1. **GHL handles redirect** — GHL form "thank you page" URL is set per-result to `/gateway/archetype-epsilon`, `/gateway/archetype-delta`, etc. Quiz routing logic lives entirely in GHL. Simplest approach if GHL supports conditional redirects.
 
-2. **Custom results page** — If GHL can't redirect conditionally, the quiz page includes a post-submission handler that reads the primary tag from the GHL response (via webhook or URL parameter) and redirects client-side. The quiz page at `/water/quiz` becomes:
+2. **Custom results page** — If GHL can't redirect conditionally, the quiz page includes a post-submission handler that reads the primary tag from the GHL response (via webhook or URL parameter) and redirects client-side. The quiz page at `/gateway/quiz` becomes:
    - Show quiz (GHL embed)
-   - On submit: GHL applies tags → redirects to `/water/quiz/results?branch=gut-hormones`
+   - On submit: GHL applies tags → redirects to `/gateway/quiz/results?branch=archetype-epsilon`
    - Results page shows personalized header + link to branch page
 
 **admin's existing GHL workflow (Day 0/2/4/6 follow-up sequence) triggers on form submission regardless of which approach is used — the tagging happens in GHL, not in our code.**
@@ -305,7 +305,7 @@ After quiz submission, the user needs to land on the correct branch page. Two op
 2. **Spiral** — `<SpiralCanvas client:visible />` — the interactive spiral with 4 orbiting pillars
 3. **Pillar cards** — 4 cards below the spiral (fallback/reinforcement for mobile and accessibility)
 4. **Positioning** — The authority version positioning statement
-5. **CTA** — "Start at the root" → links to water pillar (primary revenue path)
+5. **CTA** — "Start at the root" → links to gateway pillar (primary revenue path)
 
 ---
 
@@ -315,15 +315,15 @@ After quiz submission, the user needs to land on the correct branch page. Two op
 
 Deploy as a single Netlify site. Use path-based routing initially:
 - `site.netlify.app/` → hub (hub-example.com content)
-- `site.netlify.app/water/` → water pillar (water-example.com content)
+- `site.netlify.app/gateway/` → gateway pillar (gateway-example.com content)
 - `site.netlify.app/business/` → business pillar (business-example.com content)
 
 When ready to connect custom domains, Netlify supports multiple domains per site with redirect rules:
 ```toml
 # netlify.toml
 [[redirects]]
-  from = "https://water-example.com/*"
-  to = "/water/:splat"
+  from = "https://gateway-example.com/*"
+  to = "/gateway/:splat"
   status = 200
 
 [[redirects]]
@@ -381,7 +381,7 @@ The site on a `.netlify.app` URL is meaningless to the client. Domain connection
 
 1. **Deploy to Netlify** → get `.netlify.app` URL for development/review
 2. **Connect hub-example.com** — requires admin to update DNS (she's on GoDaddy). We provide exact instructions: "Add a CNAME record pointing to X."
-3. **Connect water-example.com** — currently on LeadConnector. Requires DNS change. Same instructions.
+3. **Connect gateway-example.com** — currently on LeadConnector. Requires DNS change. Same instructions.
 4. **business-example.com** — can stay on HighLevel until business pillar is built. Connect when ready.
 
 **Dependency:** admin must share domain registrar access or follow DNS instructions. This is a blocking dependency for launch — document it clearly and get it early.
@@ -392,12 +392,12 @@ The site on a `.netlify.app` URL is meaningless to the client. Domain connection
 
 Content that doesn't exist yet gets intentional placeholder treatment:
 
-**Branch pages (athletic, cancer-support, sustainability):**
+**Branch pages (archetype-alpha, archetype-gamma, archetype-zeta):**
 - Rendered with `<ComingSoon>` component
 - Shows branch name, emoji, and: "This branch is growing. Check back soon."
 - Same visual treatment as live branches (consistent navigation)
 
-**Pillar pages (identity, financial):**
+**Pillar pages (structure, vision):**
 - Same pattern: name, tagline from pillars.ts, "coming soon" message
 - Spiral shows them as hollow-circle nodes (visually distinct from live pillars)
 
@@ -424,9 +424,9 @@ Content that doesn't exist yet gets intentional placeholder treatment:
 
 **In scope for this build:**
 - Hub landing page with interactive spiral
-- Water funnel landing page with video placeholder + copy
+- Gateway funnel landing page with video placeholder + copy
 - Quiz page with GHL embed
-- Water explore page with mini spiral
+- Gateway explore page with mini spiral
 - 6 branch pages (3 with real copy, 3 placeholder)
 - 4 pillar pages (2 with content from spec, 2 placeholder)
 - Business pillar placeholder page
@@ -483,4 +483,4 @@ What feeds back into the studio is the **code architecture**, not the content:
 - `QuizEmbed.astro` → GHL integration pattern
 - Netlify multi-domain redirect pattern
 
-None of these contain admin's framework, copy, or brand identity. The next client gets the plumbing; their content is entirely their own.
+None of these contain admin's framework, copy, or brand structure. The next client gets the plumbing; their content is entirely their own.

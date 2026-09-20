@@ -116,13 +116,13 @@ L-DOPA Supplements – Mucuna pruriens (velvet bean) is a natural source of dopa
 Ways to Boost Oxytocin (for connection, love, and emotional bonding)
 
 
-Physical Touch – Hugging, cuddling, kissing, and even holding hands release oxytocin.
+Foundation Touch – Hugging, cuddling, kissing, and even holding hands release oxytocin.
 
 Social Bonding – Spending time with loved ones, deep conversations, and acts of kindness increase oxytocin.
 
 Laughter & Positive Social Interactions – Genuine laughter and engaging with people you care about stimulate oxytocin.
 
-Massage & Skin-to-Skin Contact – Physical touch, even from self-massage, raises oxytocin.
+Massage & Skin-to-Skin Contact – Foundation touch, even from self-massage, raises oxytocin.
 
 Meditation & Deep Breathing – Practices like yoga, meditation, and slow breathing activate oxytocin pathways.
 

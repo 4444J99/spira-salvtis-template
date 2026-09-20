@@ -12,15 +12,15 @@ sections:
 -->
 ---
 title: "Pool incident mirror, fawning, reparenting"
-source_file: "ChatGPT-Inner Child Healing.txt"
+source_file: "ChatGPT-System Child Healing.txt"
 source_folder: "mindset"
 nodes: [9, 2, 10]
 readiness: "Ready"
-pillar: "Identity"
+pillar: "Structure"
 extracted: 2026-04-03
 ---
 
-Inner Child Healing
+System Child Healing
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 7/19/2025 10:59:14
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 2, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ context_above: "As a therapist what do you think this event was trying to tell m
 provenance: HYBRID
 nature: TOOL
 nodes: [9, 2, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -94,7 +94,7 @@ forced to perform emotional compliance (like apologizing or “being okay”) wh
 Let’s break it down therapeutically:
 
 
-💔 What This Scene Represents to Your Inner Child
+💔 What This Scene Represents to Your System Child
 
 
 The hot tub: a symbol of something simple and joyful you just wanted access to
@@ -117,7 +117,7 @@ This is fawning. It's the nervous system trying to preserve safety by abandoning
 🌱 What This Is Asking of You Now
 
 
-This moment is your inner child saying:
+This moment is your system child saying:
 "See me. Protect me. Let me cry. Let me be.”
 
 
@@ -145,7 +145,7 @@ Let your body release what she never got to say. Cry if you need. Shake it out. 
 
 
 
-Would you like a journal prompt, embodiment practice, or inner child letter to explore this more?
+Would you like a journal prompt, embodiment practice, or system child letter to explore this more?
 <!-- ATM-M-326 OUT
 next: ATM-M-327
 context_below: "That little verse made me cry"
@@ -163,7 +163,7 @@ context_above: "admin, this hit you so hard because your nervous system recogniz
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 2, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -187,7 +187,7 @@ context_above: "That little verse made me cry"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 2, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

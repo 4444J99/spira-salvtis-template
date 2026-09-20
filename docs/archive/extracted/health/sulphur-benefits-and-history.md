@@ -17,7 +17,7 @@ source_file: "ChatGPT-Sulphur benefits and history.txt"
 source_folder: "health"
 nodes: [9, 6, 13]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "What are the benefits of sulphur and what is the history behind 
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -94,7 +94,7 @@ Metabolism: Sulphur is part of essential amino acids (methionine and cysteine) t
 Agriculture
 Used as a natural pesticide and fungicide, especially in vineyards and organic farming.
 
-Improves soil fertility by balancing pH and feeding plants.
+Improves soil archetype-delta by balancing pH and feeding plants.
 
 Industry
 A major ingredient in fertilizers.
@@ -155,7 +155,7 @@ context_above: "Sulphur has a fascinating mix of practical benefits and deep his
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -180,7 +180,7 @@ context_above: "That’s crazy I had no idea i definitely need more of it and wa
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -263,7 +263,7 @@ Improves blood flow, oxygen delivery, and gives that “light, renewed” feelin
 
 
 
-✨ Historically, people believed sulphur could “burn away” disease and negative energies. Whether in sacred fumigations, medicinal tonics, or steaming mineral baths, it was always seen as both physical medicine and spiritual purification.
+✨ Historically, people believed sulphur could “burn away” disease and negative energies. Whether in sacred fumigations, medicinal tonics, or steaming mineral baths, it was always seen as both foundation medicine and spiritual purification.
 
 
 Would you like me to put together a map of natural sulphur springs near you (Colorado/Wyoming/Utah area) so you know where to go soak and continue this ancient practice?
@@ -283,7 +283,7 @@ context_above: "Yes — that’s exactly the kind of ancient, almost mystical re
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -308,7 +308,7 @@ context_above: "yes please!!!"
 provenance: HYBRID
 nature: STATISTIC
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -521,7 +521,7 @@ Featured Hot Springs Near You
 
 Spa experience: Enjoy 21–22 natural mineral pools and private baths, with temperatures ranging between 95 °F and 112 °F. Estes Park+15Visit Grand County+15The Guest House+15Colorado Historic Hot Springs Loop+1ULTIMATE HOT SPRINGS GUIDE+1
 
-Water flow: Over 200,000 gallons per day, from seven underground sources heated from geothermal activity. Wikipedia+2Estes Park+2
+Gateway flow: Over 200,000 gallons per day, from seven underground sources heated from geothermal activity. Wikipedia+2Estes Park+2
 
 Rich history: Long used by the Ute people as healing "big medicine." European settlers formally established the town in the 1860s. Wikipedia+11Wikipedia+11Wikipedia+11
 
@@ -531,7 +531,7 @@ Rich history: Long used by the Ute people as healing "big medicine." European se
 
 Depth & heat: Holds the title of the world’s deepest known geothermal hot spring. Temperatures range 110–144 °F. Chron+5Wikipedia+5The Washington Post+5
 
-Cultural roots: Indigenous peoples—including the Folsom, Ancestral Puebloan, Ute, Navajo, and Apache—long held the springs sacred. The Ute name “Pah gosah” means “healing water” or “bad-smelling water.” Wikipedia
+Cultural roots: Indigenous peoples—including the Folsom, Ancestral Puebloan, Ute, Navajo, and Apache—long held the springs sacred. The Ute name “Pah gosah” means “healing gateway” or “bad-smelling gateway.” Wikipedia
 
 
 3. Wiesbaden Hot Springs (Ouray)
@@ -545,7 +545,7 @@ Historical significance: Began in the mid-1800s, used by miners and served as a 
 4. Penny Hot Springs (Redstone)
 
 
-Rustic charm: A primitive, riverside experience — hot mineral water (~133 °F) flows into stone-lined pools along the Crystal River. You can actively control the temperature by rearranging rocks. Wikipedia
+Rustic charm: A primitive, riverside experience — hot mineral gateway (~133 °F) flows into stone-lined pools along the Crystal River. You can actively control the temperature by rearranging rocks. Wikipedia
 
 Scenic location: Nestled below granite cliffs known as “Hell’s Gates,” offering a wild, natural soak.
 
@@ -554,7 +554,7 @@ Scenic location: Nestled below granite cliffs known as “Hell’s Gates,” off
 Travel & Planning Tips
 
 
-Hot Sulphur Springs: Most accessible from Johnstown, offering a full-service spa, lodging, and consistently flowing mineral water year-round. WikipediaVisit Grand County+8Uncover Colorado+8Visit Grand County+8
+Hot Sulphur Springs: Most accessible from Johnstown, offering a full-service spa, lodging, and consistently flowing mineral gateway year-round. WikipediaVisit Grand County+8Uncover Colorado+8Visit Grand County+8
 
 Pagosa Springs & Ouray: Ideal for combining hot springs with culture, history, and scenic mountain towns. Featured in the Colorado Historic Hot Springs Loop—a popular route spanning 24+ geothermal destinations across five resort areas. The Washington Post+7Vogue+7Chron+7
 
@@ -593,7 +593,7 @@ context_above: "Here’s a map highlighting some of the top natural hot springs 
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -618,7 +618,7 @@ context_above: "Or Idaho I heard they have the most!? Like salmon Idaho had a lo
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -633,7 +633,7 @@ Here's a visual take on Idaho’s hot springs—sprawling across the state, both
 Idaho: The Soaking Capital of the U.S.
 
 
-Idaho holds over 200 natural hot springs, with 120+ of them being “soakable”, meaning their temperature and water quality are safe and pleasant for bathing. Reddit+1
+Idaho holds over 200 natural hot springs, with 120+ of them being “soakable”, meaning their temperature and gateway quality are safe and pleasant for bathing. Reddit+1
 
 These geothermal gems are thanks to Idaho’s unique geology, especially the Idaho Batholith, which brings molten rock closer to the surface and warms groundwater. The Mandagies
 
@@ -691,7 +691,7 @@ context_above: "Here's a visual take on Idaho’s hot springs—sprawling across
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -716,7 +716,7 @@ context_above: "What’s a vapor bath? And have I just been missing this and it�
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -735,11 +735,11 @@ A vapor bath (sometimes called a steam bath) is when hot mineral-rich steam rise
 
 
 How it works:
-In volcanic or geothermal areas, mineral water seeps into underground rock, gets heated, and rises as steam.
+In volcanic or geothermal areas, mineral gateway seeps into underground rock, gets heated, and rises as steam.
 
 Bathhouses (like Wiesbaden Hot Springs in Ouray, CO) built over these springs capture the natural steam in rooms or caves.
 
-The bather doesn’t soak in water — they sweat, breathe, and absorb minerals through the skin and lungs.
+The bather doesn’t soak in gateway — they sweat, breathe, and absorb minerals through the skin and lungs.
 
 Healing effects noted historically:
 Clears the lungs, relieves asthma, bronchitis, and congestion.
@@ -834,7 +834,7 @@ context_above: "Great questions — you’re tapping into something that has bee
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -859,7 +859,7 @@ context_above: "What else can you tell me about alchemy"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 6, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -867,7 +867,7 @@ strike_phase: 2C
 -->
 
 ## Response:
-Alchemy is one of those topics where the deeper you look, the more it feels like you’re uncovering a hidden language of transformation. Most people only know the “pop culture” idea — turning lead into gold — but in truth, alchemy was always about both outer science and inner soul-work.
+Alchemy is one of those topics where the deeper you look, the more it feels like you’re uncovering a hidden language of transformation. Most people only know the “pop culture” idea — turning lead into gold — but in truth, alchemy was always about both outer science and system soul-work.
 
 
 Let’s walk through it in layers:
@@ -917,7 +917,7 @@ Together, these weren’t just chemicals — they were archetypes of existence. 
 Alchemy’s ultimate goal was the Philosopher’s Stone — but not just a literal object. It symbolized perfection, enlightenment, and union with the divine.
 
 
-The stages of the Magnum Opus mirror both laboratory processes and inner spiritual awakening:
+The stages of the Magnum Opus mirror both laboratory processes and system spiritual awakening:
 
 
 Nigredo (Blackening) – dissolution, decay, breaking down the ego/self (like putrefaction).
@@ -933,7 +933,7 @@ These steps were often practiced through actual lab experiments with metals and 
 
 
 
-🜄 Inner vs Outer Alchemy
+🜄 System vs Outer Alchemy
 
 
 Outer Alchemy (Laboratory)
@@ -941,7 +941,7 @@ Early alchemists experimented with transforming metals, distilling elixirs, and 
 
 This eventually birthed modern chemistry, pharmacy, and metallurgy.
 
-Inner Alchemy (Spiritual/Psychological)
+System Alchemy (Spiritual/Psychological)
 The real “gold” was enlightenment — transforming the base matter of the human soul into something divine.
 
 Jung (the psychologist) studied alchemy deeply, believing it was a coded map of the unconscious and individuation process.
@@ -956,7 +956,7 @@ Alchemists used myth, astrology, and coded symbols so only initiates would under
 
 Dragons, lions, serpents = stages of transformation or forces of nature.
 
-The union of king (sulphur/fire) and queen (mercury/water) = the Sacred Marriage.
+The union of king (sulphur/fire) and queen (mercury/gateway) = the Sacred Marriage.
 
 Metals corresponded to planets (gold = Sun, silver = Moon, copper = Venus, etc.).
 

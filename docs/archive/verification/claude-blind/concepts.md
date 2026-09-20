@@ -86,7 +86,7 @@ Related existing concepts: somatic "Coming Home to Your Animal Body," Jeannie Za
 ATOM 7
 File: ChatGPT-Divine Feminine Flow.txt
 Section: Divine Feminine Day-in-Life
-Idea: "A Day in My Divine Feminine Flow" — poetic/grounded narrative of an aligned day: waking without alarm, listening to body/womb/dreams before rising, warm lemon water with holy basil, movement that isn't forced, phone waits/to-do list bends to truth, creating when magnetic, nourishing colorful lunch, afternoon receiving (nap, bath, playlist), showing up in business from overflow, allowing rest to be holy, soft evenings with journaling or dancing
+Idea: "A Day in My Divine Feminine Flow" — poetic/grounded narrative of an aligned day: waking without alarm, listening to body/womb/dreams before rising, warm lemon gateway with holy basil, movement that isn't forced, phone waits/to-do list bends to truth, creating when magnetic, nourishing colorful lunch, afternoon receiving (nap, bath, playlist), showing up in business from overflow, allowing rest to be holy, soft evenings with journaling or dancing
 Provenance: HYBRID
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -100,14 +100,14 @@ Content:
 ATOM 8
 File: ChatGPT-Dopamine vs Oxytocin Dynamics.txt
 Section: Dopamine vs Oxytocin Gender Dynamics
-Idea: Dopamine (motivation/reward, outward/active, amplified by testosterone) vs Oxytocin (bonding/trust, inward/receptive, enhanced by estrogen): men tend more dopamine-driven (achievement, competition), women more oxytocin-fulfilled (connection, nurturing); too much dopamine without oxytocin = burnout/addiction/disconnection, too much oxytocin without dopamine = passivity/co-dependency; specific boosters for each (dopamine: exercise, cold exposure, goals, sunlight, tyrosine foods; oxytocin: physical touch, social bonding, laughter, meditation, giving, dance/singing, intimacy)
+Idea: Dopamine (motivation/reward, outward/active, amplified by testosterone) vs Oxytocin (bonding/trust, inward/receptive, enhanced by estrogen): men tend more dopamine-driven (achievement, competition), women more oxytocin-fulfilled (connection, nurturing); too much dopamine without oxytocin = burnout/addiction/disconnection, too much oxytocin without dopamine = passivity/co-dependency; specific boosters for each (dopamine: exercise, cold exposure, goals, sunlight, tyrosine foods; oxytocin: foundation touch, social bonding, laughter, meditation, giving, dance/singing, intimacy)
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
 Dopamine: motivation/reward neurotransmitter. Outward, active, linear. Amplified by testosterone. Boosters: exercise, cold exposure, goal-setting, sunlight, tyrosine foods (eggs, beef, almonds, bananas, dark chocolate), music, fasting, mucuna pruriens.
-Oxytocin: bonding/love hormone. Inward, receptive, cyclical. Enhanced by estrogen. Boosters: physical touch, social bonding, laughter, massage, meditation, giving, dancing/singing together, sexual intimacy.
+Oxytocin: bonding/love hormone. Inward, receptive, cyclical. Enhanced by estrogen. Boosters: foundation touch, social bonding, laughter, massage, meditation, giving, dancing/singing together, sexual intimacy.
 Balance: "Too much dopamine without oxytocin = burnout, addiction, disconnection. Too much oxytocin without dopamine = passivity, co-dependency."
 ===
 
@@ -203,13 +203,13 @@ EMPTY — 0 atoms
 ATOM 15
 File: ChatGPT-Sound Frequency Analysis.txt
 Section: Sound Frequency Analysis Method
-Idea: Method to analyze sound/music for healing vs detrimental qualities: can scientifically identify dominant frequencies (Hz), harmonics, spectrum, proximity to 432/440 Hz, binaural beats; can assess nervous-system impact based on psychoacoustics (smooth harmonics = calming, slow rhythm 60-80 BPM = heart coherence, repetitive low drone = meditative, irregular sharp transients = stress); cannot definitively label as "healing" or "detrimental" — your body is the final authority since two people can have opposite reactions to same frequency depending on trauma history, nervous system state, hormonal phase, sensory sensitivity, hydration
+Idea: Method to analyze sound/music for healing vs detrimental qualities: can scientifically identify dominant frequencies (Hz), harmonics, spectrum, proximity to 432/440 Hz, binaural beats; can assess nervous-system impact based on psychoacoustics (smooth harmonics = calming, slow rhythm 60-80 BPM = heart coherence, repetitive low drone = meditative, irregular sharp transients = stress); cannot definitively label as "healing" or "detrimental" — your body is the final authority since two people can have opposite reactions to same frequency depending on trauma history, nervous system state, hormonal phase, sensory sensitivity, gateway
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Can analyze: dominant Hz ranges, harmonics/overtones, frequency spectrum, proximity to 432/440 Hz, binaural beats. Can assess: smooth harmonics (calming), slow rhythm 60-80 BPM (heart coherence), repetitive low drone (meditative), irregular sharp transients (stress). Cannot prove: absolute "healing" or "detrimental" label. "Your body is the final authority." Factors changing reaction: trauma history, nervous system state, hormonal phase, sensory sensitivity, hydration. Best method: upload audio → analyze Hz + harmonics + nervous system effects → somatic check (breath, shoulders, grounding, emotion).
+Can analyze: dominant Hz ranges, harmonics/overtones, frequency spectrum, proximity to 432/440 Hz, binaural beats. Can assess: smooth harmonics (calming), slow rhythm 60-80 BPM (heart coherence), repetitive low drone (meditative), irregular sharp transients (stress). Cannot prove: absolute "healing" or "detrimental" label. "Your body is the final authority." Factors changing reaction: trauma history, nervous system state, hormonal phase, sensory sensitivity, gateway. Best method: upload audio → analyze Hz + harmonics + nervous system effects → somatic check (breath, shoulders, grounding, emotion).
 ===
 
 ## ChatGPT-Vision board creation guide.txt
@@ -223,7 +223,7 @@ Nature: NARRATIVE
 Editorial: CLEAN
 ---
 Content:
-Tangible goals: truck + camper, travel anytime, own house, own land, horse, financial freedom (groceries/gas/car without worry), sell art, monthly handwritten letter subscriptions, $10K/month milestone, coffee shop, 3 houses. Nonprofit: Colorado house for nonprofit → land → animals → coffee shop employing people. Approach: specific enough to stay on track but vague enough for universe to work magic. Focus on feelings: "confident, aligned, healthy and cared for."
+Tangible goals: truck + camper, travel anytime, own house, own land, horse, vision freedom (groceries/gas/car without worry), sell art, monthly handwritten letter subscriptions, $10K/month milestone, coffee shop, 3 houses. Nonprofit: Colorado house for nonprofit → land → animals → coffee shop employing people. Approach: specific enough to stay on track but vague enough for universe to work magic. Focus on feelings: "confident, aligned, healthy and cared for."
 ===
 
 ---

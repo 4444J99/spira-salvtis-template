@@ -115,7 +115,7 @@ Summary: What the Gallup Poll Is and Where It Stands
 
 Feature
 Details
-Identity
+Structure
 A series of public opinion surveys conducted by Gallup, Inc.
 Methodology
 Random sampling, statistical weighting, and demographic representativeness to ensure accuracyGallup.comGallup.comWikipedia

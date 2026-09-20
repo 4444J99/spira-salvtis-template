@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 const { branch } = Astro.props;
 const { Content } = await render(branch);
 const { title, emoji, hook, status, tone } = branch.data;
-const ctaLabel = tone === 'soft' ? 'Explore gently' : 'Start with your water';
+const ctaLabel = tone === 'soft' ? 'Explore gently' : 'Start with your gateway';
 
 const branchSlug = branch.id;
 const branchConfig = config.branches.find((b) => b.slug === branchSlug);
@@ -31,9 +31,9 @@ const hasCycleContent = hasCycleLayer(branchSlug);
 ---
 
 <Base
-  title={`${title} — Water`}
+  title={`${title} — Gateway`}
   description={hook ||
-    `Explore ${title} — research-backed insights for your water and health journey.`}
+    `Explore ${title} — research-backed insights for your gateway and health journey.`}
 >
   <VerticalSpine />
   <!-- Branch header — FREE (Layer 1) -->
@@ -63,7 +63,7 @@ const hasCycleContent = hasCycleLayer(branchSlug);
           <ComingSoon title={title} emoji={emoji} />
         ) : (
           <EmailGate
-            preview={`Research-backed deep dive into ${title.toLowerCase()} — what it means, where water fits, and what the science shows.`}
+            preview={`Research-backed deep dive into ${title.toLowerCase()} — what it means, where gateway fits, and what the science shows.`}
           >
             <div class="branch-content text-[16px] leading-[1.9]">
               <Content />
@@ -85,11 +85,11 @@ const hasCycleContent = hasCycleLayer(branchSlug);
     >
       <CTAButton href={branchGhlUrl} label={ctaLabel} />
       <CTAButton
-        href="/water/#branches"
-        label="All Water Branches"
+        href="/gateway/#branches"
+        label="All Gateway Branches"
         variant="secondary"
       />
-      <CTAButton href="/water/" label="Back to Water" variant="secondary" />
+      <CTAButton href="/gateway/" label="Back to Gateway" variant="secondary" />
     </div>
   </section>
 </Base>

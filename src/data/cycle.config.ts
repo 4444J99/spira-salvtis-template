@@ -16,10 +16,10 @@ export interface CyclePhase {
 }
 
 export const cycleSyncedBranchSlugs = [
-  'gut-hormones',
-  'fertility',
-  'athletic',
-  'autoimmune',
+  'archetype-epsilon',
+  'archetype-delta',
+  'archetype-alpha',
+  'archetype-beta',
 ] as const;
 
 export type CycleSyncedBranchSlug = (typeof cycleSyncedBranchSlugs)[number];
@@ -34,18 +34,18 @@ export interface BranchCycleProtocol {
 }
 
 export const branchGuidance: Record<string, string> = {
-  'gut-hormones':
+  'archetype-epsilon':
     'Use this as a monthly check-in: follicular for gut repair, ovulatory for expression, luteal for hormone steadiness, menstrual for release and restoration.',
-  fertility:
-    'Use this as a fertility map: build the internal terrain before ovulation, protect implantation conditions after ovulation, and track patterns without forcing them.',
-  autoimmune:
+  'archetype-delta':
+    'Use this as a archetype-delta map: build the internal terrain before ovulation, protect implantation conditions after ovulation, and track patterns without forcing them.',
+  'archetype-beta':
     'Use this as a flare-awareness map: add more protection around menstrual and ovulatory windows, then rebuild gently when progesterone rises.',
-  athletic:
+  'archetype-alpha':
     'Use this as a training-periodization map: push strength and intensity when energy rises, then taper toward recovery when the body asks for consolidation.',
-  'cancer-support':
+  'archetype-gamma':
     'Use this as a kindness map during treatment: notice rhythm when it is present, but let medical care, fatigue, and recovery needs override any calendar.',
-  sustainability:
-    'Use this as a rhythm map for household change: install one stable water habit per phase instead of trying to overhaul everything at once.',
+  'archetype-zeta':
+    'Use this as a rhythm map for household change: install one stable gateway habit per phase instead of trying to overhaul everything at once.',
 };
 
 export const defaultGuidance =
@@ -55,8 +55,8 @@ export const branchCycleProtocols: Record<
   CycleSyncedBranchSlug,
   BranchCycleProtocol
 > = {
-  'gut-hormones': {
-    branchSlug: 'gut-hormones',
+  'archetype-epsilon': {
+    branchSlug: 'archetype-epsilon',
     rhythmName: 'Gut-hormone feedback loop',
     focus:
       'Match gut repair, estrogen clearance, mineral support, and cooked-food pacing to the cycle window instead of using one flat protocol all month.',
@@ -66,20 +66,20 @@ export const branchCycleProtocols: Record<
       'bowel rhythm',
       'cravings',
       'sleep',
-      'hydration consistency',
+      'gateway consistency',
     ],
     protectiveBoundary:
-      'Change one input at a time so the body can show which foods, water habits, and stressors are actually moving symptoms.',
+      'Change one input at a time so the body can show which foods, gateway habits, and stressors are actually moving symptoms.',
     sourceRefs: [
       'docs/archive/extracted/time-astro/cycle-and-moon-comparison.md#ATM-T-072',
       'docs/archive/extracted/health/hormone-cycle-guide.md',
     ],
   },
-  fertility: {
-    branchSlug: 'fertility',
+  'archetype-delta': {
+    branchSlug: 'archetype-delta',
     rhythmName: 'Terrain before timing',
     focus:
-      'Treat the whole cycle as fertility preparation: release, rebuild lining quality, support ovulation, then protect the implantation window.',
+      'Treat the whole cycle as archetype-delta preparation: release, rebuild lining quality, support ovulation, then protect the implantation window.',
     trackingSignals: [
       'cycle day',
       'cervical fluid',
@@ -89,14 +89,14 @@ export const branchCycleProtocols: Record<
       'stress',
     ],
     protectiveBoundary:
-      'Do not reduce fertility to a single ovulation window; the planner should lower pressure, not turn the body into a project.',
+      'Do not reduce archetype-delta to a single ovulation window; the planner should lower pressure, not turn the body into a project.',
     sourceRefs: [
       'docs/archive/extracted/time-astro/astrology-hormone-moon-planner.md#ATM-T-066',
       'docs/archive/extracted/time-astro/cycle-and-moon-comparison.md#ATM-T-075',
     ],
   },
-  athletic: {
-    branchSlug: 'athletic',
+  'archetype-alpha': {
+    branchSlug: 'archetype-alpha',
     rhythmName: 'Training periodization',
     focus:
       'Use rising-energy windows for strength and speed, then use luteal and menstrual windows for endurance, consolidation, mobility, and recovery.',
@@ -106,7 +106,7 @@ export const branchCycleProtocols: Record<
       'soreness',
       'sleep',
       'training readiness',
-      'hydration consistency',
+      'gateway consistency',
     ],
     protectiveBoundary:
       'Peak output does not mean reckless output; ovulation is a performance window and an injury-awareness window.',
@@ -115,8 +115,8 @@ export const branchCycleProtocols: Record<
       'docs/archive/extracted/health/hormone-cycle-guide.md',
     ],
   },
-  autoimmune: {
-    branchSlug: 'autoimmune',
+  'archetype-beta': {
+    branchSlug: 'archetype-beta',
     rhythmName: 'Flare-awareness map',
     focus:
       'Watch menstrual and ovulatory immune activation windows, then use the progesterone-supported luteal phase for gentle rebuilding.',
@@ -126,7 +126,7 @@ export const branchCycleProtocols: Record<
       'pain',
       'sleep',
       'stress',
-      'hydration consistency',
+      'gateway consistency',
     ],
     protectiveBoundary:
       'This is supportive pattern awareness only. Medical care, medication, fatigue, and flare management override any calendar.',
@@ -209,7 +209,7 @@ export const personalizationDimensions: PersonalizationDimension[] = [
     id: 'cycle',
     label: 'Cycle phase',
     status: 'live',
-    role: 'Maps physical protocols to menstrual windows: rest, rise, peak, and ground.',
+    role: 'Maps foundation protocols to menstrual windows: rest, rise, peak, and ground.',
     dataBoundary:
       'Uses self-observed cycle day only; no sensitive profile data is stored in this slice.',
     sourceRefs: [

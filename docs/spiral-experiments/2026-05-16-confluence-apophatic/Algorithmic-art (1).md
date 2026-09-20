@@ -38,7 +38,7 @@ Orchestrated dual-file presentation with restrained framingOrchestrated dual-fil
 
 Three files, two doors.
 
-**`pf-005-twelvefold-confluence.html`** — the kataphatic sister. Twelve spheres on a Star of David lattice (three ascending, three descending, six inner intersections), 144 directed Bezier lanes (12², self-loops included as small orbital paths around each sphere), six triangle-edge traces faintly inscribed as the loops. Particles bend toward the bridge color when crossing between triads. Seed-deterministic; same seed reproduces the same lattice exactly. Anthropic-branded sidebar per the skill template. Download to PNG with the seed baked into the filename.
+**`pf-005-twelvefold-confluence.html`** — the kataphatic sister. Twelve spheres on a Star of David lattice (three ascending, three descending, six system intersections), 144 directed Bezier lanes (12², self-loops included as small orbital paths around each sphere), six triangle-edge traces faintly inscribed as the loops. Particles bend toward the bridge color when crossing between triads. Seed-deterministic; same seed reproduces the same lattice exactly. Anthropic-branded sidebar per the skill template. Download to PNG with the seed baked into the filename.
 
 **`apophatic-engine-cell.html`** — the Apophatic Engine as a single cell. Hour I, Naming. Cream field, EB Garamond serif, generous margin, no header, no nav, no decoration. One input, one button, no echo. Submitted word vanishes immediately and is not stored, not logged, not returned. A single italic residue line appears, then nothing — no "next," no countdown, no link out. This is one threshold, not the full twelve-Return cycle; a faithful sketch of the principle, not the apparatus.
 

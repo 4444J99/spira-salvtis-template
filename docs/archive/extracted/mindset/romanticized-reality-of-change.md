@@ -16,7 +16,7 @@ source_file: "ChatGPT-Romanticized Reality of Change.txt"
 source_folder: "mindset"
 nodes: [14, 4]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "“what would what would you call it like what's a word for amer
 provenance: HYBRID
 nature: CLAIM
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -89,7 +89,7 @@ context_above: "Sure! It sounds like you're describing a kind of 'romanticizatio
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -113,7 +113,7 @@ context_above: "“Yes, exactly.”"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
@@ -137,7 +137,7 @@ context_above: "Awesome! It’s like the difference between the raw, intense tra
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -161,7 +161,7 @@ context_above: "“Yeah, I'm trying to figure out how to put it into words for I
 provenance: HYBRID
 nature: CLAIM
 nodes: [14, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

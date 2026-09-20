@@ -8,8 +8,8 @@
 The quiz is the primary entry point for new visitors. Building the Start Here page and connecting GHL routing determines how users are funneled to the right pillar and next steps.
 
 ### Dependencies
-- **Blocked by:** #14 (video asset access), #17 (water hub placement)
-- **Blocks:** #6 (physical build - funnel integration)
+- **Blocked by:** #14 (video asset access), #17 (gateway hub placement)
+- **Blocks:** #6 (foundation build - funnel integration)
 - **Requires:** GHL embed URL and routing rules
 
 ### Upstream / Downstream
@@ -22,7 +22,7 @@ The quiz is the primary entry point for new visitors. Building the Start Here pa
 - Build `/start-here/` or `/quiz/` page
 - Polish GHL iframe/embed experience
 - Define routing logic by pillar/result
-- Connect CTA from spiral hub and Physical Sovereignty entry
+- Connect CTA from spiral hub and Foundation Sovereignty entry
 
 ### Out-of-Scope
 - GHL account configuration
@@ -68,7 +68,7 @@ Live quiz page with:
 - [ ] Implement GHL iframe embed
 - [ ] Add routing logic (if GHL doesn't handle)
 - [ ] Connect CTA from spiral hub
-- [ ] Connect CTA from Physical Sovereignty
+- [ ] Connect CTA from Foundation Sovereignty
 - [ ] Test routing flow
 - [ ] Commit and deploy
 
@@ -90,10 +90,10 @@ Live quiz page with:
 If GHL handles routing internally (recommended), only need embed URL. If custom routing needed, implement in code.
 
 ### Routing Examples
-- Result A → Physical Sovereignty
-- Result B → Inner Sovereignty
-- Result C → Identity Sovereignty
-- Result D → Financial Sovereignty
+- Result A → Foundation Sovereignty
+- Result B → System Sovereignty
+- Result C → Structure Sovereignty
+- Result D → Vision Sovereignty
 
 ### Source Reference
 See handoff section on "Start Here / Quiz" flow.

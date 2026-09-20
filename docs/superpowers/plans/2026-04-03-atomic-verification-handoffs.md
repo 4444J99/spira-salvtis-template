@@ -48,7 +48,7 @@ Three sentences, one idea. Removing any sentence breaks it.
 TWO atoms (independent ideas):
 > "Cortisol is the primary stress hormone produced by the adrenal cortex."
 >
-> "The Light & Fruit Test measures morning energy, hydration clarity, and digestive response."
+> "The Light & Fruit Test measures morning energy, gateway clarity, and digestive response."
 
 Two unrelated ideas. Separate atoms.
 
@@ -131,7 +131,7 @@ Category: {CATEGORY}
 | S-3 | mindset (batch 1) | First 20 mindset/ files | Agent A | ~330 atoms expected |
 | S-4 | mindset (batch 2) | Remaining 19 mindset/ files + Rhythms.docx | Agent B | ~334 atoms expected |
 | S-5 | business | All 15 business/ files | Agent C | ~219 atoms expected |
-| S-6 | water | All 16 water/ files + ERW.docx | Agent C | ~139 atoms expected |
+| S-6 | gateway | All 16 gateway/ files + ERW.docx | Agent C | ~139 atoms expected |
 | S-7 | time-astro + concepts | All 22 files | Agent A | ~282 atoms expected |
 | S-8 | root docs | 1a, 1b, 2a, 2b | Agent B | ~145 atoms expected |
 
@@ -243,7 +243,7 @@ You have reconciliation reports from {N} category-level comparisons between our 
 | health | | | | |
 | mindset | | | | |
 | business | | | | |
-| water | | | | |
+| gateway | | | | |
 | time-astro | | | | |
 | concepts | | | | |
 | root docs | | | | |

@@ -1,9 +1,9 @@
 /**
  * LifeMotionLaw — first-class generative law layer.
  *
- * Sits between identity and renderer:
+ * Sits between structure and renderer:
  *
- *   EnvVar (immutable metaphysical identity, `hub.config.ts`)
+ *   EnvVar (immutable metaphysical structure, `hub.config.ts`)
  *     × IconWorld (matter / palette / phase mix / gravity, `icon-worlds.ts`)
  *     → LifeMotionLaw (bounded motion coefficients, THIS file)
  *     → renderer (`spiral.ts` consumes laws; it must not invent
@@ -24,7 +24,7 @@ import type { EnvVar } from './hub.config';
 import type { IconWorld, ParticleBehavior } from './icon-worlds';
 
 // ---------------------------------------------------------------------------
-// Seeded PRNG + identity hash (canonical home — renderer imports from here)
+// Seeded PRNG + structure hash (canonical home — renderer imports from here)
 // ---------------------------------------------------------------------------
 
 /** mulberry32 — fast 32-bit seeded PRNG, uniform in [0, 1). */
@@ -40,7 +40,7 @@ export function mulberry32(seed: number): () => number {
 
 /**
  * FNV-offset / Knuth-multiplier hash of an EnvVar's True Name → uint32.
- * The same hash the helix rails key off, so law identity and rail
+ * The same hash the helix rails key off, so law structure and rail
  * signal share one lineage.
  */
 export function envVarHash(envVar: string): number {
@@ -58,9 +58,9 @@ export function envVarHash(envVar: string): number {
 export type DriftFreqs = [number, number, number, number, number, number];
 
 export interface LifeMotionLaw {
-  /** Identity this law was projected from. */
+  /** Structure this law was projected from. */
   envVar: EnvVar;
-  /** Stable uint32 identity seed — unique per EnvVar. */
+  /** Stable uint32 structure seed — unique per EnvVar. */
   seed: number;
 
   // --- Regime coefficients (all 0..1) ---------------------------------
@@ -151,7 +151,7 @@ const SIZE_BIAS_DENSITY: Record<IconWorld['sizeBias'], number> = {
  *
  * Pure and deterministic: the seeded RNG only jitters WITHIN the
  * physically-derived value's neighborhood, so two worlds with similar
- * phase mixes still get distinct laws (identity hash differs) while
+ * phase mixes still get distinct laws (structure hash differs) while
  * every coefficient stays inside LAW_BOUNDS by construction.
  */
 export function deriveLifeMotionLaw(
@@ -193,8 +193,8 @@ export function deriveLifeMotionLaw(
   );
 
   // Direction: worlds with strong vertical gravity move WITH it (heat
-  // rises, water settles); zero-g worlds take their handedness from
-  // identity — a stable coin flip on the seed.
+  // rises, gateway settles); zero-g worlds take their handedness from
+  // structure — a stable coin flip on the seed.
   const polarity: 1 | -1 =
     world.gravity.y > 0.01
       ? 1
@@ -264,7 +264,7 @@ export function deriveLifeMotionLaw(
 }
 
 /**
- * Per-render variation WITHIN a stable law. Mix the law's identity seed
+ * Per-render variation WITHIN a stable law. Mix the law's structure seed
  * with a runtime salt (e.g. the renderer's per-load salt) to get a fresh
  * but reproducible expression of the same physics — never the exact same
  * loop twice, never a different world.

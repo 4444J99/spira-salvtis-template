@@ -66,10 +66,10 @@ Priority: **Bones live. Placeholders for what's not done.**
 |---|-------|-------------|-------------|
 | #15 | Merge spiral prototypes | V5/V6 HTML → production spiral component | Interactive spiral on homepage |
 | #8 | Spiral interaction | Clickable/movable nodes on the spiral | Each node navigates to its page |
-| #6 | Physical Sovereignty build | Nodes 1–5 as pages with content | /water/ funnel populated with real content |
+| #6 | Foundation Sovereignty build | Nodes 1–5 as pages with content | /gateway/ funnel populated with real content |
 | #16 | Editorial review | Review flagged claims in branch copy | Clean, defensible content on live pages |
 
-**Gate {there → back}:** admin has social content in hand. Spiral is interactive. Water funnel has bones. Branch pages have her voice.
+**Gate {there → back}:** admin has social content in hand. Spiral is interactive. Gateway funnel has bones. Branch pages have her voice.
 
 ---
 
@@ -81,10 +81,10 @@ Priority: **Bones live. Placeholders for what's not done.**
 
 | # | Issue | What Happens | Deliverable |
 |---|-------|-------------|-------------|
-| #23 | Hydration Node | Node 5 (Root Healing) funnel: ZIP → toxins → spring → filter rec | Working prototype of the 6-step funnel |
-| #29 | EWG API | Pre-scrape 200 metro ZIPs, serve as static JSON | ZIP code → water quality data |
+| #23 | Gateway Node | Node 5 (Root Healing) funnel: ZIP → toxins → spring → filter rec | Working prototype of the 6-step funnel |
+| #29 | EWG API | Pre-scrape 200 metro ZIPs, serve as static JSON | ZIP code → gateway quality data |
 | #9 | Quiz/GHL integration | Wire up health survey → branch routing | Visitors get directed to their branch |
-| #30 | Astrology/cycle layer | Cycle-synced content woven into branches | Personalization across Physical + Inner pillars |
+| #30 | Astrology/cycle layer | Cycle-synced content woven into branches | Personalization across Foundation + System pillars |
 
 ### Sprint 4: Content Genome Assembly (Week 3–4)
 
@@ -95,7 +95,7 @@ Priority: **Bones live. Placeholders for what's not done.**
 | #22 | Route N/A atoms | Assign 63 cross-cutting atoms to destinations | Zero unrouted content |
 | #32 | Research integration | Map alchemy/frequency/FDA threads to spiral nodes | Research enriching specific pages |
 
-**Gate back) → again:** Hydration Node prototype works. Quiz routes visitors. Content is grouped and mapped. The return pass deepened everything the first pass built.
+**Gate back) → again:** Gateway Node prototype works. Quiz routes visitors. Content is grouped and mapped. The return pass deepened everything the first pass built.
 
 ---
 
@@ -109,16 +109,16 @@ Priority: **Bones live. Placeholders for what's not done.**
 |---|-------|-------------|-------------|
 | #31 | Product pipeline | Extract PDFs, ebooks, checklists from atoms | 3+ downloadable lead magnets |
 | #7 | Subscription boundary | Define free/gated/paid content tiers | Clear tier model: free → email → $11/mo → $22–33/mo |
-| #17 | Water hub placement | Decide domain routing (water-example.com) | Domain architecture finalized |
+| #17 | Gateway hub placement | Decide domain routing (gateway-example.com) | Domain architecture finalized |
 | #18 | Video hosting | Decide video platform + embed strategy | Documentary/reel embeds working |
 
 ### Sprint 6: Independence (Week 5–6)
 
 | # | Issue | What Happens | Deliverable |
 |---|-------|-------------|-------------|
-| #3 | Connect domains | Wire hub-example.com + water-example.com + business-example.com | All 3 domains live |
+| #3 | Connect domains | Wire hub-example.com + gateway-example.com + business-example.com | All 3 domains live |
 | #11 | ~~Keystatic CMS~~ → Pages CMS | Add content management so admin can edit herself (superseded: Pages CMS via `.pages.yml`, see 2026-06-05 correction) | admin owns the content layer |
-| #20 | Creature Selves | Build the creature selves concept into Identity pillar | Original IP showcased |
+| #20 | Creature Selves | Build the creature selves concept into Structure pillar | Original IP showcased |
 | #1 | ~~Keystatic OAuth~~ → Pages CMS auth | Production GitHub auth for CMS (superseded: Pages CMS handles GitHub OAuth, see 2026-06-05 correction) | admin can log in and edit |
 
 **Gate again → ω:** Three domains live. Subscription tiers defined. admin can edit her own content. Products exist as downloadables.
@@ -134,13 +134,13 @@ Priority: **Bones live. Placeholders for what's not done.**
 | # | Issue | What | When |
 |---|-------|------|------|
 | #10 | Store buildout | Virtual store + snail mail subscription | After subscription model proves |
-| #19 | Inner Child Book | Package inner child content into book format | After content layer stabilizes |
+| #19 | System Child Book | Package system child content into book format | After content layer stabilizes |
 
 ### The Six Revenue Streams
 
 | Stream | Status at ω |
 |--------|-------------|
-| 1. Water sales (Kangen) | Active (already selling) |
+| 1. Gateway sales (Kangen) | Active (already selling) |
 | 2. Business funnel ($99 DP) | Active (already selling) |
 | 3. Filter commissions (IonFaucet/Multipure) | Active (affiliates this week) |
 | 4. Subscription ($11/mo) | Live — calls + VIP content |
@@ -155,7 +155,7 @@ Priority: **Bones live. Placeholders for what's not done.**
 - [ ] Social content calendar organized and usable
 - [ ] All 3 domains resolving
 - [ ] Subscription tiers collecting payment
-- [ ] Hydration Node funnel converting visitors to filter customers
+- [ ] Gateway Node funnel converting visitors to filter customers
 
 ---
 
@@ -194,7 +194,7 @@ The site follows its own philosophy. You build the foundation. You return to dee
 **Other:** `#1` `#20`
 
 ### γ — Future (2)
-`#10` store · `#19` inner child book
+`#10` store · `#19` system child book
 
 ---
 

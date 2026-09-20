@@ -109,7 +109,7 @@ Canonical record (GitHub board)
 **What it is:** Handling contested claims in client content without unilateral censorship.
 
 **What we did:**
-- Identified 104 FLAGGED atoms (water memory, biophotonics, frequency healing, statistical claims)
+- Identified 104 FLAGGED atoms (gateway memory, biophotonics, frequency healing, statistical claims)
 - Categorized by claim type and risk level
 - Presented to admin as "here's content where the framing matters — how do you want to present these?"
 - Not "we found problems" but "these are your choices"

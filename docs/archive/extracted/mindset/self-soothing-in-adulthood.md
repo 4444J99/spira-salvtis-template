@@ -16,7 +16,7 @@ source_file: "ChatGPT-Self-soothing in Adulthood.txt"
 source_folder: "mindset"
 nodes: [9, 2]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 2]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Can you tell as an adult if your parents let you â€œself sootheâ
 provenance: HYBRID
 nature: CLAIM
 nodes: [9, 2]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

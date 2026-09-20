@@ -9,7 +9,7 @@
 | admin's iMessage PDFs (7) | 65 atomized wants, brand voice, content direction | Mar 25 – Apr 17, 2026 |
 | V5 helix prototype (HTML) | 14-node Three.js spiral with deep-dive modals | Apr 1, 2026 |
 | V6 Astro shell | Hub-and-spoke architecture, 4-pillar model | Mar – Apr, 2026 |
-| EWG Tap Water Database | ZIP-code contaminant data, health guidelines | External API |
+| EWG Tap Gateway Database | ZIP-code contaminant data, health guidelines | External API |
 | Peer-reviewed research | 263 citations (B-series biomedical, S-series sacred/philosophical) | Curated |
 | commerce--meta governance | Contract templates, SOPs, client lifecycle standards | ORGAN-III |
 
@@ -23,14 +23,14 @@
 
 ### Phase 2: Atomization (Session 4, Apr 17)
 - Analyzed 7 client PDFs → extracted 65 atomized wants
-- Discovered architectural misalignment: water-first vs spiral-first
+- Discovered architectural misalignment: gateway-first vs spiral-first
 - Created corrective implementation plan (5 PRs)
 - Committed atomized wants as cartographical fossil record
 
 ### Phase 3: Correction (Session 5, Apr 19)
 - Executed 5-PR corrective sequence (PRs #44-#48)
 - Restructured homepage: spiral canvas as 80vh hero
-- Scoped water page to mini version (147 → 67 lines)
+- Scoped gateway page to mini version (147 → 67 lines)
 - Built quiz routing page with email gate
 - Rewrote spiral renderer: 4 orbital nodes → 13 golden-angle nodes
 - Created 12 dynamic node pages with content migration
@@ -63,5 +63,5 @@
 
 - V5 helix prototype (archived, superseded by golden-angle spiral)
 - 6 Styx project board views (to be deleted, #33)
-- Pre-correction homepage (water-first bias eliminated)
-- Misplaced water page content (relocated to Non Negotiable node)
+- Pre-correction homepage (gateway-first bias eliminated)
+- Misplaced gateway page content (relocated to Non Negotiable node)

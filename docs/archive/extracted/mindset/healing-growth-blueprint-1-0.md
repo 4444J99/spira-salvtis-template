@@ -120,7 +120,7 @@ Week 2: Nervous System & Belief Rewiring
 
 Week 3: Energy + Hormone Regulation
 
-Week 4: Inner Child & Identity Shifts
+Week 4: System Child & Structure Shifts
 
 Week 5: Integration + Creative Flow
 
@@ -317,9 +317,9 @@ Awareness & Foundations (mind-body connection, getting honest)
 
 Nervous System & Emotions (regulation, triggers, breath)
 
-Body & Hormones (cycle syncing, nutrition, water, energy)
+Body & Hormones (cycle syncing, nutrition, gateway, energy)
 
-Beliefs & Identity (reprogramming, inner child, limiting stories)
+Beliefs & Identity (reprogramming, system child, limiting stories)
 
 Alignment & Action (structure, rest, routines, intuition)
 
@@ -562,13 +562,13 @@ Gut healing, inflammation, detoxing
 
 Cycle-syncing nutrition and movement
 
-Hydration, minerals, and water quality
+Gateway, minerals, and gateway quality
 
 
 Key Tools:
 
 
-Kangen water + minerals
+Kangen gateway + minerals
 
 Simple GF anti-inflammatory meals
 
@@ -582,7 +582,7 @@ Hormone-aware workouts (glute focus!)
 
 “You can’t hate your body into healing”
 
-“Why water healed me more than any supplement”
+“Why gateway healed me more than any supplement”
 
 
 
@@ -593,9 +593,9 @@ You’ve shed layers—now it’s time to rewrite the stories you live by and st
 Themes:
 
 
-Identity after trauma or burnout
+Structure after trauma or burnout
 
-Inner child, parts work, shadow integration
+System child, parts work, shadow integration
 
 Belief loops, guilt, shame release
 
@@ -613,7 +613,7 @@ Audio affirmations
 🧩 Puzzle Post Ideas:
 
 
-“The identity that was never mine to hold”
+“The structure that was never mine to hold”
 
 “The belief that kept me broke and burnt out”
 
@@ -694,7 +694,7 @@ Sacred rage & grief processing
 🔄 Timeline Format Suggestions:
 
 
-Each phase = its own color/icon (air, water, earth, fire, spirit, overflow)
+Each phase = its own color/icon (air, gateway, earth, fire, spirit, overflow)
 
 Use these to categorize posts visually with symbols or highlights
 
@@ -812,14 +812,14 @@ Awareness (Wake Up)
 Soft blue
 #eaupuzzle1
 Nervous System
-🜄 (water)
+🜄 (gateway)
 Teal
 #eaupuzzle2
 Body & Hormones
 🜃 (earth)
 Clay
 #eaupuzzle3
-Identity & Beliefs
+Structure & Beliefs
 🜂 (fire)
 Gold
 #eaupuzzle4
@@ -867,14 +867,14 @@ End each month with a “Puzzle Recap” carousel.
 4. 🧭 Grid Flow Example (for 9 posts)
 
 1. Air 🜁
-2. Water 🜄
+2. Gateway 🜄
 3. Earth 🜃
 4. Fire 🜂
 5. Spirit 🜔
 6. Overflow ✨
 7. Air 🜁
 8. Earth 🜃
-9. Water 🜄
+9. Gateway 🜄
 
 Make it a scrollable journey. Use consistent tones or backgrounds to make it feel like one map.
 
@@ -1051,7 +1051,7 @@ Visual metaphor = the healing journey is a cycle, not a ladder.
 IG grid = each post is a square from the winding path, like walking a trail and learning with each step.
 
 
-Bonus: you can use nature images or textures in each post (leaves for Earth, waves for Water, clouds for Air, etc.)
+Bonus: you can use nature images or textures in each post (leaves for Earth, waves for Gateway, clouds for Air, etc.)
 
 
 
@@ -1067,7 +1067,7 @@ Look:
 Posts are grouped in blocks by color:
 Light Blue = Awareness (Air)
 
-Teal = Nervous System (Water)
+Teal = Nervous System (Gateway)
 
 Clay = Hormones (Earth)
 
@@ -1409,11 +1409,11 @@ Next Spiral In: Regulate (nervous system, safety)
 
 Next: Rebuild (body, hormones, nourishment)
 
-Next: Rewire (beliefs, identity, shadows)
+Next: Rewire (beliefs, structure, shadows)
 
 Next: Ritual (cycles, rhythms, planning)
 
-Inner Core: Overflow (service, love, expansion)
+System Core: Overflow (service, love, expansion)
 
 
 Each ring of the spiral can contain puzzle pieces (posts) scattered throughout.

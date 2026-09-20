@@ -17,7 +17,7 @@ source_file: "ChatGPT-Milk source in the US.txt"
 source_folder: "health"
 nodes: [6, 8]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "Where does the milk we get come from? America? Or is it imported
 provenance: HYBRID
 nature: CLAIM
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -105,7 +105,7 @@ context_above: "Most of the milk you buy in the U.S. comes from right here at ho
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -130,7 +130,7 @@ context_above: "What can you tell me about beef isn’t like 87% imported from S
 provenance: HYBRID
 nature: STATISTIC
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -206,7 +206,7 @@ context_above: "That claim — that about 87% of U.S. beef is imported from Saud
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -231,7 +231,7 @@ context_above: "Yes please even slaughter houses here are awful and inhumane as 
 provenance: HYBRID
 nature: STATISTIC
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

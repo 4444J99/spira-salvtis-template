@@ -58,13 +58,13 @@ Libra Sun: "You are not meant to grind endlessly — you are meant to initiate, 
 ATOM 5
 File: ChatGPT-Astrology and business strategy.txt
 Section: Pluto in Aquarius Business Positioning
-Idea: Pluto in Aquarius (2024-2044) as macro-trend alignment for water business: Aquarius rules technology, systems, water, air, electricity, decentralization, future of humanity; admin is early to a long-term trend; positioning as education + access not hype; thinking "this replaces something broken" — replacement-economy energy not MLM energy
+Idea: Pluto in Aquarius (2024-2044) as macro-trend alignment for gateway business: Aquarius rules technology, systems, gateway, air, electricity, decentralization, future of humanity; admin is early to a long-term trend; positioning as education + access not hype; thinking "this replaces something broken" — replacement-economy energy not MLM energy
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Pluto in Aquarius rules: technology, systems, water, air, electricity, decentralization. "Your water business is EXACTLY a Pluto-in-Aquarius industry." Implications: early to long-term trend, not all will "get it" immediately but anchors will form, this is about infrastructure not quick cash. "This is not MLM energy. This is replacement-economy energy." Win by: positioning as education + access, focusing on communities/buildings/developers/systems.
+Pluto in Aquarius rules: technology, systems, gateway, air, electricity, decentralization. "Your gateway business is EXACTLY a Pluto-in-Aquarius industry." Implications: early to long-term trend, not all will "get it" immediately but anchors will form, this is about infrastructure not quick cash. "This is not MLM energy. This is replacement-economy energy." Win by: positioning as education + access, focusing on communities/buildings/developers/systems.
 ===
 
 ATOM 6
@@ -96,13 +96,13 @@ Planner features: astrological overview (Libra Sun, Gemini Moon, Aquarius Rising
 ATOM 8
 File: ChatGPT-Astrology Hormone Moon Planner.txt
 Section: Planner Production Plan
-Idea: Production and marketing plan for the planner: design in Canva Pro or Adobe InDesign, offer both digital PDF and physical (print-on-demand via Blurb/Mixam/Printify or bulk via PrintNinja), price $30-50, create community (IG/TikTok/FB group), add bonuses (digital moon ritual files, QR codes to resources), pre-order strategy on Shopify/Etsy, collaborate with astrology/wellness influencers
+Idea: Production and marketing plan for the planner: design in Canva Pro or Adobe InDesign, offer both digital PDF and foundation (print-on-demand via Blurb/Mixam/Printify or bulk via PrintNinja), price $30-50, create community (IG/TikTok/FB group), add bonuses (digital moon ritual files, QR codes to resources), pre-order strategy on Shopify/Etsy, collaborate with astrology/wellness influencers
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Design: Canva Pro (beginners) or Adobe InDesign (advanced). Format: digital PDF + physical (spiral-bound or hardcover). Print: POD (Blurb, Mixam, Printify) or bulk (PrintNinja, Alibaba, start 50-100). Price: $30-50. Marketing: community IG/TikTok/FB group, tutorials, bonuses (digital ritual files, QR codes), pre-orders, influencer collaborations. USP: astrology + hormone + moon cycle = unique niche.
+Design: Canva Pro (beginners) or Adobe InDesign (advanced). Format: digital PDF + foundation (spiral-bound or hardcover). Print: POD (Blurb, Mixam, Printify) or bulk (PrintNinja, Alibaba, start 50-100). Price: $30-50. Marketing: community IG/TikTok/FB group, tutorials, bonuses (digital ritual files, QR codes), pre-orders, influencer collaborations. USP: astrology + hormone + moon cycle = unique niche.
 ===
 
 ## ChatGPT-Cycle and moon comparison.txt
@@ -117,7 +117,7 @@ Editorial: CLEAN
 ---
 Content:
 Menstrual (Days 1-5) / New Moon / Wise Woman: REST/RELEASE. Food: warm, mineral-rich, iron. Workout: gentle walks, yin yoga. Ritual: castor oil pack, red raspberry leaf, journaling.
-Follicular (Days 6-13) / Waxing / Maiden: CREATE/RISE. Food: raw veggies, salads, seeds. Workout: HIIT, strength. Ritual: vision planning, lemon water.
+Follicular (Days 6-13) / Waxing / Maiden: CREATE/RISE. Food: raw veggies, salads, seeds. Workout: HIIT, strength. Ritual: vision planning, lemon gateway.
 Ovulation (Days 14-16) / Full Moon / Mother: SHINE/EXPRESS. Food: fiber, cruciferous. Workout: peak performance. Ritual: date night, content batching, sister circles.
 Luteal (Days 17-28) / Waning / Wild Woman: NURTURE/GROUND. Food: root veggies, magnesium. Workout: Pilates, walking. Ritual: tea, castor oil, declutter.
 ===
@@ -141,7 +141,7 @@ Content:
 ATOM 11
 File: ChatGPT-Moon Day Male Struggles (1).txt
 Section: Monday as Moon Day Theory
-Idea: Monday = Moon Day connection: Moon represents emotions, intuition, feminine energy, water, reflection — energetically soft/inward/fluid, misaligned with the outward/structured/action-focused masculine energy demanded by productivity culture; men conditioned to suppress emotion may feel restless/resistant on Mondays; Garfield (male cat) as satirical mirror: deeply instinctual, comfort-seeking, emotionally honest — Monday rips him from comfort into "collective illusion of grind"
+Idea: Monday = Moon Day connection: Moon represents emotions, intuition, feminine energy, gateway, reflection — energetically soft/inward/fluid, misaligned with the outward/structured/action-focused masculine energy demanded by productivity culture; men conditioned to suppress emotion may feel restless/resistant on Mondays; Garfield (male cat) as satirical mirror: deeply instinctual, comfort-seeking, emotionally honest — Monday rips him from comfort into "collective illusion of grind"
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN

@@ -4,7 +4,7 @@ The content genome. Everything admin shared, decomposed into atoms and analyzed.
 
 ## What Happened Here
 
-admin provided 127 files — ChatGPT transcripts, voice notes, questionnaires — totaling ~360,000 words across health, mindset, business, astrology, and water science. We:
+admin provided 127 files — ChatGPT transcripts, voice notes, questionnaires — totaling ~360,000 words across health, mindset, business, astrology, and gateway science. We:
 
 1. **Extracted** every distinct idea into an atom (1,821 total)
 2. **Tagged** each with 17 metadata fields (provenance, nature, tier, pillar, editorial status, etc.)

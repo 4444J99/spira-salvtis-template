@@ -13,6 +13,6 @@ source_file: "ChatGPT-Alzheimer's 373_ Increase Explained.txt"
 source_folder: "health"
 nodes: [8, 6]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---

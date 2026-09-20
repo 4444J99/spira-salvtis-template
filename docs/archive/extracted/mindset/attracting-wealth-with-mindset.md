@@ -16,7 +16,7 @@ source_file: "ChatGPT-Attracting Wealth with Mindset.txt"
 source_folder: "mindset"
 nodes: [12, 10]
 readiness: "Raw"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 10]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "will you please help me convey the message about mindset and con
 provenance: HYBRID
 nature: CITATION
 nodes: [12, 10]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

@@ -73,7 +73,7 @@ regex that can miss a vacuum.
   unreachable for any single node (the Q3-Q5 theme bundles map to
   different nodes), so the displayed "Match: {score}%" is systematically
   deflated and never reaches 100%.
-- `hydration.config.ts:272,290,306,333-359,268-325` (conf High-Med).
+- `gateway.config.ts:272,290,306,333-359,268-325` (conf High-Med).
   Affiliate URLs (`ionfaucet.com/admin-spiral`,
   `multipure.com/admin-wired`, `purehome.co/admin`), prices, and
   contaminant statistics are hardcoded inline (M2). Prices feed cost
@@ -104,7 +104,7 @@ regex that can miss a vacuum.
   2026-04-30; the migration materially changed the corpus but the
   manifest was not regenerated (the test checks shape, not freshness).
 - `hub.config.ts:312`, `nodes/[id].astro:43-45`, `quiz.astro:393`
-  (conf High). Node 5's url is `/water/`, not `/nodes/5`; prev/next nav
+  (conf High). Node 5's url is `/gateway/`, not `/nodes/5`; prev/next nav
   and the quiz preview cross out of the node space silently. Likely
   intentional but undocumented and inconsistent.
 - `naming-chains.ts:27-34` vs `lens-geometry.ts:13-20` (conf High). Two
@@ -119,10 +119,10 @@ regex that can miss a vacuum.
   `phiExponent: 0` it is always 0 regardless of lens. Likely meant to
   modulate scale.
 - `HydrationNode.astro:405-409` (conf Med). `row.innerHTML` interpolates
-  `c.name` (from the `/api/water-report` EWG proxy) unescaped — reflected
+  `c.name` (from the `/api/gateway-report` EWG proxy) unescaped — reflected
   XSS if the upstream or proxy returns markup. Use `textContent`.
 - `HydrationNode.astro:552`, `EmailGate.astro:118` (conf Med). Capture
-  `source` values `hydration-node` and `email_gate` are not in the
+  `source` values `gateway-node` and `email_gate` are not in the
   CLAUDE.md source registry; downstream filtering by the registry
   silently drops them.
 - `decisions.ts:144,161,163,204,245,371,192` (conf Med). Decision copy
@@ -183,7 +183,7 @@ regex that can miss a vacuum.
 - `quiz.config.ts:149-152` (conf Med). Q5 answer 4 bundles six themes
   versus three elsewhere, giving disproportionate scoring weight toward
   nodes 4 and 13.
-- `hydration.config.ts:169-173,155-157` (conf Med). The price regex
+- `gateway.config.ts:169-173,155-157` (conf Med). The price regex
   takes the low end of a range and defaults to a fictitious $300 on no
   match; the "All major contaminants" tier always scores 100% regardless
   of the actual contaminant profile.
@@ -205,7 +205,7 @@ regex that can miss a vacuum.
   tokens are substituted; there are no function values in the serialized
   copy.
 - getStaticPaths across all dynamic routes return valid params; the
-  node-5 to `/water/` exclusion is intentional.
+  node-5 to `/gateway/` exclusion is intentional.
 - Counts line up: 13 nodes, 4 pillars, 6 branches, 13 EnvVars, 91 lens
   bindings; `chainsFor` and `viewThroughLens` never return undefined.
 - `compose.ts` is genuinely pure; `library-manifest.json` is valid;

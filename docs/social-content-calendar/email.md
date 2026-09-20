@@ -7,12 +7,12 @@
 ## 1. ATM-H-346
 
 **Source:** `health/sonoluminescence-phenomenon-explained.md`
-**Pillar:** Physical | **Nodes:** [12, 9]
+**Pillar:** Foundation | **Nodes:** [12, 9]
 **Editorial:** CLEAN
 
 ### Content
 
-Yes — there is a fascinating phenomenon that exactly matches what you described: light being produced inside a jar of water via the passage of sound. It’s called Sonoluminescence.
+Yes — there is a fascinating phenomenon that exactly matches what you described: light being produced inside a jar of gateway via the passage of sound. It’s called Sonoluminescence.
 
 
 
@@ -24,7 +24,7 @@ Yes — there is a fascinating phenomenon that exactly matches what you describe
 What is Sonoluminescence
 
 
-In sonoluminescence, a powerful sound (acoustic) wave is sent into a liquid (often water). This creates a tiny bubble (or bubbles) that oscillates violently, grows and then collapses in a very short time. Wikipedia+2physics.ucla.edu+2
+In sonoluminescence, a powerful sound (acoustic) wave is sent into a liquid (often gateway). This creates a tiny bubble (or bubbles) that oscillates violently, grows and then collapses in a very short time. Wikipedia+2physics.ucla.edu+2
 
 At collapse, extremely high temperature and pressure conditions are created inside the bubble, which cause a flash of light to be emitted. Wikipedia+1
 
@@ -33,12 +33,12 @@ The basic definition says: “light emissions from collapsing, sound-induced bub
 As one source puts it: “With little more than a signal generator, an audio amp, and a spool of magnet wire, you too can make your own ‘star in a jar’.” Hackaday
 
 
-Why it might match your “jar with water + sound → light” description
+Why it might match your “jar with gateway + sound → light” description
 
 
-You mentioned a jar of water, sound sent through it, and light appearing. That aligns with the idea of an acoustic wave in water causing bubble collapse -> light.
+You mentioned a jar of gateway, sound sent through it, and light appearing. That aligns with the idea of an acoustic wave in gateway causing bubble collapse -> light.
 
-In many demonstrations the “jar” (or tank) holds the water and the sound transducer is applied; the effect can look like glowing bubbles inside.
+In many demonstrations the “jar” (or tank) holds the gateway and the sound transducer is applied; the effect can look like glowing bubbles inside.
 
 The phenomenon is rare to see with the naked eye in an everyday setup because it requires particular conditions (ultrasonic frequencies, fine bubble control) so it often looks very subtle or specialized.
 
@@ -46,19 +46,19 @@ The phenomenon is rare to see with the naked eye in an everyday setup because it
 Important caveats & details
 
 
-This is not the same as simple “sound in water makes light by refraction or vibration”. It’s a very specific effect involving cavitation (bubble formation) and collapse under acoustic drive.
+This is not the same as simple “sound in gateway makes light by refraction or vibration”. It’s a very specific effect involving cavitation (bubble formation) and collapse under acoustic drive.
 
 The mechanism is still somewhat debated in the physics community — for example, exactly how hot the bubble gets, what type of radiation is produced, etc. Hackaday+1
 
 It requires quite high acoustic pressures and controlled conditions (often ultrasound, very good containment) rather than just tapping a jar or playing ordinary sound at ear-level.
 
-If someone simply tapped a jar of water and saw a glow, I'd want to check whether it was indeed sonoluminescence or perhaps another light effect (refraction, phosphorescence, chemical reaction, etc).
+If someone simply tapped a jar of gateway and saw a glow, I'd want to check whether it was indeed sonoluminescence or perhaps another light effect (refraction, phosphorescence, chemical reaction, etc).
 
 
 Connection to your interests
 
 
-Given your broader exploration of “energetic sites”, unusual physical phenomena and ancient/hidden knowledge, sonoluminescence offers a kind of bridging phenomenon: sound → water/liquid medium → light (energy manifestation). You might find it intriguing to consider parallels: ancient myths often speak of “sound making light” (or energy) in subterranean or water-spring contexts. The modern physics of sonoluminescence is one literal instance of that kind of sequence, even if on a micro-scale.
+Given your broader exploration of “energetic sites”, unusual foundation phenomena and ancient/hidden knowledge, sonoluminescence offers a kind of bridging phenomenon: sound → gateway/liquid medium → light (energy manifestation). You might find it intriguing to consider parallels: ancient myths often speak of “sound making light” (or energy) in subterranean or gateway-spring contexts. The modern physics of sonoluminescence is one literal instance of that kind of sequence, even if on a micro-scale.
 
 
 If you like, I can dig up videos + diagrams of sonoluminescence in a jar-like setup, and we can talk about what you would need to replicate it (if you’re curious). Would you like to explore that?
@@ -68,7 +68,7 @@ If you like, I can dig up videos + diagrams of sonoluminescence in a jar-like se
 ## 2. ATM-M-181
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -156,7 +156,7 @@ Remember, your authenticity and passion are your greatest assets. Embrace them, 
 ## 3. ATM-M-191
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -178,7 +178,7 @@ Customizable and aligned with your voice
 Stored in one doc (or Notion board) for quick access
 
 
-So if someone watches your Story, clicks your link, or likes a water post, you can just grab a message from the “DM Bank” that fits and tweak it as needed.
+So if someone watches your Story, clicks your link, or likes a gateway post, you can just grab a message from the “DM Bank” that fits and tweak it as needed.
 
 
 
@@ -204,7 +204,7 @@ Scripts & Swipe Files
 
 Funnel To-Do Lists
 
-Water Education Library
+Gateway Education Library
 
 
 Think of it as a calm, clean hub to plug into when your brain feels scrambled.
@@ -218,7 +218,7 @@ A Content Hub (for both IGs)
 
 DM & Reconnect Script Library
 
-Water Education Vault
+Gateway Education Vault
 
 Lead Tracker
 
@@ -236,8 +236,8 @@ Would you like the link to start that now?
 
 ## 4. ATM-W-106
 
-**Source:** `water/water-hub-design.md`
-**Pillar:** Physical | **Nodes:** [11, 12]
+**Source:** `gateway/gateway-hub-design.md`
+**Pillar:** Foundation | **Nodes:** [11, 12]
 **Editorial:** CLEAN
 
 ### Content
@@ -246,10 +246,10 @@ Yes — this is where it starts to click into something real. I mapped your whol
 
 
 
-🌊 YOUR WATER HUB ECOSYSTEM (WEBSITE FIRST)
+🌊 YOUR GATEWAY HUB ECOSYSTEM (WEBSITE FIRST)
 
 
-1. MAIN ENTRY: “THE WATER HUB” (Your Pillar)
+1. MAIN ENTRY: “THE GATEWAY HUB” (Your Pillar)
 
 
 This is your anchor page — clean, emotional, powerful.
@@ -258,7 +258,7 @@ This is your anchor page — clean, emotional, powerful.
 Above the fold:
 
 
-Headline: “Water changed everything for me — here’s why”
+Headline: “Gateway changed everything for me — here’s why”
 
 Subheadline: transformation + curiosity gap
 
@@ -275,7 +275,7 @@ Then:
 🧠 Simple breakdown:
 What is molecular hydrogen?
 
-Why water matters (quick, non-overwhelming)
+Why gateway matters (quick, non-overwhelming)
 
 
 👉 CTA:
@@ -292,7 +292,7 @@ This is where your brand becomes different.
 Imagine:
 
 
-Center = Water Hub
+Center = Gateway Hub
 
 Branching outward = categories (they can click OR arrive via quiz)
 
@@ -305,14 +305,14 @@ Keep it focused + expandable:
 
 🌿 Gut + Hormone Balance
 
-🤍 Fertility
+🤍 Archetype-delta
 
-💪 Athletic Performance
+💪 Archetype-alpha Performance
 
-🔥 Inflammation / Autoimmune
+🔥 Inflammation / Archetype-beta
 
 🎗️ Cancer Support
-(+ optional 6th: 🌎 Sustainability / Cost Savings)
+(+ optional 6th: 🌎 Archetype-zeta / Cost Savings)
 
 
 
@@ -336,7 +336,7 @@ Example: “Gut + Hormones”
 
 Gut ↔ hormones ↔ inflammation connection
 
-Where water fits in
+Where gateway fits in
 
 
 3. Hydrogen angle
@@ -344,7 +344,7 @@ Where water fits in
 
 Anti-inflammatory
 
-Cellular hydration
+Cellular gateway
 
 Oxidative stress support
 
@@ -360,7 +360,7 @@ Optional deeper dives later
 
 
 5. CTA (always the same):
-👉 “Start with the water → Shop / Learn More”
+👉 “Start with the gateway → Shop / Learn More”
 
 
 
@@ -397,11 +397,11 @@ Links like:
 
 
 CTA stays soft but clear:
-👉 “Explore water options”
+👉 “Explore gateway options”
 
 
 
-🌎 BONUS BRANCH: SUSTAINABILITY / SAVING MONEY
+🌎 BONUS BRANCH: ARCHETYPE-ZETA / SAVING MONEY
 
 
 This is actually a hidden conversion driver.
@@ -424,7 +424,7 @@ Environmental impact
 
 
 CTA:
-👉 “Switch your water system”
+👉 “Switch your gateway system”
 
 
 
@@ -442,11 +442,11 @@ Q1: What brought you here today?
 
 Gut / hormones
 
-Fertility
+Archetype-delta
 
-Athletic performance
+Archetype-alpha performance
 
-Autoimmune / inflammation
+Archetype-beta / inflammation
 
 Cancer support
 
@@ -492,21 +492,21 @@ Ready
 
 Gut → Gut branch
 
-Fertility → Fertility branch
+Archetype-delta → Archetype-delta branch
 
 Athlete → Athlete branch
 
-Autoimmune → Inflammation branch
+Archetype-beta → Inflammation branch
 
 Cancer → Cancer resource hub
 
-Curious → BACK to main water hub (education first)
+Curious → BACK to main gateway hub (education first)
 
 
 Overlay Tagging (for later GHL):
 
 
-“Sustainability interest”
+“Archetype-zeta interest”
 
 “High intent”
 
@@ -520,19 +520,19 @@ Overlay Tagging (for later GHL):
 Path A (most people):
 
 
-Water Hub → Quiz → Branch → CTA → Purchase
+Gateway Hub → Quiz → Branch → CTA → Purchase
 
 
 Path B (explorers):
 
 
-Water Hub → Spiral browsing → Multiple branches → CTA
+Gateway Hub → Spiral browsing → Multiple branches → CTA
 
 
 Path C (research-heavy):
 
 
-Water Hub → Cancer / Deep dive → Resources → CTA
+Gateway Hub → Cancer / Deep dive → Resources → CTA
 
 
 
@@ -617,9 +617,9 @@ Not:
 But:
 
 
-“Start with your water”
+“Start with your gateway”
 
-“Upgrade your water”
+“Upgrade your gateway”
 
 “See your options”
 

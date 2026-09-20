@@ -17,7 +17,7 @@ export const siteConfig = {
   },
   domains: {
     primary: 'hub-spira-salvtis.dev',
-    water: 'water-spira-salvtis.dev',
+    gateway: 'gateway-spira-salvtis.dev',
     business: 'business-spira-salvtis.dev',
   },
 } as const;

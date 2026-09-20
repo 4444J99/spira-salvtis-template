@@ -2,7 +2,7 @@
 
 Current SSR review URL: **https://sovereign-systems-spiral.ivixivi.workers.dev**
 
-To connect the real domains, add them to the Cloudflare Worker. The old `sovereign-systems-spiral.pages.dev` project is static-only and does not serve `/capture` or `/api/water-report`.
+To connect the real domains, add them to the Cloudflare Worker. The old `sovereign-systems-spiral.pages.dev` project is static-only and does not serve `/capture` or `/api/gateway-report`.
 
 ---
 
@@ -19,7 +19,7 @@ To connect the real domains, add them to the Cloudflare Worker. The old `soverei
 
 ---
 
-## 2. water-example.com
+## 2. gateway-example.com
 
 1. Same process — add in Cloudflare Worker Custom Domains
 2. Update DNS at your registrar to point to Cloudflare
@@ -45,7 +45,7 @@ Send a screenshot of your DNS settings page and I'll tell you exactly what to ch
 
 Once domains are connected:
 - `hub-example.com` → Your hub with the spiral
-- `water-example.com` → Your water funnel
+- `gateway-example.com` → Your gateway funnel
 - `business-example.com` → Your business pillar (when ready)
 
 All three domains serve from the same site. Update content once, it works everywhere.

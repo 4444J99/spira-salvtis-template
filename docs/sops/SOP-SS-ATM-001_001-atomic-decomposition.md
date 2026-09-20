@@ -60,7 +60,7 @@ context_above: "{summary of previous atom}"
 provenance: {LOCAL|HYBRID|ALIEN}
 nature: {type}
 nodes: [{1-13}]
-pillar: {Physical|Inner|Identity|Financial|Cross-cutting}
+pillar: {Foundation|System|Structure|Vision|Cross-cutting}
 build_state: {EXISTS|PARTIAL|MISSING|N/A}
 editorial: {CLEAN|UNVERIFIED|FLAGGED}
 strike_phase: {1A-4C}
@@ -84,7 +84,7 @@ context_below: "{summary of next atom}"
 | ATM-H- | health/ |
 | ATM-M- | mindset/ |
 | ATM-B- | business/ |
-| ATM-W- | water/ |
+| ATM-W- | gateway/ |
 | ATM-T- | time-astro/ |
 | ATM-C- | concepts/ |
 
@@ -114,7 +114,7 @@ Ensure SOP-SS-CNT-001 has been executed (files extracted with frontmatter in `do
 
 ### Step 2: Excavate by category
 
-For each category (root, health, mindset, business, water, time-astro, concepts):
+For each category (root, health, mindset, business, gateway, time-astro, concepts):
 1. Read all files in the category
 2. Identify sections (## headers, topic shifts)
 3. Within each section, apply boundary rule to identify atoms

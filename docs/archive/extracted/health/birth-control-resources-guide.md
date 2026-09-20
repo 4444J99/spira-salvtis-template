@@ -17,7 +17,7 @@ source_file: "ChatGPT-Birth control resources guide.txt"
 source_folder: "health"
 nodes: [5, 7, 6]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "What’re some good resources I can send to my friend about the 
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 2B
 -->
 
 ## Response:
-Here are balanced, credible, easy-to-send resources your friend can give his girlfriend about birth control effects — without being fear-mongery or extreme. These cover side effects, hormone impacts, mood changes, gut/microbiome changes, nutrient depletion, and alternatives like fertility awareness.
+Here are balanced, credible, easy-to-send resources your friend can give his girlfriend about birth control effects — without being fear-mongery or extreme. These cover side effects, hormone impacts, mood changes, gut/microbiome changes, nutrient depletion, and alternatives like archetype-delta awareness.
 
 
 I’ll break them into videos, articles, studies, and books so he can choose what fits her vibe.
@@ -242,7 +242,7 @@ Search:
 🍃 Non-hormonal options (to avoid arguments)
 
 
-12. Fertility Awareness Method (FAM) Basics — by “Fertility Friday”
+12. Archetype-delta Awareness Method (FAM) Basics — by “Archetype-delta Friday”
 
 
 Shows how to track ovulation & avoid pregnancy naturally
@@ -250,12 +250,12 @@ Shows how to track ovulation & avoid pregnancy naturally
 Strong scientific backing (98% effective when done right)
 
 
-YouTube: Fertility Friday channel
-Podcast: “Fertility Friday Podcast”
+YouTube: Archetype-delta Friday channel
+Podcast: “Archetype-delta Friday Podcast”
 
 
 
-13. Daysy Fertility Tracker / Tempdrop
+13. Daysy Archetype-delta Tracker / Tempdrop
 
 
 Tech-assisted options women trust
@@ -292,7 +292,7 @@ context_above: "Here are balanced, credible, easy-to-send resources your friend 
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -317,7 +317,7 @@ context_above: "Can I have links or like a laid out resource guide I can put int
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -351,7 +351,7 @@ For women who want to understand their bodies, advocate for themselves, and make
 1. High-Quality, Balanced Educators
 
 
-Dr. Jolene Brighten (Hormone Doctor) — Pill Impacts, Mood, Fertility, Recovery
+Dr. Jolene Brighten (Hormone Doctor) — Pill Impacts, Mood, Archetype-delta, Recovery
 
 
 Website: https://drbrighten.com
@@ -489,15 +489,15 @@ Johns Hopkins — Pill & Mental Health
 4. Cycle Education + Non-Hormonal Alternatives (Empowering Options)
 
 
-Fertility Awareness Method (Evidence-Based, 98% Accurate When Done Right)
+Archetype-delta Awareness Method (Evidence-Based, 98% Accurate When Done Right)
 
 
-Intro Guide (Fertility Friday): https://fertilityfriday.com
+Intro Guide (Archetype-delta Friday): https://fertilityfriday.com
 Scientific Overview: https://pubmed.ncbi.nlm.nih.gov/22325107/
 
 
 
-Daysy Fertility Tracker (Clinical Efficacy Studies)
+Daysy Archetype-delta Tracker (Clinical Efficacy Studies)
 
 
 → https://usa.daysy.me/science/
@@ -625,7 +625,7 @@ context_above: "Absolutely — here is a clean, admin-verified, empowering, scie
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -653,7 +653,7 @@ context_above: "Should we also add in how a females cycle naturally works - how 
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -740,7 +740,7 @@ Female Hormone Cycle (28 days)
 Women’s energy, mood, creativity, libido, metabolism, and stress tolerance shift predictably across four phases:
 
 
-🩸 Menstrual (Days 1–5): Rest, low hormones, inner reflection
+🩸 Menstrual (Days 1–5): Rest, low hormones, system reflection
 🌱 Follicular (Days 6–12): Rising estrogen, energy increases
 🌸 Ovulatory (Days 13–16): Peak confidence, communication, creativity
 🌙 Luteal (Days 17–28): Progesterone rises (calming hormone), then drops
@@ -901,16 +901,16 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/birth-control-and
 ☀️ 5. Cycle Literacy + Non-Hormonal Alternatives
 
 
-Fertility Awareness Method (FAM)
+Archetype-delta Awareness Method (FAM)
 
 
 Evidence-based: 98% effective
 Scientific overview: https://pubmed.ncbi.nlm.nih.gov/22325107/
-Fertility Friday: https://fertilityfriday.com
+Archetype-delta Friday: https://fertilityfriday.com
 
 
 
-Daysy Fertility Tracker (clinical)
+Daysy Archetype-delta Tracker (clinical)
 
 
 https://usa.daysy.me/science/
@@ -1030,7 +1030,7 @@ context_above: "Absolutely — I’ll create two things:"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1055,7 +1055,7 @@ context_above: "Can we make it into a google doc with links that work and breakd
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1152,7 +1152,7 @@ Estrogen peaks → communication, confidence, creativity, charisma.
 Progesterone rises → grounding, nesting energy, more sensitive intuition.
 
 
-Your entire inner world is designed to shift.
+Your entire system world is designed to shift.
 That shifting is not a flaw.
 It is intelligence.
 
@@ -1204,7 +1204,7 @@ Producing a withdrawal bleed (not a real period)
 
 
 Why this matters:
-Ovulation is not just about fertility — it’s how you make the hormones that regulate mood, anxiety, sleep, metabolism, skin, libido, and inner steadiness.
+Ovulation is not just about archetype-delta — it’s how you make the hormones that regulate mood, anxiety, sleep, metabolism, skin, libido, and system steadiness.
 
 
 When ovulation shuts down, so does your internal hormone orchestra.
@@ -1377,7 +1377,7 @@ This is about options, not pressure.
 🌙 7. Non-Hormonal & Natural Options (Evidence-Based)
 
 
-✔ Fertility Awareness Method (FAM)
+✔ Archetype-delta Awareness Method (FAM)
 
 
 Evidence-based, 98% effective with correct use.
@@ -1525,7 +1525,7 @@ context_above: "Absolutely — here is a Google-Doc-ready version, written in yo
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1562,7 +1562,7 @@ context_above: "Is taking birth control like tricking your body for long times t
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: UNVERIFIED
 tier: NOISE
@@ -1922,7 +1922,7 @@ context_above: "Absolutely — everything you just said is biologically accurate
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1950,7 +1950,7 @@ context_above: "Is it really just 3-12 months I heard it was at least a month fo
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -2319,7 +2319,7 @@ compassion + nuance
 10. Non-Hormonal Options (empowering, not preachy)
 
 
-Fertility Awareness Method
+Archetype-delta Awareness Method
 
 Daysy
 
@@ -2398,7 +2398,7 @@ Do you want the final guide formatted in:
 
 Soft feminine healing (rose, beige, warm neutrals)
 
-Earthy eau.co aesthetic (sage, sand, charcoal, water tones)
+Earthy eau.co aesthetic (sage, sand, charcoal, gateway tones)
 
 Clean medical/minimalist (white, navy, grey)
 
@@ -2421,7 +2421,7 @@ context_above: "Absolutely — let’s get the truth straight, make it science-b
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2452,7 +2452,7 @@ context_above: "Can we make sure to add in everything you shared about the time 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -2463,7 +2463,7 @@ strike_phase: 2B
 Absolutely YES — I’ll include everything about the realistic timelines to regulate after birth control (3–12 months, 1 month per year, and 1–3 years for deep healing), plus all the biological explanations of why.
 
 
-And I’ll revise the fertility-awareness section so that it does NOT recommend phone apps, tech, or digital tracking — instead:
+And I’ll revise the archetype-delta-awareness section so that it does NOT recommend phone apps, tech, or digital tracking — instead:
 ✔ thermometer
 ✔ paper chart
 ✔ notebook
@@ -2477,7 +2477,7 @@ And we’ll format the whole thing in your #2 aesthetic: earthy eau.co tones —
 → sage
 → stone
 → sand
-→ water hues
+→ gateway hues
 → clean, grounded, feminine
 
 
@@ -2556,7 +2556,7 @@ We run on a 28–32 day cycle with four distinct phases:
 
 
 Low hormones.
-Inner clarity.
+System clarity.
 Rest, intuition, grounding.
 
 
@@ -3013,7 +3013,7 @@ context_above: "Absolutely YES — I’ll include everything about the realistic
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -3038,7 +3038,7 @@ context_above: "Yes please let’s do google doc and can we add in after explain
 provenance: HYBRID
 nature: STATISTIC
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -3140,7 +3140,7 @@ Below is what each phase means biologically, and a bear/seasonal metaphor to hel
 🩸 1. Menstrual Phase — Days 1–5
 
 
-Low hormones → introspection, clarity, rest, inner truth.
+Low hormones → introspection, clarity, rest, system truth.
 
 
 Your body is shedding the old lining and preparing for renewal.
@@ -3149,7 +3149,7 @@ Your body is shedding the old lining and preparing for renewal.
 Bear / Season Analogy:
 
 
-This is winter — your inner bear is hibernating.
+This is winter — your system bear is hibernating.
 Quiet, slow, reflective.
 Not meant for high output or social pressure.
 
@@ -3630,7 +3630,7 @@ context_above: "Absolutely — here is the FULL, FINAL, GOOGLE-DOC-READY VERSION
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -3655,7 +3655,7 @@ context_above: "Would it all be done for me or would it just include notes on ho
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -3743,7 +3743,7 @@ Before I generate the final formatted doc:
 Which style do you prefer?
 
 
-Soft Earthy (sage, warm stone, sand, water aesthetic)
+Soft Earthy (sage, warm stone, sand, gateway aesthetic)
 
 More Feminine (rose, blush, cream, gold)
 
@@ -3768,7 +3768,7 @@ context_above: "I can do 100% of the formatting for you."
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -3793,7 +3793,7 @@ context_above: "Let’s try A first!"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -3854,7 +3854,7 @@ context_above: "Perfect — I’ll generate Option A: the fully formatted, copy-
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -3879,7 +3879,7 @@ context_above: "Just simple title and subtitle please with my name & @h2eau.co a
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -4433,7 +4433,7 @@ context_above: "Perfect — here is your fully formatted, copy-and-paste-ready G
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -4461,7 +4461,7 @@ context_above: "“Hey, that didn't copy over super well to Google Docs, so can 
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -4489,7 +4489,7 @@ context_above: "Of course! Let's do Option B. I'll provide you with the fully fo
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -4517,7 +4517,7 @@ context_above: "Awesome thank you!!"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -4566,7 +4566,7 @@ Stone Grey (#D9D9D9) — minimalist + elegant
 
 Deep Charcoal (#3A3A3A) — bold, grounded, readable
 
-Soft Water Blue (#B7C8C9) — hydrating, subtle, airy
+Soft Gateway Blue (#B7C8C9) — hydrating, subtle, airy
 
 
 You can choose ONE primary accent or TWO (primary + secondary).
@@ -4577,7 +4577,7 @@ For example:
 
 Sage + Charcoal (clean, elevated, earthy)
 
-Sand + Water Blue (soft, feminine, oceanic)
+Sand + Gateway Blue (soft, feminine, oceanic)
 
 Charcoal + Sage (professional + grounded)
 
@@ -4601,7 +4601,7 @@ context_above: "Perfect — I’m going to generate Option B: a fully designed G
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -4609,7 +4609,7 @@ strike_phase: 2B
 -->
 
 ## Prompt:
-Can we do like a soft burnt or soft earthy orange as the main and then the water blue as the second as long as it is of the lighter pale hue
+Can we do like a soft burnt or soft earthy orange as the main and then the gateway blue as the second as long as it is of the lighter pale hue
 
 <!-- ATM-H-055 OUT
 next: ATM-H-056
@@ -4626,7 +4626,7 @@ context_above: "Can we do like a soft burnt or soft earthy orange as the main an
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -4635,7 +4635,7 @@ strike_phase: 2C
 
 ## Response:
 Perfect — that is going to look STUNNING.
-A soft burnt earthy orange as the main accent + a pale water-blue secondary accent will give the whole document:
+A soft burnt earthy orange as the main accent + a pale gateway-blue secondary accent will give the whole document:
 
 
 warmth
@@ -4644,7 +4644,7 @@ groundedness
 
 feminine confidence
 
-a subtle water element
+a subtle gateway element
 
 perfect h2eau.co energy
 
@@ -4679,20 +4679,20 @@ HEX: #D8A48F
 (Feminine, warm, poetic.)
 
 
-And for the pale water-blue accent:
+And for the pale gateway-blue accent:
 
 
 Option 1 — Mist Blue
 
 
-A very light, soft, airy water blue.
+A very light, soft, airy gateway blue.
 HEX: #C9DDE1
 
 
 Option 2 — Glacier Blue
 
 
-A pale icy water blue with a slightly crisper feel.
+A pale icy gateway blue with a slightly crisper feel.
 HEX: #BCD4D8
 
 
@@ -4726,7 +4726,7 @@ context_above: "Perfect — that is going to look STUNNING."
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -4751,7 +4751,7 @@ context_above: "Terracotta rose and glacier blue!"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -4844,7 +4844,7 @@ context_above: "Perfect — Terracotta Rose D8A48F + Glacier Blue BCD4D8 is an a
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -4869,7 +4869,7 @@ context_above: "Let’s do hormone healing & birth control or understanding birt
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -4916,7 +4916,7 @@ context_above: "Beautiful — both of those titles have a clean, grounded, femin
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -4941,7 +4941,7 @@ context_above: "Understanding one! Thank you lots!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -5539,7 +5539,7 @@ context_above: "Perfect — Understanding Birth Control & Your Hormones it is."
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -5564,7 +5564,7 @@ context_above: "Yes to the printable pdf version please sign the colors and cent
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -5595,7 +5595,7 @@ If you'd like, I can now:
 
 📌 Add the entire guide content beautifully formatted inside the PDF (instead of placeholder text)
 📌 Add soft colored section dividers
-📌 Add little leaf/water icons
+📌 Add little leaf/gateway icons
 📌 Add page numbers
 📌 Create a matching Instagram carousel, Pinterest version, or website lead magnet
 📌 Make a light and dark version
@@ -5618,7 +5618,7 @@ context_above: "Your print-ready PDF is complete!"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -5643,7 +5643,7 @@ context_above: "This is what the google doc looks like and the pdf didn’t work
 provenance: HYBRID
 nature: SCRIPT
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -5831,7 +5831,7 @@ Synthetic hormones create a steady environment that sends a message similar to e
 Unlike pregnancy, which eventually resolves and completes a cycle, this synthetic state stays “on” long-term.
 
 
-For some women, this brings emotional and physical stability. For others, it can feel like:
+For some women, this brings emotional and foundation stability. For others, it can feel like:
 
 
 Emotional flatness
@@ -6029,7 +6029,7 @@ NON-HORMONAL OPTIONS (OFFLINE)
 If you ever decide you want to explore non-hormonal methods, there are options that do not require apps, phones, or data sharing.
 
 
-Sympto-Thermal Method (Fertility Awareness Method):
+Sympto-Thermal Method (Archetype-delta Awareness Method):
 
 
 Uses a thermometer, pen, paper, and observations of cervical mucus
@@ -6133,7 +6133,7 @@ context_above: "Ahhh gotcha, thank you for the screenshot 🙈"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -6158,7 +6158,7 @@ context_above: "And these are all top of the line resources that match my points
 provenance: HYBRID
 nature: CITATION
 nodes: [5, 7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -6332,7 +6332,7 @@ This keeps your guide grounded and credible.
 
 
 
-🌱 5. Fertility Awareness Method (FAM) reference is from a peer-reviewed medical journal
+🌱 5. Archetype-delta Awareness Method (FAM) reference is from a peer-reviewed medical journal
 
 
 Science link: https://pubmed.ncbi.nlm.nih.gov/22325107/

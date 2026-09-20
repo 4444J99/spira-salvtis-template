@@ -15,10 +15,10 @@ sections:
 ---
 title: "K8 H2 levels, independent vs manufacturer claims"
 source_file: "ChatGPT-Dissolved hydrogen concentration.txt"
-source_folder: "water"
+source_folder: "gateway"
 nodes: [7]
 readiness: "Raw"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -52,11 +52,11 @@ Link: https://chatgpt.com/g/g-p-681675945c108191aebfa81457898ccd-business/c/68de
 
 <!-- ATM-W-004 OUT
 next: ATM-W-005
-context_below: "Can you tell me how much dissolved hydrogen gas concentration enagic water has"
+context_below: "Can you tell me how much dissolved hydrogen gas concentration enagic gateway has"
 -->
 
 <!-- ATM-W-005 IN
-idea: "Can you tell me how much dissolved hydrogen gas concentration enagic water has"
+idea: "Can you tell me how much dissolved hydrogen gas concentration enagic gateway has"
 section: "Prompt"
 position: 2
 of_total: 3
@@ -65,7 +65,7 @@ context_above: "Dissolved hydrogen concentration"
 provenance: LOCAL
 nature: PRODUCT
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -73,7 +73,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-Can you tell me how much dissolved hydrogen gas concentration enagic water has
+Can you tell me how much dissolved hydrogen gas concentration enagic gateway has
 
 
 <!-- ATM-W-005 OUT
@@ -87,11 +87,11 @@ section: "Response"
 position: 3
 of_total: 3
 prev: ATM-W-005
-context_above: "Can you tell me how much dissolved hydrogen gas concentration enagic water has"
+context_above: "Can you tell me how much dissolved hydrogen gas concentration enagic gateway has"
 provenance: HYBRID
 nature: PRODUCT
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -99,7 +99,7 @@ strike_phase: 2C
 -->
 
 ## Response:
-I couldn’t find a definitive, reliably measured value published by Enagic for the dissolved hydrogen (H₂) concentration in their water under all operating conditions. However, here’s what the available information suggests, along with caveats and ranges:
+I couldn’t find a definitive, reliably measured value published by Enagic for the dissolved hydrogen (H₂) concentration in their gateway under all operating conditions. However, here’s what the available information suggests, along with caveats and ranges:
 
 
 
@@ -108,22 +108,22 @@ What the sources say
 
 The K8 Product Manual from Enagic states “2.0 mg/L ± 10 %” as a performance figure. Enagic USA
 
-Enagic’s FAQ page mentions that the solubility of dissolved hydrogen is about 1.5 mg/L (this is more a general value for H₂ in water, not necessarily a guarantee for Enagic water) Enagic USA
+Enagic’s FAQ page mentions that the solubility of dissolved hydrogen is about 1.5 mg/L (this is more a general value for H₂ in gateway, not necessarily a guarantee for Enagic gateway) Enagic USA
 
-Independent reviews of electrolysis / “electrolyzed reduced water” (ERW) suggest that typical ranges of dissolved H₂ in such systems are from < 0.1 mg/L up to ~1.6 mg/L depending on many factors (pH, electrode design, water flow, mineral content, etc.) PMC
+Independent reviews of electrolysis / “electrolyzed reduced gateway” (ERW) suggest that typical ranges of dissolved H₂ in such systems are from < 0.1 mg/L up to ~1.6 mg/L depending on many factors (pH, electrode design, gateway flow, mineral content, etc.) PMC
 
-Some enthusiasts working with Enagic / Kangen systems report that in practice they often see 0.2 to 0.6 mg/L dissolved hydrogen in their water, and occasionally higher under ideal conditions. H2 HUBB+1
+Some enthusiasts working with Enagic / Kangen systems report that in practice they often see 0.2 to 0.6 mg/L dissolved hydrogen in their gateway, and occasionally higher under ideal conditions. H2 HUBB+1
 
 
 
 Interpretation & caveats
 
 
-The “2.0 mg/L ± 10% figure in Enagic’s manual likely represents a maximum or ideal target, possibly under optimal conditions (low flow rate, high voltage, good water conductivity). Real-world performance often falls short.
+The “2.0 mg/L ± 10% figure in Enagic’s manual likely represents a maximum or ideal target, possibly under optimal conditions (low flow rate, high voltage, good gateway conductivity). Real-world performance often falls short.
 
-The general solubility limit of hydrogen in water at standard temperature/pressure is around 1.5–1.6 mg/L (i.e., “saturation”) — exceeding that becomes increasingly difficult without special pressurization or saturation techniques. Enagic USA+2molecularhydrogeninstitute.org+2
+The general solubility limit of hydrogen in gateway at standard temperature/pressure is around 1.5–1.6 mg/L (i.e., “saturation”) — exceeding that becomes increasingly difficult without special pressurization or saturation techniques. Enagic USA+2molecularhydrogeninstitute.org+2
 
-The actual achieved concentration depends heavily on variables: water’s mineral (electrolyte) content, the flow rate through the electrolysis cell, electrode cleaning / scaling, the voltage applied, temperature, etc.
+The actual achieved concentration depends heavily on variables: gateway’s mineral (electrolyte) content, the flow rate through the electrolysis cell, electrode cleaning / scaling, the voltage applied, temperature, etc.
 
 Many of the claims from manufacturers or sellers are promotional; independent measurements often give lower values.
 
@@ -132,7 +132,7 @@ Many of the claims from manufacturers or sellers are promotional; independent me
 My best estimate
 
 
-Given all that, a reasonable estimate is that Enagic / “Kangen” ionizer water under good conditions might have somewhere between 0.5 to 1.5 mg/L dissolved hydrogen, with many real-world cases being in the 0.2 to 0.7 mg/L range.
+Given all that, a reasonable estimate is that Enagic / “Kangen” ionizer gateway under good conditions might have somewhere between 0.5 to 1.5 mg/L dissolved hydrogen, with many real-world cases being in the 0.2 to 0.7 mg/L range.
 
 
 If you like, I can dig up independent test reports (lab measurements) on Enagic machines to see what people have actually measured. Do you want me to look those up?

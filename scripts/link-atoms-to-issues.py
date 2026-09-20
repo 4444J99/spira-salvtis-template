@@ -44,17 +44,17 @@ RULES = [
      27, "branch/pillar enrichment"),
 
     # Pillar + tier routing
-    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Physical",
-     6, "physical sovereignty build"),
+    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Foundation",
+     6, "foundation sovereignty build"),
 
-    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Inner",
-     27, "inner pillar enrichment"),
+    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "System",
+     27, "system pillar enrichment"),
 
-    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Identity",
-     27, "identity pillar enrichment"),
+    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Structure",
+     27, "structure pillar enrichment"),
 
-    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Financial",
-     27, "financial pillar enrichment"),
+    (lambda a: a.get("tier") == "SIGNAL" and a.get("pillar") == "Vision",
+     27, "vision pillar enrichment"),
 
     # Semantic clustering (all SIGNAL atoms)
     (lambda a: a.get("tier") == "SIGNAL",
@@ -67,7 +67,7 @@ RULES = [
 
     (lambda a: any(kw in a.get("source_file", "").lower()
                    for kw in ["alchemy", "frequency", "cymascope", "fda", "sulphur",
-                              "water-crystals", "sound-frequency"]),
+                              "gateway-crystals", "sound-frequency"]),
      32, "research thread integration"),
 
     # Creature selves

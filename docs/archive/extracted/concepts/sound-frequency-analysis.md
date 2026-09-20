@@ -159,7 +159,7 @@ Hormonal phase
 
 Sensory sensitivity
 
-Hydration (seriously — water affects conductivity)
+Gateway (seriously — gateway affects conductivity)
 
 
 This is why some people swear by certain “healing tones” while others feel awful listening to them.
@@ -235,7 +235,7 @@ Short answer to your question
 If you want, upload a song or tone and tell me:
 
 
-why you’re curious about it (meditation? water? sleep? activation?)
+why you’re curious about it (meditation? gateway? sleep? activation?)
 
 how it feels to you
 
@@ -531,7 +531,7 @@ Help you create a personal “coherent sound” profile
 
 Teach you how to listen somatically, not numerologically
 
-Explore sound + water resonance (this is fascinating and real)
+Explore sound + gateway resonance (this is fascinating and real)
 
 
 Just tell me where you want to go next 🌊🎶
@@ -815,7 +815,7 @@ Hormonal phase
 
 Sensory sensitivity
 
-Hydration
+Gateway
 
 Sleep
 
@@ -879,7 +879,7 @@ Help you identify what your nervous system finds regulating
 
 Analyze a song you feel is “healing” and explain why
 
-Create a sound ritual for sleep, water charging, or grounding
+Create a sound ritual for sleep, gateway charging, or grounding
 
 Explain how sound + breath + rhythm work together (this is powerful)
 

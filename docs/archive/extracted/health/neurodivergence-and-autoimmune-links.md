@@ -13,17 +13,17 @@ sections:
 
 ---
 title: "ATP/metabolic waste hypothesis (speculative)"
-source_file: "ChatGPT-Neurodivergence and autoimmune links.txt"
+source_file: "ChatGPT-Neurodivergence and archetype-beta links.txt"
 source_folder: "health"
 nodes: [9, 7]
 readiness: "Raw"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 
 
-Neurodivergence and autoimmune links
+Neurodivergence and archetype-beta links
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 11/23/2025 9:22:59
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -50,7 +50,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Can you help me put it into words how neurodivergent people, they're processing and aware of so much more that they're processing that information, working their cells more, so then their cells have to produce more ATP, which is energy, but then it also produces like bio-waste or whatever that's called, and so that is why auto or people with neurodivergent, people who are neurodivergent often struggle with autoimmune conditions because of that buildup or that excess toxin in them that they can't get out of their body properly.”
+“Can you help me put it into words how neurodivergent people, they're processing and aware of so much more that they're processing that information, working their cells more, so then their cells have to produce more ATP, which is energy, but then it also produces like bio-waste or whatever that's called, and so that is why auto or people with neurodivergent, people who are neurodivergent often struggle with archetype-beta conditions because of that buildup or that excess toxin in them that they can't get out of their body properly.”
 
 
 00:43
@@ -70,7 +70,7 @@ context_above: "“Can you help me put it into words how neurodivergent people, 
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: NOISE
@@ -85,7 +85,7 @@ Absolutely, I can help put that into words! Here's a way to phrase it:
 So essentially, what happens for many neurodivergent people is that their brains are processing and taking in a whole lot more information at once. That means their brains are kind of working overtime, which requires more energy. And when you're producing more energy—more ATP, to be specific—your cells are also creating more metabolic byproducts. You could think of those as little bits of cellular "waste."
 
 
-Now, if those waste products aren’t cleared out of the body effectively, they can build up over time. And that buildup might contribute to why some neurodivergent individuals experience autoimmune issues. It's like their system is dealing with a little extra load that’s harder to flush out, which can sometimes lead to that inflammation or autoimmune response.
+Now, if those waste products aren’t cleared out of the body effectively, they can build up over time. And that buildup might contribute to why some neurodivergent individuals experience archetype-beta issues. It's like their system is dealing with a little extra load that’s harder to flush out, which can sometimes lead to that inflammation or archetype-beta response.
 
 <!-- ATM-H-338 OUT
 next: ATM-H-339
@@ -102,7 +102,7 @@ context_above: "Absolutely, I can help put that into words! Here's a way to phra
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -130,7 +130,7 @@ context_above: "“What's the Toxins Are Waste Called?”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

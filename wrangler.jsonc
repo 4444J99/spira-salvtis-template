@@ -4,7 +4,7 @@
   // this file and merges it into the generated dist/server/wrangler.json, which
   // supplies `main: entry.mjs` + the ASSETS binding (→ dist/client). Deploy with
   // `wrangler deploy` (NOT `wrangler pages deploy`, which ships static only and
-  // drops the SSR routes /capture + /api/water-report).
+  // drops the SSR routes /capture + /api/gateway-report).
   //
   // Secrets are intentionally NOT in source (mandate M2). Set them on the Worker:
   //   npm exec -- wrangler secret put GHL_WEBHOOK_URL --config wrangler.jsonc

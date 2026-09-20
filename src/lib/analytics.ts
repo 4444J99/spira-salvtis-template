@@ -16,12 +16,12 @@
 
 export type AnalyticsEvent =
   | { action: 'spiral_node_click'; nodeId: number; nodeName: string }
-  | { action: 'quiz_start'; source: 'hub' | 'water' }
+  | { action: 'quiz_start'; source: 'hub' | 'gateway' }
   | {
       action: 'quiz_complete';
       nodeId: number;
       score: number;
-      source: 'hub' | 'water';
+      source: 'hub' | 'gateway';
     }
   | { action: 'water_funnel_entry'; branch?: string }
   | { action: 'email_gate_submit'; page: string }

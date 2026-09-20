@@ -41,7 +41,7 @@ NODE_NAMES = {
     13: "Systems Create Freedom",
 }
 
-PILLAR_ORDER = ["Physical", "Inner", "Identity", "Financial", "Cross-cutting"]
+PILLAR_ORDER = ["Foundation", "System", "Structure", "Vision", "Cross-cutting"]
 PROVENANCE_ORDER = ["LOCAL", "HYBRID", "ALIEN"]
 
 # Build priority: MISSING > PARTIAL > EXISTS > N/A
@@ -93,8 +93,8 @@ def load_registry():
                     if val == "[]":
                         val = []
                     elif val.startswith("[") and val.endswith("]"):
-                        inner = val[1:-1]
-                        val = [int(x.strip()) for x in inner.split(",") if x.strip()]
+                        system = val[1:-1]
+                        val = [int(x.strip()) for x in system.split(",") if x.strip()]
                     else:
                         val = []
                 elif key in ("position", "of_total"):
@@ -798,7 +798,7 @@ def generate_phase_1(atoms):
 
 
 def generate_phase_2(atoms):
-    """Physical Sovereignty (blocked by GH#13, GH#17)"""
+    """Foundation Sovereignty (blocked by GH#13, GH#17)"""
     # Strike 2A: Node 1-5 deep-dive content
     strike_2a = [
         a
@@ -811,15 +811,15 @@ def generate_phase_2(atoms):
         )
     ]
 
-    # Strike 2B: Water funnel atoms
+    # Strike 2B: Gateway funnel atoms
     strike_2b = [
         a
         for a in atoms
         if a.get("strike_phase", "").startswith("2B")
         or (
             a.get("strike_phase", "").startswith("2")
-            and a.get("pillar") == "Physical"
-            and "water" in a.get("idea", "").lower()
+            and a.get("pillar") == "Foundation"
+            and "gateway" in a.get("idea", "").lower()
         )
     ]
 
@@ -831,7 +831,7 @@ def generate_phase_2(atoms):
         or (
             a.get("strike_phase", "").startswith("2")
             and a.get("build_state") == "PARTIAL"
-            and a.get("pillar") == "Physical"
+            and a.get("pillar") == "Foundation"
         )
     ]
 
@@ -847,20 +847,20 @@ def generate_phase_2(atoms):
     ]
 
     lines = [
-        "# Strike Plan: Phase 2 — Physical Sovereignty",
+        "# Strike Plan: Phase 2 — Foundation Sovereignty",
         "",
         f"Generated: {timestamp()}",
         "",
-        "**Blocked by:** GH#13 (final node architecture), GH#17 (water funnel spec)",
+        "**Blocked by:** GH#13 (final node architecture), GH#17 (gateway funnel spec)",
         "",
-        "Phase 2 builds the Physical Sovereignty pillar — nodes 1-5,",
-        "the water funnel, branch enrichment, and standalone health tools.",
+        "Phase 2 builds the Foundation Sovereignty pillar — nodes 1-5,",
+        "the gateway funnel, branch enrichment, and standalone health tools.",
         "",
         "---",
         "",
         f"## Strike 2A: Node 1-5 Deep-Dive Content ({len(strike_2a)})",
         "",
-        "Content atoms mapped to the first five spiral nodes (Physical domain).",
+        "Content atoms mapped to the first five spiral nodes (Foundation domain).",
         "",
         strike_table_header(),
     ]
@@ -871,9 +871,9 @@ def generate_phase_2(atoms):
         "",
         "---",
         "",
-        f"## Strike 2B: Water Funnel Atoms ({len(strike_2b)})",
+        f"## Strike 2B: Gateway Funnel Atoms ({len(strike_2b)})",
         "",
-        "Atoms specifically related to the Stop Drinking Acid / water funnel.",
+        "Atoms specifically related to the Stop Drinking Acid / gateway funnel.",
         "",
         strike_table_header(),
     ])
@@ -886,7 +886,7 @@ def generate_phase_2(atoms):
         "",
         f"## Strike 2C: Branch Enrichment ({len(strike_2c)})",
         "",
-        "PARTIAL-state Physical atoms — existing branch content that needs deepening.",
+        "PARTIAL-state Foundation atoms — existing branch content that needs deepening.",
         "",
         strike_table_header(),
     ])
@@ -899,7 +899,7 @@ def generate_phase_2(atoms):
         "",
         f"## Strike 2D: Standalone Health Tools ({len(strike_2d)})",
         "",
-        "TOOL-nature atoms in the Physical Sovereignty scope.",
+        "TOOL-nature atoms in the Foundation Sovereignty scope.",
         "",
         strike_table_header(),
     ])
@@ -921,7 +921,7 @@ def generate_phase_2(atoms):
         "| Strike | Count |",
         "|--------|-------|",
         f"| 2A — Node 1-5 Content | {len(strike_2a)} |",
-        f"| 2B — Water Funnel | {len(strike_2b)} |",
+        f"| 2B — Gateway Funnel | {len(strike_2b)} |",
         f"| 2C — Branch Enrichment | {len(strike_2c)} |",
         f"| 2D — Health Tools | {len(strike_2d)} |",
         f"| **Unique atoms** | **{total}** |",
@@ -931,8 +931,8 @@ def generate_phase_2(atoms):
 
 
 def generate_phase_3(atoms):
-    """Inner + Identity (blocked by Phase 2)"""
-    # Strike 3A: Node 6-9 Inner Sovereignty
+    """System + Identity (blocked by Phase 2)"""
+    # Strike 3A: Node 6-9 System Sovereignty
     strike_3a = [
         a
         for a in atoms
@@ -944,7 +944,7 @@ def generate_phase_3(atoms):
         )
     ]
 
-    # Strike 3B: Node 10-12 Identity Sovereignty
+    # Strike 3B: Node 10-12 Structure Sovereignty
     strike_3b = [
         a
         for a in atoms
@@ -968,18 +968,18 @@ def generate_phase_3(atoms):
     ]
 
     lines = [
-        "# Strike Plan: Phase 3 — Inner + Identity Sovereignty",
+        "# Strike Plan: Phase 3 — System + Structure Sovereignty",
         "",
         f"Generated: {timestamp()}",
         "",
         "**Blocked by:** Phase 2 completion",
         "",
-        "Phase 3 builds the Inner Sovereignty (nodes 6-9) and Identity Sovereignty",
+        "Phase 3 builds the System Sovereignty (nodes 6-9) and Structure Sovereignty",
         "(nodes 10-12) pillars, plus standalone mindset tools.",
         "",
         "---",
         "",
-        f"## Strike 3A: Node 6-9 Inner Sovereignty ({len(strike_3a)})",
+        f"## Strike 3A: Node 6-9 System Sovereignty ({len(strike_3a)})",
         "",
         "Content atoms for Awareness, Thought Patterns, Pattern Recognition,",
         "and Reality Interpretation.",
@@ -993,7 +993,7 @@ def generate_phase_3(atoms):
         "",
         "---",
         "",
-        f"## Strike 3B: Node 10-12 Identity Sovereignty ({len(strike_3b)})",
+        f"## Strike 3B: Node 10-12 Structure Sovereignty ({len(strike_3b)})",
         "",
         "Content atoms for Radical Responsibility, Acknowledgment, and Integrity.",
         "",
@@ -1008,7 +1008,7 @@ def generate_phase_3(atoms):
         "",
         f"## Strike 3C: Standalone Mindset Tools ({len(strike_3c)})",
         "",
-        "TOOL-nature atoms in the Inner + Identity scope.",
+        "TOOL-nature atoms in the System + Structure scope.",
         "",
         strike_table_header(),
     ])
@@ -1029,8 +1029,8 @@ def generate_phase_3(atoms):
         "",
         "| Strike | Count |",
         "|--------|-------|",
-        f"| 3A — Inner Sovereignty (6-9) | {len(strike_3a)} |",
-        f"| 3B — Identity Sovereignty (10-12) | {len(strike_3b)} |",
+        f"| 3A — System Sovereignty (6-9) | {len(strike_3a)} |",
+        f"| 3B — Structure Sovereignty (10-12) | {len(strike_3b)} |",
         f"| 3C — Mindset Tools | {len(strike_3c)} |",
         f"| **Unique atoms** | **{total}** |",
     ])
@@ -1039,8 +1039,8 @@ def generate_phase_3(atoms):
 
 
 def generate_phase_4(atoms):
-    """Financial + Expansion"""
-    # Strike 4A: Node 13 Financial Sovereignty
+    """Vision + Expansion"""
+    # Strike 4A: Node 13 Vision Sovereignty
     strike_4a = [
         a
         for a in atoms
@@ -1074,16 +1074,16 @@ def generate_phase_4(atoms):
     ]
 
     lines = [
-        "# Strike Plan: Phase 4 — Financial Sovereignty + Expansion",
+        "# Strike Plan: Phase 4 — Vision Sovereignty + Expansion",
         "",
         f"Generated: {timestamp()}",
         "",
-        "Phase 4 builds the Financial Sovereignty pillar (node 13),",
+        "Phase 4 builds the Vision Sovereignty pillar (node 13),",
         "standalone products, and the social content pipeline.",
         "",
         "---",
         "",
-        f"## Strike 4A: Node 13 Financial Sovereignty ({len(strike_4a)})",
+        f"## Strike 4A: Node 13 Vision Sovereignty ({len(strike_4a)})",
         "",
         "Content atoms for Systems Create Freedom — business, sales,",
         "brand building, wealth energetics.",
@@ -1133,7 +1133,7 @@ def generate_phase_4(atoms):
         "",
         "| Strike | Count |",
         "|--------|-------|",
-        f"| 4A — Financial Sovereignty (Node 13) | {len(strike_4a)} |",
+        f"| 4A — Vision Sovereignty (Node 13) | {len(strike_4a)} |",
         f"| 4B — Standalone Products | {len(strike_4b)} |",
         f"| 4C — Social Content Pipeline | {len(strike_4c)} |",
         f"| **Unique atoms** | **{total}** |",

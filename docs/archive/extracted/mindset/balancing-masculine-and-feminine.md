@@ -16,7 +16,7 @@ source_file: "ChatGPT-Balancing Masculine and Feminine.txt"
 source_folder: "mindset"
 nodes: [5, 2, 3]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "“As someone who understands the laws of the universe, quantum 
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -89,7 +89,7 @@ context_above: "Sure! Balancing masculine and feminine energies is like mixing t
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -113,7 +113,7 @@ context_above: "“Will you expand on that a little bit further?”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -140,7 +140,7 @@ context_above: "Absolutely! Think of masculine energy as a structured, action-or
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -164,7 +164,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -188,7 +188,7 @@ context_above: "...space for spontaneity (feminine). For instance, having a to-d
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -212,7 +212,7 @@ context_above: "“Okay, I like that. I like the comparison of taking charge ver
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -236,7 +236,7 @@ context_above: "To find your balance, pay attention to how you feel. If you're s
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -260,7 +260,7 @@ context_above: "“I just get stuck on the part of it's a dance within myself, a
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -284,7 +284,7 @@ context_above: "Exactly! It’s all about tuning in to your own needs. If someth
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -308,7 +308,7 @@ context_above: "“Okay, I like that a lot. There's no right or wrong, just what
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -332,7 +332,7 @@ context_above: "Totally! The present moment is where all the magic happens. No w
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -356,7 +356,7 @@ context_above: "“My question was, okay, so the comparison or the good check-in
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -380,7 +380,7 @@ context_above: "Those are great check-ins! Another approach could be tuning into
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -404,7 +404,7 @@ context_above: "“Okay, thank you. I really like that. Is it nourishing me or i
 provenance: HYBRID
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -428,7 +428,7 @@ context_above: "It's great that you're prioritizing this! Checking in with yours
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -452,7 +452,7 @@ context_above: "“Okay, thank you. And then as just so as the prompt I gave you
 provenance: HYBRID
 nature: TOOL
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -476,7 +476,7 @@ context_above: "This is a perfect time for self-care and reflection! Focus on sm
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -500,7 +500,7 @@ context_above: "“So you'd say I'm doing pretty good.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -524,7 +524,7 @@ context_above: "Absolutely! You're navigating a lot and still prioritizing your 
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -548,7 +548,7 @@ context_above: "“Do you think that I'm being too hard on myself?”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -572,7 +572,7 @@ context_above: "It's natural to be hard on yourself sometimes, especially when y
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -596,7 +596,7 @@ context_above: "“but I'm growing even if I'm not consciously aware of it becau
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -605,13 +605,13 @@ strike_phase: 3A
 Exactly! Growth often happens beneath the surface, especially during busy or challenging times. Trust that every step you're taking is contributing to your journey, even if you don't always see it right away.
 <!-- ATM-M-072 OUT
 next: ATM-M-073
-context_below: "“So it's okay if I focus on the physical a little bit and get into my apartment and just enjoy and b..."
+context_below: "“So it's okay if I focus on the foundation a little bit and get into my apartment and just enjoy and b..."
 -->
 
 ## Prompt:
 
 <!-- ATM-M-073 IN
-idea: "“So it's okay if I focus on the physical a little bit and get into my apartment and just enjoy and b..."
+idea: "“So it's okay if I focus on the foundation a little bit and get into my apartment and just enjoy and b..."
 section: "Prompt"
 position: 25
 of_total: 58
@@ -620,37 +620,37 @@ context_above: "Exactly! Growth often happens beneath the surface, especially du
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-“So it's okay if I focus on the physical a little bit and get into my apartment and just enjoy and be and get caught back up in work and create when I feel called to, and then I can start to like break down and logicalize it.”
+“So it's okay if I focus on the foundation a little bit and get into my apartment and just enjoy and be and get caught back up in work and create when I feel called to, and then I can start to like break down and logicalize it.”
 <!-- ATM-M-073 OUT
 next: ATM-M-074
-context_below: "Absolutely! Focusing on the physical, getting settled, and enjoying the process is a perfect way to ground yourself."
+context_below: "Absolutely! Focusing on the foundation, getting settled, and enjoying the process is a perfect way to ground yourself."
 -->
 
 ## Response:
 
 <!-- ATM-M-074 IN
-idea: "Absolutely! Focusing on the physical, getting settled, and enjoying the process is a perfect way to ground yourself."
+idea: "Absolutely! Focusing on the foundation, getting settled, and enjoying the process is a perfect way to ground yourself."
 section: "Response"
 position: 26
 of_total: 58
 prev: ATM-M-073
-context_above: "“So it's okay if I focus on the physical a little bit and get into my apartment and just enjoy and b..."
+context_above: "“So it's okay if I focus on the foundation a little bit and get into my apartment and just enjoy and b..."
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
 strike_phase: 3A
 -->
-Absolutely! Focusing on the physical, getting settled, and enjoying the process is a perfect way to ground yourself. Once you're more settled, you'll have the space and clarity to dive deeper into your creative and logical pursuits. It’s all about pacing yourself.
+Absolutely! Focusing on the foundation, getting settled, and enjoying the process is a perfect way to ground yourself. Once you're more settled, you'll have the space and clarity to dive deeper into your creative and logical pursuits. It’s all about pacing yourself.
 <!-- ATM-M-074 OUT
 next: ATM-M-075
 context_below: "“Okay, but how does that tie into the 3D versus 5D, like, awakening and shift we're going through, a..."
@@ -664,11 +664,11 @@ section: "Prompt"
 position: 27
 of_total: 58
 prev: ATM-M-074
-context_above: "Absolutely! Focusing on the physical, getting settled, and enjoying the process is a perfect way to ground yourself."
+context_above: "Absolutely! Focusing on the foundation, getting settled, and enjoying the process is a perfect way to ground yourself."
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: CONTEXT
@@ -677,13 +677,13 @@ strike_phase: 1B
 “Okay, but how does that tie into the 3D versus 5D, like, awakening and shift we're going through, astrologically speaking right now?”
 <!-- ATM-M-075 OUT
 next: ATM-M-076
-context_below: "Think of it like this: the 3D focuses on physical, tangible aspects, like settling into your new space."
+context_below: "Think of it like this: the 3D focuses on foundation, tangible aspects, like settling into your new space."
 -->
 
 ## Response:
 
 <!-- ATM-M-076 IN
-idea: "Think of it like this: the 3D focuses on physical, tangible aspects, like settling into your new space."
+idea: "Think of it like this: the 3D focuses on foundation, tangible aspects, like settling into your new space."
 section: "Response"
 position: 28
 of_total: 58
@@ -692,13 +692,13 @@ context_above: "“Okay, but how does that tie into the 3D versus 5D, like, awak
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
 strike_phase: 1B
 -->
-Think of it like this: the 3D focuses on physical, tangible aspects, like settling into your new space. The 5D is more about spiritual, intuitive growth. Balancing both means honoring your physical needs while staying open to spiritual insights. It’s all interconnected, and by grounding yourself in 3D tasks, you create a stable foundation for 5D growth!
+Think of it like this: the 3D focuses on foundation, tangible aspects, like settling into your new space. The 5D is more about spiritual, intuitive growth. Balancing both means honoring your foundation needs while staying open to spiritual insights. It’s all interconnected, and by grounding yourself in 3D tasks, you create a stable foundation for 5D growth!
 <!-- ATM-M-076 OUT
 next: ATM-M-077
 context_below: "“OK, so it's still a balance. Both worlds have to coexist, and you still have to take care of the 3D stuff."
@@ -712,11 +712,11 @@ section: "Prompt"
 position: 29
 of_total: 58
 prev: ATM-M-076
-context_above: "Think of it like this: the 3D focuses on physical, tangible aspects, like settling into your new space."
+context_above: "Think of it like this: the 3D focuses on foundation, tangible aspects, like settling into your new space."
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -725,13 +725,13 @@ strike_phase: 3A
 “OK, so it's still a balance. Both worlds have to coexist, and you still have to take care of the 3D stuff. But that doesn't mean that it's right, because we're on the human plane on the Earth to experience the 3D for a reason. But then, more or less, the veil's being lifted, and so the security and structure of the 3D will come easier. But we have to make sure that that's taken care of first, and then the rest will soar from there.”
 <!-- ATM-M-077 OUT
 next: ATM-M-078
-context_below: "Exactly! The 3D experience—our physical reality—is like the foundation. By taking care of it, we cre..."
+context_below: "Exactly! The 3D experience—our foundation reality—is like the foundation. By taking care of it, we cre..."
 -->
 
 ## Response:
 
 <!-- ATM-M-078 IN
-idea: "Exactly! The 3D experience—our physical reality—is like the foundation. By taking care of it, we cre..."
+idea: "Exactly! The 3D experience—our foundation reality—is like the foundation. By taking care of it, we cre..."
 section: "Response"
 position: 30
 of_total: 58
@@ -740,13 +740,13 @@ context_above: "“OK, so it's still a balance. Both worlds have to coexist, and
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
 strike_phase: 1B
 -->
-Exactly! The 3D experience—our physical reality—is like the foundation. By taking care of it, we create stability for deeper, spiritual growth—the 5D. It’s all part of the journey. As we navigate both, the veil does lift, and we find it easier to align with our higher selves.
+Exactly! The 3D experience—our foundation reality—is like the foundation. By taking care of it, we create stability for deeper, spiritual growth—the 5D. It’s all part of the journey. As we navigate both, the veil does lift, and we find it easier to align with our higher selves.
 <!-- ATM-M-078 OUT
 next: ATM-M-079
 context_below: "“And that's why some people that are super spiritual can get sucked into thinking they don't have to..."
@@ -760,11 +760,11 @@ section: "Prompt"
 position: 31
 of_total: 58
 prev: ATM-M-078
-context_above: "Exactly! The 3D experience—our physical reality—is like the foundation. By taking care of it, we cre..."
+context_above: "Exactly! The 3D experience—our foundation reality—is like the foundation. By taking care of it, we cre..."
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -788,13 +788,13 @@ context_above: "“And that's why some people that are super spiritual can get s
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-Exactly! It's important to find that balance. Being spiritual is wonderful, but we also need to engage with our physical reality. That’s where the masculine energy comes in—taking action, creating structure, and making things happen. It’s all part of the human experience, blending the spiritual with the practical.
+Exactly! It's important to find that balance. Being spiritual is wonderful, but we also need to engage with our foundation reality. That’s where the masculine energy comes in—taking action, creating structure, and making things happen. It’s all part of the human experience, blending the spiritual with the practical.
 <!-- ATM-M-080 OUT
 next: ATM-M-081
 context_below: "“In a way, is the awakening and the shift we're going through right now, from the 3D to the 5D, is i..."
@@ -812,7 +812,7 @@ context_above: "Exactly! It's important to find that balance. Being spiritual is
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: CONTEXT
@@ -836,7 +836,7 @@ context_above: "“In a way, is the awakening and the shift we're going through 
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -860,7 +860,7 @@ context_above: "That's a beautiful way to look at it! The shift can be seen as m
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: CONTEXT
@@ -884,13 +884,13 @@ context_above: "“Would you say that 3D is like the masculine and the 5D is lik
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
 strike_phase: 1B
 -->
-It's more about a shift in consciousness than a direct comparison to masculine and feminine. The 3D often focuses on physical reality, labels, and structures. The 5D is more about unity, connection, and being. It’s not that one is strictly masculine or feminine, but rather a blending and transcending of duality. The key is integrating both aspects for a holistic experience.
+It's more about a shift in consciousness than a direct comparison to masculine and feminine. The 3D often focuses on foundation reality, labels, and structures. The 5D is more about unity, connection, and being. It’s not that one is strictly masculine or feminine, but rather a blending and transcending of duality. The key is integrating both aspects for a holistic experience.
 <!-- ATM-M-084 OUT
 next: ATM-M-085
 context_below: "“What kind of holistic experience?”"
@@ -908,7 +908,7 @@ context_above: "It's more about a shift in consciousness than a direct compariso
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -932,13 +932,13 @@ context_above: "“What kind of holistic experience?”"
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3A
 -->
-A holistic experience means integrating mind, body, and spirit. It's about living in alignment with your inner truth, while being present in your physical reality. This means honoring your spiritual insights and applying them to everyday life, creating balance, harmony, and a sense of wholeness. It's a beautiful dance between the seen and unseen!
+A holistic experience means integrating mind, body, and spirit. It's about living in alignment with your system truth, while being present in your foundation reality. This means honoring your spiritual insights and applying them to everyday life, creating balance, harmony, and a sense of wholeness. It's a beautiful dance between the seen and unseen!
 <!-- ATM-M-086 OUT
 next: ATM-M-087
 context_below: "“So this is why so many people are struggling right now with nine-to-fives or jobs and relationships..."
@@ -956,7 +956,7 @@ context_above: "A holistic experience means integrating mind, body, and spirit. 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -980,7 +980,7 @@ context_above: "“So this is why so many people are struggling right now with n
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1004,7 +1004,7 @@ context_above: "Yes, exactly. As people awaken to deeper truths and seek more au
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1028,7 +1028,7 @@ context_above: "“And then based on what Kyle said to me, do you think that he 
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1052,7 +1052,7 @@ context_above: "It's tough to say for sure. People's actions often reflect their
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1076,7 +1076,7 @@ context_above: "“I just need to stop asking about him and wondering for a whil
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1100,7 +1100,7 @@ context_above: "It's completely normal to have those thoughts, but giving yourse
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1124,7 +1124,7 @@ context_above: "“So I don't mean to be writing letters or anything. I just mea
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1148,7 +1148,7 @@ context_above: "Exactly, giving yourself some space to process can be really ben
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1172,7 +1172,7 @@ context_above: "“I can process subconsciously, I don't have to be journaling o
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1196,7 +1196,7 @@ context_above: "Absolutely! Sometimes your mind and heart need a little quiet ti
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1220,7 +1220,7 @@ context_above: "“So I just need to be present this week and enjoy my life.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1244,7 +1244,7 @@ context_above: "Exactly! Embrace the present moment, enjoy your life, and let th
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1268,7 +1268,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1292,7 +1292,7 @@ context_above: "I know it can be tough, but you're doing great. One step at a ti
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1316,7 +1316,7 @@ context_above: "“Thank you. I know that I got this. I just crazy the amount of
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1340,7 +1340,7 @@ context_above: "It is a lot, but you're making amazing progress. Give yourself c
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1364,7 +1364,7 @@ context_above: "“So I am doing a lot of work subconsciously and consciously, s
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1388,7 +1388,7 @@ context_above: "Absolutely, you're putting in the work on all levels. Trust your
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1412,7 +1412,7 @@ context_above: "“Thank you.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [5, 2, 3]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE

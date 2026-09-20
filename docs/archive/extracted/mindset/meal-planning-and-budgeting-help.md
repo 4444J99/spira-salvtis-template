@@ -16,7 +16,7 @@ source_file: "ChatGPT-Meal Planning and Budgeting Help.txt"
 source_folder: "mindset"
 nodes: [6, 7]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Hi! I’m trying to meal plan and budget better, if I gave you a
 provenance: HYBRID
 nature: CLAIM
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
@@ -89,7 +89,7 @@ context_above: "I'd love to help you with that! Go ahead and share your list of 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: SIGNAL
@@ -131,7 +131,7 @@ context_above: "Yay thank you! Staples being Rice Orange juice Potatoes I need t
 provenance: HYBRID
 nature: CLAIM
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: SIGNAL
@@ -235,7 +235,7 @@ context_above: "Great list! Here are some suggestions to help you make the most 
 provenance: LOCAL
 nature: QUESTION
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT
@@ -259,7 +259,7 @@ context_above: "Yes I love those ideas!! Will you help me come up with a cost ef
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [6, 7]
-pillar: Physical
+pillar: Foundation
 build_state: N/A
 editorial: CLEAN
 tier: SIGNAL

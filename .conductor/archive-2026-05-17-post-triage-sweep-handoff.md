@@ -66,7 +66,7 @@ Prior handoff (`post-content-leak-scrub continuation`) is archived at `.conducto
 
 ## Hung items (carry-forward; not blocking)
 
-1. **6 GATED-on-admin issues** — #1 Keystatic-handover (newly labelled `infra,client-gated,P2` this session; body slightly stale w.r.t. Netlify→CF migration, see issue comment), #3 custom domains, #7 subscription boundary, #14 reel access, #18 video hosting, #19 inner-child packaging. Cannot close without client action. (#17 dropped — closed 2026-04-19.)
+1. **6 GATED-on-admin issues** — #1 Keystatic-handover (newly labelled `infra,client-gated,P2` this session; body slightly stale w.r.t. Netlify→CF migration, see issue comment), #3 custom domains, #7 subscription boundary, #14 reel access, #18 video hosting, #19 system-child packaging. Cannot close without client action. (#17 dropped — closed 2026-04-19.)
 2. **4 P0 client-action items** — #5 revenue agreement (10% formalization), #49 affiliate URLs (3/5 done), #58 quizFormUrl, #62 fluoride bug. All pending admin input. (Prior handoff missed #5.)
 3. **10 SPEC roadmap items** — P1–P3 awaiting future build cycles or client decisions (#10, #20, #30, #38, #39, #51, #61, #63, #64, #65).
 4. **#94 itself** — tracking 9 Dependabot alerts; awaiting auth.

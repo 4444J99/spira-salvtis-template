@@ -14,7 +14,7 @@ Video is part of the launch flow but hosting is unresolved. This decision affect
 
 ### Upstream / Downstream
 - **Upstream:** #14
-- **Downdown:** #6 (Physical Sovereignty)
+- **Downdown:** #6 (Foundation Sovereignty)
 
 ## Scope
 

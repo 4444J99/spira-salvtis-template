@@ -2,7 +2,7 @@ import {
   hydrationConfig,
   priceRangeLabel,
   type FilterTier,
-} from './hydration.config.ts';
+} from './gateway.config.ts';
 
 export type StoreStatus = 'scaffolded' | 'live';
 export type StoreProvider =
@@ -62,7 +62,7 @@ function productFromFilterTier(tier: FilterTier): StoreProduct {
     id: `filter-${tier.id}`,
     title: tier.name,
     description: productDescription(tier),
-    collectionId: 'water-systems',
+    collectionId: 'gateway-systems',
     priceLabel: priceRangeLabel(tier),
     checkoutUrl: tier.affiliateUrl,
     provider: 'external-affiliate',
@@ -87,7 +87,7 @@ export const storeConfig: StoreConfig = {
       label: 'Product list',
       status: 'approved',
       blocks:
-        'Approved for MVP via the live water-system affiliate catalog already wired into the water funnel.',
+        'Approved for MVP via the live gateway-system affiliate catalog already wired into the gateway funnel.',
       issue: 10,
     },
     {
@@ -95,7 +95,7 @@ export const storeConfig: StoreConfig = {
       label: 'Pricing',
       status: 'approved',
       blocks:
-        'Pricing is sourced from the structured filter-tier price bands in hydration.config.ts.',
+        'Pricing is sourced from the structured filter-tier price bands in gateway.config.ts.',
       issue: 10,
     },
     {
@@ -117,10 +117,10 @@ export const storeConfig: StoreConfig = {
   ],
   collections: [
     {
-      id: 'water-systems',
-      title: 'Water systems',
+      id: 'gateway-systems',
+      title: 'Gateway systems',
       description:
-        'Purchasable filter and water-system products routed to vendor checkout through admin-tagged affiliate links.',
+        'Purchasable filter and gateway-system products routed to vendor checkout through admin-tagged affiliate links.',
       state: 'live',
     },
     {
@@ -148,7 +148,7 @@ export const storeConfig: StoreConfig = {
       id: 'mail',
       title: 'Mail subscription',
       description:
-        'Physical mail and art-print subscriptions remain a future collection after the virtual store foundation is approved.',
+        'Foundation mail and art-print subscriptions remain a future collection after the virtual store foundation is approved.',
       state: 'planned',
     },
   ],

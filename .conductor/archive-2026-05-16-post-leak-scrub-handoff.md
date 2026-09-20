@@ -15,7 +15,7 @@ The prior CF-token-rotation handoff is archived at `.conductor/archive-2026-05-1
 - **Branch:** `main`. Working tree carries 3 items: `R .conductor/active-handoff.md → archive-...` (the rename producing this handoff), plus 2 pre-existing carry-forwards from parallel sessions (`D docs/admin/2026-04-25-message-spiral-feedback.pdf`, `?? docs/client-pdfs/2026-05-16-admin-imessage-responses.pdf`).
 - **Main:** at `8afc6a4 feat(decisions): wire option clicks to /capture + capture studio suggestions (#88)`. Parity `origin/main..main = 0` / `main..origin/main = 0`. ✓ 1:1.
 - **CI on main:** assumed green (last verified by post-merge runs for #84/#85/#86/#87/#88 — all squash-merged, auto-deploy live).
-- **Live URL:** `https://sovereign-systems-spiral.pages.dev` — verified clean across `/water/{gut-hormones,athletic,fertility}/` + `/library` at session close.
+- **Live URL:** `https://sovereign-systems-spiral.pages.dev` — verified clean across `/gateway/{archetype-epsilon,archetype-alpha,archetype-delta}/` + `/library` at session close.
 - **Open PRs:** 0.
 - **Vacuum gate:** `npm test` ✓ at last run before #84.
 - **Uncommitted changes:** the `.conductor/active-handoff.md` rename + this new file's write are staged; require PR-cascade authorization to land per project CLAUDE.md `no direct push to main`.
@@ -23,9 +23,9 @@ The prior CF-token-rotation handoff is archived at `.conductor/archive-2026-05-1
 ## Completed Work (this session — content-leak-scrub slice)
 
 - [x] Audited all client-facing content for leak risk: `src/content/branches/*.md`, `src/content/nodes/*.md`, `src/content/pillars/*.md`, `docs/admin/`, `docs/client-pdfs/`, `/library` catalog
-- [x] Identified contamination in 3 branch files (`gut-hormones.md`, `athletic.md`, `fertility.md`) — all `## Research & Evidence` sections were raw ChatGPT exports containing intimate emotional messages, off-topic content (Bubble Butt cycle, cymatics, ebook outlines, grocery lists, Cheetos toxic breakdown, acupressure money-blockage routines, endometriosis fragment with `NCBI+3` crud, design palette quotes)
+- [x] Identified contamination in 3 branch files (`archetype-epsilon.md`, `archetype-alpha.md`, `archetype-delta.md`) — all `## Research & Evidence` sections were raw ChatGPT exports containing intimate emotional messages, off-topic content (Bubble Butt cycle, cymatics, ebook outlines, grocery lists, Cheetos toxic breakdown, acupressure money-blockage routines, endometriosis fragment with `NCBI+3` crud, design palette quotes)
 - [x] Deleted full `## Research & Evidence` sections (advisor: clean-template match, no surgical excision)
-- [x] Verified clean via `npm run build` + grep on `dist/water/{slug}/index.html`
+- [x] Verified clean via `npm run build` + grep on `dist/gateway/{slug}/index.html`
 - [x] Regenerated 6 HTML exports via `scripts/extract-branch-html.mjs` + re-grepped — clean
 - [x] Pulled `admin` and `client-pdfs` entries from `src/lib/docs-library.ts` (opt-in catalog principle)
 - [x] Created `docs/internal/` (git-tracked, NOT gitignored) and `git mv`'d 4 sensitive analysis docs from `docs/admin/` + `docs/` + `docs/superpowers/intakes/`:
@@ -45,7 +45,7 @@ The prior CF-token-rotation handoff is archived at `.conductor/archive-2026-05-1
 
 | Decision                                                            | Rationale                                                                                                     |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Delete full `## Research & Evidence` section, not surgical excision | Cleaner diff, matches existing-clean `autoimmune.md` template, no leftover empty headers (advisor)            |
+| Delete full `## Research & Evidence` section, not surgical excision | Cleaner diff, matches existing-clean `archetype-beta.md` template, no leftover empty headers (advisor)            |
 | `docs/internal/` (git-tracked), not `.private/` (gitignored)        | Universal Rule #2 nothing-local-only; defense-in-depth, not absolute removal (advisor)                        |
 | Pull `/library` entries entirely, don't filter-allowlist            | Opt-in catalogs stay correct as `docs/` grows; allow-lists rot (advisor)                                      |
 | Send HOLD message BEFORE cleaning, then CLEAR after                 | admin might be pasting HTML into GHL right now; HOLD-first prevents her shipping contaminated copy (advisor) |
@@ -55,7 +55,7 @@ The prior CF-token-rotation handoff is archived at `.conductor/archive-2026-05-1
 ## Critical Context
 
 - **Repo is PUBLIC** — `docs/internal/` only unlists from the deployed site; GitHub still serves all relocated files. True privacy requires git-history rewrite (destructive op, held).
-- **Build pipeline doesn't sanitize** — `.md` source → `dist/water/{slug}/index.html` → `scripts/extract-branch-html.mjs` → HTML exports. Single source can contaminate 3+ downstream surfaces silently. Captured in `feedback_build_pipeline_propagation.md`.
+- **Build pipeline doesn't sanitize** — `.md` source → `dist/gateway/{slug}/index.html` → `scripts/extract-branch-html.mjs` → HTML exports. Single source can contaminate 3+ downstream surfaces silently. Captured in `feedback_build_pipeline_propagation.md`.
 - **`/library` is a privacy-impacting surface, not just a convenience index.** Captured in `feedback_library_indexing_privacy.md`.
 - **CLAUDE.md autogen tail is 32 days stale** (`Last synced: 2026-04-14T21:31:57Z`). The freshness gate (`~/.local/bin/claude-md-autogen-gate`) is not installed on this host — no enforcement mechanism caught it. Flag for next refresh cycle (not blocking this handoff).
 

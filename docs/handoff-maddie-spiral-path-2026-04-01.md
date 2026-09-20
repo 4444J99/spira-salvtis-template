@@ -18,7 +18,7 @@
 | Spiral!!/health/ | 31 | .txt, .md, .docx | ChatGPT + Gemini exports |
 | Spiral!!/mindset/ | 39 | .txt, .docx | ChatGPT exports |
 | Spiral!!/business/ | 15 | .txt | ChatGPT exports |
-| Spiral!!/water/ | 16 | .txt, .md, .docx | ChatGPT + Gemini exports |
+| Spiral!!/gateway/ | 16 | .txt, .md, .docx | ChatGPT + Gemini exports |
 | Spiral!!/time-astro-human design/ | 9 | .txt | ChatGPT exports |
 | Spiral!!/concepts to add in/ | 13 | .txt | ChatGPT exports |
 | HTML V5 (Rich Content Modal) | 1 | HTML/JS | Three.js + vanilla, 14 nodes, 2 deep-dives |
@@ -41,18 +41,18 @@
             │                  │                  │
      ┌──────┴──────┐   ┌──────┴──────┐   ┌──────┴──────┐
      │   EAU Co    │   │   Spiral    │   │  Cind & Sol │
-     │  (water)    │   │  Blueprint  │   │  (nonprofit) │
+     │  (gateway)    │   │  Blueprint  │   │  (nonprofit) │
      │  ACTIVE     │   │  THIS BUILD │   │   FUTURE    │
      └─────────────┘   └─────────────┘   └─────────────┘
             │                  │
-     GHL water funnel    hub-example.com
+     GHL gateway funnel    hub-example.com
 ```
 
 **Core framework:** Elevate - Align - Unlock (EAU)
 **Philosophy:** "Feel Good First" — state-shifting before strategy
 **Tone source:** Florence Scovel Shinn (*The Game of Life*, *Your Word Is Your Wand*, *The Secret Door to Success*)
 **Epistemology:** Three-column per node — Science | Sacred (Scripture) | Soul Practice
-**Income vehicle:** Enagic/Kangen water distribution (primary), coaching/subscription (secondary)
+**Income vehicle:** Enagic/Kangen gateway distribution (primary), coaching/subscription (secondary)
 
 ---
 
@@ -68,10 +68,10 @@
 | Page | Priority | Content Source |
 |------|----------|---------------|
 | Home / Spiral Hub | P0 | Interactive spiral (Three.js), hero prompt, quiz |
-| Physical Sovereignty | P0 | health/ + water/ folders |
-| Inner Sovereignty | P1 | mindset/ + concepts/ folders |
-| Identity Sovereignty | P1 | mindset/ subset (self-worth, beliefs, ego) |
-| Financial Sovereignty | P2 | business/ folder |
+| Foundation Sovereignty | P0 | health/ + gateway/ folders |
+| System Sovereignty | P1 | mindset/ + concepts/ folders |
+| Structure Sovereignty | P1 | mindset/ subset (self-worth, beliefs, ego) |
+| Vision Sovereignty | P2 | business/ folder |
 | Start Here / Quiz | P0 | GHL quiz embed, routing logic |
 | About / Philosophy | P1 | 2a branding thread, EAU framework |
 | Free Tools / Self-Assessments | P1 | Scattered across health/ and mindset/ |
@@ -82,10 +82,10 @@
 
 | Pillar | Entry | Destination | Monetization |
 |--------|-------|-------------|--------------|
-| Physical | Education on site | → GHL water funnel | Kangen product sales |
-| Inner | Content + tools | → Subscription ($11-44/mo) | Recurring |
-| Identity | Transformation content | → Future courses | Course sales |
-| Financial | Business education | → GHL business funnel | Consulting/course |
+| Foundation | Education on site | → GHL gateway funnel | Kangen product sales |
+| System | Content + tools | → Subscription ($11-44/mo) | Recurring |
+| Structure | Transformation content | → Future courses | Course sales |
+| Vision | Business education | → GHL business funnel | Consulting/course |
 
 ---
 
@@ -93,17 +93,17 @@
 
 ### Definitive 13-Node Structure (from doc 2b)
 
-**PHASE 1 — ELEVATE (Physical Sovereignty)**
+**PHASE 1 — ELEVATE (Foundation Sovereignty)**
 
 | # | Node | Truth | Key Sources |
 |---|------|-------|-------------|
-| 1 | **Feel Good First** | Before you change your life, you stabilize your state. | `health/Feel Good First script` (ready), V5 deep-dive (complete), `concepts/Divine Feminine Flow` (ready), `health/Hydration and blood sugar` (Root-Cause Pyramid) |
+| 1 | **Feel Good First** | Before you change your life, you stabilize your state. | `health/Feel Good First script` (ready), V5 deep-dive (complete), `concepts/Divine Feminine Flow` (ready), `health/Gateway and blood sugar` (Root-Cause Pyramid) |
 | 2 | **Your Body Is the Starting Point** | You don't think your way into alignment — you regulate into it. | `health/Body Trust and Shifts`, `health/Fascia and emotions` (fascia→chakra mapping), `health/Hormones & Healing.docx` (full ebook, ready) |
-| 3 | **Stabilize Your Blood Sugar** | You can't heal in a chemically unstable body. | `health/Hydration and blood sugar` ("Square Zero" = hydration + nutrition), `health/Gut Rebuilding Diet Plan`, `mindset/Meal Planning and Budgeting Help` (ready) |
+| 3 | **Stabilize Your Blood Sugar** | You can't heal in a chemically unstable body. | `health/Gateway and blood sugar` ("Square Zero" = gateway + nutrition), `health/Gut Rebuilding Diet Plan`, `mindset/Meal Planning and Budgeting Help` (ready) |
 | 4 | **Your Nervous System Is the Filter** | Everything you experience is processed through your state. | `health/Cortisol stress carousel` (ready), V5 deep-dive (complete), `health/Cymascope and healing frequencies`, `mindset/Neuro-signatures and Pruning` |
 | 5 | **Sleep Is Non-Negotiable** | Exhaustion distorts reality. | `health/Period related rest plans` (ready), `health/Hormone Cycle Guide` |
 
-**PHASE 2 — ALIGN: Awareness (Inner Sovereignty)**
+**PHASE 2 — ALIGN: Awareness (System Sovereignty)**
 
 | # | Node | Truth | Key Sources |
 |---|------|-------|-------------|
@@ -112,19 +112,19 @@
 | 8 | **Patterns Run Until Seen** | What's unconscious will keep repeating. | `mindset/Neuro-signatures and Pruning`, `mindset/Romanticized Reality of Change`, `mindset/Success and small habits`, `concepts/Book Concept Breakdown` (Compound Effect distilled, ready) |
 | 9 | **Your Reality Is Interpreted** | You're not reacting to life — you're reacting to meaning. | `mindset/Emotional misattunement`, `mindset/Shift Your Mindset` (ready) |
 
-**PHASE 3 — ALIGN: Accountability (Identity Sovereignty)**
+**PHASE 3 — ALIGN: Accountability (Structure Sovereignty)**
 
 | # | Node | Truth | Key Sources |
 |---|------|-------|-------------|
-| 10 | **Radical Responsibility (with Love)** | You take full ownership — without self-judgment. | `mindset/Anger Processing Guide` ("Feel or Free" practice), `mindset/Inner Child Healing` (ready), `concepts/Book Concept Breakdown` (Radical Forgiveness, ready) |
+| 10 | **Radical Responsibility (with Love)** | You take full ownership — without self-judgment. | `mindset/Anger Processing Guide` ("Feel or Free" practice), `mindset/System Child Healing` (ready), `concepts/Book Concept Breakdown` (Radical Forgiveness, ready) |
 | 11 | **You Can't Change What You Won't Acknowledge** | Honesty is the doorway to transformation. | `mindset/Fear of Being Seen` (visibility wounds, witch wound), `mindset/Frozen Feelings and Support` (ready), `mindset/Overexplaining and Conciseness Tips` (ready) |
 | 12 | **Integrity Builds Self-Trust** | You trust yourself when your actions match your truth. | `mindset/Insecurity and Self-Respect`, `mindset/Masculine Feminine Balance Tracker` (ready), `mindset/Ask Integrate Reflect Method` |
 
-**PHASE 4 — UNLOCK (Financial Sovereignty / Expansion)**
+**PHASE 4 — UNLOCK (Vision Sovereignty / Expansion)**
 
 | # | Node | Truth | Key Sources |
 |---|------|-------|-------------|
-| 13 | **Systems Create Freedom** | Alignment without structure won't last. | `business/Financial Freedom Blueprint` (ready, 12-step path), `business/Idea Implementation Strategies` (ready), `business/Novel Funnel Strategies`, `business/Sales momentum plan` |
+| 13 | **Systems Create Freedom** | Alignment without structure won't last. | `business/Vision Freedom Blueprint` (ready, 12-step path), `business/Idea Implementation Strategies` (ready), `business/Novel Funnel Strategies`, `business/Sales momentum plan` |
 
 ### Node Count Divergence
 
@@ -137,7 +137,7 @@ The HTML prototypes use **14 nodes** (original spiral) that don't match the **13
 | 3. Check-In: Where Am I? | No direct equivalent | Absorbed into multiple nodes |
 | 4. Radical Responsibility | → 10. Radical Responsibility (with Love) | Reordered |
 | 5. Yin & Yang Balance | Cross-cutting (appears in 5, 6, 12) | Distributed |
-| 6. Maslow's Physical Needs | → 3. Stabilize Your Blood Sugar (broadened) | Merged |
+| 6. Maslow's Foundation Needs | → 3. Stabilize Your Blood Sugar (broadened) | Merged |
 | 7. Mind-Gut Connection | Absorbed into 2, 3 | Merged |
 | 8. Compound Echo | → 8. Patterns Run Until Seen | Reframed |
 | 9. Root-Level Healing | Absorbed into 2, 3 | Merged |
@@ -190,7 +190,7 @@ The HTML prototypes use **14 nodes** (original spiral) that don't match the **13
 | health/ | 11 | 12 | 7 | 1 | 31 |
 | mindset/ | 8 | 14 | 16 | 1 | 39 |
 | business/ | 2 | 7 | 4 | 2 | 15 |
-| water/ | 4 | 5 | 4 | 3 | 16 |
+| gateway/ | 4 | 5 | 4 | 3 | 16 |
 | time-astro/ | 3 | 4 | 1 | 1 | 9 |
 | concepts/ | 5 | 4 | 2 | 2 | 13 |
 | **TOTAL** | **33** | **46** | **34** | **10** | **123** |
@@ -221,15 +221,15 @@ Plus 4 root documents (1a, 1b, 2a, 2b) = 127 total.
 | Heroine's Healing Journey | E-A-U Spiral Blueprint: 8-stage heroine's journey | 14, 10, 4, 11 | Partial |
 | Hormone Cycle Guide | Free ebook outline: cycle tracking, phase nutrition | 5, 6, 7 | Partial |
 | Hormones ! eating ! cycles | Empty export | — | Empty |
-| Hydration and blood sugar | Root-Cause Pyramid, Square Zero = hydration | 6, 1, 2 | Partial |
-| Hydration and Inflammation Video | 60-sec video script for sales | 6, 8 | **Ready** |
-| Inflammation Self-Check Questions | 5-question self-assessment for water sales | 3, 6 | **Ready** |
+| Gateway and blood sugar | Root-Cause Pyramid, Square Zero = gateway | 6, 1, 2 | Partial |
+| Gateway and Inflammation Video | 60-sec video script for sales | 6, 8 | **Ready** |
+| Inflammation Self-Check Questions | 5-question self-assessment for gateway sales | 3, 6 | **Ready** |
 | Medical research gender gap | Fact-check: gender gap in research, J. Marion Sims | 4, 8, 10 | **Ready** |
 | Milk source in the US | U.S. milk/beef sourcing, import data, welfare | 6, 8 | **Ready** |
-| Neurodivergence and autoimmune links | ATP/metabolic waste hypothesis (speculative) | 9, 7 | Raw |
+| Neurodivergence and archetype-beta links | ATP/metabolic waste hypothesis (speculative) | 9, 7 | Raw |
 | Parasite cleanse diet tips | Diet protocol during cleanse, anti-parasite foods | 7, 6 | **Ready** |
 | Period related rest plans | Phrases for communicating period rest needs | 5, 4 | **Ready** |
-| Sonoluminescence phenomenon | Sound through water creates light, physics | 12, 9 | Partial |
+| Sonoluminescence phenomenon | Sound through gateway creates light, physics | 12, 9 | Partial |
 | Sulphur benefits and history | Glutathione, MSM, hot springs, alchemy | 9, 6, 13 | Partial |
 | Gemini: Cellular Reprogramming | 30-day voice-to-cells protocol (speculative) | 12, 2, 13, 9 | Partial |
 | Gemini: FDA Carcinogens | HIMYM meme: FDA-approved carcinogens | 6, 8 | **Ready** |
@@ -240,7 +240,7 @@ Plus 4 root documents (1a, 1b, 2a, 2b) = 127 total.
 | File | Topic | Node(s) | Ready? |
 |------|-------|---------|--------|
 | Affirmation Track for Abundance | Spoken affirmation script, $2,500 receiving | 1, 2, 10, 12 | **Ready** |
-| Alchemy and Spiritual Symbolism | Philosopher's Stone, inner alchemy from The Alchemist | 12, 14 | Raw |
+| Alchemy and Spiritual Symbolism | Philosopher's Stone, system alchemy from The Alchemist | 12, 14 | Raw |
 | Anger Processing Guide | "Feel or Free" emotional sorting practice | 2, 3, 9 | Partial |
 | Ask Integrate Reflect Method | AIR Method for balancing curiosity + implementation | 3, 5, 11 | Partial |
 | Attracting Wealth with Mindset | Money and Law of Attraction reel summary | 12, 10 | Raw |
@@ -254,7 +254,7 @@ Plus 4 root documents (1a, 1b, 2a, 2b) = 127 total.
 | Frozen Feelings and Support | Emotional freeze/shutdown, somatic prompts | 2, 9, 1 | **Ready** |
 | Happiness as a state | Reel concept: 4 pillars of well-being | 1, 8, 13 | Partial |
 | Healing Growth Blueprint 1.0 | **Meta-architecture of the Spiral product itself** | ALL | Partial |
-| Inner Child Healing | Pool incident mirror, fawning, reparenting | 9, 2, 10 | **Ready** |
+| System Child Healing | Pool incident mirror, fawning, reparenting | 9, 2, 10 | **Ready** |
 | Insecurity and Self-Respect | Relationship insecurity, self-respect reframe | 3, 10, 4 | Raw |
 | Manifestation Mastery Secrets | 5-step manifestation protocol + vision board | 12, 2, 1 | Partial |
 | Masculine Feminine Balance Tracker | Yang/Yin task lists, daily check-in template | 5, 3, 11 | **Ready** |
@@ -276,48 +276,48 @@ Plus 4 root documents (1a, 1b, 2a, 2b) = 127 total.
 | Vision board creation guide | Dream state brain dump (truck, land, horse, etc.) | 12, 11 | Raw |
 | Visionary Life Breakdown | "Week in highest self" visualization script | 12, 11, 14 | **Ready** |
 | Yin energy explained | IG captions, toxic masculinity CTA | 5, 13 | **Ready** |
-| **IMPORTANT: Inner child book concept** | **Full book concept, 5 parts, 11 chapters** | 1, 2, 5, 9, 10, 13, 14 | Partial |
+| **IMPORTANT: System child book concept** | **Full book concept, 5 parts, 11 chapters** | 1, 2, 5, 9, 10, 13, 14 | Partial |
 | Rhythms & Rituals (.docx) | Feminine flow: 3-part daily rhythm, astrology OS | 5, 1, 2, 6, 11 | **Ready** |
 
 ### business/ (15 files)
 
 | File | Topic | Node(s) | Ready? |
 |------|-------|---------|--------|
-| 100 sales strategy | 90-day Enagic water sales playbook | 11 | Partial |
+| 100 sales strategy | 90-day Enagic gateway sales playbook | 11 | Partial |
 | 20!80 rule focus | 80/20 prioritization for $10k months | 1, 5, 11 | Partial |
 | Astrology Social Media Strategy | Chart-based IG/FB/TikTok strategy | 3, 5, 11 | Partial |
 | Credit Report Review Guide | Pull credit, dispute errors, utilization | 6, 10 | Raw |
 | Dream retreat vision | Retreat + Spiral classes vision, funnel priorities | 12, 14 | Raw |
-| Financial Freedom Blueprint | **12-step phased path to independence** | 4, 6, 10 | **Ready** |
+| Vision Freedom Blueprint | **12-step phased path to independence** | 4, 6, 10 | **Ready** |
 | Idea Implementation Strategies | Vision-to-action: MVV, parking lot, 30-day sprint | 5, 8, 11 | **Ready** |
 | Income Projections and Strategies | 17-day projection, launch checklist | 6, 11 | Partial |
 | Instagram grid visualization | Empty | — | Empty |
-| Job Transition Advice | Identity transition, NS integration post-rest | 1, 2, 3 | Partial |
+| Job Transition Advice | Structure transition, NS integration post-rest | 1, 2, 3 | Partial |
 | Novel Funnel Strategies | Market saturation, authentic positioning | 11, 13 | Partial |
-| Plastic Water Label Design | Image request (label) | 7 | Raw |
+| Plastic Gateway Label Design | Image request (label) | 7 | Raw |
 | Sales momentum plan | 3-phase: foundation/GHL, soft launch, follow-up | 11 | Partial |
-| Wagyu Post Conversion Tips | 3 FB caption templates for water | 11, 13 | **Ready** (niche) |
+| Wagyu Post Conversion Tips | 3 FB caption templates for gateway | 11, 13 | **Ready** (niche) |
 | Website Launch and App Timeline | Empty | — | Empty |
 
-### water/ (16 files)
+### gateway/ (16 files)
 
 | File | Topic | Node(s) | Ready? |
 |------|-------|---------|--------|
-| 2.5 pH Acidic Water | Hypochlorous acid IG slides, strep story | 7, 9 | **Ready** |
+| 2.5 pH Acidic Gateway | Hypochlorous acid IG slides, strep story | 7, 9 | **Ready** |
 | Dissolved hydrogen concentration | K8 H2 levels, independent vs manufacturer claims | 7 | Raw |
-| Eczema Skin Water Protocol | Step-by-step eczema water protocol | 6, 9 | **Ready** |
-| Ionized water benefits | H2 as antioxidant, pH debunking, PubMed refs | 7, 9 | Partial |
-| Kangen Water and Ear Aches | Ear protocol (no ear canal use, safer alts) | 9 | Partial |
-| Kangen Water Content Ideas | 10 reel scripts + 5 FB posts + captions | 11, 13 | **Ready** |
+| Eczema Skin Gateway Protocol | Step-by-step eczema gateway protocol | 6, 9 | **Ready** |
+| Ionized gateway benefits | H2 as antioxidant, pH debunking, PubMed refs | 7, 9 | Partial |
+| Kangen Gateway and Ear Aches | Ear protocol (no ear canal use, safer alts) | 9 | Partial |
+| Kangen Gateway Content Ideas | 10 reel scripts + 5 FB posts + captions | 11, 13 | **Ready** |
 | Molecular Hydrogen for Athletes | Pitch template for UFC fighter | 11 | Raw |
-| Water hub design | Full Water Hub architecture: quiz, 5 branches | 11, 12 | Partial |
-| Water Hub Framework Breakdown | Landing page flow, quiz branching | 11, 12 | Raw |
-| Water Memory and Energy | Structured water, EZ water, Emoto (contested) | 12 | Partial |
-| Water Retention in ERW | Dead-end research inquiry | 7 | Raw |
-| Water Sales Strategy Plan | Full sales system: content, DM scripts, cold calls | 11 | Partial |
-| Well Water Costs | Well economics | 6 | Raw |
-| Gemini: Hydrogen Water Science | Webinar transcript: oxidative stress, H2, business | 7, 9, 11 | Partial |
-| Gemini: Water Crystals Pseudoscience | Emoto critique + metaphorical value | 12 | **Ready** |
+| Gateway hub design | Full Gateway Hub architecture: quiz, 5 branches | 11, 12 | Partial |
+| Gateway Hub Framework Breakdown | Landing page flow, quiz branching | 11, 12 | Raw |
+| Gateway Memory and Energy | Structured gateway, EZ gateway, Emoto (contested) | 12 | Partial |
+| Gateway Retention in ERW | Dead-end research inquiry | 7 | Raw |
+| Gateway Sales Strategy Plan | Full sales system: content, DM scripts, cold calls | 11 | Partial |
+| Well Gateway Costs | Well economics | 6 | Raw |
+| Gemini: Hydrogen Gateway Science | Webinar transcript: oxidative stress, H2, business | 7, 9, 11 | Partial |
+| Gemini: Gateway Crystals Pseudoscience | Emoto critique + metaphorical value | 12 | **Ready** |
 | Learn More About ERW.docx | **ERW resource page: testimonials, studies** | 7, 9, 13 | **Ready** |
 
 ### time-astro-human design/ (9 files)
@@ -361,7 +361,7 @@ Ranked by production-readiness and strategic importance:
 | # | File | Why It Matters |
 |---|------|---------------|
 | 1 | **health/Hormones & Healing.docx** | Complete ebook draft. Most polished artifact in entire dump. Publishable with light editing. |
-| 2 | **mindset/IMPORTANT: Inner child book concept** | Full book concept (5 parts, 11 chapters). Standalone product touching 7 nodes. Social-media-ready pages. |
+| 2 | **mindset/IMPORTANT: System child book concept** | Full book concept (5 parts, 11 chapters). Standalone product touching 7 nodes. Social-media-ready pages. |
 | 3 | **mindset/Healing Growth Blueprint 1.0** | Meta-architecture of the Spiral product itself. E-A-U Blueprint. The product's product spec. |
 | 4 | **health/Heroine's Healing Journey** | 8-stage "E-A-U Spiral Blueprint" heroine's journey. Maps nodes 1→14. Structural backbone. |
 | 5 | **2b. Nodular Flow Refinement** | Definitive 13-node structure with designer instructions. Source of truth for build. |
@@ -370,8 +370,8 @@ Ranked by production-readiness and strategic importance:
 | 8 | **health/Cortisol stress carousel** | Ready-to-post IG carousel. Multi-tone drafts with CTAs. |
 | 9 | **mindset/Rhythms & Rituals.docx** | Feminine flow system. 3-part daily rhythm. Astrology-based operating system. Ready to use. |
 | 10 | **concepts/Book Concept Breakdown** | Compound Effect + Radical Forgiveness + Happy Pocket distilled into node-ready frameworks. |
-| 11 | **business/Financial Freedom Blueprint** | 12-step path. Ready to use as Financial Sovereignty pillar content. |
-| 12 | **water/Learn More About ERW.docx** | Comprehensive resource page with testimonials and study links. Water funnel content. |
+| 11 | **business/Vision Freedom Blueprint** | 12-step path. Ready to use as Vision Sovereignty pillar content. |
+| 12 | **gateway/Learn More About ERW.docx** | Comprehensive resource page with testimonials and study links. Gateway funnel content. |
 | 13 | **concepts/Dopamine vs Oxytocin Energy** | Life-domain yin/yang checklist. Ready self-assessment tool for Node 5. |
 | 14 | **mindset/Masculine Feminine Balance Tracker** | Daily yang/yin task lists + weekly intention framework. Usable tool. |
 | 15 | **health/Feel Good First script** | IG Reel script for core brand concept. Multiple polished drafts. |
@@ -383,12 +383,12 @@ Ranked by production-readiness and strategic importance:
 | Claim | File | Verdict |
 |-------|------|---------|
 | "94% of disease caused/worsened by stress" | health/Cortisol carousel | **Unverified.** No peer-reviewed source. |
-| Water stores "vibrational information" / EZ water as H3O2 | health/Cellular Reprogramming | **Not supported.** Water memory repeatedly debunked. |
+| Gateway stores "vibrational information" / EZ gateway as H3O2 | health/Cellular Reprogramming | **Not supported.** Gateway memory repeatedly debunked. |
 | Talking to cells triggers fat cell differentiation inhibition | health/Cellular Reprogramming | **Extreme overstatement.** Mechanotransduction real; this application is not. |
 | DNA as "biophotonic emitter" optimized by speech | health/Cellular Reprogramming | **Speculative fringe.** |
 | CymaScope: 15-20% improved RBC viability from music | health/Cymascope | **Unverified.** Self-published, not replicated. |
 | Sound frequencies improve cancer prognosis | health/Cymascope | **Not supported** by mainstream oncology. |
-| Neurodivergent ATP/metabolic waste → autoimmune | health/Neurodivergence-autoimmune | **Speculative.** No citation. |
+| Neurodivergent ATP/metabolic waste → archetype-beta | health/Neurodivergence-archetype-beta | **Speculative.** No citation. |
 | "87% of U.S. beef imported from Saudi Arabia" | health/Milk source | **Debunked within the file itself.** |
 | Sulphur baths cause "holes on feet" from parasite die-off | health/Sulphur benefits | **Not supported.** Likely maceration. |
 | Collagen has piezoelectric properties → chakra energy | health/Fascia and emotions | **Partially supported.** Piezoelectric = real. Chakra extrapolation = speculative. |
@@ -397,7 +397,7 @@ Ranked by production-readiness and strategic importance:
 | Hunched back indicates past-life trauma | concepts/Hunched Back | **Fringe.** No evidence base. |
 
 **Recommendation:** Flag for admin before publishing. Three tiers:
-1. **Remove or reframe:** Water memory, cell-talking, biophotonics, spoon bending, past lives
+1. **Remove or reframe:** Gateway memory, cell-talking, biophotonics, spoon bending, past lives
 2. **Add caveats:** Cymatics healing, stress-disease %, endometriosis doubling
 3. **Keep (accurate with nuance):** Fascia piezoelectricity, Alzheimer's report, crying-cortisol
 
@@ -405,15 +405,15 @@ Ranked by production-readiness and strategic importance:
 
 ## 9. CROSS-FOLDER STRUCTURAL PATTERNS
 
-1. **Water Hub = Spiral sub-system.** The `water/Water hub design` file explicitly mirrors the Spiral's branch structure with quiz-based routing. Business/ contains the sales mechanics to activate it. These two folders are one system split into product and distribution.
+1. **Gateway Hub = Spiral sub-system.** The `gateway/Gateway hub design` file explicitly mirrors the Spiral's branch structure with quiz-based routing. Business/ contains the sales mechanics to activate it. These two folders are one system split into product and distribution.
 
-2. **Yin/Yang is the throughline.** Appears in every folder: business (80/20, alignment rituals), water (science + story), time-astro (moon/hormone cycles), concepts (dopamine/oxytocin), mindset (6+ files). Node 5 operates across every domain.
+2. **Yin/Yang is the throughline.** Appears in every folder: business (80/20, alignment rituals), gateway (science + story), time-astro (moon/hormone cycles), concepts (dopamine/oxytocin), mindset (6+ files). Node 5 operates across every domain.
 
 3. **Nervous system regulation gates everything.** Every folder returns to the same premise: the nervous system must feel safe before anything else works. Node 4 is the prerequisite, not just a node.
 
 4. **The healing IS the content pipeline.** ~50% of files are simultaneously personal therapeutic processing AND social media content development. The wound work produces the reels. This is structurally important — the product generates itself.
 
-5. **Three standalone product candidates:** (a) Hormones & Healing ebook, (b) Inner child book concept, (c) Astrology/hormone planner. Each exists independently of the Spiral and could ship separately.
+5. **Three standalone product candidates:** (a) Hormones & Healing ebook, (b) System child book concept, (c) Astrology/hormone planner. Each exists independently of the Spiral and could ship separately.
 
 6. **4 empty files, 1 duplicate, 1 utility** can be pruned from the inventory.
 
@@ -457,9 +457,9 @@ Ranked by production-readiness and strategic importance:
 | Q5 | **Instagram/post specifics** (admin flagged as not done) | Content calendar |
 | Q6 | **Google Drive reel/video access** (3 links in 1b) | Media pipeline |
 | Q7 | **Editorial review of 13 flagged claims** | Content integrity |
-| Q8 | **Inner child book: standalone product or Spiral-integrated?** | Product scope |
-| Q9 | **Water Hub: separate site or Physical Sovereignty sub-page?** | Site architecture |
-| Q10 | **Creature Selves: revive as brand concept or archive?** | Brand identity |
+| Q8 | **System child book: standalone product or Spiral-integrated?** | Product scope |
+| Q9 | **Gateway Hub: separate site or Foundation Sovereignty sub-page?** | Site architecture |
+| Q10 | **Creature Selves: revive as brand concept or archive?** | Brand structure |
 
 ---
 
@@ -479,23 +479,23 @@ Ranked by production-readiness and strategic importance:
 - [ ] Mobile responsiveness pass
 - [ ] "Sovereign Systems" framework section below spiral
 
-### Phase 2: Physical Sovereignty + Water Funnel (P0)
-- [ ] Build Physical Sovereignty pillar page
+### Phase 2: Foundation Sovereignty + Gateway Funnel (P0)
+- [ ] Build Foundation Sovereignty pillar page
 - [ ] Populate nodes 1-5 deep-dives from health/ folder
 - [ ] Integrate Hormones & Healing ebook as gated content
-- [ ] Connect CTA → GHL water funnel
+- [ ] Connect CTA → GHL gateway funnel
 - [ ] Self-assessment tools (Inflammation Self-Check, Check-In questions)
 
-### Phase 3: Inner + Identity Pillars (P1)
-- [ ] Build Inner Sovereignty page
-- [ ] Build Identity Sovereignty page
+### Phase 3: System + Structure Pillars (P1)
+- [ ] Build System Sovereignty page
+- [ ] Build Structure Sovereignty page
 - [ ] Populate nodes 6-12 deep-dives from mindset/ + concepts/
 - [ ] Integrate Yin/Yang Balance Tracker, Blindspots audit
 - [ ] Subscription access gate structure
 
-### Phase 4: Financial Sovereignty (P2)
-- [ ] Build Financial Sovereignty page
-- [ ] Populate node 13 from business/ + Financial Freedom Blueprint
+### Phase 4: Vision Sovereignty (P2)
+- [ ] Build Vision Sovereignty page
+- [ ] Populate node 13 from business/ + Vision Freedom Blueprint
 - [ ] Connect CTA → GHL business funnel
 
 ### Phase 5: Polish + Soft Launch
@@ -507,10 +507,10 @@ Ranked by production-readiness and strategic importance:
 
 ### Phase 6: Expansion (post-launch)
 - [ ] Subscription model activation
-- [ ] Inner child book production decision
+- [ ] System child book production decision
 - [ ] Astrology/hormone planner product
 - [ ] Store (prints, crafts, calendars, minerals)
-- [ ] Water Hub as dedicated sub-experience
+- [ ] Gateway Hub as dedicated sub-experience
 
 ---
 

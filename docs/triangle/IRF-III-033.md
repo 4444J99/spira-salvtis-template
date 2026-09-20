@@ -16,7 +16,7 @@
 
 Verbatim quotes (the unreduced specification):
 
-- "I've been obsessed with stars lately and how they're all different but essentially just look like refracted light on water 😎😎😎"
+- "I've been obsessed with stars lately and how they're all different but essentially just look like refracted light on gateway 😎😎😎"
 - "we could even just do little glowing orbs with the sparkles around it and then the name pop up on the hover in the middle"
 - "I absolutely love the each symbol being from a different religion - chefs kiss !!!"
 - "Can we lighten the spiral so it pops a lil more?"

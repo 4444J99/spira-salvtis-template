@@ -27,8 +27,8 @@ Inputs reviewed:
 4. `/capture` bounds and persists `quizPreviewNodeId` the same way it bounds
    `quizNodeId`.
 5. Node detail pages now render a pillar-aware activation CTA band:
-   physical nodes continue into `/water/quiz`, financial nodes into
-   `/business/`, and inner/identity nodes into the live quiz path.
+   foundation nodes continue into `/gateway/quiz`, vision nodes into
+   `/business/`, and system/structure nodes into the live quiz path.
 6. The local assertion suite now covers the ship-now contracts above.
 
 ## Remaining Gated Items
@@ -38,9 +38,9 @@ infra inputs:
 
 - `GHL_WEBHOOK_URL` and related automation wiring.
 - A durable custom-event sink for `[EA]` analytics events.
-- Affiliate/product URLs and bottled-water pricing inputs tracked in the
+- Affiliate/product URLs and bottled-gateway pricing inputs tracked in the
   existing admin pending-input docs.
-- Custom domains for `hub-example.com`, `water-example.com`, and
+- Custom domains for `hub-example.com`, `gateway-example.com`, and
   `business-example.com`.
 - Payment rail decision for paid offers.
 

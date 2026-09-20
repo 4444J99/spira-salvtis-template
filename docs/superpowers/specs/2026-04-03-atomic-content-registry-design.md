@@ -43,7 +43,7 @@ Three sentences, one idea: the 90-second reset. Removing any sentence breaks the
 **Two atoms:**
 > "Cortisol is the primary stress hormone produced by the adrenal cortex."
 >
-> "The Light & Fruit Test measures morning energy, hydration clarity, and digestive response as proxy indicators of cellular health."
+> "The Light & Fruit Test measures morning energy, gateway clarity, and digestive response as proxy indicators of cellular health."
 
 Two unrelated ideas that happen to be in the same file. Separate atoms.
 
@@ -66,7 +66,7 @@ context_above: "HPA axis feedback loop — cortisol production and adrenal fatig
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: FLAGGED
 editorial_note: "Surrounding context claims 94% stat — unverified. This atom (the technique) is sound."
@@ -80,7 +80,7 @@ during this window is the intervention.
 
 <!-- ATM-H-003 OUT
 next: ATM-H-004
-context_below: "IG carousel slide copy — authority tone draft with CTA to water funnel"
+context_below: "IG carousel slide copy — authority tone draft with CTA to gateway funnel"
 -->
 ```
 
@@ -123,11 +123,11 @@ atoms:
     prev: ATM-H-002
     next: ATM-H-004
     context_above: "HPA axis feedback loop — cortisol production and adrenal fatigue"
-    context_below: "IG carousel slide copy — authority tone draft with CTA to water funnel"
+    context_below: "IG carousel slide copy — authority tone draft with CTA to gateway funnel"
     provenance: HYBRID
     nature: PROTOCOL
     nodes: [2, 1, 8]
-    pillar: Physical
+    pillar: Foundation
     build_state: MISSING
     editorial: FLAGGED
     strike_phase: 2A
@@ -138,7 +138,7 @@ Coverage maps and strike plans are likewise computed views, not hand-maintained.
 ### ID Convention
 
 `ATM-{C}-{NNN}` where:
-- `C` = category initial: `H` (health), `M` (mindset), `B` (business), `W` (water), `T` (time-astro), `C` (concepts), `R` (root docs: 1a, 1b, 2a, 2b)
+- `C` = category initial: `H` (health), `M` (mindset), `B` (business), `W` (gateway), `T` (time-astro), `C` (concepts), `R` (root docs: 1a, 1b, 2a, 2b)
 - `NNN` = three-digit sequence, monotonically increasing within category
 - IDs are permanent — never reused, never renumbered
 
@@ -175,7 +175,7 @@ Coverage maps and strike plans are likewise computed views, not hand-maintained.
 | `NARRATIVE` | Personal story, healing journey, testimonial | Becomes brand voice / about page / video content |
 | `CITATION` | Reference to published research, book, or study | Feeds research-citations.md, supports CLAIMs |
 | `PRODUCT` | Standalone product concept (book, course, ebook, planner) | Feeds product roadmap (GH#10, GH#19, GH#20) |
-| `MODEL` | Business/revenue/funnel model or strategy | Feeds financial pillar, GHL integration, pricing |
+| `MODEL` | Business/revenue/funnel model or strategy | Feeds vision pillar, GHL integration, pricing |
 | `QUESTION` | Open question admin asked that remains unanswered | Feeds client decision tracker (SOP-SS-CLT-001) |
 | `INSTRUCTION` | Build directive from admin to the developer | Feeds issue specs and build plans directly |
 
@@ -241,7 +241,7 @@ Within each section, read sequentially and identify atom boundaries using the co
 | health/ (+.docx) | 31 | 5-20 | ~300 |
 | mindset/ (+.docx) | 39 | 5-15 | ~350 |
 | business/ | 15 | 3-10 | ~100 |
-| water/ (+.docx) | 16 | 5-15 | ~150 |
+| gateway/ (+.docx) | 16 | 5-15 | ~150 |
 | time-astro/ | 9 | 3-10 | ~50 |
 | concepts/ | 13 | 3-10 | ~70 |
 | **Total** | **127** | | **~1,420** |
@@ -263,7 +263,7 @@ For each of the 13 spiral nodes, list every atom that maps to it:
 ```
 Node 1 — Feel Good First
   Total atoms: 47
-  EXISTS: 2 (physical.md references the concept)
+  EXISTS: 2 (foundation.md references the concept)
   PARTIAL: 8 (branches mention related topics)
   MISSING: 37 (not yet in build)
   Coverage: 4.3% full, 21.3% partial
@@ -272,7 +272,7 @@ Node 1 — Feel Good First
 ### Map 2: By Pillar
 
 ```
-Physical Sovereignty (Nodes 1-5)
+Foundation Sovereignty (Nodes 1-5)
   Total atoms: ~380
   LOCAL: 34 | HYBRID: 298 | ALIEN: 48
   CLAIM: 67 (12 FLAGGED) | FRAMEWORK: 8 | TOOL: 15 | SCRIPT: 23 | ...
@@ -351,18 +351,18 @@ Atoms organized by build target, not source file. Each strike is a coherent unit
 - Delivers: Updates to SOP-SS-CLT-001 decision inventory, new GitHub issues if warranted
 - Gate: Every QUESTION atom mapped to an existing decision or new issue created
 
-### Phase 2: Physical Sovereignty (BLOCKED by GH#13, GH#17)
+### Phase 2: Foundation Sovereignty (BLOCKED by GH#13, GH#17)
 
 **Strike 2A: Node 1-5 Deep-Dive Content**
-- Source: health/, water/, concepts/ atoms where `nodes ∈ [1,2,3,4,5]`
+- Source: health/, gateway/, concepts/ atoms where `nodes ∈ [1,2,3,4,5]`
 - Nature filter: `PROTOCOL`, `NARRATIVE`, `CITATION`, `TOOL`, `FRAMEWORK`
 - Delivers: 5 node deep-dive pages populated from source atoms
 - Gate: Each node page contains ≥3 LOCAL/HYBRID atoms, all CLAIMs verified
 
-**Strike 2B: Water Funnel Atoms**
-- Source: water/, business/ atoms where `nature ∈ [SCRIPT, MODEL, TOOL]`
-- Delivers: Hydration Node content, filter tier data, cost comparison atoms
-- Gate: Hydration Node spec (2026-04-03 intake) requirements mapped to specific atoms
+**Strike 2B: Gateway Funnel Atoms**
+- Source: gateway/, business/ atoms where `nature ∈ [SCRIPT, MODEL, TOOL]`
+- Delivers: Gateway Node content, filter tier data, cost comparison atoms
+- Gate: Gateway Node spec (2026-04-03 intake) requirements mapped to specific atoms
 
 **Strike 2C: Branch Enrichment**
 - Source: health/ atoms where `build_state: PARTIAL`
@@ -374,29 +374,29 @@ Atoms organized by build target, not source file. Each strike is a coherent unit
 - Delivers: Inflammation Self-Check, Symptom Decoder, Hormone Cycle tracker
 - Gate: Each tool has complete atom chain (all coupled atoms present)
 
-### Phase 3: Inner + Identity Sovereignty (BLOCKED by Phase 2)
+### Phase 3: System + Structure Sovereignty (BLOCKED by Phase 2)
 
-**Strike 3A: Node 6-9 Inner Sovereignty**
+**Strike 3A: Node 6-9 System Sovereignty**
 - Source: mindset/, concepts/ atoms where `nodes ∈ [6,7,8,9]`
-- Delivers: Inner Sovereignty pillar page deepened + 4 node pages
+- Delivers: System Sovereignty pillar page deepened + 4 node pages
 
-**Strike 3B: Node 10-12 Identity Sovereignty**
+**Strike 3B: Node 10-12 Structure Sovereignty**
 - Source: mindset/ atoms where `nodes ∈ [10,11,12]`
-- Delivers: Identity Sovereignty pillar page deepened + 3 node pages
+- Delivers: Structure Sovereignty pillar page deepened + 3 node pages
 
 **Strike 3C: Standalone Mindset Tools**
 - Source: mindset/ atoms where `nature: TOOL`
 - Delivers: Yin/Yang Balance Tracker, Blindspots Audit, Brain Dump method, AIR Method
 
-### Phase 4: Financial + Expansion (BLOCKED by Phase 3)
+### Phase 4: Vision + Expansion (BLOCKED by Phase 3)
 
-**Strike 4A: Node 13 Financial Sovereignty**
+**Strike 4A: Node 13 Vision Sovereignty**
 - Source: business/ atoms where `nodes ∈ [13]`
-- Delivers: Financial Sovereignty pillar page + Financial Freedom Blueprint integration
+- Delivers: Vision Sovereignty pillar page + Vision Freedom Blueprint integration
 
 **Strike 4B: Standalone Products**
 - Source: atoms where `nature: PRODUCT`
-- Delivers: Product specs for Inner Child Book, Hormones & Healing ebook, Astrology Planner
+- Delivers: Product specs for System Child Book, Hormones & Healing ebook, Astrology Planner
 - Gate: Each product has complete atom inventory (all ideas accounted for)
 
 **Strike 4C: Social Content Pipeline**
@@ -455,7 +455,7 @@ Atoms organized by build target, not source file. Each strike is a coherent unit
 | health/ (31 files) | 31 files, ~4K lines | ~300 |
 | mindset/ (39 files) | 39 files, ~5K lines | ~350 |
 | business/ (15 files) | 15 files, ~1.5K lines | ~100 |
-| water/ (16 files) | 16 files, ~4K lines | ~150 |
+| gateway/ (16 files) | 16 files, ~4K lines | ~150 |
 | time-astro/ (9 files) | 9 files, ~800 lines | ~50 |
 | concepts/ (13 files) | 13 files, ~1K lines | ~70 |
 | **Total** | **127 files** | **~1,420 atoms** |

@@ -1,25 +1,25 @@
-# Specification: Decide Water Hub placement in site architecture
+# Specification: Decide Gateway Hub placement in site architecture
 
 **Issue:** #17 | **Phase:** β | **Priority:** P2 | **Status:** GATED
 
 ## Context
 
 ### Why This Matters
-The 2026-04-01 handoff raises a structural question: should Water Hub ship as a dedicated site or as a nested section? This affects information architecture, funnel routing, and how Physical Sovereignty is framed.
+The 2026-04-01 handoff raises a structural question: should Gateway Hub ship as a dedicated site or as a nested section? This affects information architecture, funnel routing, and how Foundation Sovereignty is framed.
 
 ### Dependencies
 - **Blocked by:** None
-- **Blocks:** #6 (physical build - page structure)
+- **Blocks:** #6 (foundation build - page structure)
 - **Requires:** Decision from admin
 
 ### Upstream / Downstream
 - **Upstream:** Handoff
-- **Downstream:** #6 (Physical Sovereignty build)
+- **Downstream:** #6 (Foundation Sovereignty build)
 
 ## Scope
 
 ### In-Scope
-- Decision on site architecture for Water Hub
+- Decision on site architecture for Gateway Hub
 
 ### Out-of-Scope
 - Implementation details (handled in #6)
@@ -68,5 +68,5 @@ Decision statement in writing
 ## Notes
 
 ### Options
-1. **Dedicated site**: water-example.com becomes full site with own navigation
-2. **Nested section**: /water/ as sub-section of Physical Sovereignty pillar
+1. **Dedicated site**: gateway-example.com becomes full site with own navigation
+2. **Nested section**: /gateway/ as sub-section of Foundation Sovereignty pillar

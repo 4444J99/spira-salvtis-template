@@ -9,8 +9,8 @@ This file provides guidance for AI coding agents operating in this repository.
 | Domain | Purpose |
 |--------|---------|
 | `hub-example.com` | Central hub with spiral visualization and 4 pillars |
-| `water-example.com` | Physical Sovereignty water education funnel |
-| `business-example.com` | Financial Sovereignty business hub |
+| `gateway-example.com` | Foundation Sovereignty gateway education funnel |
+| `business-example.com` | Vision Sovereignty business hub |
 
 **IP boundary:** content = client IP (do not distribute or reuse); code/architecture = studio IP.
 
@@ -75,7 +75,7 @@ No test filtering exists. To run a focused check, temporarily narrow assertions 
 | File | Purpose |
 |------|---------|
 | `src/data/hub.config.ts` | Pillars, nodes, branches, domains, UI defaults, EnvVar types, QuizTheme types |
-| `src/data/hydration.config.ts` | 6-step funnel config, filter tiers, cost data, matching engine |
+| `src/data/gateway.config.ts` | 6-step funnel config, filter tiers, cost data, matching engine |
 | `src/data/quiz.config.ts` | Quiz questions, answer definitions, result copy, capture copy |
 | `src/data/decisions.ts` | Decision-board options and recommendations |
 | `src/content.config.ts` | Astro Content Layer schemas for branches, pillars, and nodes |
@@ -90,10 +90,10 @@ No test filtering exists. To run a focused check, temporarily narrow assertions 
 | `/pillars/[slug]` | Dynamic 4 pillar pages |
 | `/nodes/[id]` | 13 spiral node pages; nodes 6-13 are locked |
 | `/quiz` | Node-placement quiz with affinity scoring |
-| `/water/` | Physical Sovereignty funnel |
-| `/water/[slug]` | Branch-specific water pages |
-| `/water/quiz` | Water funnel quiz route |
-| `/business/` | Financial Sovereignty landing |
+| `/gateway/` | Foundation Sovereignty funnel |
+| `/gateway/[slug]` | Branch-specific gateway pages |
+| `/gateway/quiz` | Gateway funnel quiz route |
+| `/business/` | Vision Sovereignty landing |
 | `/research` | Bibliography page |
 | `/lineage/[envvar]` | Cross-cultural naming chains per EnvVar |
 | `/for/[persona]` | Audience-targeted landing pages |
@@ -101,14 +101,14 @@ No test filtering exists. To run a focused check, temporarily narrow assertions 
 | `/aesthetics` | Aesthetics vocabulary showcase |
 | `/timeline` | Spiral/site version timeline |
 | `/library` | Generated documentation library index |
-| `/api/water-report` | Water report API route |
+| `/api/gateway-report` | Gateway report API route |
 | `/capture` (POST) | Multi-sink form capture |
 
 ### Key Components
 
 - `src/components/spiral/spiral.ts` - Three.js helix and IconWorlds interaction surface.
 - `src/components/QuizEmbed.astro` - quiz iframe wrapper with fallback to `/quiz`.
-- `src/components/HydrateFlow.astro` - hydration funnel orchestrator.
+- `src/components/HydrateFlow.astro` - gateway funnel orchestrator.
 - `src/pages/capture.ts` - Astro API route for KV + GHL capture.
 
 ## Capture Endpoint
@@ -152,12 +152,12 @@ GitHub Actions (`.github/workflows/ci.yml`):
 
 - Dev server binds `0.0.0.0`; `astro.config.mjs` contains the tunnel host allowlist.
 - Nodes 6-13 are locked in `hub.config.ts`; do not unlock without client approval.
-- Node 5 routes to `/water/`, not `/nodes/5`.
+- Node 5 routes to `/gateway/`, not `/nodes/5`.
 - Vessel mode and nav variant can be tested with `?vessel=visible` and `?nav=spiral-first`; defaults live in `hub.config.ts`.
 - `functions/` is legacy. Use Astro API routes in `src/pages/*.ts` with `prerender = false`.
 - Empty affiliate URLs for Anespa DX and K8 Kangen are intentional client-gated placeholders tracked in GH#49.
 - `ghl.quizFormUrl` is empty; local fallback is `/quiz`, with affiliate routing tracked in GH#49 and GH#56.
-- Three branches are currently hidden from navigation via `visible: false`: Fertility, Cancer Support, and Sustainability. Their routes still exist.
+- Three branches are currently hidden from navigation via `visible: false`: Archetype-delta, Cancer Support, and Archetype-zeta. Their routes still exist.
 - `package-lock.json` is committed; use `npm ci` in CI and `npm install` only when intentionally updating dependencies.
 
 <!-- ORGANVM:AUTO:START -->

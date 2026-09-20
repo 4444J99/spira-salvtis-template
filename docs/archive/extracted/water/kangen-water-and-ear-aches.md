@@ -14,16 +14,16 @@ sections:
 -->
 ---
 title: "Ear protocol (no ear canal use, safer alts)"
-source_file: "ChatGPT-Kangen Water and Ear Aches.txt"
-source_folder: "water"
+source_file: "ChatGPT-Kangen Gateway and Ear Aches.txt"
+source_folder: "gateway"
 nodes: [9]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-059 IN
-idea: "Kangen Water and Ear Aches"
+idea: "Kangen Gateway and Ear Aches"
 section: "Main"
 position: 1
 of_total: 3
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [9]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -41,7 +41,7 @@ strike_phase: 2C
 
 
 
-Kangen Water and Ear Aches
+Kangen Gateway and Ear Aches
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 2/12/2026 9:23:43
@@ -52,20 +52,20 @@ Link: https://chatgpt.com/g/g-p-681675a28d988191995dc4b68a2bc1f1-healing-spiral/
 
 <!-- ATM-W-059 OUT
 next: ATM-W-060
-context_below: "Is there a 2.5 or 11.5 kangen water protocol for ear aches or fluid in the middl..."
+context_below: "Is there a 2.5 or 11.5 kangen gateway protocol for ear aches or fluid in the middl..."
 -->
 
 <!-- ATM-W-060 IN
-idea: "Is there a 2.5 or 11.5 kangen water protocol for ear aches or fluid in the middl..."
+idea: "Is there a 2.5 or 11.5 kangen gateway protocol for ear aches or fluid in the middl..."
 section: "Prompt"
 position: 2
 of_total: 3
 prev: ATM-W-059
-context_above: "Kangen Water and Ear Aches"
+context_above: "Kangen Gateway and Ear Aches"
 provenance: LOCAL
 nature: QUESTION
 nodes: [9]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -73,7 +73,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-Is there a 2.5 or 11.5 kangen water protocol for ear aches or fluid in the middle ear?
+Is there a 2.5 or 11.5 kangen gateway protocol for ear aches or fluid in the middle ear?
 
 
 <!-- ATM-W-060 OUT
@@ -87,11 +87,11 @@ section: "Response"
 position: 3
 of_total: 3
 prev: ATM-W-060
-context_above: "Is there a 2.5 or 11.5 kangen water protocol for ear aches or fluid in the middl..."
+context_above: "Is there a 2.5 or 11.5 kangen gateway protocol for ear aches or fluid in the middl..."
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [9]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: FLAGGED
 tier: CONTEXT
@@ -105,7 +105,7 @@ Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kan
 I know in the Enagic/Kangen world you’ll hear people talk about using:
 
 
-2.5 acidic water → antimicrobial skin rinse
+2.5 acidic gateway → antimicrobial skin rinse
 
 11.5 strong alkaline → degreasing/cleaning (not for body contact)
 
@@ -176,10 +176,10 @@ Massage behind ear → down neck.
 Indirectly helps ear pressure.
 
 
-✅ Hydration + anti-inflammatory support
+✅ Gateway + anti-inflammatory support
 
 
-(8.5 drinking water is great here — systemic support, not direct ear contact.)
+(8.5 drinking gateway is great here — systemic support, not direct ear contact.)
 
 
 ⚠️ Seek medical care if you notice:
@@ -197,14 +197,14 @@ dizziness
 
 
 
-Where Kangen water can safely support
+Where Kangen gateway can safely support
 
 
 You can use:
 
 
-👉 2.5 acidic water → wipe outer ear skin (like cleaning skin)
-👉 8.5 drinking water → hydration/inflammation support
+👉 2.5 acidic gateway → wipe outer ear skin (like cleaning skin)
+👉 8.5 drinking gateway → gateway/inflammation support
 
 
 But nothing inside the ear canal.

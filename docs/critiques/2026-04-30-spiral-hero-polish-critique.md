@@ -21,7 +21,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
 |---|---|---|
 | Primary CTA below the fold of the hero | 🟡 Moderate | Consider an in-canvas hint ("click a node, or take the quiz →") or a sticky semi-transparent CTA on the spiral itself. The spiral *is* clickable but invisible affordance = lost interactions. |
 | 3D nodes have no keyboard activation | 🔴 Critical | `spiral.ts:2355` wires pointer events only. Tab through 13 nodes (in DOM order, per phase) is absent. Add a hidden focusable list inside `#spiral-container` that mirrors the SpiralFallback list, or move SpiralFallback into a visually-hidden but tab-reachable layer when 3D loads. |
-| `aria-label` says "Water" is a phase | 🟡 Moderate | `SpiralIsland.astro:19` lists "Elevate, Align, Unlock, and Water". Water is a *node domain*, not a phase. Drop "and Water" to match the actual `Phase` type (`'ELEVATE' \| 'ALIGN' \| 'UNLOCK'`) declared in `hub.config.ts:22`. Otherwise screen readers learn the wrong taxonomy. |
+| `aria-label` says "Gateway" is a phase | 🟡 Moderate | `SpiralIsland.astro:19` lists "Elevate, Align, Unlock, and Gateway". Gateway is a *node domain*, not a phase. Drop "and Gateway" to match the actual `Phase` type (`'ELEVATE' \| 'ALIGN' \| 'UNLOCK'`) declared in `hub.config.ts:22`. Otherwise screen readers learn the wrong taxonomy. |
 | Two "Take the Quiz" CTAs route to `/quiz`, with shifting label | 🟢 Minor | First says "Take the Quiz", final says "Start the spiral" — same destination, different metaphor. Either align the copy or differentiate ("Take the Quiz" / "Skip to Node 1"). |
 | `prefers-reduced-motion` only dampens animation, doesn't kill bloom pulse | 🟢 Minor | `spiral.ts:2362` sets `motionScale = 0.05` and disables `autoRotate`, but `UnrealBloomPass` still renders (subtle pulse from particle system damping). For photosensitive users, consider also lowering bloom strength when reduced-motion is set. |
 | Fallback hidden on JS load, no recovery if Three.js init partially fails | 🟢 Minor | `SpiralIsland.astro:69` hides `#spiral-fallback` on dynamic-import resolve, BEFORE `initSpiral` runs. If `initSpiral` throws after the import resolves, user sees an empty hero. Move the `style.display = 'none'` line into the line after `initSpiral(...)` returns successfully, and wrap that in a try/catch that re-shows the fallback. |
@@ -32,7 +32,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
 
 - **What draws the eye first** [needs visual verification]: most likely the 3D spiral canvas — it's `calc(100vh-240px)` tall, animated, with bloom + warm chakra orbs against ocean-900. The h1 above (`text-shadow: 0 0 60px rgba(17,154,158,0.15)`) is gentle and serif-light; the canvas wins on motion alone. *This is correct* for a brand introduction page.
 - **Reading flow**: cleanly top-down, single column. No competing rails. Good.
-- **Emphasis correctness**: the 4-pillar grid (line 87-91) gives Physical, Inner, Identity, Financial **equal weight** in a 2×2. But Physical Sovereignty is admin's commercial entry (water funnel ships first, branches are stocked, GHL hooks live), while Inner / Identity / Financial are status `'live'` but light on conversion infrastructure. Equal weight is editorial honesty; if conversion matters more, lean Physical (subtle: order it first — already true; less subtle: spotlight card). *Decision is yours, not the layout's.*
+- **Emphasis correctness**: the 4-pillar grid (line 87-91) gives Foundation, System, Structure, Vision **equal weight** in a 2×2. But Foundation Sovereignty is admin's commercial entry (gateway funnel ships first, branches are stocked, GHL hooks live), while System / Structure / Vision are status `'live'` but light on conversion infrastructure. Equal weight is editorial honesty; if conversion matters more, lean Foundation (subtle: order it first — already true; less subtle: spotlight card). *Decision is yours, not the layout's.*
 - **Three color systems running in parallel** — this is the headline issue:
   1. **Brand teal palette** (`global.css:5-10`) — used for CTAs, eyebrows, dividers, and the "Elevate / Align / Unlock" framework words at `index.astro:98,102,106` (hardcoded `#119a9e`, `#8cc5d3`, `#3dbfc4`).
   2. **Chakra spectrum** (`spiral.ts:147-156`) — 8 interpolated stops, red→orange→yellow→green→blue→indigo→violet — drives the orb colors.
@@ -42,7 +42,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
   
   **Recommendation**: pick one canonical phase color contract.
   - **Option A (chakra wins)** — kill the teal phase tags in `SpiralFallback.astro` and the framework words, use chakra anchors instead (Elevate = warm-orange anchor, Align = green anchor, Unlock = violet anchor). Most aligned with what the hero now shows.
-  - **Option B (teal wins)** — keep brand teal as the phase label color, treat chakra as a *node-level* identity only. Reduce orb saturation in the 3D scene so nodes read as "members of teal phase X" rather than independent rainbow points.
+  - **Option B (teal wins)** — keep brand teal as the phase label color, treat chakra as a *node-level* structure only. Reduce orb saturation in the 3D scene so nodes read as "members of teal phase X" rather than independent rainbow points.
   - **Option C (explicit dual contract)** — document that phase-words are brand, node-orbs are chakra, and visually unify by making the eyebrow-cap eyebrow in `index.astro:43,69,83,95` use a tiny color-dot from the relevant chakra family, signaling "this section maps to that band of the spectrum." Lowest churn.
 
 ---
@@ -51,7 +51,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
 
 | Element | Issue | Recommendation |
 |---|---|---|
-| Pillar 3 (Identity, `#6c4cd6` indigo) and Pillar 4 (Financial, `#c97ce8` lightened violet) | 🟡 Adjacent in hue, low separation [needs visual verification] | Either widen the gap (Financial → magenta `#d44ec8`-ish) or use *value* (Financial lighter, Identity darker) to keep them distinct in PillarCard hover-states and footer. |
+| Pillar 3 (Structure, `#6c4cd6` indigo) and Pillar 4 (Vision, `#c97ce8` lightened violet) | 🟡 Adjacent in hue, low separation [needs visual verification] | Either widen the gap (Vision → magenta `#d44ec8`-ish) or use *value* (Vision lighter, Structure darker) to keep them distinct in PillarCard hover-states and footer. |
 | `PHASE_HEX` in `spiral.ts:136-140` and `phaseConfig` in `SpiralFallback.astro:10-14` and the hardcoded framework words in `index.astro:98,102,106` | 🟡 Three files holding the same teal trio | DRY: lift phase-color into `hub.config.ts` (e.g. `phaseColors: Record<Phase, string>`) and import everywhere. The framework words at `index.astro:98,102,106` should *not* be inline `style="color:..."`. |
 | Eyebrow caps | 🟢 Consistent and clean | All four eyebrow labels use `text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500` — good system. Keep. |
 | Two fonts only — Cormorant Garamond + Inter | 🟢 Clean | Good. The italic Cormorant pull-quote is the strongest typography moment on the page. |
@@ -82,7 +82,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
   - One `<h1>`, then `<h2>` per section. ✅
   - But the h2s have no `id` attributes, so deep-linking and table-of-contents are impossible. Low priority for a one-page hub but worth setting on the four section anchors (`#quiz-cta`, `#story`, `#architecture`, `#start`).
 - **Image semantics**:
-  - `#spiral-container` declares `role="img"` with a descriptive aria-label. ✅ (with the "Water phase" copy fix above).
+  - `#spiral-container` declares `role="img"` with a descriptive aria-label. ✅ (with the "Gateway phase" copy fix above).
 
 ---
 
@@ -106,7 +106,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
 
 3. **Wire keyboard nav into the 3D spiral.** Add a visually-hidden but focusable list of 13 anchor links inside `#spiral-container` (or convert SpiralFallback into a `sr-only`-but-keyboard-reachable mirror layer when 3D loads). This unblocks the screen-reader and keyboard-only path that the rest of the page already supports cleanly.
 
-4. **Fix the aria-label "Water phase" wording** at `SpiralIsland.astro:19`. Five-character change, prevents propagating a wrong taxonomy to assistive tech.
+4. **Fix the aria-label "Gateway phase" wording** at `SpiralIsland.astro:19`. Five-character change, prevents propagating a wrong taxonomy to assistive tech.
 
 5. **Telegraph the click-on-node affordance** with a small caption below the spiral ("Click a node to explore — or take the quiz") OR a once-on-load tooltip ("← drag to rotate") that fades. Otherwise the click handler is invisible and the canvas reads as a passive animation.
 
@@ -116,7 +116,7 @@ The single biggest *conversion* concern is that the hero h1 sits **above** the c
 
 This critique was produced from code reading without rendering the page. Confirm the following with a live visual pass:
 - Whether the chakra reds (`#ff3b3b`) read as "fire / root chakra" or "alarm / danger" against `ocean-900` background.
-- Whether Identity (`#6c4cd6`) and Financial (`#c97ce8`) pillar cards read as distinct or interchangeable.
+- Whether Identity (`#6c4cd6`) and Vision (`#c97ce8`) pillar cards read as distinct or interchangeable.
 - Whether the warm-side compression in `CHAKRA_HEX` (per the inline comment at `spiral.ts:142-146`) reads as "bottom-heavy fire" or "balanced spectrum" in the actual helix.
 - Bloom intensity under `prefers-reduced-motion` — is it still pulsing visibly?
 

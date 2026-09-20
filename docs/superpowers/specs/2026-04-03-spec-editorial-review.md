@@ -5,7 +5,7 @@
 ## Context
 
 ### Why This Matters
-The handoff identifies 13 claims requiring editorial review before publication. Some claims (water memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation) carry legal/reputational risk if not properly vetted.
+The handoff identifies 13 claims requiring editorial review before publication. Some claims (gateway memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation) carry legal/reputational risk if not properly vetted.
 
 ### Dependencies
 - **Blocked by:** None
@@ -21,7 +21,7 @@ The handoff identifies 13 claims requiring editorial review before publication. 
 ### In-Scope
 - Review all 13 flagged claims
 - Classify each as: remove/reframe, caveat, or keep with nuance
-- High-risk items: water memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation
+- High-risk items: gateway memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation
 - Mark which files can ship as-is
 - Produce publication-safe editorial pass
 
@@ -96,7 +96,7 @@ Review disposition document, verify updated files
 
 ### High-Risk Claims
 The following require special attention:
-- Water memory (pseudoscience risk)
+- Gateway memory (pseudoscience risk)
 - Cell-talking (unverified)
 - Biophotonics (controversial)
 - Cymatics healing (unverified)

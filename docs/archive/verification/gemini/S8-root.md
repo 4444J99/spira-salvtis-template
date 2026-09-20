@@ -1,12 +1,12 @@
 ATOM S8-R-001
 Section: Top Summary
-Idea: Interactive spiral-based ecosystem guiding users through Physical, Inner, Identity, and Financial sovereignty.
+Idea: Interactive spiral-based ecosystem guiding users through Foundation, System, Structure, and Vision sovereignty.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Physical, Inner, Identity, Financial).
+This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Foundation, System, Structure, Vision).
 ===
 
 ATOM S8-R-002
@@ -30,7 +30,7 @@ Editorial: CLEAN
 Content:
 Core framework: Elevate • Align • Unlock (EAU)
 Mission / Vibe:
-- Guide people to sovereignty in mind, body, identity, and finance
+- Guide people to sovereignty in mind, body, structure, and finance
 - "Feel Good First" philosophy
 - Archetypal journey / 60 Days of Grace / root healing
 - Balances yin/yang, subconscious reprogramming, embodiment
@@ -47,16 +47,16 @@ Editorial: CLEAN
 Content:
 Foundational Theories & Assessments:
 Burnt Toast Theory (awareness / start here / right on time): Boundaries / self-worth / resetting expectations
-Pancake Theory (Inner / Identity): Layering responsibilities / prioritization / mindset
-Lantern Theory (Inner / identity): Guidance / illumination / intuition
-Maslow's Hierarchy of Needs (physical, Inner / Identity): Human motivation framework
-The Compound Effect (Financial / Personal): Small consistent actions compound over time
-Radical Forgiveness (Inner / Identity): Reframing limiting beliefs / emotional freedom
-40/70 Rule (Identity / Decision-making): Taking action with 40% clarity instead of waiting for perfection
-Chicken / Robot Consciousness (Inner / Identity): Awareness experiment: observing unconscious vs conscious thought patterns
-Light & Fruit Test (Physical / Inner): Self-assessment of nutrition, energy alignment, lifestyle habits
+Pancake Theory (System / Structure): Layering responsibilities / prioritization / mindset
+Lantern Theory (System / structure): Guidance / illumination / intuition
+Maslow's Hierarchy of Needs (foundation, System / Structure): Human motivation framework
+The Compound Effect (Vision / Personal): Small consistent actions compound over time
+Radical Forgiveness (System / Structure): Reframing limiting beliefs / emotional freedom
+40/70 Rule (Structure / Decision-making): Taking action with 40% clarity instead of waiting for perfection
+Chicken / Robot Consciousness (System / Structure): Awareness experiment: observing unconscious vs conscious thought patterns
+Light & Fruit Test (Foundation / System): Self-assessment of nutrition, energy alignment, lifestyle habits
 Feel Good First (All): Core mindset framework for all decisions and habits
-Archetypal Journey / 60 Days of Grace (Inner / Identity): Transformational program structure for self-sovereignty
+Archetypal Journey / 60 Days of Grace (System / Structure): Transformational program structure for self-sovereignty
 ===
 
 ATOM S8-R-005
@@ -82,36 +82,36 @@ Editorial: CLEAN
 ---
 Content:
 Pillar Routing:
-Physical: Site page with info overview, talk about water to -> GHL water funnel
-Inner: Site page with info -> Subscription content
-Identity: Site page with info -> Courses / personal growth
-Financial: Site page with info -> GHL business funnel
+Foundation: Site page with info overview, talk about gateway to -> GHL gateway funnel
+System: Site page with info -> Subscription content
+Structure: Site page with info -> Courses / personal growth
+Vision: Site page with info -> GHL business funnel
 ===
 
 ATOM S8-R-007
-Section: Physical Sovereignty
-Idea: Core topics for Physical Sovereignty including water, blood sugar, hormones, and root healing.
+Section: Foundation Sovereignty
+Idea: Core topics for Foundation Sovereignty including gateway, blood sugar, hormones, and root healing.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-- Water (structured, hydrogen, filtration)
+- Gateway (structured, hydrogen, filtration)
 - Blood sugar regulation
 - Mineral balance
 - Lymphatic system
 - Gut health
 - Nervous system regulation
 - Sleep optimization
-- Hormones & fertility
-- Autoimmune root healing
+- Hormones & archetype-delta
+- Archetype-beta root healing
 - Tongue diagnostics (Chinese medicine)
 - Self-assessment tools (Light & Fruit Test, 3-day reset plan, Seasonal plant & ritual calendar, Mood/substance choice maps)
 ===
 
 ATOM S8-R-008
-Section: Inner Sovereignty
-Idea: Core topics for Inner Sovereignty including nervous system, emotional processing, and subconscious reprogramming.
+Section: System Sovereignty
+Idea: Core topics for System Sovereignty including nervous system, emotional processing, and subconscious reprogramming.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -127,8 +127,8 @@ Content:
 ===
 
 ATOM S8-R-009
-Section: Identity Sovereignty
-Idea: Core topics for Identity Sovereignty including self-worth, limiting beliefs, and ego awakening.
+Section: Structure Sovereignty
+Idea: Core topics for Structure Sovereignty including self-worth, limiting beliefs, and ego awakening.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -143,8 +143,8 @@ Content:
 ===
 
 ATOM S8-R-010
-Section: Financial Sovereignty
-Idea: Core topics for Financial Sovereignty including sales, content creation, wealth energetics, and funnels.
+Section: Vision Sovereignty
+Idea: Core topics for Vision Sovereignty including sales, content creation, wealth energetics, and funnels.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -161,15 +161,15 @@ Content:
 
 ATOM S8-R-011
 Section: Funnels & Lead Flows
-Idea: Lead flow structure for water, business, and subscription funnels.
+Idea: Lead flow structure for gateway, business, and subscription funnels.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Water Funnel: CTA from Physical pillar -> GHL funnel -> lead capture -> email sequence -> purchase
-Business Funnel: CTA from Financial pillar -> GHL funnel -> lead capture -> guidance / education
-Subscription Flow: CTA from Inner pillar -> subscription hub -> exclusive videos / calls / product perks
+Gateway Funnel: CTA from Foundation pillar -> GHL funnel -> lead capture -> email sequence -> purchase
+Business Funnel: CTA from Vision pillar -> GHL funnel -> lead capture -> guidance / education
+Subscription Flow: CTA from System pillar -> subscription hub -> exclusive videos / calls / product perks
 ===
 
 ATOM S8-R-012
@@ -195,7 +195,7 @@ Editorial: CLEAN
 ---
 Content:
 1. Spiral hub live & polished
-2. Water funnel connected
+2. Gateway funnel connected
 3. Business funnel connected
 4. Subscription model active
 5. Store built
@@ -211,7 +211,7 @@ Editorial: CLEAN
 Content:
 The hub site (hub-example.com) is the home base --- educational, experiential, and exploratory. Aligned with Spiral Template unlock (EAU) & feel good first branding.
 GHL (Go High Level) is used for:
-- Funnels (water, business, etc.)
+- Funnels (gateway, business, etc.)
 - Lead capture + email sequences
 - Checkout + conversions
 ===
@@ -226,10 +226,10 @@ Editorial: CLEAN
 Content:
 Pages that should exist:
 - Home (Spiral Hub)
-- Physical Sovereignty
-- Inner Sovereignty
-- Identity Sovereignty
-- Financial Sovereignty
+- Foundation Sovereignty
+- System Sovereignty
+- Structure Sovereignty
+- Vision Sovereignty
 - Start Here (guided entry point)
 - About / Philosophy
 - Free Tools / Self-Assessments
@@ -238,18 +238,18 @@ Pages that should exist:
 ===
 
 ATOM S8-R-016
-Section: Physical Sovereignty Topics
-Idea: Foundational health principles: talking to cells and the role of water as an energy carrier.
+Section: Foundation Sovereignty Topics
+Idea: Foundational health principles: talking to cells and the role of gateway as an energy carrier.
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Breath, coming home - cells all rooting for you to be alive - talk to cells (3rd person or you are affirmations are most successful) and WATER! It carries energy and it's all connected
+Breath, coming home - cells all rooting for you to be alive - talk to cells (3rd person or you are affirmations are most successful) and GATEWAY! It carries energy and it's all connected
 ===
 
 ATOM S8-R-017
-Section: Financial Sovereignty
+Section: Vision Sovereignty
 Idea: Philosophy of money as a tool for freedom and self-expression, and the world's need for 'good people to make money'.
 Provenance: LOCAL
 Nature: CLAIM
@@ -264,7 +264,7 @@ Content:
 
 ATOM S8-R-018
 Section: Subscription
-Idea: Subscription model features including video library, monthly calls, and physical mail perks.
+Idea: Subscription model features including video library, monthly calls, and foundation mail perks.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -364,7 +364,7 @@ Prerequisite: Check Blood Sugar Stability.
 
 ATOM S8-R-025
 Section: Refined Flow
-Idea: Phase 1: Elevate - Focusing on Physical Sovereignty and creature needs as the foundation.
+Idea: Phase 1: Elevate - Focusing on Foundation Sovereignty and creature needs as the foundation.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -389,7 +389,7 @@ Editorial: CLEAN
 Content:
 🧠 PHASE 2 & 3 — ALIGN (Awareness / Accountability)
 Awareness Creates Choice (small wins + compound effect)
-Inner Observation / Not Your Thoughts (observer of self)
+System Observation / Not Your Thoughts (observer of self)
 Patterns Run Until Seen (unconscious cycles)
 Your Reality Is Interpreted (reaction -> meaning)
 6. Radical Responsibility (with Love)
@@ -408,7 +408,7 @@ Editorial: CLEAN
 Content:
 🔓 PHASE 4 — UNLOCK (Expansion / Integration)
 9. Systems Create Freedom (structure enables freedom, wealth tie-in)
-10. Identity & Authentic Expression (bridge stability to authentic business/money)
+10. Structure & Authentic Expression (bridge stability to authentic business/money)
 11. Full Integration / Expansion (authentic self expressed across life / work / spirit)
 ===
 

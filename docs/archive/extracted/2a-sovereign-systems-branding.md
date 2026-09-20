@@ -123,7 +123,7 @@ In fact… for you specifically… I would not rush to make it the legal entity.
 
 
 
-2️⃣ For YOU (multi-platform, Spiral, Water, Nonprofit, etc.)
+2️⃣ For YOU (multi-platform, Spiral, Gateway, Nonprofit, etc.)
 
 
 You already have:
@@ -131,7 +131,7 @@ You already have:
 
 EAU Co
 
-Water Hub
+Gateway Hub
 
 Elevate • Align • Unlock
 
@@ -171,7 +171,7 @@ Here's what I see:
 Frontend (public-facing brands):
 
 
-EAU Co (water)
+EAU Co (gateway)
 
 Spiral Blueprint (healing)
 
@@ -309,7 +309,7 @@ The container for the structure you build.
 
 
 Not your soul brand.
-Not your identity.
+Not your structure.
 Not your main public-facing name.
 
 
@@ -367,7 +367,7 @@ That's the smartest move.
 If you want, I can next:
 
 
-Map how Sovereign Systems ties into your Spiral + Water funnel cleanly
+Map how Sovereign Systems ties into your Spiral + Gateway funnel cleanly
 
 Or check if the domain is clean/strategically usable
 
@@ -411,7 +411,7 @@ context_below: "Strategic guidance on internal vs public usage of the name"
 
 ## Response:
 <!-- ATM-R-056 IN
-idea: "Internal vs public strategy: use internally immediately, soft-launch as philosophy, don't build website yet — brand hierarchy must stay clean (EAU/Water/Personal = front, Sovereign Systems = back)"
+idea: "Internal vs public strategy: use internally immediately, soft-launch as philosophy, don't build website yet — brand hierarchy must stay clean (EAU/Gateway/Personal = front, Sovereign Systems = back)"
 section: "Internal vs Public Strategy"
 position: 6
 of_total: 40
@@ -538,7 +538,7 @@ Front-facing:
 
 EAU Co (income)
 
-Water Funnel
+Gateway Funnel
 
 Personal brand
 
@@ -861,7 +861,7 @@ You're building coherence right now — not complexity.
 If you want, next we can:
 • Place this into your IG bio cleanly
 • Craft a pinned post introducing it
-• Or map how Sovereign Systems sits above Spiral + Water visually
+• Or map how Sovereign Systems sits above Spiral + Gateway visually
 
 
 What feels aligned?
@@ -1022,7 +1022,7 @@ editorial: CLEAN
 tier: CONTEXT
 strike_phase: 1C
 -->
-This is what it looks like originally, and I absolutely love it! (Is movable & the stars match the chakra colors and then can hover to head & clic into. can you give me a few extra ideas for what the landing page would look like tying in the sovereign systems & pillars. Like maybe one pillar in quarters with the four stacked on top of each other & then the spiral wraps around and kinda goes with the order? (Not my favorite? Or else we can do four separate rods or buttons that after you select it switches over the whole spiral to financial sovereignty and then you can follow the steps ? ( also don't love this I do like it better but because then I feel I lose some of the interconnectedness if it seems like they're all separate - or do I just keep it how it is and have them be broader themes/overviews for each (cause some of my theories and stuff from before is hard to fit into one of the four and this way with all the stars/buttons we can expand it out a little and some can go together like we talked about before for the spiral!?
+This is what it looks like originally, and I absolutely love it! (Is movable & the stars match the chakra colors and then can hover to head & clic into. can you give me a few extra ideas for what the landing page would look like tying in the sovereign systems & pillars. Like maybe one pillar in quarters with the four stacked on top of each other & then the spiral wraps around and kinda goes with the order? (Not my favorite? Or else we can do four separate rods or buttons that after you select it switches over the whole spiral to vision sovereignty and then you can follow the steps ? ( also don't love this I do like it better but because then I feel I lose some of the interconnectedness if it seems like they're all separate - or do I just keep it how it is and have them be broader themes/overviews for each (cause some of my theories and stuff from before is hard to fit into one of the four and this way with all the stars/buttons we can expand it out a little and some can go together like we talked about before for the spiral!?
 <!-- ATM-R-063 OUT
 next: ATM-R-064
 context_below: "Analysis: don't split spiral into categories, keep it as signature experience"
@@ -1616,11 +1616,11 @@ Nervous system, health, safety, somatics
 
 🔵 Mind — Awareness
 
-Thoughts, beliefs, perception, identity
+Thoughts, beliefs, perception, structure
 
 🟣 Spirit — Connection
 
-Meaning, intuition, purpose, inner knowing
+Meaning, intuition, purpose, system knowing
 
 🟡 Wealth — Systems
 
@@ -1738,7 +1738,7 @@ Your thoughts and beliefs shape how you interpret reality.
 
 🟣 Spirit — Connection
 
-Your sense of meaning, intuition, and inner truth.
+Your sense of meaning, intuition, and system truth.
 
 🟡 Wealth — Systems
 
@@ -1894,7 +1894,7 @@ context_above: "Big picture vision locked"
 provenance: LOCAL
 nature: INSTRUCTION
 nodes: [3, 4]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1920,7 +1920,7 @@ context_above: "admin wants multi-perspective content and prerequisite logic"
 provenance: HYBRID
 nature: MODEL
 nodes: [3, 4]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2069,7 +2069,7 @@ context_above: "Nervous system node with blood sugar prerequisite"
 provenance: HYBRID
 nature: MODEL
 nodes: [3]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2325,7 +2325,7 @@ context_below: "admin outlines her desired node order and site structure approac
 
 ## Prompt:
 <!-- ATM-R-076 IN
-idea: "admin outlines desired structure: Feel Good First entry, awareness & accountability, physical sovereignty nodes, EAU framework with Maslow in background, Untethered Soul + Radical Forgiveness references, book-inspired node pages, 13 nodes max, quiz for gentle guidance"
+idea: "admin outlines desired structure: Feel Good First entry, awareness & accountability, foundation sovereignty nodes, EAU framework with Maslow in background, Untethered Soul + Radical Forgiveness references, book-inspired node pages, 13 nodes max, quiz for gentle guidance"
 section: "Designer-Ready Site Structure"
 position: 26
 of_total: 40
@@ -2345,8 +2345,8 @@ Feel good first
 Awareness & accountability
 
 
-Few about physical sovereignty section / overviews here -
-Blends / ties into the inner sovereignty stuff but overviewed and then all the way up continuing up!! I want it to have the Spiral Template unlock framework we talked about before with meislows hierarchy of needs because you can't awaken if you don't have the rest in check (background/overview wise we only need to put the hierarchy/triangle probably in the awareness/full accountability- also want to drop in the untethered soul & radical forgiveness for them too - release, love yourself first vibes!
+Few about foundation sovereignty section / overviews here -
+Blends / ties into the system sovereignty stuff but overviewed and then all the way up continuing up!! I want it to have the Spiral Template unlock framework we talked about before with meislows hierarchy of needs because you can't awaken if you don't have the rest in check (background/overview wise we only need to put the hierarchy/triangle probably in the awareness/full accountability- also want to drop in the untethered soul & radical forgiveness for them too - release, love yourself first vibes!
 
 
 Does that kind of make sense or can you help ask me questions and break it down so my website designer can follow for at least the bones/structure of it !?!?
@@ -2641,13 +2641,13 @@ Inside:
 🧠 Truth: You stop blaming → you regain power
 <!-- ATM-R-078 OUT
 next: ATM-R-079
-context_below: "Maslow placement, Physical Sovereignty fit, and big picture connection logic"
+context_below: "Maslow placement, Foundation Sovereignty fit, and big picture connection logic"
 -->
 
 
 
 <!-- ATM-R-079 IN
-idea: "Maslow placement: below-spiral 'Foundation of the Spiral' section with simplified triangle in admin's words; Physical Sovereignty in Phase 1 but connecting upward; big picture: spiral with gravity not linear categories; 5 diagnostic questions for refinement"
+idea: "Maslow placement: below-spiral 'Foundation of the Spiral' section with simplified triangle in admin's words; Foundation Sovereignty in Phase 1 but connecting upward; big picture: spiral with gravity not linear categories; 5 diagnostic questions for refinement"
 section: "Designer-Ready Site Structure"
 position: 29
 of_total: 40
@@ -2705,7 +2705,7 @@ That's it. Clean. Powerful. Not overwhelming.
 
 
 
-🧬 5. HOW "PHYSICAL SOVEREIGNTY" FITS
+🧬 5. HOW "FOUNDATION SOVEREIGNTY" FITS
 
 
 You were unsure where this goes — here's the answer:
@@ -2716,12 +2716,12 @@ BUT influences everything.
 
 
 
-Nodes under Physical Sovereignty:
+Nodes under Foundation Sovereignty:
 
 
 Stabilize Your Blood Sugar
 
-Hydration & Minerals
+Gateway & Minerals
 
 Sleep Is Non-Negotiable
 
@@ -2850,7 +2850,7 @@ context_below: "admin's comprehensive answers: EAU embedded, hover titles, book-
 
 ## Prompt:
 <!-- ATM-R-080 IN
-idea: "admin's comprehensive decision answers: EAU embedded not front-center, hover titles on stars, book-inspired node pages (truth/science/spiritual/story), limit to ~13 nodes, shorter landing pages, subtle wealth first (money mindset + alignment), quiz for gentle guidance then explore, stronger authoritative tone, start with Feel Good First → awareness → accountability with love → physical nodes → 13 total"
+idea: "admin's comprehensive decision answers: EAU embedded not front-center, hover titles on stars, book-inspired node pages (truth/science/spiritual/story), limit to ~13 nodes, shorter landing pages, subtle wealth first (money mindset + alignment), quiz for gentle guidance then explore, stronger authoritative tone, start with Feel Good First → awareness → accountability with love → foundation nodes → 13 total"
 section: "admin's Decisions — EAU Embedded, Nodes Limited, Book-Inspired Pages"
 position: 30
 of_total: 40
@@ -2902,7 +2902,7 @@ More subtle at first - want to focus on money mindset & the alignment / elevate 
 Can we lock in the nodes first & then do a full spiral flow after!?
 
 
-I want the first one to be feel good first - maybe maslows should go here actually. Then can do full awareness and then responsibility with love (better working but quote can be can't get where you're going if you don't know where you are - kealas test) plug in a physical one or two. We have 13 in total so can you plug these in and then we can get the rest squared away!?
+I want the first one to be feel good first - maybe maslows should go here actually. Then can do full awareness and then responsibility with love (better working but quote can be can't get where you're going if you don't know where you are - kealas test) plug in a foundation one or two. We have 13 in total so can you plug these in and then we can get the rest squared away!?
 <!-- ATM-R-080 OUT
 next: ATM-R-081
 context_below: "AI confirms 3 high-level decisions and begins the 13-node lock-in"
@@ -3064,7 +3064,7 @@ context_below: "The first 13 nodes locked structure — Phase 1 ELEVATE"
 
 
 <!-- ATM-R-083 IN
-idea: "Phase 1 ELEVATE nodes 1-5: Feel Good First, Body Is Starting Point, Blood Sugar, Nervous System, Sleep = Physical Sovereignty cluster"
+idea: "Phase 1 ELEVATE nodes 1-5: Feel Good First, Body Is Starting Point, Blood Sugar, Nervous System, Sleep = Foundation Sovereignty cluster"
 section: "13-Node Lock-In (Duplicate from 2b origin)"
 position: 33
 of_total: 40
@@ -3073,7 +3073,7 @@ context_above: "Node pages inspired by Shinn trilogy"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 3, 4, 5]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -3115,7 +3115,7 @@ Everything you experience is processed through your state.
 Exhaustion distorts reality.
 
 
-👉 This cluster = Physical Sovereignty
+👉 This cluster = Foundation Sovereignty
 <!-- ATM-R-083 OUT
 next: ATM-R-084
 context_below: "Phase 2 ALIGN awareness nodes 6-9"
@@ -3129,11 +3129,11 @@ section: "13-Node Lock-In (Duplicate from 2b origin)"
 position: 34
 of_total: 40
 prev: ATM-R-083
-context_above: "Phase 1 ELEVATE Physical Sovereignty"
+context_above: "Phase 1 ELEVATE Foundation Sovereignty"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [6, 7, 8, 9]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -3178,7 +3178,7 @@ context_above: "Phase 2 ALIGN awareness nodes"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [10, 11, 12]
-pillar: Identity
+pillar: Structure
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -3224,7 +3224,7 @@ context_above: "Phase 3 ALIGN accountability nodes"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

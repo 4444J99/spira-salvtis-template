@@ -43,7 +43,7 @@ Every brand-color literal in declarative CSS (`<style>` blocks and inline `style
 - bare `color: #c9a96e` → `color: var(--color-gold)` (`decisions.astro`, `aesthetics.astro`)
 - bare `background: #e0c992` → `var(--color-gold-light)` (`aesthetics.astro`)
 
-Files touched: `index`, `store`, `water/[slug]`, `business/dp`, `pillars/[slug]`, `nodes/[id]`, `lineage/[envvar]`, `timeline`, `library`, `decisions`, `aesthetics`, `admin/node-picker`; components `Hero`, `HydrationNode`, `CycleAwareness`, `QuizEmbed`, `EmailGate`, `landing/HeroSection`, `spiral/SpiralIsland`; plus `styles/global.css`.
+Files touched: `index`, `store`, `gateway/[slug]`, `business/dp`, `pillars/[slug]`, `nodes/[id]`, `lineage/[envvar]`, `timeline`, `library`, `decisions`, `aesthetics`, `admin/node-picker`; components `Hero`, `HydrationNode`, `CycleAwareness`, `QuizEmbed`, `EmailGate`, `landing/HeroSection`, `spiral/SpiralIsland`; plus `styles/global.css`.
 
 This is the same `rgba(var(--token-rgb), a)` shape already shipping in `quiz.astro` (`--color-ocean-500-rgb`) — a pattern proven through CI in this exact codebase, which is the basis for confidence absent a local build.
 
@@ -112,6 +112,6 @@ Per the standing instruction, **#184 stays open** until admin's decision-card re
 
 ## Verification
 
-- **Static correctness:** grep confirms zero unbound brand triples remain in swept files (only the three documented exclusions); no double-wrapped `var()`; every `rgba(var(--…-rgb, …), a)` closes its inner `var()` before the alpha. The shape is identical to the already-shipping `quiz.astro` usage.
+- **Static correctness:** grep confirms zero unbound brand triples remain in swept files (only the three documented exclusions); no double-wrapped `var()`; every `rgba(var(--…-rgb, …), a)` closes its system `var()` before the alpha. The shape is identical to the already-shipping `quiz.astro` usage.
 - **Build/test gates:** `npm run check`, `npm test`, `npm run build`, and `npm run format:check` were **blocked by the session sandbox** (npm/node not runnable here). They run on the PR via `.github/workflows/ci.yml` (`npm run test:all` + Prettier) — that CI run is the authoritative gate. If Prettier flags any inline-`style=` formatting, it is a one-line fix with no behavior change.
 - **Render:** unchanged by construction — token fallback === prior literal — so no visual diff is expected; a live screenshot pass at sign-off can confirm the gold/teal zones read as intended (that judgment belongs to the client tuning loop above).

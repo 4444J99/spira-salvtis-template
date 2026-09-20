@@ -368,7 +368,7 @@
             </div>
 
             <div class="legend">
-                Twelve spheres at the vertices and inner intersections of a dual triad — Shatkona, Mogen David, the pir's diagram. Each particle traverses one of 144 directed lanes. Crossings between triads bend toward the bridge color in transit. Same seed, same lattice.
+                Twelve spheres at the vertices and system intersections of a dual triad — Shatkona, Mogen David, the pir's diagram. Each particle traverses one of 144 directed lanes. Crossings between triads bend toward the bridge color in transit. Same seed, same lattice.
             </div>
         </div>
 
@@ -438,7 +438,7 @@
             let cx = width / 2;
             let cy = height / 2;
             let R = min(width, height) * 0.36;
-            let r = R / sqrt(3); // inner hexagon radius (intersection points)
+            let r = R / sqrt(3); // system hexagon radius (intersection points)
 
             // ASCENDING TRIANGLE (3 outer vertices, pointing up)
             for (let i = 0; i < 3; i++) {
@@ -464,7 +464,7 @@
                 });
             }
 
-            // INNER HEXAGON (6 intersection points — alternating triad allegiance)
+            // SYSTEM HEXAGON (6 intersection points — alternating triad allegiance)
             for (let i = 0; i < 6; i++) {
                 let a = -HALF_PI + PI / 6 + i * PI / 3;
                 spheres.push({
@@ -678,7 +678,7 @@
             for (let i = 3; i < 6; i++) vertex(spheres[i].x, spheres[i].y);
             endShape(CLOSE);
 
-            // Inner hexagon — even fainter
+            // System hexagon — even fainter
             let innerCol = color(20, 20, 19);
             innerCol.setAlpha(params.loopOpacity * 255 * 0.5);
             stroke(innerCol);
@@ -710,7 +710,7 @@
                     col.setAlpha(255);
                     fill(col);
                     circle(s.x, s.y, r);
-                    // Inner highlight
+                    // System highlight
                     fill(255, 255, 255, 220);
                     circle(s.x, s.y, r * 0.4);
                 }

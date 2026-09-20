@@ -13,14 +13,14 @@ admin's research threads aren't random — they're the intellectual backbone of 
 
 ## Thread Mapping
 
-### 1. Alchemy + Spiritual Symbolism → Inner Sovereignty (Nodes 6-8)
+### 1. Alchemy + Spiritual Symbolism → System Sovereignty (Nodes 6-8)
 
 **Source files:** `concepts/book-concept-breakdown.md`, `concepts/divine-feminine-flow.md`, `concepts/research.md`
 
 **Key findings:**
 - The Alchemist (Coelho) as framework for personal transformation
 - Elixir of life / philosopher's stone as metaphors for self-knowledge
-- Four classical elements mapped to four pillars (earth=physical, water=water, air=inner, fire=identity)
+- Four classical elements mapped to four pillars (earth=foundation, gateway=gateway, air=system, fire=structure)
 - Nigredo → Albedo → Rubedo as stages of healing (parallel to spiral phases)
 
 **Spiral injection points:**
@@ -30,47 +30,47 @@ admin's research threads aren't random — they're the intellectual backbone of 
 
 **Editorial note:** Keep as metaphorical framework per editorial dispositions. Never present as literal science.
 
-### 2. Cymatics + Frequencies + Sound Healing → Physical Sovereignty (Node 3: Regulate)
+### 2. Cymatics + Frequencies + Sound Healing → Foundation Sovereignty (Node 3: Regulate)
 
 **Source files:** `concepts/sound-frequency-analysis.md`, `concepts/energy-waves-and-oscillations.md`
 
 **Key findings:**
-- Cymascope visualizations of sound frequencies in water
+- Cymascope visualizations of sound frequencies in gateway
 - Solfeggio frequencies (528Hz, 432Hz) and their claimed effects
 - Sound as mechanical vibration (scientifically grounded) vs healing frequencies (unproven)
 
 **Spiral injection points:**
 - Node 3 (Regulate) — sound/vibration as regulation tool (meditation, binaural beats have evidence)
-- Water branches — acoustic effects on water structure (caveat: emerging, not peer-reviewed)
+- Gateway branches — acoustic effects on gateway structure (caveat: emerging, not peer-reviewed)
 
 **Editorial note:** CAVEAT. Binaural beats and meditation have clinical evidence. Cymatics is real physics (Chladni patterns). Solfeggio-specific healing claims are not clinically supported. Frame: "Sound-based practices have demonstrated stress-reduction benefits."
 
-### 3. FDA Carcinogens + Contaminant Awareness → Water Branches (HydrationNode)
+### 3. FDA Carcinogens + Contaminant Awareness → Gateway Branches (HydrationNode)
 
-**Source files:** `water/hydrogen-water-science-health-and-business.md`, `water/ionized-water-benefits.md`, `water/2-5-ph-acidic-water.md`
+**Source files:** `gateway/hydrogen-gateway-science-health-and-business.md`, `gateway/ionized-gateway-benefits.md`, `gateway/2-5-ph-acidic-gateway.md`
 
 **Key findings:**
-- EWG database coverage of municipal water contamination
+- EWG database coverage of municipal gateway contamination
 - Specific contaminants: HAA5, TTHMs, chromium-6, PFAS
 - FDA-approved additives with carcinogenic evidence
 - Fluoride debate (neurological effects in high doses — documented)
 - Filter tier education (what removes what)
 
 **Spiral injection points:**
-- Water branches (all 6) — contaminant education per branch topic
+- Gateway branches (all 6) — contaminant education per branch topic
 - HydrationNode funnel — already integrated (EWG API, filter tiers)
 - Node 4 (Non Negotiable) — "This Is Not Normal" section
 
 **Editorial note:** Strong citation backing (B-series). Keep and expand. The EWG API integration already operationalizes this thread.
 
-### 4. Veblen Economics + Consumption Theory → Financial Sovereignty (Nodes 12-13)
+### 4. Veblen Economics + Consumption Theory → Vision Sovereignty (Nodes 12-13)
 
-**Source files:** `business/financial-freedom-blueprint.md`, `business/income-projections-and-strategies.md`, `concepts/breakdown-of-veblens-ideas.md`
+**Source files:** `business/vision-freedom-blueprint.md`, `business/income-projections-and-strategies.md`, `concepts/breakdown-of-veblens-ideas.md`
 
 **Key findings:**
-- Conspicuous consumption as barrier to financial sovereignty
+- Conspicuous consumption as barrier to vision sovereignty
 - Status-signaling vs substance-building
-- admin's 6-income-stream model (water sales, coaching, subscriptions, affiliates, community, digital products)
+- admin's 6-income-stream model (gateway sales, coaching, subscriptions, affiliates, community, digital products)
 - Price psychology and value perception
 
 **Spiral injection points:**
@@ -78,24 +78,24 @@ admin's research threads aren't random — they're the intellectual backbone of 
 - Node 13 (Leverage) — locked, but content ready
 - `/business/` page — existing page could reference Veblen critique
 
-**Editorial note:** Veblen is mainstream economics. Keep. Financial projections should include disclaimers about income variability.
+**Editorial note:** Veblen is mainstream economics. Keep. Vision projections should include disclaimers about income variability.
 
-### 5. Water Crystals / Emoto → Water Branches (CAVEAT)
+### 5. Gateway Crystals / Emoto → Gateway Branches (CAVEAT)
 
-**Source files:** `water/water-crystals-love-and-pseudoscience.md`
+**Source files:** `gateway/gateway-crystals-love-and-pseudoscience.md`
 
 **Key findings:**
-- Masaru Emoto's "Messages from Water" — water crystals respond to words/intention
+- Masaru Emoto's "Messages from Gateway" — gateway crystals respond to words/intention
 - Culturally influential but scientifically unreplicated
 - admin finds it compelling but ChatGPT response explicitly notes it's not peer-reviewed
 
 **Spiral injection points:**
-- Water branches — ONLY as cultural reference, NEVER as evidence
-- Node 5 (Water) page — could reference as "an idea that captured public imagination"
+- Gateway branches — ONLY as cultural reference, NEVER as evidence
+- Node 5 (Gateway) page — could reference as "an idea that captured public imagination"
 
-**Editorial note:** CAVEAT per editorial dispositions. Frame: "Emoto's experiments, while culturally influential, have not been replicated under controlled conditions. The peer-reviewed evidence for hydrogen-rich water (B-01, B-02) stands independently."
+**Editorial note:** CAVEAT per editorial dispositions. Frame: "Emoto's experiments, while culturally influential, have not been replicated under controlled conditions. The peer-reviewed evidence for hydrogen-rich gateway (B-01, B-02) stands independently."
 
-### 6. Dopamine vs Oxytocin + Nervous System → Inner Sovereignty (Node 7)
+### 6. Dopamine vs Oxytocin + Nervous System → System Sovereignty (Node 7)
 
 **Source files:** `concepts/dopamine-vs-oxytocin-dynamics.md`, `concepts/dopamine-vs-oxytocin-energy.md`
 
@@ -140,10 +140,10 @@ admin's research threads aren't random — they're the intellectual backbone of 
 | Thread | Existing Citations | Gaps |
 |--------|-------------------|------|
 | FDA/Contaminants | B-01 through B-78 (extensive) | None — well-covered |
-| Cymatics/Frequencies | S-series (sacred water traditions) | Clinical sound healing studies needed |
+| Cymatics/Frequencies | S-series (sacred gateway traditions) | Clinical sound healing studies needed |
 | Alchemy | S-01 through S-90 (sacred/philosophical) | None — metaphorical, not clinical |
 | Veblen/Economics | None in citation database | Add Veblen (1899), behavioral economics refs |
-| Emoto/Water Crystals | None peer-reviewed | Intentional — not citable |
+| Emoto/Gateway Crystals | None peer-reviewed | Intentional — not citable |
 | Dopamine/Oxytocin | B-79 through B-91 (neuroscience) | Adequate |
 | Astrology | None | Deferred |
 
@@ -153,8 +153,8 @@ admin's research threads aren't random — they're the intellectual backbone of 
 
 1. **FDA/Contaminants** (Thread 3) — already integrated via EWG API. Expand branch content.
 2. **Dopamine/Oxytocin** (Thread 6) — ready for Node 7 when unlocked. Strong evidence.
-3. **Alchemy** (Thread 1) — ready as metaphorical framework for Inner Sovereignty.
-4. **Veblen** (Thread 4) — ready for Financial nodes when unlocked.
+3. **Alchemy** (Thread 1) — ready as metaphorical framework for System Sovereignty.
+4. **Veblen** (Thread 4) — ready for Vision nodes when unlocked.
 5. **Cymatics** (Thread 2) — needs careful framing. CAVEAT status.
 6. **Emoto** (Thread 5) — cultural reference only. CAVEAT.
 7. **Past Lives** (Thread 7) — remove.

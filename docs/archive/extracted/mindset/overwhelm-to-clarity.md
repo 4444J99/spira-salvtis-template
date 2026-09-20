@@ -16,7 +16,7 @@ source_file: "ChatGPT-Overwhelm to Clarity.txt"
 source_folder: "mindset"
 nodes: [3, 11, 5]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -50,7 +50,7 @@ strike_phase: 1C
 Okay am overwhelmed so going to get it all out here and then will you please help me sort it all out
 
 
-I have the water stuff pretty squared away (plan wise) just need to make routine / daily rhythm of spending a few hours on my business first thing. After I have the water squared away then I need to do the spiral and website stuff - after make sales & stay consistent then can start doing business stuff too.
+I have the gateway stuff pretty squared away (plan wise) just need to make routine / daily rhythm of spending a few hours on my business first thing. After I have the gateway squared away then I need to do the spiral and website stuff - after make sales & stay consistent then can start doing business stuff too.
 
 
 Non profit I need to fix the co address and make pinto the representative , file for ein and 501c3 quick - then apple for the 50k grant. If I get the grant then I can stop working for my aunt and go all in on the non profit but idk how to juggle it without support right now with everything I’ve got going on.
@@ -95,7 +95,7 @@ context_above: "Okay am overwhelmed so going to get it all out here and then wil
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -128,7 +128,7 @@ Step 1: Zoom Out – What Actually Pays You Right Now?
 
 You said it yourself:
 
-Water is squared away plan-wise. I just need daily rhythm.
+Gateway is squared away plan-wise. I just need daily rhythm.
 
 That is your stability pillar.
 
@@ -142,7 +142,7 @@ Right now your income stack looks like this:
 🔹 Active Income
 
 
-Water business
+Gateway business
 
 Working for your aunt
 
@@ -192,13 +192,13 @@ We simplify everything into 3 containers:
 These regulate your body + cash flow.
 
 
-2–3 hours water business first thing
+2–3 hours gateway business first thing
 
 Eat consistently (blood sugar = mental clarity)
 
 Morning ritual tightened (short, repeatable, not aesthetic)
 
-Get dressed daily (professional identity shift)
+Get dressed daily (professional structure shift)
 
 
 That’s it.
@@ -221,7 +221,7 @@ Pick ONE build project per 6–8 week sprint.
 
 
 Right now that project is:
-Water → Consistency → Sales
+Gateway → Consistency → Sales
 
 
 After that:
@@ -279,7 +279,7 @@ Do not emotionally attach to the $50k grant.
 It is not your exit strategy.
 
 
-Your water income is.
+Your gateway income is.
 
 
 If the grant comes, amazing.
@@ -298,7 +298,7 @@ You do NOT need to trademark until:
 
 Recipes are locked
 
-Brand identity clear
+Brand structure clear
 
 Sales proven
 
@@ -322,7 +322,7 @@ Trademark after traction.
 
 
 
-Step 4: Fashion + Identity Shift
+Step 4: Fashion + Structure Shift
 
 
 You’re not wrong about the Rule of Three.
@@ -345,7 +345,7 @@ It’s:
 “I am someone who shows up ready.”
 
 
-That’s a nervous system + identity upgrade.
+That’s a nervous system + structure upgrade.
 Which is PERFECT content for you.
 
 
@@ -374,7 +374,7 @@ Example rhythm:
 
 
 Morning:
-Water work
+Gateway work
 
 
 Midday:
@@ -399,7 +399,7 @@ Heal
 
 Build wealth
 
-Build identity
+Build structure
 
 Build a nonprofit
 
@@ -413,7 +413,7 @@ Build discipline
 
 Build aesthetics
 
-Build financial freedom
+Build vision freedom
 
 
 Simultaneously.
@@ -434,7 +434,7 @@ Here’s Your Actual 90-Day Focus
 Phase 1 (Now → 30 Days)
 
 
-Lock daily water rhythm
+Lock daily gateway rhythm
 
 Tighten morning ritual (short + repeatable)
 
@@ -451,7 +451,7 @@ That’s it.
 Phase 2 (30–60 Days)
 
 
-Optimize water funnel
+Optimize gateway funnel
 
 Increase sales
 
@@ -509,7 +509,7 @@ context_above: "admin. Pause. Breathe. Nothing you just said is wrong. Nothing i
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -519,7 +519,7 @@ Ooo I love the stability layer & the vision layer it ties into my branding /spir
  Stuff!!
 
 
-Okay this is helping a lot just need to focus on the water everyday for 30 days and then can sprinkle in the fashion/fun/posting consistently to build community & confidence
+Okay this is helping a lot just need to focus on the gateway everyday for 30 days and then can sprinkle in the fashion/fun/posting consistently to build community & confidence
 <!-- ATM-M-573 OUT
 next: ATM-M-574
 context_below: "YES. This is it. You just clicked into alignment instead of urgency. You don’t need to do less."
@@ -537,7 +537,7 @@ context_above: "Ooo I love the stability layer & the vision layer it ties into m
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -573,7 +573,7 @@ We keep it simple and powerful.
 Core Focus:
 
 
-Water income + Nervous system regulation
+Gateway income + Nervous system regulation
 
 
 Everything else becomes supportive, not primary.
@@ -586,16 +586,16 @@ Daily Structure (Simple + Repeatable)
 Morning (Stability Block – 2–3 hrs)
 
 
-Get dressed (identity shift)
+Get dressed (structure shift)
 
 Eat protein within 30–60 min
 
-Water business tasks only
+Gateway business tasks only
 Reach outs
 
 Follow-ups
 
-Content tied to water
+Content tied to gateway
 
 Calls
 
@@ -671,7 +671,7 @@ You showing up dressed daily is:
 
 Content
 
-Identity work
+Structure work
 
 Nervous system upgrade
 
@@ -718,7 +718,7 @@ That’s how your Spiral becomes real instead of aspirational.
 Now tell me this:
 
 
-If you locked in water for 30 days and it worked —
+If you locked in gateway for 30 days and it worked —
 what would that unlock emotionally for you?
 <!-- ATM-M-574 OUT
 next: ATM-M-575
@@ -737,7 +737,7 @@ context_above: "YES. This is it. You just clicked into alignment instead of urge
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -761,7 +761,7 @@ context_above: "Even just 3 sales in the next 30 days and systems I know work wo
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -789,7 +789,7 @@ to
 
 “I know how to make this work.”
 
-That’s identity-level stability.
+That’s structure-level stability.
 
 
 
@@ -799,7 +799,7 @@ Let’s Make This Concrete
 🎯 30-Day Target:
 
 
-3 water sales.
+3 gateway sales.
 Nothing else required.
 
 
@@ -847,7 +847,7 @@ Daily:
 
 Follow up with anyone warm
 
-1 piece of simple water-aligned content
+1 piece of simple gateway-aligned content
 
 Track everything
 
@@ -896,7 +896,7 @@ Even 2 sales = proof.
 
 
 
-And Here’s the Identity Shift
+And Here’s the Structure Shift
 
 
 Right now you feel like:
@@ -935,7 +935,7 @@ context_above: "There it is. Not 30 sales. Not viral. Not “quit your job.” J
 provenance: LOCAL
 nature: QUESTION
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -959,7 +959,7 @@ context_above: "I wrote it all out but maybe some way I can check it off / track
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1005,7 +1005,7 @@ What You Track Daily
 
 
 Dressed?
-✔ or 1 (identity shift)
+✔ or 1 (structure shift)
 
 
 Ate Protein AM?
@@ -1155,7 +1155,7 @@ context_above: "YES. We are turning this into data, not vibes. Your nervous syst
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1179,7 +1179,7 @@ context_above: "Both please!!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1204,7 +1204,7 @@ context_above: "YES. We’re doing this clean and strategic — not chaotic. You
 provenance: HYBRID
 nature: SCRIPT
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1217,7 +1217,7 @@ Create one Google Sheet.
 
 
 Name it:
-“30 Day Stability Sprint – Water”
+“30 Day Stability Sprint – Gateway”
 
 
 
@@ -1259,7 +1259,7 @@ context_above: "PART 1: Exact Google Sheet Layout (Copy This) Create one Google 
 provenance: HYBRID
 nature: CLAIM
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1306,7 +1306,7 @@ context_above: "PART 2: The Automatic Totals Section (Top of Sheet) Above your t
 provenance: HYBRID
 nature: STATISTIC
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1381,7 +1381,7 @@ context_above: "PART 3: The Math for 3 Sales We reverse engineer calmly. Let’s
 provenance: HYBRID
 nature: SCRIPT
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1416,7 +1416,7 @@ context_above: "PART 4: Your Daily Minimums Non-negotiable daily targets: ✔ 5 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 11, 5]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

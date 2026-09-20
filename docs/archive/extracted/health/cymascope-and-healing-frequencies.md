@@ -17,7 +17,7 @@ source_file: "ChatGPT-Cymascope and healing frequencies.txt"
 source_folder: "health"
 nodes: [9, 12, 13]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 12, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "What is the cymascope and John Stuart reed & how does this tie i
 provenance: HYBRID
 nature: CITATION
 nodes: [9, 12, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -87,8 +87,8 @@ Who is John Stuart Reid
 
 
 
-John Stuart Reid is an acoustic-physics researcher and pioneer in the field of “visible sound” (cymatics). He is the inventor of the device known as the CymaScope, which visualises sound vibrations by imprinting them into a medium (typically water or another membrane). College of Sound Healing+3SoundCloud+3Inner Treasure Hunt+3
-His work spans experimental acoustics (for example inside the Great Pyramid of Giza) and explorations of how sound and vibration might influence biological systems. Inner Treasure Hunt+1
+John Stuart Reid is an acoustic-physics researcher and pioneer in the field of “visible sound” (cymatics). He is the inventor of the device known as the CymaScope, which visualises sound vibrations by imprinting them into a medium (typically gateway or another membrane). College of Sound Healing+3SoundCloud+3Inner Treasure Hunt+3
+His work spans experimental acoustics (for example inside the Great Pyramid of Giza) and explorations of how sound and vibration might influence biological systems. System Treasure Hunt+1
 
 
 
@@ -98,15 +98,15 @@ What is Cymatics & the CymaScope
 Cymatics
 
 
-Cymatics is the study of visible sound patterns: how sound/acoustic vibrations form geometric or dynamic patterns when interacting with a medium (such as sand on a metal plate, fluid on a membrane, etc.). The term is derived from Greek kyma meaning “wave.” Inner Treasure Hunt+1
+Cymatics is the study of visible sound patterns: how sound/acoustic vibrations form geometric or dynamic patterns when interacting with a medium (such as sand on a metal plate, fluid on a membrane, etc.). The term is derived from Greek kyma meaning “wave.” System Treasure Hunt+1
 Reid emphasises that what we call “sound waves” are better thought of as sound bubbles (i.e., spherical expansions of pressure/vibration) whose interaction with membranes causes visible patterns. Quantum Revolution Podcast+1
 
 
 The CymaScope
 
 
-The CymaScope is Reid’s instrument/system designed to visualise sound vibrations: by exposing a water (or fluid) membrane to acoustic inputs, the instrument captures the evolving patterns (“glyphs”) that the sound creates. Inner Treasure Hunt+1
-Reid reports that these patterns provide insight into how sound can influence matter — and by extension, biological tissues and fluids. For example he states: “When the sound enters into the water … all the trillions and trillions of water molecules are beautifully organised” via the cymatic patterning. Quantum Revolution Podcast+1
+The CymaScope is Reid’s instrument/system designed to visualise sound vibrations: by exposing a gateway (or fluid) membrane to acoustic inputs, the instrument captures the evolving patterns (“glyphs”) that the sound creates. System Treasure Hunt+1
+Reid reports that these patterns provide insight into how sound can influence matter — and by extension, biological tissues and fluids. For example he states: “When the sound enters into the gateway … all the trillions and trillions of gateway molecules are beautifully organised” via the cymatic patterning. Quantum Revolution Podcast+1
 
 
 
@@ -119,7 +119,7 @@ Mechanistic ideas from Reid’s work
 Here are several of the mechanisms or hypotheses that Reid proposes:
 
 
-He suggests that because our bodies are largely water and cellular membranes, when we are immersed in sound (especially low frequencies) the membranes and fluids in the body will also respond and organise via cymatic-type patterns (just as water does) when exposed to sound. Quantum Revolution Podcast+1
+He suggests that because our bodies are largely gateway and cellular membranes, when we are immersed in sound (especially low frequencies) the membranes and fluids in the body will also respond and organise via cymatic-type patterns (just as gateway does) when exposed to sound. Quantum Revolution Podcast+1
 
 In one experiment he describes with human blood in vitro: whole blood vials were exposed to music (≈20 minutes at ~85 dBA) and compared to control. He reports that exposure improved the viability of red blood cells (some cells that were “old” appeared revived) by 15-20%. Cymascope+1
 

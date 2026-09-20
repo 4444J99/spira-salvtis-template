@@ -134,7 +134,7 @@ export const nonprofitConfig: NonprofitConfig = {
       step: '03',
       title: 'Reintegrate through Sovereign Systems',
       detail:
-        'Use the spiral, water education, business systems, and community support to help each person rebuild after the reset window.',
+        'Use the spiral, gateway education, business systems, and community support to help each person rebuild after the reset window.',
     },
   ],
   gates: [

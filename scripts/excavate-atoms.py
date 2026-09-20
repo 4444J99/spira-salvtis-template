@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Atomic content excavator for business/ and water/ extracted archives.
+Atomic content excavator for business/ and gateway/ extracted archives.
 Decomposes files into atoms marked with HTML comment fences.
 
 Usage: python3 scripts/excavate-atoms.py
@@ -15,12 +15,12 @@ from typing import Optional
 BASE = Path(__file__).resolve().parent.parent
 EXTRACTED = BASE / "docs" / "archive" / "extracted"
 BUSINESS_DIR = EXTRACTED / "business"
-WATER_DIR = EXTRACTED / "water"
-WATER_ROOT_FILE = EXTRACTED / "water-learn-more-about-erw.md"
+WATER_DIR = EXTRACTED / "gateway"
+WATER_ROOT_FILE = EXTRACTED / "gateway-learn-more-about-erw.md"
 
 # Build-state reference content (loaded at runtime from actual files)
-FINANCIAL_PILLAR = (BASE / "src" / "content" / "pillars" / "financial.md").read_text() if (BASE / "src" / "content" / "pillars" / "financial.md").exists() else ""
-PHYSICAL_PILLAR = (BASE / "src" / "content" / "pillars" / "physical.md").read_text() if (BASE / "src" / "content" / "pillars" / "physical.md").exists() else ""
+FINANCIAL_PILLAR = (BASE / "src" / "content" / "pillars" / "vision.md").read_text() if (BASE / "src" / "content" / "pillars" / "vision.md").exists() else ""
+PHYSICAL_PILLAR = (BASE / "src" / "content" / "pillars" / "foundation.md").read_text() if (BASE / "src" / "content" / "pillars" / "foundation.md").exists() else ""
 
 BRANCH_CONTENT = ""
 for branch_file in sorted((BASE / "src" / "content" / "branches").glob("*.md")):
@@ -92,7 +92,7 @@ def determine_nature(text: str) -> str:
             return "STATISTIC"
 
     # Protocols
-    protocol_signals = ["protocol", "2.5 ph", "11.5", "6.0 water", "gargle", "rinse"]
+    protocol_signals = ["protocol", "2.5 ph", "11.5", "6.0 gateway", "gargle", "rinse"]
     for sig in protocol_signals:
         if sig in lower:
             return "PROTOCOL"
@@ -113,8 +113,8 @@ def determine_nature(text: str) -> str:
 
     # Models
     model_signals = ["survival number", "freedom number", "stability number",
-                     "financial survival", "financial stability", "financial freedom",
-                     "financial legacy", "archetype"]
+                     "vision survival", "vision stability", "vision freedom",
+                     "vision legacy", "archetype"]
     for sig in model_signals:
         if sig in lower:
             return "MODEL"
@@ -132,9 +132,9 @@ def determine_nature(text: str) -> str:
 
 def determine_build_state(text: str, pillar: str) -> str:
     """Check if atom content exists in build targets."""
-    if pillar == "Financial":
+    if pillar == "Vision":
         ref = FINANCIAL_PILLAR.lower()
-    elif pillar == "Physical":
+    elif pillar == "Foundation":
         ref = (PHYSICAL_PILLAR + "\n" + BRANCH_CONTENT).lower()
     else:
         ref = (FINANCIAL_PILLAR + PHYSICAL_PILLAR + BRANCH_CONTENT).lower()
@@ -179,21 +179,21 @@ def determine_strike_phase(nature: str, nodes: list, pillar: str, editorial: str
         if nature == "SCRIPT":
             return "4C"
         return "4A"  # default business
-    else:  # Water
+    else:  # Gateway
         if editorial == "FLAGGED":
             return "1B"
         if any(n in nodes for n in [1, 2, 3, 4, 5]):
             return "2A"
         if nature == "TOOL":
             return "2D"
-        # Water funnel content
+        # Gateway funnel content
         water_funnel_signals = ["funnel", "landing page", "quiz", "hub"]
         if any(s in str(nodes) or s in nature.lower() for s in water_funnel_signals):
             return "2B"
         # Branch enrichment
-        if pillar == "Physical":
+        if pillar == "Foundation":
             return "2C"
-        return "2B"  # default water
+        return "2B"  # default gateway
 
 
 def parse_frontmatter(text: str):
@@ -329,7 +329,7 @@ sections: []
     nodes = fm.get("nodes", [])
     if isinstance(nodes, str):
         nodes = [int(x.strip()) for x in nodes.strip("[]").split(",") if x.strip()]
-    pillar = fm.get("pillar", "Financial" if prefix == "B" else "Physical")
+    pillar = fm.get("pillar", "Vision" if prefix == "B" else "Foundation")
     has_prompt_header = "## Prompt:" in body
 
     # Split into atoms
@@ -507,7 +507,7 @@ def main():
     b_count = process_directory(BUSINESS_DIR, "B", start_num=1)
     print(f"\nBusiness total: {b_count} atoms (ATM-B-*)")
 
-    print("\n--- Processing Water Files ---")
+    print("\n--- Processing Gateway Files ---")
     w_count = process_directory(WATER_DIR, "W", start_num=1, extra_files=[WATER_ROOT_FILE])
     print(f"\nWater total: {w_count} atoms (ATM-W-*)")
 

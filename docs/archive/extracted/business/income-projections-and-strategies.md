@@ -18,7 +18,7 @@ source_file: "ChatGPT-Income Projections and Strategies.txt"
 source_folder: "business"
 nodes: [6, 11]
 readiness: "Partial"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -65,7 +65,7 @@ context_above: "Income Projections and Strategies"
 provenance: LOCAL
 nature: STATISTIC
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -91,7 +91,7 @@ context_above: "How much money do you think I can realistically make in the next
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -223,7 +223,7 @@ context_above: "Here’s a realistic, grounded breakdown of what you could make 
 provenance: LOCAL
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -249,7 +249,7 @@ context_above: "Ooo can a launch checklist please! The $99 gets them into the di
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -332,7 +332,7 @@ Send check-in messages to early users → ask what they’re loving
 
 Gently introduce product options (Anespa, Enagic, etc.) based on their needs
 
-Highlight what happens after they sign up (residuals, water income, etc.)
+Highlight what happens after they sign up (residuals, gateway income, etc.)
 
 Post 1 reel or video walking through how you get paid + what's possible
 
@@ -359,7 +359,7 @@ Share first testimonials or results
 
 Make a mid-month “come with me” invitation for those who missed the first window
 
-Write 1 email (or IG post) celebrating wins & previewing next chapter (funnels, blueprint, water + biz)
+Write 1 email (or IG post) celebrating wins & previewing next chapter (funnels, blueprint, gateway + biz)
 
 
 
@@ -392,7 +392,7 @@ context_above: "YES let’s go admin! Here’s your lean and potent Launch Check
 provenance: LOCAL
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -418,7 +418,7 @@ context_above: "Ah can I have it in checklist form please!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -529,7 +529,7 @@ context_above: "Absolutely! Here's your clean, copy-pasteable LAUNCH CHECKLIST i
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -555,7 +555,7 @@ context_above: "Okay well I forgot I have 900 pulling on the 28th if I want to k
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -611,7 +611,7 @@ Break it down into 3 lanes:
 Source
 Goal
 Example
-Water Funnel
+Gateway Funnel
 $500–$700
 1 first-tier ($350–$500), 1 follow-up ($150–$200)
 Hourly Work
@@ -673,7 +673,7 @@ context_above: "YES, admin — you can absolutely still pull this off. You are r
 provenance: LOCAL
 nature: QUESTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -699,7 +699,7 @@ context_above: "Okay so just gotta just gotta get funnel going then work on reac
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -791,7 +791,7 @@ context_above: "Yes — start now with stories. The funnel doesn’t have to be 
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -817,7 +817,7 @@ context_above: "And then gotta do some work for new client and can do some stuff
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -940,7 +940,7 @@ context_above: "YESSS exactly — and that mindset right there? 👑 That’s wh
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -966,7 +966,7 @@ context_above: "Ah okay feeling overwhelmed so going to eat some cherries by the
 provenance: HYBRID
 nature: SCRIPT
 nodes: [6, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL

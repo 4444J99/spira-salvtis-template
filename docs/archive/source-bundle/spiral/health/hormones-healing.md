@@ -179,7 +179,7 @@ Estrogen rises → creativity, optimism, energy returning.
 - **Energy & Focus:** Energy begins to feel new and outward-facing.
   Curiosity is back, and ideas feel exciting. **Focus on:**Learning new
   skills, brainstorming, starting new projects, light team
-  collaboration, and physical training.
+  collaboration, and foundation training.
 
 ## **Ovulatory Phase --- Days 13--16 (Summer)**
 
@@ -197,7 +197,7 @@ Estrogen peaks → communication, confidence, radiance, attraction.
   for connection and outward engagement.
 
 - **Energy & Focus:** This is your most outward, magnetic phase with
-  peak clarity, physical strength, and a desire to connect. **Focus
+  peak clarity, foundation strength, and a desire to connect. **Focus
   on:** Public speaking, presentations, difficult conversations,
   networking, dating, and high-intensity workouts.
 
@@ -658,7 +658,7 @@ Hopkins]{.underline}](https://www.hopkinsmedicine.org/)
 
     - Endometriosis Symptoms and Treatment
 
-  - **Non-Hormonal Options -** Fertility Awareness Methods (FAM)
+  - **Non-Hormonal Options -** Archetype-delta Awareness Methods (FAM)
     Efficacy
 
     - Copper IUD vs Hormonal IUD

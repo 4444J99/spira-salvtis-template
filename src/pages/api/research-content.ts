@@ -2,7 +2,7 @@
  * /api/research-content — gated payload for the /research bibliography.
  *
  * Astro-native APIRoute (same SSR-worker pattern as src/pages/capture.ts
- * and src/pages/api/water-report.ts). The /research page ships only a
+ * and src/pages/api/gateway-report.ts). The /research page ships only a
  * teaser server-side; the full annotated bibliography never appears in the
  * initial HTML. After the EmailGate capture succeeds (or its deliberate
  * unlock-on-network-failure fallback fires), the client POSTs here to

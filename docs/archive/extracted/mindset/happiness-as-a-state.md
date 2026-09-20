@@ -16,7 +16,7 @@ source_file: "ChatGPT-Happiness as a state.txt"
 source_folder: "mindset"
 nodes: [1, 8, 13]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "What does this mean can you expand on it further so I can create
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -140,7 +140,7 @@ context_above: "Perfect—this is a great starting point for a reel because it�
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -173,7 +173,7 @@ context_above: "Where does this rule of four come from? I just want to do simple
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -192,12 +192,12 @@ While there isn't a widely recognized "rule of four" grouping meditation, exerci
 The Four Pillars of Well-Being (Awareness, Connection, Insight, Purpose):
 Neuroscientist Dr. Richard J. Davidson from the Center for Healthy Minds frames well-being as a skill that can be strengthened. He emphasizes four key constituents: Awareness, Connection, Insight, and Purpose, each rooted in neuroplasticity—meaning they strengthen with practice Mind & Life InstituteMindfulness Exercises.
 
-Although the specific four you've mentioned—meditation (awareness), exercise (physical well-being), gratitude (insight/outlook), and connection—aren’t directly mapped to Davidson’s framework, they respectively nourish overlapping qualities in that system.
+Although the specific four you've mentioned—meditation (awareness), exercise (foundation well-being), gratitude (insight/outlook), and connection—aren’t directly mapped to Davidson’s framework, they respectively nourish overlapping qualities in that system.
 
 Other frameworks like the PERMA model (Positive Emotion, Engagement, Relationships, Meaning, Accomplishment) from positive psychology echo similar themes—but use five elements Wikipedia+1.
 
 
-So while there isn’t an established “one source” for exactly those four, they align with robust scientific models that show how nurturing attention (via meditation), physical movement, grateful awareness, and social bonds all strengthen well-being.
+So while there isn’t an established “one source” for exactly those four, they align with robust scientific models that show how nurturing attention (via meditation), foundation movement, grateful awareness, and social bonds all strengthen well-being.
 
 
 
@@ -288,7 +288,7 @@ context_above: "You're on a great path here! Let me break this down: 1. Where Do
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -321,7 +321,7 @@ context_above: "Okay so according to richard Davison’s four pillars - meditati
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -344,7 +344,7 @@ Connection → Connection (with self, others, Spirit)
 Exactly as you said — connection with your own body (exercise), with God/spirit, and with other humans. This one is universal.
 
 Insight → Meditation
-Meditation builds insight by letting you watch your thoughts without judgment. It helps you understand your inner landscape.
+Meditation builds insight by letting you watch your thoughts without judgment. It helps you understand your system landscape.
 
 Purpose → Exercise / Movement & “Why”
 Purpose isn’t just family or goals — it’s about living in alignment with your values. Exercise fits here if you frame it as embodying purpose: moving your body to live out your “why.” Purpose can also stretch into serving others, building, creating, etc.
@@ -425,7 +425,7 @@ context_above: "Got it — let’s map this cleanly, then layer in your Jack Spa
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -449,7 +449,7 @@ context_above: "Or can you expand on what he means by each I confusing myself I 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -481,7 +481,7 @@ Developing self-understanding — the stories you tell yourself about who you ar
 
 Practices: meditation, journaling, therapy, self-reflection.
 
-Why it matters: When you understand your own mind and identity, you can let go of limiting beliefs and be more resilient.
+Why it matters: When you understand your own mind and structure, you can let go of limiting beliefs and be more resilient.
 
 Purpose
 Having a sense of meaning, values, or direction that’s bigger than yourself.
@@ -545,7 +545,7 @@ context_above: "Totally makes sense that you’re feeling a little tangled here 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -569,7 +569,7 @@ context_above: "Yes please and I’ll work on the graphic / video!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -670,7 +670,7 @@ context_above: "Perfect — here are two ready-to-go reel scripts (with text ove
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -694,7 +694,7 @@ context_above: "Okay let’s tie in jack sparrow and the happiness being a state
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -813,7 +813,7 @@ context_above: "Got it let’s make this reel really engaging — with Jack Spar
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -841,7 +841,7 @@ context_above: "Like jack sparrows compass always pointing to what he truly want
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -899,7 +899,7 @@ context_above: "Ahh I get you 🤍 you’re wanting that simple, punchy parallel
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -928,7 +928,7 @@ context_above: "“Jack Sparrow’s compass never pointed north — it pointed t
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1037,7 +1037,7 @@ context_above: "Perfect 🙌 that’s a beautiful starting block — let’s kee
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1061,7 +1061,7 @@ context_above: "Okay I just need a short something to go above my compass and th
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -1115,7 +1115,7 @@ context_above: "Got it — here’s a tight pair you can use: 🔝 Short Text Ab
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1124,13 +1124,13 @@ strike_phase: 3A
 can add in something about internal gauge to bring you to that state
 <!-- ATM-M-274 OUT
 next: ATM-M-275
-context_below: "Yes! That’s the missing piece — tying it back to the inner compass / internal gauge that always brin..."
+context_below: "Yes! That’s the missing piece — tying it back to the system compass / internal gauge that always brin..."
 -->
 
 ## Response:
 
 <!-- ATM-M-275 IN
-idea: "Yes! That’s the missing piece — tying it back to the inner compass / internal gauge that always brin..."
+idea: "Yes! That’s the missing piece — tying it back to the system compass / internal gauge that always brin..."
 section: "Response"
 position: 20
 of_total: 38
@@ -1139,13 +1139,13 @@ context_above: "can add in something about internal gauge to bring you to that s
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
 strike_phase: 1C
 -->
-Yes! That’s the missing piece — tying it back to the inner compass / internal gauge that always brings you back to happiness. Here are a few polished options you could put above your compass graphic:
+Yes! That’s the missing piece — tying it back to the system compass / internal gauge that always brings you back to happiness. Here are a few polished options you could put above your compass graphic:
 
 
 
@@ -1154,11 +1154,11 @@ Yes! That’s the missing piece — tying it back to the inner compass / interna
 
 “Happiness isn’t a destination — it’s your internal compass.”
 
-“Your inner gauge always points you back to joy.”
+“Your system gauge always points you back to joy.”
 
 “Happiness is a state of being — guided by your internal compass.”
 
-“Like Jack Sparrow’s compass, your inner gauge points to what you truly want.”
+“Like Jack Sparrow’s compass, your system gauge points to what you truly want.”
 
 
 
@@ -1197,11 +1197,11 @@ section: "Prompt"
 position: 21
 of_total: 38
 prev: ATM-M-275
-context_above: "Yes! That’s the missing piece — tying it back to the inner compass / internal gauge that always brin..."
+context_above: "Yes! That’s the missing piece — tying it back to the system compass / internal gauge that always brin..."
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1210,13 +1210,13 @@ strike_phase: 3A
 After you’re aligned, just like jack sparrows compass always pointing to what he wants most “broken” by everyone else’s standards but the same as happiness - only you can choose that state of happiness & anytime you get out of whack come back to these four back by the doc to help you get back on track
 <!-- ATM-M-276 OUT
 next: ATM-M-277
-context_below: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an inner state."
+context_below: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an system state."
 -->
 
 ## Response:
 
 <!-- ATM-M-277 IN
-idea: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an inner state."
+idea: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an system state."
 section: "Response"
 position: 22
 of_total: 38
@@ -1225,20 +1225,20 @@ context_above: "After you’re aligned, just like jack sparrows compass always p
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
 strike_phase: 1C
 -->
-Yes!! 🔥 That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an inner state. Here’s a cleaned-up, Insta-ready version of what you just said:
+Yes!! 🔥 That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an system state. Here’s a cleaned-up, Insta-ready version of what you just said:
 
 
 
 🔝 Short Text Above Compass
 
 
-“Happiness isn’t broken — it’s your inner compass.”
+“Happiness isn’t broken — it’s your system compass.”
 
 
 
@@ -1277,11 +1277,11 @@ section: "Prompt"
 position: 23
 of_total: 38
 prev: ATM-M-277
-context_above: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an inner state."
+context_above: "Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happiness as an system state."
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -1329,7 +1329,7 @@ context_above: "Can we add this in and then the CTA to be save for next time you
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1403,7 +1403,7 @@ context_above: "Perfect — I see exactly what you mean. You want it to flow lik
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1427,7 +1427,7 @@ context_above: "What did he mean by the four without my interpretation can we ad
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -1491,7 +1491,7 @@ context_above: "Yes, absolutely 🤍 let’s anchor it directly in what Dr. Rich
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1518,7 +1518,7 @@ context_above: "This is what I have so far should we just take the jack sparrow 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1580,7 +1580,7 @@ context_above: "That depends on the tone you want to land with. Here’s the tra
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1604,7 +1604,7 @@ context_above: "Does that match his though or should I just change out my interp
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1682,7 +1682,7 @@ context_above: "Good question — if your goal is to be fully true to Richard Da
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1706,7 +1706,7 @@ context_above: "But then am I off by saying use this as a gauge?"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1753,7 +1753,7 @@ context_above: "Not at all 🤍 — you’re actually right on point with callin
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1777,7 +1777,7 @@ context_above: "Yes please!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -1843,7 +1843,7 @@ context_above: "Perfect 🤍 here’s a polished caption you can use that blends
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1867,7 +1867,7 @@ context_above: "Yes I like that one thank you! Is there a way to tie in jacks co
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1936,7 +1936,7 @@ context_above: "I’m so glad you like it 🤍 You can tie in Jack Sparrow’s c
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1960,7 +1960,7 @@ context_above: "Not even the comparison of jack and happiness, but like how ever
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [1, 8, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT

@@ -35,14 +35,14 @@ The canonical repo document sweep covered 667 files under `.conductor/`, `.claud
 ## Governing Requirements
 
 1. The spiral is its own immersive landing page, not a marketing page with the spiral as a framed widget.
-2. Each node is an offshoot world with its own URL and own material identity.
+2. Each node is an offshoot world with its own URL and own material structure.
 3. The node boundary must be readable at small and large sizes.
 4. The boundary is not just a shell; the interior matter must make the boundary understandable.
 5. Gas, liquid, solid, and plasma states are real visual inputs, not labels.
 6. Each node needs a distinctive theme and color set.
 7. The background must be a unified site field; random page-by-page background colors break the system.
-8. Hover names and clickable node navigation remain required, but they do not replace the visual identity.
-9. The render should feel alive, refracted, water-like, atmospheric, and always slightly different.
+8. Hover names and clickable node navigation remain required, but they do not replace the visual structure.
+9. The render should feel alive, refracted, gateway-like, atmospheric, and always slightly different.
 10. Repeated generic orbs, repeated card wrappers, and decorative-only glow do not satisfy the source direction.
 
 ## Current Gap
@@ -105,7 +105,7 @@ field is now coherent across the spiral and sampled node pages.
 The same screenshot pass also confirms the next remaining visual gap: nodes 1,
 8, and 13 are distinct by silhouette and palette, but still rely too much on
 outer icon geometry. Node 5 better satisfies the requested model because its
-interior liquid mass visibly explains the water-drop boundary. The next node
+interior liquid mass visibly explains the gateway-drop boundary. The next node
 render pass should make the interior matter laws visually primary for every
 node, not merely present as subtle overlays.
 

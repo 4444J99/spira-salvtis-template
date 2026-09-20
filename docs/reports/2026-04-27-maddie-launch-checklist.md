@@ -6,10 +6,10 @@ This checklist summarizes the remaining "human-in-the-loop" actions required to 
 To move from the current Worker review URL (`sovereign-systems-spiral.ivixivi.workers.dev`) to `hub-example.com`:
 - [ ] Log into GoDaddy.
 - [ ] Update DNS settings (I can provide the exact A/CNAME records once you start the process in Cloudflare, or we can hop on a 5-min call to do it together).
-- [ ] Connect `water-example.com` (this will replace the current GHL-hosted landing page with the new high-performance funnel).
+- [ ] Connect `gateway-example.com` (this will replace the current GHL-hosted landing page with the new high-performance funnel).
 
 ## 2. Affiliate Links & Products (Action: admin)
-To start generating revenue through the Hydration Funnel:
+To start generating revenue through the Gateway Funnel:
 - [ ] Provide IonFaucet affiliate link.
 - [ ] Provide Multipure affiliate link.
 - [ ] Provide PureHome / Enagic K8 affiliate links.

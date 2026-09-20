@@ -55,7 +55,7 @@ const canonicalURL = new URL(
 
 // --- Active page detection ---
 const currentPath = Astro.url.pathname;
-const isWaterSection = currentPath.startsWith('/water');
+const isWaterSection = currentPath.startsWith('/gateway');
 const isStoreSection = currentPath.startsWith('/store');
 const isNonprofitSection = currentPath.startsWith('/nonprofit');
 const isHome = currentPath === '/';
@@ -63,8 +63,8 @@ const defaultNavVariant = ui.navVariant;
 
 // Boundary-aware active test: a nav link is active for its own page and for
 // descendant routes, but NOT for sibling routes that merely share a string
-// prefix. `/nodes/1` no longer captures `/nodes/10-12`; `/water/` still
-// matches `/water/quiz` because the next char is a path separator.
+// prefix. `/nodes/1` no longer captures `/nodes/10-12`; `/gateway/` still
+// matches `/gateway/quiz` because the next char is a path separator.
 function isActiveRoute(href: string): boolean {
   if (href === '/') return currentPath === '/';
   const base = href.replace(/\/$/, '');
@@ -74,29 +74,29 @@ function isActiveRoute(href: string): boolean {
 
 function navClass(href: string): string {
   let active = isActiveRoute(href);
-  // Physical pillar routes to /water/, Financial pillar routes to /business/
-  if (href === '/water/' && currentPath.startsWith('/pillars/physical'))
+  // Foundation pillar routes to /gateway/, Vision pillar routes to /business/
+  if (href === '/gateway/' && currentPath.startsWith('/pillars/foundation'))
     active = true;
   if (
     href === '/business/' &&
-    (currentPath.startsWith('/pillars/financial') || isStoreSection)
+    (currentPath.startsWith('/pillars/vision') || isStoreSection)
   )
     active = true;
   return active ? 'text-white' : 'text-ocean-400 hover:text-white';
 }
 
 // Per-tab world accent — each nav tab's hover underline carries the accent
-// of the IconWorld it leads to (lead node of the pillar / the water node),
+// of the IconWorld it leads to (lead node of the pillar / the gateway node),
 // derived from config (M2: never hardcoded). Teal fallback elsewhere.
 function tabAccent(href: string): string {
   let nodeId: number | undefined;
-  if (href === '/water/') {
-    nodeId = config.nodes.find((n) => n.url === '/water/')?.id;
+  if (href === '/gateway/') {
+    nodeId = config.nodes.find((n) => n.url === '/gateway/')?.id;
   } else if (href.startsWith('/pillars/')) {
     const slug = href.replace('/pillars/', '').replace(/\/$/, '');
     nodeId = config.nodes.find((n) => n.pillarSlug === slug)?.id;
   } else if (href === '/business/') {
-    nodeId = config.nodes.find((n) => n.pillarSlug === 'financial')?.id;
+    nodeId = config.nodes.find((n) => n.pillarSlug === 'vision')?.id;
   } else if (href === '/nonprofit') {
     nodeId = 11;
   }
@@ -126,18 +126,18 @@ if (!isHome) {
   breadcrumbs.push({ label: 'Home', href: '/' });
 
   if (isWaterSection) {
-    const subPath = currentPath.replace('/water/', '').replace(/\/$/, '');
-    if (!subPath || subPath === 'water') {
-      breadcrumbs.push({ label: 'Water' });
+    const subPath = currentPath.replace('/gateway/', '').replace(/\/$/, '');
+    if (!subPath || subPath === 'gateway') {
+      breadcrumbs.push({ label: 'Gateway' });
     } else if (subPath === 'quiz') {
-      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: 'Gateway', href: '/gateway/' });
       breadcrumbs.push({ label: 'Quiz' });
     } else if (subPath === 'explore') {
-      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: 'Gateway', href: '/gateway/' });
       breadcrumbs.push({ label: 'Branches' });
     } else {
       const branchName = config.branches.find((b) => b.slug === subPath)?.name;
-      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: 'Gateway', href: '/gateway/' });
       breadcrumbs.push({ label: branchName || subPath });
     }
   } else if (currentPath.startsWith('/pillars/')) {
@@ -236,28 +236,28 @@ if (!isHome) {
             ]}>Spiral</a
           >
           <a
-            href="/water/"
-            style={`--tab-accent: ${tabAccent('/water/')}`}
+            href="/gateway/"
+            style={`--tab-accent: ${tabAccent('/gateway/')}`}
             class:list={[
               'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
-              navClass('/water/'),
-            ]}>Water</a
+              navClass('/gateway/'),
+            ]}>Gateway</a
           >
           <a
-            href="/pillars/inner"
-            style={`--tab-accent: ${tabAccent('/pillars/inner')}`}
+            href="/pillars/system"
+            style={`--tab-accent: ${tabAccent('/pillars/system')}`}
             class:list={[
               'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
-              navClass('/pillars/inner'),
-            ]}>Inner</a
+              navClass('/pillars/system'),
+            ]}>System</a
           >
           <a
-            href="/pillars/identity"
-            style={`--tab-accent: ${tabAccent('/pillars/identity')}`}
+            href="/pillars/structure"
+            style={`--tab-accent: ${tabAccent('/pillars/structure')}`}
             class:list={[
               'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
-              navClass('/pillars/identity'),
-            ]}>Identity</a
+              navClass('/pillars/structure'),
+            ]}>Structure</a
           >
           <a
             href="/business/"
@@ -374,34 +374,34 @@ if (!isHome) {
           >
         </button>
       </div>
-      <!-- Water sub-nav (desktop only, Water section pages) -->
+      <!-- Gateway sub-nav (desktop only, Gateway section pages) -->
       {
         isWaterSection && (
           <div class="hidden md:block border-t border-white/[0.03]">
             <div class="max-w-6xl mx-auto px-6 md:px-10 py-2.5 flex gap-6">
               <a
-                href="/water/"
+                href="/gateway/"
                 class:list={[
                   'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
-                  subNavClass('/water/'),
+                  subNavClass('/gateway/'),
                 ]}
               >
-                Water Home
+                Gateway Home
               </a>
               <a
-                href="/water/quiz"
+                href="/gateway/quiz"
                 class:list={[
                   'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
-                  subNavClass('/water/quiz'),
+                  subNavClass('/gateway/quiz'),
                 ]}
               >
                 Quiz
               </a>
               <a
-                href="/water/#branches"
+                href="/gateway/#branches"
                 class:list={[
                   'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
-                  subNavClass('/water/#branches'),
+                  subNavClass('/gateway/#branches'),
                 ]}
               >
                 Branches
@@ -425,27 +425,27 @@ if (!isHome) {
         >
           <span
             class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-1 pb-2"
-            >Water</span
+            >Gateway</span
           >
           <a
-            href="/water/"
+            href="/gateway/"
             class:list={[
               'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
-              mobileNavClass('/water/'),
-            ]}>Water Home</a
+              mobileNavClass('/gateway/'),
+            ]}>Gateway Home</a
           >
           <a
-            href="/water/quiz"
+            href="/gateway/quiz"
             class:list={[
               'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
-              mobileNavClass('/water/quiz'),
+              mobileNavClass('/gateway/quiz'),
             ]}>Take the Quiz</a
           >
           <a
-            href="/water/#branches"
+            href="/gateway/#branches"
             class:list={[
               'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
-              mobileNavClass('/water/#branches'),
+              mobileNavClass('/gateway/#branches'),
             ]}>Explore Branches</a
           >
           <span
@@ -460,18 +460,18 @@ if (!isHome) {
             ]}>Immersive Spiral</a
           >
           <a
-            href="/pillars/inner"
+            href="/pillars/system"
             class:list={[
               'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
-              mobileNavClass('/pillars/inner'),
-            ]}>Inner Sovereignty</a
+              mobileNavClass('/pillars/system'),
+            ]}>System Sovereignty</a
           >
           <a
-            href="/pillars/identity"
+            href="/pillars/structure"
             class:list={[
               'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
-              mobileNavClass('/pillars/identity'),
-            ]}>Identity Sovereignty</a
+              mobileNavClass('/pillars/structure'),
+            ]}>Structure Sovereignty</a
           >
           <a
             href="/business/"
@@ -480,7 +480,7 @@ if (!isHome) {
               mobileNavClass('/business/'),
             ]}>Business</a
           >
-          <!-- Store nav removed (admin 2026-06-22 #6): no affiliate water
+          <!-- Store nav removed (admin 2026-06-22 #6): no affiliate gateway
                products anywhere on the spiral. /store page preserved + delisted. -->
           <a
             href="/nonprofit"
@@ -659,33 +659,33 @@ if (!isHome) {
               {config.domains.hub}
             </p>
           </div>
-          <!-- Water -->
+          <!-- Gateway -->
           <div>
             <p
               class="text-[10px] tracking-[0.15em] uppercase text-white/30 font-medium mb-3"
             >
-              Water
+              Gateway
             </p>
             <div class="flex flex-col gap-2">
               <a
-                href="/water/"
+                href="/gateway/"
                 class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
-                >Water Home</a
+                >Gateway Home</a
               >
               <a
-                href="/water/quiz"
+                href="/gateway/quiz"
                 class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
                 >Take the Quiz</a
               >
               <a
-                href="/water/#branches"
+                href="/gateway/#branches"
                 class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
                 >Explore Branches</a
               >
               {
                 config.branches.map((branch) => (
                   <a
-                    href={`/water/${branch.slug}`}
+                    href={`/gateway/${branch.slug}`}
                     class="text-[12px] text-white/15 hover:text-white/30 transition-colors pl-2"
                   >
                     {branch.name}
@@ -705,7 +705,7 @@ if (!isHome) {
               {
                 config.pillars
                   .filter(
-                    (p) => p.slug !== 'physical' && p.slug !== 'financial',
+                    (p) => p.slug !== 'foundation' && p.slug !== 'vision',
                   )
                   .map((pillar) => (
                     <a
@@ -719,7 +719,7 @@ if (!isHome) {
               <a
                 href="/business/"
                 class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
-                >Financial Sovereignty</a
+                >Vision Sovereignty</a
               >
               <!-- Store link removed (admin 2026-06-22 #6) -->
               <a
@@ -780,8 +780,8 @@ if (!isHome) {
           position:fixed; z-index:9999; pointer-events:none; opacity:0;
           transition:opacity 0.15s; max-width:320px; padding:14px 16px;
           background:var(--color-ocean-800); border:1px solid rgba(17,154,158,0.25);
-          border-radius:10px; box-shadow:0 12px 40px rgba(0,0,0,0.5);
-          font-family:Inter,system-ui,sans-serif;
+          'border-radius':10px; box-shadow:0 12px 40px rgba(0,0,0,0.5);
+          'font-family':Inter,system-ui,sans-serif;
         `;
         document.body.appendChild(el);
         return el;
@@ -937,19 +937,19 @@ if (!isHome) {
      for tabs without a world binding). Background-trick underline: zero
      layout shift, GPU-friendly, static under reduced-motion. */
   .nav-tab {
-    background-image: linear-gradient(
+    'background-image': linear-gradient(
       to right,
       var(--tab-accent, #119a9e),
       var(--tab-accent, #119a9e)
     );
-    background-repeat: no-repeat;
-    background-size: 0% 1px;
-    background-position: 0 100%;
-    padding-bottom: 3px;
+    'background-repeat': no-repeat;
+    'background-size': 0% 1px;
+    'background-position': 0 100%;
+    'padding-bottom': 3px;
     transition: background-size 0.4s ease;
   }
   .nav-tab:hover {
-    background-size: 100% 1px;
+    'background-size': 100% 1px;
   }
   @media (prefers-reduced-motion: reduce) {
     .nav-tab {

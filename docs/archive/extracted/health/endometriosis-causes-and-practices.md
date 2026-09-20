@@ -17,7 +17,7 @@ source_file: "ChatGPT-Endometriosis causes and practices.txt"
 source_folder: "health"
 nodes: [5, 9, 7]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -68,7 +68,7 @@ context_above: "Endometriosis doubled in the last ten years? It makes me so mad 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -148,7 +148,7 @@ Here are a few practices and what the research shows:
 
 Acupuncture: Some trials suggest it can reduce menstrual pain associated with endometriosis. For example, one review found a “large effect” on menstrual pain for acupuncture versus usual care. But the evidence is still low certainty. PMC+2thedaohealth.com.au+2
 
-Chinese herbal medicine (CHM): Some studies indicate benefits for symptom relief, shrinking lesions, improving fertility in endometriosis when used alongside or compared to Western treatments. PubMed+2BioMed Central+2
+Chinese herbal medicine (CHM): Some studies indicate benefits for symptom relief, shrinking lesions, improving archetype-delta in endometriosis when used alongside or compared to Western treatments. PubMed+2BioMed Central+2
 
 Combined therapy: Some meta-analyses suggest TCM combined with Western hormonal treatments may improve outcomes and reduce side effects. Frontiers+1
 
@@ -173,7 +173,7 @@ Eastern/traditional practices are not magic cures. The evidence is promising in 
 
 Any herbal remedy or supplement should be vetted thoroughly (interactions, safety, quality) and discussed with your healthcare provider.
 
-Because endometriosis can seriously impact fertility, pain, and organs, it often does warrant conventional medical evaluation (imaging, specialist care) alongside complementary practices.
+Because endometriosis can seriously impact archetype-delta, pain, and organs, it often does warrant conventional medical evaluation (imaging, specialist care) alongside complementary practices.
 
 The fact that many conventional treatments focus on hormones or surgery is partly because endo’s mechanisms are fairly hormone- and structure-driven (tissue responding to estrogen, lesions forming, etc) — so what feels frustrating has a rationale. But that doesn’t mean that is the only approach.
 
@@ -189,13 +189,13 @@ Here are some practical ideas you could bring to your care (with your provider�
 
 Consider seeking a TCM practitioner (licensed/accredited) to evaluate you and offer a tailored regimen (acupuncture + herbs) for endo.
 
-Explore lifestyle changes that support improved circulation and reduce “stagnation/inflammation” (within your tolerance): gentle aerobic exercise, pelvic floor physical therapy, heat (warm baths, castor oil packs for low belly), perhaps dietary tweaks to reduce inflammation (anti-inflammatory foods) and avoid extremes of “cold” foods if you resonate with TCM patterns.
+Explore lifestyle changes that support improved circulation and reduce “stagnation/inflammation” (within your tolerance): gentle aerobic exercise, pelvic floor foundation therapy, heat (warm baths, castor oil packs for low belly), perhaps dietary tweaks to reduce inflammation (anti-inflammatory foods) and avoid extremes of “cold” foods if you resonate with TCM patterns.
 
 Keep a track log of pain, symptoms, menstrual patterns — this helps both you and clinicians spot what’s changing.
 
 Ask your gynaecologist or specialist about integrative care options: How would complementary therapies fit in with your current plan? Are there non-hormonal/less invasive options being studied?
 
-Advocate for yourself — you have every right to express your frustrations, ask for alternatives, ask about fertility preservation, ask for second opinions.
+Advocate for yourself — you have every right to express your frustrations, ask for alternatives, ask about archetype-delta preservation, ask for second opinions.
 
 
 
@@ -216,7 +216,7 @@ context_above: "It’s totally understandable that you’re frustrated — Endom
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -244,7 +244,7 @@ context_above: "So tampons could be causing it? With the back flow?"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [5, 9, 7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE

@@ -84,7 +84,7 @@ Emotions, intuition, cycles, and the subconscious
 
 Feminine energy and the yin principle
 
-Water, reflection, and internal tides
+Gateway, reflection, and internal tides
 
 The mother, nurturing, dreams, and change
 

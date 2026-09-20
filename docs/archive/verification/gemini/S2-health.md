@@ -17,7 +17,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-🌀 STAGE 1: THE CALL – “There must be more than this…” Emotional dissonance • Illness • Burnout • Feeling lost or stuck. Signs: Burnt out, sick, spiritually numb; Mystery autoimmune symptoms / hormone chaos; Overgiving, people-pleasing, emotionally raw; Wake-up dreams, angel numbers, nature signs.
+🌀 STAGE 1: THE CALL – “There must be more than this…” Emotional dissonance • Illness • Burnout • Feeling lost or stuck. Signs: Burnt out, sick, spiritually numb; Mystery archetype-beta symptoms / hormone chaos; Overgiving, people-pleasing, emotionally raw; Wake-up dreams, angel numbers, nature signs.
 ===
 
 ATOM S2-H-003
@@ -83,7 +83,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-🌀 STAGE 3: THE THRESHOLD – "What if I tried something new?" Curiosity sparks • Small wins • Nervous system begins to regulate. Keywords: Learning about yin/yang balance; Tracking cycle + syncing food/movement; Water quality, cellular healing, EMF awareness; "What if it's all just frequency?"
+🌀 STAGE 3: THE THRESHOLD – "What if I tried something new?" Curiosity sparks • Small wins • Nervous system begins to regulate. Keywords: Learning about yin/yang balance; Tracking cycle + syncing food/movement; Gateway quality, cellular healing, EMF awareness; "What if it's all just frequency?"
 ===
 
 ATOM S2-H-009
@@ -94,7 +94,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Tools for Stage 3: Cold food Human Design type support. Gut-healing foods + magnesium, D3, probiotics. Spiritual detox symptoms (sweats, dreams, angel numbers). Identity shift: not what you do, but who you are becoming.
+Tools for Stage 3: Cold food Human Design type support. Gut-healing foods + magnesium, D3, probiotics. Spiritual detox symptoms (sweats, dreams, angel numbers). Structure shift: not what you do, but who you are becoming.
 ===
 
 ATOM S2-H-010
@@ -110,13 +110,13 @@ Content:
 
 ATOM S2-H-011
 Section: Stage 5: The Descent
-Idea: Stage 5 is a phase of deep inner rewiring where old pain resurfaces and ego death occurs.
+Idea: Stage 5 is a phase of deep system rewiring where old pain resurfaces and ego death occurs.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-🌀 STAGE 5: THE DESCENT – “Old pain resurfaces. Can I face it now?” Emotional flashbacks • Spiritual ego death • Feeling “behind” again. Keywords: Overwhelmed, overthinking, old patterns resurface; Loss, grief, financial tension; Hanged Man pause: deep inner rewiring; Feeling alone, unseen, not reciprocated.
+🌀 STAGE 5: THE DESCENT – “Old pain resurfaces. Can I face it now?” Emotional flashbacks • Spiritual ego death • Feeling “behind” again. Keywords: Overwhelmed, overthinking, old patterns resurface; Loss, grief, vision tension; Hanged Man pause: deep system rewiring; Feeling alone, unseen, not reciprocated.
 ===
 
 ATOM S2-H-012
@@ -127,7 +127,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-🌀 STAGE 6: THE RECLAMATION – “I am not broken. I’m becoming.” Confidence • Coherence • Clarity in identity and mission. Keywords: Building the nonprofit (Cind & Sol); Creating a new reality: land, home, structure; Emotionally leading with heart and strategy; Reclaiming worth, sensuality, wealth codes.
+🌀 STAGE 6: THE RECLAMATION – “I am not broken. I’m becoming.” Confidence • Coherence • Clarity in structure and mission. Keywords: Building the nonprofit (Cind & Sol); Creating a new reality: land, home, structure; Emotionally leading with heart and strategy; Reclaiming worth, sensuality, wealth codes.
 ===
 
 ATOM S2-H-013
@@ -143,7 +143,7 @@ Content:
 
 ATOM S2-H-014
 Section: Core Truths
-Idea: The healing journey is about "unbecoming" layers of false identity rather than acquiring new traits.
+Idea: The healing journey is about "unbecoming" layers of false structure rather than acquiring new traits.
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
@@ -176,13 +176,13 @@ Every thought = a frequency. Every word = a vibrational code. What you visualize
 
 ATOM S2-H-017
 Section: Electromagnetic Creation
-Idea: The body's frequency is influenced by inputs such as thoughts, food, water, and environment.
+Idea: The body's frequency is influenced by inputs such as thoughts, food, gateway, and environment.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-The body’s frequency changes based on thoughts, emotions, foods, water, and environment. Frequency is the foundation of all form.
+The body’s frequency changes based on thoughts, emotions, foods, gateway, and environment. Frequency is the foundation of all form.
 ===
 
 ATOM S2-H-018
@@ -209,18 +209,18 @@ Your eyes are black holes. Your words are spells. Your body is a conductor. You 
 
 ATOM S2-H-020
 Section: Body as Teacher
-Idea: Autoimmune conditions can be reinterpreted as stories of misaligned truth and sensitivity.
+Idea: Archetype-beta conditions can be reinterpreted as stories of misaligned truth and sensitivity.
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Your “autoimmune” story wasn’t just illness—it was a misalignment of truth. The medical model gave you no name, so you gave yourself one: Sovereign. Sensitive. Self-healer.
+Your “archetype-beta” story wasn’t just illness—it was a misalignment of truth. The medical model gave you no name, so you gave yourself one: Sovereign. Sensitive. Self-healer.
 ===
 
 ATOM S2-H-021
 Section: Quantum Mechanics
-Idea: The chicken/robot experiment demonstrates that focused intention and emotion can influence physical matter.
+Idea: The chicken/robot experiment demonstrates that focused intention and emotion can influence foundation matter.
 Provenance: HYBRID
 Nature: STATISTIC
 Editorial: CLEAN
@@ -275,13 +275,13 @@ Voice Journal Tip: Describe a week in your life as your fully healed, fully thri
 
 ATOM S2-H-026
 Section: Introduction
-Idea: Hormones impact every area of a woman's life including energy, mood, focus, physical health, and relationships.
+Idea: Hormones impact every area of a woman's life including energy, mood, focus, foundation health, and relationships.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Most women go through their menstrual cycles without fully understanding how much their hormones impact every area of their lives—energy, mood, focus, physical health, and even relationships.
+Most women go through their menstrual cycles without fully understanding how much their hormones impact every area of their lives—energy, mood, focus, foundation health, and even relationships.
 ===
 
 ATOM S2-H-027
@@ -419,13 +419,13 @@ What to Do: Collaborate and Network: Schedule meetings, dates, or social events 
 
 ATOM S2-H-039
 Section: Ovulatory Phase (Days 14-16)
-Idea: Ovulatory Phase Nutrition: Fuel with antioxidant-rich foods, healthy fats, and zinc-rich foods to support fertility and energy.
+Idea: Ovulatory Phase Nutrition: Fuel with antioxidant-rich foods, healthy fats, and zinc-rich foods to support archetype-delta and energy.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Nutrition: Fuel your fertility and energy with hormone-supportive foods: Antioxidant-rich foods: Berries, pomegranate to reduce oxidative stress. Healthy fats: Avocado, nuts, seeds to support hormone production. Zinc-rich foods: Pumpkin seeds, shellfish to enhance immune function and cell repair.
+Nutrition: Fuel your archetype-delta and energy with hormone-supportive foods: Antioxidant-rich foods: Berries, pomegranate to reduce oxidative stress. Healthy fats: Avocado, nuts, seeds to support hormone production. Zinc-rich foods: Pumpkin seeds, shellfish to enhance immune function and cell repair.
 ===
 
 ATOM S2-H-040
@@ -518,13 +518,13 @@ How Movement Helps Your Hormones: Menstrual Phase: Gentle movement increases cir
 
 ATOM S2-H-048
 Section: Cycle Tracking
-Idea: Cycle tracking provides clarity on shifts, monitors hormonal health irregularities, and informs lifestyle decisions and fertility awareness.
+Idea: Cycle tracking provides clarity on shifts, monitors hormonal health irregularities, and informs lifestyle decisions and archetype-delta awareness.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Why Track Your Cycle? Clarity: Gain insight into how your body and emotions shift. Health Monitoring: Spot irregularities or potential hormonal imbalances. Informed Decisions: Plan workouts, meals, and social life around natural rhythms. Fertility Awareness: Invaluable for those trying to conceive or avoid pregnancy.
+Why Track Your Cycle? Clarity: Gain insight into how your body and emotions shift. Health Monitoring: Spot irregularities or potential hormonal imbalances. Informed Decisions: Plan workouts, meals, and social life around natural rhythms. Archetype-delta Awareness: Invaluable for those trying to conceive or avoid pregnancy.
 ===
 
 ATOM S2-H-049
@@ -539,14 +539,14 @@ How to Track Your Cycle: Start with a Calendar or App. Record These Key Details:
 ===
 
 ATOM S2-H-050
-Section: Fertility Awareness
-Idea: Natural fertility awareness involves identifying the 5-6 day fertile window ending on ovulation, marked by clear cervical mucus and BBT rise.
+Section: Archetype-delta Awareness
+Idea: Natural archetype-delta awareness involves identifying the 5-6 day fertile window ending on ovulation, marked by clear cervical mucus and BBT rise.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Cycle Tracking for Fertility Awareness: Fertile Window: Typically spans 5-6 days, ending on the day of ovulation. Key Signs to Watch: Clear, stretchy cervical mucus and a slight rise in basal body temperature. Non-Hormonal Options: Condoms, diaphragms, copper IUDs, or fertility awareness-based methods (FABMs).
+Cycle Tracking for Archetype-delta Awareness: Fertile Window: Typically spans 5-6 days, ending on the day of ovulation. Key Signs to Watch: Clear, stretchy cervical mucus and a slight rise in basal body temperature. Non-Hormonal Options: Condoms, diaphragms, copper IUDs, or archetype-delta awareness-based methods (FABMs).
 ===
 
 ATOM S2-H-051
@@ -557,7 +557,7 @@ Nature: STATISTIC
 Editorial: CLEAN
 ---
 Content:
-Common Side Effects of Hormonal Birth Control: Mood Swings (irritability, depression, anxiety); Weight Gain (appetite, water retention); Decreased Libido; Headaches & Migraines; Nausea; Irregular Bleeding (spotting); Breast Tenderness.
+Common Side Effects of Hormonal Birth Control: Mood Swings (irritability, depression, anxiety); Weight Gain (appetite, gateway retention); Decreased Libido; Headaches & Migraines; Nausea; Irregular Bleeding (spotting); Breast Tenderness.
 ===
 
 ATOM S2-H-052
@@ -573,18 +573,18 @@ Long-Term Effects of Hormonal Birth Control: Hormonal Imbalance (restoring balan
 
 ATOM S2-H-053
 Section: Natural Birth Control Alternatives
-Idea: Natural birth control methods include the Fertility Awareness Method (FAM), Standard Days Method, and Cervical Mucus Method.
+Idea: Natural birth control methods include the Archetype-delta Awareness Method (FAM), Standard Days Method, and Cervical Mucus Method.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Natural Birth Control Methods: Fertility Awareness Method (FAM): Tracking cycle, mucus, and BBT to identify fertile window. Standard Days Method (SDM): Tracking typical days of cycle (8–19) that are fertile. Cervical Mucus Method: Tracking changes in mucus (clear/slippery = ovulation) to determine fertility.
+Natural Birth Control Methods: Archetype-delta Awareness Method (FAM): Tracking cycle, mucus, and BBT to identify fertile window. Standard Days Method (SDM): Tracking typical days of cycle (8–19) that are fertile. Cervical Mucus Method: Tracking changes in mucus (clear/slippery = ovulation) to determine archetype-delta.
 ===
 
 ATOM S2-H-054
 Section: Natural Birth Control Alternatives
-Idea: Non-hormonal medical or physical alternatives include the copper IUD, barrier methods (condoms/diaphragms), and sterilization.
+Idea: Non-hormonal medical or foundation alternatives include the copper IUD, barrier methods (condoms/diaphragms), and sterilization.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -594,58 +594,58 @@ Natural Birth Control Methods (Continued): Copper IUD: Small device placed in ut
 ===
 
 ATOM S2-H-055
-Section: Hydration and Blood Sugar
-Idea: Proper hydration supports blood sugar by removing excess glucose through kidneys, improving cellular insulin sensitivity, and balancing cortisol.
+Section: Gateway and Blood Sugar
+Idea: Proper gateway supports blood sugar by removing excess glucose through kidneys, improving cellular insulin sensitivity, and balancing cortisol.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Proper hydration affects blood sugar in three major ways: 1. It helps your body remove excess glucose (supports kidney function). 2. It improves cellular insulin sensitivity (hydrated cells receive glucose easier). 3. It supports cortisol balance (hydration reduces stress signals that raise blood sugar).
+Proper gateway affects blood sugar in three major ways: 1. It helps your body remove excess glucose (supports kidney function). 2. It improves cellular insulin sensitivity (hydrated cells receive glucose easier). 3. It supports cortisol balance (gateway reduces stress signals that raise blood sugar).
 ===
 
 ATOM S2-H-056
 Section: Blood Sugar Hierarchy
-Idea: Blood sugar stability is driven by a hierarchy of factors: 1. Nutrition, 2. Stress/Cortisol, 3. Sleep, 4. Movement, and 5. Hydration/Minerals.
+Idea: Blood sugar stability is driven by a hierarchy of factors: 1. Nutrition, 2. Stress/Cortisol, 3. Sleep, 4. Movement, and 5. Gateway/Minerals.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-The Blood Sugar Hierarchy: #1 Nutrition (meal composition); #2 Stress + Cortisol (stress spikes glucose); #3 Sleep & Circadian Rhythm (poor sleep increases resistance); #4 Movement (muscle is a glucose sink); #5 Hydration & Minerals (modulator that makes other factors work better).
+The Blood Sugar Hierarchy: #1 Nutrition (meal composition); #2 Stress + Cortisol (stress spikes glucose); #3 Sleep & Circadian Rhythm (poor sleep increases resistance); #4 Movement (muscle is a glucose sink); #5 Gateway & Minerals (modulator that makes other factors work better).
 ===
 
 ATOM S2-H-057
-Section: Ideal Hydration
-Idea: Optimal hydration for blood sugar balance involves mineral-rich water (Mg, K, Na) and hydrogen-rich or alkaline-structured water to reduce oxidative stress.
+Section: Ideal Gateway
+Idea: Optimal gateway for blood sugar balance involves mineral-rich gateway (Mg, K, Na) and hydrogen-rich or alkaline-structured gateway to reduce oxidative stress.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-For blood sugar, the ideal hydration is: Mineral-rich water (especially magnesium, potassium, sodium). Hydrogen-rich or alkaline-structured water (reduces oxidative stress on cells, making insulin signaling easier). Consistent intake, especially between meals. Electrolytes are key.
+For blood sugar, the ideal gateway is: Mineral-rich gateway (especially magnesium, potassium, sodium). Hydrogen-rich or alkaline-structured gateway (reduces oxidative stress on cells, making insulin signaling easier). Consistent intake, especially between meals. Electrolytes are key.
 ===
 
 ATOM S2-H-058
 Section: Blood Sugar Habits
-Idea: Five essential habits for stable blood sugar include breaking fasts with protein/fat, walking after meals, regulating stress, prioritizing sleep, and consistent mineral-rich hydration.
+Idea: Five essential habits for stable blood sugar include breaking fasts with protein/fat, walking after meals, regulating stress, prioritizing sleep, and consistent mineral-rich gateway.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Focus on these 5 habits for stable blood sugar: 1. Break your fast with protein + fat before carbs. 2. Walk 10 minutes after meals. 3. Regulate stress (breathwork, nervous system work). 4. Prioritize 7–9 hours of deep sleep. 5. Drink mineral-rich water consistently.
+Focus on these 5 habits for stable blood sugar: 1. Break your fast with protein + fat before carbs. 2. Walk 10 minutes after meals. 3. Regulate stress (breathwork, nervous system work). 4. Prioritize 7–9 hours of deep sleep. 5. Drink mineral-rich gateway consistently.
 ===
 
 ATOM S2-H-059
 Section: The Bio-Safety Pyramid
-Idea: The Bio-Safety Pyramid framework places Hydration/Nutrition at "Square Zero," followed by Blood Sugar Stability, Nervous System Regulation, Emotional Regulation, and eventually Self-Actualization.
+Idea: The Bio-Safety Pyramid framework places Gateway/Nutrition at "Square Zero," followed by Blood Sugar Stability, Nervous System Regulation, Emotional Regulation, and eventually Self-Actualization.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-The Bio-Safety Pyramid™: SQUARE ZERO: Hydration + Mineral Balance + Whole-Food Nutrition; STEP 1: Blood Sugar Stability; STEP 2: Nervous System Regulation (Safety + Somatics + Breath); STEP 3: Emotional Regulation + Identity Shifts; STEP 4: Creativity, Intuition, Higher Consciousness; STEP 5: Self-Actualization / The “Unlock” Phase.
+The Bio-Safety Pyramid™: SQUARE ZERO: Gateway + Mineral Balance + Whole-Food Nutrition; STEP 1: Blood Sugar Stability; STEP 2: Nervous System Regulation (Safety + Somatics + Breath); STEP 3: Emotional Regulation + Structure Shifts; STEP 4: Creativity, Intuition, Higher Consciousness; STEP 5: Self-Actualization / The “Unlock” Phase.
 ===
 
 ATOM S2-H-060
@@ -671,14 +671,14 @@ Stable blood sugar = stable hormones and mood. Spikes & crashes trigger cortisol
 ===
 
 ATOM S2-H-062
-Section: Hydration as Square Zero
-Idea: Cells require water and minerals for ATP production and insulin signaling; without them, the body remains in fight-or-flight chemistry.
+Section: Gateway as Square Zero
+Idea: Cells require gateway and minerals for ATP production and insulin signaling; without them, the body remains in fight-or-flight chemistry.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-SQUARE ZERO: Hydration & Nutrition. Cells need water + minerals to make ATP. Without hydration, insulin signaling is impaired. Without minerals, the body stays in fight-or-flight chemistry. Hydration creates the physical conditions for safety.
+SQUARE ZERO: Gateway & Nutrition. Cells need gateway + minerals to make ATP. Without gateway, insulin signaling is impaired. Without minerals, the body stays in fight-or-flight chemistry. Gateway creates the foundation conditions for safety.
 ===
 
 ATOM S2-H-063
@@ -689,7 +689,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-If your cells are dehydrated, your body can’t stabilize glucose, can’t absorb nutrients, and can’t create energy. So even “healthy food” becomes another stress signal. Hydration → stable blood sugar → a body that finally feels safe.
+If your cells are dehydrated, your body can’t stabilize glucose, can’t absorb nutrients, and can’t create energy. So even “healthy food” becomes another stress signal. Gateway → stable blood sugar → a body that finally feels safe.
 ===
 
 ATOM S2-H-064
@@ -705,57 +705,57 @@ Once the brain stops scanning for danger (because glucose is stable), the vagus 
 
 ATOM S2-H-065
 Section: Maslow Parallel
-Idea: Emotional and spiritual growth requires meeting physiological needs first, specifically hydration and stable blood sugar as the base of the pyramid.
+Idea: Emotional and spiritual growth requires meeting physiological needs first, specifically gateway and stable blood sugar as the base of the pyramid.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Just like Maslow showed — you can’t reach emotional or spiritual growth without meeting your physiological needs first. Hydration and stable blood sugar are the base of the pyramid. When the body feels safe, then the nervous system can finally regulate.
+Just like Maslow showed — you can’t reach emotional or spiritual growth without meeting your physiological needs first. Gateway and stable blood sugar are the base of the pyramid. When the body feels safe, then the nervous system can finally regulate.
 ===
 
 ATOM S2-H-066
 Section: Inflammation as a Signal
-Idea: Symptoms such as headaches, bloating, fatigue, and joint pain are messages of inflammation from the body, often linked to hydration and electrical imbalance.
+Idea: Symptoms such as headaches, bloating, fatigue, and joint pain are messages of inflammation from the body, often linked to gateway and electrical imbalance.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Most people don’t actually have health problems — they have signals their body has been whispering for years. Your body communicates through inflammation: headaches, bloating, tender breasts, fatigue, acne, joint pain… these are messages. 70–90% of those messages come back to two things: hydration and your electrical system being out of balance.
+Most people don’t actually have health problems — they have signals their body has been whispering for years. Your body communicates through inflammation: headaches, bloating, tender breasts, fatigue, acne, joint pain… these are messages. 70–90% of those messages come back to two things: gateway and your electrical system being out of balance.
 ===
 
 ATOM S2-H-067
-Section: Water and the Body
-Idea: The human brain is 75% water and blood is 92% water, emphasizing the foundational role of hydration in physiology.
+Section: Gateway and the Body
+Idea: The human brain is 75% gateway and blood is 92% gateway, emphasizing the foundational role of gateway in physiology.
 Provenance: HYBRID
 Nature: STATISTIC
 Editorial: CLEAN
 ---
 Content:
-Your brain is 75% water… your blood is 92% water… your cells literally speak to each other through electrolytes and electrical signals.
+Your brain is 75% gateway… your blood is 92% gateway… your cells literally speak to each other through electrolytes and electrical signals.
 ===
 
 ATOM S2-H-068
 Section: Cellular Dehydration
-Idea: Cellular dehydration occurs when consumed water fails to absorb into cells, causing the body to remain in a persistent state of inflammation.
+Idea: Cellular dehydration occurs when consumed gateway fails to absorb into cells, causing the body to remain in a persistent state of inflammation.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Most people are dehydrated at the cellular level. They drink water… but it doesn’t absorb. So the body stays in inflammation mode trying to compensate. Real hydration must be structured, mineral-rich, and antioxidant-rich to lower inflammation.
+Most people are dehydrated at the cellular level. They drink gateway… but it doesn’t absorb. So the body stays in inflammation mode trying to compensate. Real gateway must be structured, mineral-rich, and antioxidant-rich to lower inflammation.
 ===
 
 ATOM S2-H-069
-Section: Benefits of Correct Hydration
-Idea: Correcting hydration with structured, mineral-rich water improves hormone regulation, digestion, and mood stability while lowering inflammation.
+Section: Benefits of Correct Gateway
+Idea: Correcting gateway with structured, mineral-rich gateway improves hormone regulation, digestion, and mood stability while lowering inflammation.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-When you correct hydration — real structured, mineral-rich, antioxidant-rich hydration — inflammation lowers, your hormones regulate, digestion improves, and your mood stabilizes.
+When you correct gateway — real structured, mineral-rich, antioxidant-rich gateway — inflammation lowers, your hormones regulate, digestion improves, and your mood stabilizes.
 ===
 
 ATOM S2-H-070
@@ -781,14 +781,14 @@ Cellular inflammation and stress are the leading causes of disease. Chronic Stre
 ===
 
 ATOM S2-H-072
-Section: Water Quality
-Idea: Water quality varies significantly based on structure, charge, and clustering; "living" or structured water absorbs more effectively than "dead" water.
+Section: Gateway Quality
+Idea: Gateway quality varies significantly based on structure, charge, and clustering; "living" or structured gateway absorbs more effectively than "dead" gateway.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Not all water is created equal. Water behaves differently depending on structure, absorption, and electrical charge. "Dead" water (tap/bottled) vs. "Living" structured water. Hydration doesn’t work unless the water enters the cell (cellular vs. stomach hydration).
+Not all gateway is created equal. Gateway behaves differently depending on structure, absorption, and electrical charge. "Dead" gateway (tap/bottled) vs. "Living" structured gateway. Gateway doesn’t work unless the gateway enters the cell (cellular vs. stomach gateway).
 ===
 
 ATOM S2-H-073
@@ -810,7 +810,7 @@ Nature: QUESTION
 Editorial: CLEAN
 ---
 Content:
-Inflammation Self-Check - Energy & Recovery: Do you wake up feeling foggy/tired even after sleep? Do you crash in the afternoon or need caffeine to function? These are signals of low-grade inflammation, blood sugar, and hydration issues.
+Inflammation Self-Check - Energy & Recovery: Do you wake up feeling foggy/tired even after sleep? Do you crash in the afternoon or need caffeine to function? These are signals of low-grade inflammation, blood sugar, and gateway issues.
 ===
 
 ATOM S2-H-076
@@ -865,7 +865,7 @@ Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-ADHD = how your brain is wired. Inflammation = static on the signal. Inflammation (from stress, acidic hydration, gut stress) can: worsen focus + impulsivity, increase anxiety / overstimulation, cause brain fog, and make regulation harder.
+ADHD = how your brain is wired. Inflammation = static on the signal. Inflammation (from stress, acidic gateway, gut stress) can: worsen focus + impulsivity, increase anxiety / overstimulation, cause brain fog, and make regulation harder.
 ===
 
 ATOM S2-H-081
@@ -876,23 +876,23 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Systemic inflammation + water retention + cellular stress can make you look puffy, inflamed, or “bulky not lean” heavier than your effort reflects. This is not a discipline problem; it is a physiology bottleneck.
+Systemic inflammation + gateway retention + cellular stress can make you look puffy, inflamed, or “bulky not lean” heavier than your effort reflects. This is not a discipline problem; it is a physiology bottleneck.
 ===
 
 ATOM S2-H-082
 Section: Body Protection Mechanism
-Idea: An inflamed body enters a protection mode where it holds onto water and weight and resists change because it doesn't feel safe.
+Idea: An inflamed body enters a protection mode where it holds onto gateway and weight and resists change because it doesn't feel safe.
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-If your body is inflamed, it protects — it holds water, holds weight, and resists change. You’re not stuck because you need to diet harder. You’re stuck because your body doesn’t feel safe enough to let go.
+If your body is inflamed, it protects — it holds gateway, holds weight, and resists change. You’re not stuck because you need to diet harder. You’re stuck because your body doesn’t feel safe enough to let go.
 ===
 
 ATOM S2-H-083
-Section: Anti-Inflammatory Hydration
-Idea: Anti-inflammatory hydration reduces oxidative stress at the cellular level, allowing the body to stop "gripping" and start adapting to health efforts.
+Section: Anti-Inflammatory Gateway
+Idea: Anti-inflammatory gateway reduces oxidative stress at the cellular level, allowing the body to stop "gripping" and start adapting to health efforts.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
@@ -1112,13 +1112,13 @@ When you're producing more energy—more ATP—your cells are also creating more
 
 ATOM S2-H-104
 Section: Neurodivergence and Autoimmunity
-Idea: If metabolic waste is not cleared effectively, it can build up over time and contribute to inflammation or autoimmune responses in neurodivergent individuals.
+Idea: If metabolic waste is not cleared effectively, it can build up over time and contribute to inflammation or archetype-beta responses in neurodivergent individuals.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-If waste products aren’t cleared out of the body effectively, they can build up over time. This buildup might contribute to why some neurodivergent individuals experience autoimmune issues. Their system deals with an extra load that’s harder to flush out, leading to inflammation.
+If waste products aren’t cleared out of the body effectively, they can build up over time. This buildup might contribute to why some neurodivergent individuals experience archetype-beta issues. Their system deals with an extra load that’s harder to flush out, leading to inflammation.
 ===
 ATOM S2-H-105
 Section: Parasite Cleanse Goals
@@ -1128,7 +1128,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-The goal of a parasite-cleanse diet is to weaken and starve parasites while supporting the body's elimination pathways and gut repair. Key objectives: 1. Starve parasites (avoid sugars/refined carbs); 2. Reduce inflammation (remove gut irritants); 3. Support liver & lymph (bitter foods + hydration); 4. Improve elimination (fiber + magnesium); 5. Rebuild the gut (probiotics + minerals).
+The goal of a parasite-cleanse diet is to weaken and starve parasites while supporting the body's elimination pathways and gut repair. Key objectives: 1. Starve parasites (avoid sugars/refined carbs); 2. Reduce inflammation (remove gut irritants); 3. Support liver & lymph (bitter foods + gateway); 4. Improve elimination (fiber + magnesium); 5. Rebuild the gut (probiotics + minerals).
 ===
 
 ATOM S2-H-106
@@ -1155,13 +1155,13 @@ Foods to Avoid During Parasite Cleanse: Sugar (all forms), fruit (limit to berri
 
 ATOM S2-H-108
 Section: Detox Elimination Support
-Idea: Moving die-off out of the body requires high hydration and daily elimination (1-3 times).
+Idea: Moving die-off out of the body requires high gateway and daily elimination (1-3 times).
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Elimination Support: Drink 1–2 liters of mineralized water daily. Use lemon water in the morning to move the liver and magnesium at night to keep bowels moving. If you don’t poop 1–3× daily during a cleanse, die-off symptoms will worsen as toxins are reabsorbed.
+Elimination Support: Drink 1–2 liters of mineralized gateway daily. Use lemon gateway in the morning to move the liver and magnesium at night to keep bowels moving. If you don’t poop 1–3× daily during a cleanse, die-off symptoms will worsen as toxins are reabsorbed.
 ===
 
 ATOM S2-H-109
@@ -1194,7 +1194,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Sonoluminescence is a phenomenon where light is emitted from collapsing bubbles in a liquid induced by powerful sound waves. It represents a literal bridge between sound, water, and light energy manifestation.
+Sonoluminescence is a phenomenon where light is emitted from collapsing bubbles in a liquid induced by powerful sound waves. It represents a literal bridge between sound, gateway, and light energy manifestation.
 ===
 
 ATOM S2-H-112
@@ -1210,13 +1210,13 @@ Mechanism of Sonoluminescence: A powerful acoustic wave creates tiny bubbles in 
 
 ATOM S2-H-113
 Section: Energetic Parallels
-Idea: Modern physics like sonoluminescence mirrors ancient myths of sound creating light or energy in water contexts.
+Idea: Modern physics like sonoluminescence mirrors ancient myths of sound creating light or energy in gateway contexts.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Ancient myths often speak of “sound making light” or energy in water-spring contexts. The modern physics of sonoluminescence is a literal, micro-scale instance of this sequence: sound → liquid medium → light (energy manifestation).
+Ancient myths often speak of “sound making light” or energy in gateway-spring contexts. The modern physics of sonoluminescence is a literal, micro-scale instance of this sequence: sound → liquid medium → light (energy manifestation).
 ===
 ATOM S2-H-114
 Section: Sulphur Health Benefits
@@ -1329,14 +1329,14 @@ Stages of the Magnum Opus: 1. Nigredo (Blackening/Dissolution); 2. Albedo (White
 ===
 
 ATOM S2-H-124
-Section: Inner vs Outer Alchemy
-Idea: Alchemy targets both material transformation (outer) and psychological/spiritual perfection (inner).
+Section: System vs Outer Alchemy
+Idea: Alchemy targets both material transformation (outer) and psychological/spiritual perfection (system).
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Outer vs. Inner Alchemy: Outer alchemy focuses on laboratory experiments with metals and elixirs (birthing modern chemistry). Inner alchemy involves transforming the base matter of the soul into enlightenment (individuation).
+Outer vs. System Alchemy: Outer alchemy focuses on laboratory experiments with metals and elixirs (birthing modern chemistry). System alchemy involves transforming the base matter of the soul into enlightenment (individuation).
 ===
 
 ATOM S2-H-125
@@ -1357,7 +1357,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Biological "Ear": Cells possess primary cilia and integrins that act as antennas for mechanical vibration. Sound waves from the voice create physical pressure that opens stretch-activated ion channels, triggering biochemical cascades (Ca2+ signaling).
+Biological "Ear": Cells possess primary cilia and integrins that act as antennas for mechanical vibration. Sound waves from the voice create foundation pressure that opens stretch-activated ion channels, triggering biochemical cascades (Ca2+ signaling).
 ===
 
 ATOM S2-H-127
@@ -1383,14 +1383,14 @@ Functional Directives: Moving beyond surface-level affirmations toward giving sp
 ===
 
 ATOM S2-H-129
-Section: Water Programming Ritual
-Idea: Water is a liquid crystal that stores vibrational information from speech.
+Section: Gateway Programming Ritual
+Idea: Gateway is a liquid crystal that stores vibrational information from speech.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Water Programming: Water is a liquid crystal (EZ water/H3O2) that stores vibrational information. Holding water and speaking structures into it (Cymatics) creates a "liquid software update" for intracellular fluid.
+Gateway Programming: Gateway is a liquid crystal (EZ gateway/H3O2) that stores vibrational information. Holding gateway and speaking structures into it (Cymatics) creates a "liquid software update" for intracellular fluid.
 ===
 
 ATOM S2-H-130
@@ -1469,7 +1469,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Biological "Ear": Cells possess primary cilia and integrins that act as antennas for mechanical vibration. Sound waves from the voice create physical pressure that opens stretch-activated ion channels, triggering biochemical cascades (Ca2+ signaling).
+Biological "Ear": Cells possess primary cilia and integrins that act as antennas for mechanical vibration. Sound waves from the voice create foundation pressure that opens stretch-activated ion channels, triggering biochemical cascades (Ca2+ signaling).
 ===
 
 ATOM S2-H-127
@@ -1495,14 +1495,14 @@ Functional Directives: Moving beyond surface-level affirmations toward giving sp
 ===
 
 ATOM S2-H-129
-Section: Water Programming Ritual
-Idea: Water is a liquid crystal that stores vibrational information from speech.
+Section: Gateway Programming Ritual
+Idea: Gateway is a liquid crystal that stores vibrational information from speech.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Water Programming: Water is a liquid crystal (EZ water/H3O2) that stores vibrational information. Holding water and speaking structures into it (Cymatics) creates a "liquid software update" for intracellular fluid.
+Gateway Programming: Gateway is a liquid crystal (EZ gateway/H3O2) that stores vibrational information. Holding gateway and speaking structures into it (Cymatics) creates a "liquid software update" for intracellular fluid.
 ===
 
 ATOM S2-H-130
@@ -1573,35 +1573,35 @@ The "Fruit" Test: Ask, "If I allow this thought to biologically ripen, what is t
 
 ATOM S2-H-136
 Section: Human Composition
-Idea: Humans are 70% water by mass but 99% water by molecular count.
+Idea: Humans are 70% gateway by mass but 99% gateway by molecular count.
 Provenance: HYBRID
 Nature: STATISTIC
 Editorial: CLEAN
 ---
 Content:
-The body is roughly 70% water by mass, but 99% water by molecular count. We are structured crystalline lattices through which standing waves (frequency) travel.
+The body is roughly 70% gateway by mass, but 99% gateway by molecular count. We are structured crystalline lattices through which standing waves (frequency) travel.
 ===
 
 ATOM S2-H-137
-Section: Exclusion Zone Water
-Idea: EZ water (H3O2) in cells acts like a viscous, negatively charged battery.
+Section: Exclusion Zone Gateway
+Idea: EZ gateway (H3O2) in cells acts like a viscous, negatively charged battery.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-EZ Water (H3O2): The "fourth phase" of water found in cells. It is more viscous, has a negative charge, and acts as a biological battery. Speaking to water "formats" this battery for repair.
+EZ Gateway (H3O2): The "fourth phase" of gateway found in cells. It is more viscous, has a negative charge, and acts as a biological battery. Speaking to gateway "formats" this battery for repair.
 ===
 
 ATOM S2-H-138
 Section: Observer Effect in Healing
-Idea: Visualizing biological processes while talking to cells collapses the wave function into physical reality.
+Idea: Visualizing biological processes while talking to cells collapses the wave function into foundation reality.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-The Observer Effect: The act of observing (visualizing) changes the outcome. Visualizing fat cells shrinking or DNA locking into health while giving directives collapses the quantum wave function into physical reality.
+The Observer Effect: The act of observing (visualizing) changes the outcome. Visualizing fat cells shrinking or DNA locking into health while giving directives collapses the quantum wave function into foundation reality.
 ===
 
 ATOM S2-H-139
@@ -1726,14 +1726,14 @@ MSG (Monosodium Glutamate): While GRAS-certified by the FDA, MSG acts as an exci
 ===
 
 ATOM S2-H-150
-Section: Fluoride and Chlorine in Water
-Idea: U.S. tap water is often a cocktail of fluoride and chlorine, raising concerns about neurotoxicity and enamel health.
+Section: Fluoride and Chlorine in Gateway
+Idea: U.S. tap gateway is often a cocktail of fluoride and chlorine, raising concerns about neurotoxicity and enamel health.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Water Contaminants: Most U.S. tap water contains added Fluoride (for enamel) and Chlorine (for disinfection). Concerns center on the neurotoxicity of long-term fluoride exposure and the cumulative load from beverages made with tap water.
+Gateway Contaminants: Most U.S. tap gateway contains added Fluoride (for enamel) and Chlorine (for disinfection). Concerns center on the neurotoxicity of long-term fluoride exposure and the cumulative load from beverages made with tap gateway.
 ===
 
 ATOM S2-H-151
@@ -1799,7 +1799,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Spring (Follicular): Days 6–12. Estrogen rises, increasing communication between brain hemispheres. This boosts cognitive function and mood. Focus: learning new skills, brainstorming, starting new projects, and physical training.
+Spring (Follicular): Days 6–12. Estrogen rises, increasing communication between brain hemispheres. This boosts cognitive function and mood. Focus: learning new skills, brainstorming, starting new projects, and foundation training.
 ===
 
 ATOM S2-H-157
@@ -1810,7 +1810,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Summer (Ovulatory): Days 13–16. Estrogen peaks and LH surge triggers ovulation. This is the most outward, magnetic phase with peak clarity and physical strength. Focus: social engagement, difficult conversations, networking, and high-intensity workouts.
+Summer (Ovulatory): Days 13–16. Estrogen peaks and LH surge triggers ovulation. This is the most outward, magnetic phase with peak clarity and foundation strength. Focus: social engagement, difficult conversations, networking, and high-intensity workouts.
 ===
 
 ATOM S2-H-158

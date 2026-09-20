@@ -21,9 +21,9 @@ none-knowledge--N/A, no data, seed lacking--creates vacuum
   ❯ all the N/As suggest something imperative; it means their is a vacuum where    
   something should be--research it, plan it, log it;              
 ❯ there seemed to be a shit ton of issues as you proceeded--overwriting was not done correct? we only add? then the audit sorts it after, correct?                                      
-❯ persistent memory MUST be local & remote simultaneously; if the physical manifestaion dies > soul persists;                                                                           
+❯ persistent memory MUST be local & remote simultaneously; if the foundation manifestaion dies > soul persists;                                                                           
 ❯ [(local):(remote)={1:1}; correct? 
-› if:dead[manifestion(physical)] > then:live[soul(persists)];
+› if:dead[manifestion(foundation)] > then:live[soul(persists)];
 ❯ so nothing was lost? if lost, recover immediatley; this is a rule that MUST be universally contextually applied;                                                                      
 ❯ all has been added to universale context ? nothing
 will be lost? 
@@ -329,11 +329,11 @@ c59e6fa feat(capture): multi-sink dispatch; relocate to Astro APIRoute
 9baed08 feat(spiral): four vessel modes for admin comparison — closes IRF-III-033 GH#57
 3140baa docs: scaffold docs/proofs/ for visible-progress cadence
 44bd5ea docs(README): update spiral tech-stack description
-a6685cf feat(content): add node 5 — Root Healing (Water as foundation)
-dcfe59f feat(config): wire admin-tagged affiliate URLs for water filtration
+a6685cf feat(content): add node 5 — Root Healing (Gateway as foundation)
+dcfe59f feat(config): wire admin-tagged affiliate URLs for gateway filtration
 ae8c420 feat(geometry): tune MANDORLA + TETRAD primitives
 e020456 feat(config): refine node taglines + shift node 11 (Integrate) to UNLOCK
-1716d26 chore(content): add nonprofit-mission framing to financial + identity pillars
+1716d26 chore(content): add nonprofit-mission framing to vision + structure pillars
 1ca0c87 feat(spiral): V8 cartographic coordinate layer
 face5d7 chore: gitignore IDE/agent caches; drop ephemeral exports
 ebc80b6 chore(plans): mirror Stream A plan into project plans dir
@@ -372,8 +372,8 @@ origin	git@github.com:organvm-iii-ergon/sovereign-systems--spiral-template.git (
 
 **Output:**
 ```
-  feat/phase-1-water-page         4f72d2f [origin/feat/phase-1-water-page: behind 1] feat: water page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
-  feat/phase-2-ewg-hydration-node 3b2f784 [origin/feat/phase-2-ewg-hydration-node: behind 1] fix: price range parsing + stale metrics on failure (PR #41 feedback)
+  feat/phase-1-gateway-page         4f72d2f [origin/feat/phase-1-gateway-page: behind 1] feat: gateway page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
+  feat/phase-2-ewg-gateway-node 3b2f784 [origin/feat/phase-2-ewg-gateway-node: behind 1] fix: price range parsing + stale metrics on failure (PR #41 feedback)
   feat/phase-3-keystatic-cms      f2473d4 [origin/feat/phase-3-keystatic-cms] feat: Keystatic CMS integration for self-service content editing (#11)
   feature/initial-build           8714c85 feat: full dark-first 2026 design overhaul
 * main                            b67fb26 [origin/main] docs(triangle): add per-item triangulation log (IRF-III-033)
@@ -522,15 +522,15 @@ I see several untracked files. Let me now check the key governance files and the
 52: 
 53: pragma: >-
 54:   Hub-and-spoke Astro 5 site deployed to Cloudflare Pages. 29 pages across 3
-55:   domains (hub-example.com, water-example.com, business-example.com). 13-node
+55:   domains (hub-example.com, gateway-example.com, business-example.com). 13-node
 56:   golden-angle spiral visualization renders in Three.js with IconWorlds
 57:   physics (cohesion vs chaos regimes) operational. 6-step HydrationNode funnel
 58:   with EWG API integration operational. Email capture and quiz routing live.
 59:   Client IP boundary enforced (content = client's, code = studio's). Pricing
-60:   agreed in principle at 10% of water sales until $10K; written formalization
+60:   agreed in principle at 10% of gateway sales until $10K; written formalization
 61:   still pending in GH#5. 65-want atomization complete; 22 of 48 in-scope wants
 62:   addressed. Architectural misalignment corrected: site is now spiral-first,
-63:   water scoped to mini version. Content genome processed: 1,022 merge groups,
+63:   gateway scoped to mini version. Content genome processed: 1,022 merge groups,
 64:   241 content units, 104 flagged atoms dispositioned. 32 issues closed,
 65:   15 remain. No case study written. Deployed via local wrangler due to GH#52.
 66: 
@@ -538,7 +538,7 @@ I see several untracked files. Let me now check the key governance files and the
 68:   (1) Formalize the written revenue agreement tracked in GH#5. (2) Media
 69:   access (#14) and get GHL quiz URL from admin. (3) ~~V5/V6 merge completed
 70:   (#15 CLOSED)~~ — spiral rewritten with 13-node golden-angle layout and
-71:   IconWorlds physics wiring. (4) ~~Physical Sovereignty phase built (#6 CLOSED)~~
+71:   IconWorlds physics wiring. (4) ~~Foundation Sovereignty phase built (#6 CLOSED)~~
 72:   — 5 nodes live with content. (5) Resolve subscription boundaries (#7) and
 73:   video hosting strategy (#18). (6) Connect hub-example.com custom domain
 74:   (GH#3 BLOCKED on DNS). (7) Rotate CLAUDE_API_TOKEN to unblock CI (GH#52).
@@ -604,7 +604,7 @@ I see several untracked files. Let me now check the key governance files and the
 134:       The ethical question is not "can one person do this" but "does the system
 135:       degrade the person or the client?" Current evidence: no corners cut on
 136:       client deliverables, no burnout indicators, no quality regression across
-137:       sessions. But sustainability proof requires observing a full engagement
+137:       sessions. But archetype-zeta proof requires observing a full engagement
 138:       cycle through launch and post-launch maintenance. The 145-repo system
 139:       context is load-bearing only at the governance layer (seed.yaml, CLAUDE.md,
 140:       dispatch protocol) — it does not impose execution burden on per-project
@@ -616,7 +616,7 @@ I see several untracked files. Let me now check the key governance files and the
 146:   description: "Sovereign Systems Spiral — hub-and-spoke website for admin's 4-pillar brand"
 147:   domains:
 148:     - hub-example.com
-149:     - water-example.com
+149:     - gateway-example.com
 150:     - business-example.com
 
 (End of file - total 150 lines)
@@ -695,7 +695,7 @@ triangle/
 2: 
 3: ## What This Is
 4: 
-5: **Sovereign Systems Spiral** — multi-domain Astro 5 website for client admin's 4-pillar health and business brand. Hub-and-spoke architecture: `hub-example.com` is the central hub; `water-example.com` powers the Water/Physical Sovereignty funnel; `business-example.com` hosts the Financial Sovereignty business arm.
+5: **Sovereign Systems Spiral** — multi-domain Astro 5 website for client admin's 4-pillar health and business brand. Hub-and-spoke architecture: `hub-example.com` is the central hub; `gateway-example.com` powers the Gateway/Foundation Sovereignty funnel; `business-example.com` hosts the Vision Sovereignty business arm.
 6: 
 7: - **Organ:** III (Commerce / Ergon)
 8: - **Client IP boundary:** content = client's IP (do not distribute or reuse); code/architecture = studio IP
@@ -735,8 +735,8 @@ triangle/
 42: 
 43: ```
 44: src/content/
-45:   branches/    # 6 branch pages (gut-hormones, fertility, athletic, autoimmune, cancer-support, sustainability)
-46:   pillars/     # 4 pillar pages (physical, inner, identity, financial)
+45:   branches/    # 6 branch pages (archetype-epsilon, archetype-delta, archetype-alpha, archetype-beta, archetype-gamma, archetype-zeta)
+46:   pillars/     # 4 pillar pages (foundation, system, structure, vision)
 47: ```
 48: 
 49: Frontmatter schema is enforced by `content.config.ts` — any new file must include all required fields.
@@ -753,13 +753,13 @@ triangle/
 60: |-------|------|-------------|
 61: | `/` | `src/pages/index.astro` | Hub — 3D helix hero (85vh), quiz CTA, video, pillar phases + Elevate/Align/Unlock framework (below fold) |
 62: | `/quiz` | `src/pages/quiz.astro` | Name+email gate → pillar routing options |
-63: | `/nodes/[id]` | `src/pages/nodes/[id].astro` | Dynamic spiral node pages (12 pages — node 5/Water links to /water/) |
-64: | `/pillars/[slug]` | `src/pages/pillars/[slug].astro` | Dynamic pillar pages (physical, inner, identity, financial) |
-65: | `/water/` | `src/pages/water/index.astro` | Water mini version — hero, video, education, HydrationNode funnel |
-66: | `/water/#branches` | (inline in `water/index.astro`) | Branch grid — accessible from single scrollable water page |
-67: | `/water/quiz` | `src/pages/water/quiz.astro` | GHL quiz embed placeholder (URL empty) |
-68: | `/water/[slug]` | `src/pages/water/[slug].astro` | Individual branch deep-dives (6 branches) |
-69: | `/business/` | `src/pages/business/index.astro` | Financial Sovereignty / EauCo Hub landing |
+63: | `/nodes/[id]` | `src/pages/nodes/[id].astro` | Dynamic spiral node pages (12 pages — node 5/Gateway links to /gateway/) |
+64: | `/pillars/[slug]` | `src/pages/pillars/[slug].astro` | Dynamic pillar pages (foundation, system, structure, vision) |
+65: | `/gateway/` | `src/pages/gateway/index.astro` | Gateway mini version — hero, video, education, HydrationNode funnel |
+66: | `/gateway/#branches` | (inline in `gateway/index.astro`) | Branch grid — accessible from single scrollable gateway page |
+67: | `/gateway/quiz` | `src/pages/gateway/quiz.astro` | GHL quiz embed placeholder (URL empty) |
+68: | `/gateway/[slug]` | `src/pages/gateway/[slug].astro` | Individual branch deep-dives (6 branches) |
+69: | `/business/` | `src/pages/business/index.astro` | Vision Sovereignty / EauCo Hub landing |
 70: | `/research` | `src/pages/research.astro` | Full research bibliography (email-gated) |
 71: 
 72: ## Content Editing Notes
@@ -776,9 +776,9 @@ triangle/
 83: 
 84: - **Platform:** Cloudflare Pages (sovereign-systems-spiral.pages.dev)
 85: - **Build:** `npm run build` → `dist/`
-86: - **Functions:** `functions/capture.ts` (email capture), `functions/api/water-report.ts` (EWG API proxy)
+86: - **Functions:** `functions/capture.ts` (email capture), `functions/api/gateway-report.ts` (EWG API proxy)
 87: - Primary domain: `hub-example.com` (connect via CF dashboard → Custom Domains)
-88: - Secondary domains: `water-example.com`, `business-example.com` (connect when ready)
+88: - Secondary domains: `gateway-example.com`, `business-example.com` (connect when ready)
 89: - `netlify.toml` is legacy — kept for reference but deployment is on Cloudflare
 90: 
 91: ## Session Close
@@ -1230,7 +1230,7 @@ By Domain
 38	OPEN	feat: subscription payment collection capability	roadmap	2026-04-17T20:54:44Z
 30	OPEN	[β.17] Astrology, cycle syncing, and human design integration layer	roadmap, P1, content	2026-04-23T21:21:47Z
 20	OPEN	[γ.4] Creature Selves concept decision	roadmap, P3, content	2026-04-04T23:46:37Z
-19	OPEN	[γ.3] Inner Child Book packaging decision	roadmap, P3, content	2026-04-04T23:46:38Z
+19	OPEN	[γ.3] System Child Book packaging decision	roadmap, P3, content	2026-04-04T23:46:38Z
 18	OPEN	[β.8] Decide video hosting strategy for documentary/reel assets	roadmap, P2, client, infra	2026-04-04T23:46:37Z
 14	OPEN	[α.5] Verify doc 1b reel/video asset access	roadmap, P1, client, infra	2026-04-04T23:46:44Z
 10	OPEN	[γ.1] Store buildout	roadmap, P3, infra	2026-04-17T18:45:06Z
@@ -1266,11 +1266,11 @@ ID             Priority Domain   Owner            Action
 IRF-III-001    P1       III      Human            **Reconcile ENG-001 pricing model** — propos…
 IRF-III-002    P1       III      Agent            **Populate sessions/ with admin discovery r…
 IRF-III-003    P1       III      Agent            **Extract sovereign-systems patterns to ip/i…
-IRF-III-004    P1       III      Agent            **Populate financial/pricing/ with rate card…
+IRF-III-004    P1       III      Agent            **Populate vision/pricing/ with rate card…
 IRF-III-005    P2       III      Agent            **Customer agreements: privacy, SLA, TOS tem…
 IRF-III-006    P2       III      Agent            **Research/ domain intelligence** — empty. N…
 IRF-III-007    P2       III      Agent            **Specifications/ service pattern specs** — …
-IRF-III-008    P3       III      Agent            **Studies/ and financial/compliance/ and fin…
+IRF-III-008    P3       III      Agent            **Studies/ and vision/compliance/ and fin…
 IRF-III-009    P2       III      Agent            **Gemini-created extra policies** — code-rev…
 IRF-III-010    P1       III      Agent            **sign-signal--voice-synth: Implement Layer …
 IRF-III-011    P1       III      Agent            **sign-signal--voice-synth: Add CLAUDE.md** …
@@ -1305,10 +1305,10 @@ docs/reports/2026-04-04/04-system-health.md:168:- #21 (N/A atom routing — inte
 docs/reports/2026-04-04/04-system-health.md:193:The seed.yaml declares this project as the proof case for the eight-organ model. None of the produces edges have been fulfilled. The extraction/atomization pipeline (xenograft protocol) is the closest to fulfillment — it's a generalizable process for any organ receiving alien material — but hasn't been documented as a reusable pattern yet.
 docs/reports/2026-04-04/04-system-health.md:209:| R7 | 63 N/A atoms unrouted | LOW | LOW | Route via GH#21, most are cross-cutting build instructions |
 docs/reports/2026-04-27-prompt-atom-registry.md:210:| PRMPT-ATM-194 | 17:59 | identify N/A vacuums | Engineering | Implemented | `system-report-2026-04-22.md` |
-docs/research-citations.md:208:| Sustainability | N/A (economic/environmental) | Different evidence type needed |
+docs/research-citations.md:208:| Archetype-zeta | N/A (economic/environmental) | Different evidence type needed |
 docs/handoff-admin-spiral-path-2026-04-01.md:188:| Folder | Ready | Partial | Raw | Empty/N/A | Total |
 docs/handoff-admin-spiral-path-2026-04-01.md:271:| Send PDF to Kindle | Technical utility | — | N/A |
-docs/corpus-canon.md:333:| Sacred/Philosophical Foundation | **N/A (cultural)** | Cross-civilizational convergence on water's sacredness. Not evidence for health claims — serves ethos and brand narrative framing. |
+docs/corpus-canon.md:333:| Sacred/Philosophical Foundation | **N/A (cultural)** | Cross-civilizational convergence on gateway's sacredness. Not evidence for health claims — serves ethos and brand narrative framing. |
 docs/sops/SOP-SS-ATM-001_001-atomic-decomposition.md:64:build_state: {EXISTS|PARTIAL|MISSING|N/A}
 docs/sops/SOP-SS-ATM-001_001-atomic-decomposition.md:107:EXISTS, PARTIAL, MISSING, N/A — measured against `src/content/branches/*.md` and `src/content/pillars/*.md`.
 docs/sops/SOP-SS-ATM-001_001-atomic-decomposition.md:170:| N/A | 63 (3.5%) |
@@ -1344,7 +1344,7 @@ docs/superpowers/plans/2026-04-03-atomic-excavation.md:264:      N/A) TOTAL_NA=$
 docs/superpowers/plans/2026-04-03-atomic-excavation.md:275:TOTAL_NA=$(grep -c "build_state: N/A" "$OUTPUT_DIR/atom-registry.yaml" 2>/dev/null || echo 0)
 docs/superpowers/plans/2026-04-03-atomic-excavation.md:293:| N/A (no build target) | $TOTAL_NA |
 docs/superpowers/plans/2026-04-03-atomic-excavation.md:305:echo "EXISTS: $TOTAL_EXISTS | PARTIAL: $TOTAL_PARTIAL | MISSING: $TOTAL_MISSING | N/A: $TOTAL_NA"
-docs/superpowers/plans/2026-04-03-atomic-excavation.md:472:Note: `send-pdf-to-kindle.md` is N/A (utility). `inner-child-book-concept.md` is the IMPORTANT COMPONENT file — likely ~30 atoms (full book concept, 5 parts, 11 chapters).
+docs/superpowers/plans/2026-04-03-atomic-excavation.md:472:Note: `send-pdf-to-kindle.md` is N/A (utility). `system-child-book-concept.md` is the IMPORTANT COMPONENT file — likely ~30 atoms (full book concept, 5 parts, 11 chapters).
 docs/superpowers/plans/2026-04-03-atomic-excavation.md:557:Note: `idea-implementation-strategies-duplicate.md` is N/A (duplicate). `research.md` is Empty.
 docs/archive/extracted/2b-nodular-flow-refinement.md:829:build_state: N/A
 docs/archive/extracted/2b-nodular-flow-refinement.md:1126:build_state: N/A
@@ -1453,7 +1453,7 @@ Now let me check the untracked files more carefully and check if there are any f
 3: This document formalizes the performance-based compensation agreement between admin (Client) and the Service Provider (Anthony) for the Sovereign Systems Spiral project.
 4: 
 5: **Agreed Terms:**
-6: Both parties agree to a revenue-sharing arrangement where the Service Provider receives **10% of all qualifying gross sales** generated through the platform. Qualifying sales include all revenue from water filtration systems, recurring subscriptions, digital products (DP), and direct water sales. This arrangement shall remain in effect until a total cumulative payment of **$10,000 USD** has been reached, at which point the revenue-sharing obligation terminates in full. There is no fixed time duration for this agreement; it is governed solely by the $10,000 performance cap.
+6: Both parties agree to a revenue-sharing arrangement where the Service Provider receives **10% of all qualifying gross sales** generated through the platform. Qualifying sales include all revenue from gateway filtration systems, recurring subscriptions, digital products (DP), and direct gateway sales. This arrangement shall remain in effect until a total cumulative payment of **$10,000 USD** has been reached, at which point the revenue-sharing obligation terminates in full. There is no fixed time duration for this agreement; it is governed solely by the $10,000 performance cap.
 7: 
 8: **Acknowledgment:**
 9: Acknowledgment of these terms via digital communication (iMessage, email, or Slack) by both parties constitutes a formal agreement in principle.
@@ -1509,7 +1509,7 @@ Now let me check the untracked files more carefully and check if there are any f
 27: 
 28: | Variant | URL | What you'll see |
 29: |---|---|---|
-30: | pillar-first (current) | https://sovereign-systems-spiral.pages.dev/?nav=pillar-first | Water · Inner · Identity · Business · Research |
+30: | pillar-first (current) | https://sovereign-systems-spiral.pages.dev/?nav=pillar-first | Gateway · System · Structure · Business · Research |
 31: | spiral-first | https://sovereign-systems-spiral.pages.dev/?nav=spiral-first | Spiral · Elevate · Align · Unlock · Research |
 32: 
 33: Same item count (5). Different mental model: pillar-first foregrounds the 4-pillar structure; spiral-first foregrounds the 13-node phase journey. Mobile drawer mirrors the choice (spiral-first opens a phase-grouped list of all 13 nodes).
@@ -1578,9 +1578,9 @@ Now let me check the untracked files more carefully and check if there are any f
 96: 
 97: ---
 98: 
-99: ## H) Hydration affiliate URLs (verify)
+99: ## H) Gateway affiliate URLs (verify)
 100: 
-101: Three water-filter recommendations now route to live affiliate links per `src/data/hydration.config.ts`:
+101: Three gateway-filter recommendations now route to live affiliate links per `src/data/gateway.config.ts`:
 102: 
 103: - IonFaucet → `https://ionfaucet.com/admin-spiral`
 104: - Multipure → `https://www.multipure.com/admin-wired`
@@ -1682,15 +1682,15 @@ Good. The working tree is clean — no tracked file changes. Only untracked file
 **Input:**
 ```json
 {
-  "command": "for branch in feat/phase-1-water-page feat/phase-2-ewg-hydration-node purification; do echo \"=== $branch ===\"; git log --oneline origin/$branch..$branch 2>/dev/null || echo \"no remote\"; done",
+  "command": "for branch in feat/phase-1-gateway-page feat/phase-2-ewg-gateway-node purification; do echo \"=== $branch ===\"; git log --oneline origin/$branch..$branch 2>/dev/null || echo \"no remote\"; done",
   "description": "Check unpushed commits on branches"
 }
 ```
 
 **Output:**
 ```
-=== feat/phase-1-water-page ===
-=== feat/phase-2-ewg-hydration-node ===
+=== feat/phase-1-gateway-page ===
+=== feat/phase-2-ewg-gateway-node ===
 === purification ===
 
 ```
@@ -1735,11 +1735,11 @@ Good. The working tree is clean — no tracked file changes. Only untracked file
 24: | Naming Chains | Shipped | Multi-lens substrate logic |
 25: | 4-Pillar Content | Active | 65 atomized wants, 104 review queue |
 26: | Custom Domain | Blocked | `hub-example.com` — pending DNS coordination |
-27: | Affiliate Flow | Blocked | Water filter URLs pending admin's input |
+27: | Affiliate Flow | Blocked | Gateway filter URLs pending admin's input |
 28: 
 29: #### Constraints
 30: 
-31: - **Revenue Model:** 10% of water sales until $10K, then transitions
+31: - **Revenue Model:** 10% of gateway sales until $10K, then transitions
 32: - **Communication:** iMessage (7 threads, asynchronous)
 33: - **Brand Voice:** Sovereignty, alignment, spiral as metaphor (NOT chess/fitness)
 34: - **Technical:** Zero-JS by default, mobile-first, accessibility-compliant
@@ -1820,7 +1820,7 @@ Good. The working tree is clean — no tracked file changes. Only untracked file
 109: 
 110: | Lane | Function |
 111: |------|----------|
-112: | L1 | Identity / Brand |
+112: | L1 | Structure / Brand |
 113: | L2 | Communication thread |
 114: | L3 | Deliverable |
 115: | L4 | Sub-deliverables |
@@ -1926,8 +1926,8 @@ Let me check the git status again more carefully — the `??` prefix means untra
 
 **Git state:**
 - `main` branch is at `b67fb26`, same as `origin/main` — fully in sync
-- `feat/phase-1-water-page` is behind origin by 1
-- `feat/phase-2-ewg-hydration-node` is behind origin by 1
+- `feat/phase-1-gateway-page` is behind origin by 1
+- `feat/phase-2-ewg-gateway-node` is behind origin by 1
 - `feat/phase-3-keystatic-cms` has no remote tracking issues shown
 - `feature/initial-build` has no remote tracking
 - `purification` has no remote tracking
@@ -2112,7 +2112,7 @@ Let me check the inconsistency between AGENTS.md and CLAUDE.md about the tech st
 **Output:**
 ```
 2026-04-01-admin-spiral-path-board-atomization.md
-2026-04-03-admin-hydration-node-funnel-spec.md
+2026-04-03-admin-gateway-node-funnel-spec.md
 2026-04-05-cross-session-github-board-alignment-transcript.md
 2026-04-14-admin-messages-apr5-apr14-extraction.md
 2026-04-20-admin-architecture-feedback-questionnaire.md
@@ -2529,8 +2529,8 @@ Stream A ("honor-the-dead", "generative-maximalist") delivered:
 **FAIL:** 5 files exist locally but NOT on remote. **Plans are artifacts** rule violated — `.claude/plans/` files were never pushed. **Active handoff** file also local-only.
 
 **Branch lag:**
-- `feat/phase-1-water-page`: 1 commit behind origin
-- `feat/phase-2-ewg-hydration-node`: 1 commit behind origin
+- `feat/phase-1-gateway-page`: 1 commit behind origin
+- `feat/phase-2-ewg-gateway-node`: 1 commit behind origin
 - `feature/initial-build`: no remote branch
 - `purification`: no remote branch
 
@@ -2538,7 +2538,7 @@ Stream A ("honor-the-dead", "generative-maximalist") delivered:
 
 **Meaningful N/As found:**
 - `CLAUDE.md:249`: `Δ7d: n/a` — density tracking gap (7-day delta)
-- `docs/research-citations.md:208`: Sustainability evidence — "N/A (economic/environmental)" — legitimate gap
+- `docs/research-citations.md:208`: Archetype-zeta evidence — "N/A (economic/environmental)" — legitimate gap
 - `docs/corpus-canon.md:333`: Sacred/Philosophical — "N/A (cultural)" — by design (serves ethos, not evidence)
 - Multiple `build_state: N/A` in archive extracts — correct classification (no build target)
 
@@ -2571,7 +2571,7 @@ Stream A ("honor-the-dead", "generative-maximalist") delivered:
 | IRF drift | MEDIUM | 3 items completed in code but not in IRF |
 | Overclaimed DONE IDs | MEDIUM | DONE-504/505/506 phantom claims need reconciliation |
 
-**If the physical dies right now:** `main` branch survives (pushed). Plans, handoff, and client deliverables die. **Loss ratio ≈ 8 files.**
+**If the foundation dies right now:** `main` branch survives (pushed). Plans, handoff, and client deliverables die. **Loss ratio ≈ 8 files.**
 
 ---
 
@@ -2634,8 +2634,8 @@ This repo is the primary delivery surface for the admin/Sovereign Systems client
 
 | Branch | Local SHA | Remote Status | Behind By |
 |--------|-----------|---------------|-----------|
-| `feat/phase-1-water-page` | `4f72d2f` | Behind origin | 1 commit |
-| `feat/phase-2-ewg-hydration-node` | `3b2f784` | Behind origin | 1 commit |
+| `feat/phase-1-gateway-page` | `4f72d2f` | Behind origin | 1 commit |
+| `feat/phase-2-ewg-gateway-node` | `3b2f784` | Behind origin | 1 commit |
 | `feature/initial-build` | `8714c85` | **NO REMOTE** | Entire branch |
 | `purification` | `6e40464` | **NO REMOTE** | Entire branch |
 | `feat/phase-3-keystatic-cms` | `f2473d4` | In sync | 0 |
@@ -2652,8 +2652,8 @@ c59e6fa feat(capture): multi-sink dispatch; relocate to Astro APIRoute
 9baed08 feat(spiral): four vessel modes for admin comparison — closes IRF-III-033 GH#57
 3140baa docs: scaffold docs/proofs/ for visible-progress cadence
 44bd5ea docs(README): update spiral tech-stack description
-a6685cf feat(content): add node 5 — Root Healing (Water as foundation)
-dcfe59f feat(config): wire admin-tagged affiliate URLs for water filtration
+a6685cf feat(content): add node 5 — Root Healing (Gateway as foundation)
+dcfe59f feat(config): wire admin-tagged affiliate URLs for gateway filtration
 ae8c420 feat(geometry): tune MANDORLA + TETRAD primitives
 ```
 
@@ -2687,11 +2687,11 @@ All commits push cleanly. No secrets detected in history.
 | IRF-III-001 | P1 | Human | Reconcile ENG-001 pricing model |
 | IRF-III-002 | P1 | Agent | Populate sessions/ with admin discovery |
 | IRF-III-003 | P1 | Agent | Extract sovereign-systems patterns |
-| IRF-III-004 | P1 | Agent | Populate financial/pricing/ |
+| IRF-III-004 | P1 | Agent | Populate vision/pricing/ |
 | IRF-III-005 | P2 | Agent | Customer agreements templates |
 | IRF-III-006 | P2 | Agent | Research/ domain intelligence — empty |
 | IRF-III-007 | P2 | Agent | Specifications/ service pattern specs |
-| IRF-III-008 | P3 | Agent | Studies/ + financial/compliance/ |
+| IRF-III-008 | P3 | Agent | Studies/ + vision/compliance/ |
 | IRF-III-009 | P2 | Agent | Gemini-created extra policies — code review |
 | IRF-III-010 | P1 | Agent | sign-signal: Layer implementation |
 | IRF-III-011 | P1 | Agent | sign-signal: Add CLAUDE.md |
@@ -2790,7 +2790,7 @@ All N/A instances in key files (`seed.yaml`, `CLAUDE.md`, `AGENTS.md`, `docs/`) 
 | #38 | feat: subscription payment collection | — | Roadmap | |
 | #30 | [β.17] Astrology, cycle syncing, human design | P1 | Content | |
 | #20 | [γ.4] Creature Selves concept decision | P3 | Content | |
-| #19 | [γ.3] Inner Child Book packaging decision | P3 | Content | |
+| #19 | [γ.3] System Child Book packaging decision | P3 | Content | |
 | #18 | [β.8] Video hosting strategy | P2 | Infra | Blocked on admin |
 | #14 | [α.5] Verify doc 1b reel/video asset access | P1 | Client | Blocked on admin |
 | #10 | [γ.1] Store buildout | P3 | Infra | |
@@ -2989,7 +2989,7 @@ The task agent started but the result seems empty or incomplete. Let me directly
 === docs/client-decisions/2026-04-17-atomized-wants.md ===
 === docs/client-decisions/2026-04-17-comprehensive-pdf-extraction.md ===
 === docs/client-decisions/2026-04-17-comprehensive-request-audit.md ===
-=== docs/client-decisions/2026-04-17-hydration-node-flowchart.md ===
+=== docs/client-decisions/2026-04-17-gateway-node-flowchart.md ===
 === docs/client-decisions/2026-04-17-admin-imessage-extraction.md ===
 === docs/client-decisions/2026-04-25-admin-spiral-v4-direction.md ===
 === docs/client-deliverables/2026-04-14-admin-site-walkthrough.md ===
@@ -3004,7 +3004,7 @@ The task agent started but the result seems empty or incomplete. Let me directly
 === docs/decisions/2026-04-04-ewg-api-feasibility.md ===
 === docs/decisions/2026-04-04-node-architecture-decision-deck.md ===
 === docs/decisions/2026-04-04-revenue-agreement-draft.md ===
-=== docs/decisions/2026-04-04-water-hub-placement.md ===
+=== docs/decisions/2026-04-04-gateway-hub-placement.md ===
 === docs/design-decisions.md ===
 === docs/design-proposals/2026-04-25-node-shapes.md ===
 === docs/domain-setup.md ===
@@ -3018,7 +3018,7 @@ The task agent started but the result seems empty or incomplete. Let me directly
 === docs/products/birth-control-guide.md ===
 === docs/products/feel-good-first-workbook.md ===
 === docs/products/hydrogen-benefits-ebook.md ===
-=== docs/products/kangen-water-guide.md ===
+=== docs/products/kangen-gateway-guide.md ===
 === docs/PROJECT-MAP.md ===
 === docs/proofs/2026-04-29-stream-a-deploy-diff.md ===
 === docs/proofs/README.md ===
@@ -3048,7 +3048,7 @@ The task agent started but the result seems empty or incomplete. Let me directly
 === docs/sops/SOP-SS-QAB-001_001-project-board-qa.md ===
 === docs/sops/SOP-SS-TRK-001_001-ontology_issue_tracking.md ===
 === docs/superpowers/intakes/2026-04-01-admin-spiral-path-board-atomization.md ===
-=== docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md ===
+=== docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md ===
 === docs/superpowers/intakes/2026-04-05-cross-session-github-board-alignment-transcript.md ===
 === docs/superpowers/intakes/2026-04-14-admin-messages-apr5-apr14-extraction.md ===
 === docs/superpowers/intakes/2026-04-20-admin-architecture-feedback-questionnaire.md ===
@@ -3365,7 +3365,7 @@ I need to extract session names, dates, and what work they did from all these pl
 2: 
 3: ## Context
 4: 
-5: The Sovereign Systems Spiral website (`sovereign-systems--spiral-template`) is architecturally inverted. admin's 65 atomized wants (commit `868d6c4`) reveal the site should be spiral-first — the spiral visualization is the main attraction, water is a nested "mini version." Currently the homepage leads with a generic Hero component that says "Begin with Water" twice. The spiral canvas is a 420px decoration sandwiched mid-page.
+5: The Sovereign Systems Spiral website (`sovereign-systems--spiral-template`) is architecturally inverted. admin's 65 atomized wants (commit `868d6c4`) reveal the site should be spiral-first — the spiral visualization is the main attraction, gateway is a nested "mini version." Currently the homepage leads with a generic Hero component that says "Begin with Gateway" twice. The spiral canvas is a 420px decoration sandwiched mid-page.
 
 (Showing lines 1-5 of 95. Use offset=6 to continue.)
 </content>
@@ -3723,7 +3723,7 @@ Now I need to check the docs/superpowers/plans directory for additional sessions
 2: 
 3: > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 4: 
-5: **Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + water funnel with documentary-first landing, quiz embed, and 6 branch pages — deployed to Netlify.
+5: **Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + gateway funnel with documentary-first landing, quiz embed, and 6 branch pages — deployed to Netlify.
 
 (Showing lines 1-5 of 1930. Use offset=6 to continue.)
 </content>
@@ -3883,11 +3883,11 @@ c59e6fa | 2026-04-29 15:25:25 -0400 | feat(capture): multi-sink dispatch; reloca
 9baed08 | 2026-04-29 15:05:59 -0400 | feat(spiral): four vessel modes for admin comparison — closes IRF-III-033 GH#57
 3140baa | 2026-04-29 14:52:29 -0400 | docs: scaffold docs/proofs/ for visible-progress cadence
 44bd5ea | 2026-04-29 14:51:18 -0400 | docs(README): update spiral tech-stack description
-a6685cf | 2026-04-29 14:51:12 -0400 | feat(content): add node 5 — Root Healing (Water as foundation)
-dcfe59f | 2026-04-29 14:51:00 -0400 | feat(config): wire admin-tagged affiliate URLs for water filtration
+a6685cf | 2026-04-29 14:51:12 -0400 | feat(content): add node 5 — Root Healing (Gateway as foundation)
+dcfe59f | 2026-04-29 14:51:00 -0400 | feat(config): wire admin-tagged affiliate URLs for gateway filtration
 ae8c420 | 2026-04-29 14:50:43 -0400 | feat(geometry): tune MANDORLA + TETRAD primitives
 e020456 | 2026-04-29 14:50:31 -0400 | feat(config): refine node taglines + shift node 11 (Integrate) to UNLOCK
-1716d26 | 2026-04-29 14:50:19 -0400 | chore(content): add nonprofit-mission framing to financial + identity pillars
+1716d26 | 2026-04-29 14:50:19 -0400 | chore(content): add nonprofit-mission framing to vision + structure pillars
 1ca0c87 | 2026-04-29 14:50:01 -0400 | feat(spiral): V8 cartographic coordinate layer
 face5d7 | 2026-04-29 14:49:21 -0400 | chore: gitignore IDE/agent caches; drop ephemeral exports
 ebc80b6 | 2026-04-29 14:49:11 -0400 | chore(plans): mirror Stream A plan into project plans dir
@@ -3946,7 +3946,7 @@ b98255d | 2026-04-21 11:26:55 -0400 | feat: node content collection — inject p
 fc2384f | 2026-04-21 07:18:46 -0400 | feat: navigation flow, filter matching, 404, SEO meta
 9d480e9 | 2026-04-21 06:52:25 -0400 | feat: 3D orbs, infinite helix, micro-motion, mobile support
 b9642c0 | 2026-04-21 06:35:44 -0400 | fix: add concurrency guard to prevent deploy stampede
-7fb3308 | 2026-04-21 06:24:55 -0400 | feat: fundamental realignment — Three.js 3D helix, correct node names, water consolidation
+7fb3308 | 2026-04-21 06:24:55 -0400 | feat: fundamental realignment — Three.js 3D helix, correct node names, gateway consolidation
 7a45f41 | 2026-04-20 12:31:02 -0400 | docs: save plan + questionnaire intake for admin architecture feedback
 a2553ce | 2026-04-20 12:12:11 -0400 | refactor: spiral-first homepage — pillars below fold, CTA copy updated
 297f4cf | 2026-04-19 18:53:37 -0400 | fix: move heading above canvas — overlay was illegible with 13 nodes
@@ -3964,27 +3964,27 @@ dd25b20 | 2026-04-19 18:11:30 -0400 | docs: update CLAUDE.md — 29-page map, cl
 602dc04 | 2026-04-19 17:44:37 -0400 | Merge pull request #48 from organvm-iii-ergon/feature/pr5-polish-walkthrough
 ea431a0 | 2026-04-19 17:44:34 -0400 | Merge pull request #47 from organvm-iii-ergon/feature/pr4-13-node-spiral
 0b6c955 | 2026-04-19 17:44:32 -0400 | Merge pull request #46 from organvm-iii-ergon/feature/pr3-quiz-architecture
-883d7fa | 2026-04-19 17:44:25 -0400 | Merge pull request #45 from organvm-iii-ergon/feature/pr2-water-page-scoping
+883d7fa | 2026-04-19 17:44:25 -0400 | Merge pull request #45 from organvm-iii-ergon/feature/pr2-gateway-page-scoping
 24b6319 | 2026-04-19 17:44:19 -0400 | Merge pull request #44 from organvm-iii-ergon/feature/pr1-homepage-spiral-hero
 817f74f | 2026-04-19 17:41:44 -0400 | docs: v3 client walkthrough — spiral-first architecture explained (#43)
 b9284f8 | 2026-04-19 17:39:35 -0400 | feat: 13-node spiral with golden-angle layout + node pages (#43)
 6cff6ba | 2026-04-19 17:31:27 -0400 | feat: quiz routing page with name+email gate (#43)
-8be9bc0 | 2026-04-19 17:28:20 -0400 | feat: scope water page to mini version — remove misplaced content (#43)
+8be9bc0 | 2026-04-19 17:28:20 -0400 | feat: scope gateway page to mini version — remove misplaced content (#43)
 ef0422e | 2026-04-19 16:43:39 -0400 | docs: add PR 1 implementation plan
-9e9a9de | 2026-04-19 16:40:24 -0400 | feat: restructure homepage — spiral as hero, water below (#43)
+9e9a9de | 2026-04-19 16:40:24 -0400 | feat: restructure homepage — spiral as hero, gateway below (#43)
 3b6ecf8 | 2026-04-18 06:52:21 -0400 | chore: add remaining session artifacts (allow-secret on false positives)
 62f45b9 | 2026-04-17 16:54:27 -0400 | chore: add claude session artifacts
 868d6c4 | 2026-04-17 16:50:28 -0400 | docs: 65-want atomization, 7-PDF extraction, corrective plan (#43)
-54e6f44 | 2026-04-17 15:27:27 -0400 | feat: EWG API proxy, dynamic Hydration Node, filter matching (#23)
+54e6f44 | 2026-04-17 15:27:27 -0400 | feat: EWG API proxy, dynamic Gateway Node, filter matching (#23)
 2681257 | 2026-04-17 15:26:21 -0400 | feat: Keystatic CMS for self-service content editing (#11)
-e962bcf | 2026-04-17 15:26:14 -0400 | feat: EWG API proxy, dynamic Hydration Node, filter matching (#23)
-eb12d96 | 2026-04-17 15:26:06 -0400 | feat: water page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
+e962bcf | 2026-04-17 15:26:14 -0400 | feat: EWG API proxy, dynamic Gateway Node, filter matching (#23)
+eb12d96 | 2026-04-17 15:26:06 -0400 | feat: gateway page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
 f2473d4 | 2026-04-17 15:24:06 -0400 | feat: Keystatic CMS integration for self-service content editing (#11)
 3b2f784 | 2026-04-17 15:25:42 -0400 | fix: price range parsing + stale metrics on failure (PR #41 feedback)
 c8d2f40 | 2026-04-17 15:19:57 -0400 | feat: EWG API proxy, dynamic contaminant rendering, filter matching engine (#23)
-4f72d2f | 2026-04-17 15:16:02 -0400 | feat: water page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
+4f72d2f | 2026-04-17 15:16:02 -0400 | feat: gateway page revenue-ready — content decisions, HydrationNode embed, capture name (#6)
 0108a88 | 2026-04-17 14:46:50 -0400 | docs: comprehensive admin request audit — all 7 PDFs cross-referenced (#39)
-00951f9 | 2026-04-17 10:04:39 -0400 | docs: intake 2026-04-17 — admin iMessages, V5 prototype, Hydration Node spec
+00951f9 | 2026-04-17 10:04:39 -0400 | docs: intake 2026-04-17 — admin iMessages, V5 prototype, Gateway Node spec
 a4b1cc4 | 2026-04-17 08:48:28 -0400 | chore: add remaining session artifacts with allow-secret markers
 25ac34a | 2026-04-17 08:48:00 -0400 | chore: session-close remediation — commit artifacts, fill ethicist vacuum
 744c920 | 2026-04-16 11:15:34 -0400 | ci: add Cloudflare Pages deploy to GitHub Actions
@@ -4015,7 +4015,7 @@ cdfbdc7 | 2026-04-04 21:59:45 -0400 | feat: full roadmap pass — 7 new issues f
 63fb780 | 2026-04-04 18:23:44 -0400 | fix(registry): repair nested double quotes in YAML section field
 7cb8b74 | 2026-04-04 16:57:50 -0400 | feat: Project Board QA SOP and tracking matrix update
 f9ef18d | 2026-04-04 16:40:45 -0400 | feat: content genome report suite and decision drafts
-82b71f1 | 2026-04-04 16:08:24 -0400 | feat: Sprint 4 — Hydration Node Phase A scaffold
+82b71f1 | 2026-04-04 16:08:24 -0400 | feat: Sprint 4 — Gateway Node Phase A scaffold
 17aeea9 | 2026-04-04 16:03:13 -0400 | feat: Sprint 3 — client decision acceleration documents
 ec61be1 | 2026-04-04 15:53:06 -0400 | feat: Phase 2 content pipeline — social calendar, semantic clusters, branch enrichment
 c4aa1a0 | 2026-04-04 15:52:53 -0400 | fix: B-106 citation date — McAdams 1995, not 2006
@@ -4035,10 +4035,10 @@ b30f692 | 2026-04-03 17:27:27 -0400 | feat: generate coverage maps + strike plan
 dccbd45 | 2026-04-03 17:24:20 -0400 | chore: regenerate registry — 1,821 atoms, all categories complete, Unaccounted: 0
 4ccfe67 | 2026-04-03 17:23:19 -0400 | feat: excavate root docs — 145 atoms marked in-situ (ATM-R-*)
 e2544de | 2026-04-03 17:00:13 -0400 | feat: excavate time-astro/ + concepts/ — 282 atoms (ATM-T + ATM-C)
-e7fdc95 | 2026-04-03 16:59:21 -0400 | chore: regenerate registry — 1,676 atoms across health/business/water/mindset
+e7fdc95 | 2026-04-03 16:59:21 -0400 | chore: regenerate registry — 1,676 atoms across health/business/gateway/mindset
 5f6289f | 2026-04-03 16:58:56 -0400 | feat: excavate mindset/ — 664 atoms marked in-situ (ATM-M-*)
 c25bb2f | 2026-04-03 16:49:35 -0400 | feat: excavate health/ — 372 atoms marked in-situ (ATM-H-*)
-114794e | 2026-04-03 16:47:19 -0400 | feat: excavate business/ + water/ — 358 atoms (ATM-B-219 + ATM-W-139)
+114794e | 2026-04-03 16:47:19 -0400 | feat: excavate business/ + gateway/ — 358 atoms (ATM-B-219 + ATM-W-139)
 f1cd660 | 2026-04-03 16:41:09 -0400 | feat: extract root docs 2a and 2b to extracted/
 84d54c5 | 2026-04-03 16:40:39 -0400 | feat: add atom registry parser script
 a3d31ab | 2026-04-03 16:34:16 -0400 | feat: plan — Atomic Excavation (12 tasks, ~1,420 atoms across 127 files)
@@ -4048,7 +4048,7 @@ a3d31ab | 2026-04-03 16:34:16 -0400 | feat: plan — Atomic Excavation (12 tasks
 d788df2 | 2026-04-03 15:55:32 -0400 | feat: build extraction manifest — 0% full coverage, 93 files MISSING
 9e45237 | 2026-04-03 15:53:20 -0400 | feat: archive source bundle + extract content + SOP-SS-CNT-001
 fc67424 | 2026-04-03 15:11:46 -0400 | fix: correct GEMINI.md false N/A edges — missed in prior commit
-8442f3e | 2026-04-03 14:58:59 -0400 | feat: ingest admin hydration node funnel spec + fix auto-sync vacuums
+8442f3e | 2026-04-03 14:58:59 -0400 | feat: ingest admin gateway node funnel spec + fix auto-sync vacuums
 324b51d | 2026-04-03 04:37:28 -0400 | feat: create issue specification system — 4 SOPs + 16 specs for all 20 roadmap issues
 8d5cd9d | 2026-04-02 00:01:06 -0400 | Record IRF tooling defect in audit
 05cc9a5 | 2026-04-01 23:58:50 -0400 | Record admin Spiral handoff state
@@ -4062,7 +4062,7 @@ ae3b8be | 2026-03-30 04:12:34 -0400 | docs: client intake questionnaire — reus
 83a2ce3 | 2026-03-27 17:44:26 -0400 | fix: spiral ghost trails — fill canvas with opaque bg each frame
 ee6e5ff | 2026-03-27 15:13:07 -0400 | feat: mobile-first — hamburger nav + tap-aware citation tooltips
 9b7e73e | 2026-03-27 14:58:48 -0400 | feat: three-layer funnel — free hook, email gate, sale conversion
-93473dc | 2026-03-27 14:46:33 -0400 | content: expand all pillar pages to match Physical Sovereignty depth
+93473dc | 2026-03-27 14:46:33 -0400 | content: expand all pillar pages to match Foundation Sovereignty depth
 b24ff17 | 2026-03-27 14:42:12 -0400 | feat: citation tooltips — lazy-loaded hover popups for all <sup> tags
 36747cb | 2026-03-27 14:35:19 -0400 | feat: migrate fully to Cloudflare Pages
 cf8d267 | 2026-03-27 14:11:55 -0400 | Merge pull request #2 from organvm-iii-ergon/purification
@@ -4088,7 +4088,7 @@ d1920b5 | 2026-03-25 22:03:29 -0400 | docs: corpus canon — 113 annotated sourc
 079b910 | 2026-03-25 19:18:19 -0400 | chore: Netlify config, seed.yaml, CLAUDE.md — deploy ready
 3313b64 | 2026-03-25 19:16:05 -0400 | feat: interactive spiral canvas — vanilla Perlin noise, orbital animation, mobile CSS fallback
 521f8c8 | 2026-03-25 19:11:50 -0400 | feat: hub landing page + 4 pillar pages + business placeholder
-9f13254 | 2026-03-25 19:09:41 -0400 | feat: water funnel — landing page, quiz embed, explore page, 6 dynamic branch pages
+9f13254 | 2026-03-25 19:09:41 -0400 | feat: gateway funnel — landing page, quiz embed, explore page, 6 dynamic branch pages
 e73ffc2 | 2026-03-25 19:05:40 -0400 | feat: base layout + 8 shared components (Hero, CTA, ComingSoon, VideoEmbed, BranchSection, QuizEmbed, PillarCard)
 26195af | 2026-03-25 19:03:25 -0400 | fix: correct pillar order values + add headings to placeholder branches
 8d9be52 | 2026-03-25 19:00:51 -0400 | content: add 6 branch pages + 4 pillar pages (3 live branches, 2 live pillars, rest placeholder)
@@ -4132,7 +4132,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 | 6 | `8d9be52` | Add 6 branch pages + 4 pillar pages |
 | 7 | `26195af` | Fix pillar order + branch headings |
 | 8 | `521f8c8` | Base layout + 8 shared components |
-| 9 | `9f13254` | Water funnel — landing, quiz, branches |
+| 9 | `9f13254` | Gateway funnel — landing, quiz, branches |
 | 10 | `96ccc1f` | Domain connection instructions |
 | 11 | `3313b64` | Netlify config, seed.yaml, CLAUDE.md |
 | 12 | `3313b64` | Interactive spiral canvas (vanilla Perlin noise) |
@@ -4228,7 +4228,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 
 **Artifacts produced:**
 - `docs/superpowers/intakes/2026-04-01-admin-spiral-path-board-atomization.md` — Board atomization transcript
-- `docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md` — Hydration Node funnel spec
+- `docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md` — Gateway Node funnel spec
 
 ---
 
@@ -4242,7 +4242,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 | 3 | `a3d31ab` | Plan — Atomic Excavation (12 tasks, ~1,420 atoms) |
 | 4 | `84d54c5` | Atom registry parser script |
 | 5 | `f1cd660` | Extract root docs 2a and 2b to extracted/ |
-| 6 | `114794e` | Excavate business/ + water/ — 358 atoms |
+| 6 | `114794e` | Excavate business/ + gateway/ — 358 atoms |
 | 7 | `c25bb2f` | Excavate health/ — 372 atoms |
 | 8 | `5f6289f` | Excavate mindset/ — 664 atoms |
 | 9 | `e2544de` | Excavate time-astro/ + concepts/ — 282 atoms |
@@ -4278,7 +4278,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 
 | # | Commit | Description |
 |---|--------|-------------|
-| 1 | `82b71f1` | Sprint 4 — Hydration Node Phase A scaffold |
+| 1 | `82b71f1` | Sprint 4 — Gateway Node Phase A scaffold |
 | 2 | `17aeea9` | Sprint 3 — client decision acceleration documents |
 | 3 | `ec61be1` | Phase 2 content pipeline — social calendar, clusters |
 | 4 | `c4aa1a0` | Fix B-106 citation date — McAdams 1995 |
@@ -4312,7 +4312,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 - `docs/decisions/2026-04-04-ewg-api-feasibility.md` — EWG API feasibility
 - `docs/decisions/2026-04-04-node-architecture-decision-deck.md` — Node architecture deck
 - `docs/decisions/2026-04-04-revenue-agreement-draft.md` — Revenue agreement draft
-- `docs/decisions/2026-04-04-water-hub-placement.md` — Water hub placement decision
+- `docs/decisions/2026-04-04-gateway-hub-placement.md` — Gateway hub placement decision
 - `docs/process-extraction/2026-04-04-reusable-processes.md` — 10 reusable processes
 - `docs/social-content-calendar/` — 8 files (carousel, email, guide, post, reel, video, etc.)
 - `docs/PROJECT-MAP.md` — Client project map
@@ -4323,7 +4323,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 
 ---
 
-### SESSION 9: Hydration Node + EWG API (2026-04-04 → 2026-04-14)
+### SESSION 9: Gateway Node + EWG API (2026-04-04 → 2026-04-14)
 **Agent:** Claude | **Commits:** `36747cb` → `573d307` (4 commits)
 
 | # | Commit | Description |
@@ -4381,8 +4381,8 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 | 3 | `24b6319` → `602dc04` | Merge PRs #44-#48 (5 corrective PRs) |
 | 4 | `b9284f8` | 13-node spiral with golden-angle layout + node pages |
 | 5 | `6cff6ba` | Quiz routing page with name+email gate |
-| 6 | `8be9bc0` | Scope water page to mini version |
-| 7 | `9e9a9de` | Restructure homepage — spiral as hero, water below |
+| 6 | `8be9bc0` | Scope gateway page to mini version |
+| 7 | `9e9a9de` | Restructure homepage — spiral as hero, gateway below |
 | 8 | `5326449` | Update 22 atomized wants — mark corrective PRs DONE |
 
 **Artifacts produced:**
@@ -4393,7 +4393,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 - `docs/client-decisions/2026-04-17-atomized-wants.md` — 65-want atomization
 - `docs/client-decisions/2026-04-17-comprehensive-request-audit.md` — Full request audit
 - `docs/client-decisions/2026-04-17-comprehensive-pdf-extraction.md` — 7-PDF extraction
-- `docs/client-decisions/2026-04-17-hydration-node-flowchart.md` — Hydration Node flowchart
+- `docs/client-decisions/2026-04-17-gateway-node-flowchart.md` — Gateway Node flowchart
 - `docs/client-decisions/2026-04-17-admin-imessage-extraction.md` — iMessage extraction
 - `docs/client-deliverables/2026-04-16-admin-site-walkthrough-v2.md` — Walkthrough v2
 - `docs/client-deliverables/2026-04-19-admin-site-walkthrough-v3.md` — Walkthrough v3
@@ -4419,7 +4419,7 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 - `docs/products/birth-control-guide.md` — Product: birth control guide
 - `docs/products/feel-good-first-workbook.md` — Product: workbook
 - `docs/products/hydrogen-benefits-ebook.md` — Product: hydrogen ebook
-- `docs/products/kangen-water-guide.md` — Product: kangen water guide
+- `docs/products/kangen-gateway-guide.md` — Product: kangen gateway guide
 
 ---
 
@@ -4532,10 +4532,10 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 | 1 | `face5d7` | Gitignore IDE/agent caches; drop ephemeral exports |
 | 2 | `1ca0c87` | V8 cartographic coordinate layer |
 | 3 | `e020456` | Refine node taglines + shift node 11 to UNLOCK |
-| 4 | `1716d26` | Nonprofit-mission framing to financial + identity pillars |
+| 4 | `1716d26` | Nonprofit-mission framing to vision + structure pillars |
 | 5 | `ae8c420` | Tune MANDORLA + TETRAD primitives |
-| 6 | `dcfe59f` | Wire admin-tagged affiliate URLs for water filtration |
-| 7 | `a6685cf` | Add node 5 — Root Healing (Water as foundation) |
+| 6 | `dcfe59f` | Wire admin-tagged affiliate URLs for gateway filtration |
+| 7 | `a6685cf` | Add node 5 — Root Healing (Gateway as foundation) |
 | 8 | `44bd5ea` | Update spiral tech-stack description |
 | 9 | `3140baa` | Scaffold docs/proofs/ for visible-progress cadence |
 | 10 | `9baed08` | Four vessel modes for admin comparison — closes IRF-III-033 GH#57 |
@@ -4680,8 +4680,8 @@ Now I have all the data needed to compile the comprehensive inventory. Let me st
 | `main` | Active | `b67fb26` (2026-04-29) | ✅ Synced | 0 |
 | `feature/initial-build` | **NO REMOTE** | `8714c85` (2026-03-25) | ❌ None | Entire branch |
 | `purification` | **NO REMOTE** | `6e40464` (2026-03-27) | ❌ None | Entire branch |
-| `feat/phase-1-water-page` | Behind | `4f72d2f` (2026-04-17) | ✅ Exists | 1 |
-| `feat/phase-2-ewg-hydration-node` | Behind | `3b2f784` (2026-04-17) | ✅ Exists | 1 |
+| `feat/phase-1-gateway-page` | Behind | `4f72d2f` (2026-04-17) | ✅ Exists | 1 |
+| `feat/phase-2-ewg-gateway-node` | Behind | `3b2f784` (2026-04-17) | ✅ Exists | 1 |
 | `feat/phase-3-keystatic-cms` | Synced | `f2473d4` (2026-04-17) | ✅ Exists | 0 |
 
 ---
@@ -4724,7 +4724,7 @@ Let me structure this according to the template.
 ## Instructions
 
 - **Hall-monitor standard:** Double-check all work, catch rule violations, overclaims, and inconsistencies
-- **Local:remote 1:1 axiom:** Persistent memory MUST exist locally and remotely simultaneously. If the physical manifestation dies, the soul persists. Nothing should be local-only
+- **Local:remote 1:1 axiom:** Persistent memory MUST exist locally and remotely simultaneously. If the foundation manifestation dies, the soul persists. Nothing should be local-only
 - **Additive-only discipline:** Do not overwrite prior session records; keep dated artifacts additive
 - **Triple-reference law:** Any closure means artifact + commit (with remote parity) + IRF row
 - **Claim-before-use on DONE counter:** Must increment `done-id-counter.json` before referencing DONE-NNN

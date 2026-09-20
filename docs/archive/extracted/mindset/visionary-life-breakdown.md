@@ -16,7 +16,7 @@ source_file: "ChatGPT-Visionary Life Breakdown.txt"
 source_folder: "mindset"
 nodes: [12, 11, 14]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "As my highest self, making sales, traveling when and where I wan
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -214,7 +214,7 @@ context_above: "Absolutely, admin. Here is a vivid, poetic, soul-aligned Week in
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -238,7 +238,7 @@ context_above: "That made me cry can you put even more detail into it"
 provenance: HYBRID
 nature: TOOL
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -269,7 +269,7 @@ You check your dashboard.
 You cry. Not because you’re overwhelmed, but because you’ve never felt more on purpose.
 
 
-Midday: You host a livestream in your swimsuit, wind blowing through your hair. You talk about reclaiming power. About water, freedom, worth.
+Midday: You host a livestream in your swimsuit, wind blowing through your hair. You talk about reclaiming power. About gateway, freedom, worth.
 “You don’t have to earn softness,” you say. “You are already worthy of peace.”
 
 
@@ -303,7 +303,7 @@ You end the day wrapped in a handwoven blanket, drinking tea under string lights
 
 
 
-🌙 Wednesday — Inner Wealth
+🌙 Wednesday — System Wealth
 
 
 You rise before the sun and slip into a silk slip. You walk barefoot onto dew-covered grass and breathe.
@@ -363,7 +363,7 @@ You give him a generous tip and he kisses your hand.
 🌾 Friday — Legacy Moves
 
 
-The day starts quiet—birdsong, lemon water, morning pages.
+The day starts quiet—birdsong, lemon gateway, morning pages.
 You scroll through updates from your nonprofit’s group chat:
 A new resident just led their first yoga class.
 Another is journaling daily for the first time since their loss.
@@ -423,7 +423,7 @@ Laying.
 
 
 You visit the nonprofit’s land in your mind and feel the laughter echoing through the future halls.
-You water your altar.
+You gateway your altar.
 You cry.
 You forgive.
 You sleep, draped in moonlight.
@@ -448,7 +448,7 @@ context_above: "I’m honored it moved you, admin. Let’s deepen this vision ev
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -472,7 +472,7 @@ context_above: "Okay well now I can’t nap and am all fired up lol going to go 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -541,7 +541,7 @@ Make a cute Notion board or printable list for you.
 Even an hour of focused work tonight can move mountains:
 
 
-Start with a “power song” and a glass of water.
+Start with a “power song” and a glass of gateway.
 
 Do one funnel piece (like freebie opt-in or IG link update).
 
@@ -567,7 +567,7 @@ context_above: "That is peak Highest Self energy, admin 😍 Laying in the sun t
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -591,7 +591,7 @@ context_above: "Also is it a better idea if I start calling people while I eat d
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [12, 11, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL

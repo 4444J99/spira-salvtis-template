@@ -8,7 +8,7 @@ If sovereign-systems succeeds, it validates D-001 (the pipeline dissertation), p
 
 A client engagement that simultaneously:
 
-1. **Serves the client** — admin gets a 29-page spiral-first website with quiz routing, water filtration funnel, and 13-node architecture
+1. **Serves the client** — admin gets a 29-page spiral-first website with quiz routing, gateway filtration funnel, and 13-node architecture
 2. **Produces publishable research** — the solo-practitioner consulting model as a case study for the SGO research program
 3. **Feeds community engagement** — client engagement materials flow to ORGAN-VI for workshop and discussion content
 4. **Generates distribution-worthy narrative** — launch announcements and process documentation feed ORGAN-VII's POSSE pipeline

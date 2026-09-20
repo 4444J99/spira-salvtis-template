@@ -16,7 +16,7 @@ source_file: "ChatGPT-Ego Integration and Overcoming.txt"
 source_folder: "mindset"
 nodes: [9, 4, 14]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "As a philosopher and a psychologist, can you explain to me what 
 provenance: HYBRID
 nature: TOOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -202,7 +202,7 @@ context_above: "Absolutely. Let's explore ego through both a philosophical and p
 provenance: LOCAL
 nature: QUESTION
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -226,7 +226,7 @@ context_above: "I want to tie this into my EAU blueprint - is there a path to he
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -275,7 +275,7 @@ Living from the inside out.
 
 Embodiment. Confidence. Vision. Boundaries. Expansion.
 
-Living aligned with your inner compass, no longer outsourcing your power.
+Living aligned with your system compass, no longer outsourcing your power.
 
 
 This mirrors:
@@ -348,7 +348,7 @@ context_above: "Such a powerful and insightful question, admin. Here’s the hon
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -372,7 +372,7 @@ context_above: "Yess I love love love the intro. Want to tie in the 60 days of g
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -401,7 +401,7 @@ context_above: "Beautiful—let’s map your EAU Blueprint into an archetypal fl
 provenance: HYBRID
 nature: SCRIPT
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -454,7 +454,7 @@ context_above: "ELEVATE Theme: Awakening the light within Energy: Air • Insigh
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -476,13 +476,13 @@ Included Concepts:
 
 🌱 Root Healing / Return to Origin — ancestral wisdom, Earth-based rhythms, nervous system safety
 
-💧 Detox as Devotion — food, water, thoughts, people—clearing what clouds your clarity
+💧 Detox as Devotion — food, gateway, thoughts, people—clearing what clouds your clarity
 
 🧬 Responsibility with Grace — acknowledging where you are without shame so you can move forward
 
 🫂 Self-love, not self-fixing — deep acceptance of your past, patterns, and pain
 
-🌑 Shadow Work + Identity Alchemy — understanding your protective parts, rewriting your story
+🌑 Shadow Work + Structure Alchemy — understanding your protective parts, rewriting your story
 
 
 Key Tools:
@@ -507,7 +507,7 @@ context_above: "ALIGN Theme: Rooting into truth Energy: Earth • Grounding • 
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -531,13 +531,13 @@ Included Concepts:
 
 💃 Confidence through Embodiment — not performing, but becoming
 
-🛡️ Aligned Action — building the business, boundaries, or bold life that matches your inner truth
+🛡️ Aligned Action — building the business, boundaries, or bold life that matches your system truth
 
 🌟 Radiance without force — glowing because you're full, not because you’re trying
 
 
 Key Tools:
-Water rituals, creative expression, strength training, business building, speaking your truth, community
+Gateway rituals, creative expression, strength training, business building, speaking your truth, community
 
 
 Affirmation:
@@ -570,7 +570,7 @@ context_above: "UNLOCK Theme: Reclaiming your power Energy: Fire • Embodiment 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -594,7 +594,7 @@ context_above: "Oh oh and balancing the yin & yang / m & f - how being the detri
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -623,7 +623,7 @@ context_above: "Love this expansion—you're weaving together spirituality, scie
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
@@ -655,7 +655,7 @@ context_above: "ELEVATE Additions: Quantum Realization — You are the observer 
 provenance: HYBRID
 nature: STATISTIC
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -669,7 +669,7 @@ Additions:
 
 ⚖️ Balancing Yin & Yang — Once yin is safe and regulated, you can reintroduce structure, movement, and aligned masculine energy (doing from being).
 
-🔌 You’re an Electromagnetic Being — The food, thoughts, people, and environment you surround yourself with literally change your field. (Great place for water education, grounding, detox.)
+🔌 You’re an Electromagnetic Being — The food, thoughts, people, and environment you surround yourself with literally change your field. (Great place for gateway education, grounding, detox.)
 
 🌱 The Compound Effect — You don’t need to overhaul your life overnight. 1% shifts build unstoppable momentum.
 <!-- ATM-M-133 OUT
@@ -687,7 +687,7 @@ context_above: "ALIGN Additions: Balancing Yin & Yang — Once yin is safe and r
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -731,7 +731,7 @@ context_above: "UNLOCK Additions: “Just Go For It” — Most people wait too 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -755,7 +755,7 @@ context_above: "Can you integrate it all for me"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -831,7 +831,7 @@ I am not behind. I am exactly where my soul needed to stir.
 
 Theme: Rooting into Truth
 Element: Earth
-Archetype: The Initiate • The Healer • The Inner Child Coming Home
+Archetype: The Initiate • The Healer • The System Child Coming Home
 
 
 This is where you descend, not to lose yourself—but to find your roots. It’s time to unlearn, to slow down, to meet yourself where you are. Real alignment comes from regulation, devotion, and grace-filled accountability.
@@ -850,7 +850,7 @@ Graceful Responsibility: You can’t heal what you deny. But you also don’t ha
 
 Self-Love & Shadow Integration: Wholeness = loving every past version of you.
 
-Electromagnetic Being: Your field responds to your inputs—food, people, thoughts, water.
+Electromagnetic Being: Your field responds to your inputs—food, people, thoughts, gateway.
 
 Compound Effect: You don’t have to change your life overnight. 1% better is healing.
 
@@ -862,11 +862,11 @@ Cycle syncing
 
 Nervous system hygiene
 
-Mineral-rich hydration
+Mineral-rich gateway
 
 Emotional release
 
-Cleaning your environment and inner narrative
+Cleaning your environment and system narrative
 
 
 🌳 Affirmation:
@@ -945,7 +945,7 @@ context_above: "Absolutely. Here is your fully integrated, elevated version of t
 provenance: LOCAL
 nature: QUESTION
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -969,7 +969,7 @@ context_above: "Does this categorize or make it so that it can all be followed i
 provenance: HYBRID
 nature: TOOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1082,7 +1082,7 @@ lets people enter anywhere
 
 invites reflection + looping
 
-and offers clear wins + identity shifts...
+and offers clear wins + structure shifts...
 
 
 Then yes—it absolutely can guide anyone through a personal transformation and give them the tools to feel successful, safe, and powerful along the way.
@@ -1119,7 +1119,7 @@ context_above: "Such a sharp and important question—this is what separates a b
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1143,7 +1143,7 @@ context_above: "Can I see the printable roadmap please!"
 provenance: HYBRID
 nature: TOOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1191,7 +1191,7 @@ Identified what isn't working in life
 
 Allowed yourself rest and grace (60 Days of Grace)
 
-Reconnected with intuition and inner guidance
+Reconnected with intuition and system guidance
 
 Began observing ego and fear patterns
 
@@ -1265,7 +1265,7 @@ Took action before you felt 100% ready (40/70 Rule)
 
 Owned your voice, story, and presence confidently
 
-Aligned your daily life and habits with your inner truth
+Aligned your daily life and habits with your system truth
 
 
 Tools to Support You:
@@ -1314,7 +1314,7 @@ context_above: "Here's your beautifully structured, intuitive, and practical pri
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1338,13 +1338,13 @@ context_above: "I think this is perfect and then I can tie in my different conce
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
 strike_phase: 1B
 -->
-Amazing!! I’m so glad it lands—this roadmap is foundational, and now you’ve got the perfect container to weave in your deeper concepts (like quantum mechanics, yin/yang, nervous system healing, water, mindset, etc.) as seasonings rather than separate paths. That’s what will make your blueprint unforgettable.
+Amazing!! I’m so glad it lands—this roadmap is foundational, and now you’ve got the perfect container to weave in your deeper concepts (like quantum mechanics, yin/yang, nervous system healing, gateway, mindset, etc.) as seasonings rather than separate paths. That’s what will make your blueprint unforgettable.
 
 
 Here’s how you can now expand from it:
@@ -1383,7 +1383,7 @@ context_above: "Amazing!! I’m so glad it lands—this roadmap is foundational,
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1410,7 +1410,7 @@ context_above: "Yes let’s do the plug in pages and a poster style of the spira
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -1495,7 +1495,7 @@ context_above: "Perfect! Here's our next step breakdown: 1. Plug-In Concept Page
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1525,7 +1525,7 @@ context_above: "Let’s do that we are electromagnetic beings and the law of att
 provenance: HYBRID
 nature: TOOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
@@ -1538,7 +1538,7 @@ strike_phase: 1B
 ⚡ Core Concept
 
 
-You are not just a physical body—you are an electromagnetic field that radiates frequency into the world. Your thoughts, emotions, words, and actions operate much like radio signals—they broadcast, attract, and shape your reality.
+You are not just a foundation body—you are an electromagnetic field that radiates frequency into the world. Your thoughts, emotions, words, and actions operate much like radio signals—they broadcast, attract, and shape your reality.
 
 
 
@@ -1547,9 +1547,9 @@ You are not just a physical body—you are an electromagnetic field that radiate
 
 ELEVATE: Begin by feeling your frequency—nervous-system regulation is the first step in becoming a coherent signal.
 
-ALIGN: Cleanse your internal & external environment—detoxing isn't just physical; it's emotional, energetic, and vibrational.
+ALIGN: Cleanse your internal & external environment—detoxing isn't just foundation; it's emotional, energetic, and vibrational.
 
-UNLOCK: Activate your power with intent. Your frequency affects not just your inner world—it sets the stage for magnetic action.
+UNLOCK: Activate your power with intent. Your frequency affects not just your system world—it sets the stage for magnetic action.
 
 
 
@@ -1565,7 +1565,7 @@ Quantum Observer Effect:
 You are an active observer. Your focus literally changes the measurement of energy (your “eyes as black holes” metaphor).
 
 Yogananda’s Spiritual Magnetism:
-The soul acts as a magnet (“spiritual magnetism”)—your inner state calls in your outer life archive.org+15evolutionaryleaders.net+15scienceofpeople.com+15medium.com.
+The soul acts as a magnet (“spiritual magnetism”)—your system state calls in your outer life archive.org+15evolutionaryleaders.net+15scienceofpeople.com+15medium.com.
 
 
 
@@ -1621,7 +1621,7 @@ Forgiveness isn’t about excusing—it’s about recognizing divine purpose in 
 
 A five-stage system: feel victimhood fully → realize spiritual opportunity → shift perspective → release and receive healing.
 
-When you shift identity from victim to soul, you release emotional charge and realign your field cdn.bookey.app+2medium.com+2.
+When you shift structure from victim to soul, you release emotional charge and realign your field cdn.bookey.app+2medium.com+2.
 
 
 
@@ -1674,7 +1674,7 @@ context_above: "Plug-In Page: Electromagnetic Being & The Laws of Manifestation 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1698,7 +1698,7 @@ context_above: "Yes yes yes! Thank you!!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -1761,7 +1761,7 @@ context_above: "Yay!! I’m so happy it resonates—this is going to be such a p
 provenance: LOCAL
 nature: QUESTION
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1785,7 +1785,7 @@ context_above: "How do I best explain or integrate my own journey and everything
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1836,7 +1836,7 @@ context_above: "Such a powerful question—and you’re asking it at exactly the
 provenance: HYBRID
 nature: CLAIM
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1865,7 +1865,7 @@ context_above: "ELEVATE — The Awakening & Overwhelm Phase Share how your sympt
 provenance: HYBRID
 nature: CLAIM
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1878,7 +1878,7 @@ Share your return to nature, your cycle, your breath
 
 Reflect on detoxing old identities and grieving versions of yourself
 
-Talk about grounding tools that actually worked for you (e.g., mineral-rich water, somatics, cacao, lymph movement)
+Talk about grounding tools that actually worked for you (e.g., mineral-rich gateway, somatics, cacao, lymph movement)
 <!-- ATM-M-152 OUT
 next: ATM-M-153
 context_below: "UNLOCK — The Emergence & Embodiment Phase Share moments where you acted before you were ready Reflec..."
@@ -1894,7 +1894,7 @@ context_above: "ALIGN — The Descent & Remembering Phase Share your return to n
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 4, 14]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL

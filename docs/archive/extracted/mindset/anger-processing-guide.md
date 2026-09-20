@@ -16,7 +16,7 @@ source_file: "ChatGPT-Anger Processing Guide.txt"
 source_folder: "mindset"
 nodes: [2, 3, 9]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "From a therapists and my highest self’s stand point, how do I 
 provenance: HYBRID
 nature: TOOL
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
@@ -134,7 +134,7 @@ It becomes a tether to lower vibrations that dim your light.
 
 You’re arguing with reality or feeding a narrative of powerlessness.
 
-It’s costing you your inner peace or creative energy.
+It’s costing you your system peace or creative energy.
 
 It’s not yours to carry anymore—it’s part of someone else’s karma or growth path.
 
@@ -172,7 +172,7 @@ context_above: "This is such a powerful and important question, and the fact tha
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -196,7 +196,7 @@ context_above: "Yes please thank you !!"
 provenance: HYBRID
 nature: TOOL
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -222,7 +222,7 @@ Say softly: “I allow truth to rise. I allow energy to move. I allow myself to 
 
 
 
-Step 2: Ask These Inner Questions (Journal or Just Feel)
+Step 2: Ask These System Questions (Journal or Just Feel)
 
 
 What am I angry about—and what am I angry for?
@@ -325,7 +325,7 @@ context_above: "You’re so welcome! Here’s a gentle emotional sorting practic
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -349,7 +349,7 @@ context_above: "So it’s okay to feel it until I understand it and then I can s
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -392,7 +392,7 @@ context_above: "Yes—exactly right. It’s absolutely okay to feel it—fully, 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -416,7 +416,7 @@ context_above: "I do not like being angry lol k don’t know how to feel it or w
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -462,10 +462,10 @@ When you can’t think straight or focus and it feels all-consuming:
 Move the body first. Don’t try to think your way through it. Jump, stomp, shake, dance, punch a pillow.
 Anger is primal. Let it leave through the body.
 
-Set a 5-minute anger timer. Let yourself rant out loud or on paper: “I hate this, I’m tired of this, it’s not fair…” No censoring. Then stop. Breathe. Drink water. Ground.
+Set a 5-minute anger timer. Let yourself rant out loud or on paper: “I hate this, I’m tired of this, it’s not fair…” No censoring. Then stop. Breathe. Drink gateway. Ground.
 
 Give it a shape or color.
-“If this anger were a creature, what would it look like?” Let it have an identity outside of you. Then you can say, “I see you. What do you need?”
+“If this anger were a creature, what would it look like?” Let it have an structure outside of you. Then you can say, “I see you. What do you need?”
 
 
 
@@ -491,7 +491,7 @@ context_above: "That makes so much sense, and you’re not alone in this at all.
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -515,7 +515,7 @@ context_above: "Yes please that would be perfect this is all so great"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 3, 9]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

@@ -7,7 +7,7 @@
 ## 1. ATM-M-032
 
 **Source:** `mindset/anger-processing-guide.md`
-**Pillar:** Inner | **Nodes:** [2, 3, 9]
+**Pillar:** System | **Nodes:** [2, 3, 9]
 **Editorial:** CLEAN
 
 ### Content
@@ -38,7 +38,7 @@ You’re doing beautifully. Want a one-liner or mantra to carry with you as a re
 ## 2. ATM-M-036
 
 **Source:** `mindset/anger-processing-guide.md`
-**Pillar:** Inner | **Nodes:** [2, 3, 9]
+**Pillar:** System | **Nodes:** [2, 3, 9]
 **Editorial:** CLEAN
 
 ### Content
@@ -94,7 +94,7 @@ Would you like a short version for your Notes app or to use as a lock screen too
 ## 3. ATM-M-127
 
 **Source:** `mindset/ego-integration-and-overcoming.md`
-**Pillar:** Inner | **Nodes:** [9, 4, 14]
+**Pillar:** System | **Nodes:** [9, 4, 14]
 **Editorial:** CLEAN
 
 ### Content
@@ -137,14 +137,14 @@ Affirmation:
 ## 4. ATM-M-169
 
 **Source:** `mindset/emotional-misattunement-explanation.md`
-**Pillar:** Inner | **Nodes:** [2, 3, 10]
+**Pillar:** System | **Nodes:** [2, 3, 10]
 **Editorial:** CLEAN
 
 ### Content
 
 Okay, admin — let’s slow it down and untangle what your heart actually meant beneath the hurt.
 What you said wasn’t cruel. It was a cry for clarity, consistency, and safety.
-Below is your reframed inner dialogue, rewritten in the way your higher self meant every message — still honest, but without the guilt attached.
+Below is your reframed system dialogue, rewritten in the way your higher self meant every message — still honest, but without the guilt attached.
 
 
 
@@ -216,7 +216,7 @@ Would you like me to turn this into a printable or lock-screen note — somethin
 ## 5. ATM-M-193
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -231,7 +231,7 @@ And yes — Notion is much better than Trello if you’re visual and like organi
 ## 6. ATM-M-207
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -247,7 +247,7 @@ If you'd like the exact message-by-message transcript as well (not just the summ
 ## 7. ATM-M-209
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -263,7 +263,7 @@ Let me know if you want a PDF version or want it formatted into a Notion or Goog
 ## 8. ATM-M-211
 
 **Source:** `mindset/entrepreneurship-development-recommendations.md`
-**Pillar:** Financial | **Nodes:** [11]
+**Pillar:** Vision | **Nodes:** [11]
 **Editorial:** CLEAN
 
 ### Content
@@ -279,7 +279,7 @@ Let me know if you want a PDF version or if you’d like this uploaded to Google
 ## 9. ATM-M-239
 
 **Source:** `mindset/frozen-feelings-and-support.md`
-**Pillar:** Inner | **Nodes:** [2, 9, 1]
+**Pillar:** System | **Nodes:** [2, 9, 1]
 **Editorial:** CLEAN
 
 ### Content
@@ -400,7 +400,7 @@ Whatever you need next, I’ve got you.
 ## 10. ATM-M-253
 
 **Source:** `mindset/frozen-feelings-and-support.md`
-**Pillar:** Inner | **Nodes:** [2, 9, 1]
+**Pillar:** System | **Nodes:** [2, 9, 1]
 **Editorial:** CLEAN
 
 ### Content
@@ -450,7 +450,7 @@ And if you want a follow-up—maybe a breathing pattern, or a body release to go
 ## 11. ATM-M-473
 
 **Source:** `mindset/manifestation-mastery-secrets.md`
-**Pillar:** Inner | **Nodes:** [12, 2, 1]
+**Pillar:** System | **Nodes:** [12, 2, 1]
 **Editorial:** CLEAN
 
 ### Content
@@ -535,7 +535,7 @@ Let me know what feels easiest!
 ## 12. ATM-M-523
 
 **Source:** `mindset/masculine-vs-feminine-balance.md`
-**Pillar:** Inner | **Nodes:** [5, 1, 13]
+**Pillar:** System | **Nodes:** [5, 1, 13]
 **Editorial:** CLEAN
 
 ### Content
@@ -582,7 +582,7 @@ You’re not falling behind when you rest—you’re syncing with a deeper flow.
 ## 13. ATM-M-581
 
 **Source:** `mindset/overwhelm-to-clarity.md`
-**Pillar:** Inner | **Nodes:** [3, 11, 5]
+**Pillar:** System | **Nodes:** [3, 11, 5]
 **Editorial:** CLEAN
 
 ### Content
@@ -594,7 +594,7 @@ Create one Google Sheet.
 
 
 Name it:
-“30 Day Stability Sprint – Water”
+“30 Day Stability Sprint – Gateway”
 
 
 
@@ -627,7 +627,7 @@ Boring = scalable.
 ## 14. ATM-M-645
 
 **Source:** `mindset/vision-board-creation-guide.md`
-**Pillar:** Inner | **Nodes:** [12, 11]
+**Pillar:** System | **Nodes:** [12, 11]
 **Editorial:** CLEAN
 
 ### Content
@@ -635,7 +635,7 @@ Boring = scalable.
 Absolutely, no worries at all. This is exactly why we’re doing this kind of brain dump. So let’s just keep it flowing, and I can totally ask a few questions to help jog your memory.
 
 
-Right now, we’ve got a nice list forming: you want your own land, a horse, the freedom to buy groceries without worrying about your bank account, and just generally handle your car and your life without financial stress. You also want to start selling your art and maybe do a handwritten letter or print subscription, which sounds super cool. And you’ve got a financial target of $10,000 a month as a first milestone, and eventually a coffee shop.
+Right now, we’ve got a nice list forming: you want your own land, a horse, the freedom to buy groceries without worrying about your bank account, and just generally handle your car and your life without vision stress. You also want to start selling your art and maybe do a handwritten letter or print subscription, which sounds super cool. And you’ve got a vision target of $10,000 a month as a first milestone, and eventually a coffee shop.
 
 
 So let me ask you a couple of things that might spark more ideas. For example, do you have a specific vibe or aesthetic you envision for your home or coffee shop, like a certain style or atmosphere? And do you see yourself in a particular kind of environment, like a certain state or a certain landscape? Sometimes that helps the rest of the ideas flow back in.
@@ -645,7 +645,7 @@ So let me ask you a couple of things that might spark more ideas. For example, d
 ## 15. ATM-M-647
 
 **Source:** `mindset/vision-board-creation-guide.md`
-**Pillar:** Inner | **Nodes:** [12, 11]
+**Pillar:** System | **Nodes:** [12, 11]
 **Editorial:** CLEAN
 
 ### Content
@@ -666,7 +666,7 @@ So, let's just note all of that down and then once you remember more or want to 
 ## 16. ATM-M-649
 
 **Source:** `mindset/vision-board-creation-guide.md`
-**Pillar:** Inner | **Nodes:** [12, 11]
+**Pillar:** System | **Nodes:** [12, 11]
 **Editorial:** CLEAN
 
 ### Content

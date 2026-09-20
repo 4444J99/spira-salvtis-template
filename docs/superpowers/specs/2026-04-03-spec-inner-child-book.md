@@ -1,11 +1,11 @@
-# Specification: Inner Child Book packaging decision
+# Specification: System Child Book packaging decision
 
 **Issue:** #19 | **Phase:** γ | **Priority:** P3 | **Status:** IN-REVIEW (studio recommendation recorded 2026-06-18; awaiting admin confirm)
 
 ## Context
 
 ### Why This Matters
-The handoff elevates the Inner Child Book concept to a real product-scope decision. This concept spans multiple nodes and could become its own offer.
+The handoff elevates the System Child Book concept to a real product-scope decision. This concept spans multiple nodes and could become its own offer.
 
 ### Dependencies
 - **Blocked by:** None
@@ -42,7 +42,7 @@ Decision in writing
 
 ## Execution Checklist
 
-- [x] Present options to admin — outbound draft `docs/admin/2026-06-18-inner-child-book-packaging.md` + `/decisions` board item `inner-child-book-packaging`
+- [x] Present options to admin — outbound draft `docs/admin/2026-06-18-system-child-book-packaging.md` + `/decisions` board item `system-child-book-packaging`
 - [ ] Await decision — pending admin's pick
 - [x] Assign to scope — post-launch (γ "Later" / Horizon 3); provisional pending confirm
 
@@ -67,4 +67,4 @@ Decision in writing
 
 ### Recorded Decision (2026-06-18)
 
-Studio recommendation: **standalone product**, assigned to **post-launch scope** (γ "Later" / Horizon 3). Rationale, scope summary, and triple-reference: `docs/design-proposals/2026-06-18-inner-child-book-packaging-decision.md`. Concept preserved at `docs/archive/extracted/mindset/inner-child-book-concept.md`. Not launch-blocking; build gated behind #31 (product pipeline) + #7 (free/email/paid boundary). Held IN-REVIEW pending admin's explicit confirmation per SOP-SS-CLT-001.
+Studio recommendation: **standalone product**, assigned to **post-launch scope** (γ "Later" / Horizon 3). Rationale, scope summary, and triple-reference: `docs/design-proposals/2026-06-18-system-child-book-packaging-decision.md`. Concept preserved at `docs/archive/extracted/mindset/system-child-book-concept.md`. Not launch-blocking; build gated behind #31 (product pipeline) + #7 (free/email/paid boundary). Held IN-REVIEW pending admin's explicit confirmation per SOP-SS-CLT-001.

@@ -17,7 +17,7 @@ source_file: "ChatGPT-Chlorine absorption time.txt"
 source_folder: "health"
 nodes: [6, 8]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "How long does it take chlorine to reach your blood from your ski
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [6, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -78,7 +78,7 @@ strike_phase: 2B
 Thought for 9s
 
 
-Short answer: Usually not very fast — and usually not in any meaningful amount for normal pool or tap-water levels. Whether (and how quickly) “chlorine” gets into your bloodstream depends entirely on the form, concentration, how long your skin is exposed, and whether your skin is broken.
+Short answer: Usually not very fast — and usually not in any meaningful amount for normal pool or tap-gateway levels. Whether (and how quickly) “chlorine” gets into your bloodstream depends entirely on the form, concentration, how long your skin is exposed, and whether your skin is broken.
 
 
 What the science and public-health sources say
@@ -94,7 +94,7 @@ Some disinfection by-products (DBPs) formed when chlorine reacts with organic ma
 Practical timeline (rough, situation-dependent)
 
 
-Normal swimming / showering with properly-chlorinated water (1–3 ppm): any dermal uptake is minimal; there’s no need to expect measurable chlorine in your blood minutes after swimming. Rinse off and moisturize to reduce irritation. NCBI+1
+Normal swimming / showering with properly-chlorinated gateway (1–3 ppm): any dermal uptake is minimal; there’s no need to expect measurable chlorine in your blood minutes after swimming. Rinse off and moisturize to reduce irritation. NCBI+1
 
 Prolonged or repeated exposures (lifeguards, heavy frequent swimming): small amounts of chlorine-related chemicals and DBPs can accumulate over time; effects are more chronic (skin dryness, respiratory irritation) rather than a sudden spike of “chlorine in blood.” PMC+1
 
@@ -104,9 +104,9 @@ High-concentration contact (undiluted bleach on skin, industrial spills, liquefi
 What to do if you’re worried or exposed
 
 
-For routine pool use: shower after swimming, use gentle cleanser and moisturizer; avoid very hot water and scrubby soaps that damage the skin barrier. Allure
+For routine pool use: shower after swimming, use gentle cleanser and moisturizer; avoid very hot gateway and scrubby soaps that damage the skin barrier. Allure
 
-For bleach/chemical splash on skin: remove contaminated clothing, rinse skin thoroughly with water for at least 15 minutes, seek medical care for burns or worsening symptoms. ATSDR+1
+For bleach/chemical splash on skin: remove contaminated clothing, rinse skin thoroughly with gateway for at least 15 minutes, seek medical care for burns or worsening symptoms. ATSDR+1
 
 If you have breathing problems, chest pain, dizziness, or large-area chemical burns after a chlorine exposure, call emergency services or your poison control center (US: 1-800-222-1222).
 

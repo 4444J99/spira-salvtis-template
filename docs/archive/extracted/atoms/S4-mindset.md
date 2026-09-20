@@ -113,18 +113,18 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-A) Somatic + Subconscious approach — body-based, nervous-system-based, inner-child, trauma-rooted blocks, breathwork, pattern-tracking, and identity rewiring. B) Energetic + Frequency approach — quantum language, emotional resonance, money frequency attunement, feminine/masculine money wounds, ancestral patterns, and ritual.
+A) Somatic + Subconscious approach — body-based, nervous-system-based, system-child, trauma-rooted blocks, breathwork, pattern-tracking, and structure rewiring. B) Energetic + Frequency approach — quantum language, emotional resonance, money frequency attunement, feminine/masculine money wounds, ancestral patterns, and ritual.
 ===
 
 ATOM S4-M-018
 Section: Categories of Money Blocks
-Idea: Six categories of money/frequency blocks including nervous system, identity, childhood, ancestral, polarity, and frequency misalignment.
+Idea: Six categories of money/frequency blocks including nervous system, structure, childhood, ancestral, polarity, and frequency misalignment.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Nervous System Blocks: If your body associates “more money, more responsibility → more stress,” it will subconsciously avoid abundance. Identity or Self-Worth Blocks: “Who am I to make that much?” Childhood Programming: Hearing: “money is hard,” “rich people are greedy,”. Ancestral + Generational Imprints: especially for women: centuries of money = power = danger. Feminine/Masculine Polarity Wounds: Money has masculine energy (structure), receiving has feminine energy (trust). Frequency Misalignment: frequency set to: fear, urgency, lack, or proving.
+Nervous System Blocks: If your body associates “more money, more responsibility → more stress,” it will subconsciously avoid abundance. Structure or Self-Worth Blocks: “Who am I to make that much?” Childhood Programming: Hearing: “money is hard,” “rich people are greedy,”. Ancestral + Generational Imprints: especially for women: centuries of money = power = danger. Feminine/Masculine Polarity Wounds: Money has masculine energy (structure), receiving has feminine energy (trust). Frequency Misalignment: frequency set to: fear, urgency, lack, or proving.
 ===
 
 ATOM S4-M-019
@@ -140,13 +140,13 @@ Q1. Growing up, money in my house felt: ____ Q2. When I imagine earning MORE mon
 
 ATOM S4-M-020
 Section: Clearing Tools Mapping
-Idea: Specific clearing tools mapped to block types (e.g., somatic release for nervous system, inner-child work for childhood).
+Idea: Specific clearing tools mapped to block types (e.g., somatic release for nervous system, system-child work for childhood).
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Nervous System: Somatic release, breathwork, safety rewiring. Identity: Self-concept reprogramming, behavior-first stacking. Childhood: Inner-child + subconscious reparenting. Ancestral: Timeline + somatic lineage clearing. Feminine/Masculine: Polarity work + safety in receiving. Frequency: Emotional transmutation + embodiment.
+Nervous System: Somatic release, breathwork, safety rewiring. Structure: Self-concept reprogramming, behavior-first stacking. Childhood: System-child + subconscious reparenting. Ancestral: Timeline + somatic lineage clearing. Feminine/Masculine: Polarity work + safety in receiving. Frequency: Emotional transmutation + embodiment.
 ===
 
 ATOM S4-M-021
@@ -179,7 +179,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Phase 1 (Days 1–7): Deep Reset — somatic + energetic clearing + nervous system safety. Phase 2 (Days 8–28): Rewire — identity recoding + feminine receiving + masculine follow-through. Day 29–30 Integration: embodiment, timeline shift, and a new wealth set-point.
+Phase 1 (Days 1–7): Deep Reset — somatic + energetic clearing + nervous system safety. Phase 2 (Days 8–28): Rewire — structure recoding + feminine receiving + masculine follow-through. Day 29–30 Integration: embodiment, timeline shift, and a new wealth set-point.
 ===
 
 ATOM S4-M-024
@@ -194,8 +194,8 @@ Free, I have a house on the beach and in the mountains - I can travel when I wan
 ===
 
 ATOM S4-M-025
-Section: Target Identity
-Idea: Desired identity as a confident, safe, and magnetic woman who receives and circulates abundance.
+Section: Target Structure
+Idea: Desired structure as a confident, safe, and magnetic woman who receives and circulates abundance.
 Provenance: LOCAL
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -205,8 +205,8 @@ Confident, happy, safe, the most generous kind & impactful person that is ground
 ===
 
 ATOM S4-M-026
-Section: Financial Milestone
-Idea: Initial tangible financial milestone of consistent $10k months.
+Section: Vision Milestone
+Idea: Initial tangible vision milestone of consistent $10k months.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
@@ -223,7 +223,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-COMMAND ➝ SOMATIC SHIFT ➝ ACTION ➝ REPETITION ➝ IDENTITY CLICK. or: Subconscious Order ➝ Nervous System Safety ➝ Real-World Movement ➝ Pattern Lock-In.
+COMMAND ➝ SOMATIC SHIFT ➝ ACTION ➝ REPETITION ➝ STRUCTURE CLICK. or: Subconscious Order ➝ Nervous System Safety ➝ Real-World Movement ➝ Pattern Lock-In.
 ===
 
 ATOM S4-M-028
@@ -234,7 +234,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-1. MORNING: Command Code + Breath/Nervous System Priming + Identity Lock-In. 2. DAY ACTION: One masculine “move money closer” action. 3. EVENING: Somatic release or pattern clearing + Receiving nervous system exercise + Command Code repetition.
+1. MORNING: Command Code + Breath/Nervous System Priming + Structure Lock-In. 2. DAY ACTION: One masculine “move money closer” action. 3. EVENING: Somatic release or pattern clearing + Receiving nervous system exercise + Command Code repetition.
 ===
 
 ATOM S4-M-029
@@ -294,7 +294,7 @@ Deep inhale through the nose (4) → hold (2) → slow exhale (6) — repeat 3 t
 
 ATOM S4-M-034
 Section: Money-Moving Actions
-Idea: Pool of practical daily actions to drive financial results and break procrastination.
+Idea: Pool of practical daily actions to drive vision results and break procrastination.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -457,7 +457,7 @@ How to speak more concisely: Anchor your body first (shoulders back, chest open)
 
 ATOM S4-M-049
 Section: Body Alignment Cues
-Idea: Physical cues to improve posture and ground communication.
+Idea: Foundation cues to improve posture and ground communication.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -468,7 +468,7 @@ Body alignment cues: Feet grounded, spine straight, hands relaxed but expressive
 
 ATOM S4-M-050
 Section: Posture Reset Drill
-Idea: One-minute physical reset to shift from "proving" to "expressing."
+Idea: One-minute foundation reset to shift from "proving" to "expressing."
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -532,7 +532,7 @@ How to speak more concisely: Anchor your body first (shoulders back, chest open)
 
 ATOM S4-M-049
 Section: Body Alignment Cues
-Idea: Physical cues to improve posture and ground communication.
+Idea: Foundation cues to improve posture and ground communication.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -543,7 +543,7 @@ Body alignment cues: Feet grounded, spine straight, hands relaxed but expressive
 
 ATOM S4-M-050
 Section: Posture Reset Drill
-Idea: One-minute physical reset to shift from "proving" to "expressing."
+Idea: One-minute foundation reset to shift from "proving" to "expressing."
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -705,13 +705,13 @@ I want to help trigger and awaken that kind of, like, the spiral blueprint, thin
 
 ATOM S4-M-081
 Section: Self-Awareness & Love
-Idea: Healing at the root cellular level (referenced as "water stuff") is a foundational step before progressing to the mindset aspects of the spiral.
+Idea: Healing at the root cellular level (referenced as "gateway stuff") is a foundational step before progressing to the mindset aspects of the spiral.
 Provenance: LOCAL
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-I could finish my water stuff and have him go through that to understand the healing at the root cellular level. And then as I get the spiral going, I can ask him for his reflection on it.
+I could finish my gateway stuff and have him go through that to understand the healing at the root cellular level. And then as I get the spiral going, I can ask him for his reflection on it.
 ===
 
 ATOM S4-M-082
@@ -997,13 +997,13 @@ According to the Gateway Process (CIA doc), consciousness can be expanded throug
 
 ATOM S4-M-108
 Section: TM & Kundalini
-Idea: The first phase of energetic practice focuses on grounding and stabilizing the nervous system through daily meditation and physical connection to the earth.
+Idea: The first phase of energetic practice focuses on grounding and stabilizing the nervous system through daily meditation and foundation connection to the earth.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Phase 1: Grounding & Nervous System Prep. Daily TM-style meditation (20 min twice/day). Grounding after meditation: Walk barefoot, stretch or do yoga nidra, eat nourishing food (especially root vegetables), stay hydrated with structured water.
+Phase 1: Grounding & Nervous System Prep. Daily TM-style meditation (20 min twice/day). Grounding after meditation: Walk barefoot, stretch or do yoga nidra, eat nourishing food (especially root vegetables), stay hydrated with structured gateway.
 ===
 
 ATOM S4-M-109
@@ -1047,7 +1047,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Closing your energy intentionally after meditation or Kundalini work is essential. How to Close: 1. Ground Physically (Touch body, drink water, eat grounding food). 2. Energetic Sealing (Visualize a golden cocoon, say: "My energy is sealed and sovereign."). 3. Optional: Clap hands or ring a bell.
+Closing your energy intentionally after meditation or Kundalini work is essential. How to Close: 1. Ground Physically (Touch body, drink gateway, eat grounding food). 2. Energetic Sealing (Visualize a golden cocoon, say: "My energy is sealed and sovereign."). 3. Optional: Clap hands or ring a bell.
 ===
 
 ATOM S4-M-113
@@ -1096,13 +1096,13 @@ Root (Muladhara): Safety, survival (Blocked: Anxiety). Sacral (Svadhisthana): Pl
 
 ATOM S4-M-117
 Section: TM & Kundalini
-Idea: Physical sensations during energy work, such as tingling or spinal warmth, are messages intended to guide the pace of expansion.
+Idea: Foundation sensations during energy work, such as tingling or spinal warmth, are messages intended to guide the pace of expansion.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Physical Symptoms Are Messages, Not Malfunctions. Especially with Kundalini rising, you might feel: Tingling/spinal warmth, Pressure in head or heart, Vivid dreams. Always ask: “Is this expanding me or asking me to slow down?”
+Foundation Symptoms Are Messages, Not Malfunctions. Especially with Kundalini rising, you might feel: Tingling/spinal warmth, Pressure in head or heart, Vivid dreams. Always ask: “Is this expanding me or asking me to slow down?”
 ===
 
 ATOM S4-M-118
@@ -1238,8 +1238,8 @@ I definitely want my own land. I want a horse. I want three houses... my own hou
 ===
 
 ATOM S4-M-130
-Section: First Financial Milestone
-Idea: Establishing a primary financial target of $10,000 per month as a first milestone for business growth.
+Section: First Vision Milestone
+Idea: Establishing a primary vision target of $10,000 per month as a first milestone for business growth.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
@@ -1305,7 +1305,7 @@ Monday — Magnetism in Motion: Wake slow, sip ceremonial cacao, check dashboard
 
 ATOM S4-M-136
 Section: Grounded Leadership (Tuesday)
-Idea: Tuesday theme of efficient leadership, guiding team metrics, and manifesting physical sanctuary spaces.
+Idea: Tuesday theme of efficient leadership, guiding team metrics, and manifesting foundation sanctuary spaces.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1388,18 +1388,18 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Yin energy is receptive, intuitive, and nurturing. It’s the energy of the moon, water, night, and the unseen. It’s the pause that allows growth, the silence between notes.
+Yin energy is receptive, intuitive, and nurturing. It’s the energy of the moon, gateway, night, and the unseen. It’s the pause that allows growth, the silence between notes.
 ===
 
 ATOM S4-M-144
-Section: Yin Physical Manifestation
+Section: Yin Foundation Manifestation
 Idea: Yin energy rules the feminine, the parasympathetic nervous system, rest, digestion, and internal organs.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Yin rules the feminine, the parasympathetic nervous system, and the inner organs. It supports rest, digestion, and regeneration. Practices like meditation and slow breathing strengthen Yin.
+Yin rules the feminine, the parasympathetic nervous system, and the system organs. It supports rest, digestion, and regeneration. Practices like meditation and slow breathing strengthen Yin.
 ===
 
 ATOM S4-M-145
@@ -1436,14 +1436,14 @@ I’m learning that true strength is balance. Not doing more — but knowing whe
 ===
 
 ATOM S4-M-148
-Section: Somatic Inner Child Healing
-Idea: Concept for an integrated healing container combining poetry, somatic regulation, and inner child memory work.
+Section: Somatic System Child Healing
+Idea: Concept for an integrated healing container combining poetry, somatic regulation, and system child memory work.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-A somatic Inner Child Journal that blends the Spiral, poetry, healing journey, nervous system work, and inner child wisdom. A poetic, embodied art-prompt book.
+A somatic System Child Journal that blends the Spiral, poetry, healing journey, nervous system work, and system child wisdom. A poetic, embodied art-prompt book.
 ===
 
 ATOM S4-M-149
@@ -1454,7 +1454,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Feel Good First: Regulating the Body. Grounding exercises, somatic "pause pages," and mapping inner weather to establish safety in the body.
+Feel Good First: Regulating the Body. Grounding exercises, somatic "pause pages," and mapping system weather to establish safety in the body.
 ===
 
 ATOM S4-M-150
@@ -1465,7 +1465,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Understanding the connection between childhood stress and adult survival patterns. Identifying fight, flight, freeze, or fawn responses as signatures of the inner child's nervous system.
+Understanding the connection between childhood stress and adult survival patterns. Identifying fight, flight, freeze, or fawn responses as signatures of the system child's nervous system.
 ===
 
 ATOM S4-M-151
@@ -1481,7 +1481,7 @@ Vagal tone reset: Exercises like humming, sighing, and eye movement to shift the
 
 ATOM S4-M-152
 Section: Reparenting Somatics
-Idea: Using somatic anchoring to reparent the inner child and rewrite old rules into new, gentle beliefs.
+Idea: Using somatic anchoring to reparent the system child and rewrite old rules into new, gentle beliefs.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1542,7 +1542,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Midday BUILD tasks: work, finances, planning, errands, calls, funnel tasks. Best done in a 50–90 minute sprint, then break. Doing it all day burns out the air/water chart.
+Midday BUILD tasks: work, finances, planning, errands, calls, funnel tasks. Best done in a 50–90 minute sprint, then break. Doing it all day burns out the air/gateway chart.
 ===
 
 ATOM S4-M-158
@@ -1652,5 +1652,5 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Mode 4: Integration. Do: rest, reflection, slow routines, cleanup, sorting, nervous system reset. Ensures sustainability.
+Mode 4: Integration. Do: rest, reflection, slow routines, cleanup, sorting, nervous system reset. Ensures archetype-zeta.
 ===

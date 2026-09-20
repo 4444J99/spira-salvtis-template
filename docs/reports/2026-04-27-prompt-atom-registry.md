@@ -11,7 +11,7 @@ This registry represents the exhaustive atomic decomposition of the 262-prompt i
 | PRMPT-ATM-004 | 22:00 | Integrate "Novel Funnel Strategies" markdown | Funnel | Implemented | Strategy Doc |
 | PRMPT-ATM-005 | 22:00 | Documentary "front and center" on landing | Design | Implemented | `index.astro` |
 | PRMPT-ATM-006 | 22:00 | Documentary is "emotional hook" + "differentiator" | Design | Implemented | Content copy |
-| PRMPT-ATM-007 | 22:00 | process initial / water part instructions | Funnel | Implemented | `water/` pages |
+| PRMPT-ATM-007 | 22:00 | process initial / gateway part instructions | Funnel | Implemented | `gateway/` pages |
 | PRMPT-ATM-008 | 22:09 | provide answers for admin's messages | Strategy | Implemented | Response logic |
 | PRMPT-ATM-009 | 22:09 | process Screenshot 6.07.02 PM | Design | Implemented | UI refinement |
 | PRMPT-ATM-010 | 22:09 | process Screenshot 6.07.06 PM | Design | Implemented | UI refinement |
@@ -80,7 +80,7 @@ This registry represents the exhaustive atomic decomposition of the 262-prompt i
 | PRMPT-ATM-071 | 12:24 | pricing arrangement as first priority | Operational | Implemented | GH#5 |
 | PRMPT-ATM-072 | 12:24 | build rest of missing website | Expansion | Implemented | Multi-domain hub |
 | PRMPT-ATM-073 | 12:37 | each pillar needs same 100+ research | Research | Implemented | Content collections |
-| PRMPT-ATM-074 | 12:37 | replicate physical pillar approach | Expansion | Implemented | Content collections |
+| PRMPT-ATM-074 | 12:37 | replicate foundation pillar approach | Expansion | Implemented | Content collections |
 | PRMPT-ATM-075 | 14:42 | summarize technical/content expansion | Deliverable | Implemented | Session summary |
 | PRMPT-ATM-076 | 14:42 | document Netlify env variable requirements | Engineering | Implemented | `netlify.toml` |
 | PRMPT-ATM-077 | 14:45 | review "Gemini work" for flaws | Engineering | Implemented | Code audit |
@@ -92,7 +92,7 @@ This registry represents the exhaustive atomic decomposition of the 262-prompt i
 | PRMPT-ATM-083 | 18:25 | netlify credit maxed -> deploy to Cloudflare | Operational | Implemented | Migration |
 | PRMPT-ATM-084 | 18:31 | make it all work on Cloudflare | Engineering | Implemented | Adapter update |
 | PRMPT-ATM-085 | 18:39 | fix non-reactive/broken tooltips | Bug | Implemented | UI fix |
-| PRMPT-ATM-086 | 18:54 | physical pillar replication | Expansion | Implemented | Content collections |
+| PRMPT-ATM-086 | 18:54 | foundation pillar replication | Expansion | Implemented | Content collections |
 | PRMPT-ATM-087 | 18:54 | knowledge signup / email capture layer | Funnel | Implemented | Capture function |
 | PRMPT-ATM-088 | 18:54 | Sale at deepest layer (Monetization) | Funnel | Implemented | Affiliate mapping |
 | PRMPT-ATM-089 | 19:05 | mobile/tap design prime directive | Design | Implemented | Touch-first logic |
@@ -121,7 +121,7 @@ This registry represents the exhaustive atomic decomposition of the 262-prompt i
 | PRMPT-ATM-110 | 13:24 | project board / issue alignment w/ IRF | Process | Implemented | Integrity audit |
 | PRMPT-ATM-111 | 13:33 | if no IRF rectify and balance | Process | Implemented | Integrity audit |
 | **S06** | **2026-04-03** | **The Atomic Pipeline** | | | |
-| PRMPT-ATM-112 | 18:08 | process Hydration Node flowchart | Funnel | Implemented | `hydration.config.ts` |
+| PRMPT-ATM-112 | 18:08 | process Gateway Node flowchart | Funnel | Implemented | `gateway.config.ts` |
 | PRMPT-ATM-113 | 18:08 | process Screenshot 2.06.03 PM | Funnel | Implemented | Funnel logic |
 | PRMPT-ATM-114 | 18:52 | handle "personalized filters" CTA | Funnel | Implemented | Affiliate logic |
 | PRMPT-ATM-115 | 19:33 | store import materials in archives | Data | Implemented | `docs/archive/` |

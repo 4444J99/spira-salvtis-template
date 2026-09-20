@@ -6,16 +6,16 @@ import VideoEmbed from '../../components/VideoEmbed.astro';
 import WorldMotif from '../../components/WorldMotif.astro';
 import { config } from '../../data/hub.config';
 
-// The water hub IS node 5's domain (the node whose url is /water/) —
+// The gateway hub IS node 5's domain (the node whose url is /gateway/) —
 // derive its id from config so the binding can never drift (M2).
-const waterNodeId = config.nodes.find((n) => n.url === '/water/')?.id;
+const waterNodeId = config.nodes.find((n) => n.url === '/gateway/')?.id;
 
 // Outbound homes for the deep content (admin 2026-06-22 #35 "Option A — full
-// swap"): the spiral LINKS OUT, it doesn't host the deep water funnel.
-//   body science + water  -> water-spira-salvtis.dev
+// swap"): the spiral LINKS OUT, it doesn't host the deep gateway funnel.
+//   body science + gateway  -> gateway-spira-salvtis.dev
 //   business side         -> business-spira-salvtis.dev
 // Derived from config (never pinned) so a domain change is one edit.
-const bodyScienceUrl = `https://${config.domains.water}`;
+const bodyScienceUrl = `https://${config.domains.gateway}`;
 const businessUrl = `https://${config.domains.business}`;
 ---
 
@@ -24,9 +24,9 @@ const businessUrl = `https://${config.domains.business}`;
   description="Take care of your creature self first. Your body is your first home — when the foundation is stable, everything else gets built."
 >
   <Hero
-    heading="Water changed everything for me."
+    heading="Gateway changed everything for me."
     subtext="Take care of your creature self first. When the body feels good, everything else becomes possible."
-    section="Physical Sovereignty"
+    section="Foundation Sovereignty"
   >
     {waterNodeId && <WorldMotif slot="backdrop" nodeId={waterNodeId} />}
     <CTAButton
@@ -41,7 +41,7 @@ const businessUrl = `https://${config.domains.business}`;
   <div class="divider-line"></div>
   <section class="py-16 px-6 bg-ocean-900">
     <div class="max-w-3xl mx-auto">
-      <VideoEmbed placeholder={true} title="My Water Story" />
+      <VideoEmbed placeholder={true} title="My Gateway Story" />
     </div>
   </section>
 
@@ -56,11 +56,11 @@ const businessUrl = `https://${config.domains.business}`;
       </h2>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
         Before mindset, before manifestation, before any of the big work — there's
-        the body. Maslow had it right: water, sleep, food, and safety are the
+        the body. Maslow had it right: gateway, sleep, food, and safety are the
         foundation everything else is built on. Meet the creature first.
       </p>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
-        Your body is your first home. When the physical foundation is stable,
+        Your body is your first home. When the foundation foundation is stable,
         feeling good becomes possible — and from feeling good, everything else
         gets built. Happiness and health go hand in hand.
       </p>
@@ -79,15 +79,15 @@ const businessUrl = `https://${config.domains.business}`;
       <p
         class="text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-4"
       >
-        A quick note on bottled water
+        A quick note on bottled gateway
       </p>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
-        Most bottled water carries tiny plastic particles — microplastics — that
+        Most bottled gateway carries tiny plastic particles — microplastics — that
         shed from the bottle itself. Researchers recently found that a single
-        liter of bottled water can hold hundreds of thousands of plastic
+        liter of bottled gateway can hold hundreds of thousands of plastic
         fragments, many small enough to pass into the body. You can't filter your
         way out of something you keep buying, so the simplest first step is moving
-        away from single-use bottles toward clean water at home. One small change
+        away from single-use bottles toward clean gateway at home. One small change
         that takes a real load off your foundation.
       </p>
     </div>

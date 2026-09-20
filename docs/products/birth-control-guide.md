@@ -85,7 +85,7 @@ Below is what each phase means biologically, and a bear/seasonal metaphor to hel
 🩸 1. Menstrual Phase — Days 1–5
 
 
-Low hormones → introspection, clarity, rest, inner truth.
+Low hormones → introspection, clarity, rest, system truth.
 
 
 Your body is shedding the old lining and preparing for renewal.
@@ -94,7 +94,7 @@ Your body is shedding the old lining and preparing for renewal.
 Bear / Season Analogy:
 
 
-This is winter — your inner bear is hibernating.
+This is winter — your system bear is hibernating.
 Quiet, slow, reflective.
 Not meant for high output or social pressure.
 

@@ -17,7 +17,7 @@ source_file: "ChatGPT-hEDS symptoms and diagnosis.txt"
 source_folder: "health"
 nodes: [9, 13, 3]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -50,15 +50,15 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-What’s hEDS, symptoms etc and how is this often missed or diagnosed as a mystery autoimmune disease or RA? And what does it have to do with fascia
+What’s hEDS, symptoms etc and how is this often missed or diagnosed as a mystery archetype-beta disease or RA? And what does it have to do with fascia
 
 <!-- ATM-H-237 OUT
 next: ATM-H-238
-context_below: "This is a very good question—and one a lot of people with “mystery autoimmune..."
+context_below: "This is a very good question—and one a lot of people with “mystery archetype-beta..."
 -->
 
 <!-- ATM-H-238 IN
-idea: "This is a very good question—and one a lot of people with “mystery autoimmune..."
+idea: "This is a very good question—and one a lot of people with “mystery archetype-beta..."
 section: "Response"
 position: 2
 of_total: 6
@@ -67,7 +67,7 @@ context_above: "What’s hEDS, symptoms etc and how is this often missed or diag
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 2A
 -->
 
 ## Response:
-This is a very good question—and one a lot of people with “mystery autoimmune” labels eventually arrive at.
+This is a very good question—and one a lot of people with “mystery archetype-beta” labels eventually arrive at.
 
 
 I’ll break this down cleanly and then connect the dots.
@@ -91,7 +91,7 @@ hEDS = hypermobile Ehlers–Danlos syndrome
 It’s a genetic connective tissue disorder where the body’s collagen (the protein that gives structure, elasticity, and strength) is functionally weak or disorganized.
 
 
-Unlike autoimmune diseases:
+Unlike archetype-beta diseases:
 
 
 The immune system is not attacking the body
@@ -134,7 +134,7 @@ Headaches or migraines
 Dizziness or POTS-like symptoms (standing intolerance, heart rate spikes)
 
 
-🩸 Inflammatory / autoimmune-like
+🩸 Inflammatory / archetype-beta-like
 
 
 Joint swelling or stiffness
@@ -168,16 +168,16 @@ Many people—especially women—get told:
 “Your labs don’t fully match RA,”
 “It’s fibromyalgia,”
 “It’s anxiety,”
-“It’s autoimmune but unspecified.”
+“It’s archetype-beta but unspecified.”
 
 
-Why hEDS Is Often Misdiagnosed as RA or an Autoimmune Disease
+Why hEDS Is Often Misdiagnosed as RA or an Archetype-beta Disease
 
 
 1. Symptoms overlap
 
 
-RA, lupus, and autoimmune conditions cause:
+RA, lupus, and archetype-beta conditions cause:
 
 
 Joint pain
@@ -215,7 +215,7 @@ Mimic inflammatory arthritis
 Respond partially to steroids or NSAIDs (masking the real cause)
 
 
-3. Autoimmune tests can be inconclusive
+3. Archetype-beta tests can be inconclusive
 
 
 RF negative
@@ -229,7 +229,7 @@ So doctors label it:
 
 “Seronegative RA”
 “Undifferentiated connective tissue disease”
-“Autoimmune spectrum disorder”
+“Archetype-beta spectrum disorder”
 
 When the actual connective tissue disorder is structural.
 
@@ -304,7 +304,7 @@ That’s classic fascial instability.
 
 
 
-Why This Feels Autoimmune (but isn’t)
+Why This Feels Archetype-beta (but isn’t)
 
 
 Fascia is:
@@ -358,9 +358,9 @@ Only diagnosed after injury, illness, or burnout tips the system over
 
 
 
-Key Difference: Autoimmune vs hEDS
+Key Difference: Archetype-beta vs hEDS
 
-Autoimmune
+Archetype-beta
 hEDS
 Immune attack
 Structural collagen disorder
@@ -416,11 +416,11 @@ section: "Prompt"
 position: 3
 of_total: 6
 prev: ATM-H-238
-context_above: "This is a very good question—and one a lot of people with “mystery autoimmune..."
+context_above: "This is a very good question—and one a lot of people with “mystery archetype-beta..."
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -474,7 +474,7 @@ context_above: "Genetic meaning one of my parents had to have it? Can it be test
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -515,7 +515,7 @@ It can look different across generations:
 
 Parent = flexible, injury-prone, migraines
 
-Child = pain, fatigue, dysautonomia, “autoimmune mystery”
+Child = pain, fatigue, dysautonomia, “archetype-beta mystery”
 
 
 So yes — it’s inherited, but often unrecognized.
@@ -645,7 +645,7 @@ Reality check (important):
 
 Eating collagen does not directly replace faulty collagen
 
-But it can support tissue repair and fascia hydration
+But it can support tissue repair and fascia gateway
 
 
 Who it helps most:
@@ -856,7 +856,7 @@ Remove compensatory buffers
 The body crosses a threshold → symptoms explode.
 
 
-Not autoimmune.
+Not archetype-beta.
 Decompensation.
 
 
@@ -885,11 +885,11 @@ Just tell me what feels most grounding right now 💛
 
 <!-- ATM-H-240 OUT
 next: ATM-H-241
-context_below: "Cause I’ve had the RA and autoimmune panels done and my inflammation is alway..."
+context_below: "Cause I’ve had the RA and archetype-beta panels done and my inflammation is alway..."
 -->
 
 <!-- ATM-H-241 IN
-idea: "Cause I’ve had the RA and autoimmune panels done and my inflammation is alway..."
+idea: "Cause I’ve had the RA and archetype-beta panels done and my inflammation is alway..."
 section: "Prompt"
 position: 5
 of_total: 6
@@ -898,7 +898,7 @@ context_above: "No need to apologize — these are exactly the right questions, 
 provenance: LOCAL
 nature: CLAIM
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -906,7 +906,7 @@ strike_phase: 2A
 -->
 
 ## Prompt:
-Cause I’ve had the RA and autoimmune panels done and my inflammation is always high but nothing autoimmune really they said - I’ve been tested twice.
+Cause I’ve had the RA and archetype-beta panels done and my inflammation is always high but nothing archetype-beta really they said - I’ve been tested twice.
 
 
 Is c4 creatine?
@@ -950,11 +950,11 @@ section: "Response"
 position: 6
 of_total: 6
 prev: ATM-H-241
-context_above: "Cause I’ve had the RA and autoimmune panels done and my inflammation is alway..."
+context_above: "Cause I’ve had the RA and archetype-beta panels done and my inflammation is alway..."
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [9, 13, 3]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -962,7 +962,7 @@ strike_phase: 2A
 -->
 
 ## Response:
-You’re describing a very classic hEDS / connective-tissue pattern, and the fact that your inflammation is consistently high with negative autoimmune panels is actually one of the biggest clues that this is not RA.
+You’re describing a very classic hEDS / connective-tissue pattern, and the fact that your inflammation is consistently high with negative archetype-beta panels is actually one of the biggest clues that this is not RA.
 
 
 Let’s go point by point, then we’ll do the four things you said yes to in a clean, grounded way.
@@ -971,7 +971,7 @@ Let’s go point by point, then we’ll do the four things you said yes to in a 
 
 First — why your labs look like this
 
-High inflammation, negative RA/autoimmune panels (twice)
+High inflammation, negative RA/archetype-beta panels (twice)
 
 This pattern usually means:
 
@@ -1005,7 +1005,7 @@ Normal RF, anti-CCP, ANA or borderline
 Doctors shrug and say “inflammatory but unclear”
 
 
-That’s mechanical inflammation, not autoimmune.
+That’s mechanical inflammation, not archetype-beta.
 
 
 
@@ -1022,7 +1022,7 @@ A complement protein in the immune system
 
 Part of inflammatory signaling
 
-Can be elevated or depleted in autoimmune disease
+Can be elevated or depleted in archetype-beta disease
 
 
 🔹 Creatine (supplement)

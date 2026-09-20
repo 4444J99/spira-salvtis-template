@@ -7,15 +7,15 @@
 ## 1. Architecture
 
 **1.1** What lives on the spiral hub site (hub-example.com) vs what stays in GHL?
-- For each pillar (Physical, Inner, Identity, Financial): does it live on the hub site, link out to GHL, or both?
+- For each pillar (Foundation, System, Structure, Vision): does it live on the hub site, link out to GHL, or both?
 
-**1.2** When someone clicks "Physical Sovereignty" on the spiral, where do they go?
-- To a page on your site? To your GHL water funnel? To something else?
+**1.2** When someone clicks "Foundation Sovereignty" on the spiral, where do they go?
+- To a page on your site? To your GHL gateway funnel? To something else?
 
 **1.3** Same question for each other pillar:
-- Inner Sovereignty → goes where?
-- Identity Sovereignty → goes where?
-- Financial Sovereignty → goes where?
+- System Sovereignty → goes where?
+- Structure Sovereignty → goes where?
+- Vision Sovereignty → goes where?
 
 **1.4** What pages should exist on your site? List them all.
 
@@ -23,7 +23,7 @@
 
 ## 2. Content
 
-**2.1** You said Physical should be broader than just water — blood sugar, tongue/Chinese medicine, self-assessment tools. List every topic you want under Physical Sovereignty.
+**2.1** You said Foundation should be broader than just gateway — blood sugar, tongue/Chinese medicine, self-assessment tools. List every topic you want under Foundation Sovereignty.
 
 **2.2** For each pillar, list the specific topics or subtopics you want covered. Don't be vague — "healing stuff" isn't actionable. "Blood sugar regulation, tongue diagnostics, nervous system check-ins, sleep hygiene" is.
 
@@ -46,7 +46,7 @@
 **3.5** You mentioned subscriptions. What does a subscriber get that a free visitor doesn't?
 - Videos? Which ones? How many? How often?
 - Monthly calls? With whom?
-- Physical products? What exactly?
+- Foundation products? What exactly?
 - Something else?
 
 **3.6** What should the subscription cost?
@@ -71,10 +71,10 @@
 
 **5.2** What's the priority order? (Number these 1-5)
 - [ ] Spiral hub live and polished
-- [ ] Water funnel connected (GHL link from Physical pillar)
+- [ ] Gateway funnel connected (GHL link from Foundation pillar)
 - [ ] Subscription model active
 - [ ] Store built
-- [ ] Business funnel connected (GHL link from Financial pillar)
+- [ ] Business funnel connected (GHL link from Vision pillar)
 
 **5.3** Is there anything from the Instagram reel you referenced that you want to incorporate? If so, DESCRIBE it in words — don't send a link.
 

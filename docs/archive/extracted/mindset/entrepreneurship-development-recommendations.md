@@ -16,7 +16,7 @@ source_file: "ChatGPT-Entrepreneurship Development Recommendations.txt"
 source_folder: "mindset"
 nodes: [11]
 readiness: "Raw"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "If you were trying to help people develop into entrepreneurs and
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -99,7 +99,7 @@ Encourages self-leadership and personal development
 2. Coaching & Mentorship (Health, Life, Business, Mindset)
 
 
-Forces inner work and integrity
+Forces system work and integrity
 
 Creates ripple effects through transformation
 
@@ -155,7 +155,7 @@ context_above: "If I were helping people become entrepreneurs and step into thei
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -179,7 +179,7 @@ context_above: "Okay so I’m already in high ticket affiliate marketing but nee
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -293,7 +293,7 @@ context_above: "That’s perfect — high-ticket affiliate marketing is such a p
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -317,7 +317,7 @@ context_above: "Can you help me define my voice and vibe as well as my why and n
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: FLAGGED
 tier: SIGNAL
@@ -431,7 +431,7 @@ context_above: "Yes — let’s absolutely define your voice, vibe, why, and nic
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -467,7 +467,7 @@ context_above: "Awh that’s so sweet thank you, I love that. Do I need to defin
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -655,7 +655,7 @@ context_above: "You’re so welcome — this is the sweet spot of your brand unf
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -708,7 +708,7 @@ context_above: "Ooo yes can we put it into a canva graphic so I can play around 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -741,7 +741,7 @@ context_above: "Here’s your Canva-style graphic with your voice, mission, and 
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -794,7 +794,7 @@ context_above: "I love it and the colors are so great!! Can I get an editable li
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -894,7 +894,7 @@ context_above: "I'm thrilled that the branding and colors resonate with you! Her
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -918,7 +918,7 @@ context_above: "Yay this is so great thank you!! My email for the canva link is 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1032,7 +1032,7 @@ context_above: "I'm thrilled that the branding and colors resonate with you! Her
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1056,7 +1056,7 @@ context_above: "How can I best go about tackling everything I want to tackle wit
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1180,7 +1180,7 @@ context_above: "This is such a powerful question — and honestly one of the cor
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1190,10 +1190,10 @@ Ooo okay I love this thank you, can you help me turn this into a pdf
 
 
 And then also making sales in numero uno I don’t necessarily need team members right now but because I’ve already spent so much time promoting the business side of things I do have a lot of warm leads from previously that I should reach out to/develop cause I think a lot of them had potential they were just confused and I was too lol but need to reach back out / nurture them with value to help them in their lives. 
-So can set up funnel today for the business side of things, but also really want to just sell and promote the water now but that funnel will take a little bit more time to set up.
+So can set up funnel today for the business side of things, but also really want to just sell and promote the gateway now but that funnel will take a little bit more time to set up.
 
 
-I think I should start posting on my personal instagram about life and creating and then my business insta can be for some motivation but mainly just sharing about water and health and wellness and then lifestyle will kind of bleed through and so then while that content is taking off and my page is switching over I can be talking to the business guys and working on the water funnel and then will be all switched over / branded and can just focus on the water and direct sales from there because all my business stuff will be set up and automated, how is that plan?
+I think I should start posting on my personal instagram about life and creating and then my business insta can be for some motivation but mainly just sharing about gateway and health and wellness and then lifestyle will kind of bleed through and so then while that content is taking off and my page is switching over I can be talking to the business guys and working on the gateway funnel and then will be all switched over / branded and can just focus on the gateway and direct sales from there because all my business stuff will be set up and automated, how is that plan?
 <!-- ATM-M-186 OUT
 next: ATM-M-187
 context_below: "Your PDF is ready! You can download it here: Aligned Entrepreneur Strategy Guide Let me know if you ..."
@@ -1211,7 +1211,7 @@ context_above: "Ooo okay I love this thank you, can you help me turn this into a
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1232,7 +1232,7 @@ Now — let’s look at your plan. I love how intentional and clear it’s becom
 Your Plan — Refined
 
 
-Primary Focus: Sales (Water Products)
+Primary Focus: Sales (Gateway Products)
 
 
 This is your main income driver — so content, DMs, and stories should support this.
@@ -1254,7 +1254,7 @@ Content Strategy: Dual Account Approach
 
 Personal IG: You share your healing, creating, daily flow, lifestyle — people resonate with you.
 
-Business IG: Water, wellness, motivation, and “come with me” energy. Focus on water first, biz second.
+Business IG: Gateway, wellness, motivation, and “come with me” energy. Focus on gateway first, biz second.
 
 
 This way you:
@@ -1289,7 +1289,7 @@ context_above: "Your PDF is ready! You can download it here: Aligned Entrepreneu
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1313,7 +1313,7 @@ context_above: "Yes please can we do both!"
 provenance: HYBRID
 nature: TOOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1333,7 +1333,7 @@ Here’s a casual yet confident message to reach out to previous leads who were 
 Option A — Short & Warm (for DM or Text):
 
 Hey [Name], I know it’s been a bit since we talked — but I’ve been thinking about you!
-I’ve learned a lot and refined everything I offer, so if you’re still curious about building aligned freedom or healing with water, I’d love to reconnect and show you how it really works now.
+I’ve learned a lot and refined everything I offer, so if you’re still curious about building aligned freedom or healing with gateway, I’d love to reconnect and show you how it really works now.
 
 
 No pressure, just here if it’s still on your heart!
@@ -1370,7 +1370,7 @@ Lessons from your journey, emotional wisdom, intuitive downloads
 3. Creating in Real Time
 Painting, poetry, new ideas — let people watch you become
 
-4. Soft Power & Inner Freedom
+4. Soft Power & System Freedom
 Talk about sovereignty, your nervous system, and choosing your path
 
 5. Gentle Invites
@@ -1384,8 +1384,8 @@ Business Account (@eau.co / health + freedom brand)
 Theme: Rebellious wellness + practical freedom
 
 
-1. Water Education (Problem → Solution)
-Bottled water lies, oxidative stress, hydration myths → introduce Kangen
+1. Gateway Education (Problem → Solution)
+Bottled gateway lies, oxidative stress, gateway myths → introduce Kangen
 
 2. Wellness From the Inside Out
 Gut, hormones, energy, your health story
@@ -1419,7 +1419,7 @@ context_above: "Absolutely! Let’s start with both parts — a re-engagement me
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1446,7 +1446,7 @@ context_above: "Ooo what’s dm bank or swipe file And then do you think notion 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1469,7 +1469,7 @@ Customizable and aligned with your voice
 Stored in one doc (or Notion board) for quick access
 
 
-So if someone watches your Story, clicks your link, or likes a water post, you can just grab a message from the “DM Bank” that fits and tweak it as needed.
+So if someone watches your Story, clicks your link, or likes a gateway post, you can just grab a message from the “DM Bank” that fits and tweak it as needed.
 
 
 
@@ -1495,7 +1495,7 @@ Scripts & Swipe Files
 
 Funnel To-Do Lists
 
-Water Education Library
+Gateway Education Library
 
 
 Think of it as a calm, clean hub to plug into when your brain feels scrambled.
@@ -1509,7 +1509,7 @@ A Content Hub (for both IGs)
 
 DM & Reconnect Script Library
 
-Water Education Vault
+Gateway Education Vault
 
 Lead Tracker
 
@@ -1539,7 +1539,7 @@ context_above: "Yes — you're speaking my language! Let me break it down: What�
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1563,7 +1563,7 @@ context_above: "Is it better than Trello? And omg yes will you please help me co
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1590,7 +1590,7 @@ context_above: "Here’s your custom DM Script Bank with pre-written messages fo
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1614,7 +1614,7 @@ context_above: "And how do I rewire my brain that this is legit work - if I actu
 provenance: HYBRID
 nature: TOOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1717,7 +1717,7 @@ context_above: "You are so not alone in this — and what you’re describing is
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1741,7 +1741,7 @@ context_above: "Can we expand on this into a series of reels or posts about yin 
 provenance: HYBRID
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1880,7 +1880,7 @@ context_above: "YES. This is such a rich and powerful message — it can easily 
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1889,7 +1889,7 @@ strike_phase: 1C
 These are so great thank you so much!! Can we also do a few on feeling good first and how that should be goal number one . Only thing that matters is to love and be loved but cannot pour from an empty cup and so many of us don’t know how to love ourselves so we’re constantly seeking external validation. But we can here to this rock to experience it all in every aspect not limit or shame ourselves , just to have fun and soak it all in. If you’ve ever had a dream or even thought oh that’d be fun I should do that , it’s cause YOU should go after it !! I was thinking yesterday how all I wanna do is go lay on the ground and behind my new apartment there’s like this tiny bit of grass and then this big dirt hill and the first apartment in Alaska I lived in when I was 6 has a giant dirt hill next to it and I didn’t care who was driving by or who was watching I’d just go play and lay down whenever I wanted. But now have been conditioned to think “that’s weird” why? And so we don’t let ourselves do even the littlest more harmless things because of conditions and “reality” - let yourself feel good, ask yourself questions, don’t judge yous, take yourself out of woe is me for a minute and 3rd person it for even an hour and see why someone would even want to get coffee with you or hangout while you clean, you have great music, you can dance, you’re funny, you’ll surprise yourself, be delighted and keep falling in love with yourself, it doesn’t have to be hard.
 
 
-Can you keep my words but just arrange into posts or reels in a flowy way with the ones from above incorporated, I think I just want like a one two theee and then I’ll go find pictures or videos with close enough theme or just of something I like and then post it I don’t need to get in my head. I also want to incorporate some of my story, health wise and just share who I am so if we could do a few of those posts mixed in as well as some healthy living/water info stuff so it’s a good mix but can slowly stay branding into eau.co and the water side of things!
+Can you keep my words but just arrange into posts or reels in a flowy way with the ones from above incorporated, I think I just want like a one two theee and then I’ll go find pictures or videos with close enough theme or just of something I like and then post it I don’t need to get in my head. I also want to incorporate some of my story, health wise and just share who I am so if we could do a few of those posts mixed in as well as some healthy living/gateway info stuff so it’s a good mix but can slowly stay branding into eau.co and the gateway side of things!
 <!-- ATM-M-198 OUT
 next: ATM-M-199
 context_below: "Yes — this is so beautiful and deeply magnetic. You’re literally building a brand around joy, healin..."
@@ -1907,13 +1907,13 @@ context_above: "These are so great thank you so much!! Can we also do a few on f
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3B
 -->
-Yes — this is so beautiful and deeply magnetic. You’re literally building a brand around joy, healing, softness, self-reclamation, and truth. Here’s a series layout that weaves everything together: self-worth, energy balance, embodiment, story, and water/wellness — all in your voice.
+Yes — this is so beautiful and deeply magnetic. You’re literally building a brand around joy, healing, softness, self-reclamation, and truth. Here’s a series layout that weaves everything together: self-worth, energy balance, embodiment, story, and gateway/wellness — all in your voice.
 
 
 
@@ -1992,24 +1992,24 @@ Post 4: Why I Started (Health Awakening)
 Hook:
 
 I got really sick, and no one could tell me why.
-The answer wasn’t a pill. It was water.
+The answer wasn’t a pill. It was gateway.
 
 Message:
-I went from Alaskan glacier water to expensive bottled water — and my body shut down.
-It wasn’t until I found the truth about oxidative stress and hydrogen-rich water that things shifted.
+I went from Alaskan glacier gateway to expensive bottled gateway — and my body shut down.
+It wasn’t until I found the truth about oxidative stress and hydrogen-rich gateway that things shifted.
 I finally started healing.
 Now I help others do the same.
 
 
 CTA:
-Curious what I found? DM me “water.”
+Curious what I found? DM me “gateway.”
 
 
 
 Post 5: Daily Alignment Reminder (Quick Reel)
 
 
-Visual: Just you vibing — dancing, laying in grass, sipping water, making tea
+Visual: Just you vibing — dancing, laying in grass, sipping gateway, making tea
 Audio/Caption:
 
 You don’t have to be loud to be powerful.
@@ -2023,13 +2023,13 @@ Post 6: Healthy Living = Self-Love (Educational/Story Blend)
 
 Hook:
 
-I don’t drink good water just to be “healthy.”
+I don’t drink good gateway just to be “healthy.”
 I do it because I deserve to feel good in my body.
 
 Message:
 You don’t have to wait until you're sick to start caring.
 Your nervous system, your cells, your emotions — they all respond to your daily choices.
-Clean water, rest, nourishment, breathwork… it’s all love.
+Clean gateway, rest, nourishment, breathwork… it’s all love.
 
 
 
@@ -2067,7 +2067,7 @@ context_above: "Yes — this is so beautiful and deeply magnetic. You’re liter
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2091,7 +2091,7 @@ context_above: "Ooo okay j love this so this is a great way to dip toe in and co
 provenance: HYBRID
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2106,7 +2106,7 @@ Why This Works:
 
 Dips your toe in without overwhelm — you’re gently reintroducing yourself and your values
 
-Covers all your core pillars — mindset, self-love, health, story, water, brand vibe
+Covers all your core pillars — mindset, self-love, health, story, gateway, brand vibe
 
 Sets the tone for your new direction and gives people a reason to stick around
 
@@ -2140,7 +2140,7 @@ You can:
 
 Repeat the cycle — just shift the examples or visuals
 
-Go deeper into one topic (like yin/yang, health, water myths, storytime, etc.)
+Go deeper into one topic (like yin/yang, health, gateway myths, storytime, etc.)
 
 Let engagement guide your next posts
 
@@ -2172,7 +2172,7 @@ context_above: "Yes — exactly! You nailed the strategy. Here’s why this appr
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2196,7 +2196,7 @@ context_above: "This is excellent thank you so much I’m going to schedule thes
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2226,7 +2226,7 @@ context_above: "Yay!!! I’m SO excited for you — this is going to feel so goo
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2250,7 +2250,7 @@ context_above: "Can you put everything we went over in this chat into a pdf or G
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2279,7 +2279,7 @@ context_above: "Your full checklist-style summary is ready! You can download it 
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2303,7 +2303,7 @@ context_above: "Can I have the whole transcript from the chat?"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2331,7 +2331,7 @@ context_above: "Here is your full chat summary in document form: FullEauCoChatTr
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2355,7 +2355,7 @@ context_above: "Yes can we do message by message please I want to be able to see
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2383,7 +2383,7 @@ context_above: "Here’s your full message-by-message transcript from our conver
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2407,7 +2407,7 @@ context_above: "Ah it expired can I get the full message by message transcript a
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2435,7 +2435,7 @@ context_above: "Here you go! You can download your full message-by-message trans
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2459,7 +2459,7 @@ context_above: "Ah it’s missing some parts, that’s okay I can just manually 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

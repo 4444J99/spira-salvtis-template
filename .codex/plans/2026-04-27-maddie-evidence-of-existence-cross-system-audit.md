@@ -29,7 +29,7 @@ Use `Evidence of Existence` as a seven-layer ontology:
 - `personal existence`: admin as person/collaborator with stable voice,
   preferences, commitments, and decision history
 - `conceptual existence`: admin as worldview and doctrine, especially
-  sovereignty, water, regulation, alignment, and self-governance
+  sovereignty, gateway, regulation, alignment, and self-governance
 - `brand existence`: admin as named formations and public identities:
   Spiral Template, Sovereign Systems, Eau Co, and Cind & Sol
 - `content existence`: admin as corpus, including the 127-file handoff,
@@ -52,7 +52,7 @@ Anchor purpose from the strongest available sources:
 Working interpretation:
 
 admin's purpose is not merely wellness content or a client website. It is a
-sovereignty-centered transmission system that turns embodied healing, water,
+sovereignty-centered transmission system that turns embodied healing, gateway,
 self-governance, and aesthetic-spiritual interpretation into an operational
 life architecture for herself and others.
 
@@ -66,7 +66,7 @@ Build the audit around concrete artifact classes:
   intentions
 - `commercial evidence`: revenue agreement drafts, affiliate flow, funnel
   urgency, subscription plans
-- `symbolic evidence`: spiral, sacred-water canon, multi-tradition sovereignty
+- `symbolic evidence`: spiral, sacred-gateway canon, multi-tradition sovereignty
   framework
 - `technical evidence`: Astro app, routes, dynamic nodes, citations, research
   bibliography, Cloudflare deployment

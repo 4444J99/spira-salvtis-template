@@ -65,13 +65,13 @@ Optionally, you can record yourself speaking it over gentle binaural beats, rain
 ===
 ATOM S3-M-007
 Section: Alchemy Overview
-Idea: Framework of alchemy as a sacred science where outer physical transmutation mirrors inner spiritual transformation.
+Idea: Framework of alchemy as a sacred science where outer foundation transmutation mirrors system spiritual transformation.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Alchemy was never just chemistry—it was sacred science. ... Outer work mirrors inner work. Inner work gives meaning to outer work. The “Master Work” happens when matter and spirit speak the same language.
+Alchemy was never just chemistry—it was sacred science. ... Outer work mirrors system work. System work gives meaning to outer work. The “Master Work” happens when matter and spirit speak the same language.
 ===
 
 ATOM S3-M-008
@@ -104,7 +104,7 @@ Nature: NARRATIVE
 Editorial: CLEAN
 ---
 Content:
-Johann Friedrich Helvétius: the rational mind broken open by direct experience. Elias Artista: the promised awakener / future self. Fulcanelli: the keeper of encoded knowledge in plain sight. Jabir ibn Hayyan (Geber): the bridge between matter and spirit. They didn’t all “do the same thing.” They completed the same inner pattern.
+Johann Friedrich Helvétius: the rational mind broken open by direct experience. Elias Artista: the promised awakener / future self. Fulcanelli: the keeper of encoded knowledge in plain sight. Jabir ibn Hayyan (Geber): the bridge between matter and spirit. They didn’t all “do the same thing.” They completed the same system pattern.
 ===
 
 ATOM S3-M-011
@@ -115,7 +115,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Nigredo (Blackening) → breakdown, confusion, loss, ego death. Albedo (Whitening) → purification, clarity, nervous system settling. Citrinitas (Yellowing) → awakening of inner light, intuition, coherence. Rubedo (Reddening) → embodiment, integration, gold becomes lived.
+Nigredo (Blackening) → breakdown, confusion, loss, ego death. Albedo (Whitening) → purification, clarity, nervous system settling. Citrinitas (Yellowing) → awakening of system light, intuition, coherence. Rubedo (Reddening) → embodiment, integration, gold becomes lived.
 ===
 
 ATOM S3-M-012
@@ -152,14 +152,14 @@ Philosopher’s Stone = Nervous System Regulation. A regulated nervous system = 
 ===
 
 ATOM S3-M-015
-Section: Water and Coherence
-Idea: Connection between structured water and the Philosopher's Stone (order/coherence).
+Section: Gateway and Coherence
+Idea: Connection between structured gateway and the Philosopher's Stone (order/coherence).
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Water = the Elixir (liquid intelligence). Structure = the Stone (order, coherence). Healthy water is: structured, coherent, responsive to information. So is a healed human system.
+Gateway = the Elixir (liquid intelligence). Structure = the Stone (order, coherence). Healthy gateway is: structured, coherent, responsive to information. So is a healed human system.
 ===
 
 ATOM S3-M-016
@@ -197,13 +197,13 @@ Menstruation = Nigredo: shedding, descent, dissolution, inward pull. Alchemy nev
 
 ATOM S3-M-019
 Section: Eagle Symbolism
-Idea: Eagle symbolism representing clarity, perspective, and inner alignment.
+Idea: Eagle symbolism representing clarity, perspective, and system alignment.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Eagles symbolize: clarity, perspective, sovereignty, vision beyond immediate circumstances. Seeing two specifically tends to symbolize: balance between two forces, partnership, inner alignment rather than lone striving.
+Eagles symbolize: clarity, perspective, sovereignty, vision beyond immediate circumstances. Seeing two specifically tends to symbolize: balance between two forces, partnership, system alignment rather than lone striving.
 ===
 ATOM S3-M-020
 Section: When to Feel Anger
@@ -371,7 +371,7 @@ Weekly Weave Ritual: Once a week, gather your “sparks” from notes, voice mem
 
 ATOM S3-M-035
 Section: Creative Ritual Tracker
-Idea: Framework for a Creative Ritual Tracker to bridge the gap between abstract ideas and physical manifestation using micro-steps.
+Idea: Framework for a Creative Ritual Tracker to bridge the gap between abstract ideas and foundation manifestation using micro-steps.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -468,13 +468,13 @@ Checking in with yourself regularly can be super helpful. Maybe aim for a few ti
 
 ATOM S3-M-044
 Section: 3D vs 5D
-Idea: Framework of 3D vs 5D: 3D is the physical foundation/tasks; 5D is spiritual/intuitive growth. Balancing both requires honoring physical needs to stabilize spiritual expansion.
+Idea: Framework of 3D vs 5D: 3D is the foundation foundation/tasks; 5D is spiritual/intuitive growth. Balancing both requires honoring foundation needs to stabilize spiritual expansion.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-The 3D focuses on physical, tangible aspects, like settling into your new space. The 5D is more about spiritual, intuitive growth. Balancing both means honoring your physical needs while staying open to spiritual insights. ... By taking care of it [3D], we create stability for deeper, spiritual growth—the 5D.
+The 3D focuses on foundation, tangible aspects, like settling into your new space. The 5D is more about spiritual, intuitive growth. Balancing both means honoring your foundation needs while staying open to spiritual insights. ... By taking care of it [3D], we create stability for deeper, spiritual growth—the 5D.
 ===
 
 ATOM S3-M-045
@@ -490,13 +490,13 @@ The shift can be seen as moving away from rigid, imbalanced structures (toxic ma
 
 ATOM S3-M-046
 Section: Holistic Experience
-Idea: Definition of a holistic experience as the integration of mind, body, and spirit, honoring spiritual insights while being present in physical reality.
+Idea: Definition of a holistic experience as the integration of mind, body, and spirit, honoring spiritual insights while being present in foundation reality.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-A holistic experience means integrating mind, body, and spirit. It's about living in alignment with your inner truth, while being present in your physical reality. This means honoring your spiritual insights and applying them to everyday life... It's a beautiful dance between the seen and unseen!
+A holistic experience means integrating mind, body, and spirit. It's about living in alignment with your system truth, while being present in your foundation reality. This means honoring your spiritual insights and applying them to everyday life... It's a beautiful dance between the seen and unseen!
 ===
 
 ATOM S3-M-047
@@ -522,13 +522,13 @@ Blindspots: Over-Identification with Healing: deep-diving can become a delay tac
 
 ATOM S3-M-049
 Section: Gaps
-Idea: Identification of gaps in systems and execution: lack of consistent support for backend logistics, unreliable monthly money flow, neglected physical restoration, hyper-independence (refusal to delegate), and commitment vs freedom conflict.
+Idea: Identification of gaps in systems and execution: lack of consistent support for backend logistics, unreliable monthly money flow, neglected foundation restoration, hyper-independence (refusal to delegate), and commitment vs freedom conflict.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Gaps: Systems & Completion: backend systems (finances, web pages, legal) can overwhelm. Consistent Money Flow: lack of reliable monthly income. Physical Restoration: physical vessel is behind (meals/rest). Team Delegation: used to doing it all alone. Commitment vs Freedom: avoiding structure because it feels restrictive.
+Gaps: Systems & Completion: backend systems (finances, web pages, legal) can overwhelm. Consistent Money Flow: lack of reliable monthly income. Foundation Restoration: foundation vessel is behind (meals/rest). Team Delegation: used to doing it all alone. Commitment vs Freedom: avoiding structure because it feels restrictive.
 ===
 
 ATOM S3-M-050
@@ -555,13 +555,13 @@ Formula: Voids → Values → Offers → Income. Voids are the things you lacked
 
 ATOM S3-M-052
 Section: Positioning Statements
-Idea: Positioning statement for a money-making core: guiding people from survival mode/chaos to clarity and freedom through nervous system work, water, and aligned action.
+Idea: Positioning statement for a money-making core: guiding people from survival mode/chaos to clarity and freedom through nervous system work, gateway, and aligned action.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Positioning: “I help people who are stuck in survival mode remember how to feel good, reclaim their energy, and rebuild their lives on truth and self-worth — starting with their nervous system and water.” ... “I guide people through the exact spiral of healing I walked — from chaos and illness to clarity and freedom...”
+Positioning: “I help people who are stuck in survival mode remember how to feel good, reclaim their energy, and rebuild their lives on truth and self-worth — starting with their nervous system and gateway.” ... “I guide people through the exact spiral of healing I walked — from chaos and illness to clarity and freedom...”
 ===
 
 ATOM S3-M-053
@@ -577,13 +577,13 @@ Void: Emotional instability → Alchemized Value: Nervous system wisdom → Offe
 
 ATOM S3-M-054
 Section: Money-Making Idea Prompts
-Idea: Income-generating idea prompts: "Start Here" mini guide (lead magnet), Spiral Blueprint ($47-$197), 1:1 'Rewire + Rise' sessions ($111-$222), and a Water + Healing Business Bundle.
+Idea: Income-generating idea prompts: "Start Here" mini guide (lead magnet), Spiral Blueprint ($47-$197), 1:1 'Rewire + Rise' sessions ($111-$222), and a Gateway + Healing Business Bundle.
 Provenance: HYBRID
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-Money-Making Idea Prompts: “Start Here” Mini Guide (free lead magnet with upsell). Your Spiral Blueprint (7–97 program or ebook). 1:1 'Rewire + Rise' Sessions (11–22 each). Water + Healing Business Bundle (Water filter + blueprint + mini course).
+Money-Making Idea Prompts: “Start Here” Mini Guide (free lead magnet with upsell). Your Spiral Blueprint (7–97 program or ebook). 1:1 'Rewire + Rise' Sessions (11–22 each). Gateway + Healing Business Bundle (Gateway filter + blueprint + mini course).
 ===
 
 ATOM S3-M-055
@@ -599,13 +599,13 @@ Content:
 
 ATOM S3-M-056
 Section: Implementation Flow
-Idea: Implementation roadmap for a 3-path landing page (Spiral, Water, Business) and webclass outline.
+Idea: Implementation roadmap for a 3-path landing page (Spiral, Gateway, Business) and webclass outline.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Phase 1: Implementation Flow. 1. Landing Page (Priority #1): Clear entry point with 3 paths. 2. Webclass / Free Training (Priority #2): Intro story + teach Spiral + reveal tools + Offer. 3. Rough Spiral Visual & Freebie. ... Phase 2: Launch + Lead Flow (IG Puzzle + Highlights). Phase 3: Water Funnel.
+Phase 1: Implementation Flow. 1. Landing Page (Priority #1): Clear entry point with 3 paths. 2. Webclass / Free Training (Priority #2): Intro story + teach Spiral + reveal tools + Offer. 3. Rough Spiral Visual & Freebie. ... Phase 2: Launch + Lead Flow (IG Puzzle + Highlights). Phase 3: Gateway Funnel.
 ===
 
 ATOM S3-M-057
@@ -785,13 +785,13 @@ Summary of "A Happy Pocket Full of Money" by David Cameron Gikandi: Wealth is a 
 
 ATOM S3-M-073
 Section: Radical Forgiveness Summary
-Idea: Summary of "Radical Forgiveness": everything happens for you, not to you; shifting identity from victim to soul releases emotional charge and realign the field.
+Idea: Summary of "Radical Forgiveness": everything happens for you, not to you; shifting structure from victim to soul releases emotional charge and realign the field.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Summary of "Radical Forgiveness" by Colin Tipping: Everything that happens happens for you, not to you. ... When you shift identity from victim to soul, you release emotional charge and realign your field.
+Summary of "Radical Forgiveness" by Colin Tipping: Everything that happens happens for you, not to you. ... When you shift structure from victim to soul, you release emotional charge and realign your field.
 ===
 
 ATOM S3-M-074
@@ -850,7 +850,7 @@ What you said this morning was actually incredibly grounded. ... “It’s not y
 
 ATOM S3-M-079
 Section: Breadcrumb Dynamic
-Idea: The "breadcrumb" dynamic: giving just enough emotional or financial support to keep hope alive but never enough to create real stability.
+Idea: The "breadcrumb" dynamic: giving just enough emotional or vision support to keep hope alive but never enough to create real stability.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -1057,7 +1057,7 @@ Ether breakdown:
 2. Chemical: Organic compounds used historically as anesthesia.
 3. Metaphysical: The “fifth element” (Quintessence/Akasha) permeating all life.
 4. Alchemical: Medium for magic and life force (prana/chi).
-5. Modern Spiritual: Subtle energy field surrounding the physical body (etheric body).
+5. Modern Spiritual: Subtle energy field surrounding the foundation body (etheric body).
 ===
 
 ATOM S3-M-097
@@ -1073,7 +1073,7 @@ Ether (or Aether, Akasha, Quintessence, or Spirit) is the fifth element. It wasn
 
 ATOM S3-M-098
 Section: Signs of Being in Ether
-Idea: Indicators of entering an “etheric” state include the dissolution of time, heightened/synesthetic senses, sudden intuitive “knowing”, and emotions flowing like water.
+Idea: Indicators of entering an “etheric” state include the dissolution of time, heightened/synesthetic senses, sudden intuitive “knowing”, and emotions flowing like gateway.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1107,12 +1107,12 @@ Editorial: CLEAN
 ---
 Content:
 144: Divine confirmation code; timeline of activation and soul-led purpose. Part of the archetype here to help anchor the new earth.
-312: Creation (3) + Divine Spark (1) + Alignment/Trust (2). “Create from calm. You are supported. The outcome is aligning through inner stillness, not struggle.”
+312: Creation (3) + Divine Spark (1) + Alignment/Trust (2). “Create from calm. You are supported. The outcome is aligning through system stillness, not struggle.”
 ===
 
 ATOM S3-M-101
 Section: Rent Support Ritual (Ether-Aligned)
-Idea: A ritual and prayer for releasing financial control and trusting in divine timing and unexpected streams of support.
+Idea: A ritual and prayer for releasing vision control and trusting in divine timing and unexpected streams of support.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1152,7 +1152,7 @@ Visibility wounds or a “fear of being seen” often stem from deep-seated expe
 
 ATOM S3-M-104
 Section: Subconscious Healing for Visibility
-Idea: Rewiring core beliefs about visibility through journaling, inner child healing, and affirmations.
+Idea: Rewiring core beliefs about visibility through journaling, system child healing, and affirmations.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1160,7 +1160,7 @@ Editorial: CLEAN
 Content:
 Subconscious Reprogramming for Visibility:
 1. Journaling: “When was the first time I felt unsafe being seen?” “What do I fear will happen if I am fully visible?”
-2. Inner Child: Let your younger self know she's safe; visualize protecting her and affirming her value.
+2. System Child: Let your younger self know she's safe; visualize protecting her and affirming her value.
 3. Affirmations: “It is safe for me to be seen.” “I trust that my visibility serves my highest good.” “I am protected as I share my light.”
 ===
 
@@ -1233,13 +1233,13 @@ The desire to cry but feeling frozen often means:
 
 ATOM S3-M-110
 Section: Soft Reflection Prompts
-Idea: Using sensory and somatic prompts to tune into the inner landscape when verbal communication is difficult.
+Idea: Using sensory and somatic prompts to tune into the system landscape when verbal communication is difficult.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Tuning into the Inner Landscape:
+Tuning into the System Landscape:
 - What does the feeling feel like in your body? (Heavy, numb, tight, scattered?)
 - If your body could make a sound, what would it be? (Sigh, growl, sob, silence?)
 - What color is today’s feeling?
@@ -1274,7 +1274,7 @@ Sad light purple is the color of silence just before it bursts. It’s not depre
 
 ATOM S3-M-113
 Section: Poem for Blocked Release
-Idea: A poem describing the physical sensation of blocked emotional release in the chest and forehead.
+Idea: A poem describing the foundation sensation of blocked emotional release in the chest and forehead.
 Provenance: HYBRID
 Nature: REFLECTION
 Editorial: CLEAN
@@ -1285,14 +1285,14 @@ My chest is a drum muted by grief. My forehead is a sky full of wires. I am full
 
 ATOM S3-M-114
 Section: Soft Spell for Fullness
-Idea: A simple ritual using a cloth and water to bless the process of emotional “unclenching” and shifting from “doing” to “being.”
+Idea: A simple ritual using a cloth and gateway to bless the process of emotional “unclenching” and shifting from “doing” to “being.”
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
 Soft Spell: “I Let the Fullness Be Enough”
-Ritual: Place a cloth over chest/forehead. Whisper: “I am not empty. I am full. I am not broken. I am whole. I am not stuck. I am still. I am not behind. I am becoming. Let the ache be holy. Let the stillness be sacred. I release the need to do. I remember I already am.” Touch forehead and heart with water as a blessing.
+Ritual: Place a cloth over chest/forehead. Whisper: “I am not empty. I am full. I am not broken. I am whole. I am not stuck. I am still. I am not behind. I am becoming. Let the ache be holy. Let the stillness be sacred. I release the need to do. I remember I already am.” Touch forehead and heart with gateway as a blessing.
 ===
 
 ATOM S3-M-115
@@ -1353,7 +1353,7 @@ Content:
 Practical Translations:
 - Awareness → Gratitude: pulls you into the present joys.
 - Connection → Community/God: regulates your system and reminds you you're not alone.
-- Insight → Meditation: clears mental fog and reveals inner patterns.
+- Insight → Meditation: clears mental fog and reveals system patterns.
 - Purpose → Movement: shakes out bad energy and embodies your “why.”
 ===
 
@@ -1384,7 +1384,7 @@ Quick Resets for Happiness:
 ===
 ATOM S3-M-122
 Section: The E•A•U Blueprint
-Idea: A 6-week healing and growth roadmap condensed into an interactive assessment tool (Elevate, Align, Unlock) focusing on awareness, nervous system regulation, hormonal balance, identity shifts, and expansion.
+Idea: A 6-week healing and growth roadmap condensed into an interactive assessment tool (Elevate, Align, Unlock) focusing on awareness, nervous system regulation, hormonal balance, structure shifts, and expansion.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1394,7 +1394,7 @@ The E•A•U Blueprint (Elevate • Align • Unlock):
 Week 1: Awareness (body, habits, environment).
 Week 2: Nervous System & Belief Rewiring.
 Week 3: Energy + Hormone Regulation.
-Week 4: Inner Child & Identity Shifts.
+Week 4: System Child & Structure Shifts.
 Week 5: Integration + Creative Flow.
 Week 6: Expansion / Service / Overflow.
 Users score themselves weekly to identify gaps and access tailored resource hubs.
@@ -1423,9 +1423,9 @@ The Spiral Path of Healing:
 - Outer Ring: Wake Up (awareness, burnout).
 - Next Spiral In: Regulate (nervous system, safety).
 - Next: Rebuild (body, hormones, nourishment).
-- Next: Rewire (beliefs, identity, shadows).
+- Next: Rewire (beliefs, structure, shadows).
 - Next: Ritual (cycles, rhythms, planning).
-- Inner Core: Overflow (service, love, expansion).
+- System Core: Overflow (service, love, expansion).
 The spiral signifies that you are not starting over, but deepening.
 ===
 
@@ -1466,24 +1466,24 @@ Phase 2: Regulate & Remember (Align). Establishing safety. Understanding nervous
 
 ATOM S3-M-128
 Section: Healing Phase 3: Rebuild the Body
-Idea: Physical healing through nourishment and hydration without restrictive or punitive mindsets.
+Idea: Foundation healing through nourishment and gateway without restrictive or punitive mindsets.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Phase 3: Rebuild the Body (Align). Healing physically through gut health, anti-inflammatory nutrition, and mineral-rich hydration (Kangen water). Movement is hormone-aware and glute-focused. You can't hate your body into healing.
+Phase 3: Rebuild the Body (Align). Healing physically through gut health, anti-inflammatory nutrition, and mineral-rich gateway (Kangen gateway). Movement is hormone-aware and glute-focused. You can't hate your body into healing.
 ===
 
 ATOM S3-M-129
-Section: Healing Phase 4: Rewire Identity
-Idea: Rewriting internal narratives and integrating the shadow or inner child after the physical and nervous system foundations are set.
+Section: Healing Phase 4: Rewire Structure
+Idea: Rewriting internal narratives and integrating the shadow or system child after the foundation and nervous system foundations are set.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Phase 4: Rewire Beliefs & Identity (Unlock). Shedding layers and rewriting self-stories. Tools: Mirror work, reparenting prompts, audio affirmations. Addressing the identity that was never yours to hold.
+Phase 4: Rewire Beliefs & Identity (Unlock). Shedding layers and rewriting self-stories. Tools: Mirror work, reparenting prompts, audio affirmations. Addressing the structure that was never yours to hold.
 ===
 
 ATOM S3-M-130
@@ -1520,7 +1520,7 @@ The wound of being conditioned to regulate others’ comfort before your own tru
 
 ATOM S3-M-133
 Section: Reparenting Big Feelings
-Idea: Healing the inner child involves unlearning forced reconciliation and reparenting the self to allow for big, messy emotional expressions without the threat of a “timeout.”
+Idea: Healing the system child involves unlearning forced reconciliation and reparenting the self to allow for big, messy emotional expressions without the threat of a “timeout.”
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1533,14 +1533,14 @@ Reparenting Emotional Expression:
 ===
 
 ATOM S3-M-134
-Section: Inner Child Dialogue Verse
-Idea: A healing verse addressed to the inner child to validate their past confusion and affirm their current safety and freedom from performance.
+Section: System Child Dialogue Verse
+Idea: A healing verse addressed to the system child to validate their past confusion and affirm their current safety and freedom from performance.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Inner Child Affirmation:
+System Child Affirmation:
 “You never were too much. You were just full. They told you to stop, but what you needed was to be met. They told you to apologize, when what you needed was someone to understand. You are allowed to be loud. You are allowed to cry. You don’t have to perform anymore. You get to be. You get to feel. And you are so, so loved.”
 ===
 ATOM S3-M-135
@@ -1582,7 +1582,7 @@ Numerical Symbolism:
 - 111: New beginnings, alignment of thought, conscious direction.
 - 222: Partnership, balance, relational alignment, trust.
 - 555: Major change, breaking old patterns, freedom through disruption.
-- 777: Spiritual insight, inner wisdom, divine timing.
+- 777: Spiritual insight, system wisdom, divine timing.
 - 888: Power, abundance, cycles completing, sovereignty.
 ===
 
@@ -1596,7 +1596,7 @@ Editorial: CLEAN
 Content:
 Advanced Symbolism:
 - 88888: Total sovereignty, command over systems, embodiment of power across multiple layers.
-- Hawk on Ground: Power present in the physical plane; vision brought into embodiment; awareness integrated into action.
+- Hawk on Ground: Power present in the foundation plane; vision brought into embodiment; awareness integrated into action.
 - Cluster Signs: Unavoidable, sequential signs indicate high signal-to-noise ratio and direct reinforcement of a pattern.
 ===
 
@@ -1623,7 +1623,7 @@ Editorial: CLEAN
 Content:
 Kabbalistic 5-7-8 Flow:
 - 5 (Gevurah): Severity/Discipline. Pressure that prunes excess and forces clarity.
-- 7 (Netzach): Endurance/Integration. Persistence and inner alignment that stabilizes energy.
+- 7 (Netzach): Endurance/Integration. Persistence and system alignment that stabilizes energy.
 - 8 (Hod): Structure/System. Turning insight into usable forms (money, schedules, plans).
 Flow: Pressure exposes excess → Presence stabilizes energy → Structure forms naturally.
 ===
@@ -1736,7 +1736,7 @@ Science of Feeling Good:
 ===
 
 ATOM S3-M-149
-Section: Spiritual Identity & Light
+Section: Spiritual Structure & Light
 Idea: Integrating Gnostic and Biblical concepts of light as consciousness and permission to exist in joy.
 Provenance: HYBRID
 Nature: PHILOSOPHY
@@ -1759,7 +1759,7 @@ Masculine energy (Yang) is focused on Doing, Direction, and Structure. These tas
 
 ATOM S3-M-151
 Section: Masculine Task Examples (Structure)
-Idea: Examples of daily masculine tasks focused on planning and execution: goal setting, work projects, financial organization, and scheduling.
+Idea: Examples of daily masculine tasks focused on planning and execution: goal setting, work projects, vision organization, and scheduling.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1774,7 +1774,7 @@ Masculine-Based Daily Tasks (Structure & Goals):
 
 ATOM S3-M-152
 Section: Masculine Task Examples (Action)
-Idea: Examples of daily masculine tasks focused on outward action and boundaries: physical training, marketing, and decision making.
+Idea: Examples of daily masculine tasks focused on outward action and boundaries: foundation training, marketing, and decision making.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1802,13 +1802,13 @@ Masculine-Based Daily Tasks (Logistics & Maintenance):
 
 ATOM S3-M-154
 Section: Feminine Energy Definition
-Idea: Feminine energy (Yin) defined as the force of being, flow, and nourishment. It is centered on receiving, feeling, and restoring the inner world.
+Idea: Feminine energy (Yin) defined as the force of being, flow, and nourishment. It is centered on receiving, feeling, and restoring the system world.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Feminine energy (Yin) is centered on Being, Flow, and Nourishment. These tasks are focused on receiving, feeling, and restoring your inner world. It is the medicine the system needs to regulate and replenish after periods of intense doing.
+Feminine energy (Yin) is centered on Being, Flow, and Nourishment. These tasks are focused on receiving, feeling, and restoring your system world. It is the medicine the system needs to regulate and replenish after periods of intense doing.
 ===
 
 ATOM S3-M-155
@@ -1890,7 +1890,7 @@ Editorial: CLEAN
 Content:
 A chaotic fridge reflects more than just mess — it symbolizes blocked energy or stagnation in nourishment and self-care.
 - Cluttered/expired food = Neglected self-care or unresolved emotions.
-- Disorganized fridge = Chaotic inner world or poor digestion (energetic and physical).
+- Disorganized fridge = Chaotic system world or poor digestion (energetic and foundation).
 - Overly stuffed = Scarcity mindset, fear of lack, or overcompensation.
 - Nearly empty = Depletion, burnout, or lack of receiving support.
 ===
@@ -1907,14 +1907,14 @@ Fridge Remedy: Clear out expired items, organize by freshness, and put nourishin
 ===
 
 ATOM S3-M-162
-Section: Feng Shui Closet (Identity Clutter)
-Idea: A messy or overstuffed closet reflects emotional baggage, attachment to old versions of the self, and fear around identity change.
+Section: Feng Shui Closet (Structure Clutter)
+Idea: A messy or overstuffed closet reflects emotional baggage, attachment to old versions of the self, and fear around structure change.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-The closet is a metaphor for identity. Messy or overstuffed closets reflect emotional clutter or an outdated self-image. Holding clothes that don’t wear or fit shows attachment to old versions of yourself or fear around change. If the closet drains your energy, it is time to ask: "Does this reflect who I am becoming?"
+The closet is a metaphor for structure. Messy or overstuffed closets reflect emotional clutter or an outdated self-image. Holding clothes that don’t wear or fit shows attachment to old versions of yourself or fear around change. If the closet drains your energy, it is time to ask: "Does this reflect who I am becoming?"
 ===
 
 ATOM S3-M-163
@@ -1930,13 +1930,13 @@ In Feng Shui (Western/BTB Bagua Map), the Money Corner (Wealth & Prosperity) is 
 
 ATOM S3-M-164
 Section: Money Corner Benefits & Dangers
-Idea: Benefits of an intentional money corner (alignment, manifestation) vs. the dangers of a stagnant one (financial anxiety, blocked creativity).
+Idea: Benefits of an intentional money corner (alignment, manifestation) vs. the dangers of a stagnant one (vision anxiety, blocked creativity).
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Sleeping or resting in the money corner can enhance subconscious connections to receiving and stability. However, if the corner is stagnant, cluttered, or filled with broken items, it can brew financial anxiety and scarcity mindsets. Subconsciously, you may begin to associate rest with worry or lack.
+Sleeping or resting in the money corner can enhance subconscious connections to receiving and stability. However, if the corner is stagnant, cluttered, or filled with broken items, it can brew vision anxiety and scarcity mindsets. Subconsciously, you may begin to associate rest with worry or lack.
 ===
 
 ATOM S3-M-165

@@ -12,16 +12,16 @@ sections:
 -->
 ---
 title: "Dead-end research inquiry"
-source_file: "ChatGPT-Water Retention in ERW.txt"
-source_folder: "water"
+source_file: "ChatGPT-Gateway Retention in ERW.txt"
+source_folder: "gateway"
 nodes: [7]
 readiness: "Raw"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-122 IN
-idea: "Water Retention in ERW"
+idea: "Gateway Retention in ERW"
 section: "Main"
 position: 1
 of_total: 4
@@ -30,7 +30,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -39,7 +39,7 @@ strike_phase: 2C
 
 
 
-Water Retention in ERW
+Gateway Retention in ERW
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 4/20/2025 7:20:56
@@ -50,20 +50,20 @@ Link: https://chatgpt.com/g/g-p-681675945c108191aebfa81457898ccd-business/c/6805
 
 <!-- ATM-W-122 OUT
 next: ATM-W-123
-context_below: "Hi! Can you help me figure out if they talk about water retention in this video..."
+context_below: "Hi! Can you help me figure out if they talk about gateway retention in this video..."
 -->
 
 <!-- ATM-W-123 IN
-idea: "Hi! Can you help me figure out if they talk about water retention in this video..."
+idea: "Hi! Can you help me figure out if they talk about gateway retention in this video..."
 section: "Prompt-Response"
 position: 2
 of_total: 4
 prev: ATM-W-122
-context_above: "Water Retention in ERW"
+context_above: "Gateway Retention in ERW"
 provenance: HYBRID
 nature: CITATION
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -71,14 +71,14 @@ strike_phase: 1B
 -->
 
 ## Prompt:
-Hi! Can you help me figure out if they talk about water retention in this video https://vimeo.com/1060228518/609fe7fe66?share=copy
+Hi! Can you help me figure out if they talk about gateway retention in this video https://vimeo.com/1060228518/609fe7fe66?share=copy
 
 
 ## Response:
-The video titled "Stories of Healing with ERW" (Electrolyzed Reduced Water) on Vimeo discusses various health benefits associated with ERW, including its antioxidant properties and potential therapeutic effects. While the video covers topics such as hydration, detoxification, and overall wellness, it does not specifically mention water retention.
+The video titled "Stories of Healing with ERW" (Electrolyzed Reduced Gateway) on Vimeo discusses various health benefits associated with ERW, including its antioxidant properties and potential therapeutic effects. While the video covers topics such as gateway, detoxification, and overall wellness, it does not specifically mention gateway retention.
 
 
-If you're interested in how ERW might relate to water retention, it's worth noting that while ERW is often promoted for its hydrating and detoxifying properties, there is limited scientific evidence directly linking it to the reduction of water retention. Most claims are anecdotal, and more research is needed to establish a clear connection.
+If you're interested in how ERW might relate to gateway retention, it's worth noting that while ERW is often promoted for its hydrating and detoxifying properties, there is limited scientific evidence directly linking it to the reduction of gateway retention. Most claims are anecdotal, and more research is needed to establish a clear connection.
 
 
 If you have further questions or need more detailed information on this topic, feel free to ask!
@@ -86,20 +86,20 @@ If you have further questions or need more detailed information on this topic, f
 
 <!-- ATM-W-123 OUT
 next: ATM-W-124
-context_below: "Does this one mention water retention? https://vimeo.com/956053806/b16b61cb8e"
+context_below: "Does this one mention gateway retention? https://vimeo.com/956053806/b16b61cb8e"
 -->
 
 <!-- ATM-W-124 IN
-idea: "Does this one mention water retention? https://vimeo.com/956053806/b16b61cb8e"
+idea: "Does this one mention gateway retention? https://vimeo.com/956053806/b16b61cb8e"
 section: "Prompt-Response"
 position: 3
 of_total: 4
 prev: ATM-W-123
-context_above: "Hi! Can you help me figure out if they talk about water retention in this video..."
+context_above: "Hi! Can you help me figure out if they talk about gateway retention in this video..."
 provenance: HYBRID
 nature: QUESTION
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -107,32 +107,32 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-Does this one mention water retention? https://vimeo.com/956053806/b16b61cb8e
+Does this one mention gateway retention? https://vimeo.com/956053806/b16b61cb8e
 
 
 ## Response:
-The video titled "cancer + you. pt 2" on Vimeo discusses various aspects of cancer and its impact on individuals. However, based on the available information, it does not specifically mention water retention.
+The video titled "cancer + you. pt 2" on Vimeo discusses various aspects of cancer and its impact on individuals. However, based on the available information, it does not specifically mention gateway retention.
 
 
-If you're interested in learning more about water retention in relation to cancer or other health topics, feel free to ask!
+If you're interested in learning more about gateway retention in relation to cancer or other health topics, feel free to ask!
 
 
 <!-- ATM-W-124 OUT
 next: ATM-W-125
-context_below: "Does dr Micheal on YouTube who promotes enagic talk about water retention?"
+context_below: "Does dr Micheal on YouTube who promotes enagic talk about gateway retention?"
 -->
 
 <!-- ATM-W-125 IN
-idea: "Does dr Micheal on YouTube who promotes enagic talk about water retention?"
+idea: "Does dr Micheal on YouTube who promotes enagic talk about gateway retention?"
 section: "Prompt-Response"
 position: 4
 of_total: 4
 prev: ATM-W-124
-context_above: "Does this one mention water retention? https://vimeo.com/956053806/b16b61cb8e"
+context_above: "Does this one mention gateway retention? https://vimeo.com/956053806/b16b61cb8e"
 provenance: HYBRID
 nature: PRODUCT
 nodes: [7]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -140,17 +140,17 @@ strike_phase: 1B
 -->
 
 ## Prompt:
-Does dr Micheal on YouTube who promotes enagic talk about water retention?
+Does dr Micheal on YouTube who promotes enagic talk about gateway retention?
 
 
 ## Response:
-Dr. Michael Donaldson, a prominent advocate for Enagic's Kangen Water, has produced several videos discussing the benefits of electrolyzed reduced water (ERW). While he extensively covers topics like hydration, detoxification, and overall wellness, specific mentions of "water retention" are not prominent in his publicly available content.YouTube+11YouTube+11Log in or sign up to view+11
+Dr. Michael Donaldson, a prominent advocate for Enagic's Kangen Gateway, has produced several videos discussing the benefits of electrolyzed reduced gateway (ERW). While he extensively covers topics like gateway, detoxification, and overall wellness, specific mentions of "gateway retention" are not prominent in his publicly available content.YouTube+11YouTube+11Log in or sign up to view+11
 
 
-For instance, in his video titled "Dr. Michael Explains Electrolyzed Reduced Water 2020", he delves into the science behind ERW and its potential health benefits, but does not directly address water retention. YouTube
+For instance, in his video titled "Dr. Michael Explains Electrolyzed Reduced Gateway 2020", he delves into the science behind ERW and its potential health benefits, but does not directly address gateway retention. YouTube
 
 
-If you're interested in understanding how ERW or Kangen Water might relate to water retention, it's worth noting that while these waters are often promoted for their hydrating and detoxifying properties, there is limited scientific evidence directly linking them to the reduction of water retention. Most claims are anecdotal, and more research is needed to establish a clear connection.
+If you're interested in understanding how ERW or Kangen Gateway might relate to gateway retention, it's worth noting that while these waters are often promoted for their hydrating and detoxifying properties, there is limited scientific evidence directly linking them to the reduction of gateway retention. Most claims are anecdotal, and more research is needed to establish a clear connection.
 
 
 If you have further questions or need more detailed information on this topic, feel free to ask!

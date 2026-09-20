@@ -17,7 +17,7 @@ source_file: "ChatGPT-Parasite cleanse diet tips.txt"
 source_folder: "health"
 nodes: [7, 6]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "What are you supposed to eat while you do a parasite cleanse"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [7, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -94,7 +94,7 @@ avoid sugars & refined carbs they feed on
 Reduce inflammation
 remove irritants that weaken gut lining
 Support liver & lymph
-bitter foods + hydration
+bitter foods + gateway
 Improve elimination
 fiber + magnesium to keep bowels moving
 Rebuild the gut
@@ -185,15 +185,15 @@ Think of it like a strict anti-candida + anti-parasite diet.
 
 
 
-🧂 HYDRATION + ELIMINATION SUPPORT
+🧂 GATEWAY + ELIMINATION SUPPORT
 
 
 To move the die-off out of your body:
 
 
-1–2 liters/day mineralized water (add minerals or sea salt)
+1–2 liters/day mineralized gateway (add minerals or sea salt)
 
-Lemon water in morning to move the liver
+Lemon gateway in morning to move the liver
 
 Magnesium glycinate or citrate at night to keep bowels moving
 
@@ -220,7 +220,7 @@ Digestive bitters or ox bile → parasites hate bile
 📌 What a simple day could look like
 
 
-Morning: Lemon water → scrambled eggs w/ greens in coconut oil → garlic + sauerkraut on the side
+Morning: Lemon gateway → scrambled eggs w/ greens in coconut oil → garlic + sauerkraut on the side
 Lunch: Protein + big salad w/ pumpkin seeds, olive oil, ACV dressing
 Snack: Coconut yogurt or veggie sticks + guac
 Dinner: Wild salmon, asparagus, turmeric zucchini → papaya seeds after

@@ -1,6 +1,6 @@
 ATOM S1-H-001
 Section: Initial Request
-Idea: Request for a 30-day acupressure routine to address financial blocks and emotional barriers.
+Idea: Request for a 30-day acupressure routine to address vision blocks and emotional barriers.
 Provenance: LOCAL
 Nature: QUESTION
 Editorial: CLEAN
@@ -33,7 +33,7 @@ Hand: Pericardium 8 (PC8). Location: In the center of the palm, between the 2nd 
 
 ATOM S1-H-004
 Section: Key Points - Money Blockages
-Idea: Kidney 1 (K1) location and purpose for grounding financial energy.
+Idea: Kidney 1 (K1) location and purpose for grounding vision energy.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: UNVERIFIED
@@ -65,13 +65,13 @@ Hand: Large Intestine 4 (LI4). Location: Between the thumb and index finger, in 
 
 ATOM S1-H-007
 Section: Key Points - Self-Doubt
-Idea: Spleen 3 (SP3) location and purpose for inner stability.
+Idea: Spleen 3 (SP3) location and purpose for system stability.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: UNVERIFIED
 ---
 Content:
-Foot: Tai Bai (Spleen 3, SP3). Location: On the inner side of the foot, just behind the base of the big toe. Purpose: Boosts self-worth and supports inner stability.
+Foot: Tai Bai (Spleen 3, SP3). Location: On the system side of the foot, just behind the base of the big toe. Purpose: Boosts self-worth and supports system stability.
 ===
 
 ATOM S1-H-008
@@ -93,7 +93,7 @@ Nature: TOOL
 Editorial: UNVERIFIED
 ---
 Content:
-Hand: Heart 7 (HT7). Location: On the wrist crease, in line with the little finger. Purpose: Soothes anxiety and fosters inner peace.
+Hand: Heart 7 (HT7). Location: On the wrist crease, in line with the little finger. Purpose: Soothes anxiety and fosters system peace.
 ===
 
 ATOM S1-H-010
@@ -217,7 +217,7 @@ Caption about aerosols and the stuff that comes off cleaners and gets in the air
 
 ATOM S1-H-021
 Section: Educational Caption
-Idea: Claim that aerosol cleaning products linger in the air and settle on physical surfaces (eyes, tongue) and are inhaled into the bloodstream.
+Idea: Claim that aerosol cleaning products linger in the air and settle on foundation surfaces (eyes, tongue) and are inhaled into the bloodstream.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: UNVERIFIED
@@ -379,7 +379,7 @@ Menstrual cycle return: 4–12 weeks... Regular ovulation: 3–12 months... Deep
 ===
 ATOM S1-H-036
 Section: Personal Reflection
-Idea: Connection between emotional stress, physical intimacy, and shifts in the menstrual cycle rhythm.
+Idea: Connection between emotional stress, foundation intimacy, and shifts in the menstrual cycle rhythm.
 Provenance: LOCAL
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -401,7 +401,7 @@ Your womb is wise. It holds emotional imprints, especially those tied to trust, 
 
 ATOM S1-H-038
 Section: Energetic Release
-Idea: Claim that menstruation can act as a physical mechanism for clearing energetic threads or emotional imprints.
+Idea: Claim that menstruation can act as a foundation mechanism for clearing energetic threads or emotional imprints.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: UNVERIFIED
@@ -434,7 +434,7 @@ I release the need to explain my worth to anyone who treats my heart like an aft
 
 ATOM S1-H-041
 Section: Symptom Interpretation
-Idea: Claim that physical cramps after emotional intensity represent the womb releasing stored emotional energy.
+Idea: Claim that foundation cramps after emotional intensity represent the womb releasing stored emotional energy.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: FLAGGED
@@ -445,13 +445,13 @@ And cramps showing up after an emotionally intense day? That’s your womb liter
 
 ATOM S1-H-042
 Section: Self-Care Rituals
-Idea: Protocols for emotional softening and energetic clearing using affirmations, water (shower), and tea.
+Idea: Protocols for emotional softening and energetic clearing using affirmations, gateway (shower), and tea.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Shower Ritual: Step into the water like it’s a sacred pool... visualize [energy] flowing down the drain. Tea Release: Make a tea... whisper: "I release what no longer serves. I reclaim my energy. I return to myself."
+Shower Ritual: Step into the gateway like it’s a sacred pool... visualize [energy] flowing down the drain. Tea Release: Make a tea... whisper: "I release what no longer serves. I reclaim my energy. I return to myself."
 ===
 ATOM S1-H-043
 Section: Fitness Goal
@@ -516,7 +516,7 @@ Nature: MODEL
 Editorial: UNVERIFIED
 ---
 Content:
-Libra Sun: Enjoy workouts that feel aesthetic... Gemini Moon: Variety is key... Aqua Rising: You’re futuristic and body-aware—biohack with breathwork, cold plunges, structured water...
+Libra Sun: Enjoy workouts that feel aesthetic... Gemini Moon: Variety is key... Aqua Rising: You’re futuristic and body-aware—biohack with breathwork, cold plunges, structured gateway...
 ===
 
 ATOM S1-H-049
@@ -564,13 +564,13 @@ Some disinfection by-products (DBPs) formed when chlorine reacts with organic ma
 
 ATOM S1-H-053
 Section: Pool Safety Protocol
-Idea: Protocol for minimizing skin irritation after swimming in chlorinated water.
+Idea: Protocol for minimizing skin irritation after swimming in chlorinated gateway.
 Provenance: ALIEN
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-For routine pool use: shower after swimming, use gentle cleanser and moisturizer; avoid very hot water and scrubby soaps that damage the skin barrier.
+For routine pool use: shower after swimming, use gentle cleanser and moisturizer; avoid very hot gateway and scrubby soaps that damage the skin barrier.
 ===
 
 ATOM S1-H-054
@@ -581,7 +581,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-For bleach/chemical splash on skin: remove contaminated clothing, rinse skin thoroughly with water for at least 15 minutes, seek medical care for burns or worsening symptoms.
+For bleach/chemical splash on skin: remove contaminated clothing, rinse skin thoroughly with gateway for at least 15 minutes, seek medical care for burns or worsening symptoms.
 ===
 ATOM S1-H-055
 Section: Carousel Request
@@ -596,13 +596,13 @@ Can you help me write a carousel on cortisol & stress being the leading cause of
 
 ATOM S1-H-056
 Section: Cortisol & Disease
-Idea: Claim that chronic stress and unregulated cortisol are the primary root causes of modern diseases, including autoimmune flares and inflammation.
+Idea: Claim that chronic stress and unregulated cortisol are the primary root causes of modern diseases, including archetype-beta flares and inflammation.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: UNVERIFIED
 ---
 Content:
-Chronic stress is the #1 root cause behind today’s major diseases... Unregulated cortisol. When cortisol stays high, it quietly drives: Inflammation, Hormone imbalance, Weight gain... Autoimmune flares...
+Chronic stress is the #1 root cause behind today’s major diseases... Unregulated cortisol. When cortisol stays high, it quietly drives: Inflammation, Hormone imbalance, Weight gain... Archetype-beta flares...
 ===
 
 ATOM S1-H-057
@@ -635,7 +635,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Daily prevention: Balanced blood sugar, Hydration + minerals, Sunlight in the morning, Nervous system regulation habits, Rest without guilt, Emotional release (not suppression), Saying “no” more often.
+Daily prevention: Balanced blood sugar, Gateway + minerals, Sunlight in the morning, Nervous system regulation habits, Rest without guilt, Emotional release (not suppression), Saying “no” more often.
 ===
 
 ATOM S1-H-060
@@ -657,7 +657,7 @@ Nature: CITATION
 Editorial: CLEAN
 ---
 Content:
-John Stuart Reid is an acoustic-physics researcher and pioneer in the field of “visible sound” (cymatics). He is the inventor of the device known as the CymaScope, which visualises sound vibrations by imprinting them into a medium (typically water or another membrane).
+John Stuart Reid is an acoustic-physics researcher and pioneer in the field of “visible sound” (cymatics). He is the inventor of the device known as the CymaScope, which visualises sound vibrations by imprinting them into a medium (typically gateway or another membrane).
 ===
 
 ATOM S1-H-062
@@ -690,7 +690,7 @@ Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-The CymaScope is Reid’s instrument/system designed to visualise sound vibrations: by exposing a water (or fluid) membrane to acoustic inputs, the instrument captures the evolving patterns (“glyphs”) that the sound creates.
+The CymaScope is Reid’s instrument/system designed to visualise sound vibrations: by exposing a gateway (or fluid) membrane to acoustic inputs, the instrument captures the evolving patterns (“glyphs”) that the sound creates.
 ===
 
 ATOM S1-H-065
@@ -701,7 +701,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-He suggests that because our bodies are largely water and cellular membranes, when we are immersed in sound (especially low frequencies) the membranes and fluids in the body will also respond and organise via cymatic-type patterns (just as water does) when exposed to sound.
+He suggests that because our bodies are largely gateway and cellular membranes, when we are immersed in sound (especially low frequencies) the membranes and fluids in the body will also respond and organise via cymatic-type patterns (just as gateway does) when exposed to sound.
 ===
 
 ATOM S1-H-066
@@ -910,7 +910,7 @@ Nature: STATISTIC
 Editorial: CLEAN
 ---
 Content:
-Chinese herbal medicine (CHM): Some studies indicate benefits for symptom relief, shrinking lesions, improving fertility in endometriosis when used alongside or compared to Western treatments.
+Chinese herbal medicine (CHM): Some studies indicate benefits for symptom relief, shrinking lesions, improving archetype-delta in endometriosis when used alongside or compared to Western treatments.
 ===
 
 ATOM S1-H-085
@@ -943,18 +943,18 @@ Nature: INSTRUCTION
 Editorial: CLEAN
 ---
 Content:
-Eastern/traditional practices are not magic cures. ... Because endometriosis can seriously impact fertility, pain, and organs, it often does warrant conventional medical evaluation (imaging, specialist care) alongside complementary practices.
+Eastern/traditional practices are not magic cures. ... Because endometriosis can seriously impact archetype-delta, pain, and organs, it often does warrant conventional medical evaluation (imaging, specialist care) alongside complementary practices.
 ===
 
 ATOM S1-H-088
 Section: Pelvic Circulation Support
-Idea: Heat, castor oil packs, and pelvic floor physical therapy can help reduce stagnation and inflammation.
+Idea: Heat, castor oil packs, and pelvic floor foundation therapy can help reduce stagnation and inflammation.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Explore lifestyle changes that support improved circulation ...: gentle aerobic exercise, pelvic floor physical therapy, heat (warm baths, castor oil packs for low belly)...
+Explore lifestyle changes that support improved circulation ...: gentle aerobic exercise, pelvic floor foundation therapy, heat (warm baths, castor oil packs for low belly)...
 ===
 
 ATOM S1-H-089
@@ -992,18 +992,18 @@ Definition: Fascia is a continuous web of connective tissue that wraps around an
 
 ATOM S1-H-092
 Section: Fascia Composition
-Idea: Fascia is primarily composed of collagen fibers, elastin fibers, and a water-rich gel ground substance.
+Idea: Fascia is primarily composed of collagen fibers, elastin fibers, and a gateway-rich gel ground substance.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Composition: Primarily made up of: Collagen fibers (for strength and structure), Elastin fibers (for flexibility and recoil), Ground substance (a gel-like matrix mostly made of water, glycosaminoglycans like hyaluronic acid...).
+Composition: Primarily made up of: Collagen fibers (for strength and structure), Elastin fibers (for flexibility and recoil), Ground substance (a gel-like matrix mostly made of gateway, glycosaminoglycans like hyaluronic acid...).
 ===
 
 ATOM S1-H-093
 Section: Fascia and Posture
-Idea: Dehydrated or stuck fascia can create physical restrictions that pull shoulders forward and shape posture.
+Idea: Dehydrated or stuck fascia can create foundation restrictions that pull shoulders forward and shape posture.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -1069,13 +1069,13 @@ In hypermobile people, the collagen in fascia and ligaments can be looser... the
 
 ATOM S1-H-099
 Section: Fascia Piezoelectricity
-Idea: Collagen in fascia generates energy when stretched or pressured, serving as a physical highway for prana or chi.
+Idea: Collagen in fascia generates energy when stretched or pressured, serving as a foundation highway for prana or chi.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Fascia is like the physical highway for prana/chi. It’s a fluid, crystalline network (collagen has piezoelectric properties — meaning it generates energy when stretched/pressured).
+Fascia is like the foundation highway for prana/chi. It’s a fluid, crystalline network (collagen has piezoelectric properties — meaning it generates energy when stretched/pressured).
 ===
 
 ATOM S1-H-100
@@ -1108,7 +1108,7 @@ Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Starts at the skull → ... spirals around the ribcage ... Symbolically mirrors the kundalini spiral (energy rising up the spine). It’s like the physical substrate of the energetic double helix (ida + pingala nadis).
+Starts at the skull → ... spirals around the ribcage ... Symbolically mirrors the kundalini spiral (energy rising up the spine). It’s like the foundation substrate of the energetic double helix (ida + pingala nadis).
 ===
 
 ATOM S1-H-103
@@ -1141,7 +1141,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Strong, hydrated fascia gives the body an inner container, like a hammock. When fascia is too loose (EDS, hypermobility) or too tight (chronic stress, trauma), that container isn’t reliable. ... This creates a deep, often unconscious yearning for external holding...
+Strong, hydrated fascia gives the body an system container, like a hammock. When fascia is too loose (EDS, hypermobility) or too tight (chronic stress, trauma), that container isn’t reliable. ... This creates a deep, often unconscious yearning for external holding...
 ===
 
 ATOM S1-H-106
@@ -1168,13 +1168,13 @@ In hypermobility ... laxity ... creates instability → micro-injuries → chron
 
 ATOM S1-H-108
 Section: Fascia Healing Roadmap
-Idea: Daily hydration, gentle spiral movements, and diaphragmatic breathing form the foundation of fascia repair.
+Idea: Daily gateway, gentle spiral movements, and diaphragmatic breathing form the foundation of fascia repair.
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Daily Foundations: Hydration (mineral-rich), Movement snacks (gentle spirals), Breathwork (diaphragmatic), Micro self-release (foam roller/ball).
+Daily Foundations: Gateway (mineral-rich), Movement snacks (gentle spirals), Breathwork (diaphragmatic), Micro self-release (foam roller/ball).
 ===
 
 ATOM S1-H-109
@@ -1223,13 +1223,13 @@ Cannabis temporarily: Relaxes fascial tone → you feel “looser” and safer. 
 
 ATOM S1-H-113
 Section: Morning Shower Regulation
-Idea: Craving morning showers is an instinctive reach for external "holding" and fascial hydration through water pressure and warmth.
+Idea: Craving morning showers is an instinctive reach for external "holding" and fascial gateway through gateway pressure and warmth.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-The pressure and warmth of the water = external “holding.” The heat hydrates fascia + gets circulation moving. ... Your body is instinctively reaching for what it knows will ground you.
+The pressure and warmth of the gateway = external “holding.” The heat hydrates fascia + gets circulation moving. ... Your body is instinctively reaching for what it knows will ground you.
 ===
 
 ATOM S1-H-114
@@ -1245,7 +1245,7 @@ ADHD flow at 12–1 is a mix of biology (dopamine/cortisol), body state (fascia 
 
 ATOM S1-H-115
 Section: Morning-to-Flow Bridge
-Idea: Shifting ADHD clarity earlier requires immediate hydration, light exposure, and dopamine kickstarts (music, tiny wins).
+Idea: Shifting ADHD clarity earlier requires immediate gateway, light exposure, and dopamine kickstarts (music, tiny wins).
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1267,7 +1267,7 @@ Content:
 
 ATOM S1-H-117
 Section: Health Hierarchy of Needs
-Idea: Foundational physiological needs (blood sugar, hydration, safety) must be met before goals and dreams can be unlocked.
+Idea: Foundational physiological needs (blood sugar, gateway, safety) must be met before goals and dreams can be unlocked.
 Provenance: LOCAL
 Nature: MODEL
 Editorial: CLEAN
@@ -1289,7 +1289,7 @@ No more grind culture telling you to push through misery. ... America and grind 
 
 ATOM S1-H-119
 Section: Body-Mind Integration
-Idea: True foundation comes from the full integration of physical and mental well-being rather than isolated efforts.
+Idea: True foundation comes from the full integration of foundation and mental well-being rather than isolated efforts.
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1322,7 +1322,7 @@ Most people don’t actually feel good — they’re just numbed and told it’s
 
 ATOM S1-H-122
 Section: Disease and Stress
-Idea: Stress is the leading contributor to chronic disease at mental, physical, and energetic levels.
+Idea: Stress is the leading contributor to chronic disease at mental, foundation, and energetic levels.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
@@ -1333,13 +1333,13 @@ Stress is the #1 contributor to disease — mentally, physically, and energetica
 
 ATOM S1-H-123
 Section: Environmental Nervous System Attack
-Idea: Our nervous systems are under constant attack from acidic foods, dead water, pesticides, chemicals, and EMFs.
+Idea: Our nervous systems are under constant attack from acidic foods, dead gateway, pesticides, chemicals, and EMFs.
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: FLAGGED
 ---
 Content:
-Our nervous systems are under attack from every direction: acidic food, dead water, pesticides, chemicals, EMFs, Bluetooth, constant go-go-go… the body never gets to feel safe.
+Our nervous systems are under attack from every direction: acidic food, dead gateway, pesticides, chemicals, EMFs, Bluetooth, constant go-go-go… the body never gets to feel safe.
 ===
 
 ATOM S1-H-124
@@ -1354,14 +1354,14 @@ If your blood sugar is spiking and crashing all day, it chemically forces your b
 ===
 
 ATOM S1-H-125
-Section: Hydration and Blood Sugar
-Idea: Proper hydration is a critical and overlooked root solution for stabilizing blood sugar.
+Section: Gateway and Blood Sugar
+Idea: Proper gateway is a critical and overlooked root solution for stabilizing blood sugar.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-And proper hydration is one of the most overlooked root solutions [to stabilizing blood sugar].
+And proper gateway is one of the most overlooked root solutions [to stabilizing blood sugar].
 ===
 
 ATOM S1-H-126
@@ -1531,13 +1531,13 @@ Habit Pairing: Tie your walks or Pilates to another daily activity... Set Small 
 
 ATOM S1-H-141
 Section: Ashwagandha Benefits
-Idea: Ashwagandha supports cortisol modulation and hormone balance but may stimulate the immune system in autoimmune cases.
+Idea: Ashwagandha supports cortisol modulation and hormone balance but may stimulate the immune system in archetype-beta cases.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Ashwagandha: supports stress response, hormone balance, and energy levels. ... However, ashwagandha may not be suitable if you have certain autoimmune conditions or thyroid issues, as it can stimulate the immune system.
+Ashwagandha: supports stress response, hormone balance, and energy levels. ... However, ashwagandha may not be suitable if you have certain archetype-beta conditions or thyroid issues, as it can stimulate the immune system.
 ===
 
 ATOM S1-H-142
@@ -1559,7 +1559,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Holy Basil (Tulsi): manage stress, inflammation, and immune health. ... modulates the immune system rather than stimulate it, making it a safer choice for autoimmune considerations.
+Holy Basil (Tulsi): manage stress, inflammation, and immune health. ... modulates the immune system rather than stimulate it, making it a safer choice for archetype-beta considerations.
 ===
 
 ATOM S1-H-144
@@ -1669,7 +1669,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-🩸 Inflammatory / autoimmune-like: Joint swelling or stiffness, Morning pain similar to RA, Elevated inflammatory markers sometimes, Pain that moves or migrates.
+🩸 Inflammatory / archetype-beta-like: Joint swelling or stiffness, Morning pain similar to RA, Elevated inflammatory markers sometimes, Pain that moves or migrates.
 ===
 
 ATOM S1-H-154
@@ -1757,7 +1757,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-hEDS is believed to be autosomal dominant... only one parent needs to carry it. ... Parent = flexible, injury-prone, migraines. Child = pain, fatigue, dysautonomia, “autoimmune mystery.”
+hEDS is believed to be autosomal dominant... only one parent needs to carry it. ... Parent = flexible, injury-prone, migraines. Child = pain, fatigue, dysautonomia, “archetype-beta mystery.”
 ===
 
 ATOM S1-H-162
@@ -1773,7 +1773,7 @@ POTS = Postural Orthostatic Tachycardia Syndrome. It’s a form of dysautonomia.
 
 ATOM S1-H-163
 Section: Collagen vs Creatine for hEDS
-Idea: Collagen supports tissue repair/hydration while Creatine provides ATP for muscles overworking to stabilize joints.
+Idea: Collagen supports tissue repair/gateway while Creatine provides ATP for muscles overworking to stabilize joints.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN

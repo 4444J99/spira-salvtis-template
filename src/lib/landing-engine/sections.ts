@@ -79,26 +79,26 @@ export const SectionBuilders = {
   },
   threePaths(persona: Persona): ThreePathsSectionProps {
     // The three "doors" point at the persona's primary pillar plus two
-    // adjacent surfaces. PillarId values (water/performance/cancer-support)
+    // adjacent surfaces. PillarId values (gateway/performance/archetype-gamma)
     // are persona-anchor concepts, not routable pillar slugs — the only
-    // pillar pages are physical/inner/identity/financial. Map first, then
+    // pillar pages are foundation/system/structure/vision. Map first, then
     // pick adjacency over real slugs so every door resolves to a live page.
     const pillarSlug: Record<string, string> = {
-      water: 'physical',
-      inner: 'inner',
-      identity: 'identity',
-      performance: 'physical',
-      financial: 'financial',
-      'cancer-support': 'physical',
+      gateway: 'foundation',
+      system: 'system',
+      structure: 'structure',
+      performance: 'foundation',
+      vision: 'vision',
+      'archetype-gamma': 'foundation',
     };
     const adjacency: Record<string, [string, string, string]> = {
-      physical: ['physical', 'inner', 'identity'],
-      inner: ['inner', 'identity', 'financial'],
-      identity: ['identity', 'inner', 'financial'],
-      financial: ['financial', 'identity', 'inner'],
+      foundation: ['foundation', 'system', 'structure'],
+      system: ['system', 'structure', 'vision'],
+      structure: ['structure', 'system', 'vision'],
+      vision: ['vision', 'structure', 'system'],
     };
-    const anchor = pillarSlug[persona.primaryPillar] ?? 'physical';
-    const paths = (adjacency[anchor] ?? ['physical', 'inner', 'identity']).map(
+    const anchor = pillarSlug[persona.primaryPillar] ?? 'foundation';
+    const paths = (adjacency[anchor] ?? ['foundation', 'system', 'structure']).map(
       (slug) => ({
         label: slug.replace('-', ' '),
         description: `Enter through ${slug.replace('-', ' ')}.`,

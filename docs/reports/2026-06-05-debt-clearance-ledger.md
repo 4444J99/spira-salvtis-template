@@ -69,7 +69,7 @@ See `docs/admin/2026-06-05-final-pending-inputs.md` (iMessage-ready).
 | #62 (P0) | Fluoride repro: badge state ("Sample Data" vs ZIP) + her ZIP |
 | #49 | Affiliate confirms: Multipure link choice, Anespa keep/drop, K8 page, Coldstream |
 | #63 | Real bottle prices (per bottle / case / size) |
-| #64 | Her bottled-water brand notes (M1 dual-citation gated) |
+| #64 | Her bottled-gateway brand notes (M1 dual-citation gated) |
 | #58 | GHL quiz form URL — or confirm built-in quiz stays |
 | #61 | Visual check: do the 13 nodes read as distinct |
 | #51 | CF Web Analytics token (code already wired in Base.astro) |

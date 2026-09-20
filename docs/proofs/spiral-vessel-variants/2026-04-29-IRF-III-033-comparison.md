@@ -22,7 +22,7 @@
 - `mesh.visible = false` — vessel mesh hidden in the scene-graph
 - Per-node particle field at full opacity (`× 1.0`)
 - Mesh stays in scene-graph as raycast/click target and as the spawn-volume reference for the phase particles
-- **What you see:** the icon's identity IS the materia density of ~110 phase particles bouncing inside the icon's substrate boundary. No outline; only the field
+- **What you see:** the icon's structure IS the materia density of ~110 phase particles bouncing inside the icon's substrate boundary. No outline; only the field
 
 ### visible
 

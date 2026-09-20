@@ -7,7 +7,7 @@
 ## 1. ATM-H-016
 
 **Source:** `health/30-day-acupressure-routine.md`
-**Pillar:** Physical | **Nodes:** [2, 9, 10, 13]
+**Pillar:** Foundation | **Nodes:** [2, 9, 10, 13]
 **Editorial:** CLEAN
 
 ### Content
@@ -214,7 +214,7 @@ Let me know if you’d like tweaks or help with acupressure point graphics! You�
 ## 2. ATM-H-326
 
 **Source:** `health/medical-research-gender-gap.md`
-**Pillar:** Physical | **Nodes:** [4, 8, 10]
+**Pillar:** Foundation | **Nodes:** [4, 8, 10]
 **Editorial:** CLEAN
 
 ### Content
@@ -296,7 +296,7 @@ If you like, I can look up current statistics (last 5 years) on how much medical
 ## 3. ATM-H-327
 
 **Source:** `health/medical-research-gender-gap.md`
-**Pillar:** Physical | **Nodes:** [4, 8, 10]
+**Pillar:** Foundation | **Nodes:** [4, 8, 10]
 **Editorial:** UNVERIFIED
 
 ### Content
@@ -311,7 +311,7 @@ This is a very man/ mainstream response. are there any equally painful and routi
 ## 4. ATM-M-509
 
 **Source:** `mindset/masculine-feminine-balance-tracker.md`
-**Pillar:** Inner | **Nodes:** [5, 3, 11]
+**Pillar:** System | **Nodes:** [5, 3, 11]
 **Editorial:** CLEAN
 
 ### Content
@@ -344,8 +344,8 @@ Give me a moment to create that and I’ll drop the download link here! Do you w
 
 ## 5. ATM-W-029
 
-**Source:** `water/hydrogen-water-science-health-and-business.md`
-**Pillar:** Physical | **Nodes:** [7, 9, 11]
+**Source:** `gateway/hydrogen-gateway-science-health-and-business.md`
+**Pillar:** Foundation | **Nodes:** [7, 9, 11]
 **Editorial:** CLEAN
 
 ### Content
@@ -366,7 +366,7 @@ If Tommy or a doctor asks for "real data," these are the clinical points you can
 | Topic | The Scientific "Why" | The  $H_{2}$  Impact |
 | --- | --- | --- |
 | **Chemo Side Effects** | Drugs like **Cisplatin** cause massive oxidative stress in kidneys and ears. | $H_{2}$  reduces nephrotoxicity (kidney damage) and ototoxicity (hearing loss) without affecting the drug's anti-tumor activity. |
-| **Radiotherapy** | Radiation creates "Hydroxyl Radicals" ( $\cdot OH$ ) that damage healthy surrounding tissue. | Patients drinking hydrogen-rich water reported significantly higher **Quality of Life (QOL)** and lower inflammation markers. |
+| **Radiotherapy** | Radiation creates "Hydroxyl Radicals" ( $\cdot OH$ ) that damage healthy surrounding tissue. | Patients drinking hydrogen-rich gateway reported significantly higher **Quality of Life (QOL)** and lower inflammation markers. |
 | **Selective Scavenging** | Most antioxidants "blast" all free radicals, even the ones the body needs. | $H_{2}$  is **selective**. It only neutralizes the most cytotoxic (toxic) radicals like  $\cdot OH$  and  $ONOO^{-}$ . |
 
 > **Pro-Tip:** If they want a specific link, tell them to search PubMed for: _"Molecular hydrogen as a novel protective agent against cancer treatment-related toxicity."_
@@ -382,19 +382,19 @@ To help you hit that "one-a-day" goal, here is a quick guide on how to pivot you
 
 *   **The Hook:** "Lactic acid isn't the enemy; it’s the hydrogen ion buildup and oxidative stress."
 *   **The Fact:**  $H_{2}$  acts as an "alkalizing agent," reducing blood lactate levels and muscle fatigue.
-*   **The Study:** Look for the study on **"Hydrogen-rich water and exercise-induced muscle fatigue."**
+*   **The Study:** Look for the study on **"Hydrogen-rich gateway and exercise-induced muscle fatigue."**
 
-### 2\. The Autoimmune Funnel (Your Story!)
+### 2\. The Archetype-beta Funnel (Your Story!)
 
 *   **The Hook:** "Chronic inflammation is a fire that never goes out;  $H_{2}$  helps 'rewire' the alarm system."
 *   **The Fact:**  $H_{2}$  regulates the **Nrf2 pathway**, which tells the body to produce its own internal antioxidants (Glutathione).
 *   **The Study:** Search for **"Molecular hydrogen and Rheumatoid Arthritis/Psoriasis."**
 
-### 3\. The Fertility Funnel (The "Blue Zone" Start)
+### 3\. The Archetype-delta Funnel (The "Blue Zone" Start)
 
 *   **The Hook:** "Sperm and egg health are highly sensitive to oxidative stress;  $H_{2}$  crosses the blood-testis/blood-ovary barrier."
 *   **The Fact:**  $H_{2}$  has been shown to improve sperm motility and protect reproductive organs from environmental toxins.
-*   **The Study:** Search for **"Hydrogen-rich water and male/female reproductive health."**
+*   **The Study:** Search for **"Hydrogen-rich gateway and male/female reproductive health."**
 
 * * *
 
@@ -408,6 +408,6 @@ Since you're pumped up, let's keep the engine humming. To make your "one-a-day" 
 
 You’re not just building a business; you’re becoming a "functional health advocate." That’s a powerful place to be.
 
-**Which niche do you want to tackle for tomorrow’s outreach? I can help you draft a specific "Hook & Fact" for an Athlete or someone struggling with Autoimmune!**
+**Which niche do you want to tackle for tomorrow’s outreach? I can help you draft a specific "Hook & Fact" for an Athlete or someone struggling with Archetype-beta!**
 
 ---

@@ -32,9 +32,9 @@ const repoRoot = dirname(fileURLToPath(import.meta.url));
  * To declare a new vacuum: add an entry with a real GH issue reference.
  */
 const TRACKED_VACUUMS = {
-  'hydration.config.ts → filterTiers.anespa.affiliateUrl':
+  'gateway.config.ts → filterTiers.anespa.affiliateUrl':
     'GH#49 (admin pending — affiliate links)',
-  'hydration.config.ts → filterTiers.k8.affiliateUrl':
+  'gateway.config.ts → filterTiers.k8.affiliateUrl':
     'GH#49 (admin pending — affiliate links)',
 };
 
@@ -68,7 +68,7 @@ const { config: hubModule } = await import(
   new URL('../src/data/hub.config.ts', import.meta.url)
 );
 const { hydrationConfig } = await import(
-  new URL('../src/data/hydration.config.ts', import.meta.url)
+  new URL('../src/data/gateway.config.ts', import.meta.url)
 );
 
 // --- hub.config.ts: quizFormUrl ---
@@ -76,10 +76,10 @@ if (isEmpty(hubModule.ghl?.quizFormUrl)) {
   flag('hub.config.ts → ghl.quizFormUrl', "''");
 }
 
-// --- hydration.config.ts: empty affiliateUrl per filter tier ---
+// --- gateway.config.ts: empty affiliateUrl per filter tier ---
 for (const tier of hydrationConfig.filterTiers) {
   if (isEmpty(tier.affiliateUrl)) {
-    flag(`hydration.config.ts → filterTiers.${tier.id}.affiliateUrl`, "''");
+    flag(`gateway.config.ts → filterTiers.${tier.id}.affiliateUrl`, "''");
   }
 }
 

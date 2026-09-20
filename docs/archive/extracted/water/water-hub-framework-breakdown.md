@@ -12,16 +12,16 @@ sections:
 -->
 ---
 title: "Landing page flow, quiz branching"
-source_file: "ChatGPT-Water Hub Framework Breakdown.txt"
-source_folder: "water"
+source_file: "ChatGPT-Gateway Hub Framework Breakdown.txt"
+source_folder: "gateway"
 nodes: [11, 12]
 readiness: "Raw"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-115 IN
-idea: "Water Hub Framework Breakdown"
+idea: "Gateway Hub Framework Breakdown"
 section: "Main"
 position: 1
 of_total: 4
@@ -30,7 +30,7 @@ context_above: null
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -39,7 +39,7 @@ strike_phase: 2C
 
 
 
-Water Hub Framework Breakdown
+Gateway Hub Framework Breakdown
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 3/25/2026 11:38:16
@@ -59,11 +59,11 @@ section: "Prompt-Response"
 position: 2
 of_total: 4
 prev: ATM-W-115
-context_above: "Water Hub Framework Breakdown"
+context_above: "Gateway Hub Framework Breakdown"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -71,14 +71,14 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Okay, and then, so breaking down my sovereign system and pillar framework into the first one of, like, the Water Hub branch, can we break that down into my systems there? So I want to go to the landing page and have my mini documentary that I film, and then maybe the water demo below that. I haven't decided yet. And then have a quiz so that I can collect data and information on who's visiting my page. And...”
+“Okay, and then, so breaking down my sovereign system and pillar framework into the first one of, like, the Gateway Hub branch, can we break that down into my systems there? So I want to go to the landing page and have my mini documentary that I film, and then maybe the gateway demo below that. I haven't decided yet. And then have a quiz so that I can collect data and information on who's visiting my page. And...”
 
 
 00:35
 
 
 ## Response:
-I love that! So, it sounds like your Water Hub branch will be kind of a rich, immersive experience right from the start. I think we can structure it so the landing page is really centered on that mini-documentary—like the main emotional hook. Then below that, we can either embed or showcase a teaser of the water demo. After that, the quiz can be a natural call-to-action—so, like, after they’ve been pulled in emotionally, they engage with that quiz and you get deeper insights. Does that sound like the flow you’re aiming for?
+I love that! So, it sounds like your Gateway Hub branch will be kind of a rich, immersive experience right from the start. I think we can structure it so the landing page is really centered on that mini-documentary—like the main emotional hook. Then below that, we can either embed or showcase a teaser of the gateway demo. After that, the quiz can be a natural call-to-action—so, like, after they’ve been pulled in emotionally, they engage with that quiz and you get deeper insights. Does that sound like the flow you’re aiming for?
 
 
 <!-- ATM-W-116 OUT
@@ -96,7 +96,7 @@ context_above: "“Okay, and then, so breaking down my sovereign system and pill
 provenance: HYBRID
 nature: QUESTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -129,7 +129,7 @@ context_above: "“Yes, so that's perfect. And then, depending on where, what th
 provenance: HYBRID
 nature: QUESTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -137,7 +137,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Yes, sorry, I got cut off. So it would then branch off into, like, what is molecular hydrogen, and maybe that's where the rest of the water demo could live, and then we have, like, a short, you know, just breakdown of what it is, if they just want the basics, or maybe that... Okay, restart.”
+“Yes, sorry, I got cut off. So it would then branch off into, like, what is molecular hydrogen, and maybe that's where the rest of the gateway demo could live, and then we have, like, a short, you know, just breakdown of what it is, if they just want the basics, or maybe that... Okay, restart.”
 
 
 00:20

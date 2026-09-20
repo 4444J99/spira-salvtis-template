@@ -1,6 +1,6 @@
 ---
 /**
- * PersonalizedFilterPlan — the "simplified" water capture path (W-070, GH#65).
+ * PersonalizedFilterPlan — the "simplified" gateway capture path (W-070, GH#65).
  *
  * Per admin 2026-05-01: "we can simplify it right they can just say here's my
  * email. I want to reach out with a personalized filter plan for me... I can
@@ -10,8 +10,8 @@
  * filter-match funnel in HydrationNode.astro. There is NO on-page result: the
  * visitor leaves email + (optional) address, and the submission flows through
  * the existing capture pipeline (`src/pages/capture.ts`) with
- * `source: 'water-personalized-plan'`. admin runs the EWG lookup manually and
- * replies with a plan tailored to their water.
+ * `source: 'gateway-personalized-plan'`. admin runs the EWG lookup manually and
+ * replies with a plan tailored to their gateway.
  *
  * @see src/pages/capture.ts — `WATER_PERSONALIZED_PLAN_SOURCE`, `address` field
  * @see docs/client-decisions/2026-04-17-atomized-wants.md (W-070)
@@ -43,7 +43,7 @@
         class="text-white/40 text-[15px] font-light max-w-md mx-auto leading-relaxed mb-8"
       >
         Don't want to dig through reports yourself? Leave your email and where
-        you live. I'll pull your area's water data, match it against the right
+        you live. I'll pull your area's gateway data, match it against the right
         filters, and send back a plan made for you — not a generic list.
       </p>
 
@@ -101,7 +101,7 @@
           />
           <p class="text-white/20 text-[11px] mt-2 leading-relaxed">
             The more specific your location, the more accurate your plan. Used
-            only to look up your water — never shared.
+            only to look up your gateway — never shared.
           </p>
         </div>
 
@@ -132,7 +132,7 @@
       <p
         class="text-white/40 text-[15px] font-light max-w-md mx-auto leading-relaxed"
       >
-        I'll look up your water and send a personalized filter plan to your
+        I'll look up your gateway and send a personalized filter plan to your
         inbox. Keep an eye out — it comes from a real person, not an
         autoresponder.
       </p>
@@ -175,7 +175,7 @@
           name: data.get('name') || '',
           email,
           address: data.get('address') || '',
-          source: 'water-personalized-plan',
+          source: 'gateway-personalized-plan',
         }),
       });
     } catch {

@@ -7,7 +7,7 @@
 ## 1. ATM-H-019
 
 **Source:** `health/30-day-acupressure-routine.md`
-**Pillar:** Physical | **Nodes:** [2, 9, 10, 13]
+**Pillar:** Foundation | **Nodes:** [2, 9, 10, 13]
 **Editorial:** CLEAN
 
 ### Content
@@ -19,7 +19,7 @@ Should I just use the captions from above or would you recommend something else?
 ## 2. ATM-H-027
 
 **Source:** `health/aerosols-and-cleaning-products.md`
-**Pillar:** Physical | **Nodes:** [6, 8]
+**Pillar:** Foundation | **Nodes:** [6, 8]
 **Editorial:** CLEAN
 
 ### Content
@@ -31,7 +31,7 @@ Caption about aerosols and the stuff that comes off cleaners and gets in the air
 ## 3. ATM-H-066
 
 **Source:** `health/birth-control-resources-guide.md`
-**Pillar:** Physical | **Nodes:** [5, 7, 6]
+**Pillar:** Foundation | **Nodes:** [5, 7, 6]
 **Editorial:** CLEAN
 
 ### Content
@@ -216,7 +216,7 @@ Synthetic hormones create a steady environment that sends a message similar to e
 Unlike pregnancy, which eventually resolves and completes a cycle, this synthetic state stays “on” long-term.
 
 
-For some women, this brings emotional and physical stability. For others, it can feel like:
+For some women, this brings emotional and foundation stability. For others, it can feel like:
 
 
 Emotional flatness
@@ -414,7 +414,7 @@ NON-HORMONAL OPTIONS (OFFLINE)
 If you ever decide you want to explore non-hormonal methods, there are options that do not require apps, phones, or data sharing.
 
 
-Sympto-Thermal Method (Fertility Awareness Method):
+Sympto-Thermal Method (Archetype-delta Awareness Method):
 
 
 Uses a thermometer, pen, paper, and observations of cervical mucus
@@ -508,7 +508,7 @@ Write a caption or script for how you’ll share this / send it to friends.
 ## 4. ATM-H-252
 
 **Source:** `health/heroines-healing-journey.md`
-**Pillar:** Physical | **Nodes:** [14, 10, 4, 11]
+**Pillar:** Foundation | **Nodes:** [14, 10, 4, 11]
 **Editorial:** CLEAN
 
 ### Content
@@ -531,7 +531,7 @@ Stage of the Spiral: Reclamation → Return
 
 Your heart emits an electric field up to 60x stronger than the brain, and a magnetic field up to 5,000x stronger.
 
-The body’s frequency changes based on thoughts, emotions, foods, water, and environment.
+The body’s frequency changes based on thoughts, emotions, foods, gateway, and environment.
 
 Every thought = a frequency. Every word = a vibrational code.
 
@@ -567,7 +567,7 @@ Emotions are the glue of manifestation. Belief anchors the frequency.
 
 You are a walking prayer, constantly speaking reality into form.
 
-You attract what matches your subconscious identity—not what you wish, but what you are.
+You attract what matches your subconscious structure—not what you wish, but what you are.
 
 
 🌀 Your eyes are black holes. Your words are spells. Your body is a conductor.
@@ -582,7 +582,7 @@ You attract what matches your subconscious identity—not what you wish, but wha
 “The body never betrays you—it tries to wake you.”
 
 
-Your “autoimmune” story wasn’t just illness—it was a misalignment of truth.
+Your “archetype-beta” story wasn’t just illness—it was a misalignment of truth.
 
 The medical model gave you no name, so you gave yourself one:
 → Sovereign. Sensitive. Self-healer.
@@ -691,19 +691,19 @@ Create a printable version or IG post series from it?
 Turn the future vision prompt into a daily ritual page or audio script template?
 
 
-Also happy to generate more prompts like that week-vision one based on identity shifts, money healing, soul purpose, etc. Just say the word ✨
+Also happy to generate more prompts like that week-vision one based on structure shifts, money healing, soul purpose, etc. Just say the word ✨
 
 ---
 
 ## 5. ATM-M-346
 
 **Source:** `mindset/insecurity-and-self-respect.md`
-**Pillar:** Identity | **Nodes:** [3, 10, 4]
+**Pillar:** Structure | **Nodes:** [3, 10, 4]
 **Editorial:** CLEAN
 
 ### Content
 
-PART 2 — THE DIFFERENCE BETWEEN “TRUTH” AND “IDENTITY”
+PART 2 — THE DIFFERENCE BETWEEN “TRUTH” AND “STRUCTURE”
 
 
 Here’s the reframe that unlocks confidence:
@@ -754,7 +754,7 @@ That’s strong. And flexible.
 ## 6. ATM-M-348
 
 **Source:** `mindset/insecurity-and-self-respect.md`
-**Pillar:** Identity | **Nodes:** [3, 10, 4]
+**Pillar:** Structure | **Nodes:** [3, 10, 4]
 **Editorial:** CLEAN
 
 ### Content
@@ -782,7 +782,7 @@ not vague
 ## 7. ATM-M-349
 
 **Source:** `mindset/insecurity-and-self-respect.md`
-**Pillar:** Identity | **Nodes:** [3, 10, 4]
+**Pillar:** Structure | **Nodes:** [3, 10, 4]
 **Editorial:** CLEAN
 
 ### Content
@@ -823,7 +823,7 @@ They follow coherence.
 ## 8. ATM-M-357
 
 **Source:** `mindset/insecurity-and-self-respect.md`
-**Pillar:** Identity | **Nodes:** [3, 10, 4]
+**Pillar:** Structure | **Nodes:** [3, 10, 4]
 **Editorial:** CLEAN
 
 ### Content
@@ -864,7 +864,7 @@ You’re not scattered — you’re just at the moment where simplification beco
 ## 9. ATM-M-584
 
 **Source:** `mindset/overwhelm-to-clarity.md`
-**Pillar:** Inner | **Nodes:** [3, 11, 5]
+**Pillar:** System | **Nodes:** [3, 11, 5]
 **Editorial:** CLEAN
 
 ### Content
@@ -889,7 +889,7 @@ If you hit that 25+ days out of 30, 3 sales is statistically likely.
 ## 10. ATM-M-627
 
 **Source:** `mindset/success-and-small-habits.md`
-**Pillar:** Inner | **Nodes:** [8, 11]
+**Pillar:** System | **Nodes:** [8, 11]
 **Editorial:** CLEAN
 
 ### Content

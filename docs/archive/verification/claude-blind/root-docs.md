@@ -109,7 +109,7 @@ So the structure becomes:
 ATOM 6
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: First 13 nodes — Phase 1 ELEVATE
-Idea: Phase 1 ELEVATE (Feel Good First) contains 5 foundation nodes: Feel Good First (entry), Your Body Is the Starting Point, Stabilize Your Blood Sugar, Your Nervous System Is the Filter, Sleep Is Non-Negotiable — cluster = Physical Sovereignty
+Idea: Phase 1 ELEVATE (Feel Good First) contains 5 foundation nodes: Feel Good First (entry), Your Body Is the Starting Point, Stabilize Your Blood Sugar, Your Nervous System Is the Filter, Sleep Is Non-Negotiable — cluster = Foundation Sovereignty
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -133,7 +133,7 @@ Everything you experience is processed through your state.
 5. Sleep Is Non-Negotiable
 Exhaustion distorts reality.
 
-👉 This cluster = Physical Sovereignty
+👉 This cluster = Foundation Sovereignty
 ===
 
 ATOM 7
@@ -297,7 +297,7 @@ BELOW SPIRAL:
 ATOM 14
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: admin's tweaks to initial 13 nodes
-Idea: admin's revision suggestions: combine nodes 3-5 under node 2, add stress/inflammation + absorption/efficiency nodes, split awareness into two, reorder accountability, node 11 folds under 10, add confidence, identity transitions between align and unlock, business before authentic self in unlock
+Idea: admin's revision suggestions: combine nodes 3-5 under node 2, add stress/inflammation + absorption/efficiency nodes, split awareness into two, reorder accountability, node 11 folds under 10, add confidence, structure transitions between align and unlock, business before authentic self in unlock
 Provenance: LOCAL
 Nature: INSTRUCTION
 Editorial: CLEAN
@@ -305,25 +305,25 @@ Editorial: CLEAN
 Content:
 Feel good first - introduces maslows and first tier. Love the first two but think three and four can be plugged into/under the second one & so can five. Maybe we add two that go over stress/inflammation - creature self/keeping it simple & then absolution & efficiency/how to cut out all the bandaids/get to the root.
 
-6 I think should be two - if you think feeling like shit is normal then ofc you're not gonna care to move your body or drink more water but if you start becoming aware of what you do want / what doesn't serve you etc then you can start to build the habits - good spot to tie in the compound effect.
+6 I think should be two - if you think feeling like shit is normal then ofc you're not gonna care to move your body or drink more gateway but if you start becoming aware of what you do want / what doesn't serve you etc then you can start to build the habits - good spot to tie in the compound effect.
 
-Then 7 - into some inner stuff- then can do the full accountability with love part - 8 before seven & after accountability tho !! And maybe 7 & 9 can be conjoined!?
+Then 7 - into some system stuff- then can do the full accountability with love part - 8 before seven & after accountability tho !! And maybe 7 & 9 can be conjoined!?
 
 But 11 ties into/goes under 10 I think and then 12 can be changed to or kept the same and maybe one added about building confidence
 
-then the identity part will live between/transitions alignment and unlock - unlock being about full integration of authentic self & business (business being first I think? Cause easier to express self with money & stability/security)
+then the structure part will live between/transitions alignment and unlock - unlock being about full integration of authentic self & business (business being first I think? Cause easier to express self with money & stability/security)
 ===
 
 ATOM 15
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: Refined nodular flow after tweaks
-Idea: Revised node layout after admin's tweaks — Elevate (Feel Good First, Body Start, Stabilize & Optimize, Stress & Inflammation), Align (Awareness splits 5a/5b, Patterns, Reality Interpreted, Radical Responsibility, Naming & Claiming Truth, Integrity/Confidence), Unlock (Systems Create Freedom, Identity & Authentic Expression, Full Integration)
+Idea: Revised node layout after admin's tweaks — Elevate (Feel Good First, Body Start, Stabilize & Optimize, Stress & Inflammation), Align (Awareness splits 5a/5b, Patterns, Reality Interpreted, Radical Responsibility, Naming & Claiming Truth, Integrity/Confidence), Unlock (Systems Create Freedom, Structure & Authentic Expression, Full Integration)
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-🌱 ELEVATE — Physical + Awareness Foundation
+🌱 ELEVATE — Foundation + Awareness Foundation
 1. Feel Good First (entry, Maslow triangle intro)
 2. Awareness Creates Choice
 3. Your Body Is the Starting Point
@@ -337,7 +337,7 @@ Content:
 
 🔓 UNLOCK — Expansion / Integration
 9. Systems Create Freedom
-10. Identity & Authentic Expression
+10. Structure & Authentic Expression
 11. Full Integration / Expansion
 ===
 
@@ -356,7 +356,7 @@ Awareness needs to be under elevate I think not be a core step it's the second n
 ATOM 17
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: Locked base with Awareness under Elevate
-Idea: Locked spiral base: Elevate = physical + awareness (green), Align = accountability/ownership (blue), Unlock = expansion/integration (gold); phase coloring system established
+Idea: Locked spiral base: Elevate = foundation + awareness (green), Align = accountability/ownership (blue), Unlock = expansion/integration (gold); phase coloring system established
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -377,7 +377,7 @@ Phase coloring: Green → Blue → Gold
 ATOM 18
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: Two new nodes added
-Idea: Two new nodes: Energy & Flow (Elevate — "Energy is your first currency", bridges physical and awareness) and Boundaries & Choice (Align — "Your yes is your power", practical accountability step)
+Idea: Two new nodes: Energy & Flow (Elevate — "Energy is your first currency", bridges foundation and awareness) and Boundaries & Choice (Align — "Your yes is your power", practical accountability step)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -400,7 +400,7 @@ Spiritual: sacred yes/no, discernment, energetic boundaries
 ATOM 19
 File: 2b. ChatGPT-Nodular Flow Refinement.txt
 Section: Final updated 13-node layout
-Idea: Final definitive 13-node structure with two new nodes inserted: Elevate (1-6: Feel Good First, Awareness, Energy & Flow, Body Start, Stabilize & Optimize, Stress & Inflammation), Align (7-10: Radical Responsibility, Boundaries & Choice, Naming Truth, Integrity), Unlock (11-13: Systems, Identity, Full Integration)
+Idea: Final definitive 13-node structure with two new nodes inserted: Elevate (1-6: Feel Good First, Awareness, Energy & Flow, Body Start, Stabilize & Optimize, Stress & Inflammation), Align (7-10: Radical Responsibility, Boundaries & Choice, Naming Truth, Integrity), Unlock (11-13: Systems, Structure, Full Integration)
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -422,7 +422,7 @@ Content:
 
 🔓 Unlock
 11. Systems Create Freedom
-12. Identity & Authentic Expression
+12. Structure & Authentic Expression
 13. Full Integration / Expansion
 ===
 
@@ -451,8 +451,8 @@ Editorial: CLEAN
 Content:
 I'll take everything we've discussed so far, everything you've tested, theorized, or built into your frameworks, and make a fully organized, developer-ready Spiral Master Doc. I'll make sure nothing critical gets left behind, including:
 - All pillars and content topics
-- Water, health, reset experiments, and assessments
-- Mindset & identity frameworks
+- Gateway, health, reset experiments, and assessments
+- Mindset & structure frameworks
 - Funnels, Instagram content, video library, and scripts
 - Spiral visuals / interactive instructions
 - Brand philosophy, vision, and all "influences"
@@ -468,7 +468,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Physical, Inner, Identity, Financial).
+This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Foundation, System, Structure, Vision).
 The site is exploratory first, conversion second.
 Each pillar educates, then routes into funnels or deeper experiences.
 Free value comes first; paid content/subscription funnels deepen engagement.
@@ -487,7 +487,7 @@ Editorial: CLEAN
 Content:
 Core framework: Elevate • Align • Unlock (EAU)
 Mission / Vibe:
-- Guide people to sovereignty in mind, body, identity, and finance
+- Guide people to sovereignty in mind, body, structure, and finance
 - "Feel Good First" philosophy
 - Archetypal journey / 60 Days of Grace / root healing
 - Balances yin/yang, subconscious reprogramming, embodiment
@@ -504,22 +504,22 @@ Editorial: CLEAN
 ---
 Content:
 Burnt Toast Theory — awareness / start here — Boundaries / self-worth / resetting expectations
-Pancake Theory — Inner / Identity — Layering responsibilities / prioritization / mindset
-Lantern Theory — Inner / identity — Guidance / illumination / intuition
-Maslow's Hierarchy of Needs — physical, Inner / Identity — Human motivation framework
-The Compound Effect — Financial / Personal — Small consistent actions compound over time
-Radical Forgiveness — Inner / Identity — Reframing limiting beliefs / emotional freedom
-40/70 Rule — Identity / Decision-making — Taking action with 40% clarity instead of waiting for perfection
-Chicken / Robot Consciousness — Inner / Identity — Awareness experiment: observing unconscious vs conscious thought patterns
-Light & Fruit Test — Physical / Inner — Self-assessment of nutrition, energy alignment, lifestyle habits
+Pancake Theory — System / Structure — Layering responsibilities / prioritization / mindset
+Lantern Theory — System / structure — Guidance / illumination / intuition
+Maslow's Hierarchy of Needs — foundation, System / Structure — Human motivation framework
+The Compound Effect — Vision / Personal — Small consistent actions compound over time
+Radical Forgiveness — System / Structure — Reframing limiting beliefs / emotional freedom
+40/70 Rule — Structure / Decision-making — Taking action with 40% clarity instead of waiting for perfection
+Chicken / Robot Consciousness — System / Structure — Awareness experiment: observing unconscious vs conscious thought patterns
+Light & Fruit Test — Foundation / System — Self-assessment of nutrition, energy alignment, lifestyle habits
 Feel Good First — All — Core mindset framework for all decisions and habits
-Archetypal Journey / 60 Days of Grace — Inner / Identity — Transformational program structure for self-sovereignty
+Archetypal Journey / 60 Days of Grace — System / Structure — Transformational program structure for self-sovereignty
 ===
 
 ATOM 25
 File: 1a-master-spiral-backend-breakdown.md
 Section: Spiral Architecture
-Idea: Spiral architecture: interactive clickable animated hub as home base, pillar routing (Physical→water funnel, Inner→subscription, Identity→courses, Financial→business funnel), minimal icons
+Idea: Spiral architecture: interactive clickable animated hub as home base, pillar routing (Foundation→gateway funnel, System→subscription, Structure→courses, Vision→business funnel), minimal icons
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -531,45 +531,45 @@ Site Overview:
 - Hover to see title and click expands into each pillar world
 
 Pillar Routing:
-Physical → Site page with info overview → GHL water funnel
-Inner → Site page with info → Subscription content
-Identity → Site page with info → Courses / personal growth
-Financial → Site page with info → GHL business funnel
+Foundation → Site page with info overview → GHL gateway funnel
+System → Site page with info → Subscription content
+Structure → Site page with info → Courses / personal growth
+Vision → Site page with info → GHL business funnel
 ===
 
 ATOM 26
 File: 1a-master-spiral-backend-breakdown.md
-Section: Physical Sovereignty content
-Idea: Physical Sovereignty pillar topics: water, blood sugar, minerals, lymph, gut, nervous system, sleep, hormones/fertility, autoimmune, tongue diagnostics, self-assessment tools (Light & Fruit Test, 3-day reset, seasonal calendar, mood maps)
+Section: Foundation Sovereignty content
+Idea: Foundation Sovereignty pillar topics: gateway, blood sugar, minerals, lymph, gut, nervous system, sleep, hormones/archetype-delta, archetype-beta, tongue diagnostics, self-assessment tools (Light & Fruit Test, 3-day reset, seasonal calendar, mood maps)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Physical Sovereignty:
-- Water (structured, hydrogen, filtration)
+Foundation Sovereignty:
+- Gateway (structured, hydrogen, filtration)
 - Blood sugar regulation
 - Mineral balance
 - Lymphatic system
 - Gut health
 - Nervous system regulation
 - Sleep optimization
-- Hormones & fertility
-- Autoimmune root healing
+- Hormones & archetype-delta
+- Archetype-beta root healing
 - Tongue diagnostics (Chinese medicine)
 - Self-assessment tools: Light & Fruit Test, 3-day reset plan, Seasonal plant & ritual calendar, Mood/substance choice maps
 ===
 
 ATOM 27
 File: 1a-master-spiral-backend-breakdown.md
-Section: Inner Sovereignty content
-Idea: Inner Sovereignty topics: nervous system regulation, emotional processing, subconscious reprogramming, anxiety healing, yin/yang balance, intuition/body awareness, plus 7 frameworks (Burnt Toast, Pancake, Lantern, Radical Forgiveness, Feel Good First, Archetypal Journey, Chicken/Robot)
+Section: System Sovereignty content
+Idea: System Sovereignty topics: nervous system regulation, emotional processing, subconscious reprogramming, anxiety healing, yin/yang balance, intuition/body awareness, plus 7 frameworks (Burnt Toast, Pancake, Lantern, Radical Forgiveness, Feel Good First, Archetypal Journey, Chicken/Robot)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Inner Sovereignty:
+System Sovereignty:
 - Nervous system regulation
 - Emotional processing
 - Subconscious reprogramming
@@ -581,14 +581,14 @@ Inner Sovereignty:
 
 ATOM 28
 File: 1a-master-spiral-backend-breakdown.md
-Section: Identity Sovereignty content
-Idea: Identity Sovereignty topics: self-worth, rewriting beliefs, confidence/expression, ego awakening, personal responsibility, decision frameworks (Burnt Toast, 40/70 Rule, Maslow, Lantern)
+Section: Structure Sovereignty content
+Idea: Structure Sovereignty topics: self-worth, rewriting beliefs, confidence/expression, ego awakening, personal responsibility, decision frameworks (Burnt Toast, 40/70 Rule, Maslow, Lantern)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Identity Sovereignty:
+Structure Sovereignty:
 - Self-worth & self-love
 - Rewriting limiting beliefs
 - Confidence & expression
@@ -599,14 +599,14 @@ Identity Sovereignty:
 
 ATOM 29
 File: 1a-master-spiral-backend-breakdown.md
-Section: Financial Sovereignty content
-Idea: Financial Sovereignty topics: business as self-expression, sales without force, content creation, personal brand building, wealth energetics, funnel systems, frameworks (Compound Effect, 40/70 Rule)
+Section: Vision Sovereignty content
+Idea: Vision Sovereignty topics: business as self-expression, sales without force, content creation, personal brand building, wealth energetics, funnel systems, frameworks (Compound Effect, 40/70 Rule)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Financial Sovereignty:
+Vision Sovereignty:
 - Business as self-expression
 - Sales without force
 - Content creation
@@ -619,28 +619,28 @@ Financial Sovereignty:
 ATOM 30
 File: 1a-master-spiral-backend-breakdown.md
 Section: Content inventory
-Idea: Content inventory: existing (IG reels, water demos, healing story, funnel scripts, EAU notes) vs. needed (structured pillar pages, educational modules, subscription library, documentary landing video)
+Idea: Content inventory: existing (IG reels, gateway demos, healing story, funnel scripts, EAU notes) vs. needed (structured pillar pages, educational modules, subscription library, documentary landing video)
 Provenance: HYBRID
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-Content Already Created: Instagram reels, Water demo videos, Personal healing story, Funnel scripts / frameworks, EAU Blueprint notes
+Content Already Created: Instagram reels, Gateway demo videos, Personal healing story, Funnel scripts / frameworks, EAU Blueprint notes
 Content Still Needed: Structured pillar pages (Anthony builds, guided by you), Organized educational modules, Subscription content library, Refined documentary-style landing video
 ===
 
 ATOM 31
 File: 1a-master-spiral-backend-breakdown.md
 Section: Funnels & Lead Flows
-Idea: Three funnel flows: Water (Physical→GHL→email→purchase), Business (Financial→GHL→guidance), Subscription (Inner→hub→exclusive content); free vs paid access gates defined
+Idea: Three funnel flows: Gateway (Foundation→GHL→email→purchase), Business (Vision→GHL→guidance), Subscription (System→hub→exclusive content); free vs paid access gates defined
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Water Funnel: CTA from Physical pillar → GHL funnel → lead capture → email sequence → purchase
-Business Funnel: CTA from Financial pillar → GHL funnel → lead capture → guidance / education
-Subscription Flow: CTA from Inner pillar → subscription hub → exclusive videos / calls / product perks
+Gateway Funnel: CTA from Foundation pillar → GHL funnel → lead capture → email sequence → purchase
+Business Funnel: CTA from Vision pillar → GHL funnel → lead capture → guidance / education
+Subscription Flow: CTA from System pillar → subscription hub → exclusive videos / calls / product perks
 Free: Spiral, pillar overviews, select tools
 Paid: Deep dives, frameworks, calls, subscription content
 ===
@@ -666,14 +666,14 @@ Content:
 ATOM 33
 File: 1a-master-spiral-backend-breakdown.md
 Section: Build priority order
-Idea: Build priority: 1. Spiral hub live, 2. Water funnel connected, 3. Business funnel connected, 4. Subscription model active, 5. Store built; soft launch ASAP
+Idea: Build priority: 1. Spiral hub live, 2. Gateway funnel connected, 3. Business funnel connected, 4. Subscription model active, 5. Store built; soft launch ASAP
 Provenance: LOCAL
 Nature: INSTRUCTION
 Editorial: CLEAN
 ---
 Content:
 1. Spiral hub live & polished
-2. Water funnel connected
+2. Gateway funnel connected
 3. Business funnel connected
 4. Subscription model active
 5. Store built
@@ -730,7 +730,7 @@ Editorial: CLEAN
 ---
 Content:
 Frontend (public-facing brands):
-- EAU Co (water)
+- EAU Co (gateway)
 - Spiral Blueprint (healing)
 - Cind & Sol (nonprofit)
 - Personal brand (admin-coded sovereignty)
@@ -771,7 +771,7 @@ Use Sovereign Systems internally for now.
 Soft-launch it as a philosophy.
 Do NOT build a whole website for it yet.
 
-Front-facing: EAU Co (income), Water Funnel, Personal brand, Spiral (when ready)
+Front-facing: EAU Co (income), Gateway Funnel, Personal brand, Spiral (when ready)
 Backend: Sovereign Systems
 
 If you add another public brand layer too soon, it can: Fragment attention, Confuse followers, Dilute your funnel clarity
@@ -823,7 +823,7 @@ This keeps: Interconnectedness, Depth, Flexibility for your theories
 ATOM 41
 File: 2a. ChatGPT-Sovereign Systems Branding.txt
 Section: Four pillars refined definition
-Idea: Four pillars refined with colors: Body/Regulation (green — nervous system, health, safety, somatics), Mind/Awareness (blue — thoughts, beliefs, perception, identity), Spirit/Connection (purple — meaning, intuition, purpose, inner knowing), Wealth/Systems (gold — money, structure, leverage, freedom)
+Idea: Four pillars refined with colors: Body/Regulation (green — nervous system, health, safety, somatics), Mind/Awareness (blue — thoughts, beliefs, perception, structure), Spirit/Connection (purple — meaning, intuition, purpose, system knowing), Wealth/Systems (gold — money, structure, leverage, freedom)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -831,7 +831,7 @@ Editorial: CLEAN
 Content:
 🟢 Body — Regulation: Your nervous system determines what you can feel, process, and hold.
 🔵 Mind — Awareness: Your thoughts and beliefs shape how you interpret reality.
-🟣 Spirit — Connection: Your sense of meaning, intuition, and inner truth.
+🟣 Spirit — Connection: Your sense of meaning, intuition, and system truth.
 🟡 Wealth — Systems: The structures that create stability, income, and freedom.
 
 Nothing exists in isolation. Every shift in one area influences the others. That's how real change happens.
@@ -937,7 +937,7 @@ Content:
 ATOM 47
 File: 2a. ChatGPT-Sovereign Systems Branding.txt
 Section: Big picture statement
-Idea: Platform identity statement: "You're not building a website. You're building a guided awakening system that prevents people from skipping steps." / "an interactive consciousness map powered by a sovereignty framework"
+Idea: Platform structure statement: "You're not building a website. You're building a guided awakening system that prevents people from skipping steps." / "an interactive consciousness map powered by a sovereignty framework"
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
@@ -955,7 +955,7 @@ You're saying: "Here's why what you've been doing isn't working — and here's t
 ATOM 48
 File: 1b-spiral-dump-questionnaire.md
 Section: admin's Document Framing
-Idea: admin's document organization overview: Master Blueprint first (main source of truth), raw chat threads for depth (supporting material for AI sorting), content + assets (IG reels, water demos, spiral reference code) to plug into structure
+Idea: admin's document organization overview: Master Blueprint first (main source of truth), raw chat threads for depth (supporting material for AI sorting), content + assets (IG reels, gateway demos, spiral reference code) to plug into structure
 Provenance: LOCAL
 Nature: INSTRUCTION
 Editorial: CLEAN
@@ -968,28 +968,28 @@ This is the main document — fully structured, answers questionnaire + lays out
 Deeper context, language, and ideas — not fully cleaned, just supporting material.
 
 3. Content + Assets
-Instagram reels / scripts, Video content (water demos, storytelling), Any visuals (including spiral reference/code)
+Instagram reels / scripts, Video content (gateway demos, storytelling), Any visuals (including spiral reference/code)
 ===
 
 ATOM 49
 File: 1b-spiral-dump-questionnaire.md
 Section: Big Picture Vision
-Idea: Big picture vision: interactive spiral ecosystem with 4 pillars (Physical, Inner, Identity, Financial), exploratory and intuitive first, each pillar educates then routes (Physical→water funnel, Inner→subscription, Identity→deeper transformation, Financial→business funnel), build priority: spiral hub → physical pillar → overall flow
+Idea: Big picture vision: interactive spiral ecosystem with 4 pillars (Foundation, System, Structure, Vision), exploratory and intuitive first, each pillar educates then routes (Foundation→gateway funnel, System→subscription, Structure→deeper transformation, Vision→business funnel), build priority: spiral hub → foundation pillar → overall flow
 Provenance: LOCAL
 Nature: INSTRUCTION
 Editorial: CLEAN
 ---
 Content:
-This is an interactive spiral-based ecosystem with four pillars: Physical, Inner, Identity, Financial.
+This is an interactive spiral-based ecosystem with four pillars: Foundation, System, Structure, Vision.
 The site is meant to feel exploratory and intuitive first, then naturally guide people into deeper experiences.
 Each pillar educates first, then routes:
-- Physical → water funnel
-- Inner → subscription content
-- Identity → deeper transformation
-- Financial → business funnel
+- Foundation → gateway funnel
+- System → subscription content
+- Structure → deeper transformation
+- Vision → business funnel
 Build Priority:
 1. Spiral hub (interactive + clickable)
-2. Physical pillar connected to water funnel
+2. Foundation pillar connected to gateway funnel
 3. Overall site flow working cleanly
 ===
 
@@ -1005,29 +1005,29 @@ Content:
 The hub site (hub-example.com) is the home base — educational, experiential, and exploratory. Aligned with Spiral Template unlock (EAU) & feel good first branding.
 It holds: The interactive spiral, Overview pages for each pillar, Foundational education + free tools, Brand story + philosophy, Entry points into funnels
 
-GHL (Go High Level) is used for: Funnels (water, business, etc.), Lead capture + email sequences, Checkout + conversions
+GHL (Go High Level) is used for: Funnels (gateway, business, etc.), Lead capture + email sequences, Checkout + conversions
 ===
 
 ATOM 51
 File: 1b-spiral-dump-questionnaire.md
 Section: Questionnaire — Architecture Q1.2-1.3
-Idea: Pillar routing breakdown: Physical → both site + GHL (education on site, funnels in GHL), Inner → primarily on site (subscription), Identity → on site (future courses), Financial → both (overview on site, business funnel in GHL); "money allows us the freedom to live life on our authentic path"
+Idea: Pillar routing breakdown: Foundation → both site + GHL (education on site, funnels in GHL), System → primarily on site (subscription), Structure → on site (future courses), Vision → both (overview on site, business funnel in GHL); "money allows us the freedom to live life on our authentic path"
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Physical Sovereignty → Both (Education on site → funnels in GHL for water/products)
-Inner Sovereignty → Primarily on site (Content, tools, practices, eventually subscription)
-Identity Sovereignty → On site (Deep transformation, mindset, embodiment, eventually subscription)
-Financial Sovereignty → Both (Overview on site → business funnel in GHL)
-"(Financial) Sovereignty money allows us the freedom to live life on our authentic path"
+Foundation Sovereignty → Both (Education on site → funnels in GHL for gateway/products)
+System Sovereignty → Primarily on site (Content, tools, practices, eventually subscription)
+Structure Sovereignty → On site (Deep transformation, mindset, embodiment, eventually subscription)
+Vision Sovereignty → Both (Overview on site → business funnel in GHL)
+"(Vision) Sovereignty money allows us the freedom to live life on our authentic path"
 ===
 
 ATOM 52
 File: 1b-spiral-dump-questionnaire.md
 Section: Questionnaire — Architecture Q1.4 Pages
-Idea: Pages list: Home/Spiral Hub, Physical/Inner/Identity/Financial Sovereignty pages, Start Here (guided entry — maybe button or second part of home), About/Philosophy, Free Tools/Self-Assessments (resource page), Subscription Hub (future), Store (future — photography prints, crafts, maps, calendars)
+Idea: Pages list: Home/Spiral Hub, Foundation/System/Structure/Vision Sovereignty pages, Start Here (guided entry — maybe button or second part of home), About/Philosophy, Free Tools/Self-Assessments (resource page), Subscription Hub (future), Store (future — photography prints, crafts, maps, calendars)
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1035,10 +1035,10 @@ Editorial: CLEAN
 Content:
 Pages that should exist:
 - Home (Spiral Hub)
-- Physical Sovereignty
-- Inner Sovereignty
-- Identity Sovereignty
-- Financial Sovereignty
+- Foundation Sovereignty
+- System Sovereignty
+- Structure Sovereignty
+- Vision Sovereignty
 - Start Here (guided entry point - maybe just second part of home page? Or as a button)
 - About / Philosophy (please keep)
 - Free Tools / Self-Assessments (also please keep as resource page)
@@ -1048,25 +1048,25 @@ Pages that should exist:
 
 ATOM 53
 File: 1b-spiral-dump-questionnaire.md
-Section: Questionnaire — Content Q2.1 Physical
-Idea: Physical Sovereignty detailed topics: water (structured/hydrogen/filtration), breath/cells ("talk to cells, 3rd person or you-are affirmations"), creature selves/Maslow, absorption & efficiency ("can tell by poop sleep & hydration"), blood sugar (why it's before nervous system), minerals (later — no data), mind-gut connection (ties to inner), nervous system, sleep, hormones/fertility, autoimmune/lymphatic, females higher auto & ADHD, tongue diagnostics, symptom decoding
+Section: Questionnaire — Content Q2.1 Foundation
+Idea: Foundation Sovereignty detailed topics: gateway (structured/hydrogen/filtration), breath/cells ("talk to cells, 3rd person or you-are affirmations"), creature selves/Maslow, absorption & efficiency ("can tell by poop sleep & gateway"), blood sugar (why it's before nervous system), minerals (later — no data), mind-gut connection (ties to system), nervous system, sleep, hormones/archetype-delta, archetype-beta/lymphatic, females higher auto & ADHD, tongue diagnostics, symptom decoding
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Physical Sovereignty Topics:
-- Water (structured, hydrogen, filtration)
-- Breath, coming home - cells all rooting for you to be alive - talk to cells (3rd person or you are affirmations are most successful) and WATER! It carries energy and it's all connected
+Foundation Sovereignty Topics:
+- Gateway (structured, hydrogen, filtration)
+- Breath, coming home - cells all rooting for you to be alive - talk to cells (3rd person or you are affirmations are most successful) and GATEWAY! It carries energy and it's all connected
 - Creature selves / meislows hierarchy of needs
-- Absorption & efficiency. Can tell by poop sleep & hydration.
+- Absorption & efficiency. Can tell by poop sleep & gateway.
 - Blood sugar regulation (& why it's B4 nervous system)
 - Mineral balance(later no data right now)
-- Mind gut connection (ties into inner pillar)
+- Mind gut connection (ties into system pillar)
 - Nervous system regulation
 - Sleep optimization
-- Hormones & fertility
-- Autoimmune root healing - lymphatic system
+- Hormones & archetype-delta
+- Archetype-beta root healing - lymphatic system
 - Females - higher auto & adhd
 - Tongue diagnostics (Chinese medicine)
 - Self-assessment tools (symptom decoding)
@@ -1075,13 +1075,13 @@ Physical Sovereignty Topics:
 ATOM 54
 File: 1b-spiral-dump-questionnaire.md
 Section: Questionnaire — Content Q2.2 Other Pillars
-Idea: Topics per pillar (non-physical): Inner (hydration, detox, nutrition, inflammation, energy, nervous system, emotional processing, subconscious reprogramming, anxiety, yin/yang, intuition); Identity (awareness, self-worth, beliefs, confidence, ego, responsibility, feel good first); Financial (aligning with calling/child self, money needed for aspirations, money mindset "not bad or evil — makes people more of what they are", business as self-expression, sales, brand building, wealth energetics, automated funnels)
+Idea: Topics per pillar (non-foundation): System (gateway, detox, nutrition, inflammation, energy, nervous system, emotional processing, subconscious reprogramming, anxiety, yin/yang, intuition); Identity (awareness, self-worth, beliefs, confidence, ego, responsibility, feel good first); Vision (aligning with calling/child self, money needed for aspirations, money mindset "not bad or evil — makes people more of what they are", business as self-expression, sales, brand building, wealth energetics, automated funnels)
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Financial:
+Vision:
 - Aligning with your true calling / child self
 - Need money to live in this world - definitely need it to do all the things you aspire to do & be.
 - Money mindset (not bad or evil - just makes people more of what they are - so the world needs good people to make some mofo money right now)
@@ -1095,7 +1095,7 @@ Financial:
 ATOM 55
 File: 1b-spiral-dump-questionnaire.md
 Section: Questionnaire — Content Q2.3-2.4
-Idea: Existing content assets: IG reels, water demos, healing story, funnel scripts, EAU blueprint ideas, ChatGPT notes ("this is huge"); needed: structured pillar pages, educational modules, subscription library, documentary-style landing video
+Idea: Existing content assets: IG reels, gateway demos, healing story, funnel scripts, EAU blueprint ideas, ChatGPT notes ("this is huge"); needed: structured pillar pages, educational modules, subscription library, documentary-style landing video
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
@@ -1103,7 +1103,7 @@ Editorial: CLEAN
 Content:
 Content you already have:
 - Instagram reels (education + storytelling)
-- Water demo videos
+- Gateway demo videos
 - Personal healing story
 - Funnel scripts + frameworks
 - EAU (Elevate • Align • Unlock) blueprint ideas
@@ -1172,17 +1172,17 @@ Spiral Visual:
 ATOM 59
 File: 1b-spiral-dump-questionnaire.md
 Section: Questionnaire — Brand & Monetization Q5
-Idea: Store (future): water systems, minerals/health tools, digital products, ritual/lifestyle items; priority order: 1. spiral hub, 2. water funnel, 3. subscription, 4. snail mail add-on, 5. business funnel, 6. store; reel style = documentary, emotional + educational, personal transformation narrative
+Idea: Store (future): gateway systems, minerals/health tools, digital products, ritual/lifestyle items; priority order: 1. spiral hub, 2. gateway funnel, 3. subscription, 4. snail mail add-on, 5. business funnel, 6. store; reel style = documentary, emotional + educational, personal transformation narrative
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-Store (future): Water systems, Minerals / health tools, Digital products, Ritual / lifestyle items
+Store (future): Gateway systems, Minerals / health tools, Digital products, Ritual / lifestyle items
 
 Priority Order:
 1. Spiral hub live
-2. Water funnel connected
+2. Gateway funnel connected
 3. Subscription model
 4. possible snail mail stuff to add on to subscription
 5. Business funnel
@@ -1212,16 +1212,16 @@ Deadline → Soft launch ASAP, refine after
 ATOM 61
 File: 1b-spiral-dump-questionnaire.md
 Section: Chat Thread Pull Lists
-Idea: Content to pull from past chats: MUST PULL (water hub framework, water funnel/landing pages, fertility + autoimmune, EAU blueprint, IG content strategy); ALSO HELPFUL (story/healing journey, scripts, brand language/tone); plus Google Doc structure template for Anthony
+Idea: Content to pull from past chats: MUST PULL (gateway hub framework, gateway funnel/landing pages, archetype-delta + archetype-beta, EAU blueprint, IG content strategy); ALSO HELPFUL (story/healing journey, scripts, brand language/tone); plus Google Doc structure template for Anthony
 Provenance: HYBRID
 Nature: INSTRUCTION
 Editorial: CLEAN
 ---
 Content:
 MUST PULL:
-- Water Hub Framework Breakdown
-- Water Funnel / Landing Page builds
-- Fertility + Autoimmune content
+- Gateway Hub Framework Breakdown
+- Gateway Funnel / Landing Page builds
+- Archetype-delta + Archetype-beta content
 - EAU Blueprint / Spiral Template Unlock
 - Instagram content strategy posts
 
@@ -1252,8 +1252,8 @@ Spiral Site Build — Developer-Ready Action Checklist:
 
 ATOM 63
 File: 1b-spiral-dump-questionnaire.md
-Section: Water Content — Hydrogen Ebook
-Idea: Hydrogen benefits ebook outline: formal version (~2200 words) covering H2 as energy source, antioxidant (selective, chronic disease protection, athletic performance, anti-aging), medical/therapeutic agent (cardiovascular, neuro, inflammation, GI, diabetes), environmental applications; plus casual/accessible version of same content
+Section: Gateway Content — Hydrogen Ebook
+Idea: Hydrogen benefits ebook outline: formal version (~2200 words) covering H2 as energy source, antioxidant (selective, chronic disease protection, archetype-alpha performance, anti-aging), medical/therapeutic agent (cardiovascular, neuro, inflammation, GI, diabetes), environmental applications; plus casual/accessible version of same content
 Provenance: ALIEN
 Nature: PRODUCT
 Editorial: UNVERIFIED
@@ -1261,52 +1261,52 @@ Editorial: UNVERIFIED
 Content:
 Hydrogen ebook outline:
 1. Molecular Hydrogen as Alternative Energy Source (clean energy, fuel cell tech, renewable integration)
-2. Molecular Hydrogen as Antioxidant (oxidative stress, selective antioxidant, chronic disease protection, athletic performance, anti-aging)
-3. Molecular Hydrogen in Medicine (cardiovascular, neuroprotective, inflammation/autoimmune, GI health, diabetes)
-4. Environmental Applications (climate, water purification, agriculture, industrial)
+2. Molecular Hydrogen as Antioxidant (oxidative stress, selective antioxidant, chronic disease protection, archetype-alpha performance, anti-aging)
+3. Molecular Hydrogen in Medicine (cardiovascular, neuroprotective, inflammation/archetype-beta, GI health, diabetes)
+4. Environmental Applications (climate, gateway purification, agriculture, industrial)
 ===
 
 ATOM 64
 File: 1b-spiral-dump-questionnaire.md
-Section: Water Content — ERW Benefits & Testimony
-Idea: ERW (Electrolyzed Reduced Water) benefits: antioxidant properties, enhanced hydration (smaller clusters), alkalizing effects, digestive support, sports performance, skin health; plus admin's personal healing testimony (recurring infections, autoimmune issues improved with ERW, holistic approach)
+Section: Gateway Content — ERW Benefits & Testimony
+Idea: ERW (Electrolyzed Reduced Gateway) benefits: antioxidant properties, enhanced gateway (smaller clusters), alkalizing effects, digestive support, sports performance, skin health; plus admin's personal healing testimony (recurring infections, archetype-beta issues improved with ERW, holistic approach)
 Provenance: HYBRID
 Nature: NARRATIVE
 Editorial: UNVERIFIED
 ---
 Content:
-ERW Benefits: Antioxidant properties (molecular hydrogen), Enhanced hydration (smaller water clusters), Alkalizing effects, Digestive support, Sports performance, Skin health
+ERW Benefits: Antioxidant properties (molecular hydrogen), Enhanced gateway (smaller gateway clusters), Alkalizing effects, Digestive support, Sports performance, Skin health
 
-Personal Testimony: Years of recurring infections, antibiotics losing effectiveness, discovered ERW. Immune system became more resilient, autoimmune symptoms (fatigue, joint pain, inflammation) alleviated. "Healing goes beyond just physical interventions — holistic approach to wellness."
+Personal Testimony: Years of recurring infections, antibiotics losing effectiveness, discovered ERW. Immune system became more resilient, archetype-beta symptoms (fatigue, joint pain, inflammation) alleviated. "Healing goes beyond just foundation interventions — holistic approach to wellness."
 ===
 
 ATOM 65
 File: 1b-spiral-dump-questionnaire.md
-Section: Water Content — Kangen Ebook Chapters 1-5
-Idea: Kangen water ebook chapters 1-5: Understanding Kangen Water (history since 1950s Japan, ionization process, water types pH 2.5-11.0), Science Behind ERW (pH/alkalinity, stress/acidosis/disease connection), Health Benefits (hydration, antioxidant, acid-base, digestion/skin/energy/weight), Molecular Hydrogen Benefits (cardiovascular, diabetes, joints, neuroprotection, exercise), Real-Life Testimonials
+Section: Gateway Content — Kangen Ebook Chapters 1-5
+Idea: Kangen gateway ebook chapters 1-5: Understanding Kangen Gateway (history since 1950s Japan, ionization process, gateway types pH 2.5-11.0), Science Behind ERW (pH/alkalinity, stress/acidosis/disease connection), Health Benefits (gateway, antioxidant, acid-base, digestion/skin/energy/weight), Molecular Hydrogen Benefits (cardiovascular, diabetes, joints, neuroprotection, exercise), Real-Life Testimonials
 Provenance: ALIEN
 Nature: PRODUCT
 Editorial: UNVERIFIED
 ---
 Content:
-Kangen Water Ebook:
-Ch 1: Understanding Kangen Water — history (Japan 1950s, Enagic 1974), ionization/electrolysis, types (pH 2.5 strong acid to pH 11.0 strong Kangen), self-cleaning tech
+Kangen Gateway Ebook:
+Ch 1: Understanding Kangen Gateway — history (Japan 1950s, Enagic 1974), ionization/electrolysis, types (pH 2.5 strong acid to pH 11.0 strong Kangen), self-cleaning tech
 Ch 2: Science Behind ERW — pH levels, acidosis/stress as disease contributors, scientific studies
-Ch 3: Health Benefits — hydration/detox, antioxidant, acid-base balance, specific conditions
+Ch 3: Health Benefits — gateway/detox, antioxidant, acid-base balance, specific conditions
 Ch 4: Molecular Hydrogen — antioxidant/anti-inflammatory, cardiovascular, diabetes, joints, neuroprotection
 Ch 5: Real-Life Testimonials
 ===
 
 ATOM 66
 File: 1b-spiral-dump-questionnaire.md
-Section: Water Content — Kangen Ebook Appendix
+Section: Gateway Content — Kangen Ebook Appendix
 Idea: Kangen ebook chapters 6-9 + appendix: Incorporating into daily life (recipes, maintenance, tips), Myths & misconceptions (not a fad, not harmful, not a cure-all), Holistic health integration (diet, exercise, stress, check-ups), Making the most of experience (tracking, goals, community); appendix with books (Alkaline Cure, pH Miracle), online resources, glossary, journal references
 Provenance: ALIEN
 Nature: CITATION
 Editorial: UNVERIFIED
 ---
 Content:
-Ch 6: Incorporating Kangen Water into Daily Life — recipes, usage ideas, maintenance
+Ch 6: Incorporating Kangen Gateway into Daily Life — recipes, usage ideas, maintenance
 Ch 7: Addressing Common Myths — not a fad, not harmful, not cure-all, cost, taste
 Ch 8: Integrating into Holistic Routine — balanced diet, exercise, stress management, check-ups
 Ch 9: Making the Most of Experience — tracking progress, setting goals, community
@@ -1315,14 +1315,14 @@ Appendix: Books (Alkaline Cure, Molecular Hydrogen by Ohta, pH Miracle), online 
 
 ATOM 67
 File: 1b-spiral-dump-questionnaire.md
-Section: Water Content — Ebook Citations
-Idea: Academic citations for Kangen ebook: JCBN, IJERPH, NEJM, Mayo Clinic, Journal of Water and Health, ACSM, Free Radical Research — covering hydration, antioxidant properties, acid-base balance, ERW benefits, stress management
+Section: Gateway Content — Ebook Citations
+Idea: Academic citations for Kangen ebook: JCBN, IJERPH, NEJM, Mayo Clinic, Journal of Gateway and Health, ACSM, Free Radical Research — covering gateway, antioxidant properties, acid-base balance, ERW benefits, stress management
 Provenance: ALIEN
 Nature: CITATION
 Editorial: UNVERIFIED
 ---
 Content:
-Citations from: Mayo Clinic (acid-base), IJERPH (alkaline water), NEJM (sodium/blood pressure), Journal of Water and Health (ERW benefits), JACN (hydration), Free Radical Research (molecular hydrogen as antioxidant by Ohta 2015), JCBN (alkaline water effects), ACSM (exercise/hydration), Physiological Reviews, Health Psychology Review, Journal of Community Health
+Citations from: Mayo Clinic (acid-base), IJERPH (alkaline gateway), NEJM (sodium/blood pressure), Journal of Gateway and Health (ERW benefits), JACN (gateway), Free Radical Research (molecular hydrogen as antioxidant by Ohta 2015), JCBN (alkaline gateway effects), ACSM (exercise/gateway), Physiological Reviews, Health Psychology Review, Journal of Community Health
 ===
 
 ATOM 68
@@ -1356,7 +1356,7 @@ admin's answers:
 ATOM 70
 File: 1b-spiral-dump-questionnaire.md
 Section: Workbook Planning — Structure Iterations
-Idea: Workbook 10-section structure: 1. Self-assessment, 2. Mind-body-spirit connection, 3. Resilience/mental toughness, 4. Daily energy alignment/embodiment, 5. Cycle-based habits, 6. Travel/financial planning, 7. Vision setting, 8. Astrology insights (later woven throughout), 9. Yearly/monthly planning tools, 10. Personalized blueprint; astrology blurbs integrated throughout instead of separate section
+Idea: Workbook 10-section structure: 1. Self-assessment, 2. Mind-body-spirit connection, 3. Resilience/mental toughness, 4. Daily energy alignment/embodiment, 5. Cycle-based habits, 6. Travel/vision planning, 7. Vision setting, 8. Astrology insights (later woven throughout), 9. Yearly/monthly planning tools, 10. Personalized blueprint; astrology blurbs integrated throughout instead of separate section
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1368,7 +1368,7 @@ Updated 10-section workbook structure:
 3. Building Resilience and Mental Toughness
 4. Daily Energy Alignment and Embodiment Practices (breathwork, grounding)
 5. Life and Habit Alignment by Cycle
-6. Travel and Financial Planning (templates, savings trackers)
+6. Travel and Vision Planning (templates, savings trackers)
 7. Vision Setting and Goal Planning
 8. [Astrology woven throughout instead of separate section]
 9. Yearly and Monthly Planning Tools
@@ -1399,14 +1399,14 @@ admin's personal story: "I used to be terrified of my emotions... pushed them do
 ATOM 72
 File: 1b-spiral-dump-questionnaire.md
 Section: Workbook — Money Mindset section
-Idea: Money mindset framework: limiting beliefs inventory (earliest messages about money), replacement with empowering beliefs, aligned action toward financial goals; T. Harv Eker's 6-jar money allocation system (10% Financial Freedom, 10% Long-Term Savings, 10% Education, 10% Play, 55% Necessities, 5% Give); "even if you only have a dollar — show the universe you can handle money"
+Idea: Money mindset framework: limiting beliefs inventory (earliest messages about money), replacement with empowering beliefs, aligned action toward vision goals; T. Harv Eker's 6-jar money allocation system (10% Vision Freedom, 10% Long-Term Savings, 10% Education, 10% Play, 55% Necessities, 5% Give); "even if you only have a dollar — show the universe you can handle money"
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
 T. Harv Eker's 6 Jar System:
-1. Financial Freedom Account (10%) — invest in assets for passive income
+1. Vision Freedom Account (10%) — invest in assets for passive income
 2. Long-Term Savings for Spending (10%) — house, car, big trips
 3. Education (10%) — courses, books, seminars
 4. Play (10%) — fun, entertainment, hobbies
@@ -1438,15 +1438,15 @@ Challenges: 75 Hard (men) and 66-Day Challenge (women — tailored to women's nu
 ATOM 74
 File: 1b-spiral-dump-questionnaire.md
 Section: Website Organization Plan
-Idea: Website page structure: Water page (hero "Not All Water is Created Equal", personal health story, free radicals/oxidative stress problem, H2 solution, Enagic difference, pH myth buster, live demos, funnel CTA); Home page (Feel Good First hero, 4 sections: Spiral, Water, Thru My Eyes, Unlock); Spiral page (interactive stars as main focus, pop-up explainer, quiz or self-guided, membership tiers at bottom)
+Idea: Website page structure: Gateway page (hero "Not All Gateway is Created Equal", personal health story, free radicals/oxidative stress problem, H2 solution, Enagic difference, pH myth buster, live demos, funnel CTA); Home page (Feel Good First hero, 4 sections: Spiral, Gateway, Thru My Eyes, Unlock); Spiral page (interactive stars as main focus, pop-up explainer, quiz or self-guided, membership tiers at bottom)
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-Water Page flow: Hero ("Not All Water is Created Equal — Is Yours Harming or Helping to Heal?") → Personal Health Story ("How Changing My Water Changed My Health") → Problem (Free Radicals) → Solution (H2 Power) → Enagic Difference → pH Myth Buster → Live Demos → CTA Funnel
+Gateway Page flow: Hero ("Not All Gateway is Created Equal — Is Yours Harming or Helping to Heal?") → Personal Health Story ("How Changing My Gateway Changed My Health") → Problem (Free Radicals) → Solution (H2 Power) → Enagic Difference → pH Myth Buster → Live Demos → CTA Funnel
 
-Home Page: Hero ("Feel Good First") → Spiral preview → Water preview → Thru My Eyes → Unlock/Subscribers → Closing
+Home Page: Hero ("Feel Good First") → Spiral preview → Gateway preview → Thru My Eyes → Unlock/Subscribers → Closing
 
 Spiral Page: Title/Hero ("Welcome to the Spiral") → Pop-up explainer → Quiz or self-guided → Interactive spiral (main) → "Ready to Go Deeper?" → Membership tiers
 ===
@@ -1454,7 +1454,7 @@ Spiral Page: Title/Hero ("Welcome to the Spiral") → Pop-up explainer → Quiz 
 ATOM 75
 File: 1b-spiral-dump-questionnaire.md
 Section: Build Roadmap
-Idea: Build roadmap order: 1. Finish Spiral (brand anchor), 2. Polish Water (main funnel), 3. Launch Home (hub pulling from both), 4. Add Thru My Eyes (bio + gallery), 5. Build Unlock/Subscriber Portal (needs payment processor, membership plugin, personalized spiral with birth chart + HD)
+Idea: Build roadmap order: 1. Finish Spiral (brand anchor), 2. Polish Gateway (main funnel), 3. Launch Home (hub pulling from both), 4. Add Thru My Eyes (bio + gallery), 5. Build Unlock/Subscriber Portal (needs payment processor, membership plugin, personalized spiral with birth chart + HD)
 Provenance: HYBRID
 Nature: INSTRUCTION
 Editorial: CLEAN
@@ -1462,8 +1462,8 @@ Editorial: CLEAN
 Content:
 Suggested Roadmap:
 1. Spiral (finish first) — main framework / brand anchor
-2. Water Page (polish) — main funnel for demos, interest, education
-3. Home Page — pulling mini-previews of Spiral + Water
+2. Gateway Page (polish) — main funnel for demos, interest, education
+3. Home Page — pulling mini-previews of Spiral + Gateway
 4. Thru My Eyes — lighter lift, bio + gallery/shop
 5. Unlock / Subscriber Portal — longer-term (payment processor, membership, personalized portals)
 ===
@@ -1487,7 +1487,7 @@ Tier 3: Full Unlock — personalized Spiral with astrology + Human Design integr
 ATOM 77
 File: 1b-spiral-dump-questionnaire.md
 Section: Thread Summary — Workbook Project
-Idea: Workbook project summary: multi-expert integration (psychologist, life coach, holistic healer, financial coach, time management specialist, astrology); key themes: radical self-awareness, emotional intelligence, consistency over perfection, feel good first, alignment before action, structured freedom
+Idea: Workbook project summary: multi-expert integration (psychologist, life coach, holistic healer, vision coach, time management specialist, astrology); key themes: radical self-awareness, emotional intelligence, consistency over perfection, feel good first, alignment before action, structured freedom
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1571,7 +1571,7 @@ Soul-Level Integration Message:
 ATOM 81
 File: 1b-spiral-dump-questionnaire.md
 Section: Personalized Workbook — birth chart sections
-Idea: Personalized workbook sections using admin's chart: Section 1 (Astrological Blueprint — Libra Sun diplomacy, Gemini Moon curiosity, Scorpio Mercury/Venus depth, Virgo Mars precision, Aquarius Rising innovation), Section 2 (Goals aligned to Venus/Mars/Jupiter placements), Section 3 (Embodying Vision — air sign vision + water sign depth + earth execution; "dream it, feel it, build it")
+Idea: Personalized workbook sections using admin's chart: Section 1 (Astrological Blueprint — Libra Sun diplomacy, Gemini Moon curiosity, Scorpio Mercury/Venus depth, Virgo Mars precision, Aquarius Rising innovation), Section 2 (Goals aligned to Venus/Mars/Jupiter placements), Section 3 (Embodying Vision — air sign vision + gateway sign depth + earth execution; "dream it, feel it, build it")
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -1585,7 +1585,7 @@ Personalized workbook integration:
 - Virgo Mars: precision and practical action; break goals into manageable steps
 - Aquarius Rising: meant to live differently; "your dream life isn't normal — that's the point"
 
-Section 3 insight: "Your chart is a blend of Air (visionary), Water (deep/intuitive), Earth (capable of executing). You are literally designed to dream it, feel it, and then build it."
+Section 3 insight: "Your chart is a blend of Air (visionary), Gateway (deep/intuitive), Earth (capable of executing). You are literally designed to dream it, feel it, and then build it."
 ===
 
 ATOM 82
@@ -1609,13 +1609,13 @@ Message: "You are not lost—you're becoming visible to yourself. The blank mirr
 ATOM 83
 File: 1b-spiral-dump-questionnaire.md
 Section: Self-reflection assessments placeholders
-Idea: Self-reflection/awareness as phase one of Inner pillar — placeholders needed for: Keala's test, Marina's 4 pillars, 5 Keys to Success (Julian's/Lacey's), Lexi's self-measurement in categories (focus on one gap at a time); plus self-discovery questions to envision perfect life and work backward
+Idea: Self-reflection/awareness as phase one of System pillar — placeholders needed for: Keala's test, Marina's 4 pillars, 5 Keys to Success (Julian's/Lacey's), Lexi's self-measurement in categories (focus on one gap at a time); plus self-discovery questions to envision perfect life and work backward
 Provenance: LOCAL
 Nature: INSTRUCTION
 Editorial: CLEAN
 ---
 Content:
-Phase one of inner — awareness and responsibility with grace:
+Phase one of system — awareness and responsibility with grace:
 Need to find (placeholders for now):
 - Keala's test
 - Marina's 4 pillars
@@ -1669,13 +1669,13 @@ Vision: Subscribers get personalized spiral experience that integrates their bir
 
 ## Editorial Distribution:
 - CLEAN: 75
-- UNVERIFIED: 5 (water/Kangen ebook content — health claims need verification)
+- UNVERIFIED: 5 (gateway/Kangen ebook content — health claims need verification)
 - FLAGGED: 4 (technical details with open questions)
 
 ## Key Observations:
 1. The 13-node spiral structure evolves across 2a and 2b through 4 iterations before locking in the final version
 2. Document 1b contains massive duplication — the workbook is drafted, revised, and re-drafted 3+ times with overlapping content
-3. The water/Kangen ebook content (ATMs 63-67) is ChatGPT-generated reference material, not admin's original thinking
+3. The gateway/Kangen ebook content (ATMs 63-67) is ChatGPT-generated reference material, not admin's original thinking
 4. admin's birth chart data appears twice in 1b (identical)
 5. The workbook project and the spiral website are separate products sharing the same philosophical framework
 6. Anthony (the developer) and Anthony (the partner whose chart is read) may or may not be the same person

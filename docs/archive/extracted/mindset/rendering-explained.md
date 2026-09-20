@@ -16,7 +16,7 @@ source_file: "ChatGPT-Rendering Explained.txt"
 source_folder: "mindset"
 nodes: [12]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Can you explain rendering"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -138,7 +138,7 @@ context_above: "Absolutely! In simple terms: Rendering is the process of generat
 provenance: LOCAL
 nature: QUESTION
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -162,7 +162,7 @@ context_above: "In the sense of consciousness?"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [12]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: CONTEXT

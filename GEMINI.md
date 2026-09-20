@@ -4,8 +4,8 @@
 **Sovereign Systems Spiral** is a multi-domain Astro 6 hub-and-spoke website for admin's 4-pillar health and business brand. It centralizes three distinct domains into a single codebase and deployment architecture.
 
 - **Hub (`hub-example.com`):** Central entry point featuring the interactive 4-pillar spiral navigation.
-- **Water/Physical (`water-example.com`):** Documentary-first funnel, quiz, and 6 branch deep-dives.
-- **Business/Financial (`business-example.com`):** Landing page for the professional/systems arm of the brand.
+- **Gateway/Foundation (`gateway-example.com`):** Documentary-first funnel, quiz, and 6 branch deep-dives.
+- **Business/Vision (`business-example.com`):** Landing page for the professional/systems arm of the brand.
 
 **Organ:** III (Commerce / Ergon)
 **Client:** admin
@@ -35,8 +35,8 @@
 
 ### Content Structure
 All client-editable content is managed via Markdown in `src/content/`:
-- `src/content/branches/`: 6 pages (e.g., `gut-hormones.md`, `fertility.md`).
-- `src/content/pillars/`: 4 pillar pages (e.g., `physical.md`, `inner.md`).
+- `src/content/branches/`: 6 pages (e.g., `archetype-epsilon.md`, `archetype-delta.md`).
+- `src/content/pillars/`: 4 pillar pages (e.g., `foundation.md`, `system.md`).
 
 ## Development Workflow
 

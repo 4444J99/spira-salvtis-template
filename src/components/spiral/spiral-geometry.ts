@@ -153,7 +153,7 @@ function makeUpwardTriangle(
   return extrudeShape(shape, outerR, depth);
 }
 
-// 5. Teardrop (water — Root Healing)
+// 5. Teardrop (gateway — Root Healing)
 function makeTeardrop(outerR: number, depth: number): THREE.ExtrudeGeometry {
   const r = outerR * 0.7;
   const tip = outerR;
@@ -400,7 +400,7 @@ export function symbolGeometryFor(
 }
 
 // Variant B — generative star, deterministic per nodeId.
-// Per-node: random point count (5–12), inner-radius ratio, twist, jitter, depth profile.
+// Per-node: random point count (5–12), system-radius ratio, twist, jitter, depth profile.
 // All seeds are stable, so a given node always renders the same form across visits.
 export function generativeStarGeometry(
   nodeId: number,

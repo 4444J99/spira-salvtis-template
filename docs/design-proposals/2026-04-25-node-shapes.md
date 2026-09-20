@@ -14,7 +14,7 @@ Each node = a unique 3D shape pulled from a different belief system. Silhouette-
 | 2 | Awareness | ELEVATE | Eye of Horus | Egyptian | Self-seeing, gnosis |
 | 3 | Regulation | ELEVATE | Yin-yang circle | Taoist | Balance, regulation |
 | 4 | Elevate | ELEVATE | Upward triangle | Pythagorean fire / Hindu Manipura | Rising |
-| 5 | Root Healing | ELEVATE | Teardrop / wave | Universal water | Foundation, water |
+| 5 | Root Healing | ELEVATE | Teardrop / wave | Universal gateway | Foundation, gateway |
 | 6 | Responsibility (with Love) | ALIGN | Heart | Christian sacred heart | Love |
 | 7 | Unbecoming | ALIGN | Crescent moon | Islamic / lunar feminine | Release, cycles |
 | 8 | Alignment | ALIGN | Hexagram (6-pt) | Jewish Star of David / Hindu Anahata | Coherence |
@@ -34,7 +34,7 @@ Instead of mapping each node to a fixed sacred symbol, **procedurally generate**
 
 ### Generation seeds
 - Each node's seed = `mulberry32(nodeId * SOME_CONSTANT)` — already exists at `spiral.ts:601`.
-- Seeds produce: number of points (4–12), inner-radius ratio, twist, jitter, depth/extrusion profile.
+- Seeds produce: number of points (4–12), system-radius ratio, twist, jitter, depth/extrusion profile.
 - Result: every node is its own crystalline form, all star-family but no two alike.
 
 ### Per-node physics
@@ -51,7 +51,7 @@ Generative stars are aesthetically richer but lose the "small/large recognizabil
 ### Hybrid possibility
 Each node has a **base generative form** (procedurally generated star) **modulated by a meaning-archetype**:
 - Fire nodes (1–4) generate jagged, sharp-pointed stars that flicker
-- Water nodes (5) generate rounded, fluid forms that sway
+- Gateway nodes (5) generate rounded, fluid forms that sway
 - Heart nodes (6) generate symmetric, soft-radiant stars
 - Air nodes (7–9) generate light, fluttering stars
 - Light nodes (10–13) generate brilliant, radiating stars

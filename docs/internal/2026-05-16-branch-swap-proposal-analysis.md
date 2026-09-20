@@ -18,7 +18,7 @@ parent_thread: docs/internal/2026-05-16-admin-imessage-transcript-and-signals.md
 
 | Surface | Currently | Proposed |
 |---|---|---|
-| **Spiral site** (`src/content/branches/*.md` → `/water/[slug]`) | 6 studio-developed depth branches (gut-hormones, fertility, athletic, autoimmune, cancer-support, sustainability) | admin's GHL "baby branches" — fewer, lighter, her voice, more aesthetic |
+| **Spiral site** (`src/content/branches/*.md` → `/gateway/[slug]`) | 6 studio-developed depth branches (archetype-epsilon, archetype-delta, archetype-alpha, archetype-beta, archetype-gamma, archetype-zeta) | admin's GHL "baby branches" — fewer, lighter, her voice, more aesthetic |
 | **GHL** (her funnel system) | admin's "baby branches" | Studio-developed depth library — full info, behind capture |
 
 This is a **content-architecture inversion**: front-of-funnel becomes curated/aesthetic; behind-capture becomes depth library.
@@ -50,16 +50,16 @@ Per `src/content/branches/` (verified 2026-05-16):
 
 | File | Slug | Purpose |
 |---|---|---|
-| `gut-hormones.md` | gut-hormones | Cycle-synced gut/hormones content |
-| `fertility.md` | fertility | Fertility-focused water/protocols |
-| `athletic.md` | athletic | Athletic performance hydration |
-| `autoimmune.md` | autoimmune | Autoimmune-support framing |
-| `cancer-support.md` | cancer-support | Cancer-support framing |
-| `sustainability.md` | sustainability | Environmental/sustainability angle |
+| `archetype-epsilon.md` | archetype-epsilon | Cycle-synced gut/hormones content |
+| `archetype-delta.md` | archetype-delta | Archetype-delta-focused gateway/protocols |
+| `archetype-alpha.md` | archetype-alpha | Archetype-alpha performance gateway |
+| `archetype-beta.md` | archetype-beta | Archetype-beta-support framing |
+| `archetype-gamma.md` | archetype-gamma | archetype-gamma framing |
+| `archetype-zeta.md` | archetype-zeta | Environmental/archetype-zeta angle |
 
 Schema enforced by `content.config.ts`. All six are shipped per latest CLAUDE.md note ("Cycle-synced branch content — shipped").
 
-Linked from `/water/[slug]` route in `src/pages/water/[slug].astro`. Also referenced by `src/data/hub.config.ts` branches array.
+Linked from `/gateway/[slug]` route in `src/pages/gateway/[slug].astro`. Also referenced by `src/data/hub.config.ts` branches array.
 
 ## Three execution paths (decision options)
 
@@ -67,7 +67,7 @@ Linked from `/water/[slug]` route in `src/pages/water/[slug].astro`. Also refere
 
 - Replace all 6 `src/content/branches/*.md` with admin's GHL content (likely fewer files, possibly 2-3)
 - Update `src/data/hub.config.ts` branches array to match new count + slugs
-- Update `src/pages/water/[slug].astro` getStaticPaths (auto since it reads from content collection)
+- Update `src/pages/gateway/[slug].astro` getStaticPaths (auto since it reads from content collection)
 - Studio branches exported as PDF or HTML, delivered to admin for import into GHL
 
 **Pros:** clean architecture, matches her stated intent
@@ -103,20 +103,20 @@ Recommended next step: **send admin three clarifying questions** before any code
 
 > Love this — yes let's swap. Before I touch anything, three quick questions so I get it right:
 >
-> **1.** Of the 6 branches currently on the spiral (gut-hormones / fertility / athletic / autoimmune / cancer-support / sustainability), which 2-3 do you want to KEEP visible? I'll move the rest over to the GHL side.
+> **1.** Of the 6 branches currently on the spiral (archetype-epsilon / archetype-delta / archetype-alpha / archetype-beta / archetype-gamma / archetype-zeta), which 2-3 do you want to KEEP visible? I'll move the rest over to the GHL side.
 >
 > **2.** How many of YOUR GHL "baby branches" should land on the spiral, and what are their names? Even rough list works — I'll figure out the slugs.
 >
 > **3.** Easiest format for me to send the studio branches to you for GHL — PDF per branch, plain text, or HTML? Whatever pastes cleanest into GHL on your side.
 >
-> No rush on these — water funnel ships first as planned. Once I have answers I can scope the swap into a couple of focused commits.
+> No rush on these — gateway funnel ships first as planned. Once I have answers I can scope the swap into a couple of focused commits.
 
 ## Files this would touch when executed
 
 - `src/content/branches/*.md` — add/remove/rewrite
 - `src/data/hub.config.ts` — branches array (line ~135 onward)
-- `src/pages/water/[slug].astro` — no change needed (reads from collection)
-- `src/pages/water/index.astro` — branch grid links may need update
+- `src/pages/gateway/[slug].astro` — no change needed (reads from collection)
+- `src/pages/gateway/index.astro` — branch grid links may need update
 - `src/pages/nodes/*.md` — if any node pages link to branches by slug, those break on rename
 - `content.config.ts` — schema unchanged unless new fields needed for her content shape
 

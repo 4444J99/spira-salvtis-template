@@ -25,7 +25,7 @@ Received internally via the operating board (16 issues closed, 23 open). The cor
 
 ### Polis Assessment (5 perspectives)
 
-**Business critic:** Pricing agreed in principle at 10% of water sales until $10K. Operationally weak until written terms exist and payment flows. The 29-page site with EWG API and quiz routing is a functional business instrument — but untested in market.
+**Business critic:** Pricing agreed in principle at 10% of gateway sales until $10K. Operationally weak until written terms exist and payment flows. The 29-page site with EWG API and quiz routing is a functional business instrument — but untested in market.
 
 **Systems theorist:** 4 produces edges declared in seed.yaml. Zero fulfilled. The eight-organ model claims commercial work necessarily produces research, documentation, community material, and distribution. This formation is the test case. The corrective sequence demonstrates the build capacity; the open question is whether the signal-closure obligations will be met.
 

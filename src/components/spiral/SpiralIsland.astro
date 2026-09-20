@@ -153,10 +153,10 @@ const uiDefaults = JSON.stringify(ui);
 
 <style>
   .spiral-static-field {
-    z-index: 1;
-    pointer-events: none;
+    'z-index': 1;
+    'pointer-events': none;
     opacity: 0.74;
-    mix-blend-mode: screen;
+    'mix-blend-mode': screen;
   }
 
   .spiral-static-field--immersive {
@@ -194,29 +194,29 @@ const uiDefaults = JSON.stringify(ui);
   .spiral-static-field__rail {
     fill: none;
     stroke: rgba(125, 230, 224, var(--rail-opacity, 0.34));
-    stroke-width: var(--rail-width, 0.2);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-dasharray: 5 11 1 17;
-    vector-effect: non-scaling-stroke;
+    'stroke-width': var(--rail-width, 0.2);
+    'stroke-linecap': round;
+    'stroke-linejoin': round;
+    'stroke-dasharray': 5 11 1 17;
+    'vector-effect': non-scaling-stroke;
     animation: spiralRailRise var(--rail-duration, 17s) linear infinite;
-    animation-delay: var(--rail-delay, 0s);
+    'animation-delay': var(--rail-delay, 0s);
   }
 
   .spiral-static-field__rail--fall {
     stroke: rgba(230, 202, 135, 0.22);
-    stroke-dasharray: 8 15 2 12;
-    animation-name: spiralRailFall;
+    'stroke-dasharray': 8 15 2 12;
+    'animation-name': spiralRailFall;
   }
 
   .spiral-static-field__rail:nth-child(3n) {
     stroke: rgba(196, 160, 255, 0.18);
-    stroke-dasharray: 12 18;
+    'stroke-dasharray': 12 18;
   }
 
   .spiral-static-field__rail:nth-child(4n) {
     stroke: rgba(255, 255, 255, 0.13);
-    stroke-dasharray: 2 20;
+    'stroke-dasharray': 2 20;
   }
 
   .spiral-static-node {
@@ -224,16 +224,16 @@ const uiDefaults = JSON.stringify(ui);
     left: var(--node-x);
     top: var(--node-y);
     width: var(--node-size);
-    aspect-ratio: 1;
+    'aspect-ratio': 1;
     transform: translate(-50%, -50%);
-    pointer-events: none;
+    'pointer-events': none;
     color: var(--node-color);
   }
 
   .spiral-static-node__matter {
     position: absolute;
     inset: 0;
-    border-radius: 46% 54% 42% 58% / 58% 42% 56% 44%;
+    'border-radius': 46% 54% 42% 58% / 58% 42% 56% 44%;
     background:
       radial-gradient(circle at 50% 50%, white 0 8%, transparent 16%),
       radial-gradient(
@@ -251,10 +251,10 @@ const uiDefaults = JSON.stringify(ui);
         transparent 76%,
         color-mix(in srgb, white 36%, currentColor 64%)
       );
-    box-shadow:
+    'box-shadow':
       0 0 18px color-mix(in srgb, currentColor 72%, transparent),
       0 0 48px color-mix(in srgb, currentColor 36%, transparent);
-    clip-path: polygon(
+    'clip-path': polygon(
       50% 0,
       60% 34%,
       95% 18%,
@@ -271,7 +271,7 @@ const uiDefaults = JSON.stringify(ui);
       40% 34%
     );
     animation: spiralStaticBreathe 5.5s ease-in-out infinite;
-    animation-delay: var(--node-delay);
+    'animation-delay': var(--node-delay);
   }
 
   .spiral-static-node__matter::before,
@@ -280,13 +280,13 @@ const uiDefaults = JSON.stringify(ui);
     position: absolute;
     inset: 16%;
     border: 1px solid color-mix(in srgb, currentColor 58%, white 22%);
-    border-radius: inherit;
+    'border-radius': inherit;
     opacity: 0.56;
   }
 
   .spiral-static-node__matter::after {
     inset: 30%;
-    border-style: dotted;
+    'border-style': dotted;
     transform: rotate(45deg);
     opacity: 0.42;
   }
@@ -297,12 +297,12 @@ const uiDefaults = JSON.stringify(ui);
     left: 50%;
     width: 8rem;
     transform: translateX(-50%);
-    text-align: center;
-    font-size: 9px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
+    'text-align': center;
+    'font-size': 9px;
+    'font-weight': 500;
+    'line-height': 1.2;
+    'letter-spacing': 0.12em;
+    'text-transform': uppercase;
     color: rgba(255, 255, 255, 0.38);
     opacity: 0;
   }
@@ -325,7 +325,7 @@ const uiDefaults = JSON.stringify(ui);
 
   @keyframes spiralRailRise {
     0% {
-      stroke-dashoffset: 0;
+      'stroke-dashoffset': 0;
       opacity: 0.2;
       transform: translateY(0);
     }
@@ -333,7 +333,7 @@ const uiDefaults = JSON.stringify(ui);
       opacity: 0.62;
     }
     100% {
-      stroke-dashoffset: -96;
+      'stroke-dashoffset': -96;
       opacity: 0.24;
       transform: translateY(-0.8%);
     }
@@ -341,7 +341,7 @@ const uiDefaults = JSON.stringify(ui);
 
   @keyframes spiralRailFall {
     0% {
-      stroke-dashoffset: 0;
+      'stroke-dashoffset': 0;
       opacity: 0.14;
       transform: translateY(0.7%);
     }
@@ -349,7 +349,7 @@ const uiDefaults = JSON.stringify(ui);
       opacity: 0.5;
     }
     100% {
-      stroke-dashoffset: 86;
+      'stroke-dashoffset': 86;
       opacity: 0.18;
       transform: translateY(-0.5%);
     }

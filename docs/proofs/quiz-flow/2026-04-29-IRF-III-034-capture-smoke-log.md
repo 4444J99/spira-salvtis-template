@@ -19,8 +19,8 @@ curl -sS -X POST http://localhost:8788/capture \
     "source": "spiral_quiz",
     "quizNodeId": 7,
     "quizScore": 82,
-    "quizPath": "ALIGN|inner|state-shifting,baseline;witness,awareness;release,unwiring",
-    "selectedPillar": "inner",
+    "quizPath": "ALIGN|system|state-shifting,baseline;witness,awareness;release,unwiring",
+    "selectedPillar": "system",
     "selectedPhase": "ALIGN"
   }'
 ```
@@ -55,7 +55,7 @@ curl -sS -X POST http://localhost:8788/capture \
 POST /capture 200 OK (1ms)
 ```
 
-Backward compatibility verified — the EmailGate component (used by `/research`, all `/pillars/*` deep content, and the `/water/*` waitlist) continues to work without modification.
+Backward compatibility verified — the EmailGate component (used by `/research`, all `/pillars/*` deep content, and the `/gateway/*` waitlist) continues to work without modification.
 
 ---
 

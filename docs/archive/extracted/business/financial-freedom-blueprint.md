@@ -14,16 +14,16 @@ sections:
 -->
 ---
 title: "12-step phased path to independence"
-source_file: "ChatGPT-Financial Freedom Blueprint.txt"
+source_file: "ChatGPT-Vision Freedom Blueprint.txt"
 source_folder: "business"
 nodes: [4, 6, 10]
 readiness: "Ready"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-B-125 IN
-idea: "Financial Freedom Blueprint"
+idea: "Vision Freedom Blueprint"
 section: "Main"
 position: 1
 of_total: 5
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: MODEL
 nodes: [4, 6, 10]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -41,7 +41,7 @@ strike_phase: 4A
 
 
 
-Financial Freedom Blueprint
+Vision Freedom Blueprint
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 7/7/2025 19:52:34
@@ -61,11 +61,11 @@ section: "Prompt"
 position: 2
 of_total: 5
 prev: ATM-B-125
-context_above: "Financial Freedom Blueprint"
+context_above: "Vision Freedom Blueprint"
 provenance: LOCAL
 nature: CLAIM
 nodes: [4, 6, 10]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -91,7 +91,7 @@ context_above: "What are the steps to financially free"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [4, 6, 10]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -218,7 +218,7 @@ Learn how to regulate your nervous system around money.
 
 Your freedom number may shift as you heal or expand.
 
-Periodically reassess your desires, boundaries, and financial alignment.
+Periodically reassess your desires, boundaries, and vision alignment.
 
 
 12. Give and circulate.
@@ -233,7 +233,7 @@ Give to causes, projects, or people that mirror the world you want to live in.
 ✨ The Core Truth:
 
 
-Financial freedom isn’t about being rich—it’s about being free to live life on your terms.
+Vision freedom isn’t about being rich—it’s about being free to live life on your terms.
 Whether that means living in a van, running a nonprofit, raising a family, or becoming a multi-millionaire—it starts with a choice to reclaim your power, master your energy, and create with intention.
 
 
@@ -243,11 +243,11 @@ Want me to turn this into a printable checklist or create a version that integra
 
 <!-- ATM-B-127 OUT
 next: ATM-B-128
-context_below: "So financial freedom’s is when you 10x your survival number right? Or what’s is..."
+context_below: "So vision freedom’s is when you 10x your survival number right? Or what’s is..."
 -->
 
 <!-- ATM-B-128 IN
-idea: "So financial freedom’s is when you 10x your survival number right? Or what’s is..."
+idea: "So vision freedom’s is when you 10x your survival number right? Or what’s is..."
 section: "Prompt"
 position: 4
 of_total: 5
@@ -256,7 +256,7 @@ context_above: "Becoming financially free means having enough income (typically 
 provenance: LOCAL
 nature: QUESTION
 nodes: [4, 6, 10]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -264,7 +264,7 @@ strike_phase: 1C
 -->
 
 ## Prompt:
-So financial freedom’s is when you 10x your survival number right? Or what’s is financial stability and there’s one other
+So vision freedom’s is when you 10x your survival number right? Or what’s is vision stability and there’s one other
 
 
 <!-- ATM-B-128 OUT
@@ -278,11 +278,11 @@ section: "Response"
 position: 5
 of_total: 5
 prev: ATM-B-128
-context_above: "So financial freedom’s is when you 10x your survival number right? Or what’s is..."
+context_above: "So vision freedom’s is when you 10x your survival number right? Or what’s is..."
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [4, 6, 10]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -293,14 +293,14 @@ strike_phase: 1C
 Great question—and yes, you're tapping into something powerful.
 
 
-There are actually three main stages on the path to financial freedom, and each one has a different relationship with your “Survival Number” (aka the bare minimum monthly income you need to stay afloat).
+There are actually three main stages on the path to vision freedom, and each one has a different relationship with your “Survival Number” (aka the bare minimum monthly income you need to stay afloat).
 
 
 Let’s break it down clearly:
 
 
 
-🌑 1. Financial Survival
+🌑 1. Vision Survival
 
 Definition: You’re earning just enough to cover basic needs (bare minimum rent, food, bills).
 
@@ -312,7 +312,7 @@ Definition: You’re earning just enough to cover basic needs (bare minimum rent
 
 
 
-🌘 2. Financial Stability
+🌘 2. Vision Stability
 
 Definition: Your income consistently covers your survival needs plus some buffer. You’re not drowning, but you still rely on active work.
 
@@ -326,7 +326,7 @@ Definition: Your income consistently covers your survival needs plus some buffer
 
 
 
-🌕 3. Financial Freedom
+🌕 3. Vision Freedom
 
 Definition: Your passive or flexible income fully covers your lifestyle—without trading time for money.
 
@@ -340,7 +340,7 @@ Definition: Your passive or flexible income fully covers your lifestyle—withou
 
 
 
-Bonus Stage: 🌟 Financial Legacy
+Bonus Stage: 🌟 Vision Legacy
 
 After you hit freedom, the next step is building wealth that outlives you and funds causes or generations.
 

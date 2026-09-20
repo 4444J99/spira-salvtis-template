@@ -1,15 +1,15 @@
-# Inner Child Book — packaging decision (γ.3)
+# System Child Book — packaging decision (γ.3)
 
 - **Date:** 2026-06-18
 - **Issue:** [#19](https://github.com/organvm-iii-ergon/sovereign-systems--spiral-template/issues/19) · **Phase:** γ · **Priority:** P3
-- **Spec:** `docs/superpowers/specs/2026-04-03-spec-inner-child-book.md`
-- **Concept source:** `docs/archive/extracted/mindset/inner-child-book-concept.md` (DOC-M-16, atoms ATM-M-316…324 — "Inner child book concept", a 5-part / 11-chapter hybrid poetry × somatic × inner-child × art-ritual workbook)
-- **Status:** RECORDED — studio recommendation + provisional scope assigned. **Awaiting admin's explicit confirmation** (per SOP-SS-CLT-001: never auto-resolve to RESOLVED without the client's word). Surfaced on `/decisions` as `inner-child-book-packaging`, and as an outbound draft at `docs/admin/2026-06-18-inner-child-book-packaging.md`.
+- **Spec:** `docs/superpowers/specs/2026-04-03-spec-system-child-book.md`
+- **Concept source:** `docs/archive/extracted/mindset/system-child-book-concept.md` (DOC-M-16, atoms ATM-M-316…324 — "System child book concept", a 5-part / 11-chapter hybrid poetry × somatic × system-child × art-ritual workbook)
+- **Status:** RECORDED — studio recommendation + provisional scope assigned. **Awaiting admin's explicit confirmation** (per SOP-SS-CLT-001: never auto-resolve to RESOLVED without the client's word). Surfaced on `/decisions` as `system-child-book-packaging`, and as an outbound draft at `docs/admin/2026-06-18-system-child-book-packaging.md`.
 - **Approver:** admin
 
 ## What's being decided
 
-The handoff elevates the "Inner child book concept" file from a raw idea to a **product-scope decision**. The concept spans 7 of the 13 spiral nodes (`nodes: [1, 2, 5, 9, 10, 13, 14]`, pillar: Cross-cutting) and its 5-part structure mirrors the E•A•U Spiral itself — so it is too large and self-contained to dilute inside a single hub node. It needs an explicit packaging answer and a scope home.
+The handoff elevates the "System child book concept" file from a raw idea to a **product-scope decision**. The concept spans 7 of the 13 spiral nodes (`nodes: [1, 2, 5, 9, 10, 13, 14]`, pillar: Cross-cutting) and its 5-part structure mirrors the E•A•U Spiral itself — so it is too large and self-contained to dilute inside a single hub node. It needs an explicit packaging answer and a scope home.
 
 ## Options
 
@@ -26,7 +26,7 @@ The concept becomes its own offer: a published book (KDP / print-on-demand) and/
 
 ### B — Spiral-integrated gated asset
 
-The book content lives inside the hub as an email-gated digital download / lead magnet, tied to the relevant nodes (e.g. nodes 1, 2, 9, 10 — the regulation/inner-child arc).
+The book content lives inside the hub as an email-gated digital download / lead magnet, tied to the relevant nodes (e.g. nodes 1, 2, 9, 10 — the regulation/system-child arc).
 
 - **Scope:** Horizon 1–2 (email-gated content), reusing `EmailGate.astro` + the capture pipeline.
 - **Trade-off:** faster to ship and a strong list-builder, but it spends the concept as a freebie rather than banking it as a paid signature product. Caps the upside.
@@ -35,7 +35,7 @@ The book content lives inside the hub as an email-gated digital download / lead 
 
 Park the concept; revisit after the content + revenue layers stabilize.
 
-- **Scope:** archive. The concept stays preserved at `docs/archive/extracted/mindset/inner-child-book-concept.md` (already archived — nothing is lost).
+- **Scope:** archive. The concept stays preserved at `docs/archive/extracted/mindset/system-child-book-concept.md` (already archived — nothing is lost).
 - **Trade-off:** zero effort now, but no demand signal captured and no forward motion.
 
 ## Recommended decision
@@ -44,7 +44,7 @@ Park the concept; revisit after the content + revenue layers stabilize.
 
 The concept is recorded as a future standalone offer in the product backlog. It does **not** block launch and is **not** built yet — the build is gated behind the content layer (#31) and the free/email/paid boundary (#7).
 
-**Low-cost interim (optional, no build commitment):** a spiral-integrated "interest / waitlist" signal — a single CTA that captures demand (`source=inner-child-book-waitlist`) so the standalone build is informed by real interest before any production spend. This is the cheapest way to validate Option A without prematurely committing to Option B's giveaway.
+**Low-cost interim (optional, no build commitment):** a spiral-integrated "interest / waitlist" signal — a single CTA that captures demand (`source=system-child-book-waitlist`) so the standalone build is informed by real interest before any production spend. This is the cheapest way to validate Option A without prematurely committing to Option B's giveaway.
 
 ## Scope assignment summary
 
@@ -52,9 +52,9 @@ The concept is recorded as a future standalone offer in the product backlog. It 
 | --- | --- |
 | Packaging | Standalone product *(recommended; pending admin confirm)* |
 | Launch scope | **post-launch** (γ "Later" / Horizon 3) — not launch-blocking |
-| Concept preservation | Archived at `docs/archive/extracted/mindset/inner-child-book-concept.md` |
+| Concept preservation | Archived at `docs/archive/extracted/mindset/system-child-book-concept.md` |
 | Build dependencies | #31 product pipeline · #7 free/email/paid boundary · #10 store |
-| Interim option | spiral waitlist CTA (`source=inner-child-book-waitlist`) — optional, no build commitment |
+| Interim option | spiral waitlist CTA (`source=system-child-book-waitlist`) — optional, no build commitment |
 
 ## Triple-reference (IRF-SYS-078)
 

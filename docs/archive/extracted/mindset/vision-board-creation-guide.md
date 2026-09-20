@@ -16,7 +16,7 @@ source_file: "ChatGPT-Vision board creation guide.txt"
 source_folder: "mindset"
 nodes: [12, 11]
 readiness: "Raw"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "“Hi, will you help me create... I want to make a vision board,
 provenance: HYBRID
 nature: CITATION
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -92,7 +92,7 @@ context_above: "Absolutely, I’d love to help you get all those pieces out of y
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -116,7 +116,7 @@ context_above: "“Okay, I don't know why I can't remember now, but I definitely
 provenance: HYBRID
 nature: SCRIPT
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -125,7 +125,7 @@ strike_phase: 3B
 Absolutely, no worries at all. This is exactly why we’re doing this kind of brain dump. So let’s just keep it flowing, and I can totally ask a few questions to help jog your memory.
 
 
-Right now, we’ve got a nice list forming: you want your own land, a horse, the freedom to buy groceries without worrying about your bank account, and just generally handle your car and your life without financial stress. You also want to start selling your art and maybe do a handwritten letter or print subscription, which sounds super cool. And you’ve got a financial target of $10,000 a month as a first milestone, and eventually a coffee shop.
+Right now, we’ve got a nice list forming: you want your own land, a horse, the freedom to buy groceries without worrying about your bank account, and just generally handle your car and your life without vision stress. You also want to start selling your art and maybe do a handwritten letter or print subscription, which sounds super cool. And you’ve got a vision target of $10,000 a month as a first milestone, and eventually a coffee shop.
 
 
 So let me ask you a couple of things that might spark more ideas. For example, do you have a specific vibe or aesthetic you envision for your home or coffee shop, like a certain style or atmosphere? And do you see yourself in a particular kind of environment, like a certain state or a certain landscape? Sometimes that helps the rest of the ideas flow back in.
@@ -146,13 +146,13 @@ context_above: "Absolutely, no worries at all. This is exactly why we’re doing
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3B
 -->
-“I don't know. See, that's just kind of hard because I do love Colorado. I want three houses, so I don't think I need to just define. Obviously, I'm in Colorado right now. I'm trying to get the house for my non-profit, which would be ideal. And then, right, that's my home base, and that's my land. I can get animals, things like that, and then I have people that can help me take care of them. And then it can also, we can use the funding from the non-profit to start the coffee shop, and then that can employ people, things like that. But that's, it's just kind of getting off-topic. That's not really what I wanted to necessarily focus on. It was, ugh, now I don't know. I'm frustrated. So, keeping it vague enough that, right, the universe can work its magic, but specific enough that I am staying on track, and I'm working towards my goals with not only the water and the business stuff, but also, like, the non-profit stuff, and then chasing my passion projects of, like, the art and the subscriptions, and that kind of stuff. And then I have the spiral to work on. I don't know. This is just all overwhelming me now.”
+“I don't know. See, that's just kind of hard because I do love Colorado. I want three houses, so I don't think I need to just define. Obviously, I'm in Colorado right now. I'm trying to get the house for my non-profit, which would be ideal. And then, right, that's my home base, and that's my land. I can get animals, things like that, and then I have people that can help me take care of them. And then it can also, we can use the funding from the non-profit to start the coffee shop, and then that can employ people, things like that. But that's, it's just kind of getting off-topic. That's not really what I wanted to necessarily focus on. It was, ugh, now I don't know. I'm frustrated. So, keeping it vague enough that, right, the universe can work its magic, but specific enough that I am staying on track, and I'm working towards my goals with not only the gateway and the business stuff, but also, like, the non-profit stuff, and then chasing my passion projects of, like, the art and the subscriptions, and that kind of stuff. And then I have the spiral to work on. I don't know. This is just all overwhelming me now.”
 <!-- ATM-M-646 OUT
 next: ATM-M-647
 context_below: "Totally understandable. It’s a lot of layers, and we can definitely make it feel less overwhelming."
@@ -170,7 +170,7 @@ context_above: "“I don't know. See, that's just kind of hard because I do love
 provenance: HYBRID
 nature: SCRIPT
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -203,7 +203,7 @@ context_above: "Totally understandable. It’s a lot of layers, and we can defin
 provenance: LOCAL
 nature: QUESTION
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -227,7 +227,7 @@ context_above: "“Yeah, thank you a lot. That helps. I just can't remember. I w
 provenance: HYBRID
 nature: SCRIPT
 nodes: [12, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

@@ -6,14 +6,14 @@
 
 1. ~~Node architecture locked (#13 CLOSED)~~
 2. ~~V5/V6 prototype merge (#15 CLOSED)~~ — rewritten as 13-node golden-angle spiral
-3. ~~Physical Sovereignty phase built (#6 CLOSED)~~ — 5 nodes live with content
-4. ~~Architectural misalignment corrected (#43 CLOSED)~~ — spiral-first, water scoped
+3. ~~Foundation Sovereignty phase built (#6 CLOSED)~~ — 5 nodes live with content
+4. ~~Architectural misalignment corrected (#43 CLOSED)~~ — spiral-first, gateway scoped
 5. ~~Quiz routing wired (#9 CLOSED)~~ — `/quiz` with email gate and pillar routing
-6. ~~Water Hub placement decided (#17 CLOSED)~~ — mini version nested in Physical Sovereignty
+6. ~~Gateway Hub placement decided (#17 CLOSED)~~ — mini version nested in Foundation Sovereignty
 7. ~~Client walkthrough updated (#36 CLOSED)~~ — v3 covers all architectural changes
 8. ~~Spiral interaction parity (#8 CLOSED)~~ — 13 nodes with hover, click, locked states
 9. ~~EWG API integrated (#29 CLOSED)~~ — ZIP lookup with cache and demo fallback
-10. ~~Hydration Node built (#23 CLOSED)~~ — 6-step progressive disclosure funnel
+10. ~~Gateway Node built (#23 CLOSED)~~ — 6-step progressive disclosure funnel
 
 ## Active Attack Vectors
 
@@ -24,9 +24,9 @@
 
 ### Blocked on admin
 
-3. **Formalize revenue agreement (GH#5)** — agreed at 10% of water sales until $10K. Needs written terms.
-4. **GHL quiz URL** — embed in `/water/quiz` when provided.
-5. **Documentary video** — placeholder ready on homepage and water page.
+3. **Formalize revenue agreement (GH#5)** — agreed at 10% of gateway sales until $10K. Needs written terms.
+4. **GHL quiz URL** — embed in `/gateway/quiz` when provided.
+5. **Documentary video** — placeholder ready on homepage and gateway page.
 6. **Phase 2-4 node names** — 8 locked nodes have placeholder names.
 7. **Affiliate URLs** — HydrationNode filter tier links are empty.
 8. **Payment setup** — Stripe vs GHL decision needed.

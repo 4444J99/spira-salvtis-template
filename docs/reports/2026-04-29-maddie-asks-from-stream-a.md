@@ -27,7 +27,7 @@ Closure tracker: IRF-III-033 / GH#57. Full design memo: `docs/proofs/spiral-vess
 
 | Variant | URL | What you'll see |
 |---|---|---|
-| pillar-first (current) | https://sovereign-systems-spiral.pages.dev/?nav=pillar-first | Water · Inner · Identity · Business · Research |
+| pillar-first (current) | https://sovereign-systems-spiral.pages.dev/?nav=pillar-first | Gateway · System · Structure · Business · Research |
 | spiral-first | https://sovereign-systems-spiral.pages.dev/?nav=spiral-first | Spiral · Elevate · Align · Unlock · Research |
 
 Same item count (5). Different mental model: pillar-first foregrounds the 4-pillar structure; spiral-first foregrounds the 13-node phase journey. Mobile drawer mirrors the choice (spiral-first opens a phase-grouped list of all 13 nodes).
@@ -96,9 +96,9 @@ Next push to `main` will trigger CI build + auto-deploy. Until then, every chang
 
 ---
 
-## H) Hydration affiliate URLs (verify)
+## H) Gateway affiliate URLs (verify)
 
-Three water-filter recommendations now route to live affiliate links per `src/data/hydration.config.ts`:
+Three gateway-filter recommendations now route to live affiliate links per `src/data/gateway.config.ts`:
 
 - IonFaucet → `https://ionfaucet.com/admin-spiral`
 - Multipure → `https://www.multipure.com/admin-wired`

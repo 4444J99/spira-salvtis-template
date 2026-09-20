@@ -17,7 +17,7 @@ source_file: "ChatGPT-Cortisol stress carousel.txt"
 source_folder: "health"
 nodes: [2, 1, 8]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "Can you help me write a carousel on cortisol & stress being the 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -114,7 +114,7 @@ When cortisol stays high, it quietly drives:
 • Inflammation
 • Hormone imbalance
 • Weight gain / belly fat
-• Autoimmune flares
+• Archetype-beta flares
 • Blood sugar issues
 • Anxiety & burnout
 • Gut problems
@@ -154,7 +154,7 @@ Hum, sigh, or cry if it comes (this vagus-nerve stimulation ends stress loops)
 
 Slide 9 — Daily prevention (the real solution)
 • Balanced blood sugar
-• Hydration + minerals
+• Gateway + minerals
 • Sunlight in the morning
 • Nervous system regulation habits
 • Rest without guilt
@@ -216,7 +216,7 @@ D) More emotional & storytelling (your voice front and center)
 And one more choice:
 
 
-Do you want me to add Maslow + blood sugar + hydration as a bridge (like your recent content direction)?
+Do you want me to add Maslow + blood sugar + gateway as a bridge (like your recent content direction)?
 Yes/No
 
 

@@ -1,7 +1,7 @@
 # Conversion Baseline Audit — 2026-06-05
 
 **Scope:** every conversion path on the live site — hub → quiz → capture,
-the water funnel, business waitlist, decision board, branch/pillar/node/
+the gateway funnel, business waitlist, decision board, branch/pillar/node/
 research content pages, and the instrumentation layer that should measure
 them all.
 **Method:** five parallel source-level analyses + one live HTTP probe per
@@ -52,7 +52,7 @@ pass.
 - 🟢 Result copy leaks internals — "Match: {score}% (phase +3, pillar
   +3…)" reads like a debug line; benefit-led copy would convert better.
 
-### Water funnel
+### Gateway funnel
 
 - 🟡 Empty affiliate tiers (anespa, k8 — issue 49) render CTA-less tier
   cards; the recommendation sequence is coherent but two tiers dead-end.
@@ -80,19 +80,19 @@ pass.
 ### Content pages (branches / pillars / nodes / research)
 
 - 🔴 C4 above (node template).
-- 🟡 All 6 branch CTAs point at the bare `water-example.com` homepage —
+- 🟡 All 6 branch CTAs point at the bare `gateway-example.com` homepage —
   per-branch `ghlUrl` exists in the schema but is never populated
   (client-gated: needs admin's per-branch destinations; interim option:
-  point at `/water/quiz`).
-- 🟡 Branch markdown's own "Start with your water →" CTA renders inside
+  point at `/gateway/quiz`).
+- 🟡 Branch markdown's own "Start with your gateway →" CTA renders inside
   the email gate — the content's natural next step is locked with the
   content. Consider branch-specific gate copy ("Get your inflammation
-  water protocol") so the gate IS the conversion event.
+  gateway protocol") so the gate IS the conversion event.
 - 🟡 /research unlock is a thin value exchange (a bibliography) and a dead
   end after unlock — no onward CTA. Reframe the asset or route
   post-unlock readers to the quiz.
 - 🟢 Pillar pages: visible CTA is uniformly "Back to the spiral";
-  identity/inner pillars route readers in circles while physical/financial
+  structure/system pillars route readers in circles while foundation/vision
   route to funnels.
 
 ## What works well (verified live)

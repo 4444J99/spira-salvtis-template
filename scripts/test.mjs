@@ -411,10 +411,10 @@ assert.doesNotMatch(
 
 const cycleConfig = read('src/data/cycle.config.ts');
 const expectedCycleBranches = [
-  'gut-hormones',
-  'fertility',
-  'athletic',
-  'autoimmune',
+  'archetype-epsilon',
+  'archetype-delta',
+  'archetype-alpha',
+  'archetype-beta',
 ];
 assert.match(
   cycleConfig,
@@ -454,16 +454,16 @@ assert.match(
   'Human Design personalization is modeled but consent-gated',
 );
 
-const waterBranchPage = read('src/pages/water/[slug].astro');
+const waterBranchPage = read('src/pages/gateway/[slug].astro');
 assert.match(
   waterBranchPage,
   /hasCycleLayer\(branchSlug\)/,
-  'water branch route uses the shared cycle layer contract',
+  'gateway branch route uses the shared cycle layer contract',
 );
 assert.doesNotMatch(
   waterBranchPage,
   /cycleSyncedBranches\s*=\s*\[/,
-  'water branch route does not carry a stale inline cycle branch allowlist',
+  'gateway branch route does not carry a stale inline cycle branch allowlist',
 );
 
 const cycleAwareness = read('src/components/CycleAwareness.astro');
@@ -488,7 +488,7 @@ assert.match(
 assert.match(
   businessHubPage,
   /href=\{nonprofitConfig\.route\}/,
-  'business hub links financial sovereignty to the nonprofit arm',
+  'business hub links vision sovereignty to the nonprofit arm',
 );
 assert.match(
   businessRhythm,
@@ -686,13 +686,13 @@ assert.match(
 );
 assert.match(
   nodePage,
-  /primaryHref:\s*'\/water\/quiz'/,
-  'physical node pages continue into the water quiz',
+  /primaryHref:\s*'\/gateway\/quiz'/,
+  'foundation node pages continue into the gateway quiz',
 );
 assert.match(
   nodePage,
   /primaryHref:\s*'\/business\/'/,
-  'financial node pages continue into the business path',
+  'vision node pages continue into the business path',
 );
 assert.match(
   nodePage,
@@ -704,12 +704,12 @@ const quizEmbed = read('src/components/QuizEmbed.astro');
 assert.match(
   quizEmbed,
   /href="\/quiz"/,
-  'water quiz fallback links to the local assessment',
+  'gateway quiz fallback links to the local assessment',
 );
 assert.doesNotMatch(
   quizEmbed,
   /quiz-waitlist-form/,
-  'water quiz fallback is not a waitlist stub',
+  'gateway quiz fallback is not a waitlist stub',
 );
 
 const captureRoute = read('src/pages/capture.ts');
@@ -778,22 +778,22 @@ const hydrationNode = read('src/components/HydrationNode.astro');
 assert.match(
   hydrationNode,
   /visible\.push\(fluoride\)/,
-  'water report keeps fluoride visible even below the severity cutoff',
+  'gateway report keeps fluoride visible even below the severity cutoff',
 );
 
-const waterReportRoute = read('src/pages/api/water-report.ts');
+const waterReportRoute = read('src/pages/api/gateway-report.ts');
 assert.match(
   waterReportRoute,
   /parseEwgSearchResult/,
-  'water report follows the EWG ZIP result to the utility detail page',
+  'gateway report follows the EWG ZIP result to the utility detail page',
 );
 const { parseEwgHtml, parseEwgSearchResult } = await import(
-  new URL('../src/lib/water-report-parser.ts', import.meta.url)
+  new URL('../src/lib/gateway-report-parser.ts', import.meta.url)
 );
 const ewgSearchFixture = `
   <table>
     <tr>
-      <td><a href="/tapwater/system.php?pws=CA1910067">Los Angeles Department of Water and Power</a></td>
+      <td><a href="/tapwater/system.php?pws=CA1910067">Los Angeles Department of Gateway and Power</a></td>
       <td>Los Angeles, CA</td>
     </tr>
   </table>
@@ -806,9 +806,9 @@ assert.equal(
 );
 
 const ewgUtilityFixture = `
-  <h1>Find your water</h1>
+  <h1>Find your gateway</h1>
   <div>UTILITY</div>
-  <h1>Los Angeles Department of Water and Power</h1>
+  <h1>Los Angeles Department of Gateway and Power</h1>
   <section>
     <h2>Contaminants Detected</h2>
     <h3>Arsenic</h3>
@@ -818,7 +818,7 @@ const ewgUtilityFixture = `
     <p>572x</p>
     <p>EWG's Health Guideline: 0.004 ppb</p>
     <h3>Arsenic</h3>
-    <p>Arsenic is a potent carcinogen and common contaminant in drinking water.</p>
+    <p>Arsenic is a potent carcinogen and common contaminant in drinking gateway.</p>
     <h3>Fluoride</h3>
     <p>This Utility:</p>
     <p>0.734 ppm</p>
@@ -831,7 +831,7 @@ const ewgReport = parseEwgHtml(ewgUtilityFixture, '90210', 'tap');
 assert.ok(ewgReport, 'EWG utility fixture parses into a live report');
 assert.equal(
   ewgReport.utilityName,
-  'Los Angeles Department of Water and Power',
+  'Los Angeles Department of Gateway and Power',
   'EWG utility parser reads the utility name',
 );
 assert.deepEqual(
@@ -911,27 +911,27 @@ for (const file of libraryFiles) {
   );
 }
 
-// --- Bottled-water price data (GH#63) ---
-const hydrationSource = read('src/data/hydration.config.ts');
+// --- Bottled-gateway price data (GH#63) ---
+const hydrationSource = read('src/data/gateway.config.ts');
 const bottledPrices = JSON.parse(read('src/data/runtime/bottled-prices.json'));
 assert.ok(
   Array.isArray(bottledPrices) && bottledPrices.length >= 3,
-  'bottled-water price records are externalized to runtime JSON',
+  'bottled-gateway price records are externalized to runtime JSON',
 );
 assert.match(
   hydrationSource,
   /runtime\/bottled-prices\.json/,
-  'hydration config imports bottled-water price data from runtime JSON',
+  'gateway config imports bottled-gateway price data from runtime JSON',
 );
 assert.doesNotMatch(
   hydrationSource,
   /costData:\s*\[[\s\S]*monthlyEstimate:\s*\d/,
-  'monthly bottled-water estimates are not stored in hydration config',
+  'monthly bottled-gateway estimates are not stored in gateway config',
 );
 assert.doesNotMatch(
   read('src/data/runtime/bottled-prices.json'),
   /"monthlyEstimate"|"yearlyEstimate"/,
-  'bottled-water runtime data stores inputs, not derived estimates',
+  'bottled-gateway runtime data stores inputs, not derived estimates',
 );
 for (const record of bottledPrices) {
   for (const field of [
@@ -957,11 +957,11 @@ for (const record of bottledPrices) {
   );
 }
 const { hydrationConfig: hydrationModule, deriveBottledWaterCost } =
-  await import(new URL('../src/data/hydration.config.ts', import.meta.url));
+  await import(new URL('../src/data/gateway.config.ts', import.meta.url));
 assert.deepEqual(
   hydrationModule.costData.map((entry) => entry.brand),
   bottledPrices.map((entry) => entry.brand),
-  'hydration config preserves the external bottled-water record order',
+  'gateway config preserves the external bottled-gateway record order',
 );
 for (const record of bottledPrices) {
   const derived = deriveBottledWaterCost(record);
@@ -980,7 +980,7 @@ for (const record of bottledPrices) {
   );
 }
 console.log(
-  `ok - ${bottledPrices.length} bottled-water price records externalized and derived`,
+  `ok - ${bottledPrices.length} bottled-gateway price records externalized and derived`,
 );
 
 // --- LifeMotionLaw projection (generative law layer) ---
@@ -1021,7 +1021,7 @@ assert.equal(laws.length, 13, 'all 13 nodes project a LifeMotionLaw');
 assert.equal(
   new Set(laws.map((law) => law.seed)).size,
   13,
-  'law identity seeds are unique across all 13 nodes',
+  'law structure seeds are unique across all 13 nodes',
 );
 assert.equal(
   new Set(laws.map((law) => JSON.stringify(law.lfo.driftFreqs))).size,
@@ -1089,7 +1089,7 @@ const rederived = hubModule.nodes.map((node) =>
 assert.deepEqual(
   rederived,
   laws,
-  'law projection is deterministic — same identity, same law, forever',
+  'law projection is deterministic — same structure, same law, forever',
 );
 
 const saltA = Array.from({ length: 4 }, lawRng(laws[0], 1));
@@ -1169,7 +1169,7 @@ assert.ok(
   'store has at least one priced product with a live checkout URL',
 );
 // Store DELISTED from the spiral (admin 2026-06-22 #6/#25/#35 "Option A — full
-// swap"): no affiliate water products surface anywhere on the spiral. The
+// swap"): no affiliate gateway products surface anywhere on the spiral. The
 // store.config.ts data above is PRESERVED so a first-party digital/membership
 // shelf can return later, but store.astro no longer renders the affiliate
 // catalog and the global nav no longer links to it. The spiral links OUT.
@@ -1185,8 +1185,8 @@ assert.doesNotMatch(
 );
 assert.match(
   storePage,
-  /config\.domains\.(water|business)/,
-  'store page links out to the water/business hubs instead of selling affiliate products',
+  /config\.domains\.(gateway|business)/,
+  'store page links out to the gateway/business hubs instead of selling affiliate products',
 );
 assert.doesNotMatch(
   baseLayout,

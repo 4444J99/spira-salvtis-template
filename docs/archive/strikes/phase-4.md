@@ -1,13 +1,13 @@
-# Strike Plan: Phase 4 — Financial Sovereignty + Expansion
+# Strike Plan: Phase 4 — Vision Sovereignty + Expansion
 
 Generated: 2026-04-04T18:13:26Z
 
-Phase 4 builds the Financial Sovereignty pillar (node 13),
+Phase 4 builds the Vision Sovereignty pillar (node 13),
 standalone products, and the social content pipeline.
 
 ---
 
-## Strike 4A: Node 13 Financial Sovereignty (127)
+## Strike 4A: Node 13 Vision Sovereignty (127)
 
 Content atoms for Systems Create Freedom — business, sales,
 brand building, wealth energetics.
@@ -46,9 +46,9 @@ brand building, wealth energetics.
 | ATM-B-111 | business/dream-retreat-vision.md | Omfg and we can do the outside black and white shot where she has a matchbox ... | LOCAL | CLAIM | MISSING |
 | ATM-B-113 | business/dream-retreat-vision.md | Omfg I can make my own matchbooks !!!! I can really go full vintage / keeping... | LOCAL | CLAIM | MISSING |
 | ATM-B-117 | business/dream-retreat-vision.md | I HAVE A WAX SEAL AND CAN MAKE MY KOGO and put specific flowers or herbs unde... | LOCAL | CLAIM | MISSING |
-| ATM-B-119 | business/dream-retreat-vision.md | I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED WATER OR TET IT FROM THE S... | LOCAL | CLAIM | MISSING |
-| ATM-B-125 | business/financial-freedom-blueprint.md | Financial Freedom Blueprint | LOCAL | MODEL | MISSING |
-| ATM-B-126 | business/financial-freedom-blueprint.md | What are the steps to financially free | LOCAL | CLAIM | MISSING |
+| ATM-B-119 | business/dream-retreat-vision.md | I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED GATEWAY OR TET IT FROM THE S... | LOCAL | CLAIM | MISSING |
+| ATM-B-125 | business/vision-freedom-blueprint.md | Vision Freedom Blueprint | LOCAL | MODEL | MISSING |
+| ATM-B-126 | business/vision-freedom-blueprint.md | What are the steps to financially free | LOCAL | CLAIM | MISSING |
 | ATM-B-130 | business/idea-implementation-strategies.md | Idea Implementation Strategies | LOCAL | CLAIM | MISSING |
 | ATM-B-134 | business/income-projections-and-strategies.md | Income Projections and Strategies | LOCAL | CLAIM | MISSING |
 | ATM-B-141 | business/income-projections-and-strategies.md | Okay well I forgot I have 900 pulling on the 28th if I want to keep my subscr... | LOCAL | CLAIM | MISSING |
@@ -63,7 +63,7 @@ brand building, wealth energetics.
 | ATM-B-191 | business/novel-funnel-strategies.md | Yes please!!! | LOCAL | CLAIM | MISSING |
 | ATM-B-199 | business/novel-funnel-strategies.md | The 9 grid posts don’t have to all be carousels - feel like we started so str... | LOCAL | CLAIM | MISSING |
 | ATM-B-201 | business/novel-funnel-strategies.md | Yes please! | LOCAL | CLAIM | MISSING |
-| ATM-B-203 | business/plastic-water-label-design.md | Plastic Water Label Design | LOCAL | CLAIM | MISSING |
+| ATM-B-203 | business/plastic-gateway-label-design.md | Plastic Gateway Label Design | LOCAL | CLAIM | MISSING |
 | ATM-B-205 | business/sales-momentum-plan.md | Sales momentum plan | LOCAL | CLAIM | MISSING |
 | ATM-B-207 | business/sales-momentum-plan.md | Just need a clean and clear structure to follow and then have things or place... | LOCAL | TOOL | MISSING |
 | ATM-B-209 | business/wagyu-post-conversion-tips.md | Wagyu Post Conversion Tips | LOCAL | CLAIM | MISSING |
@@ -92,8 +92,8 @@ brand building, wealth energetics.
 | ATM-B-152 | business/job-transition-advice.md | Cry and right !!! | LOCAL | STATISTIC | PARTIAL |
 | ATM-B-154 | business/job-transition-advice.md | 2 and 3 I think instead of changing jobs I just need to do like you said and ... | LOCAL | CLAIM | PARTIAL |
 | ATM-B-158 | business/job-transition-advice.md | Okay so need to consolidate thoughts/plan of action cause I’m so ready to hav... | LOCAL | TOOL | PARTIAL |
-| ATM-B-167 | business/novel-funnel-strategies.md | I’m obsessed with this - can start selling the water & getting life in order/... | LOCAL | CLAIM | PARTIAL |
-| ATM-B-169 | business/novel-funnel-strategies.md | I think keeping the business side mainly about the water & that base level / ... | LOCAL | TOOL | PARTIAL |
+| ATM-B-167 | business/novel-funnel-strategies.md | I’m obsessed with this - can start selling the gateway & getting life in order/... | LOCAL | CLAIM | PARTIAL |
+| ATM-B-169 | business/novel-funnel-strategies.md | I think keeping the business side mainly about the gateway & that base level / ... | LOCAL | TOOL | PARTIAL |
 | ATM-B-171 | business/novel-funnel-strategies.md | Can we go back here before I answer that question!? | LOCAL | FRAMEWORK | PARTIAL |
 | ATM-B-214 | business/wagyu-post-conversion-tips.md | Ugh okay I got overwhelmed yesterday and didn’t do much. What will ensure 3 w... | LOCAL | CLAIM | PARTIAL |
 | ATM-B-218 | business/wagyu-post-conversion-tips.md | I do wanna be posting on my stories every day too! | LOCAL | CITATION | PARTIAL |
@@ -109,7 +109,7 @@ brand building, wealth energetics.
 | ATM-B-063 | business/dream-retreat-vision.md | “Then I need to get my business funnel up today but then I just don't know if... | HYBRID | CLAIM | EXISTS |
 | ATM-B-064 | business/dream-retreat-vision.md | “Okay so I definitely just need to get my funnel live because then I can feed... | HYBRID | CLAIM | EXISTS |
 | ATM-B-065 | business/dream-retreat-vision.md | “Yay, thank you a lot. So right now I'm just going to focus on making the sum... | HYBRID | STATISTIC | EXISTS |
-| ATM-B-069 | business/dream-retreat-vision.md | “Do you think that I should just duplicate and post the water funnel or do yo... | HYBRID | CLAIM | EXISTS |
+| ATM-B-069 | business/dream-retreat-vision.md | “Do you think that I should just duplicate and post the gateway funnel or do yo... | HYBRID | CLAIM | EXISTS |
 | ATM-B-070 | business/dream-retreat-vision.md | “So I really just need to do what I did with the business one, introduce, do ... | HYBRID | CITATION | EXISTS |
 | ATM-B-071 | business/dream-retreat-vision.md | “From everything you know about me acting as a social media manager, what adv... | HYBRID | CLAIM | EXISTS |
 | ATM-B-073 | business/dream-retreat-vision.md | “But I have a really hard time finding that template and knowing how to share... | HYBRID | NARRATIVE | EXISTS |
@@ -138,8 +138,8 @@ brand building, wealth energetics.
 | ATM-B-192 | business/novel-funnel-strategies.md | Perfect — these will help you grow fast without diluting your brand. The goal... | HYBRID | FRAMEWORK | EXISTS |
 | ATM-B-196 | business/novel-funnel-strategies.md | You’re thinking about this exactly like a strategist, which is great. The key... | HYBRID | SCRIPT | EXISTS |
 | ATM-B-200 | business/novel-funnel-strategies.md | You’re right to pause here. We started strong, then it got over-optimized. Le... | HYBRID | FRAMEWORK | EXISTS |
-| ATM-B-204 | business/plastic-water-label-design.md | Can you make me an image of bottled water but the label has the ingredients l... | HYBRID | STATISTIC | EXISTS |
-| ATM-B-206 | business/sales-momentum-plan.md | Ahhh okay I really just gotta start cranking out the water sales I’m so ready | HYBRID | CLAIM | EXISTS |
+| ATM-B-204 | business/plastic-gateway-label-design.md | Can you make me an image of bottled gateway but the label has the ingredients l... | HYBRID | STATISTIC | EXISTS |
+| ATM-B-206 | business/sales-momentum-plan.md | Ahhh okay I really just gotta start cranking out the gateway sales I’m so ready | HYBRID | CLAIM | EXISTS |
 | ATM-B-211 | business/wagyu-post-conversion-tips.md | This is a great instinct, and the key is: | HYBRID | SCRIPT | EXISTS |
 
 ---
@@ -182,7 +182,7 @@ SCRIPT-nature atoms — reel scripts, content repurposing, social automation.
 
 | Strike | Count |
 |--------|-------|
-| 4A — Financial Sovereignty (Node 13) | 127 |
+| 4A — Vision Sovereignty (Node 13) | 127 |
 | 4B — Standalone Products | 4 |
 | 4C — Social Content Pipeline | 12 |
 | **Unique atoms** | **140** |

@@ -13,10 +13,10 @@ sections:
 ---
 title: "Pitch template for UFC fighter"
 source_file: "ChatGPT-Molecular Hydrogen for Athletes.txt"
-source_folder: "water"
+source_folder: "gateway"
 nodes: [11]
 readiness: "Raw"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -30,7 +30,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -63,7 +63,7 @@ context_above: "Molecular Hydrogen for Athletes"
 provenance: HYBRID
 nature: CLAIM
 nodes: [11]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -96,7 +96,7 @@ context_above: "“Hi, I want to just casually bring up to this guy who is a UFC
 provenance: HYBRID
 nature: QUESTION
 nodes: [11]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL

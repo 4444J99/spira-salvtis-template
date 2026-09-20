@@ -113,18 +113,18 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-A) Somatic + Subconscious approach — body-based, nervous-system-based, inner-child, trauma-rooted blocks, breathwork, pattern-tracking, and identity rewiring. B) Energetic + Frequency approach — quantum language, emotional resonance, money frequency attunement, feminine/masculine money wounds, ancestral patterns, and ritual.
+A) Somatic + Subconscious approach — body-based, nervous-system-based, system-child, trauma-rooted blocks, breathwork, pattern-tracking, and structure rewiring. B) Energetic + Frequency approach — quantum language, emotional resonance, money frequency attunement, feminine/masculine money wounds, ancestral patterns, and ritual.
 ===
 
 ATOM S4-M-018
 Section: Categories of Money Blocks
-Idea: Six categories of money/frequency blocks including nervous system, identity, childhood, ancestral, polarity, and frequency misalignment.
+Idea: Six categories of money/frequency blocks including nervous system, structure, childhood, ancestral, polarity, and frequency misalignment.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Nervous System Blocks: If your body associates “more money, more responsibility → more stress,” it will subconsciously avoid abundance. Identity or Self-Worth Blocks: “Who am I to make that much?” Childhood Programming: Hearing: “money is hard,” “rich people are greedy,”. Ancestral + Generational Imprints: especially for women: centuries of money = power = danger. Feminine/Masculine Polarity Wounds: Money has masculine energy (structure), receiving has feminine energy (trust). Frequency Misalignment: frequency set to: fear, urgency, lack, or proving.
+Nervous System Blocks: If your body associates “more money, more responsibility → more stress,” it will subconsciously avoid abundance. Structure or Self-Worth Blocks: “Who am I to make that much?” Childhood Programming: Hearing: “money is hard,” “rich people are greedy,”. Ancestral + Generational Imprints: especially for women: centuries of money = power = danger. Feminine/Masculine Polarity Wounds: Money has masculine energy (structure), receiving has feminine energy (trust). Frequency Misalignment: frequency set to: fear, urgency, lack, or proving.
 ===
 
 ATOM S4-M-019
@@ -140,13 +140,13 @@ Q1. Growing up, money in my house felt: ____ Q2. When I imagine earning MORE mon
 
 ATOM S4-M-020
 Section: Clearing Tools Mapping
-Idea: Specific clearing tools mapped to block types (e.g., somatic release for nervous system, inner-child work for childhood).
+Idea: Specific clearing tools mapped to block types (e.g., somatic release for nervous system, system-child work for childhood).
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
 ---
 Content:
-Nervous System: Somatic release, breathwork, safety rewiring. Identity: Self-concept reprogramming, behavior-first stacking. Childhood: Inner-child + subconscious reparenting. Ancestral: Timeline + somatic lineage clearing. Feminine/Masculine: Polarity work + safety in receiving. Frequency: Emotional transmutation + embodiment.
+Nervous System: Somatic release, breathwork, safety rewiring. Structure: Self-concept reprogramming, behavior-first stacking. Childhood: System-child + subconscious reparenting. Ancestral: Timeline + somatic lineage clearing. Feminine/Masculine: Polarity work + safety in receiving. Frequency: Emotional transmutation + embodiment.
 ===
 
 ATOM S4-M-021
@@ -179,7 +179,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Phase 1 (Days 1–7): Deep Reset — somatic + energetic clearing + nervous system safety. Phase 2 (Days 8–28): Rewire — identity recoding + feminine receiving + masculine follow-through. Day 29–30 Integration: embodiment, timeline shift, and a new wealth set-point.
+Phase 1 (Days 1–7): Deep Reset — somatic + energetic clearing + nervous system safety. Phase 2 (Days 8–28): Rewire — structure recoding + feminine receiving + masculine follow-through. Day 29–30 Integration: embodiment, timeline shift, and a new wealth set-point.
 ===
 
 ATOM S4-M-024
@@ -194,8 +194,8 @@ Free, I have a house on the beach and in the mountains - I can travel when I wan
 ===
 
 ATOM S4-M-025
-Section: Target Identity
-Idea: Desired identity as a confident, safe, and magnetic woman who receives and circulates abundance.
+Section: Target Structure
+Idea: Desired structure as a confident, safe, and magnetic woman who receives and circulates abundance.
 Provenance: LOCAL
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -205,8 +205,8 @@ Confident, happy, safe, the most generous kind & impactful person that is ground
 ===
 
 ATOM S4-M-026
-Section: Financial Milestone
-Idea: Initial tangible financial milestone of consistent $10k months.
+Section: Vision Milestone
+Idea: Initial tangible vision milestone of consistent $10k months.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
@@ -223,7 +223,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-COMMAND ➝ SOMATIC SHIFT ➝ ACTION ➝ REPETITION ➝ IDENTITY CLICK. or: Subconscious Order ➝ Nervous System Safety ➝ Real-World Movement ➝ Pattern Lock-In.
+COMMAND ➝ SOMATIC SHIFT ➝ ACTION ➝ REPETITION ➝ STRUCTURE CLICK. or: Subconscious Order ➝ Nervous System Safety ➝ Real-World Movement ➝ Pattern Lock-In.
 ===
 
 ATOM S4-M-028
@@ -234,7 +234,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-1. MORNING: Command Code + Breath/Nervous System Priming + Identity Lock-In. 2. DAY ACTION: One masculine “move money closer” action. 3. EVENING: Somatic release or pattern clearing + Receiving nervous system exercise + Command Code repetition.
+1. MORNING: Command Code + Breath/Nervous System Priming + Structure Lock-In. 2. DAY ACTION: One masculine “move money closer” action. 3. EVENING: Somatic release or pattern clearing + Receiving nervous system exercise + Command Code repetition.
 ===
 
 ATOM S4-M-029
@@ -294,7 +294,7 @@ Deep inhale through the nose (4) → hold (2) → slow exhale (6) — repeat 3 t
 
 ATOM S4-M-034
 Section: Money-Moving Actions
-Idea: Pool of practical daily actions to drive financial results and break procrastination.
+Idea: Pool of practical daily actions to drive vision results and break procrastination.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -457,7 +457,7 @@ How to speak more concisely: Anchor your body first (shoulders back, chest open)
 
 ATOM S4-M-049
 Section: Body Alignment Cues
-Idea: Physical cues to improve posture and ground communication.
+Idea: Foundation cues to improve posture and ground communication.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -468,7 +468,7 @@ Body alignment cues: Feet grounded, spine straight, hands relaxed but expressive
 
 ATOM S4-M-050
 Section: Posture Reset Drill
-Idea: One-minute physical reset to shift from "proving" to "expressing."
+Idea: One-minute foundation reset to shift from "proving" to "expressing."
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -532,7 +532,7 @@ How to speak more concisely: Anchor your body first (shoulders back, chest open)
 
 ATOM S4-M-049
 Section: Body Alignment Cues
-Idea: Physical cues to improve posture and ground communication.
+Idea: Foundation cues to improve posture and ground communication.
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN
@@ -543,7 +543,7 @@ Body alignment cues: Feet grounded, spine straight, hands relaxed but expressive
 
 ATOM S4-M-050
 Section: Posture Reset Drill
-Idea: One-minute physical reset to shift from "proving" to "expressing."
+Idea: One-minute foundation reset to shift from "proving" to "expressing."
 Provenance: HYBRID
 Nature: TOOL
 Editorial: CLEAN

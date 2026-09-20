@@ -17,7 +17,7 @@ source_file: "ChatGPT-Hemorrhoids and Daily Discomfort.txt"
 source_folder: "health"
 nodes: [6, 1, 8]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "How many Americans have hemorrhoids or some other very uncomfort
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [6, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -136,7 +136,7 @@ context_above: "Roughly 5% of U.S. adults have symptomatic hemorrhoids at any gi
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -161,7 +161,7 @@ context_above: "What about heart burn and migraines"
 provenance: HYBRID
 nature: CITATION
 nodes: [6, 1, 8]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

@@ -93,8 +93,8 @@ Each entry includes a deterministic unique ID, thread assignment, title, tags, a
 | `TH-ARCHIVE-EXTRACTED-MINDSET` | Archive Extracted: mindset | 38 |
 | `TH-ARCHIVE-EXTRACTED-MINDSET-RHYTHMS-AND-RITUALS-MD` | Archive Extracted: mindset-rhythms-and-rituals.md | 1 |
 | `TH-ARCHIVE-EXTRACTED-TIME-ASTRO` | Archive Extracted: time-astro | 9 |
-| `TH-ARCHIVE-EXTRACTED-WATER` | Archive Extracted: water | 15 |
-| `TH-ARCHIVE-EXTRACTED-WATER-LEARN-MORE-ABOUT-ERW-MD` | Archive Extracted: water-learn-more-about-erw.md | 1 |
+| `TH-ARCHIVE-EXTRACTED-GATEWAY` | Archive Extracted: gateway | 15 |
+| `TH-ARCHIVE-EXTRACTED-GATEWAY-LEARN-MORE-ABOUT-ERW-MD` | Archive Extracted: gateway-learn-more-about-erw.md | 1 |
 | `TH-ARCHIVE-SOURCE-1A-MASTER-SPIRAL-MD` | Archive Source Bundle: 1a-master-spiral.md | 1 |
 | `TH-ARCHIVE-SOURCE-1B-SPIRAL-DUMP-MD` | Archive Source Bundle: 1b-spiral-dump.md | 1 |
 | `TH-ARCHIVE-SOURCE-2A-CHATGPT-SOVEREIGN-SYSTEMS-BRANDING-TXT` | Archive Source Bundle: 2a-chatgpt-sovereign-systems-branding.txt | 1 |
@@ -216,7 +216,7 @@ Thread ID: `TH-CODEX-PLANS`
 #### SS-MAN-20260605-0114 - admin Evidence-of-Existence Cross-System Audit
 
 - Path: `.codex/plans/2026-04-27-admin-evidence-of-existence-cross-system-audit.md`
-- Tags: `area:.codex`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:.codex`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8102 bytes; Modified UTC: `2026-06-05T16:58:51.631202+00:00`
 - SHA-256: `0f15952413fc4e41bfb3238c64ea4f734fa79a97b02c75f05cca43862bad13ac`
 - Ingest: `utf8-preview`
@@ -234,7 +234,7 @@ Thread ID: `TH-CODEX-PLANS`
 #### SS-MAN-20260605-0116 - Hall-Monitor Audit + Close-Out Plan — Sovereign Spiral Session
 
 - Path: `.codex/plans/2026-04-30-hall-monitor-audit-and-closeout.md`
-- Tags: `area:.codex`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `pillar:financial`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.codex`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `pillar:vision`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12082 bytes; Modified UTC: `2026-06-05T16:58:51.631324+00:00`
 - SHA-256: `caf3d6521896cac5cbb70f185947166fe5ece700389fe9fd7d06fb353f09c1e8`
 - Ingest: `utf8-preview`
@@ -290,7 +290,7 @@ Thread ID: `TH-CONDUCTOR-ARCHIVE-2026-05-16-POST-LEAK-SCRUB-HANDOFF-MD`
 #### SS-MAN-20260605-0120 - Agent Handoff: post-content-leak-scrub continuation
 
 - Path: `.conductor/archive-2026-05-16-post-leak-scrub-handoff.md`
-- Tags: `area:.conductor`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.conductor`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9695 bytes; Modified UTC: `2026-06-05T16:58:51.632038+00:00`
 - SHA-256: `917df3784a6469674049917e10e43d7e8b3d332d5bd53187d2a61981cc583c57`
 - Ingest: `utf8-preview`
@@ -304,7 +304,7 @@ Thread ID: `TH-CONDUCTOR-ARCHIVE-2026-05-17-POST-TRANSCRIPTION-AUDIT-HANDOFF-MD`
 #### SS-MAN-20260605-0121 - Agent Handoff: post-transcription-audit-gap-closure
 
 - Path: `.conductor/archive-2026-05-17-post-transcription-audit-handoff.md`
-- Tags: `area:.conductor`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:identity`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.conductor`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:structure`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14386 bytes; Modified UTC: `2026-06-05T16:58:51.632155+00:00`
 - SHA-256: `6a2deb119a9820fdd17e2e240ba2c4a3f861ee34db8043fc7293eb7b1b43642c`
 - Ingest: `utf8-preview`
@@ -318,7 +318,7 @@ Thread ID: `TH-CONDUCTOR-ARCHIVE-2026-05-17-POST-TRIAGE-SWEEP-HANDOFF-MD`
 #### SS-MAN-20260605-0122 - Agent Handoff: post-triage-sweep (3 surfaces addressed)
 
 - Path: `.conductor/archive-2026-05-17-post-triage-sweep-handoff.md`
-- Tags: `area:.conductor`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.conductor`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12388 bytes; Modified UTC: `2026-06-05T16:58:51.632253+00:00`
 - SHA-256: `22e0e9aeabe8fabdeb726817f6b7ba68276d225979557b37c97d62488b3309b8`
 - Ingest: `utf8-preview`
@@ -346,7 +346,7 @@ Thread ID: `TH-CONDUCTOR-ARCHIVE-2026-05-29-POST-DEPLOY-REGRESSION-FIX-HANDOFF-M
 #### SS-MAN-20260605-0124 - Agent Handoff: post-deploy-regression-fix
 
 - Path: `.conductor/archive-2026-05-29-post-deploy-regression-fix-handoff.md`
-- Tags: `area:.conductor`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:session`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.conductor`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:session`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9468 bytes; Modified UTC: `2026-06-05T16:58:51.632391+00:00`
 - SHA-256: `5a161cff82991d5fb0d419e1df738b5322e82c4050788a1e5e3e226783b8eac0`
 - Ingest: `utf8-preview`
@@ -374,7 +374,7 @@ Thread ID: `TH-CONFIG-NETLIFY-TOML`
 #### SS-MAN-20260605-0126 - Multi-domain redirects (activate when custom domains are connected)
 
 - Path: `.config/netlify.toml`
-- Tags: `area:.config`, `pillar:financial`, `pillar:water`, `type:toml`
+- Tags: `area:.config`, `pillar:vision`, `pillar:gateway`, `type:toml`
 - Type: `.toml`; Size: 591 bytes; Modified UTC: `2026-06-05T16:58:51.632492+00:00`
 - SHA-256: `cf30f5d846e6ae719f850b06c3c69aebfa699b1edb1bdadbd0be7f4c2f89f545`
 - Ingest: `utf8-preview`
@@ -458,7 +458,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-1A-MASTER-SPIRAL-BACKEND-BREAKDOWN-MD`
 #### SS-MAN-20260605-0162 - **Spiral Site Build --- Master Blueprint (Deep Dive Edition)**
 
 - Path: `docs/archive/extracted/1a-master-spiral-backend-breakdown.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 21272 bytes; Modified UTC: `2026-06-05T16:58:51.637354+00:00`
 - SHA-256: `ae3d9ea48dfce7d30d490e575d3778d8854ad3cfdd50a7cf569233b051216ab2`
 - Ingest: `utf8-preview`
@@ -472,7 +472,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-1B-SPIRAL-DUMP-QUESTIONNAIRE-MD`
 #### SS-MAN-20260605-0163 - 1B Spiral Dump Questionnaire
 
 - Path: `docs/archive/extracted/1b-spiral-dump-questionnaire.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 526503 bytes; Modified UTC: `2026-06-05T16:58:51.638433+00:00`
 - SHA-256: `dad7f0bc78b53efcc6f32e54363aa592e462722d275f39bf3934d4aae5e8c911`
 - Ingest: `utf8-preview`
@@ -486,7 +486,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-2A-SOVEREIGN-SYSTEMS-BRANDING-MD`
 #### SS-MAN-20260605-0164 - Sovereign Systems Branding — Full ChatGPT Thread
 
 - Path: `docs/archive/extracted/2a-sovereign-systems-branding.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 69493 bytes; Modified UTC: `2026-06-05T16:58:51.638582+00:00`
 - SHA-256: `8f8f9b8e1ae7d2bd2c3bc2c2f761dff43dd36ff65e04bf9ebb22e71c1b141944`
 - Ingest: `utf8-preview`
@@ -500,7 +500,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-2B-NODULAR-FLOW-REFINEMENT-MD`
 #### SS-MAN-20260605-0165 - Nodular Flow Refinement — 13-Node Definitive Structure
 
 - Path: `docs/archive/extracted/2b-nodular-flow-refinement.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 58165 bytes; Modified UTC: `2026-06-05T16:58:51.638683+00:00`
 - SHA-256: `6dff280f7e4a2b97dc0e49df2d4c78074e7092e69eea8f2fcfa0faf1d971b9b6`
 - Ingest: `utf8-preview`
@@ -514,7 +514,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-ATOMS`
 #### SS-MAN-20260605-0166 - S4 Mindset
 
 - Path: `docs/archive/extracted/atoms/S4-mindset.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:structure`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 67861 bytes; Modified UTC: `2026-06-05T16:58:51.638830+00:00`
 - SHA-256: `f360e3061820682e92451fbc5b24c0bc963385bfde48c07f04d27e73deff46ac`
 - Ingest: `utf8-preview`
@@ -523,30 +523,30 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-ATOMS`
 #### SS-MAN-20260605-0167 - S5 Business
 
 - Path: `docs/archive/extracted/atoms/S5-business.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 73063 bytes; Modified UTC: `2026-06-05T16:58:51.638959+00:00`
 - SHA-256: `530b2b5fe54b2ca698357b07b838aea69f0d3944bef46501ba34ea5b2ed77116`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/atoms/S5-business.md`. Content signal: Idea: Request for a strategy to achieve 100 sales in 90 days as a new Enagic distributor. Acting as a brand new enagic salesman who just got their distributor ID - how would you get to 100 sales in the next 90 days? Section: Step 1: Build Your Foundation (Week 1)
 
-#### SS-MAN-20260605-0168 - 2.5pH Magic (or "Acidic Water")
+#### SS-MAN-20260605-0168 - 2.5pH Magic (or "Acidic Gateway")
 
-- Path: `docs/archive/extracted/atoms/S6-water.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/atoms/S6-gateway.md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 400556 bytes; Modified UTC: `2026-06-05T16:58:51.639542+00:00`
 - SHA-256: `a00dd640f3f62088fa5474d4045e3950449305c4866d619443647790c0abeace`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/atoms/S6-water.md`. Content signal: Idea: 2.5 pH Acidic Water Idea: Can you help me come up with sometime to add to my Instagram highlights about 2.5 oh water or hydroc... Can you help me come up with sometime to add to my Instagram highlights about 2.5 oh water or hydrochloric acid, what it does and why it killed my strep throat!?
+- Annotation: Readable project artifact at `docs/archive/extracted/atoms/S6-gateway.md`. Content signal: Idea: 2.5 pH Acidic Gateway Idea: Can you help me come up with sometime to add to my Instagram highlights about 2.5 oh gateway or hydroc... Can you help me come up with sometime to add to my Instagram highlights about 2.5 oh gateway or hydrochloric acid, what it does and why it killed my strep throat!?
 
 
 ### Archive Extracted: business
 
 Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 
-#### SS-MAN-20260605-0169 - 90-day Enagic water sales playbook
+#### SS-MAN-20260605-0169 - 90-day Enagic gateway sales playbook
 
 - Path: `docs/archive/extracted/business/100-sales-strategy.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 14570 bytes; Modified UTC: `2026-06-05T16:58:51.639681+00:00`
 - SHA-256: `cae1d44ba100582153742dd8c4ce2090035eef4c387d06d4bac63a4816e95fc2`
 - Ingest: `utf8-preview`
@@ -555,7 +555,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0170 - 80/20 prioritization for $10k months
 
 - Path: `docs/archive/extracted/business/20-80-rule-focus.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 81674 bytes; Modified UTC: `2026-06-05T16:58:51.639933+00:00`
 - SHA-256: `d6c967321ed55114ec9abd0bff70498bc3b6437b684abf0313f0a7bd712a8958`
 - Ingest: `utf8-preview`
@@ -564,7 +564,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0171 - Chart-based IG/FB/TikTok strategy
 
 - Path: `docs/archive/extracted/business/astrology-social-media-strategy.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 42596 bytes; Modified UTC: `2026-06-05T16:58:51.640019+00:00`
 - SHA-256: `ec7d15b345f679594f0ff3eed99163cbf7e0e3d8e768b197071d4d133a08b6f8`
 - Ingest: `utf8-preview`
@@ -573,7 +573,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0172 - Pull credit, dispute errors, utilization
 
 - Path: `docs/archive/extracted/business/credit-report-review-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:financial`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:vision`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4634 bytes; Modified UTC: `2026-06-05T16:58:51.640087+00:00`
 - SHA-256: `42b33bf19394b6d3b865b9c047fc2b7db797421aa158cfc7d3080075bd7db335`
 - Ingest: `utf8-preview`
@@ -582,7 +582,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0173 - Retreat + Spiral classes vision, funnel priorities
 
 - Path: `docs/archive/extracted/business/dream-retreat-vision.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 113773 bytes; Modified UTC: `2026-06-05T16:58:51.640243+00:00`
 - SHA-256: `6bb395889256fee1af2c3bc42abfbc303a94d9756510d39ff3b08ecf4d1432cb`
 - Ingest: `utf8-preview`
@@ -590,17 +590,17 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 
 #### SS-MAN-20260605-0174 - 12-step phased path to independence
 
-- Path: `docs/archive/extracted/business/financial-freedom-blueprint.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `pillar:financial`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/business/vision-freedom-blueprint.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `pillar:vision`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 8724 bytes; Modified UTC: `2026-06-05T16:58:51.640326+00:00`
 - SHA-256: `14ff0dfd806fbc28aadc47022e022b0d35756908f9f30338f968c0555fce24c4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/business/financial-freedom-blueprint.md`. Content signal: dominant_provenance: LOCAL dominant_nature: INSTRUCTION atoms: [ATM-B-126, ATM-B-128]
+- Annotation: Readable project artifact at `docs/archive/extracted/business/vision-freedom-blueprint.md`. Content signal: dominant_provenance: LOCAL dominant_nature: INSTRUCTION atoms: [ATM-B-126, ATM-B-128]
 
 #### SS-MAN-20260605-0175 - Vision-to-action: MVV, parking lot, 30-day sprint
 
 - Path: `docs/archive/extracted/business/idea-implementation-strategies.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7724 bytes; Modified UTC: `2026-06-05T16:58:51.640393+00:00`
 - SHA-256: `076a1824c454e76f2a8be4f4d58fad43052729483ca1bf4cc4fecedadba3702a`
 - Ingest: `utf8-preview`
@@ -609,7 +609,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0176 - 17-day projection, launch checklist
 
 - Path: `docs/archive/extracted/business/income-projections-and-strategies.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 26574 bytes; Modified UTC: `2026-06-05T16:58:51.640461+00:00`
 - SHA-256: `9e2426d3bf72eff1d4d62f75e9564000492e5ec748167d2ce463fb06f2368b4b`
 - Ingest: `utf8-preview`
@@ -618,16 +618,16 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0177 - Empty
 
 - Path: `docs/archive/extracted/business/instagram-grid-visualization.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 661 bytes; Modified UTC: `2026-06-05T16:58:51.640507+00:00`
 - SHA-256: `aee41697d0632bffb54fc692808ebcdf7e3ec6e739ea04d3f742fc29c739bb82`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/business/instagram-grid-visualization.md`. Content signal: dominant_provenance: N/A source_file: "ChatGPT-Instagram grid visualization.txt" source_folder: "business"
 
-#### SS-MAN-20260605-0178 - Identity transition, NS integration post-rest
+#### SS-MAN-20260605-0178 - Structure transition, NS integration post-rest
 
 - Path: `docs/archive/extracted/business/job-transition-advice.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 30119 bytes; Modified UTC: `2026-06-05T16:58:51.640584+00:00`
 - SHA-256: `d6d444228998e6781362a59e855027c58af142e4460dc2a1965e89271f89e2c5`
 - Ingest: `utf8-preview`
@@ -636,7 +636,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0179 - Market saturation, authentic positioning
 
 - Path: `docs/archive/extracted/business/novel-funnel-strategies.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 122371 bytes; Modified UTC: `2026-06-05T16:58:51.640869+00:00`
 - SHA-256: `b7d9357be3a04dc4936c7cbc590907059feed929422a0eb89f7254045a9fae81`
 - Ingest: `utf8-preview`
@@ -644,26 +644,26 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 
 #### SS-MAN-20260605-0180 - Image request (label)
 
-- Path: `docs/archive/extracted/business/plastic-water-label-design.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/business/plastic-gateway-label-design.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 14321 bytes; Modified UTC: `2026-06-05T16:58:51.640978+00:00`
 - SHA-256: `5a5c935f32b2163f78ed5eb97dc72d94afc290698b234b1de8d4a2fa10ed996f`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/business/plastic-water-label-design.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/business/plastic-gateway-label-design.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM - name: "Prompt-Response"
 
 #### SS-MAN-20260605-0181 - 3-phase: foundation/GHL, soft launch, follow-up
 
 - Path: `docs/archive/extracted/business/sales-momentum-plan.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 6898 bytes; Modified UTC: `2026-06-05T16:58:51.641161+00:00`
 - SHA-256: `42be13402fe67b20d02be653cceb1270e4a6ab3f1ad2555d7ef8509d7774929b`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/business/sales-momentum-plan.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM - name: "Prompt-Response"
 
-#### SS-MAN-20260605-0182 - 3 FB caption templates for water
+#### SS-MAN-20260605-0182 - 3 FB caption templates for gateway
 
 - Path: `docs/archive/extracted/business/wagyu-post-conversion-tips.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 28273 bytes; Modified UTC: `2026-06-05T16:58:51.641245+00:00`
 - SHA-256: `9db385b9e77dae6fb08b8899afd97992ccf84a833392859ddee61454faae2ba5`
 - Ingest: `utf8-preview`
@@ -672,7 +672,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-BUSINESS`
 #### SS-MAN-20260605-0183 - Empty
 
 - Path: `docs/archive/extracted/business/website-launch-and-app-timeline.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 669 bytes; Modified UTC: `2026-06-05T16:58:51.641317+00:00`
 - SHA-256: `477ec7ee065f8a33d361c92f9d879556d59c442c1f8420eab02d74cf477fe3f6`
 - Ingest: `utf8-preview`
@@ -686,7 +686,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0184 - Compound Effect + Radical Forgiveness + Happy Pocket distilled
 
 - Path: `docs/archive/extracted/concepts/book-concept-breakdown.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5695 bytes; Modified UTC: `2026-06-05T16:58:51.641474+00:00`
 - SHA-256: `c6ee1ce0cedd2a51c05382c66f94423a642fe1e77c15d6a33a930abb5d98cf50`
 - Ingest: `utf8-preview`
@@ -704,7 +704,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0186 - Somatic embodiment, animal wisdom brand concept
 
 - Path: `docs/archive/extracted/concepts/creature-selves-resources.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 22390 bytes; Modified UTC: `2026-06-05T16:58:51.642117+00:00`
 - SHA-256: `5c59a13b3e1a9054c2f765c2c6b4fa3393fda098cd24b6f89843648f74688a1e`
 - Ingest: `utf8-preview`
@@ -713,7 +713,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0187 - Poetic daily rhythm piece
 
 - Path: `docs/archive/extracted/concepts/divine-feminine-flow.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5326 bytes; Modified UTC: `2026-06-05T16:58:51.642207+00:00`
 - SHA-256: `a8b4e4b3c72eb94169b9e7182185c6d2d07614d4c1b140c8561db177d897ab55`
 - Ingest: `utf8-preview`
@@ -722,7 +722,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0188 - Neurochemistry of masc/fem drives
 
 - Path: `docs/archive/extracted/concepts/dopamine-vs-oxytocin-dynamics.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5177 bytes; Modified UTC: `2026-06-05T16:58:51.642282+00:00`
 - SHA-256: `ffc5ca6aa40cbd74350ac444dd2ebb350eaca8e1a5714a9d45e3aa975681beeb`
 - Ingest: `utf8-preview`
@@ -740,7 +740,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0190 - Physics: quanta, oscillation, astrology-as-imprint
 
 - Path: `docs/archive/extracted/concepts/energy-waves-and-oscillations.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 25550 bytes; Modified UTC: `2026-06-05T16:58:51.642461+00:00`
 - SHA-256: `f03d2fe818c6043d66d58a3df1c4d1b1e0cc36c4988c6def67624967a0242404`
 - Ingest: `utf8-preview`
@@ -749,7 +749,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0191 - What Gallup is, 1000-person validity
 
 - Path: `docs/archive/extracted/concepts/gallup-poll-usage-today.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:identity`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:structure`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 7736 bytes; Modified UTC: `2026-06-05T16:58:51.642729+00:00`
 - SHA-256: `9cba2e6ef3c1a83e792cbb6e52ca06ba3f5d6fa8e2386e12a041ceba1f9fd9e1`
 - Ingest: `utf8-preview`
@@ -758,7 +758,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0192 - Spiritual spinal interpretation, past-life techniques
 
 - Path: `docs/archive/extracted/concepts/hunched-back-and-past-lives.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 27885 bytes; Modified UTC: `2026-06-05T16:58:51.642823+00:00`
 - SHA-256: `a22357cf5ba853a4bacce11c75880fffe3a5cf4e7103466f4a590351fbd56102`
 - Ingest: `utf8-preview`
@@ -767,7 +767,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0193 - DUPLICATE of business/ file
 
 - Path: `docs/archive/extracted/concepts/idea-implementation-strategies-duplicate.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:spec`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5770 bytes; Modified UTC: `2026-06-05T16:58:51.642919+00:00`
 - SHA-256: `690934513dceba677c471ce1720d9c66cf55f8138274eb83500ba013b4366432`
 - Ingest: `utf8-preview`
@@ -785,7 +785,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-CONCEPTS`
 #### SS-MAN-20260605-0195 - Audio frequency analysis, NS impact assessment
 
 - Path: `docs/archive/extracted/concepts/sound-frequency-analysis.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 16206 bytes; Modified UTC: `2026-06-05T16:58:51.643108+00:00`
 - SHA-256: `b1f1959adc18ed70eb47bd069777414f18d47c0e46f6171f4dced96c1804d0e7`
 - Ingest: `utf8-preview`
@@ -808,7 +808,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0198 - Acupressure for money blocks, self-doubt, fear
 
 - Path: `docs/archive/extracted/health/30-day-acupressure-routine.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:session`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:session`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 48969 bytes; Modified UTC: `2026-06-05T16:58:51.643555+00:00`
 - SHA-256: `5d347e15caa2a8cb51fdd013ca3643765041d936bb0e7bd734f3085f41f99d3f`
 - Ingest: `utf8-preview`
@@ -817,7 +817,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0199 - IG captions: chemical exposure + inflammation
 
 - Path: `docs/archive/extracted/health/aerosols-and-cleaning-products.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `topic:atoms`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 3196 bytes; Modified UTC: `2026-06-05T16:58:51.643619+00:00`
 - SHA-256: `4bf8fb910847229ab15f55eede9bc22a4412f90f2e10865d1fda2a1512260f2b`
 - Ingest: `utf8-preview`
@@ -826,7 +826,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0200 - Fact-check BCBSA 2020 report, ages 30-44
 
 - Path: `docs/archive/extracted/health/alzheimers-373-increase-explained.md`
-- Tags: `area:docs`, `corpus:extracted`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 346 bytes; Modified UTC: `2026-06-05T16:58:51.643675+00:00`
 - SHA-256: `9d37f08f4efe744f314ad492ce3421bf134962dc4b0336b5b10005a282f00b6c`
 - Ingest: `utf8-preview`
@@ -835,7 +835,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0201 - BC effects, books, podcasts, nutrient depletion, alternatives
 
 - Path: `docs/archive/extracted/health/birth-control-resources-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 124010 bytes; Modified UTC: `2026-06-05T16:58:51.643970+00:00`
 - SHA-256: `011ca1b460e5c17b11a7eda017c78731c9cde5c7c5f9f24ad983451db88bc49a`
 - Ingest: `utf8-preview`
@@ -844,7 +844,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0202 - Menstrual cycle shifts, intimacy, friendship boundaries
 
 - Path: `docs/archive/extracted/health/body-trust-and-shifts.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 22501 bytes; Modified UTC: `2026-06-05T16:58:51.644052+00:00`
 - SHA-256: `82db1f689a40ed6f9b44323847d970579da0106c2b0482807c3d4822650379fa`
 - Ingest: `utf8-preview`
@@ -853,7 +853,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0203 - Cycle-synced glute plan, hormone-friendly meals
 
 - Path: `docs/archive/extracted/health/bubble-butt-fitness-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:physical`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:foundation`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 45367 bytes; Modified UTC: `2026-06-05T16:58:51.644282+00:00`
 - SHA-256: `1e8c7a2400b78ea8f9aa4180c77ceadaa551b3df4d785da85989643482e9ecc1`
 - Ingest: `utf8-preview`
@@ -862,7 +862,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0204 - 30-day voice-to-cells protocol (speculative)
 
 - Path: `docs/archive/extracted/health/cellular-reprogramming-through-voice.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 13022 bytes; Modified UTC: `2026-06-05T16:58:51.644402+00:00`
 - SHA-256: `b7a034d41e3e0d770c8cbe27a59dbef32434ce58caf68cf1dd3d6bf095a1aad9`
 - Ingest: `utf8-preview`
@@ -871,7 +871,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0205 - Chlorine skin absorption science, DBPs, timelines
 
 - Path: `docs/archive/extracted/health/chlorine-absorption-time.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4606 bytes; Modified UTC: `2026-06-05T16:58:51.644475+00:00`
 - SHA-256: `a71c80c46b115765c79ad33aa421d4fd6f44be6426f6295351c1109a5b6054db`
 - Ingest: `utf8-preview`
@@ -880,7 +880,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0206 - IG carousel: cortisol as disease root, 90-sec reset
 
 - Path: `docs/archive/extracted/health/cortisol-stress-carousel.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `pillar:financial`, `pillar:physical`, `topic:atoms`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `pillar:vision`, `pillar:foundation`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 5943 bytes; Modified UTC: `2026-06-05T16:58:51.644717+00:00`
 - SHA-256: `18966eec5dafade73b3802f3a2917e2a0a7b63b7591d7eaafa6bec4d5866f549`
 - Ingest: `utf8-preview`
@@ -889,7 +889,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0207 - CymaScope, cymatics, sound-vibration healing claims
 
 - Path: `docs/archive/extracted/health/cymascope-and-healing-frequencies.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 9021 bytes; Modified UTC: `2026-06-05T16:58:51.644810+00:00`
 - SHA-256: `6ea9fabdcfd3dbab95e49ea76a3232be2d096db84ef02d8e617debc6037443d0`
 - Ingest: `utf8-preview`
@@ -898,7 +898,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0208 - Western + TCM causes, acupuncture evidence
 
 - Path: `docs/archive/extracted/health/endometriosis-causes-and-practices.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 13941 bytes; Modified UTC: `2026-06-05T16:58:51.644921+00:00`
 - SHA-256: `b928066e3a7bd1627092e4d330edff2fdc4d90f8f836cb7f08bba1b9d76ec1b6`
 - Ingest: `utf8-preview`
@@ -907,7 +907,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0209 - Fascia-emotion link, chakra mapping, spiral line
 
 - Path: `docs/archive/extracted/health/fascia-and-emotions-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 42683 bytes; Modified UTC: `2026-06-05T16:58:51.645157+00:00`
 - SHA-256: `c585d306ca8270deab96a8fd9fbf8ec3d490116bd4fc7e394b535a27a7f9a98a`
 - Ingest: `utf8-preview`
@@ -916,7 +916,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0210 - HIMYM meme: FDA-approved carcinogens
 
 - Path: `docs/archive/extracted/health/fda-just-a-little-bit-carcinogens.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 24899 bytes; Modified UTC: `2026-06-05T16:58:51.645251+00:00`
 - SHA-256: `107837f3115c48b4b6c0d09ab13f76e3a8ce0204b70581bb9db784c57e5f404a`
 - Ingest: `utf8-preview`
@@ -925,7 +925,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0211 - IG Reel script + caption, Maslow's hierarchy
 
 - Path: `docs/archive/extracted/health/feel-good-first-script.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 88256 bytes; Modified UTC: `2026-06-05T16:58:51.645497+00:00`
 - SHA-256: `ed199d78efc9771e9dca126730c0acfe9f8ae4d385ef28da1fbc5b7e2869895f`
 - Ingest: `utf8-preview`
@@ -934,7 +934,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0212 - Cycle-based gut rebuild, supplements, exercise
 
 - Path: `docs/archive/extracted/health/gut-rebuilding-diet-plan.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 30021 bytes; Modified UTC: `2026-06-05T16:58:51.645579+00:00`
 - SHA-256: `0219a7ecb928f401c6f3f3a28a43448df55d978fda7e64b6e15aa34203ae22f8`
 - Ingest: `utf8-preview`
@@ -943,7 +943,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0213 - Hypermobile EDS, misdiagnosis, fascia connection
 
 - Path: `docs/archive/extracted/health/heds-symptoms-and-diagnosis.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 22848 bytes; Modified UTC: `2026-06-05T16:58:51.645669+00:00`
 - SHA-256: `34f9577e721418cbef7a59d3c0cae48d5ca8b8b8c5393d3d1823f47bcd337cce`
 - Ingest: `utf8-preview`
@@ -952,7 +952,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0214 - U.S. prevalence stats: IBS, constipation, migraines
 
 - Path: `docs/archive/extracted/health/hemorrhoids-and-daily-discomfort.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6793 bytes; Modified UTC: `2026-06-05T16:58:51.645746+00:00`
 - SHA-256: `bcf5dccb73b3649b8042224f8903d6de7acaab2d01d3a604d5e705ffdcc09acf`
 - Ingest: `utf8-preview`
@@ -961,7 +961,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0215 - E-A-U Spiral Blueprint: 8-stage heroine's journey
 
 - Path: `docs/archive/extracted/health/heroines-healing-journey.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 54335 bytes; Modified UTC: `2026-06-05T16:58:51.645982+00:00`
 - SHA-256: `94142c1a350a35af6407fdc93aac0bcb5b8f010f9734509bfe377f978d30a5b6`
 - Ingest: `utf8-preview`
@@ -970,7 +970,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0216 - Free ebook outline: cycle tracking, phase nutrition
 
 - Path: `docs/archive/extracted/health/hormone-cycle-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 75823 bytes; Modified UTC: `2026-06-05T16:58:51.646106+00:00`
 - SHA-256: `95b22365a40098c3dfc4c9cb980a33a3dd5e9cf08f95107730e658306614b921`
 - Ingest: `utf8-preview`
@@ -979,34 +979,34 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0217 - Empty export
 
 - Path: `docs/archive/extracted/health/hormones-eating-cycles.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 604 bytes; Modified UTC: `2026-06-05T16:58:51.646166+00:00`
 - SHA-256: `45e0a3a051455c04b92bea71b8cbd85f842e12196498a56f660249132c05b04b`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/health/hormones-eating-cycles.md`. Content signal: dominant_provenance: LOCAL title: "Empty export" source_file: "ChatGPT-Hormones ! eating ! cycles.txt"
 
-#### SS-MAN-20260605-0218 - Root-Cause Pyramid, Square Zero = hydration
+#### SS-MAN-20260605-0218 - Root-Cause Pyramid, Square Zero = gateway
 
-- Path: `docs/archive/extracted/health/hydration-and-blood-sugar.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Path: `docs/archive/extracted/health/gateway-and-blood-sugar.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 26579 bytes; Modified UTC: `2026-06-05T16:58:51.646371+00:00`
 - SHA-256: `047059058422a06eb69a9749839d49984085d8dd7020a170a95bb3fd49e03b9b`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/health/hydration-and-blood-sugar.md`. Content signal: dominant_provenance: LOCAL dominant_nature: SCRIPT atoms: [ATM-H-299, ATM-H-301, ATM-H-303, ATM-H-305, ATM-H-307, ATM-H-309]
+- Annotation: Readable project artifact at `docs/archive/extracted/health/gateway-and-blood-sugar.md`. Content signal: dominant_provenance: LOCAL dominant_nature: SCRIPT atoms: [ATM-H-299, ATM-H-301, ATM-H-303, ATM-H-305, ATM-H-307, ATM-H-309]
 
 #### SS-MAN-20260605-0219 - 60-sec video script for sales
 
-- Path: `docs/archive/extracted/health/hydration-and-inflammation-video.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Path: `docs/archive/extracted/health/gateway-and-inflammation-video.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 14875 bytes; Modified UTC: `2026-06-05T16:58:51.646482+00:00`
 - SHA-256: `629694046ed88edd55be5a92f5ec43927417a6899e6377f7a733fcb00ef438b8`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/health/hydration-and-inflammation-video.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-H-311, ATM-H-313, ATM-H-315, ATM-H-317, ATM-H-319]
+- Annotation: Readable project artifact at `docs/archive/extracted/health/gateway-and-inflammation-video.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-H-311, ATM-H-313, ATM-H-315, ATM-H-317, ATM-H-319]
 
-#### SS-MAN-20260605-0220 - 5-question self-assessment for water sales
+#### SS-MAN-20260605-0220 - 5-question self-assessment for gateway sales
 
 - Path: `docs/archive/extracted/health/inflammation-self-check-questions.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 11087 bytes; Modified UTC: `2026-06-05T16:58:51.646568+00:00`
 - SHA-256: `d895f477ddd4b9478990acd61ce8af1131cf71a80d809dbc05f065cd6b281644`
 - Ingest: `utf8-preview`
@@ -1015,7 +1015,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0221 - Fact-check: gender gap in research, J. Marion Sims
 
 - Path: `docs/archive/extracted/health/medical-research-gender-gap.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 25120 bytes; Modified UTC: `2026-06-05T16:58:51.646644+00:00`
 - SHA-256: `a75a3ad6a6b15935e1cbc047a0c1eeb1f05db1869e21378468d7a7e09b0376ca`
 - Ingest: `utf8-preview`
@@ -1024,7 +1024,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0222 - U.S. milk/beef sourcing, import data, welfare
 
 - Path: `docs/archive/extracted/health/milk-source-in-the-us.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 13085 bytes; Modified UTC: `2026-06-05T16:58:51.646742+00:00`
 - SHA-256: `51edf1ff893f6d92fac3bc07b799878218b59b080f18fcca154d60cb6c401616`
 - Ingest: `utf8-preview`
@@ -1032,17 +1032,17 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 
 #### SS-MAN-20260605-0223 - ATP/metabolic waste hypothesis (speculative)
 
-- Path: `docs/archive/extracted/health/neurodivergence-and-autoimmune-links.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/health/neurodivergence-and-archetype-beta-links.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4401 bytes; Modified UTC: `2026-06-05T16:58:51.646916+00:00`
 - SHA-256: `90a2105d392c540b86296d69700db6adb372d6c3a07e614be9f631362be6e6d4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/health/neurodivergence-and-autoimmune-links.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-H-337, ATM-H-339]
+- Annotation: Readable project artifact at `docs/archive/extracted/health/neurodivergence-and-archetype-beta-links.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-H-337, ATM-H-339]
 
 #### SS-MAN-20260605-0224 - Diet protocol during cleanse, anti-parasite foods
 
 - Path: `docs/archive/extracted/health/parasite-cleanse-diet-tips.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 5270 bytes; Modified UTC: `2026-06-05T16:58:51.646980+00:00`
 - SHA-256: `8f5b8ee94b790eb97d0d3065f01b70ba1cebedd11ef96e360983c316857542db`
 - Ingest: `utf8-preview`
@@ -1051,25 +1051,25 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH`
 #### SS-MAN-20260605-0225 - Phrases for communicating period rest needs
 
 - Path: `docs/archive/extracted/health/period-related-rest-plans.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2444 bytes; Modified UTC: `2026-06-05T16:58:51.647029+00:00`
 - SHA-256: `01a5c9e8282ca945b65bd1e88055d903c22c52e439705190ae90a246e77ee7d6`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/health/period-related-rest-plans.md`. Content signal: dominant_provenance: LOCAL dominant_nature: NARRATIVE title: "Phrases for communicating period rest needs"
 
-#### SS-MAN-20260605-0226 - Sound through water creates light, physics
+#### SS-MAN-20260605-0226 - Sound through gateway creates light, physics
 
 - Path: `docs/archive/extracted/health/sonoluminescence-phenomenon-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4752 bytes; Modified UTC: `2026-06-05T16:58:51.647098+00:00`
 - SHA-256: `4cb55e3da68439be9683006fc17953b0e9fee2302d41b2c0a864c04c76588ea3`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/health/sonoluminescence-phenomenon-explained.md`. Content signal: dominant_provenance: LOCAL dominant_nature: QUESTION title: "Sound through water creates light, physics"
+- Annotation: Readable project artifact at `docs/archive/extracted/health/sonoluminescence-phenomenon-explained.md`. Content signal: dominant_provenance: LOCAL dominant_nature: QUESTION title: "Sound through gateway creates light, physics"
 
 #### SS-MAN-20260605-0227 - Glutathione, MSM, hot springs, alchemy
 
 - Path: `docs/archive/extracted/health/sulphur-benefits-and-history.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 29812 bytes; Modified UTC: `2026-06-05T16:58:51.647189+00:00`
 - SHA-256: `56c35c2aa88a2b56fc176053cf76b76fbf9c4f8b5543e6a832c4580a40c9d52d`
 - Ingest: `utf8-preview`
@@ -1083,7 +1083,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-HEALTH-HORMONES-AND-HEALING-MD`
 #### SS-MAN-20260605-0197 - ![](media/image1.png){width="2.625in" height="1.3553412073490814in"}
 
 - Path: `docs/archive/extracted/health-hormones-and-healing.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 24990 bytes; Modified UTC: `2026-06-05T16:58:51.643437+00:00`
 - SHA-256: `b7e8256f5be5b7f76400d099ad7cc9ecb04f198ddefc6951fe8e7fdf86afa914`
 - Ingest: `utf8-preview`
@@ -1097,16 +1097,16 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0229 - Spoken affirmation script, $2,500 receiving
 
 - Path: `docs/archive/extracted/mindset/affirmation-track-for-abundance.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7292 bytes; Modified UTC: `2026-06-05T16:58:51.647384+00:00`
 - SHA-256: `ee718cf0becec3e95d42c8b6fb0c8ba82ee7c4b000367c45bed170de9465d9ab`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/mindset/affirmation-track-for-abundance.md`. Content signal: dominant_provenance: LOCAL dominant_nature: FRAMEWORK atoms: [ATM-M-001, ATM-M-003]
 
-#### SS-MAN-20260605-0230 - Philosopher's Stone, inner alchemy from The Alchemist
+#### SS-MAN-20260605-0230 - Philosopher's Stone, system alchemy from The Alchemist
 
 - Path: `docs/archive/extracted/mindset/alchemy-and-spiritual-symbolism.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 48077 bytes; Modified UTC: `2026-06-05T16:58:51.647570+00:00`
 - SHA-256: `d9d339913943678bf80825c45d791c2f51015b15b7ebd1e0122baa44287b4220`
 - Ingest: `utf8-preview`
@@ -1115,7 +1115,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0231 - Feel or Free emotional sorting practice
 
 - Path: `docs/archive/extracted/mindset/anger-processing-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 16553 bytes; Modified UTC: `2026-06-05T16:58:51.647636+00:00`
 - SHA-256: `7f0827299dca66e28aa5a9eb2a680517c779fc6d5d7b4cd90c70f2097a8bd4b7`
 - Ingest: `utf8-preview`
@@ -1124,7 +1124,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0232 - AIR Method for balancing curiosity + implementation
 
 - Path: `docs/archive/extracted/mindset/ask-integrate-reflect-method.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:identity`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:structure`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14542 bytes; Modified UTC: `2026-06-05T16:58:51.647739+00:00`
 - SHA-256: `b5254fab9afda6c92c272bc144ec5a160b271591f76060a4f00e4492a3e70c97`
 - Ingest: `utf8-preview`
@@ -1133,7 +1133,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0233 - Money and Law of Attraction reel summary
 
 - Path: `docs/archive/extracted/mindset/attracting-wealth-with-mindset.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2544 bytes; Modified UTC: `2026-06-05T16:58:51.647789+00:00`
 - SHA-256: `13dbc255db043f313502594582770d7fdd8c4ada3b410aa2e85db87c36f9e239`
 - Ingest: `utf8-preview`
@@ -1142,7 +1142,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0234 - Yin/yang balance during breakup recovery
 
 - Path: `docs/archive/extracted/mindset/balancing-masculine-and-feminine.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 49162 bytes; Modified UTC: `2026-06-05T16:58:51.647864+00:00`
 - SHA-256: `30b30043c9fd92c82acba333c3c3ae39ad09925c7536e2b28e74dd618c339964`
 - Ingest: `utf8-preview`
@@ -1151,7 +1151,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0235 - 5 blindspots, 5 gaps, 5 shadows + integration
 
 - Path: `docs/archive/extracted/mindset/blindspots-gaps-and-cons.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 31592 bytes; Modified UTC: `2026-06-05T16:58:51.648062+00:00`
 - SHA-256: `71dc21331c03a5939616c8e3d5ce0b8db0d928defd3cb837dee2b7666707c17a`
 - Ingest: `utf8-preview`
@@ -1160,7 +1160,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0236 - Freudian + Jungian + Eastern ego, 5-step process
 
 - Path: `docs/archive/extracted/mindset/ego-integration-and-overcoming.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 56721 bytes; Modified UTC: `2026-06-05T16:58:51.648169+00:00`
 - SHA-256: `92ea2b1559b7e1db9b349f920e3ee6f952d0ed2ca66ceb98dfdca5ca1e5af88a`
 - Ingest: `utf8-preview`
@@ -1169,7 +1169,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0237 - Relationship conflict, emotional boundaries
 
 - Path: `docs/archive/extracted/mindset/emotional-misattunement-explanation.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 30014 bytes; Modified UTC: `2026-06-05T16:58:51.648337+00:00`
 - SHA-256: `45595a9c32db9c03d85f42e4ae9dfc604cf1281f9f3f642b85f3e71812aca3f1`
 - Ingest: `utf8-preview`
@@ -1178,7 +1178,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0238 - Career fields, high-ticket affiliate strategy
 
 - Path: `docs/archive/extracted/mindset/entrepreneurship-development-recommendations.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 84637 bytes; Modified UTC: `2026-06-05T16:58:51.648460+00:00`
 - SHA-256: `7cd199a7b877ec5aaf4a61ae4c02346453fe9258908b6e96855f5b762b54bd3e`
 - Ingest: `utf8-preview`
@@ -1187,7 +1187,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0239 - Fifth element across science/metaphysics/alchemy
 
 - Path: `docs/archive/extracted/mindset/ether-concepts-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 24971 bytes; Modified UTC: `2026-06-05T16:58:51.648644+00:00`
 - SHA-256: `099588af060c0a3430e633b93f71ae0016856b8901ec6a09e257031d9c0d13cb`
 - Ingest: `utf8-preview`
@@ -1196,7 +1196,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0240 - Visibility wounds, witch wound, somatic healing
 
 - Path: `docs/archive/extracted/mindset/fear-of-being-seen.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 13585 bytes; Modified UTC: `2026-06-05T16:58:51.648749+00:00`
 - SHA-256: `0eed12160fa4dc9bfdcd9005589d3241aec368dd29a21fd23e5748f500399c81`
 - Ingest: `utf8-preview`
@@ -1205,7 +1205,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0241 - Emotional freeze/shutdown, somatic prompts
 
 - Path: `docs/archive/extracted/mindset/frozen-feelings-and-support.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 43856 bytes; Modified UTC: `2026-06-05T16:58:51.648826+00:00`
 - SHA-256: `b3f00327e6c06714992785bbd74dd13ec70e80e20544675673fc2ceedd497cae`
 - Ingest: `utf8-preview`
@@ -1214,7 +1214,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0242 - Reel concept: 4 pillars of well-being
 
 - Path: `docs/archive/extracted/mindset/happiness-as-a-state.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 64816 bytes; Modified UTC: `2026-06-05T16:58:51.649051+00:00`
 - SHA-256: `aede7cf224d25fd89d0d6bd9881076297793435bda9b6b9e2c6604431d1233ac`
 - Ingest: `utf8-preview`
@@ -1223,7 +1223,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0243 - Meta-architecture of the Spiral product itself
 
 - Path: `docs/archive/extracted/mindset/healing-growth-blueprint-1-0.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 66041 bytes; Modified UTC: `2026-06-05T16:58:51.649190+00:00`
 - SHA-256: `598d3da769652b626ee15564c8427823748acba2204cd83cf3c9f7feaac75ae0`
 - Ingest: `utf8-preview`
@@ -1231,26 +1231,26 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 
 #### SS-MAN-20260605-0244 - Full book concept, 5 parts, 11 chapters
 
-- Path: `docs/archive/extracted/mindset/inner-child-book-concept.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/mindset/system-child-book-concept.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 15608 bytes; Modified UTC: `2026-06-05T16:58:51.649698+00:00`
 - SHA-256: `5ddeb41c9e7f270171ea35691df34ef56c57d62cea2c6e975c35dc57117dd50a`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/mindset/inner-child-book-concept.md`. Content signal: dominant_provenance: HYBRID dominant_nature: TOOL atoms: [ATM-M-316, ATM-M-318]
+- Annotation: Readable project artifact at `docs/archive/extracted/mindset/system-child-book-concept.md`. Content signal: dominant_provenance: HYBRID dominant_nature: TOOL atoms: [ATM-M-316, ATM-M-318]
 
 #### SS-MAN-20260605-0245 - Pool incident mirror, fawning, reparenting
 
-- Path: `docs/archive/extracted/mindset/inner-child-healing.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/mindset/system-child-healing.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:structure`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7893 bytes; Modified UTC: `2026-06-05T16:58:51.649769+00:00`
 - SHA-256: `373d21cc008b2a7d4d704795be6aa0e52f692b0cbbbbbc76fb1243040053b8c4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/mindset/inner-child-healing.md`. Content signal: dominant_provenance: LOCAL dominant_nature: NARRATIVE atoms: [ATM-M-325, ATM-M-327]
+- Annotation: Readable project artifact at `docs/archive/extracted/mindset/system-child-healing.md`. Content signal: dominant_provenance: LOCAL dominant_nature: NARRATIVE atoms: [ATM-M-325, ATM-M-327]
 
 #### SS-MAN-20260605-0246 - Relationship insecurity, self-respect reframe
 
 - Path: `docs/archive/extracted/mindset/insecurity-and-self-respect.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 126107 bytes; Modified UTC: `2026-06-05T16:58:51.650239+00:00`
 - SHA-256: `d38ab92967e224398b0ebbb2ee95dda25785e04aeefed54e2b534cace43141f6`
 - Ingest: `utf8-preview`
@@ -1259,7 +1259,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0247 - 5-step manifestation protocol + vision board
 
 - Path: `docs/archive/extracted/mindset/manifestation-mastery-secrets.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 298570 bytes; Modified UTC: `2026-06-05T16:58:51.650800+00:00`
 - SHA-256: `59a198dfdcc297d038c0fc4fa749ea2a78b4df7845360bc85e11024205f40263`
 - Ingest: `utf8-preview`
@@ -1268,7 +1268,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0248 - Yang/Yin task lists, daily check-in template
 
 - Path: `docs/archive/extracted/mindset/masculine-feminine-balance-tracker.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 18439 bytes; Modified UTC: `2026-06-05T16:58:51.650898+00:00`
 - SHA-256: `3a680e3e4b8c24e464b8e5e3b979cfe51a481c21f842ca4fe07bc0d17c2d445d`
 - Ingest: `utf8-preview`
@@ -1277,7 +1277,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0249 - Real-time yin check-in, affirmation, regulation
 
 - Path: `docs/archive/extracted/mindset/masculine-vs-feminine-balance.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 21571 bytes; Modified UTC: `2026-06-05T16:58:51.650979+00:00`
 - SHA-256: `2c2ae18fa151c80da12b55998af0545f348c08358da4d8f7222e60bfc5ff8bed`
 - Ingest: `utf8-preview`
@@ -1286,7 +1286,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0250 - Budget meal plans, veggie incorporation
 
 - Path: `docs/archive/extracted/mindset/meal-planning-and-budgeting-help.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10611 bytes; Modified UTC: `2026-06-05T16:58:51.651061+00:00`
 - SHA-256: `ec9cca2a867c638c19cd18958cde4db7da60c185b292bac0ad4e9032e5694a15`
 - Ingest: `utf8-preview`
@@ -1295,7 +1295,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0251 - 6 categories, diagnostic questionnaire, clearing tools
 
 - Path: `docs/archive/extracted/mindset/money-block-removal-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 56166 bytes; Modified UTC: `2026-06-05T16:58:51.651318+00:00`
 - SHA-256: `fcb4bbd1f1658295db5aa48c80268ef178bd0d2b468c2137de9104f3c06a1dad`
 - Ingest: `utf8-preview`
@@ -1304,7 +1304,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0252 - Brain wiring, neural pruning, neurodivergent brains
 
 - Path: `docs/archive/extracted/mindset/neuro-signatures-and-pruning-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 18909 bytes; Modified UTC: `2026-06-05T16:58:51.651387+00:00`
 - SHA-256: `b1de1eb1a079e3954f2750a797aabdc8be2fb0e63b19bdf2e90bc2c6adf40c2f`
 - Ingest: `utf8-preview`
@@ -1313,7 +1313,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0253 - Roots of overexplaining, 5-min confidence drill
 
 - Path: `docs/archive/extracted/mindset/overexplaining-and-conciseness-tips.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:identity`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:structure`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 8557 bytes; Modified UTC: `2026-06-05T16:58:51.651458+00:00`
 - SHA-256: `4e2f753f4384fd7c9dfd4c7996b37231a81e8398a9bef30e2ea6b2bf47e117be`
 - Ingest: `utf8-preview`
@@ -1322,7 +1322,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0254 - Brain dump to stability/expansion/vision sorting
 
 - Path: `docs/archive/extracted/mindset/overwhelm-to-clarity.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 25182 bytes; Modified UTC: `2026-06-05T16:58:51.651524+00:00`
 - SHA-256: `69754e22d59c4ba90e1edb399af4b4ba5d1953529e0f6fbfa7e5bd534441c4a2`
 - Ingest: `utf8-preview`
@@ -1331,7 +1331,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0255 - Consciousness as rendering engine, simulation
 
 - Path: `docs/archive/extracted/mindset/rendering-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5770 bytes; Modified UTC: `2026-06-05T16:58:51.651587+00:00`
 - SHA-256: `aaf5ce70beec1530e02e41431d24118ca2b8f42daa4dc39ce268ec326fa0ee94`
 - Ingest: `utf8-preview`
@@ -1340,7 +1340,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0256 - Metamorphosis metaphor, caterpillar dissolution
 
 - Path: `docs/archive/extracted/mindset/romanticized-reality-of-change.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5295 bytes; Modified UTC: `2026-06-05T16:58:51.651648+00:00`
 - SHA-256: `2dcd8b3cce5d8020fe1a82760e1501469bf41a5555c3f4684c060d21967d594f`
 - Ingest: `utf8-preview`
@@ -1349,7 +1349,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0257 - Self-love as prerequisite, Master of Love
 
 - Path: `docs/archive/extracted/mindset/self-awareness-and-love.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:identity`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:structure`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 18866 bytes; Modified UTC: `2026-06-05T16:58:51.651703+00:00`
 - SHA-256: `7795a4ca75ac48d965efcaa27e4a1a783159b05b22542cb06a6f473017ac3c8c`
 - Ingest: `utf8-preview`
@@ -1358,7 +1358,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0258 - Attachment styles, self-soothing origins
 
 - Path: `docs/archive/extracted/mindset/self-soothing-in-adulthood.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4255 bytes; Modified UTC: `2026-06-05T16:58:51.651774+00:00`
 - SHA-256: `5e27569851fd3ae95927eab3f767e70a3cd03202468ae6dcfcc6e90c7a66d8e7`
 - Ingest: `utf8-preview`
@@ -1376,7 +1376,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0260 - IG caption: thoughts to beliefs to reality
 
 - Path: `docs/archive/extracted/mindset/shift-your-mindset.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 6223 bytes; Modified UTC: `2026-06-05T16:58:51.651875+00:00`
 - SHA-256: `c1ab2d43d567eaffb119394578e1f29fe023c80a6f5e1aafc9ddec0ccc2070e7`
 - Ingest: `utf8-preview`
@@ -1385,7 +1385,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0261 - Compound Effect quotes for captions
 
 - Path: `docs/archive/extracted/mindset/success-and-small-habits.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 7044 bytes; Modified UTC: `2026-06-05T16:58:51.651939+00:00`
 - SHA-256: `55ccad70eff50b6ada2729e7904f7f063431a3237a0e8ecc265655004861ffeb`
 - Ingest: `utf8-preview`
@@ -1394,7 +1394,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0262 - CIA Gateway Process, TM, Kundalini phases
 
 - Path: `docs/archive/extracted/mindset/tm-and-kundalini-energy.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 17277 bytes; Modified UTC: `2026-06-05T16:58:51.652012+00:00`
 - SHA-256: `1f882b0c55d78794e983526cd05e6dc456dd3270dacf381bb6ada3ede1db04f4`
 - Ingest: `utf8-preview`
@@ -1403,7 +1403,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0263 - Cymatics, Schumann Resonance, acoustic levitation
 
 - Path: `docs/archive/extracted/mindset/vibration-frequency-exploration.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14869 bytes; Modified UTC: `2026-06-05T16:58:51.652086+00:00`
 - SHA-256: `d42650550768f3b5bc1dc1e7648d8f8e5d82d24c66fe7f2a28af8df7484f92a2`
 - Ingest: `utf8-preview`
@@ -1412,7 +1412,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0264 - Dream state brain dump (truck, land, horse, etc.)
 
 - Path: `docs/archive/extracted/mindset/vision-board-creation-guide.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:inner`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:system`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 12363 bytes; Modified UTC: `2026-06-05T16:58:51.652145+00:00`
 - SHA-256: `9cf8946ff59e98a69b9a342c92ea3d7d89a7060c8ea4318ded41fb5b902735fa`
 - Ingest: `utf8-preview`
@@ -1421,7 +1421,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0265 - Week in highest self visualization script
 
 - Path: `docs/archive/extracted/mindset/visionary-life-breakdown.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 22737 bytes; Modified UTC: `2026-06-05T16:58:51.652225+00:00`
 - SHA-256: `7edb2f025cb9f574164d4a4942e930c981df235e6e37df6b85895f1ae87f4f36`
 - Ingest: `utf8-preview`
@@ -1430,7 +1430,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET`
 #### SS-MAN-20260605-0266 - IG captions, toxic masculinity CTA
 
 - Path: `docs/archive/extracted/mindset/yin-energy-explained.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8622 bytes; Modified UTC: `2026-06-05T16:58:51.652308+00:00`
 - SHA-256: `e612f26bc1721c70bf926a241904ee5073ab94f230e1c6c0897db467c7dfc0a6`
 - Ingest: `utf8-preview`
@@ -1444,7 +1444,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-MINDSET-RHYTHMS-AND-RITUALS-MD`
 #### SS-MAN-20260605-0228 - Mindset Rhythms And Rituals
 
 - Path: `docs/archive/extracted/mindset-rhythms-and-rituals.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:inner`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 8443 bytes; Modified UTC: `2026-06-05T16:58:51.647280+00:00`
 - SHA-256: `3d4c21ca623ce6790c7035f37c807da6ffc377310dc2fe52a939e1530d10336b`
 - Ingest: `utf8-preview`
@@ -1467,7 +1467,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-TIME-ASTRO`
 #### SS-MAN-20260605-0268 - Chart transit analysis for launch timing
 
 - Path: `docs/archive/extracted/time-astro/astrology-and-business-strategy.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 38980 bytes; Modified UTC: `2026-06-05T16:58:51.652567+00:00`
 - SHA-256: `d0d6c6eb54534811f7eb245f7781a51ae936a0369e32472c59716a50ead6538e`
 - Ingest: `utf8-preview`
@@ -1476,7 +1476,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-TIME-ASTRO`
 #### SS-MAN-20260605-0269 - 2025 planner concept: chart + moon + hormones
 
 - Path: `docs/archive/extracted/time-astro/astrology-hormone-moon-planner.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14748 bytes; Modified UTC: `2026-06-05T16:58:51.652632+00:00`
 - SHA-256: `94c3e30f726fb4bc8a433ff8c037f265e98a86a91cf4f14779cc85fa4a375274`
 - Ingest: `utf8-preview`
@@ -1494,7 +1494,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-TIME-ASTRO`
 #### SS-MAN-20260605-0271 - Fact-check: frequency sigils are modern, not ancient
 
 - Path: `docs/archive/extracted/time-astro/frequency-symbol-origins.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4612 bytes; Modified UTC: `2026-06-05T16:58:51.652973+00:00`
 - SHA-256: `884b61cde76fe7865cfa34106e4b653f81524048e265d80af664d5e8bb5b8517`
 - Ingest: `utf8-preview`
@@ -1503,7 +1503,7 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-TIME-ASTRO`
 #### SS-MAN-20260605-0272 - Monday = Moon-day, Garfield as cosmic satire
 
 - Path: `docs/archive/extracted/time-astro/moon-day-male-struggles.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4518 bytes; Modified UTC: `2026-06-05T16:58:51.653128+00:00`
 - SHA-256: `8adf62517b742118d4b9122a2efa84a76929e733fc38aeb5db4919321f3e9af5`
 - Ingest: `utf8-preview`
@@ -1530,165 +1530,165 @@ Thread ID: `TH-ARCHIVE-EXTRACTED-TIME-ASTRO`
 #### SS-MAN-20260605-0275 - Saturn/Ketu, karma processing, Dec 2025
 
 - Path: `docs/archive/extracted/time-astro/vedic-astrology-energy-analysis.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 6529 bytes; Modified UTC: `2026-06-05T16:58:51.653277+00:00`
 - SHA-256: `ae033e612564f4b85e0cf121f7a120670d391fe927c5f78da59f73a4a1681181`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/extracted/time-astro/vedic-astrology-energy-analysis.md`. Content signal: dominant_provenance: LOCAL dominant_nature: QUESTION - name: "Client Query"
 
 
-### Archive Extracted: water
+### Archive Extracted: gateway
 
-Thread ID: `TH-ARCHIVE-EXTRACTED-WATER`
+Thread ID: `TH-ARCHIVE-EXTRACTED-GATEWAY`
 
 #### SS-MAN-20260605-0277 - Hypochlorous acid IG slides, strep story
 
-- Path: `docs/archive/extracted/water/2-5-ph-acidic-water.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/2-5-ph-acidic-gateway.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 3699 bytes; Modified UTC: `2026-06-05T16:58:51.653416+00:00`
 - SHA-256: `3957a487f4aadc5d7150ee3edef2b58009da613d41631ce2a6426bbbf90cf4c7`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/2-5-ph-acidic-water.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PROTOCOL title: "Hypochlorous acid IG slides, strep story"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/2-5-ph-acidic-gateway.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PROTOCOL title: "Hypochlorous acid IG slides, strep story"
 
 #### SS-MAN-20260605-0278 - K8 H2 levels, independent vs manufacturer claims
 
-- Path: `docs/archive/extracted/water/dissolved-hydrogen-concentration.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/dissolved-hydrogen-concentration.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4578 bytes; Modified UTC: `2026-06-05T16:58:51.653478+00:00`
 - SHA-256: `4dd18c715d605f154086a565cc530f1605561751c0f0aa313f905023cd1aab33`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/dissolved-hydrogen-concentration.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PRODUCT title: "K8 H2 levels, independent vs manufacturer claims"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/dissolved-hydrogen-concentration.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PRODUCT title: "K8 H2 levels, independent vs manufacturer claims"
 
-#### SS-MAN-20260605-0279 - Step-by-step eczema water protocol
+#### SS-MAN-20260605-0279 - Step-by-step eczema gateway protocol
 
-- Path: `docs/archive/extracted/water/eczema-skin-water-protocol.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/eczema-skin-gateway-protocol.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 5174 bytes; Modified UTC: `2026-06-05T16:58:51.653534+00:00`
 - SHA-256: `37f21458d29141bbd568e0f5ce04717928e7d35be549eed86a1608f0e537697d`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/eczema-skin-water-protocol.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PROTOCOL atoms: [ATM-W-008, ATM-W-010]
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/eczema-skin-gateway-protocol.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PROTOCOL atoms: [ATM-W-008, ATM-W-010]
 
 #### SS-MAN-20260605-0280 - Webinar transcript: oxidative stress, H2, business
 
-- Path: `docs/archive/extracted/water/hydrogen-water-science-health-and-business.md`
-- Tags: `area:docs`, `corpus:extracted`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/hydrogen-gateway-science-health-and-business.md`
+- Tags: `area:docs`, `corpus:extracted`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 246134 bytes; Modified UTC: `2026-06-05T16:58:51.654311+00:00`
 - SHA-256: `d6e52c0804500ad781ada8c9d8bf4adcc55aade9d390dd7c48a12cd4e2da664b`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/hydrogen-water-science-health-and-business.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-W-012, ATM-W-014, ATM-W-016, ATM-W-018, ATM-W-020, ATM-W-022, ATM-W-024, ATM-W-026, ATM-W-028, ATM-W-030, ATM-W-032, ATM-W-034, ATM-W-036, ATM-W-038, ATM-W-040, ATM-W-042, ATM-W-044, ATM-W-046, ATM-W-048, ATM-W-050, ATM-W-052, ATM-W-054]
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/hydrogen-gateway-science-health-and-business.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-W-012, ATM-W-014, ATM-W-016, ATM-W-018, ATM-W-020, ATM-W-022, ATM-W-024, ATM-W-026, ATM-W-028, ATM-W-030, ATM-W-032, ATM-W-034, ATM-W-036, ATM-W-038, ATM-W-040, ATM-W-042, ATM-W-044, ATM-W-046, ATM-W-048, ATM-W-050, ATM-W-052, ATM-W-054]
 
 #### SS-MAN-20260605-0281 - H2 as antioxidant, pH debunking, PubMed refs
 
-- Path: `docs/archive/extracted/water/ionized-water-benefits.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/gateway/ionized-gateway-benefits.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4856 bytes; Modified UTC: `2026-06-05T16:58:51.654416+00:00`
 - SHA-256: `b783452a0e7fe028bfe730c0264bdb75b976534288279948ff29fde682aa319d`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/ionized-water-benefits.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/ionized-gateway-benefits.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
 
 #### SS-MAN-20260605-0282 - Ear protocol (no ear canal use, safer alts)
 
-- Path: `docs/archive/extracted/water/kangen-water-and-ear-aches.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/gateway/kangen-gateway-and-ear-aches.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4520 bytes; Modified UTC: `2026-06-05T16:58:51.654490+00:00`
 - SHA-256: `2fb68dfcf27584813dcc4eb2a41f0b76455debbf1f1425059ba011ce09315015`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/kangen-water-and-ear-aches.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Ear protocol (no ear canal use, safer alts)"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/kangen-gateway-and-ear-aches.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Ear protocol (no ear canal use, safer alts)"
 
 #### SS-MAN-20260605-0283 - 10 reel scripts + 5 FB posts + captions
 
-- Path: `docs/archive/extracted/water/kangen-water-content-ideas.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/kangen-gateway-content-ideas.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 50473 bytes; Modified UTC: `2026-06-05T16:58:51.654583+00:00`
 - SHA-256: `37f99b6cf023e4de0a393be8f60a10e2297c60c4f0a6423b657dcd651fce591f`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/kangen-water-content-ideas.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM atoms: [ATM-W-063, ATM-W-065, ATM-W-067, ATM-W-069, ATM-W-071, ATM-W-073, ATM-W-075, ATM-W-078]
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/kangen-gateway-content-ideas.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM atoms: [ATM-W-063, ATM-W-065, ATM-W-067, ATM-W-069, ATM-W-071, ATM-W-073, ATM-W-075, ATM-W-078]
 
 #### SS-MAN-20260605-0284 - Pitch template for UFC fighter
 
-- Path: `docs/archive/extracted/water/molecular-hydrogen-for-athletes.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/molecular-hydrogen-for-athletes.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 3181 bytes; Modified UTC: `2026-06-05T16:58:51.654633+00:00`
 - SHA-256: `ab8ec34d93aacbdd5d185425ecbc0d08288baf2d61dc9d1def7abe16b41dfaa6`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/molecular-hydrogen-for-athletes.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/molecular-hydrogen-for-athletes.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
 
 #### SS-MAN-20260605-0285 - Emoto critique + metaphorical value
 
-- Path: `docs/archive/extracted/water/water-crystals-love-and-pseudoscience.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-crystals-love-and-pseudoscience.md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 9735 bytes; Modified UTC: `2026-06-05T16:58:51.654700+00:00`
 - SHA-256: `1c5f61002bf1139e9ecc9f1214cf1fddecdf3600eca061922a30204e822d0b79`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-crystals-love-and-pseudoscience.md`. Content signal: dominant_provenance: LOCAL dominant_nature: QUESTION atoms: [ATM-W-085, ATM-W-087]
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-crystals-love-and-pseudoscience.md`. Content signal: dominant_provenance: LOCAL dominant_nature: QUESTION atoms: [ATM-W-085, ATM-W-087]
 
-#### SS-MAN-20260605-0286 - Full Water Hub architecture: quiz, 5 branches
+#### SS-MAN-20260605-0286 - Full Gateway Hub architecture: quiz, 5 branches
 
-- Path: `docs/archive/extracted/water/water-hub-design.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-hub-design.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 51167 bytes; Modified UTC: `2026-06-05T16:58:51.654881+00:00`
 - SHA-256: `8af838f2157409d2b2a825e68a97a331ea796104ebbf3828e70a5afb135fee02`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-hub-design.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-hub-design.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
 
 #### SS-MAN-20260605-0287 - Landing page flow, quiz branching
 
-- Path: `docs/archive/extracted/water/water-hub-framework-breakdown.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-hub-framework-breakdown.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4659 bytes; Modified UTC: `2026-06-05T16:58:51.654947+00:00`
 - SHA-256: `223891ca9af9379c62f2722e9252524687efb742b39cce2563360b6073b814c5`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-hub-framework-breakdown.md`. Content signal: dominant_provenance: HYBRID dominant_nature: FRAMEWORK - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-hub-framework-breakdown.md`. Content signal: dominant_provenance: HYBRID dominant_nature: FRAMEWORK - name: "Prompt-Response"
 
-#### SS-MAN-20260605-0288 - Structured water, EZ water, Emoto (contested)
+#### SS-MAN-20260605-0288 - Structured gateway, EZ gateway, Emoto (contested)
 
-- Path: `docs/archive/extracted/water/water-memory-and-energy.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-memory-and-energy.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4915 bytes; Modified UTC: `2026-06-05T16:58:51.655006+00:00`
 - SHA-256: `4c11e492cb790ae3777ad813de97e02a91640cab82f55faf3e964395fc663344`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-memory-and-energy.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Structured water, EZ water, Emoto (contested)"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-memory-and-energy.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Structured gateway, EZ gateway, Emoto (contested)"
 
 #### SS-MAN-20260605-0289 - Dead-end research inquiry
 
-- Path: `docs/archive/extracted/water/water-retention-in-erw.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-retention-in-erw.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 5185 bytes; Modified UTC: `2026-06-05T16:58:51.655068+00:00`
 - SHA-256: `13d287ee5f608c735c24332436e37f6eb68fb5b4c4c15e74a0d5783439c9889e`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-retention-in-erw.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-retention-in-erw.md`. Content signal: dominant_provenance: HYBRID dominant_nature: CLAIM - name: "Prompt-Response"
 
 #### SS-MAN-20260605-0290 - Full sales system: content, DM scripts, cold calls
 
-- Path: `docs/archive/extracted/water/water-sales-strategy-plan.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Path: `docs/archive/extracted/gateway/gateway-sales-strategy-plan.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 21608 bytes; Modified UTC: `2026-06-05T16:58:51.655133+00:00`
 - SHA-256: `c1e40b9b4d46e3e1f19aade118e08f1a25b51ee55c51b4ff014e4b40cda4a650`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/water-sales-strategy-plan.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-W-127, ATM-W-129, ATM-W-131, ATM-W-133]
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/gateway-sales-strategy-plan.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM atoms: [ATM-W-127, ATM-W-129, ATM-W-131, ATM-W-133]
 
 #### SS-MAN-20260605-0291 - Well economics
 
-- Path: `docs/archive/extracted/water/well-water-costs.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway/well-gateway-costs.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 3674 bytes; Modified UTC: `2026-06-05T16:58:51.655179+00:00`
 - SHA-256: `0f1183b0337432671161922b42090bf4418fe1e866a76db1dd484a0dc3512213`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water/well-water-costs.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Well economics"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway/well-gateway-costs.md`. Content signal: dominant_provenance: LOCAL dominant_nature: CLAIM title: "Well economics"
 
 
-### Archive Extracted: water-learn-more-about-erw.md
+### Archive Extracted: gateway-learn-more-about-erw.md
 
-Thread ID: `TH-ARCHIVE-EXTRACTED-WATER-LEARN-MORE-ABOUT-ERW-MD`
+Thread ID: `TH-ARCHIVE-EXTRACTED-GATEWAY-LEARN-MORE-ABOUT-ERW-MD`
 
-#### SS-MAN-20260605-0276 - Water Learn More About Erw
+#### SS-MAN-20260605-0276 - Gateway Learn More About Erw
 
-- Path: `docs/archive/extracted/water-learn-more-about-erw.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:issue`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/extracted/gateway-learn-more-about-erw.md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:issue`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 27918 bytes; Modified UTC: `2026-06-05T16:58:51.653347+00:00`
 - SHA-256: `8e0a72f4363b40bf91373f7556de55538b776dd1c35af97699935fe8ca3fb74e`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/extracted/water-learn-more-about-erw.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PRODUCT idea: "![](media/image1.png){width='5.972127077865267in' height='1.6510422134733158in'}"
+- Annotation: Readable project artifact at `docs/archive/extracted/gateway-learn-more-about-erw.md`. Content signal: dominant_provenance: LOCAL dominant_nature: PRODUCT idea: "![](media/image1.png){width='5.972127077865267in' height='1.6510422134733158in'}"
 
 
 ### Archive Source Bundle: 1a-master-spiral.md
@@ -1698,7 +1698,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-1A-MASTER-SPIRAL-MD`
 #### SS-MAN-20260605-0298 - **Spiral Site Build --- Master Blueprint (Deep Dive Edition)**
 
 - Path: `docs/archive/source-bundle/1a-master-spiral.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:decision`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:decision`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11173 bytes; Modified UTC: `2026-06-05T16:58:51.655942+00:00`
 - SHA-256: `1fdda24e70741dc32fb8952e0037c7cc01a5755829fc954b53572602185da7a8`
 - Ingest: `utf8-preview`
@@ -1712,7 +1712,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-1B-SPIRAL-DUMP-MD`
 #### SS-MAN-20260605-0299 - 1B Spiral Dump
 
 - Path: `docs/archive/source-bundle/1b-spiral-dump.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 485447 bytes; Modified UTC: `2026-06-05T16:58:51.656874+00:00`
 - SHA-256: `412498496c2139a27e48fab98ef5491914944328fba38b3c15a346687d40e7d9`
 - Ingest: `utf8-preview`
@@ -1726,7 +1726,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-2A-CHATGPT-SOVEREIGN-SYSTEMS-BRANDING-TXT`
 #### SS-MAN-20260605-0300 - Prompt:
 
 - Path: `docs/archive/source-bundle/2a-chatgpt-sovereign-systems-branding.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 42769 bytes; Modified UTC: `2026-06-05T16:58:51.657088+00:00`
 - SHA-256: `e739d8b9ce64aa5a37de3c3f3c24eb5c536668337df1f106a2333d71b7e7fdd7`
 - Ingest: `utf8-preview`
@@ -1740,7 +1740,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-2B-CHATGPT-NODULAR-FLOW-REFINEMENT-TXT`
 #### SS-MAN-20260605-0301 - Prompt:
 
 - Path: `docs/archive/source-bundle/2b-chatgpt-nodular-flow-refinement.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 39420 bytes; Modified UTC: `2026-06-05T16:58:51.657171+00:00`
 - SHA-256: `037d794bbd45f9e12f9fc8e520f8ca8c5082e12712d290f45d271082396a49f4`
 - Ingest: `utf8-preview`
@@ -1754,7 +1754,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0302 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-100-sales-strategy.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 10700 bytes; Modified UTC: `2026-06-05T16:58:51.657295+00:00`
 - SHA-256: `9ee1af5f223036df17209da422a79f499592b26346ee970d8fe843b9440cf84f`
 - Ingest: `utf8-preview`
@@ -1763,7 +1763,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0303 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-2080-rule-focus.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 62548 bytes; Modified UTC: `2026-06-05T16:58:51.657589+00:00`
 - SHA-256: `664d9f9ba3fbb00567fbaac96063408abc5a075737017588dc03dad35a13b98c`
 - Ingest: `utf8-preview`
@@ -1772,7 +1772,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0304 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-astrology-social-media-strategy.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 35784 bytes; Modified UTC: `2026-06-05T16:58:51.657815+00:00`
 - SHA-256: `fe023f10b67a0cc12ea212c40a3c9560a31c0f89f078427913e2da0ae36821be`
 - Ingest: `utf8-preview`
@@ -1781,7 +1781,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0305 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-credit-report-review-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2888 bytes; Modified UTC: `2026-06-05T16:58:51.657868+00:00`
 - SHA-256: `80d44354bc3d56a6662c0cdb16371badbfde53f6967c3c722ac9a96c61099211`
 - Ingest: `utf8-preview`
@@ -1790,7 +1790,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0306 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-dream-retreat-vision.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 77752 bytes; Modified UTC: `2026-06-05T16:58:51.658149+00:00`
 - SHA-256: `8ac21ad9ef3deb9fac27f2a057226e45dd6f71bda87f3cc1e3351584568224a4`
 - Ingest: `utf8-preview`
@@ -1798,17 +1798,17 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0307 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/business/chatgpt-financial-freedom-blueprint.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:audit`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/business/chatgpt-vision-freedom-blueprint.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:audit`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5953 bytes; Modified UTC: `2026-06-05T16:58:51.658258+00:00`
 - SHA-256: `4e8f902284bbb396bbaaa78706839dbd335cc6c7bd8679f6a14594853821427f`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/business/chatgpt-financial-freedom-blueprint.txt`. Content signal: Financial Freedom Blueprint User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/7/2025 19:52:34
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/business/chatgpt-vision-freedom-blueprint.txt`. Content signal: Vision Freedom Blueprint User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/7/2025 19:52:34
 
 #### SS-MAN-20260605-0308 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-idea-implementation-strategies.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5431 bytes; Modified UTC: `2026-06-05T16:58:51.658324+00:00`
 - SHA-256: `ca1514dcce94d3c7ee6740997f6e2cb3ebc68c5d1625a8c076718fa6b0e3b877`
 - Ingest: `utf8-preview`
@@ -1817,7 +1817,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0309 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-income-projections-and-strategies.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 18013 bytes; Modified UTC: `2026-06-05T16:58:51.658394+00:00`
 - SHA-256: `0cbce75d9ab770f6f096cad38f1e46d0ba2a54066299bcc6c409ba26131fb4d1`
 - Ingest: `utf8-preview`
@@ -1826,7 +1826,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0310 - Chatgpt Instagram Grid Visualization
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-instagram-grid-visualization.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 356 bytes; Modified UTC: `2026-06-05T16:58:51.658448+00:00`
 - SHA-256: `95462d01bb1efeab02cb78b9939db574a64374ae4fa9b367f114abec752d7252`
 - Ingest: `utf8-preview`
@@ -1835,7 +1835,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0311 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-job-transition-advice.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 24111 bytes; Modified UTC: `2026-06-05T16:58:51.658517+00:00`
 - SHA-256: `3f6a2641aee4a7e10aaca465bd850bac223df5b449c2c4e2b228a815e2b22ba4`
 - Ingest: `utf8-preview`
@@ -1844,7 +1844,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0312 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-novel-funnel-strategies.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 100082 bytes; Modified UTC: `2026-06-05T16:58:51.658826+00:00`
 - SHA-256: `abc67394b7547f3adc911436eea12cdd6d9f99865e79c2c5c093238dae64a725`
 - Ingest: `utf8-preview`
@@ -1852,17 +1852,17 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0313 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/business/chatgpt-plastic-water-label-design.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/business/chatgpt-plastic-gateway-label-design.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 13157 bytes; Modified UTC: `2026-06-05T16:58:51.658915+00:00`
 - SHA-256: `c23dd3f89aa6d052837e05d57f111feba4875e043dfa0d1b5243a3c7eb069323`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/business/chatgpt-plastic-water-label-design.txt`. Content signal: Plastic Water Label Design User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/13/2025 8:13:41
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/business/chatgpt-plastic-gateway-label-design.txt`. Content signal: Plastic Gateway Label Design User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/13/2025 8:13:41
 
 #### SS-MAN-20260605-0314 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-sales-momentum-plan.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4590 bytes; Modified UTC: `2026-06-05T16:58:51.659241+00:00`
 - SHA-256: `068cec90ebc5349ed7b0775da040455ea753bc683174e8e793cbbb5961c20caa`
 - Ingest: `utf8-preview`
@@ -1871,7 +1871,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0315 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-wagyu-post-conversion-tips.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 22380 bytes; Modified UTC: `2026-06-05T16:58:51.659328+00:00`
 - SHA-256: `0ed8b65d485bfc4d6cc10e71ab6f63b83b139265dbc834893d38d9be0c1532fb`
 - Ingest: `utf8-preview`
@@ -1880,7 +1880,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0316 - Chatgpt Website Launch And App Timeline
 
 - Path: `docs/archive/source-bundle/spiral/business/chatgpt-website-launch-and-app-timeline.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 361 bytes; Modified UTC: `2026-06-05T16:58:51.659389+00:00`
 - SHA-256: `f6801ffe413225dbea4aaf35441dc2b5b555faff864ff24607c5079c39dccdfe`
 - Ingest: `utf8-preview`
@@ -1889,7 +1889,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0317 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-book-concept-breakdown.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4281 bytes; Modified UTC: `2026-06-05T16:58:51.659491+00:00`
 - SHA-256: `5e253d4d07a0916add535f70cbbf051c331898affce0d63d8a20f50c0f12e369`
 - Ingest: `utf8-preview`
@@ -1907,7 +1907,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0319 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-creature-selves-resources.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 16508 bytes; Modified UTC: `2026-06-05T16:58:51.659862+00:00`
 - SHA-256: `50b82d76932ad1f0d51420a6f61d7955c54761ffc75870fe78dbb39f29f2984c`
 - Ingest: `utf8-preview`
@@ -1916,7 +1916,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0320 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-divine-feminine-flow.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2929 bytes; Modified UTC: `2026-06-05T16:58:51.659909+00:00`
 - SHA-256: `9f83ee887a7fb49b6ffbde150e992484be12ffe28e9b024cad4e1c92c7860e0e`
 - Ingest: `utf8-preview`
@@ -1925,7 +1925,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0321 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-dopamine-vs-oxytocin-dynamics.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3781 bytes; Modified UTC: `2026-06-05T16:58:51.659946+00:00`
 - SHA-256: `45c09ce125bc73ec32beedddf82f0486e821b5b7177400f92001388727aae647`
 - Ingest: `utf8-preview`
@@ -1943,7 +1943,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0323 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-energy-waves-and-oscillations.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 18523 bytes; Modified UTC: `2026-06-05T16:58:51.660194+00:00`
 - SHA-256: `7f877394d35c74e4e09972811ca538921aa857431d33523f5d8af3bffb6f88ae`
 - Ingest: `utf8-preview`
@@ -1952,7 +1952,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0324 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-gallup-poll-usage-today.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:identity`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:structure`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5280 bytes; Modified UTC: `2026-06-05T16:58:51.660270+00:00`
 - SHA-256: `9f3735d6214dc2d3c507eb9651d12c0fea2d9db91ab6d4457213967d5a825719`
 - Ingest: `utf8-preview`
@@ -1961,7 +1961,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0325 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-hunched-back-and-past-lives.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 23173 bytes; Modified UTC: `2026-06-05T16:58:51.660351+00:00`
 - SHA-256: `ccc5838af96bc64db07da1dc2ad737e95581bd7223320cbc0f1dc38a834c0c1f`
 - Ingest: `utf8-preview`
@@ -1979,7 +1979,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0327 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/concepts-to-add-in/chatgpt-sound-frequency-analysis.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 12474 bytes; Modified UTC: `2026-06-05T16:58:51.660457+00:00`
 - SHA-256: `7bdb7ddb0ff15dbb67f824001d44bbab622c4d281f6ea76502df771c9033638f`
 - Ingest: `utf8-preview`
@@ -1988,7 +1988,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0328 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-30-day-acupressure-routine.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:session`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:session`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 34533 bytes; Modified UTC: `2026-06-05T16:58:51.660557+00:00`
 - SHA-256: `0146fe779165615b2b36ad0f791f3f056ddb86ad7bc25fb6970e418e18e36546`
 - Ingest: `utf8-preview`
@@ -1997,7 +1997,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0329 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-aerosols-and-cleaning-products.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 1835 bytes; Modified UTC: `2026-06-05T16:58:51.660605+00:00`
 - SHA-256: `51311e238d74fcd3a52a54caa1c5698cffaf556c1385e733387c8c6d19b60a99`
 - Ingest: `utf8-preview`
@@ -2006,7 +2006,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0330 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-alzheimer’s-373-increase-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4460 bytes; Modified UTC: `2026-06-05T16:58:51.660674+00:00`
 - SHA-256: `5bc451ad6bfc0d0bd6f4359ce271e04a8cdb41fc1eca7e2f12a9355ae2e45fec`
 - Ingest: `utf8-preview`
@@ -2015,7 +2015,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0331 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-birth-control-resources-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 102675 bytes; Modified UTC: `2026-06-05T16:58:51.660822+00:00`
 - SHA-256: `b57b2e441f2decff51235232ba68e0c904b8a3803d3a9c31e698653d241ecc2f`
 - Ingest: `utf8-preview`
@@ -2024,7 +2024,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0332 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-body-trust-and-shifts.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 14713 bytes; Modified UTC: `2026-06-05T16:58:51.660933+00:00`
 - SHA-256: `9fd8a63b039ad4d65f0a63a7f48071c439e2ca6aa94eb98bac83eadcb9e1fe94`
 - Ingest: `utf8-preview`
@@ -2033,7 +2033,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0333 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-bubble-butt-fitness-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 29182 bytes; Modified UTC: `2026-06-05T16:58:51.661010+00:00`
 - SHA-256: `ca2d56ab0b7641525de84de8b39dd18045ca18bc19889bf587801674e06d7cb5`
 - Ingest: `utf8-preview`
@@ -2042,7 +2042,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0334 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-chlorine-absorption-time.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3412 bytes; Modified UTC: `2026-06-05T16:58:51.661063+00:00`
 - SHA-256: `3368840a35c78c24424ea982c6571580dff391f99a121f858718512d8208ec1a`
 - Ingest: `utf8-preview`
@@ -2051,7 +2051,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0335 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-cortisol-stress-carousel.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `pillar:financial`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `pillar:vision`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4580 bytes; Modified UTC: `2026-06-05T16:58:51.661133+00:00`
 - SHA-256: `a7877329798a0843dbc64fb7747896c8f6bc2389b8da016fbfba5f6fc20c7684`
 - Ingest: `utf8-preview`
@@ -2060,7 +2060,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0336 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-cymascope-and-healing-frequencies.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 7751 bytes; Modified UTC: `2026-06-05T16:58:51.661204+00:00`
 - SHA-256: `d6db7e52a0ce2abbe348b92ea91ffa424a55e4bab1015cff0d00ca6e141222a8`
 - Ingest: `utf8-preview`
@@ -2078,7 +2078,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0338 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-fascia-and-emotions-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 32162 bytes; Modified UTC: `2026-06-05T16:58:51.661370+00:00`
 - SHA-256: `8c615dbc24773ecc5f141f7da2a4712461463ae402a9870723da8adae4d26fe4`
 - Ingest: `utf8-preview`
@@ -2087,7 +2087,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0339 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-feel-good-first-script.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 57716 bytes; Modified UTC: `2026-06-05T16:58:51.661488+00:00`
 - SHA-256: `9429aeb1514f0dba4a7e0556c357a4b04b47621b2ccef1ac60881e0ab4cdc670`
 - Ingest: `utf8-preview`
@@ -2096,7 +2096,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0340 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-gut-rebuilding-diet-plan.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 20965 bytes; Modified UTC: `2026-06-05T16:58:51.661653+00:00`
 - SHA-256: `06b84898d101e0548e24675481d6a3b3b635f33c154cb90ffd7395ef054aba67`
 - Ingest: `utf8-preview`
@@ -2105,7 +2105,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0341 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-heds-symptoms-and-diagnosis.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 19213 bytes; Modified UTC: `2026-06-05T16:58:51.661731+00:00`
 - SHA-256: `adede6f89c332c3652837f8a0cd4da9c16aabe8cf537496bcfe4ea5d000eec89`
 - Ingest: `utf8-preview`
@@ -2123,7 +2123,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0343 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-heroines-healing-journey.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 45276 bytes; Modified UTC: `2026-06-05T16:58:51.661906+00:00`
 - SHA-256: `6fde47c13926db410166a66a05a9e47fa945426b3db0ebc4ca860f3b03f46285`
 - Ingest: `utf8-preview`
@@ -2132,7 +2132,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0344 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-hormone-cycle-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 58086 bytes; Modified UTC: `2026-06-05T16:58:51.662115+00:00`
 - SHA-256: `e3a5bca3fb78bbd42f897feaa806a71bc64aa3ecc0536a89461fb319aa3713f9`
 - Ingest: `utf8-preview`
@@ -2149,26 +2149,26 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0346 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/health/chatgpt-hydration-and-blood-sugar.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/health/chatgpt-gateway-and-blood-sugar.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 20131 bytes; Modified UTC: `2026-06-05T16:58:51.662227+00:00`
 - SHA-256: `f630a15d6ee6f50be36cd5decc7542cf683d45513853e2ddc7aed8a9168c00be`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-hydration-and-blood-sugar.txt`. Content signal: Hydration and blood sugar User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 10/20/2025 11:31:09
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-gateway-and-blood-sugar.txt`. Content signal: Gateway and blood sugar User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 10/20/2025 11:31:09
 
 #### SS-MAN-20260605-0347 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/health/chatgpt-hydration-and-inflammation-video.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/health/chatgpt-gateway-and-inflammation-video.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 9622 bytes; Modified UTC: `2026-06-05T16:58:51.662302+00:00`
 - SHA-256: `969e74c6866d60fee21714681b5bc4004926fec9f6e03b7b1c816a391631d703`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-hydration-and-inflammation-video.txt`. Content signal: Hydration and Inflammation Video User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/17/2025 9:38:52
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-gateway-and-inflammation-video.txt`. Content signal: Gateway and Inflammation Video User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/17/2025 9:38:52
 
 #### SS-MAN-20260605-0348 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-inflammation-self-check-questions.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 8748 bytes; Modified UTC: `2026-06-05T16:58:51.662370+00:00`
 - SHA-256: `63cc1645aa8f8325e3e1d00eb04732419292cc65b8873793259a9acf29b8696b`
 - Ingest: `utf8-preview`
@@ -2194,17 +2194,17 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0351 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/health/chatgpt-neurodivergence-and-autoimmune-links.txt`
+- Path: `docs/archive/source-bundle/spiral/health/chatgpt-neurodivergence-and-archetype-beta-links.txt`
 - Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2086 bytes; Modified UTC: `2026-06-05T16:58:51.662669+00:00`
 - SHA-256: `fcc9818d683fa27e969ac0d1a418eae87a503394fee9d3c4bbec05a44fc677f6`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-neurodivergence-and-autoimmune-links.txt`. Content signal: Neurodivergence and autoimmune links User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/23/2025 9:22:59
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/health/chatgpt-neurodivergence-and-archetype-beta-links.txt`. Content signal: Neurodivergence and archetype-beta links User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/23/2025 9:22:59
 
 #### SS-MAN-20260605-0352 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-parasite-cleanse-diet-tips.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:inner`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:system`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3948 bytes; Modified UTC: `2026-06-05T16:58:51.662714+00:00`
 - SHA-256: `961e4dd924a7d1f61831345ac13ccbdfbfea1e5a62c6fa418535344525a0dc5c`
 - Ingest: `utf8-preview`
@@ -2222,7 +2222,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0354 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/health/chatgpt-sonoluminescence-phenomenon-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3411 bytes; Modified UTC: `2026-06-05T16:58:51.662803+00:00`
 - SHA-256: `671fad518706775ae028827aa79fae5f65763619d59b160134c4df9258f09f8f`
 - Ingest: `utf8-preview`
@@ -2240,7 +2240,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0356 - Cellular Reprogramming Through Voice
 
 - Path: `docs/archive/source-bundle/spiral/health/gemini-cellular-reprogramming-through-voice.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10523 bytes; Modified UTC: `2026-06-05T16:58:51.662960+00:00`
 - SHA-256: `bd271c16ac2294add0344af84a1770c492279b81993eb79ef52ec9d30ce01d87`
 - Ingest: `utf8-preview`
@@ -2249,7 +2249,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0357 - FDA's "Just a Little Bit" Carcinogens
 
 - Path: `docs/archive/source-bundle/spiral/health/gemini-fdas-just-a-little-bit-carcinogens.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 18332 bytes; Modified UTC: `2026-06-05T16:58:51.663037+00:00`
 - SHA-256: `ea12ec0f67a07c3268a6da976981b17ee163e321510fe47a510c6a3b7e9b40ae`
 - Ingest: `utf8-preview`
@@ -2258,7 +2258,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0358 - ![](media/image1.png){width="2.625in" height="1.3553412073490814in"}
 
 - Path: `docs/archive/source-bundle/spiral/health/hormones-healing.md`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 18349 bytes; Modified UTC: `2026-06-05T16:58:51.663081+00:00`
 - SHA-256: `a1d7c2515dad45683e0eb1220a4f829d0c87118424baafcaea1afcb058bef332`
 - Ingest: `utf8-preview`
@@ -2267,7 +2267,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0359 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-affirmation-track-for-abundance.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4779 bytes; Modified UTC: `2026-06-05T16:58:51.663178+00:00`
 - SHA-256: `e63535fe0fdfba622ef126a689fe0af84726a421644ae6ebc85e455d258714c3`
 - Ingest: `utf8-preview`
@@ -2276,7 +2276,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0360 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-alchemy-and-spiritual-symbolism.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 34149 bytes; Modified UTC: `2026-06-05T16:58:51.663268+00:00`
 - SHA-256: `523c0e34e7434b36a0c026c308e29e005e4b94c184a9556da698cae4229dc416`
 - Ingest: `utf8-preview`
@@ -2285,7 +2285,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0361 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-anger-processing-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 10417 bytes; Modified UTC: `2026-06-05T16:58:51.663347+00:00`
 - SHA-256: `052e5dc4da57150a345b738b261cd21447163233ea93ee4e99fb417154ba70c4`
 - Ingest: `utf8-preview`
@@ -2312,7 +2312,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0364 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-balancing-masculine-and-feminine.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 15232 bytes; Modified UTC: `2026-06-05T16:58:51.663544+00:00`
 - SHA-256: `794a2565a246afce3342964917c13b398f3e82436d20bc27a282b83026657081`
 - Ingest: `utf8-preview`
@@ -2321,7 +2321,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0365 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-blindspots-gaps-and-cons.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 23050 bytes; Modified UTC: `2026-06-05T16:58:51.663618+00:00`
 - SHA-256: `ae67e5397969d01a3133ae82ecbaae6c9e1a469184e5c49682bb2b59ab614fe4`
 - Ingest: `utf8-preview`
@@ -2339,7 +2339,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0367 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-emotional-misattunement-explanation.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 20444 bytes; Modified UTC: `2026-06-05T16:58:51.663792+00:00`
 - SHA-256: `42cd49ad81f9deb22e5d70de17deb1565048d9704ba1885c5785c4c7884e2f83`
 - Ingest: `utf8-preview`
@@ -2348,7 +2348,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0368 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-entrepreneurship-development-recommendations.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 57528 bytes; Modified UTC: `2026-06-05T16:58:51.663906+00:00`
 - SHA-256: `57f497a0473cfd092de3d8001725120d0a4bfc667b32bf8caa85340bd1aeba80`
 - Ingest: `utf8-preview`
@@ -2357,7 +2357,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0369 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-ether-concepts-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 17883 bytes; Modified UTC: `2026-06-05T16:58:51.663975+00:00`
 - SHA-256: `544810ab36eed72d51b63a6e8c951e1ade4e834930e78fe0d18be02ed9bb2493`
 - Ingest: `utf8-preview`
@@ -2366,7 +2366,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0370 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-fear-of-being-seen.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 8378 bytes; Modified UTC: `2026-06-05T16:58:51.664051+00:00`
 - SHA-256: `32c82255ce3324c554b95bcd222f185ee7f4a4de4b1b6e8ac650ae9ea3b47a28`
 - Ingest: `utf8-preview`
@@ -2375,7 +2375,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0371 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-frozen-feelings-and-support.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 31177 bytes; Modified UTC: `2026-06-05T16:58:51.664274+00:00`
 - SHA-256: `12202931755fa1ceea1321f838721e87c96a7afe5436a824e0c5038de96ca6ce`
 - Ingest: `utf8-preview`
@@ -2384,7 +2384,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0372 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-happiness-as-a-state.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 41598 bytes; Modified UTC: `2026-06-05T16:58:51.664385+00:00`
 - SHA-256: `3601e0dd456a7076cbbf40386c0368dbd08adc803dd7d0010f90793924004adf`
 - Ingest: `utf8-preview`
@@ -2393,7 +2393,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0373 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-healing-growth-blueprint-1-0-idea-phase.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 53314 bytes; Modified UTC: `2026-06-05T16:58:51.664487+00:00`
 - SHA-256: `66952bcd6bcbc4d8d994f847fafcb1bcca64a17c780705a38fb6d241118a9b5b`
 - Ingest: `utf8-preview`
@@ -2401,17 +2401,17 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0374 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-inner-child-healing.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-system-child-healing.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5413 bytes; Modified UTC: `2026-06-05T16:58:51.664659+00:00`
 - SHA-256: `0372fd5b0531a1ee55ac35d79632eb737027a2efa48f44fd95b86d880ccda122`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/mindset/chatgpt-inner-child-healing.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/19/2025 10:59:14 Updated: 3/31/2026 12:45:26
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/mindset/chatgpt-system-child-healing.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 7/19/2025 10:59:14 Updated: 3/31/2026 12:45:26
 
 #### SS-MAN-20260605-0375 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-insecurity-and-self-respect.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 94892 bytes; Modified UTC: `2026-06-05T16:58:51.664804+00:00`
 - SHA-256: `42ca42ec774b2619a529a308a67c9766bd217a4d25bc368c72c480fd9a52c6f5`
 - Ingest: `utf8-preview`
@@ -2420,7 +2420,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0376 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-manifestation-mastery-secrets.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 222848 bytes; Modified UTC: `2026-06-05T16:58:51.665046+00:00`
 - SHA-256: `49dc2a39b1c44233a0440965d1d98edba95dceec41db582204f2d4fc3ca14dbe`
 - Ingest: `utf8-preview`
@@ -2429,7 +2429,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0377 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-masculine-feminine-balance-tracker.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 9891 bytes; Modified UTC: `2026-06-05T16:58:51.665161+00:00`
 - SHA-256: `6bd9e9e77f3840ba3ae4c8181effd85036aa3ccd627faae01adea04997a2111e`
 - Ingest: `utf8-preview`
@@ -2456,7 +2456,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0380 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-money-block-removal-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 41036 bytes; Modified UTC: `2026-06-05T16:58:51.665569+00:00`
 - SHA-256: `1dfa178aadd79a45e1e6cbdfa5e35a43d8431504f0dbaa44039107f14b8cd366`
 - Ingest: `utf8-preview`
@@ -2474,7 +2474,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0382 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-overexplaining-and-conciseness-tips.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 6101 bytes; Modified UTC: `2026-06-05T16:58:51.665707+00:00`
 - SHA-256: `19fa533be776d4633f6f9ed3c3a791f630afa1a900c625a85ad7e5d118f28dc8`
 - Ingest: `utf8-preview`
@@ -2483,7 +2483,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0383 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-overwhelm-to-clarity.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:identity`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:structure`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 16004 bytes; Modified UTC: `2026-06-05T16:58:51.665927+00:00`
 - SHA-256: `29fd81f42270dbcaa081ac74dd493356dfa20c95960c9d5a5f87dae9e4f60eff`
 - Ingest: `utf8-preview`
@@ -2492,7 +2492,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0384 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-rendering-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:sop`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3482 bytes; Modified UTC: `2026-06-05T16:58:51.665969+00:00`
 - SHA-256: `e22f21ea9a0d56fd39fdf983a3ed14db9a6c36b8f04a8645957729c27a477a52`
 - Ingest: `utf8-preview`
@@ -2510,7 +2510,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0386 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-self-awareness-and-love.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5896 bytes; Modified UTC: `2026-06-05T16:58:51.666070+00:00`
 - SHA-256: `30c004edc64d5d212fe9590db522fbc224cce3163f66cf53bd09300b58a10087`
 - Ingest: `utf8-preview`
@@ -2537,7 +2537,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0389 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-shift-your-mindset.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3764 bytes; Modified UTC: `2026-06-05T16:58:51.666211+00:00`
 - SHA-256: `7ddeb898efb6fa4e20b99bb66cdf84e2ab9d2e88d78a4326cd2f917b936d2c2b`
 - Ingest: `utf8-preview`
@@ -2546,7 +2546,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0390 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-success-and-small-habits.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3431 bytes; Modified UTC: `2026-06-05T16:58:51.666262+00:00`
 - SHA-256: `0eced43e6596b3c6d12bcc184fad3437b79d6683ce172afa9cce83d73a1b0016`
 - Ingest: `utf8-preview`
@@ -2555,7 +2555,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0391 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-tm-and-kundalini-energy.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 13342 bytes; Modified UTC: `2026-06-05T16:58:51.666333+00:00`
 - SHA-256: `9c87eb8dd247594375c624101c1627997aefcf2ea319b30d9d4b4ae7180a518e`
 - Ingest: `utf8-preview`
@@ -2564,7 +2564,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0392 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-vibration-frequency-exploration.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 11187 bytes; Modified UTC: `2026-06-05T16:58:51.666413+00:00`
 - SHA-256: `53fdd3b66ec83a9b9713b76bbb91ff3c1a8d6a65e9e7b59f0de27d483660bda2`
 - Ingest: `utf8-preview`
@@ -2573,7 +2573,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0393 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-vision-board-creation-guide.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 7285 bytes; Modified UTC: `2026-06-05T16:58:51.666486+00:00`
 - SHA-256: `ea5afe04826b264160af32a0c7c6321b83decfb05ca861c5ef403a97e709f252`
 - Ingest: `utf8-preview`
@@ -2582,7 +2582,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0394 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-visionary-life-breakdown.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 17661 bytes; Modified UTC: `2026-06-05T16:58:51.666718+00:00`
 - SHA-256: `ee47ee0f2f1344b7e6cc08544e0b27d5ed6e1d9ced87fad85777245984600d22`
 - Ingest: `utf8-preview`
@@ -2591,7 +2591,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0395 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/mindset/chatgpt-yin-energy-explained.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 4850 bytes; Modified UTC: `2026-06-05T16:58:51.666806+00:00`
 - SHA-256: `0072e15d4217943dcea9d1a12f19f2d7574bd2157ca4f02965facf25d7d6d967`
 - Ingest: `utf8-preview`
@@ -2599,17 +2599,17 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0396 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/mindset/important-componetchatgpt-inner-child-book-concept-1.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:inner`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/mindset/important-componetchatgpt-system-child-book-concept-1.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:system`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 9703 bytes; Modified UTC: `2026-06-05T16:58:51.666890+00:00`
 - SHA-256: `750925012e554840ab9e9ebe4bbbccc952e5abf75438efc84a93f104d8d90099`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/mindset/important-componetchatgpt-inner-child-book-concept-1.txt`. Content signal: Inner child book concept User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/27/2025 11:02:49
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/mindset/important-componetchatgpt-system-child-book-concept-1.txt`. Content signal: System child book concept User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 11/27/2025 11:02:49
 
 #### SS-MAN-20260605-0397 - Rhythms Rituals
 
 - Path: `docs/archive/source-bundle/spiral/mindset/rhythms-rituals.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7878 bytes; Modified UTC: `2026-06-05T16:58:51.666951+00:00`
 - SHA-256: `76fd625e395add98cdf7334ccf0eddb408c3f77a01f50cc13994522b23f4efd1`
 - Ingest: `utf8-preview`
@@ -2627,7 +2627,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0399 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-astrology-and-business-strategy.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:sop`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:sop`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 29738 bytes; Modified UTC: `2026-06-05T16:58:51.667301+00:00`
 - SHA-256: `69642b24d9c9bfac9c848c671a5872874553dc4f806ffc17e3477e45ccca7790`
 - Ingest: `utf8-preview`
@@ -2636,7 +2636,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0400 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-astrology-hormone-moon-planner.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 11168 bytes; Modified UTC: `2026-06-05T16:58:51.667491+00:00`
 - SHA-256: `464f63b1d93fddc6023b89060c7e91dcf14d05c07b4d9d75e3c393e5d30dc480`
 - Ingest: `utf8-preview`
@@ -2645,7 +2645,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0401 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-cycle-and-moon-comparison.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 99913 bytes; Modified UTC: `2026-06-05T16:58:51.667742+00:00`
 - SHA-256: `b652a726871ab232fbbadabdac0a10d00669970ea96da1ffdcebc946af9d406f`
 - Ingest: `utf8-preview`
@@ -2654,7 +2654,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0402 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-frequency-symbol-origins.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3292 bytes; Modified UTC: `2026-06-05T16:58:51.667798+00:00`
 - SHA-256: `f7feee32c944e37174cc66868016720056aa3683a68ee64369ccfc9a1f8a5a9a`
 - Ingest: `utf8-preview`
@@ -2663,7 +2663,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0403 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-moon-day-male-struggles-1.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3116 bytes; Modified UTC: `2026-06-05T16:58:51.667841+00:00`
 - SHA-256: `81872080e35f444903a1f983bd1adad3740754ffab008e1bbfbafc4bdb45d91f`
 - Ingest: `utf8-preview`
@@ -2690,7 +2690,7 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 #### SS-MAN-20260605-0406 - Prompt:
 
 - Path: `docs/archive/source-bundle/spiral/time-astro-human-design/chatgpt-vedic-astrology-energy-analysis.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 5117 bytes; Modified UTC: `2026-06-05T16:58:51.667990+00:00`
 - SHA-256: `d116fb7807a8fac6d0abf48ba7b99b8a55e058a393443a60d79ee47154a264d4`
 - Ingest: `utf8-preview`
@@ -2698,147 +2698,147 @@ Thread ID: `TH-ARCHIVE-SOURCE-SPIRAL`
 
 #### SS-MAN-20260605-0407 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-2-5-ph-acidic-water.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-2-5-ph-acidic-gateway.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 1946 bytes; Modified UTC: `2026-06-05T16:58:51.668065+00:00`
 - SHA-256: `f2c8ae7fe341b33c3076ff475f9277a4cc4bc65bd2ef1731208bdbe0081fe0db`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-2-5-ph-acidic-water.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/26/2025 16:55:01 Updated: 3/31/2026 13:14:29
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-2-5-ph-acidic-gateway.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/26/2025 16:55:01 Updated: 3/31/2026 13:14:29
 
 #### SS-MAN-20260605-0408 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-dissolved-hydrogen-concentration.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-dissolved-hydrogen-concentration.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2813 bytes; Modified UTC: `2026-06-05T16:58:51.668125+00:00`
 - SHA-256: `60f2db68d8bd4253d073d3060d39c07c95fe9d4007abe269d46e0e508af283cd`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-dissolved-hydrogen-concentration.txt`. Content signal: Dissolved hydrogen concentration User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 10/2/2025 10:32:23
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-dissolved-hydrogen-concentration.txt`. Content signal: Dissolved hydrogen concentration User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 10/2/2025 10:32:23
 
 #### SS-MAN-20260605-0409 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-eczema-skin-water-protocol.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-eczema-skin-gateway-protocol.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2897 bytes; Modified UTC: `2026-06-05T16:58:51.668304+00:00`
 - SHA-256: `802af0a0d4ae79fbedad1bca5a86299ebec96dc5a3b26862502bc1bc557688d6`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-eczema-skin-water-protocol.txt`. Content signal: Eczema Skin Water Protocol User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 12/29/2025 17:00:34
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-eczema-skin-gateway-protocol.txt`. Content signal: Eczema Skin Gateway Protocol User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 12/29/2025 17:00:34
 
 #### SS-MAN-20260605-0410 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-ionized-water-benefits.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-ionized-gateway-benefits.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3115 bytes; Modified UTC: `2026-06-05T16:58:51.668356+00:00`
 - SHA-256: `3cd35b7d381d0796167adcb1c99012e9ca475da8e454e1f0396f60d38fbfc0ec`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-ionized-water-benefits.txt`. Content signal: Ionized water benefits User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 8/5/2025 13:10:11
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-ionized-gateway-benefits.txt`. Content signal: Ionized gateway benefits User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 8/5/2025 13:10:11
 
 #### SS-MAN-20260605-0411 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-kangen-water-and-ear-aches.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-kangen-gateway-and-ear-aches.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2750 bytes; Modified UTC: `2026-06-05T16:58:51.668414+00:00`
 - SHA-256: `64f38477d90aac4c4783540769ebe5d543057bb3d48096a8d20ec63672ab2a0a`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-kangen-water-and-ear-aches.txt`. Content signal: Kangen Water and Ear Aches User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/12/2026 9:23:43
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-kangen-gateway-and-ear-aches.txt`. Content signal: Kangen Gateway and Ear Aches User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/12/2026 9:23:43
 
 #### SS-MAN-20260605-0412 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-kangen-water-content-ideas.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-kangen-gateway-content-ideas.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 40263 bytes; Modified UTC: `2026-06-05T16:58:51.668515+00:00`
 - SHA-256: `d8746d12bcb34862550ff75fa247db6c662726040f88058d7139a1cc5d265db4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-kangen-water-content-ideas.txt`. Content signal: Kangen Water Content Ideas User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/1/2025 19:35:43
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-kangen-gateway-content-ideas.txt`. Content signal: Kangen Gateway Content Ideas User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/1/2025 19:35:43
 
 #### SS-MAN-20260605-0413 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-molecular-hydrogen-for-athletes.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-molecular-hydrogen-for-athletes.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 1420 bytes; Modified UTC: `2026-06-05T16:58:51.668571+00:00`
 - SHA-256: `d3b036164b54bdd3231fdcf2f845d549b04eee90d68f77b2d3ae5b1a0ff52215`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-molecular-hydrogen-for-athletes.txt`. Content signal: Molecular Hydrogen for Athletes User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/23/2025 12:30:20
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-molecular-hydrogen-for-athletes.txt`. Content signal: Molecular Hydrogen for Athletes User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/23/2025 12:30:20
 
 #### SS-MAN-20260605-0414 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-water-hub-design.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-hub-design.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 37468 bytes; Modified UTC: `2026-06-05T16:58:51.668787+00:00`
 - SHA-256: `7a45e0006d75f50d6ef27ec83f532fde76cbb064488e612baf7741eff6b166a1`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-water-hub-design.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 3/25/2026 11:41:12 Updated: 3/30/2026 21:41:40
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-hub-design.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 3/25/2026 11:41:12 Updated: 3/30/2026 21:41:40
 
 #### SS-MAN-20260605-0415 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-water-hub-framework-breakdown.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-hub-framework-breakdown.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2296 bytes; Modified UTC: `2026-06-05T16:58:51.668845+00:00`
 - SHA-256: `6c7f082197a1ef68db59f093bad781b11cb7506c8a582dbfcf819a745de1e86f`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-water-hub-framework-breakdown.txt`. Content signal: Water Hub Framework Breakdown User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 3/25/2026 11:38:16
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-hub-framework-breakdown.txt`. Content signal: Gateway Hub Framework Breakdown User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 3/25/2026 11:38:16
 
 #### SS-MAN-20260605-0416 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-water-memory-and-energy.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-memory-and-energy.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 3156 bytes; Modified UTC: `2026-06-05T16:58:51.668898+00:00`
 - SHA-256: `614a7ccfe541d5b6c57ef62cc6ab98fe45a17ba081f978127b77eb95d05d46ee`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-water-memory-and-energy.txt`. Content signal: Water Memory and Energy User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 5/9/2025 22:40:12
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-memory-and-energy.txt`. Content signal: Gateway Memory and Energy User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 5/9/2025 22:40:12
 
 #### SS-MAN-20260605-0417 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-water-retention-in-erw.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-retention-in-erw.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2934 bytes; Modified UTC: `2026-06-05T16:58:51.668948+00:00`
 - SHA-256: `96bdabdc4221279e1f75fbaddc03ab955fff767b932d92e71daa5e1fd8f45a30`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-water-retention-in-erw.txt`. Content signal: Water Retention in ERW User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 4/20/2025 7:20:56
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-retention-in-erw.txt`. Content signal: Gateway Retention in ERW User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 4/20/2025 7:20:56
 
 #### SS-MAN-20260605-0418 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-water-sales-strategy-plan.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-sales-strategy-plan.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 16041 bytes; Modified UTC: `2026-06-05T16:58:51.669012+00:00`
 - SHA-256: `390fa7b6fe121801034142a6238e80afacccd4456fd3f8817811c2dc98a2b6fa`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-water-sales-strategy-plan.txt`. Content signal: Water Sales Strategy Plan User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/10/2025 13:31:51
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-gateway-sales-strategy-plan.txt`. Content signal: Gateway Sales Strategy Plan User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 1/10/2025 13:31:51
 
 #### SS-MAN-20260605-0419 - Prompt:
 
-- Path: `docs/archive/source-bundle/spiral/water/chatgpt-well-water-costs.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:txt`
+- Path: `docs/archive/source-bundle/spiral/gateway/chatgpt-well-gateway-costs.txt`
+- Tags: `area:docs`, `client:admin`, `corpus:source-bundle`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 2065 bytes; Modified UTC: `2026-06-05T16:58:51.669064+00:00`
 - SHA-256: `85e8281887deee30700e00153a57797fd0f85b33fe0a0ef9e60669839c4843c4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/chatgpt-well-water-costs.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/12/2026 19:02:35 Updated: 3/30/2026 21:45:03
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/chatgpt-well-gateway-costs.txt`. Content signal: User: admin Galloway (95rrzm9nht@privaterelay.appleid.com) Created: 2/12/2026 19:02:35 Updated: 3/30/2026 21:45:03
 
-#### SS-MAN-20260605-0420 - Hydrogen Water: Science, Health, and Business
+#### SS-MAN-20260605-0420 - Hydrogen Gateway: Science, Health, and Business
 
-- Path: `docs/archive/source-bundle/spiral/water/gemini-hydrogen-water-science-health-and-business.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Path: `docs/archive/source-bundle/spiral/gateway/gemini-hydrogen-gateway-science-health-and-business.md`
+- Tags: `area:docs`, `corpus:source-bundle`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 221655 bytes; Modified UTC: `2026-06-05T16:58:51.669344+00:00`
 - SHA-256: `3127bbebaae0bda512ccf7badf8eedcce36ed5e25e85e3edcc0ac62352cbf96c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/gemini-hydrogen-water-science-health-and-business.md`. Content signal: # Hydrogen Water: Science, Health, and Business **Exported:** 3/31/2026 14:02:07 **Link:** [https://gemini.google.com/app/685e5f2b04b3ac11?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20108148196&gbraid=0AAAAApk5BhltUVZN2Eq5RDbAJnOdEvLzL&gclid=Cj0KCQ
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/gemini-hydrogen-gateway-science-health-and-business.md`. Content signal: # Hydrogen Gateway: Science, Health, and Business **Exported:** 3/31/2026 14:02:07 **Link:** [https://gemini.google.com/app/685e5f2b04b3ac11?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20108148196&gbraid=0AAAAApk5BhltUVZN2Eq5RDbAJnOdEvLzL&gclid=Cj0KCQ
 
-#### SS-MAN-20260605-0421 - Water Crystals, Love, and Pseudoscience
+#### SS-MAN-20260605-0421 - Gateway Crystals, Love, and Pseudoscience
 
-- Path: `docs/archive/source-bundle/spiral/water/gemini-water-crystals-love-and-pseudoscience.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Path: `docs/archive/source-bundle/spiral/gateway/gemini-gateway-crystals-love-and-pseudoscience.md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6833 bytes; Modified UTC: `2026-06-05T16:58:51.669449+00:00`
 - SHA-256: `ae0ff4a0d350e6d068105fe3a8538286b0a2bf2b78e315413f9f42dc0a7a6b16`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/gemini-water-crystals-love-and-pseudoscience.md`. Content signal: # Water Crystals, Love, and Pseudoscience **Exported:** 3/31/2026 14:02:25 **Link:** [https://gemini.google.com/app/590b5defa1f104dc?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20108148196&gbraid=0AAAAApk5BhltUVZN2Eq5RDbAJnOdEvLzL&gclid=Cj0KCQjw4a3O
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/gemini-gateway-crystals-love-and-pseudoscience.md`. Content signal: # Gateway Crystals, Love, and Pseudoscience **Exported:** 3/31/2026 14:02:25 **Link:** [https://gemini.google.com/app/590b5defa1f104dc?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20108148196&gbraid=0AAAAApk5BhltUVZN2Eq5RDbAJnOdEvLzL&gclid=Cj0KCQjw4a3O
 
 #### SS-MAN-20260605-0422 - Learn More Erw
 
-- Path: `docs/archive/source-bundle/spiral/water/learn-more-erw.md`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Path: `docs/archive/source-bundle/spiral/gateway/learn-more-erw.md`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 27411 bytes; Modified UTC: `2026-06-05T16:58:51.669544+00:00`
 - SHA-256: `e8cc28c38bcf0a7703a1c837466e7520d7281dd6163ea91ac80dc5eb0a807a7b`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/water/learn-more-erw.md`. Content signal: ![](media/image1.png){width="5.972127077865267in" height="1.6510422134733158in"} *Please note that we are not claiming that electrolyzed reduced water
+- Annotation: Readable project artifact at `docs/archive/source-bundle/spiral/gateway/learn-more-erw.md`. Content signal: ![](media/image1.png){width="5.972127077865267in" height="1.6510422134733158in"} *Please note that we are not claiming that electrolyzed reduced gateway
 
 
 ### Claude Plans
@@ -2875,7 +2875,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0004 - Plan: Content Genome & System Health Report Suite
 
 - Path: `.claude/plans/2026-04-04-content-genome-report-suite.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9774 bytes; Modified UTC: `2026-06-05T16:58:51.590883+00:00`
 - SHA-256: `945712cceb5f4d2d2fcd3de9b789612d5dd42b7f66d55dc83fa7888e12a98c58`
 - Ingest: `utf8-preview`
@@ -2893,7 +2893,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0006 - Priority Unification: Attack Plan
 
 - Path: `.claude/plans/2026-04-04-priority-unification-attack.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9736 bytes; Modified UTC: `2026-06-05T16:58:51.591038+00:00`
 - SHA-256: `0843d609eb3ad50d5c89d491a605a8c3324d24b1063e078664fd46ef467019de`
 - Ingest: `utf8-preview`
@@ -2902,7 +2902,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0007 - Plan: Navigation UX Overhaul — #36 Root Cause Fix
 
 - Path: `.claude/plans/2026-04-15-navigation-ux-overhaul-issue-36.md`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6824 bytes; Modified UTC: `2026-06-05T16:58:51.591112+00:00`
 - SHA-256: `24f68249e3ade519a568f1cdf6c36d59b536c78299d4f08a380351f947a04ac3`
 - Ingest: `utf8-preview`
@@ -2911,7 +2911,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0008 - Comprehensive admin Request Audit — 2026-04-17
 
 - Path: `.claude/plans/2026-04-17-comprehensive-request-audit.md`
-- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14171 bytes; Modified UTC: `2026-06-05T16:58:51.591246+00:00`
 - SHA-256: `5ead865100db1d06ccb667dd6ec58c356e1153b08b5428049fc7035eb1298c3d`
 - Ingest: `utf8-preview`
@@ -2920,7 +2920,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0009 - Corrective Implementation Plan — Spiral-First Architecture
 
 - Path: `.claude/plans/2026-04-17-corrective-implementation.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10055 bytes; Modified UTC: `2026-06-05T16:58:51.591325+00:00`
 - SHA-256: `06851316af02b4ee775f47da793cba6367c1b6a60528c2793741ce46a0aa054f`
 - Ingest: `utf8-preview`
@@ -2929,7 +2929,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0010 - Session-Close Audit — 2026-04-17
 
 - Path: `.claude/plans/2026-04-17-session-close-audit.md`
-- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 6187 bytes; Modified UTC: `2026-06-05T16:58:51.591402+00:00`
 - SHA-256: `0a32f92ef092c17e76ca0248af71c34529bf7a19e3113f9ddfc69588c06ce224`
 - Ingest: `utf8-preview`
@@ -2938,7 +2938,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0011 - Content Genome Processing Pipeline — 8 Issues
 
 - Path: `.claude/plans/2026-04-19-content-genome-processing.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6643 bytes; Modified UTC: `2026-06-05T16:58:51.591473+00:00`
 - SHA-256: `d5b550cf5f27e9b3929e3422535d8ed8c5be13a9fec3f369f72f9d0933a6b7c8`
 - Ingest: `utf8-preview`
@@ -2947,16 +2947,16 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0012 - PR 1: Homepage Restructure — Spiral as Hero
 
 - Path: `.claude/plans/2026-04-19-pr1-homepage-spiral-hero.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5415 bytes; Modified UTC: `2026-06-05T16:58:51.591556+00:00`
 - SHA-256: `0bce739908c36a80debdc8bd88ca209dd5574899b5f90eb4f719f68e66929906`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `.claude/plans/2026-04-19-pr1-homepage-spiral-hero.md`. Content signal: # PR 1: Homepage Restructure — Spiral as Hero The Sovereign Systems Spiral website (`sovereign-systems--spiral-template`) is architecturally inverted. admin's 65 atomized wants (commit `868d6c4`) reveal the site should be spiral-first — the spiral visualization is the main attraction, water is a nested "mini version." Currently the homepage leads with a generic Hero component that says "Begin with Water" twice. The sp
+- Annotation: Readable project artifact at `.claude/plans/2026-04-19-pr1-homepage-spiral-hero.md`. Content signal: # PR 1: Homepage Restructure — Spiral as Hero The Sovereign Systems Spiral website (`sovereign-systems--spiral-template`) is architecturally inverted. admin's 65 atomized wants (commit `868d6c4`) reveal the site should be spiral-first — the spiral visualization is the main attraction, gateway is a nested "mini version." Currently the homepage leads with a generic Hero component that says "Begin with Gateway" twice. The sp
 
 #### SS-MAN-20260605-0013 - Plan: Resolve admin's Feedback — Spiral-First Architecture Realignment
 
 - Path: `.claude/plans/2026-04-20-admin-spiral-first-realignment.md`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12480 bytes; Modified UTC: `2026-06-05T16:58:51.591807+00:00`
 - SHA-256: `1b8c25d8e3f42db0235ce5e0c5050ed225bccf4c390c34fb4a051e9cd7072510`
 - Ingest: `utf8-preview`
@@ -2965,7 +2965,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0014 - Plan: Dramatic Spiral — Alive, Spinning, Atmospheric
 
 - Path: `.claude/plans/2026-04-21-dramatic-spiral-animations.md`
-- Tags: `area:.claude`, `client:admin`, `governance:plan`, `pillar:identity`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:plan`, `pillar:structure`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4616 bytes; Modified UTC: `2026-06-05T16:58:51.591910+00:00`
 - SHA-256: `d5179db292cbe78868c89683d178451396a9a9a19b6a4578e89bcd9b672df827`
 - Ingest: `utf8-preview`
@@ -2974,7 +2974,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0015 - Corrective Plan: Sovereign Systems Spiral — Fundamental Realignment
 
 - Path: `.claude/plans/2026-04-21-fundamental-realignment-threejs-helix.md`
-- Tags: `area:.claude`, `client:admin`, `governance:plan`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:plan`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10818 bytes; Modified UTC: `2026-06-05T16:58:51.591993+00:00`
 - SHA-256: `c9627466f998954bdb27323e19b59dc30eebf34f2362d9fdc9b54532d9cc6683`
 - Ingest: `utf8-preview`
@@ -2992,7 +2992,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0017 - Plan — Hand-off Relays for sovereign-systems--spiral-template
 
 - Path: `.claude/plans/2026-04-25-handoff-relays.md`
-- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 20079 bytes; Modified UTC: `2026-06-05T16:58:51.592172+00:00`
 - SHA-256: `c4132c80fec9f0652adc75f71d6e17c6e128b375744a000b8ea613e92735ef1a`
 - Ingest: `utf8-preview`
@@ -3001,7 +3001,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0018 - Landing Engine — Persona × Narrative × Section Composition
 
 - Path: `.claude/plans/2026-04-25-landing-engine-persona-narrative-section-v1.md`
-- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7782 bytes; Modified UTC: `2026-06-05T16:58:51.592295+00:00`
 - SHA-256: `ba541abf99a6f429abed071a2646466b9692461752578f3a6e98ff0679daf747`
 - Ingest: `utf8-preview`
@@ -3010,7 +3010,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0019 - admin Ask Packet — MD-1..7
 
 - Path: `.claude/plans/2026-04-25-admin-ask-packet-MD-1-7.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12302 bytes; Modified UTC: `2026-06-05T16:58:51.592388+00:00`
 - SHA-256: `799a46d1b8f001e46e3ade800b3cab365758c4193318e7c2b50774bc44c4938c`
 - Ingest: `utf8-preview`
@@ -3019,7 +3019,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0020 - Plan — admin's Spiral: Chakra Stars + Round 2 Lightening
 
 - Path: `.claude/plans/2026-04-25-admin-spiral-chakra-stars-round2-lightening.md`
-- Tags: `area:.claude`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9360 bytes; Modified UTC: `2026-06-05T16:58:51.592466+00:00`
 - SHA-256: `67234916aa7b6bf2f5da534e5cb8a3b8d68226031699dd2403024bc021954172`
 - Ingest: `utf8-preview`
@@ -3037,7 +3037,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0022 - Spiral V4 — Dual Variants + Sleek Pass
 
 - Path: `.claude/plans/2026-04-25-spiral-v4-dual-variants-and-sleek-pass.md`
-- Tags: `area:.claude`, `client:admin`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6095 bytes; Modified UTC: `2026-06-05T16:58:51.592640+00:00`
 - SHA-256: `4be312a52194c481fc68bd0a4fb02d9e441b89d50a297839ead2ad20e8cda66b`
 - Ingest: `utf8-preview`
@@ -3046,7 +3046,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0023 - Plan: CLAUDE.md improvements for sovereign-systems--spiral-template
 
 - Path: `.claude/plans/2026-04-29-claude-md-improvements.md`
-- Tags: `area:.claude`, `governance:plan`, `governance:spec`, `pillar:identity`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:plan`, `governance:spec`, `pillar:structure`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11601 bytes; Modified UTC: `2026-06-05T16:58:51.592729+00:00`
 - SHA-256: `1e2590bd3bf8b99bf8b23c88fc607d8fa1f2bb9fe9af5103931820e566d2e828`
 - Ingest: `utf8-preview`
@@ -3055,7 +3055,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0024 - admin Ideals vs Rendered State — Diff Tracker
 
 - Path: `.claude/plans/2026-04-29-admin-ideals-vs-rendered-diff.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 16031 bytes; Modified UTC: `2026-06-05T16:58:51.592963+00:00`
 - SHA-256: `c39d832c06465babfb84a4d28199195d093ba014d90a55d4159a92c04dc7a228`
 - Ingest: `utf8-preview`
@@ -3064,7 +3064,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0025 - Stream A — admin / Sovereign Spiral Visual: Generative Maximalist Build
 
 - Path: `.claude/plans/2026-04-29-stream-a-admin-spiral-generative-build.md`
-- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 16130 bytes; Modified UTC: `2026-06-05T16:58:51.593091+00:00`
 - SHA-256: `134b1b442b2bb4d66a020721954b992e552cee7933dd0977e779fcd7ba49c24a`
 - Ingest: `utf8-preview`
@@ -3073,7 +3073,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0026 - Implement: Session Close-out from Forensic Audit Transcript
 
 - Path: `.claude/plans/2026-04-30-session-closeout-from-forensic-audit-transcript.md`
-- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10899 bytes; Modified UTC: `2026-06-05T16:58:51.593186+00:00`
 - SHA-256: `bb074f55cfbd2d9bf47bd1215095cb8c2ff122728adc4bc33014bb01b4007c8c`
 - Ingest: `utf8-preview`
@@ -3082,7 +3082,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0027 - Plan — Sort Streams of Rob and admin
 
 - Path: `.claude/plans/2026-04-30-sort-streams-of-rob-and-admin.md`
-- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:financial`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:vision`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10913 bytes; Modified UTC: `2026-06-05T16:58:51.593265+00:00`
 - SHA-256: `a292343a01a0d3bedc12ba56722260b48afd703160ed43bfa9f4ee4b0f1f1c98`
 - Ingest: `utf8-preview`
@@ -3091,7 +3091,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0028 - Plan — Translating admin's 2026-05-01 Messages into Engineering Tracks
 
 - Path: `.claude/plans/2026-05-01-admin-messages-translation.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 23444 bytes; Modified UTC: `2026-06-05T16:58:51.593360+00:00`
 - SHA-256: `0242ffeb0586792363ece1ffd45882f0b6ca30be7aa7359b13ade1a2fd5aaa5f`
 - Ingest: `utf8-preview`
@@ -3100,7 +3100,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0029 - Agent Handoff: `.astro check` cleanup + gate upgrade
 
 - Path: `.claude/plans/2026-05-02-astro-check-cleanup-handoff.md`
-- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11786 bytes; Modified UTC: `2026-06-05T16:58:51.593457+00:00`
 - SHA-256: `1e3b2be4534435e8522beb2eeea0d5c2b5945bf7221751c128798ed8eda557df`
 - Ingest: `utf8-preview`
@@ -3118,7 +3118,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0031 - Agent Handoff: post `astro check` cleanup — what's open
 
 - Path: `.claude/plans/2026-05-02-post-astro-check-handoff.md`
-- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8904 bytes; Modified UTC: `2026-06-05T16:58:51.593620+00:00`
 - SHA-256: `54bcdab008431abb9c760e4a113f66ca0ef0195e553471cdfced7de5a3469721`
 - Ingest: `utf8-preview`
@@ -3145,7 +3145,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0034 - Session Close-Out — 2026-05-16 (content-leak-scrub)
 
 - Path: `.claude/plans/2026-05-16-closeout-content-leak-scrub.md`
-- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9249 bytes; Modified UTC: `2026-06-05T16:58:51.593875+00:00`
 - SHA-256: `6b8b2df1e9bd5942390a5d69de3a6cc5da9694600e1b7a0556abfdefe7e79691`
 - Ingest: `utf8-preview`
@@ -3163,7 +3163,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0036 - Agent Handoff: sovereign-systems-spiral triage-sweep continuation
 
 - Path: `.claude/plans/2026-05-16-cross-agent-handoff-triage-sweep.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 16200 bytes; Modified UTC: `2026-06-05T16:58:51.594042+00:00`
 - SHA-256: `d10a691f3579fbd43a8e31306fb86062316766d694a22b8fd159b79379dde718`
 - Ingest: `utf8-preview`
@@ -3172,7 +3172,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0037 - Agent Handoff: post-content-leak-scrub aftermath (v2 — post-PR-#87, post-/closeout x2, post-Qwen-review)
 
 - Path: `.claude/plans/2026-05-16-handoff-content-leak-scrub-aftermath-v2.md`
-- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14217 bytes; Modified UTC: `2026-06-05T16:58:51.594131+00:00`
 - SHA-256: `d96ffc8a8190561a9b526f85b085a4d20588225f56a1e86303f90f381196572e`
 - Ingest: `utf8-preview`
@@ -3181,7 +3181,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0038 - Agent Handoff: decision-board capture wiring + leak-scrub aftermath (v3)
 
 - Path: `.claude/plans/2026-05-16-handoff-content-leak-scrub-aftermath-v3.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12967 bytes; Modified UTC: `2026-06-05T16:58:51.594239+00:00`
 - SHA-256: `b97708f01135aeba1ce92f18a37571a69ee87e17b83f241c137bfeb7bc901237`
 - Ingest: `utf8-preview`
@@ -3217,7 +3217,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0042 - Cross-Agent Handoff: pages.dev deploy-output-dir regression
 
 - Path: `.claude/plans/2026-05-29-cross-agent-handoff-pages-deploy-regression.md`
-- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6381 bytes; Modified UTC: `2026-06-05T16:58:51.594550+00:00`
 - SHA-256: `16fa7ef7c22aa9dcf952114e63253f671efcd4e106cfb3900806bc9094ef1418`
 - Ingest: `utf8-preview`
@@ -3226,7 +3226,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0043 - Session Close-Out — 2026-06-04
 
 - Path: `.claude/plans/2026-06-04-closeout-hover-motion-relationship-pipeline.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 3522 bytes; Modified UTC: `2026-06-05T16:58:51.594597+00:00`
 - SHA-256: `bb6a28dbe09a2ef3d86942b2cad375693fd5ea0627b56fcb841561d03f168e1c`
 - Ingest: `utf8-preview`
@@ -3235,7 +3235,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0044 - Agent Handoff: hover/motion pass landed + relationship-pipeline micro-process
 
 - Path: `.claude/plans/2026-06-04-handoff-hover-motion-relationship-pipeline.md`
-- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8235 bytes; Modified UTC: `2026-06-05T16:58:51.594688+00:00`
 - SHA-256: `2bb9c96ec4513bb922c759c9aa56c98a1dd97fab183447d56c22522cc88677a1`
 - Ingest: `utf8-preview`
@@ -3244,7 +3244,7 @@ Thread ID: `TH-CLAUDE-PLANS`
 #### SS-MAN-20260605-0045 - Agent Handoff: Spiral Rebuild Directive
 
 - Path: `.claude/plans/2026-06-05-handoff-spiral-rebuild-directive.md`
-- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6710 bytes; Modified UTC: `2026-06-05T16:58:51.594884+00:00`
 - SHA-256: `b41986b6958078f7bd59c0491d9a9bbbf356617a199b36935e814b4d88a9efb2`
 - Ingest: `utf8-preview`
@@ -3295,7 +3295,7 @@ Thread ID: `TH-CLAUDE-2026-04-14-IDEMPOTENT-SWIMMING-LEAF`
 #### SS-MAN-20260605-0049 - Session Prompts: 2026-04-14
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/prompts.md`
-- Tags: `area:.claude`, `governance:audit`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:md`
+- Tags: `area:.claude`, `governance:audit`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 15566 bytes; Modified UTC: `2026-06-05T16:58:51.595254+00:00`
 - SHA-256: `254beddb0b31b1457050ec26b390eeb20a0f4d6aeb3984524c6e0be43cd2acb6`
 - Ingest: `utf8-preview`
@@ -3313,7 +3313,7 @@ Thread ID: `TH-CLAUDE-2026-04-14-IDEMPOTENT-SWIMMING-LEAF`
 #### SS-MAN-20260605-0051 - Session
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/session.jsonl`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:jsonl`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:jsonl`
 - Type: `.jsonl`; Size: 9054034 bytes; Modified UTC: `2026-06-05T16:58:51.619132+00:00`
 - SHA-256: `63aead9fc12d2719eb4ce5096d77550c6aef2aa1025902f55835ed62b5d0059b`
 - Ingest: `utf8-preview`
@@ -3322,20 +3322,20 @@ Thread ID: `TH-CLAUDE-2026-04-14-IDEMPOTENT-SWIMMING-LEAF`
 #### SS-MAN-20260605-0052 - Agent A7Dc8Aca80742A88C
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.jsonl`
-- Tags: `area:.claude`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 115302 bytes; Modified UTC: `2026-06-05T16:58:51.620357+00:00`
 - SHA-256: `3f384028d22d04d974af9f181748c1bc3a7a67aa8489f0250a7ff9185c0f3c1c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.jsonl`. Content signal: {"parentUuid":null,"isSidechain":true,"promptId":"061b0b1c-65d1-40e6-95ae-ffa7ec2e7c53","agentId":"a7dc8aca80742a88c","type":"user","message":{"role":"user","content":"I need a thorough exploration of the water section of an Astro 5 site at /Users/4jp/Workspace/organvm-iii-ergon/sovereign-systems--spiral-template. The goal is to make the water/filter page launch-ready.\n\nA critical architectural decision was made: the
+- Annotation: Readable project artifact at `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.jsonl`. Content signal: {"parentUuid":null,"isSidechain":true,"promptId":"061b0b1c-65d1-40e6-95ae-ffa7ec2e7c53","agentId":"a7dc8aca80742a88c","type":"user","message":{"role":"user","content":"I need a thorough exploration of the gateway section of an Astro 5 site at /Users/4jp/Workspace/organvm-iii-ergon/sovereign-systems--spiral-template. The goal is to make the gateway/filter page launch-ready.\n\nA critical architectural decision was made: the
 
 #### SS-MAN-20260605-0053 - Agent A7Dc8Aca80742A88C.Meta
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.meta.json`
-- Tags: `area:.claude`, `governance:session`, `pillar:water`, `type:json`
+- Tags: `area:.claude`, `governance:session`, `pillar:gateway`, `type:json`
 - Type: `.json`; Size: 66 bytes; Modified UTC: `2026-06-05T16:58:51.620423+00:00`
 - SHA-256: `6cf6d763e4f34f83ba65d4017a563be7e0d7c681518c57d157c771abcf27034a`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.meta.json`. Content signal: {"agentType":"Explore","description":"Explore water section code"}
+- Annotation: Readable project artifact at `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-a7dc8aca80742a88c.meta.json`. Content signal: {"agentType":"Explore","description":"Explore gateway section code"}
 
 #### SS-MAN-20260605-0054 - Agent Acompact 10865B81B950110E
 
@@ -3349,7 +3349,7 @@ Thread ID: `TH-CLAUDE-2026-04-14-IDEMPOTENT-SWIMMING-LEAF`
 #### SS-MAN-20260605-0055 - Agent Aed4D7Df7D57F97Da
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/subagents/agent-aed4d7df7d57f97da.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:session`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:session`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 100811 bytes; Modified UTC: `2026-06-05T16:58:51.620770+00:00`
 - SHA-256: `45b6174e2f47ebf34106f0508f3b12048876b575cf4522f4509a4a4728261a86`
 - Ingest: `utf8-preview`
@@ -3385,7 +3385,7 @@ Thread ID: `TH-CLAUDE-2026-04-14-IDEMPOTENT-SWIMMING-LEAF`
 #### SS-MAN-20260605-0059 - Session Transcript: 2026-04-14
 
 - Path: `.claude/sessions/2026-04-14--idempotent-swimming-leaf/transcript.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:source-bundle`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:source-bundle`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 163464 bytes; Modified UTC: `2026-06-05T16:58:51.621539+00:00`
 - SHA-256: `2f7d44783eb15cc46a4e43ae2b1e5c603e7b70c3a3bc3b11cf412f66f51e10df`
 - Ingest: `utf8-preview`
@@ -3408,7 +3408,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0061 - Session Prompts: 2026-04-15
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/prompts.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 13658 bytes; Modified UTC: `2026-06-05T16:58:51.621751+00:00`
 - SHA-256: `5a20d8f9df7d237e089c87529f40b0bc01c031de1a2cf032c65e09554df7a937`
 - Ingest: `utf8-preview`
@@ -3435,7 +3435,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0064 - Agent A03A3F0B50E5Bdbf5
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-a03a3f0b50e5bdbf5.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 130576 bytes; Modified UTC: `2026-06-05T16:58:51.622416+00:00`
 - SHA-256: `1449bfc66dbe51f8d51eaf7bddd7cd29af0dee284ce69d4d2e6868912f47296e`
 - Ingest: `utf8-preview`
@@ -3453,7 +3453,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0066 - Agent A119723A9F8Fbef94
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-a119723a9f8fbef94.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 160742 bytes; Modified UTC: `2026-06-05T16:58:51.623196+00:00`
 - SHA-256: `be656eb59358acdeda37ce4c3b69c0ba887187e277bd648814a33039d5d3b711`
 - Ingest: `utf8-preview`
@@ -3471,7 +3471,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0068 - Agent A6B7Dc9Efdf0Eee77
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-a6b7dc9efdf0eee77.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `pillar:water`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `pillar:gateway`, `type:jsonl`
 - Type: `.jsonl`; Size: 71870 bytes; Modified UTC: `2026-06-05T16:58:51.623376+00:00`
 - SHA-256: `8e1410e06fdb5212a59c51bd528b89264560b32d1e15621de87723470a527176`
 - Ingest: `utf8-preview`
@@ -3507,7 +3507,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0072 - Agent Acompact 0A9A35B656A06A2B
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-0a9a35b656a06a2b.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 53040 bytes; Modified UTC: `2026-06-05T16:58:51.623563+00:00`
 - SHA-256: `24fb83afcb0f70e5a7c12ac893335bb92a79681102dd67de20d71017a894633c`
 - Ingest: `utf8-preview`
@@ -3516,7 +3516,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0073 - Agent Acompact 48957Ac406Ab974F
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-48957ac406ab974f.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:water`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:gateway`, `type:jsonl`
 - Type: `.jsonl`; Size: 43566 bytes; Modified UTC: `2026-06-05T16:58:51.623663+00:00`
 - SHA-256: `b9d282ed21ba115211d02e8a23309b81ea0439bba6c32299477c02278c42ae2f`
 - Ingest: `utf8-preview`
@@ -3543,7 +3543,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0076 - Agent Acompact Ba2646F1C3E56B46
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-ba2646f1c3e56b46.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 71757 bytes; Modified UTC: `2026-06-05T16:58:51.624222+00:00`
 - SHA-256: `6ea652c2c245ef33f4d58dc00d1546db6c819969a55de53be9086a45d4e5c4f2`
 - Ingest: `utf8-preview`
@@ -3552,7 +3552,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0077 - Agent Acompact D3B1145Fe7F1Cd7D
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-d3b1145fe7f1cd7d.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 68751 bytes; Modified UTC: `2026-06-05T16:58:51.624268+00:00`
 - SHA-256: `275597618a748ba5a51e807f2600a6bcc179230af146d8ce7fcfcfcf029f91ae`
 - Ingest: `utf8-preview`
@@ -3561,7 +3561,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0078 - Agent Acompact E0D809972Ea1B356
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-e0d809972ea1b356.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `pillar:water`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `pillar:gateway`, `type:jsonl`
 - Type: `.jsonl`; Size: 29034 bytes; Modified UTC: `2026-06-05T16:58:51.624309+00:00`
 - SHA-256: `6c203adc420f98c6d91e72cd5dc7e39651349b27ad8c280e7bf95c9a9884f34d`
 - Ingest: `utf8-preview`
@@ -3570,7 +3570,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0079 - Agent Acompact F3608Dd485707Bf8
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/subagents/agent-acompact-f3608dd485707bf8.jsonl`
-- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `client:admin`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 31086 bytes; Modified UTC: `2026-06-05T16:58:51.624475+00:00`
 - SHA-256: `80d8db3f97096696fc5a295701ba7367174bf08ace94abe13a1580389f11ccf0`
 - Ingest: `utf8-preview`
@@ -3579,7 +3579,7 @@ Thread ID: `TH-CLAUDE-2026-04-15-COSMIC-ENCHANTING-AHO`
 #### SS-MAN-20260605-0080 - Session Transcript: 2026-04-15
 
 - Path: `.claude/sessions/2026-04-15--cosmic-enchanting-aho/transcript.md`
-- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 118648 bytes; Modified UTC: `2026-06-05T16:58:51.625022+00:00`
 - SHA-256: `518dd7aff816b51b3c945a33bb71423375465a888c9702a77bcbba399ebf398e`
 - Ingest: `utf8-preview`
@@ -3602,7 +3602,7 @@ Thread ID: `TH-CLAUDE-2026-04-16-ENCAPSULATED-DOODLING-SUNBEAM`
 #### SS-MAN-20260605-0082 - Session Prompts: 2026-04-16
 
 - Path: `.claude/sessions/2026-04-16--encapsulated-doodling-sunbeam/prompts.md`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:session`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:session`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 26252 bytes; Modified UTC: `2026-06-05T16:58:51.625192+00:00`
 - SHA-256: `13f953230103b8d699b20462a642e8ca3be770b2c904bc2c9b8b5548ea4654ec`
 - Ingest: `utf8-preview`
@@ -3620,7 +3620,7 @@ Thread ID: `TH-CLAUDE-2026-04-16-ENCAPSULATED-DOODLING-SUNBEAM`
 #### SS-MAN-20260605-0084 - Session
 
 - Path: `.claude/sessions/2026-04-16--encapsulated-doodling-sunbeam/session.jsonl`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:water`, `topic:hydration`, `type:jsonl`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:gateway`, `topic:gateway`, `type:jsonl`
 - Type: `.jsonl`; Size: 334152 bytes; Modified UTC: `2026-06-05T16:58:51.627684+00:00`
 - SHA-256: `2e2a2abced5902f2fbc43d1324f6a6222b2e5cfcd27ccff9084a468e5e702e7b`
 - Ingest: `utf8-preview`
@@ -3629,7 +3629,7 @@ Thread ID: `TH-CLAUDE-2026-04-16-ENCAPSULATED-DOODLING-SUNBEAM`
 #### SS-MAN-20260605-0085 - Agent A58E409D7943C96A8
 
 - Path: `.claude/sessions/2026-04-16--encapsulated-doodling-sunbeam/subagents/agent-a58e409d7943c96a8.jsonl`
-- Tags: `area:.claude`, `governance:issue`, `governance:session`, `governance:spec`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `governance:issue`, `governance:session`, `governance:spec`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 66137 bytes; Modified UTC: `2026-06-05T16:58:51.628300+00:00`
 - SHA-256: `d4907937e85ca8c3fad01734bb7f0f83892356ca1e9b6801b33806ee35217337`
 - Ingest: `utf8-preview`
@@ -3647,7 +3647,7 @@ Thread ID: `TH-CLAUDE-2026-04-16-ENCAPSULATED-DOODLING-SUNBEAM`
 #### SS-MAN-20260605-0087 - Agent Acompact 42F60Ec12Baeb49F
 
 - Path: `.claude/sessions/2026-04-16--encapsulated-doodling-sunbeam/subagents/agent-acompact-42f60ec12baeb49f.jsonl`
-- Tags: `area:.claude`, `governance:issue`, `governance:session`, `governance:spec`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:jsonl`
+- Tags: `area:.claude`, `governance:issue`, `governance:session`, `governance:spec`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:jsonl`
 - Type: `.jsonl`; Size: 28440 bytes; Modified UTC: `2026-06-05T16:58:51.628411+00:00`
 - SHA-256: `013a5f184760503554aa9f06f88530bc30f1e2fa82835bed6056bd109466ff96`
 - Ingest: `utf8-preview`
@@ -3674,7 +3674,7 @@ Thread ID: `TH-CLAUDE-2026-04-16-ENCAPSULATED-DOODLING-SUNBEAM`
 #### SS-MAN-20260605-0090 - Session Transcript: 2026-04-16
 
 - Path: `.claude/sessions/2026-04-16--encapsulated-doodling-sunbeam/transcript.md`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:session`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:session`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 66869 bytes; Modified UTC: `2026-06-05T16:58:51.629114+00:00`
 - SHA-256: `1a75ca668fdaa360ba183dff26ef13d94901066538694c888cb5d5407a380b18`
 - Ingest: `utf8-preview`
@@ -3697,7 +3697,7 @@ Thread ID: `TH-CLAUDE-2026-04-17-SHIMMERING-WOBBLING-ORBIT`
 #### SS-MAN-20260605-0092 - Session Prompts: 2026-04-17
 
 - Path: `.claude/sessions/2026-04-17--shimmering-wobbling-orbit/prompts.md`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:md`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 8903 bytes; Modified UTC: `2026-06-05T16:58:51.629415+00:00`
 - SHA-256: `ad5b89a0bfc086527f5874f9d08b9395890a3086f8e82491b70760d7edf2981b`
 - Ingest: `utf8-preview`
@@ -3715,7 +3715,7 @@ Thread ID: `TH-CLAUDE-2026-04-17-SHIMMERING-WOBBLING-ORBIT`
 #### SS-MAN-20260605-0094 - Session
 
 - Path: `.claude/sessions/2026-04-17--shimmering-wobbling-orbit/session.jsonl`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:jsonl`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:jsonl`
 - Type: `.jsonl`; Size: 555330 bytes; Modified UTC: `2026-06-05T16:58:51.629556+00:00`
 - SHA-256: `81f033e97fbb954232ab5015b8c18710d1d5139986322e43102e6e777a83c5a6`
 - Ingest: `utf8-preview`
@@ -3841,7 +3841,7 @@ Thread ID: `TH-CLAUDE-2026-04-17-SHIMMERING-WOBBLING-ORBIT`
 #### SS-MAN-20260605-0108 - Session Transcript: 2026-04-17
 
 - Path: `.claude/sessions/2026-04-17--shimmering-wobbling-orbit/transcript.md`
-- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:physical`, `type:md`
+- Tags: `area:.claude`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 70774 bytes; Modified UTC: `2026-06-05T16:58:51.631080+00:00`
 - SHA-256: `06d1db0d401bc6b3b12811d4b2a90e81ff4005152ed2a73d99f390457a054ee7`
 - Ingest: `utf8-preview`
@@ -3891,7 +3891,7 @@ Thread ID: `TH-CLAUDE-2026-06-05-WORK-IN-USERS4JPCODEORGANVMSOVEREIGN-SYSTEMS-EL
 #### SS-MAN-20260605-0113 - Session Transcript: 2026-06-05
 
 - Path: `.claude/sessions/2026-06-05--work-in-users4jpcodeorganvmsovereign-systems--spiral-template-/transcript.md`
-- Tags: `area:.claude`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:.claude`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 160484 bytes; Modified UTC: `2026-06-05T19:52:19.399376+00:00`
 - SHA-256: `008626679a23d55a40cfe0a750d454925d5149a191f5bacf9c44b91bb0833776`
 - Ingest: `utf8-preview`
@@ -3905,7 +3905,7 @@ Thread ID: `TH-DOCS-PROJECT-MAP-MD`
 #### SS-MAN-20260605-0146 - Your Project Map
 
 - Path: `docs/PROJECT-MAP.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7235 bytes; Modified UTC: `2026-06-05T20:20:02.068394+00:00`
 - SHA-256: `a031f725afd6bf2702ba2f554c18b31c598903757bce1e50104fbedc5c279bf1`
 - Ingest: `utf8-preview`
@@ -3919,7 +3919,7 @@ Thread ID: `TH-DOCS-README-MD`
 #### SS-MAN-20260605-0147 - docs/
 
 - Path: `docs/README.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:financial`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:vision`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 1638 bytes; Modified UTC: `2026-06-05T16:58:51.634460+00:00`
 - SHA-256: `2da9cbdcdba3a169f773babb9b0cffed7a73ae205da8fdf267137d41f2e4d9fa`
 - Ingest: `utf8-preview`
@@ -3933,7 +3933,7 @@ Thread ID: `TH-DOCS-ROADMAP-MD`
 #### SS-MAN-20260605-0148 - ⟨α⟩ {again(there+back)again} ⟨ω⟩
 
 - Path: `docs/ROADMAP.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8845 bytes; Modified UTC: `2026-06-05T20:19:39.989030+00:00`
 - SHA-256: `5cc1a5deb75d3e4c1f288571052fa5effb843de531f26403ddb3273bcd407ee9`
 - Ingest: `utf8-preview`
@@ -3956,7 +3956,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0150 - Review scope: methods, ideas, completeness, upgrades, implications, and artifacts consolidation
 
 - Path: `docs/archive/2026-04/2026-04-29-admin-spiral-gaps-and-artifacts-review-ses_225ad62f.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 187518 bytes; Modified UTC: `2026-06-05T16:58:51.635013+00:00`
 - SHA-256: `32b258c797254abb9c162eda97b0e1d9ffea4e9586ad40521b49534493fe7099`
 - Ingest: `utf8-preview`
@@ -3965,7 +3965,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0151 - Session context auditing and IRF tracking across indices
 
 - Path: `docs/archive/2026-04/2026-04-29-stream-a-admin-irf-closeout-ses_225102f2.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:physical`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 220206 bytes; Modified UTC: `2026-06-05T16:58:51.635567+00:00`
 - SHA-256: `703aa8eb3135604c262dfcb0a2f12000db8beba0d74a73ab833cc7ed50bbdaac`
 - Ingest: `utf8-preview`
@@ -3983,7 +3983,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0153 - You said **System Prompt / Instructions:** **Ro...
 
 - Path: `docs/archive/2026-05/2026-05-16-gemini-interactive-3d-theoretical-reality-render-obsidian.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:spec`, `pillar:water`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:spec`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 40801 bytes; Modified UTC: `2026-06-05T16:58:51.635746+00:00`
 - SHA-256: `4210cb570bd06f0f7154c4cb2dfb7177ddab3fb42a6ca3dac2178c0d61a5be24`
 - Ingest: `utf8-preview`
@@ -3992,7 +3992,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0154 - Interactive 3D Theoretical Reality Render
 
 - Path: `docs/archive/2026-05/2026-05-16-gemini-interactive-3d-theoretical-reality-render-v2.md`
-- Tags: `area:docs`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6247 bytes; Modified UTC: `2026-06-05T16:58:51.635828+00:00`
 - SHA-256: `33a4e7d069393bcc7f56cdfbc9f2c6a1b55b1a5470bad640718d297aca2889eb`
 - Ingest: `utf8-preview`
@@ -4010,16 +4010,16 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0156 - docs/archive/
 
 - Path: `docs/archive/README.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:issue`, `governance:plan`, `governance:sop`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:issue`, `governance:plan`, `governance:sop`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 2589 bytes; Modified UTC: `2026-06-05T16:58:51.635917+00:00`
 - SHA-256: `e8a08ea0eb3acb75f96d3bf5d6e4a05879623cac7946fa7d045985404fedfc7f`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/README.md`. Content signal: The content genome. Everything admin shared, decomposed into atoms and analyzed. ## What Happened Here admin provided 127 files — ChatGPT transcripts, voice notes, questionnaires — totaling ~360,000 words across health, mindset, business, astrology, and water science. We:
+- Annotation: Readable project artifact at `docs/archive/README.md`. Content signal: The content genome. Everything admin shared, decomposed into atoms and analyzed. ## What Happened Here admin provided 127 files — ChatGPT transcripts, voice notes, questionnaires — totaling ~360,000 words across health, mindset, business, astrology, and gateway science. We:
 
 #### SS-MAN-20260605-0157 - AUTO-GENERATED — do not edit. Source of truth is the in-situ markers.
 
 - Path: `docs/archive/atom-registry.yaml`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:yaml`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:yaml`
 - Type: `.yaml`; Size: 880035 bytes; Modified UTC: `2026-06-05T16:58:51.636630+00:00`
 - SHA-256: `c82c43210aa5820a33f1e350ec936dd8ec4bc760460b62b9e2311faf79836eba`
 - Ingest: `utf8-preview`
@@ -4028,7 +4028,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0158 - Atom Routing Map — Where 1,821 Atoms Land
 
 - Path: `docs/archive/atom-routing-map.md`
-- Tags: `area:docs`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 13553 bytes; Modified UTC: `2026-06-05T16:58:51.637013+00:00`
 - SHA-256: `e54489ec15aaf0da7f24a10b6449687bf15ed2031f0ad44190a38af60a84e360`
 - Ingest: `utf8-preview`
@@ -4037,7 +4037,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0159 - Content Units Summary — Phase 2 Semantic Clustering
 
 - Path: `docs/archive/content-units-summary.md`
-- Tags: `area:docs`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 25793 bytes; Modified UTC: `2026-06-05T16:58:51.637074+00:00`
 - SHA-256: `3992d0921e56431b4dd4a7fc99eec8eed21ee0eb995393bef306337c887ec5fa`
 - Ingest: `utf8-preview`
@@ -4046,7 +4046,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0160 - Content Units — Phase 2 Semantic Clustering
 
 - Path: `docs/archive/content-units.yaml`
-- Tags: `area:docs`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `topic:spiral`, `type:yaml`
+- Tags: `area:docs`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:atoms`, `topic:spiral`, `type:yaml`
 - Type: `.yaml`; Size: 103878 bytes; Modified UTC: `2026-06-05T16:58:51.637183+00:00`
 - SHA-256: `79d34b64e0874d2aee936ebbdc54979e09cc2043ba87d87a16d733e612d14a05`
 - Ingest: `utf8-preview`
@@ -4055,7 +4055,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0161 - Editorial Dispositions — 104 Flagged Atoms
 
 - Path: `docs/archive/editorial-dispositions.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11952 bytes; Modified UTC: `2026-06-05T16:58:51.637268+00:00`
 - SHA-256: `337b593bfb175701407a5ac4694c1fa634267268a114c50744f8098d13afd487`
 - Ingest: `utf8-preview`
@@ -4064,7 +4064,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0292 - Content Extraction Manifest
 
 - Path: `docs/archive/extraction-manifest.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:audit`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:audit`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 24269 bytes; Modified UTC: `2026-06-05T16:58:51.655349+00:00`
 - SHA-256: `da8d8cac645e23af4aa37c19a6fedb34dec434dbb1ff14e15403ea9898b00fd2`
 - Ingest: `utf8-preview`
@@ -4073,7 +4073,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0293 - Flagged Atoms
 
 - Path: `docs/archive/flagged_atoms.txt`
-- Tags: `area:docs`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:txt`
 - Type: `.txt`; Size: 11801 bytes; Modified UTC: `2026-06-05T16:58:51.655426+00:00`
 - SHA-256: `6c88bb81141566b1d1fd5e48cbea9de6adca9bf93013e2091b33939bc657d625`
 - Ingest: `utf8-preview`
@@ -4082,7 +4082,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0294 - admin Intent Register
 
 - Path: `docs/archive/admin-intent-register.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:financial`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:vision`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 91443 bytes; Modified UTC: `2026-06-05T16:58:51.655548+00:00`
 - SHA-256: `119925e50a22c66ef482ce330b2a69f1b325b9644ebf9d8cffe7abb766a7645a`
 - Ingest: `utf8-preview`
@@ -4091,7 +4091,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0295 - N/A Atom Disposition — 63 Atoms Routed
 
 - Path: `docs/archive/na-atom-disposition.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:sop`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:sop`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2747 bytes; Modified UTC: `2026-06-05T16:58:51.655699+00:00`
 - SHA-256: `06e0e76f802727e6307a5b9b5cbf5db28a49d15f3c057913bd6a94b505baf128`
 - Ingest: `utf8-preview`
@@ -4100,7 +4100,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0296 - Research Thread Map — admin's Curiosity Threads → Spiral Destinations
 
 - Path: `docs/archive/research-thread-map.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7789 bytes; Modified UTC: `2026-06-05T16:58:51.655771+00:00`
 - SHA-256: `9dd0b6a3c59f65c25f8ff95741e1c04702ef25bf46d1bb0b9df3b97be1108f40`
 - Ingest: `utf8-preview`
@@ -4109,7 +4109,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0297 - Source Bundle Rename Manifest
 
 - Path: `docs/archive/source-bundle-rename-manifest.json`
-- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:json`
+- Tags: `area:docs`, `corpus:source-bundle`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:json`
 - Type: `.json`; Size: 29144 bytes; Modified UTC: `2026-06-05T16:58:51.655839+00:00`
 - SHA-256: `c6283785fdfc006acaf68a3ffb0c4108baa3cdd251fd0a2ab14ef22ed8c82cee`
 - Ingest: `utf8-preview`
@@ -4118,38 +4118,38 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0423 - Strike Plan: Phase 1 — Foundation (UNBLOCKED)
 
 - Path: `docs/archive/strikes/phase-1.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:identity`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:structure`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 75848 bytes; Modified UTC: `2026-06-05T16:58:51.669701+00:00`
 - SHA-256: `8757dd4b4df9f9e9b1e8cb443dd3459d12f898bb0b0a70ab838a607638cababb`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/strikes/phase-1.md`. Content signal: # Strike Plan: Phase 1 — Foundation (UNBLOCKED) Generated: 2026-04-04T18:13:26Z Phase 1 establishes the architectural and editorial foundation.
 
-#### SS-MAN-20260605-0424 - Strike Plan: Phase 2 — Physical Sovereignty
+#### SS-MAN-20260605-0424 - Strike Plan: Phase 2 — Foundation Sovereignty
 
 - Path: `docs/archive/strikes/phase-2.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 127634 bytes; Modified UTC: `2026-06-05T16:58:51.669871+00:00`
 - SHA-256: `d6d5e562c44df4ae660260eb001afbd09e46b55adeb5cbb8a04dd27462a81806`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/strikes/phase-2.md`. Content signal: # Strike Plan: Phase 2 — Physical Sovereignty Generated: 2026-04-04T18:13:26Z **Blocked by:** GH#13 (final node architecture), GH#17 (water funnel spec)
+- Annotation: Readable project artifact at `docs/archive/strikes/phase-2.md`. Content signal: # Strike Plan: Phase 2 — Foundation Sovereignty Generated: 2026-04-04T18:13:26Z **Blocked by:** GH#13 (final node architecture), GH#17 (gateway funnel spec)
 
-#### SS-MAN-20260605-0425 - Strike Plan: Phase 3 — Inner + Identity Sovereignty
+#### SS-MAN-20260605-0425 - Strike Plan: Phase 3 — System + Structure Sovereignty
 
 - Path: `docs/archive/strikes/phase-3.md`
-- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:structure`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 122206 bytes; Modified UTC: `2026-06-05T16:58:51.670254+00:00`
 - SHA-256: `f7e95156e97ff0617771aeddc58ce3a9186cbac22b383abf27d4d9e48a675d18`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/strikes/phase-3.md`. Content signal: # Strike Plan: Phase 3 — Inner + Identity Sovereignty Generated: 2026-04-04T18:13:26Z **Blocked by:** Phase 2 completion
+- Annotation: Readable project artifact at `docs/archive/strikes/phase-3.md`. Content signal: # Strike Plan: Phase 3 — System + Structure Sovereignty Generated: 2026-04-04T18:13:26Z **Blocked by:** Phase 2 completion
 
-#### SS-MAN-20260605-0426 - Strike Plan: Phase 4 — Financial Sovereignty + Expansion
+#### SS-MAN-20260605-0426 - Strike Plan: Phase 4 — Vision Sovereignty + Expansion
 
 - Path: `docs/archive/strikes/phase-4.md`
-- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 21983 bytes; Modified UTC: `2026-06-05T16:58:51.670345+00:00`
 - SHA-256: `4b167067c842678127a82059320ddf79da0c706688226da2e1c4988efec45019`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/strikes/phase-4.md`. Content signal: # Strike Plan: Phase 4 — Financial Sovereignty + Expansion Generated: 2026-04-04T18:13:26Z Phase 4 builds the Financial Sovereignty pillar (node 13),
+- Annotation: Readable project artifact at `docs/archive/strikes/phase-4.md`. Content signal: # Strike Plan: Phase 4 — Vision Sovereignty + Expansion Generated: 2026-04-04T18:13:26Z Phase 4 builds the Vision Sovereignty pillar (node 13),
 
 #### SS-MAN-20260605-0427 - Strike Plan: Phase 5 — Proof & Close
 
@@ -4172,7 +4172,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0429 - Blind Segmentation: business/
 
 - Path: `docs/archive/verification/claude-blind/business.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 41432 bytes; Modified UTC: `2026-06-05T16:58:51.670612+00:00`
 - SHA-256: `b9f1a094a68b7f1aff2d8d13d3ac285c8b5a35e49068bd42acde9dfe2ca6753c`
 - Ingest: `utf8-preview`
@@ -4190,7 +4190,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0431 - Blind Segmentation: health/
 
 - Path: `docs/archive/verification/claude-blind/health.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 79305 bytes; Modified UTC: `2026-06-05T16:58:51.670996+00:00`
 - SHA-256: `671b66e7050768b653092fbcc1e8062b3e02e71d9e7f0136a1444e956c19ec2a`
 - Ingest: `utf8-preview`
@@ -4199,7 +4199,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0432 - Blind Segmentation: mindset/
 
 - Path: `docs/archive/verification/claude-blind/mindset.md`
-- Tags: `area:docs`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 92124 bytes; Modified UTC: `2026-06-05T16:58:51.671276+00:00`
 - SHA-256: `cdd2a251f8cdd89643d349b73f3c820481740153fb5d578cfed79b4696a1dad3`
 - Ingest: `utf8-preview`
@@ -4208,7 +4208,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0433 - Blind Segmentation: root docs
 
 - Path: `docs/archive/verification/claude-blind/root-docs.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 76209 bytes; Modified UTC: `2026-06-05T16:58:51.671510+00:00`
 - SHA-256: `2f47c20487e9b2d78c3146d6a532293844ee0af798be0ff6f1edd8731d208fbc`
 - Ingest: `utf8-preview`
@@ -4217,25 +4217,25 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0434 - Blind Segmentation: time-astro/
 
 - Path: `docs/archive/verification/claude-blind/time-astro.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 14080 bytes; Modified UTC: `2026-06-05T16:58:51.671592+00:00`
 - SHA-256: `d7dfa73ab62fcb56adf7854dd11631a74ea10bf7ce46a8338f99ac6f52e064b3`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/archive/verification/claude-blind/time-astro.md`. Content signal: # Blind Segmentation: time-astro/ # Agent: Claude (independent verification) ## ChatGPT-13 Month Calendar Query.txt
 
-#### SS-MAN-20260605-0435 - Blind Segmentation: water/
+#### SS-MAN-20260605-0435 - Blind Segmentation: gateway/
 
-- Path: `docs/archive/verification/claude-blind/water.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:water`, `topic:atoms`, `type:md`
+- Path: `docs/archive/verification/claude-blind/gateway.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 26217 bytes; Modified UTC: `2026-06-05T16:58:51.671758+00:00`
 - SHA-256: `751c66705498ba5fd6b76d0acc9edfc2ff16e1f8fdf9ecc746a89b471fb43154`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/verification/claude-blind/water.md`. Content signal: # Blind Segmentation: water/ # Agent: Claude (independent verification) # Files: 16 (13 .txt + 2 .md + 1 extracted .md)
+- Annotation: Readable project artifact at `docs/archive/verification/claude-blind/gateway.md`. Content signal: # Blind Segmentation: gateway/ # Agent: Claude (independent verification) # Files: 16 (13 .txt + 2 .md + 1 extracted .md)
 
 #### SS-MAN-20260605-0436 - External Segmenter Output — Atoms 1-50 (Health Batch 1)
 
 - Path: `docs/archive/verification/external-segmenter-sample-atoms-1-50.md`
-- Tags: `area:docs`, `governance:decision`, `governance:session`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:decision`, `governance:session`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 10112 bytes; Modified UTC: `2026-06-05T16:58:51.671837+00:00`
 - SHA-256: `48f77cca798636feab5ec6990d9cba322a09e89b8b8e04e1e27b078ebe4177ab`
 - Ingest: `utf8-preview`
@@ -4244,7 +4244,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0437 - Gemini Segmenter Progress
 
 - Path: `docs/archive/verification/gemini/PROGRESS.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:session`, `pillar:financial`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:session`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 2519 bytes; Modified UTC: `2026-06-05T16:58:51.671896+00:00`
 - SHA-256: `c862cf8a24d43ab09f4090de589e41477d791d5b3b8ae52f3a9eb293ae66d229`
 - Ingest: `utf8-preview`
@@ -4253,16 +4253,16 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0438 - S1 Health
 
 - Path: `docs/archive/verification/gemini/S1-health.md`
-- Tags: `area:docs`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 73448 bytes; Modified UTC: `2026-06-05T16:58:51.672004+00:00`
 - SHA-256: `4170efccf7d90f283504fcf10313ffd2a9e22fe027c6f9121c630fd1d7f44c73`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/verification/gemini/S1-health.md`. Content signal: Section: Initial Request Idea: Request for a 30-day acupressure routine to address financial blocks and emotional barriers. Will you help me put together a 30 day hand foot and ear acupuncture routine to help me clear and money blockages, self doubt and fear?
+- Annotation: Readable project artifact at `docs/archive/verification/gemini/S1-health.md`. Content signal: Section: Initial Request Idea: Request for a 30-day acupressure routine to address vision blocks and emotional barriers. Will you help me put together a 30 day hand foot and ear acupuncture routine to help me clear and money blockages, self doubt and fear?
 
 #### SS-MAN-20260605-0439 - S2 Health
 
 - Path: `docs/archive/verification/gemini/S2-health.md`
-- Tags: `area:docs`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 86960 bytes; Modified UTC: `2026-06-05T16:58:51.672224+00:00`
 - SHA-256: `09d344d36e2526a115c93db401132b1491db2cd4c5b80e512e4bf465913d3be5`
 - Ingest: `utf8-preview`
@@ -4271,7 +4271,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0440 - S3 Mindset
 
 - Path: `docs/archive/verification/gemini/S3-mindset.md`
-- Tags: `area:docs`, `governance:sop`, `pillar:financial`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:sop`, `pillar:vision`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 89930 bytes; Modified UTC: `2026-06-05T16:58:51.672444+00:00`
 - SHA-256: `350216a0a694d22f2f08c0dfcb3c1382962fb6052807e67e0d78a4dbd47e5473`
 - Ingest: `utf8-preview`
@@ -4280,7 +4280,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0441 - S4 Mindset
 
 - Path: `docs/archive/verification/gemini/S4-mindset.md`
-- Tags: `area:docs`, `governance:plan`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `pillar:structure`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 25101 bytes; Modified UTC: `2026-06-05T16:58:51.672568+00:00`
 - SHA-256: `2e5749aef0190b8634598dc4b56d231eddb1b2b82ee67e2cb91be3cebcca5685`
 - Ingest: `utf8-preview`
@@ -4298,11 +4298,11 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0443 - S8 Root
 
 - Path: `docs/archive/verification/gemini/S8-root.md`
-- Tags: `area:docs`, `governance:decision`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:decision`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 14348 bytes; Modified UTC: `2026-06-05T16:58:51.672868+00:00`
 - SHA-256: `db93921ee308f61fd1b3f383c609efe0bf8d1a9c8f5f35eac9f2af206e0ddc06`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/archive/verification/gemini/S8-root.md`. Content signal: Idea: Interactive spiral-based ecosystem guiding users through Physical, Inner, Identity, and Financial sovereignty. This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Physical, Inner, Identity, Financial). Idea: Site strategy prioritizes exploration and immersion over aggressive sales, using a free-value-first approach.
+- Annotation: Readable project artifact at `docs/archive/verification/gemini/S8-root.md`. Content signal: Idea: Interactive spiral-based ecosystem guiding users through Foundation, System, Structure, and Vision sovereignty. This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Foundation, System, Structure, Vision). Idea: Site strategy prioritizes exploration and immersion over aggressive sales, using a free-value-first approach.
 
 #### SS-MAN-20260605-0444 - Reconciliation: Health Batch 1 (5 files, 50 external atoms)
 
@@ -4316,7 +4316,7 @@ Thread ID: `TH-DOCS-ARCHIVE`
 #### SS-MAN-20260605-0445 - Three-Way Atomic Decomposition Reconciliation
 
 - Path: `docs/archive/verification/three-way-reconciliation.md`
-- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6814 bytes; Modified UTC: `2026-06-05T16:58:51.673025+00:00`
 - SHA-256: `bc88b35d31b052b9e601d9678b3454e2344f28ddf54f04603031d21ab037dfcb`
 - Ingest: `utf8-preview`
@@ -4330,7 +4330,7 @@ Thread ID: `TH-DOCS-AUDIT`
 #### SS-MAN-20260605-0446 - Transitions
 
 - Path: `docs/audit/transitions.log`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `type:log`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `type:log`
 - Type: `.log`; Size: 9754 bytes; Modified UTC: `2026-06-05T16:58:51.673115+00:00`
 - SHA-256: `b6cba3f15ac8910b0b8811ed78a62e3f94844d13f78b4dfb7f83e9defacd14bf`
 - Ingest: `utf8-preview`
@@ -4344,7 +4344,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0447 - Client Feedback Session — 2026-04-04
 
 - Path: `docs/client-decisions/2026-04-04-admin-feedback-session.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7756 bytes; Modified UTC: `2026-06-05T16:58:51.673212+00:00`
 - SHA-256: `92296de89b73cde203da73ab9e199ae5fdf779eece4666ea6c0fb602c73803e9`
 - Ingest: `utf8-preview`
@@ -4353,7 +4353,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0448 - Node Architecture — LOCKED
 
 - Path: `docs/client-decisions/2026-04-04-node-architecture-locked.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3630 bytes; Modified UTC: `2026-06-05T16:58:51.673267+00:00`
 - SHA-256: `387295bca92983c473e17f03f9ce3a0063e1144e8a228d9cf9e43316ec1d80b2`
 - Ingest: `utf8-preview`
@@ -4362,7 +4362,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0449 - Client Decision: GHL Branch Delineation
 
 - Path: `docs/client-decisions/2026-04-14-ghl-branch-delineation.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2012 bytes; Modified UTC: `2026-06-05T16:58:51.673361+00:00`
 - SHA-256: `63ad316196f794022585ee9db948610d4b6bd29620b0a8a295af3e6b4ca4e3e2`
 - Ingest: `utf8-preview`
@@ -4371,7 +4371,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0450 - Client Decision: Revenue Agreement — Terms Accepted
 
 - Path: `docs/client-decisions/2026-04-14-revenue-agreement-accepted.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `pillar:water`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 1281 bytes; Modified UTC: `2026-06-05T16:58:51.673427+00:00`
 - SHA-256: `abc7613ff95cfb92ae93666e8e0175c8f86e790be5ad1d4381506dc72caab52b`
 - Ingest: `utf8-preview`
@@ -4380,7 +4380,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0451 - Atomized Client Wants — Full Evolution Tracking
 
 - Path: `docs/client-decisions/2026-04-17-atomized-wants.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 60857 bytes; Modified UTC: `2026-06-05T16:58:51.673767+00:00`
 - SHA-256: `c65d8904fb883c92a1e3e7cf9280576c655bc3210a30299f1bbf22b450edf4d5`
 - Ingest: `utf8-preview`
@@ -4389,7 +4389,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0452 - Comprehensive Client Decision Extraction — All 7 PDFs
 
 - Path: `docs/client-decisions/2026-04-17-comprehensive-pdf-extraction.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:decision`, `governance:issue`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:decision`, `governance:issue`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12909 bytes; Modified UTC: `2026-06-05T16:58:51.673846+00:00`
 - SHA-256: `725a838e641cc1e6feff62a5b0edd95bdec60a67ead5bb904f9d55614e089afe`
 - Ingest: `utf8-preview`
@@ -4398,25 +4398,25 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0453 - Comprehensive Client Request Audit — 2026-04-17
 
 - Path: `docs/client-decisions/2026-04-17-comprehensive-request-audit.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6896 bytes; Modified UTC: `2026-06-05T16:58:51.673943+00:00`
 - SHA-256: `ebb866112d9fd8b5a7c663699b4acd475eebbf6cdd2c380a84e66ba9f4f67d96`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/client-decisions/2026-04-17-comprehensive-request-audit.md`. Content signal: # Comprehensive Client Request Audit — 2026-04-17 Source: All admin iMessage conversations, Mar 25 – Apr 17, 2026 (7 PDFs, 30+ pages) ## What admin Wants NOW (reverse-chronological)
 
-#### SS-MAN-20260605-0454 - Hydration Node + Water Funnel Flowchart — 2026 Blueprint
+#### SS-MAN-20260605-0454 - Gateway Node + Gateway Funnel Flowchart — 2026 Blueprint
 
-- Path: `docs/client-decisions/2026-04-17-hydration-node-flowchart.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `docs/client-decisions/2026-04-17-gateway-node-flowchart.md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 4275 bytes; Modified UTC: `2026-06-05T16:58:51.674013+00:00`
 - SHA-256: `2c7720bce6da0e5c95ddcd9364e9a8d2469a1dd0c4bdaefebb7cabfebb2a5428`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/client-decisions/2026-04-17-hydration-node-flowchart.md`. Content signal: # Hydration Node + Water Funnel Flowchart — 2026 Blueprint Source: Client-provided (admin), received 2026-04-17 [User Entry: ZIP & Water Source]
+- Annotation: Readable project artifact at `docs/client-decisions/2026-04-17-gateway-node-flowchart.md`. Content signal: # Gateway Node + Gateway Funnel Flowchart — 2026 Blueprint Source: Client-provided (admin), received 2026-04-17 [User Entry: ZIP & Gateway Source]
 
 #### SS-MAN-20260605-0455 - Client Decision Extraction — 2026-04-17
 
 - Path: `docs/client-decisions/2026-04-17-admin-imessage-extraction.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3750 bytes; Modified UTC: `2026-06-05T16:58:51.674077+00:00`
 - SHA-256: `d3ff59e99ceda78376ffe70c98ea0b45ddca9cfe09df38a8128b7f20a3254612`
 - Ingest: `utf8-preview`
@@ -4425,7 +4425,7 @@ Thread ID: `TH-DOCS-CLIENT-DECISIONS`
 #### SS-MAN-20260605-0456 - admin Spiral V4 Direction — 2026-04-25
 
 - Path: `docs/client-decisions/2026-04-25-admin-spiral-v4-direction.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7474 bytes; Modified UTC: `2026-06-05T16:58:51.674148+00:00`
 - SHA-256: `0676a916e9420902d432dda197b3f3f0ee259847b5e0db046a03e222b2343432`
 - Ingest: `utf8-preview`
@@ -4439,7 +4439,7 @@ Thread ID: `TH-DOCS-CLIENT-DELIVERABLES`
 #### SS-MAN-20260605-0457 - Your Site Walkthrough — Sovereign Systems Spiral
 
 - Path: `docs/client-deliverables/2026-04-14-admin-site-walkthrough.md`
-- Tags: `area:docs`, `client:admin`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3792 bytes; Modified UTC: `2026-06-05T16:58:51.674223+00:00`
 - SHA-256: `f881690ad1c431c81cbe968e2391f9dc490235c0ee25684961c94d06cc0f9ee6`
 - Ingest: `utf8-preview`
@@ -4448,16 +4448,16 @@ Thread ID: `TH-DOCS-CLIENT-DELIVERABLES`
 #### SS-MAN-20260605-0458 - Revenue Agreement — Sovereign Systems Spiral
 
 - Path: `docs/client-deliverables/2026-04-14-revenue-agreement-draft.md`
-- Tags: `area:docs`, `client:admin`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 998 bytes; Modified UTC: `2026-06-05T16:58:51.674264+00:00`
 - SHA-256: `05c4be7f53c438c81d35ad30f327bf2ae87cb4e508448aae49efb10c0bfb2f2d`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/client-deliverables/2026-04-14-revenue-agreement-draft.md`. Content signal: # Revenue Agreement — Sovereign Systems Spiral **Between:** admin (Client, hub-example.com) and [User] (Developer/Systems Builder) In exchange for the design, development, and deployment of the Sovereign Systems Spiral web platform (hub-example.com, water-example.com, business-example.com), Developer shall receive ten percent (10%) of all qualifying sales generated through the platform, including but not limited to: wa
+- Annotation: Readable project artifact at `docs/client-deliverables/2026-04-14-revenue-agreement-draft.md`. Content signal: # Revenue Agreement — Sovereign Systems Spiral **Between:** admin (Client, hub-example.com) and [User] (Developer/Systems Builder) In exchange for the design, development, and deployment of the Sovereign Systems Spiral web platform (hub-example.com, gateway-example.com, business-example.com), Developer shall receive ten percent (10%) of all qualifying sales generated through the platform, including but not limited to: wa
 
 #### SS-MAN-20260605-0459 - Your Site Walkthrough — Sovereign Systems Spiral (Updated)
 
 - Path: `docs/client-deliverables/2026-04-16-admin-site-walkthrough-v2.md`
-- Tags: `area:docs`, `client:admin`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5336 bytes; Modified UTC: `2026-06-05T16:58:51.674324+00:00`
 - SHA-256: `b74b2c9831b3d4d4de22e56ed70fca48666413d8093d6acd9f5d713d3400045c`
 - Ingest: `utf8-preview`
@@ -4466,16 +4466,16 @@ Thread ID: `TH-DOCS-CLIENT-DELIVERABLES`
 #### SS-MAN-20260605-0460 - Your Site Walkthrough — Spiral-First Architecture (v3)
 
 - Path: `docs/client-deliverables/2026-04-19-admin-site-walkthrough-v3.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5092 bytes; Modified UTC: `2026-06-05T16:58:51.674383+00:00`
 - SHA-256: `3b5fa148826da1b570e39186276312a69d06401047c7e3af7efb785db6c382da`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/client-deliverables/2026-04-19-admin-site-walkthrough-v3.md`. Content signal: # Your Site Walkthrough — Spiral-First Architecture (v3) Hey admin! Big update. I went back through everything you sent me — all 7 of the intake PDFs — and pulled out 65 specific things you asked for. That process revealed something important: the site was built backwards. It was leading with water when it should be leading with the spiral. This update fixes that. **https://sovereign-systems-spiral.pages.dev**
+- Annotation: Readable project artifact at `docs/client-deliverables/2026-04-19-admin-site-walkthrough-v3.md`. Content signal: # Your Site Walkthrough — Spiral-First Architecture (v3) Hey admin! Big update. I went back through everything you sent me — all 7 of the intake PDFs — and pulled out 65 specific things you asked for. That process revealed something important: the site was built backwards. It was leading with gateway when it should be leading with the spiral. This update fixes that. **https://sovereign-systems-spiral.pages.dev**
 
 #### SS-MAN-20260605-0461 - Revenue Agreement: Sovereign Systems & admin (Spiral Template)
 
 - Path: `docs/client-deliverables/2026-04-27-revenue-agreement-final.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1065 bytes; Modified UTC: `2026-06-05T16:58:51.674421+00:00`
 - SHA-256: `2164d0ae23285c37168f9c92f9a37f3fc4fa62760ae0f39da2d8d911fc860539`
 - Ingest: `utf8-preview`
@@ -4489,7 +4489,7 @@ Thread ID: `TH-DOCS-CLIENT-INTAKE-QUESTIONNAIRE-MD`
 #### SS-MAN-20260605-0462 - Client Intake Questionnaire — Sovereign Systems Spiral
 
 - Path: `docs/client-intake-questionnaire.md`
-- Tags: `area:docs`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3715 bytes; Modified UTC: `2026-06-05T16:58:51.674474+00:00`
 - SHA-256: `57689afef9789fbc09c45d4ff1c68031cd21e351503d946d0ed153d6cdf614cc`
 - Ingest: `utf8-preview`
@@ -4778,7 +4778,7 @@ Thread ID: `TH-DOCS-CLIENT-WALKTHROUGH-V4-MD`
 #### SS-MAN-20260605-0493 - Client Walkthrough v4 — What Changed and Why
 
 - Path: `docs/client-walkthrough-v4.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:financial`, `pillar:identity`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:vision`, `pillar:structure`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4948 bytes; Modified UTC: `2026-06-05T16:58:52.283340+00:00`
 - SHA-256: `36a0a728d6385ce0dece620a4a8c92233ef9c6db708d28ac52df16d19ae13261`
 - Ingest: `utf8-preview`
@@ -4792,7 +4792,7 @@ Thread ID: `TH-DOCS-CORPUS-CANON-MD`
 #### SS-MAN-20260605-0494 - Corpus Canon — Sovereign Systems Spiral
 
 - Path: `docs/corpus-canon.md`
-- Tags: `area:docs`, `governance:audit`, `governance:sop`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:audit`, `governance:sop`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 89915 bytes; Modified UTC: `2026-06-05T16:58:52.283597+00:00`
 - SHA-256: `435940040f6ede937383a7f46b00c4be97eb72c8d00d3d10ae5666be54498e4f`
 - Ingest: `utf8-preview`
@@ -4806,7 +4806,7 @@ Thread ID: `TH-DOCS-CRITIQUES`
 #### SS-MAN-20260605-0495 - Design Critique: Home / Spiral Hero (post-chakra ship, hybrid vessel default)
 
 - Path: `docs/critiques/2026-04-30-spiral-hero-polish-critique.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 13570 bytes; Modified UTC: `2026-06-05T16:58:52.283704+00:00`
 - SHA-256: `906306e44e2812c6220991a433adabdb7b5291453bafb12f623b042fadeca16a`
 - Ingest: `utf8-preview`
@@ -4815,7 +4815,7 @@ Thread ID: `TH-DOCS-CRITIQUES`
 #### SS-MAN-20260605-0496 - Correctness Critique: Post Astro-6-Migration Coverage Audit
 
 - Path: `docs/critiques/2026-05-26-astro6-migration-correctness-audit.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:inner`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:system`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 13215 bytes; Modified UTC: `2026-06-05T16:58:52.283765+00:00`
 - SHA-256: `cf6c56a4813942e8c63c4ebfc2dcc90942c29701a3e6f89d92ce29fbd2730744`
 - Ingest: `utf8-preview`
@@ -4824,7 +4824,7 @@ Thread ID: `TH-DOCS-CRITIQUES`
 #### SS-MAN-20260605-0497 - Design Critique: Spiral Node Animation — Intent vs. Shipped (the "massive gap")
 
 - Path: `docs/critiques/2026-05-29-spiral-animation-intent-gap.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11567 bytes; Modified UTC: `2026-06-05T16:58:52.283858+00:00`
 - SHA-256: `05fb3b2100c8852ef412a972837f2e0c0be55f68fd4799c9db851bbfadc7030c`
 - Ingest: `utf8-preview`
@@ -4833,7 +4833,7 @@ Thread ID: `TH-DOCS-CRITIQUES`
 #### SS-MAN-20260605-0498 - Spiral Source Alignment Audit
 
 - Path: `docs/critiques/2026-06-05-spiral-source-alignment-audit.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9554 bytes; Modified UTC: `2026-06-05T16:58:52.284213+00:00`
 - SHA-256: `0d8f279ffceee9d786e3cfcc8f1795ecddb49c4351b814613277d252b80a6b1e`
 - Ingest: `utf8-preview`
@@ -4856,16 +4856,16 @@ Thread ID: `TH-DOCS-DECISIONS`
 #### SS-MAN-20260605-0500 - EWG API Feasibility Assessment
 
 - Path: `docs/decisions/2026-04-04-ewg-api-feasibility.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:plan`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 3426 bytes; Modified UTC: `2026-06-05T16:58:52.284287+00:00`
 - SHA-256: `e7aa77e4a79e7efe3bd693b8b4c574f6a2d9e6269e72b2ba8288d26b52f8f803`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/decisions/2026-04-04-ewg-api-feasibility.md`. Content signal: # EWG API Feasibility Assessment **For:** Hydration Node Phase B planning **Verdict:** No public API. Three viable paths.
+- Annotation: Readable project artifact at `docs/decisions/2026-04-04-ewg-api-feasibility.md`. Content signal: # EWG API Feasibility Assessment **For:** Gateway Node Phase B planning **Verdict:** No public API. Three viable paths.
 
 #### SS-MAN-20260605-0501 - Decision Deck: Spiral Node Architecture
 
 - Path: `docs/decisions/2026-04-04-node-architecture-decision-deck.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:session`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:session`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4269 bytes; Modified UTC: `2026-06-05T16:58:52.284363+00:00`
 - SHA-256: `9e8cf5ae83162b15edcfd2bb78d57d8bd50aeb382699bbad1ec0687d0c4d7895`
 - Ingest: `utf8-preview`
@@ -4874,29 +4874,29 @@ Thread ID: `TH-DOCS-DECISIONS`
 #### SS-MAN-20260605-0502 - Revenue Agreement — Sovereign Systems Spiral
 
 - Path: `docs/decisions/2026-04-04-revenue-agreement-draft.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4365 bytes; Modified UTC: `2026-06-05T16:58:52.284598+00:00`
 - SHA-256: `56548dd5ab4271d1a84a160ded0fff4f816498462ce5560635b8f8615890be85`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/decisions/2026-04-04-revenue-agreement-draft.md`. Content signal: # Revenue Agreement — Sovereign Systems Spiral **Issue:** #5 — Formalize 10% revenue agreement **Status:** DRAFT — requires legal review and signatures
 
-#### SS-MAN-20260605-0503 - Decision: Water Hub Placement
+#### SS-MAN-20260605-0503 - Decision: Gateway Hub Placement
 
-- Path: `docs/decisions/2026-04-04-water-hub-placement.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Path: `docs/decisions/2026-04-04-gateway-hub-placement.md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3530 bytes; Modified UTC: `2026-06-05T16:58:52.284645+00:00`
 - SHA-256: `1bd92ddf5eafa4a0d7b1edfd0adf36d1674884864f9d4d1807c7c474b8932544`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/decisions/2026-04-04-water-hub-placement.md`. Content signal: # Decision: Water Hub Placement **Issue:** #17 — Decide Water Hub placement in site architecture **Related:** #7 (subscription boundary), #6 (Physical Sovereignty build)
+- Annotation: Readable project artifact at `docs/decisions/2026-04-04-gateway-hub-placement.md`. Content signal: # Decision: Gateway Hub Placement **Issue:** #17 — Decide Gateway Hub placement in site architecture **Related:** #7 (subscription boundary), #6 (Foundation Sovereignty build)
 
-#### SS-MAN-20260605-0504 - Water Report Fluoride-Miss Diagnosis
+#### SS-MAN-20260605-0504 - Gateway Report Fluoride-Miss Diagnosis
 
-- Path: `docs/decisions/2026-05-01-water-report-fluoride-bug-diagnosis.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `docs/decisions/2026-05-01-gateway-report-fluoride-bug-diagnosis.md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 7623 bytes; Modified UTC: `2026-06-05T16:58:52.284711+00:00`
 - SHA-256: `f92c0b15833c71a8d7af481ad7aa2a67f602b92d3cb086065a02a2910e8d1ba5`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/decisions/2026-05-01-water-report-fluoride-bug-diagnosis.md`. Content signal: # Water Report Fluoride-Miss Diagnosis **Trigger:** admin's 2026-05-01 voice memo: "the biggest issue with my ZIP Code is fluoride and I didn't see that pop-up. Fluoride is a very specific filter that you have to get a specific filter for so a lot of people spend a shit ton of money on the wrong filters and they don't even filter out what they want to filter." **Verdict:** Three live hypotheses. Two are dispatched t
+- Annotation: Readable project artifact at `docs/decisions/2026-05-01-gateway-report-fluoride-bug-diagnosis.md`. Content signal: # Gateway Report Fluoride-Miss Diagnosis **Trigger:** admin's 2026-05-01 voice memo: "the biggest issue with my ZIP Code is fluoride and I didn't see that pop-up. Fluoride is a very specific filter that you have to get a specific filter for so a lot of people spend a shit ton of money on the wrong filters and they don't even filter out what they want to filter." **Verdict:** Three live hypotheses. Two are dispatched t
 
 
 ### Docs: design-decisions.md
@@ -4906,7 +4906,7 @@ Thread ID: `TH-DOCS-DESIGN-DECISIONS-MD`
 #### SS-MAN-20260605-0505 - Sovereign Systems Spiral — Design Decisions
 
 - Path: `docs/design-decisions.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4548 bytes; Modified UTC: `2026-06-05T16:58:52.284773+00:00`
 - SHA-256: `465bfbff47b34612786ede8f50d58cddfd34bcfcab4e17480bf9815374ddc4d7`
 - Ingest: `utf8-preview`
@@ -4920,7 +4920,7 @@ Thread ID: `TH-DOCS-DESIGN-PROPOSALS`
 #### SS-MAN-20260605-0506 - Node Shape Design — Spiral V4
 
 - Path: `docs/design-proposals/2026-04-25-node-shapes.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5733 bytes; Modified UTC: `2026-06-05T16:58:52.284853+00:00`
 - SHA-256: `0a3f9e4b9615051f97e179374be0df3a2a90c5641974c45767c90a98bb69fe0f`
 - Ingest: `utf8-preview`
@@ -4929,7 +4929,7 @@ Thread ID: `TH-DOCS-DESIGN-PROPOSALS`
 #### SS-MAN-20260605-0507 - Astro 6 Migration Scope
 
 - Path: `docs/design-proposals/2026-05-24-astro-6-migration-scope.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 5531 bytes; Modified UTC: `2026-06-05T16:58:52.284933+00:00`
 - SHA-256: `3fa94a5a8dd0f79e566b7bf3dfba80b34fc104280e5eaea2ce7a9f6b24348c75`
 - Ingest: `utf8-preview`
@@ -4938,7 +4938,7 @@ Thread ID: `TH-DOCS-DESIGN-PROPOSALS`
 #### SS-MAN-20260605-0508 - Free / Email-Gated / Paid Boundary — Proposal (GH#7)
 
 - Path: `docs/design-proposals/2026-05-25-free-paid-boundary-proposal.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3837 bytes; Modified UTC: `2026-06-05T16:58:52.284988+00:00`
 - SHA-256: `53e1fc75febd01fbef160d0b9728e323ac2f16a96888a28d536dd0f4401edb75`
 - Ingest: `utf8-preview`
@@ -4952,11 +4952,11 @@ Thread ID: `TH-DOCS-DOMAIN-SETUP-MD`
 #### SS-MAN-20260605-0509 - Connecting Your Domains
 
 - Path: `docs/domain-setup.md`
-- Tags: `area:docs`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1766 bytes; Modified UTC: `2026-06-05T16:58:52.285044+00:00`
 - SHA-256: `f554a666c61737620ae59ad75b420ca5afdd660ee26ab572b25e30089945b57e`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/domain-setup.md`. Content signal: # Connecting Your Domains Current SSR review URL: **https://sovereign-systems-spiral.ivixivi.workers.dev** To connect the real domains, add them to the Cloudflare Worker. The old `sovereign-systems-spiral.pages.dev` project is static-only and does not serve `/capture` or `/api/water-report`.
+- Annotation: Readable project artifact at `docs/domain-setup.md`. Content signal: # Connecting Your Domains Current SSR review URL: **https://sovereign-systems-spiral.ivixivi.workers.dev** To connect the real domains, add them to the Cloudflare Worker. The old `sovereign-systems-spiral.pages.dev` project is static-only and does not serve `/capture` or `/api/gateway-report`.
 
 
 ### Docs: handoff-admin-spiral-2026-04-25.md
@@ -4980,7 +4980,7 @@ Thread ID: `TH-DOCS-HANDOFF-admin-SPIRAL-PATH-2026-04-01-MD`
 #### SS-MAN-20260605-0511 - Handoff: admin — The Spiral Path
 
 - Path: `docs/handoff-admin-spiral-path-2026-04-01.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:plan`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:plan`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 33062 bytes; Modified UTC: `2026-06-05T16:58:52.285206+00:00`
 - SHA-256: `fc1eafbfb60faa4b192f906ed82fecfbbc304d7221282b2d176400be0e2a74d5`
 - Ingest: `utf8-preview`
@@ -5003,7 +5003,7 @@ Thread ID: `TH-DOCS-INTERNAL`
 #### SS-MAN-20260605-0513 - Branch-Swap Proposal — Analysis & Decision Matrix
 
 - Path: `docs/internal/2026-05-16-branch-swap-proposal-analysis.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7507 bytes; Modified UTC: `2026-06-05T16:58:52.286653+00:00`
 - SHA-256: `74221d87bbe118e6114dc4a4245c5f14fbd02682bdf6aa80c07eaf80ab65abe6`
 - Ingest: `utf8-preview`
@@ -5012,7 +5012,7 @@ Thread ID: `TH-DOCS-INTERNAL`
 #### SS-MAN-20260605-0514 - admin iMessage Transcript — 2026-04-23 → 2026-05-16
 
 - Path: `docs/internal/2026-05-16-admin-imessage-transcript-and-signals.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `pillar:identity`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `pillar:structure`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 36088 bytes; Modified UTC: `2026-06-05T16:58:52.286737+00:00`
 - SHA-256: `39c0baf768424ee341fc6ac2d44b88f7fc5c80adb784a7f870b9d97f71e2e90e`
 - Ingest: `utf8-preview`
@@ -5021,7 +5021,7 @@ Thread ID: `TH-DOCS-INTERNAL`
 #### SS-MAN-20260605-0515 - admin Evidence of Existence
 
 - Path: `docs/internal/admin-evidence-of-existence-audit-2026-04-27.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 15931 bytes; Modified UTC: `2026-06-05T16:58:52.286817+00:00`
 - SHA-256: `cadce736dd31fb101a4a0e3c857414eda2ac6277523863239514c2a00e321b40`
 - Ingest: `utf8-preview`
@@ -5049,7 +5049,7 @@ Thread ID: `TH-DOCS-LOGOS`
 #### SS-MAN-20260605-0517 - Alchemical I/O — Narrative of Inputs, Process, and Returns
 
 - Path: `docs/logos/alchemical-io.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2990 bytes; Modified UTC: `2026-06-05T16:58:52.286952+00:00`
 - SHA-256: `d33135632155dd6346221791e34a8117fedb9baa0ce76e0695e74e95627d7fcd`
 - Ingest: `utf8-preview`
@@ -5058,16 +5058,16 @@ Thread ID: `TH-DOCS-LOGOS`
 #### SS-MAN-20260605-0518 - Pragma — The Honest Account of What Exists
 
 - Path: `docs/logos/pragma.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2065 bytes; Modified UTC: `2026-06-05T20:19:05.278144+00:00`
 - SHA-256: `337944ca40f4abc2c9cc41f568c72356dd3185bbc40dac3ab537963287c97439`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/logos/pragma.md`. Content signal: # Pragma — The Honest Account of What Exists *Last updated: 2026-06-05* Hub-and-spoke Astro 6 site deployed to Cloudflare Workers + Static Assets. The build now generates **~51 routes** (prerendered pages + 2 server APIRoutes — `/capture` and `/api/water-report`; recount from `npm run build` output rather than trusting the figure) across 3 domains:
+- Annotation: Readable project artifact at `docs/logos/pragma.md`. Content signal: # Pragma — The Honest Account of What Exists *Last updated: 2026-06-05* Hub-and-spoke Astro 6 site deployed to Cloudflare Workers + Static Assets. The build now generates **~51 routes** (prerendered pages + 2 server APIRoutes — `/capture` and `/api/gateway-report`; recount from `npm run build` output rather than trusting the figure) across 3 domains:
 
 #### SS-MAN-20260605-0519 - Praxis — The Attack Vectors for Evolution
 
 - Path: `docs/logos/praxis.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2336 bytes; Modified UTC: `2026-06-05T16:58:52.287033+00:00`
 - SHA-256: `a51886878f8d111834e349f0d236a9f1b60a8ca2835694bbe025d74539482ca9`
 - Ingest: `utf8-preview`
@@ -5076,7 +5076,7 @@ Thread ID: `TH-DOCS-LOGOS`
 #### SS-MAN-20260605-0520 - Receptio — The Account of the Constructed Polis
 
 - Path: `docs/logos/receptio.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3183 bytes; Modified UTC: `2026-06-05T16:58:52.287308+00:00`
 - SHA-256: `9ec79cd7e3955617f1f8a16106925259dbe8d7a5a9201d022bfe15a7e7d121f5`
 - Ingest: `utf8-preview`
@@ -5085,7 +5085,7 @@ Thread ID: `TH-DOCS-LOGOS`
 #### SS-MAN-20260605-0521 - Telos — The Dream and Theoretical Grounding
 
 - Path: `docs/logos/telos.md`
-- Tags: `area:docs`, `client:admin`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1828 bytes; Modified UTC: `2026-06-05T16:58:52.287365+00:00`
 - SHA-256: `470163fddff727f0efc78502e03f0ec90e1082f1628898e8e1aa617b10fc489f`
 - Ingest: `utf8-preview`
@@ -5099,7 +5099,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0523 - admin outbound — 2026-05-01 tracks status
 
 - Path: `docs/admin/2026-05-01-outbound-tracks-status.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4451 bytes; Modified UTC: `2026-06-05T16:58:52.287551+00:00`
 - SHA-256: `62f1462e32f66ef18ebb984cd3778ed00fd0869080a9ed8b1a330d4b1dba00f3`
 - Ingest: `utf8-preview`
@@ -5117,70 +5117,70 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0525 - Branch HTML Exports — for GHL paste
 
 - Path: `docs/admin/2026-05-16-branch-html-exports/README.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3242 bytes; Modified UTC: `2026-06-05T16:58:52.288033+00:00`
 - SHA-256: `463ec4d3686430b4f0f9e8ebb477cabec97ebc3c5f52bbd606bc63d185b671f7`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/README.md`. Content signal: title: Branch HTML Exports — for GHL paste trigger: 2026-05-16 voice note — "if you have the HTML codes that's how I built my landing pages... I can pull it and plug it in" # Branch HTML Exports
 
-#### SS-MAN-20260605-0526 - Athletic
+#### SS-MAN-20260605-0526 - Archetype-alpha
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/athletic.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:session`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-alpha.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:session`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 15983 bytes; Modified UTC: `2026-06-05T16:58:52.288102+00:00`
 - SHA-256: `fe2fb1ddb6455c290867d1a3d26642f3e5a37bbb72ba55d0f0508c36ccdcf1fe`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/athletic.html`. Content signal: Branch export: Energy + Focus (Energy + Focus — Water) Source slug: athletic Source file: src/content/branches/athletic.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-alpha.html`. Content signal: Branch export: Energy + Focus (Energy + Focus — Gateway) Source slug: archetype-alpha Source file: src/content/branches/archetype-alpha.md → built via Astro → content extracted
 
-#### SS-MAN-20260605-0527 - Autoimmune
+#### SS-MAN-20260605-0527 - Archetype-beta
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/autoimmune.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-beta.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 10215 bytes; Modified UTC: `2026-06-05T16:58:52.288183+00:00`
 - SHA-256: `7ce289bd00d976563df348f27c13b935d1d484367df6f954d90890fbc6b0a006`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/autoimmune.html`. Content signal: Branch export: Inflammation (Inflammation — Water) Source slug: autoimmune Source file: src/content/branches/autoimmune.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-beta.html`. Content signal: Branch export: Inflammation (Inflammation — Gateway) Source slug: archetype-beta Source file: src/content/branches/archetype-beta.md → built via Astro → content extracted
 
 #### SS-MAN-20260605-0528 - Cancer Support
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/cancer-support.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-gamma.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 8205 bytes; Modified UTC: `2026-06-05T16:58:52.288263+00:00`
 - SHA-256: `cd923f777571104747aa4c2825e307f629a7b837d91286d5bd9250ee767cefd1`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/cancer-support.html`. Content signal: Branch export: Cancer Support (Cancer Support — Water) Source slug: cancer-support Source file: src/content/branches/cancer-support.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-gamma.html`. Content signal: Branch export: Cancer Support (Cancer Support — Gateway) Source slug: archetype-gamma Source file: src/content/branches/archetype-gamma.md → built via Astro → content extracted
 
-#### SS-MAN-20260605-0529 - Fertility
+#### SS-MAN-20260605-0529 - Archetype-delta
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/fertility.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-delta.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 16927 bytes; Modified UTC: `2026-06-05T16:58:52.288633+00:00`
 - SHA-256: `532af7885a8c48db0f4263e2bc9e0ace85bd954b30a2a12e103aed4185cbfe21`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/fertility.html`. Content signal: Branch export: Fertility (Fertility — Water) Source slug: fertility Source file: src/content/branches/fertility.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-delta.html`. Content signal: Branch export: Archetype-delta (Archetype-delta — Gateway) Source slug: archetype-delta Source file: src/content/branches/archetype-delta.md → built via Astro → content extracted
 
 #### SS-MAN-20260605-0530 - Gut Hormones
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/gut-hormones.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-epsilon.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 13286 bytes; Modified UTC: `2026-06-05T16:58:52.288715+00:00`
 - SHA-256: `47f1bc74e560775b63e8cbcb4ac2c9876c23a7e142174fbae1a39b7c88f0577c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/gut-hormones.html`. Content signal: Branch export: Hormone Health (Hormone Health — Water) Source slug: gut-hormones Source file: src/content/branches/gut-hormones.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-epsilon.html`. Content signal: Branch export: Hormone Health (Hormone Health — Gateway) Source slug: archetype-epsilon Source file: src/content/branches/archetype-epsilon.md → built via Astro → content extracted
 
-#### SS-MAN-20260605-0531 - Sustainability
+#### SS-MAN-20260605-0531 - Archetype-zeta
 
-- Path: `docs/admin/2026-05-16-branch-html-exports/sustainability.html`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:html`
+- Path: `docs/admin/2026-05-16-branch-html-exports/archetype-zeta.html`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:html`
 - Type: `.html`; Size: 8180 bytes; Modified UTC: `2026-06-05T16:58:52.288785+00:00`
 - SHA-256: `d9eba436bfd267b99a8f03daa3c7472d6f7fa3b1e1223e0474b46478a132df16`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/sustainability.html`. Content signal: Branch export: Sustainability + Savings (Sustainability / Savings — Water) Source slug: sustainability Source file: src/content/branches/sustainability.md → built via Astro → content extracted
+- Annotation: Readable project artifact at `docs/admin/2026-05-16-branch-html-exports/archetype-zeta.html`. Content signal: Branch export: Archetype-zeta + Savings (Archetype-zeta / Savings — Gateway) Source slug: archetype-zeta Source file: src/content/branches/archetype-zeta.md → built via Astro → content extracted
 
 #### SS-MAN-20260605-0532 - Fluoride-discriminator question for admin
 
 - Path: `docs/admin/2026-05-16-fluoride-discriminator-question.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:water`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 3752 bytes; Modified UTC: `2026-06-05T16:58:52.288835+00:00`
 - SHA-256: `7202b0bc92b9698dd0fd8381600d481308028015affb04d29db1075286b38653`
 - Ingest: `utf8-preview`
@@ -5189,7 +5189,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0533 - Outbound to admin — 2026-05-16 implementation confirmation + HTML exports
 
 - Path: `docs/admin/2026-05-16-outbound-implementation-confirmation.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5202 bytes; Modified UTC: `2026-06-05T16:58:52.288902+00:00`
 - SHA-256: `6f0dc6f65494541a91267cace5e13bf0cc2998854f35071323a7499bae5f61ab`
 - Ingest: `utf8-preview`
@@ -5198,7 +5198,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0534 - Outbound to admin — pending inputs + quick setup (2026-05-25)
 
 - Path: `docs/admin/2026-05-25-pending-inputs-and-setup.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3014 bytes; Modified UTC: `2026-06-05T16:58:52.288948+00:00`
 - SHA-256: `c50b3c38dc553eb7a3c2ef474e6637149554fc8f50e682c3814447e5322d3ced`
 - Ingest: `utf8-preview`
@@ -5207,7 +5207,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0535 - Spiral hover — names + nodes that wake up (your #1 ask, shipped)
 
 - Path: `docs/admin/2026-06-03-hover-names-living-motion.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3413 bytes; Modified UTC: `2026-06-05T16:58:52.289195+00:00`
 - SHA-256: `0002b09dff17d2aef6c07a4c744e4805fdce37a086ee969c2a55c5ed745a7328`
 - Ingest: `utf8-preview`
@@ -5216,7 +5216,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0536 - Outbound — status update (spiral default live + what's next)
 
 - Path: `docs/admin/2026-06-03-outbound-status-update.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2209 bytes; Modified UTC: `2026-06-05T16:58:52.289237+00:00`
 - SHA-256: `5f5b6478c9842c744e78a0634540cec6dee2bd9cc6778efd3a30b817f15a2fd5`
 - Ingest: `utf8-preview`
@@ -5234,7 +5234,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0538 - Outbound to admin — the complete remaining list (2026-06-05)
 
 - Path: `docs/admin/2026-06-05-final-pending-inputs.md`
-- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:issue`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2685 bytes; Modified UTC: `2026-06-05T20:45:03.755023+00:00`
 - SHA-256: `df8bd12c0ea51f72176b8ebf3b224dda8feb3f5c7f24f04b45cd5358e06fa1a7`
 - Ingest: `utf8-preview`
@@ -5261,7 +5261,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0541 - Prompt:
 
 - Path: `docs/admin/chat-exports/ChatGPT-Ionfaucet and Enagic Relationship.txt`
-- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:financial`, `pillar:water`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `type:txt`
 - Type: `.txt`; Size: 104543 bytes; Modified UTC: `2026-06-05T16:58:52.290008+00:00`
 - SHA-256: `02a62a2d11da94c8c3d6453cf8d1aa62e5919337726b22fae73f0bcc77279867`
 - Ingest: `utf8-preview`
@@ -5270,7 +5270,7 @@ Thread ID: `TH-DOCS-admin`
 #### SS-MAN-20260605-0542 - Prompt:
 
 - Path: `docs/admin/chat-exports/ChatGPT-Ionfaucet vs PureHome.txt`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:hydration`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:gateway`, `type:txt`
 - Type: `.txt`; Size: 227110 bytes; Modified UTC: `2026-06-05T16:58:52.290893+00:00`
 - SHA-256: `a01bba3292f2d19593aac962933ebb887b2ab6c36e7016131256b46df191c264`
 - Ingest: `utf8-preview`
@@ -5563,7 +5563,7 @@ Thread ID: `TH-DOCS-admin-SYSTEM-REPORT-2026-04-22-MD`
 #### SS-MAN-20260605-0522 - Plan: Write admin System Report
 
 - Path: `docs/admin-system-report-2026-04-22.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 21033 bytes; Modified UTC: `2026-06-05T16:58:52.287443+00:00`
 - SHA-256: `ea4773e76039999fb3b385d9e73c05146711ee642f0e52f0cd887b2bedde62b7`
 - Ingest: `utf8-preview`
@@ -5577,7 +5577,7 @@ Thread ID: `TH-DOCS-PROCESS-EXTRACTION`
 #### SS-MAN-20260605-0574 - Process Extraction — What We Built That's Repeatable
 
 - Path: `docs/process-extraction/2026-04-04-reusable-processes.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:sop`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 10308 bytes; Modified UTC: `2026-06-05T16:58:52.496642+00:00`
 - SHA-256: `f3b014f6ff7652179c0c9ccd45c6ddd77d646d244451e762f8d004350a007259`
 - Ingest: `utf8-preview`
@@ -5591,7 +5591,7 @@ Thread ID: `TH-DOCS-PRODUCTS`
 #### SS-MAN-20260605-0575 - Birth Control Resources Guide
 
 - Path: `docs/products/birth-control-guide.md`
-- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:inner`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:system`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 9221 bytes; Modified UTC: `2026-06-05T16:58:52.496845+00:00`
 - SHA-256: `e173d4de96f3a5b60b666a600851c33f1c14d8df1da71fa4b25b8f0105beea03`
 - Ingest: `utf8-preview`
@@ -5600,29 +5600,29 @@ Thread ID: `TH-DOCS-PRODUCTS`
 #### SS-MAN-20260605-0576 - Feel Good First — Sovereign Systems Workbook
 
 - Path: `docs/products/feel-good-first-workbook.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:physical`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 65293 bytes; Modified UTC: `2026-06-05T16:58:52.496945+00:00`
 - SHA-256: `578b08c1be48dc6b5607f4844b7657dca9b8ba6d5dbf35293b7f22a4b6dbea45`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/products/feel-good-first-workbook.md`. Content signal: # Feel Good First — Sovereign Systems Workbook **By admin** | Sovereign Systems Spiral **Sections:** 10 progressive modules from self-assessment to celebration
 
-#### SS-MAN-20260605-0577 - The Hydrogen Advantage — What H2 Water Actually Does
+#### SS-MAN-20260605-0577 - The Hydrogen Advantage — What H2 Gateway Actually Does
 
 - Path: `docs/products/hydrogen-benefits-ebook.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `pillar:water`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `pillar:gateway`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 4041 bytes; Modified UTC: `2026-06-05T16:58:52.497001+00:00`
 - SHA-256: `6f7955e3e9d264f511a62309496e6039a8764608c3da6cc43566b454271d6f27`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/products/hydrogen-benefits-ebook.md`. Content signal: # The Hydrogen Advantage — What H2 Water Actually Does **By admin** | Stop Drinking Acid **Format:** Ebook / PDF
+- Annotation: Readable project artifact at `docs/products/hydrogen-benefits-ebook.md`. Content signal: # The Hydrogen Advantage — What H2 Gateway Actually Does **By admin** | Stop Drinking Acid **Format:** Ebook / PDF
 
-#### SS-MAN-20260605-0578 - Understanding Kangen Water — A Complete Guide
+#### SS-MAN-20260605-0578 - Understanding Kangen Gateway — A Complete Guide
 
-- Path: `docs/products/kangen-water-guide.md`
-- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Path: `docs/products/kangen-gateway-guide.md`
+- Tags: `area:docs`, `client:admin`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 15254 bytes; Modified UTC: `2026-06-05T16:58:52.497273+00:00`
 - SHA-256: `bc34b353c666bf82e5f24c14e18bf4836520f56ca161e2fff6de8bfbcfeec540`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/products/kangen-water-guide.md`. Content signal: # Understanding Kangen Water — A Complete Guide **By admin** | Stop Drinking Acid **Format:** Ebook / PDF (5 chapters)
+- Annotation: Readable project artifact at `docs/products/kangen-gateway-guide.md`. Content signal: # Understanding Kangen Gateway — A Complete Guide **By admin** | Stop Drinking Acid **Format:** Ebook / PDF (5 chapters)
 
 
 ### Docs: proofs
@@ -5659,7 +5659,7 @@ Thread ID: `TH-DOCS-PROOFS`
 #### SS-MAN-20260605-0582 - IRF-III-032 — Nav Variant Comparison (Pillar-First vs Spiral-First)
 
 - Path: `docs/proofs/nav-variants/2026-04-29-IRF-III-032-comparison.md`
-- Tags: `area:docs`, `client:admin`, `governance:irf`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:irf`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4651 bytes; Modified UTC: `2026-06-05T16:58:52.497521+00:00`
 - SHA-256: `5d6e0ae94424c1935c06e65d8938919dabd687cd9739cabae7fbfe28242ba241`
 - Ingest: `utf8-preview`
@@ -5677,7 +5677,7 @@ Thread ID: `TH-DOCS-PROOFS`
 #### SS-MAN-20260605-0584 - IRF-III-034 / GH#56 — `/capture` Endpoint Smoke Log
 
 - Path: `docs/proofs/quiz-flow/2026-04-29-IRF-III-034-capture-smoke-log.md`
-- Tags: `area:docs`, `governance:irf`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:irf`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4026 bytes; Modified UTC: `2026-06-05T16:58:52.497612+00:00`
 - SHA-256: `f56427e0ea9695dc92222697af000d7a5a17445d92ada66a0fac78f24b2bc940`
 - Ingest: `utf8-preview`
@@ -5686,7 +5686,7 @@ Thread ID: `TH-DOCS-PROOFS`
 #### SS-MAN-20260605-0585 - IRF-III-034 / GH#56 — Node-Placement Quiz + GHL Bypass
 
 - Path: `docs/proofs/quiz-flow/2026-04-29-IRF-III-034-comparison.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7992 bytes; Modified UTC: `2026-06-05T16:58:52.497680+00:00`
 - SHA-256: `b2179c10312b93b81f3b0249ecec59960b4c6c1854be2e3abcf790531ad632aa`
 - Ingest: `utf8-preview`
@@ -5704,7 +5704,7 @@ Thread ID: `TH-DOCS-PROOFS`
 #### SS-MAN-20260605-0587 - IRF-III-033 / GH#57 — Spiral Vessel Mode Comparison
 
 - Path: `docs/proofs/spiral-vessel-variants/2026-04-29-IRF-III-033-comparison.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:spec`, `pillar:identity`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:spec`, `pillar:structure`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6418 bytes; Modified UTC: `2026-06-05T16:58:52.497800+00:00`
 - SHA-256: `b6c49c22a83563c6ceb9f4ae6d956bfae5c02360e10a875fb889734f3b480531`
 - Ingest: `utf8-preview`
@@ -5718,16 +5718,16 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0588 - Sovereign Systems Spiral — Executive Summary
 
 - Path: `docs/reports/2026-04-04/01-executive-summary.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3534 bytes; Modified UTC: `2026-06-05T16:58:52.497909+00:00`
 - SHA-256: `a00a6b7069753e5251f900d2ff372e672f16b031d51fb04a2702c7f5845d2fe9`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/reports/2026-04-04/01-executive-summary.md`. Content signal: # Sovereign Systems Spiral — Executive Summary **Date:** April 4, 2026 **Project:** hub-example.com / water-example.com / business-example.com
+- Annotation: Readable project artifact at `docs/reports/2026-04-04/01-executive-summary.md`. Content signal: # Sovereign Systems Spiral — Executive Summary **Date:** April 4, 2026 **Project:** hub-example.com / gateway-example.com / business-example.com
 
 #### SS-MAN-20260605-0589 - Your Content, Mapped — Sovereign Systems Spiral Report
 
 - Path: `docs/reports/2026-04-04/02-client-report.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 24257 bytes; Modified UTC: `2026-06-05T16:58:52.497988+00:00`
 - SHA-256: `1839f1452b61ceab88502bbbbaf83543927630647bfce440fcf273ef51b27f61`
 - Ingest: `utf8-preview`
@@ -5736,7 +5736,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0590 - Technical Audit — Content Genome & Verification Pipeline
 
 - Path: `docs/reports/2026-04-04/03-technical-audit.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:handoff`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:audit`, `governance:handoff`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 14316 bytes; Modified UTC: `2026-06-05T16:58:52.498273+00:00`
 - SHA-256: `ef55795c556b92a462d0d8897ca796f803768f5dc539365d678d1d1da3a3408a`
 - Ingest: `utf8-preview`
@@ -5745,7 +5745,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0591 - System Health & Architecture Report
 
 - Path: `docs/reports/2026-04-04/04-system-health.md`
-- Tags: `area:docs`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11589 bytes; Modified UTC: `2026-06-05T16:58:52.498387+00:00`
 - SHA-256: `b9468b4e0681035a4ed58f14fdff18be757d166ba5cd8671a4b9344c70904705`
 - Ingest: `utf8-preview`
@@ -5754,7 +5754,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0592 - Case Study: The admin Spiral — Transmuting Corpus into Instrument
 
 - Path: `docs/reports/2026-04-27-admin-case-study.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:sop`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3532 bytes; Modified UTC: `2026-06-05T16:58:52.498442+00:00`
 - SHA-256: `82d0843158e2daa05c738218c39a88b3cbc4608eda9591f6ac26543c27c7427e`
 - Ingest: `utf8-preview`
@@ -5763,7 +5763,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0593 - admin's Launch Checklist — Sovereign Systems Spiral
 
 - Path: `docs/reports/2026-04-27-admin-launch-checklist.md`
-- Tags: `area:docs`, `client:admin`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1465 bytes; Modified UTC: `2026-06-05T16:58:52.498498+00:00`
 - SHA-256: `eaed53f4179f4927bb59046e9d35c7f0e27f5636699dabfa76bf1dc8eaf9342c`
 - Ingest: `utf8-preview`
@@ -5772,7 +5772,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0594 - Prompt Atom Registry: The Exhaustive "Fossil Record" (Total Granularity)
 
 - Path: `docs/reports/2026-04-27-prompt-atom-registry.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 26663 bytes; Modified UTC: `2026-06-05T16:58:52.498577+00:00`
 - SHA-256: `0e4fc47b68f53697e5693368b11df3adc088c286933a42a52684e93246c2de1f`
 - Ingest: `utf8-preview`
@@ -5781,7 +5781,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0595 - admin Asks — Stream A Close-Out (2026-04-29)
 
 - Path: `docs/reports/2026-04-29-admin-asks-from-stream-a.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7402 bytes; Modified UTC: `2026-06-05T16:58:52.498662+00:00`
 - SHA-256: `a9ff916d5f0818cab914a0565c3d938df594ac831d572ba8f59951dba66fcfec`
 - Ingest: `utf8-preview`
@@ -5790,7 +5790,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0596 - 2026-04-30 Ingest, Digest, Implementation Log
 
 - Path: `docs/reports/2026-04-30-ingest-digest-implementation-log.md`
-- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6151 bytes; Modified UTC: `2026-06-05T16:58:52.498727+00:00`
 - SHA-256: `2ae3159ef395d74c2f35fe90cca38d813903e6e5ade707296b7abb701642296c`
 - Ingest: `utf8-preview`
@@ -5799,7 +5799,7 @@ Thread ID: `TH-DOCS-REPORTS`
 #### SS-MAN-20260605-0597 - Debt-Clearance Ledger — 2026-06-05
 
 - Path: `docs/reports/2026-06-05-debt-clearance-ledger.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:session`, `pillar:financial`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:session`, `pillar:vision`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6149 bytes; Modified UTC: `2026-06-05T20:44:54.179660+00:00`
 - SHA-256: `3e1c0702f00e202bfb405ac077534fd51c3f1a4db6df3de7f3baa552736cecfd`
 - Ingest: `utf8-preview`
@@ -5813,11 +5813,11 @@ Thread ID: `TH-DOCS-RESEARCH-CITATIONS-MD`
 #### SS-MAN-20260605-0598 - Research Citations — Molecular Hydrogen
 
 - Path: `docs/research-citations.md`
-- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 16417 bytes; Modified UTC: `2026-06-05T16:58:52.498791+00:00`
 - SHA-256: `c91a9a58434e1f470d6488304fc20ecf7468ede5eff9822a5a3ed4b22beccbe7`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/research-citations.md`. Content signal: # Research Citations — Molecular Hydrogen Every claim on the Sovereign Systems water funnel must be backed by peer-reviewed evidence. This document maps claims to studies, organized by branch page. **Rhetorical framework:** Each branch page should weave:
+- Annotation: Readable project artifact at `docs/research-citations.md`. Content signal: # Research Citations — Molecular Hydrogen Every claim on the Sovereign Systems gateway funnel must be backed by peer-reviewed evidence. This document maps claims to studies, organized by branch page. **Rhetorical framework:** Each branch page should weave:
 
 
 ### Docs: runbooks
@@ -5859,7 +5859,7 @@ Thread ID: `TH-DOCS-SESSIONS`
 #### SS-MAN-20260605-0602 - 163258 Local Command Caveatcaveat The Messages Below W
 
 - Path: `docs/sessions/2026-04-04-163258-local-command-caveatcaveat-the-messages-below-w.txt`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:txt`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:txt`
 - Type: `.txt`; Size: 63860 bytes; Modified UTC: `2026-06-05T16:58:52.499366+00:00`
 - SHA-256: `3602ca5326c0866bcd3bd6cbf81022241a0fc48c345585d9b6442698681742b1`
 - Ingest: `utf8-preview`
@@ -5873,7 +5873,7 @@ Thread ID: `TH-DOCS-SOCIAL-CONTENT-CALENDAR`
 #### SS-MAN-20260605-0603 - Social Content Calendar
 
 - Path: `docs/social-content-calendar/README.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `type:md`
 - Type: `.md`; Size: 931 bytes; Modified UTC: `2026-06-05T16:58:52.499456+00:00`
 - SHA-256: `1f72ec1a656253ff481e248d97c5442d48535d8f9ee274c0e443e08df0a0cb26`
 - Ingest: `utf8-preview`
@@ -5882,65 +5882,65 @@ Thread ID: `TH-DOCS-SOCIAL-CONTENT-CALENDAR`
 #### SS-MAN-20260605-0604 - Carousel Content
 
 - Path: `docs/social-content-calendar/carousel.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:financial`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:vision`, `type:md`
 - Type: `.md`; Size: 87041 bytes; Modified UTC: `2026-06-05T16:58:52.499536+00:00`
 - SHA-256: `83961c66802d302cf0936e7d9c7a4864911f7c5e1b92cf8b49b8751f34863462`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/carousel.md`. Content signal: **26 pieces** | Extracted from content archive **Source:** `business/astrology-social-media-strategy.md` **Pillar:** Financial | **Nodes:** [3, 5, 11]
+- Annotation: Readable project artifact at `docs/social-content-calendar/carousel.md`. Content signal: **26 pieces** | Extracted from content archive **Source:** `business/astrology-social-media-strategy.md` **Pillar:** Vision | **Nodes:** [3, 5, 11]
 
 #### SS-MAN-20260605-0605 - Email Content
 
 - Path: `docs/social-content-calendar/email.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 12695 bytes; Modified UTC: `2026-06-05T16:58:52.499615+00:00`
 - SHA-256: `c686d40bec6e9132cf01a2909c738add07b958bb172d733055d751cac6bca1c8`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/email.md`. Content signal: **4 pieces** | Extracted from content archive **Source:** `health/sonoluminescence-phenomenon-explained.md` **Pillar:** Physical | **Nodes:** [12, 9]
+- Annotation: Readable project artifact at `docs/social-content-calendar/email.md`. Content signal: **4 pieces** | Extracted from content archive **Source:** `health/sonoluminescence-phenomenon-explained.md` **Pillar:** Foundation | **Nodes:** [12, 9]
 
 #### SS-MAN-20260605-0606 - Guide Content
 
 - Path: `docs/social-content-calendar/guide.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:session`, `pillar:physical`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:session`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 17914 bytes; Modified UTC: `2026-06-05T16:58:52.499687+00:00`
 - SHA-256: `898e16af724a77bbdb5835dbc963600ac20ee3957fee4f54b7db17d6a7e7f8a6`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/guide.md`. Content signal: **5 pieces** | Extracted from content archive **Source:** `health/30-day-acupressure-routine.md` **Pillar:** Physical | **Nodes:** [2, 9, 10, 13]
+- Annotation: Readable project artifact at `docs/social-content-calendar/guide.md`. Content signal: **5 pieces** | Extracted from content archive **Source:** `health/30-day-acupressure-routine.md` **Pillar:** Foundation | **Nodes:** [2, 9, 10, 13]
 
 #### SS-MAN-20260605-0607 - Other Content
 
 - Path: `docs/social-content-calendar/other.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:inner`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:system`, `type:md`
 - Type: `.md`; Size: 18986 bytes; Modified UTC: `2026-06-05T16:58:52.499766+00:00`
 - SHA-256: `94b0c60259fccc55d4ae48c09aaff8379e6a57f0d9efeeabf2b8e674023e3a0c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/other.md`. Content signal: **16 pieces** | Extracted from content archive **Source:** `mindset/anger-processing-guide.md` **Pillar:** Inner | **Nodes:** [2, 3, 9]
+- Annotation: Readable project artifact at `docs/social-content-calendar/other.md`. Content signal: **16 pieces** | Extracted from content archive **Source:** `mindset/anger-processing-guide.md` **Pillar:** System | **Nodes:** [2, 3, 9]
 
 #### SS-MAN-20260605-0608 - Post Content
 
 - Path: `docs/social-content-calendar/post.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:physical`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:spec`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 20982 bytes; Modified UTC: `2026-06-05T16:58:52.499857+00:00`
 - SHA-256: `e16654b66334b772a510c0941aafc89a3aa90e42a20374164f6b5c96001de877`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/post.md`. Content signal: **10 pieces** | Extracted from content archive **Source:** `health/30-day-acupressure-routine.md` **Pillar:** Physical | **Nodes:** [2, 9, 10, 13]
+- Annotation: Readable project artifact at `docs/social-content-calendar/post.md`. Content signal: **10 pieces** | Extracted from content archive **Source:** `health/30-day-acupressure-routine.md` **Pillar:** Foundation | **Nodes:** [2, 9, 10, 13]
 
 #### SS-MAN-20260605-0609 - Reel Content
 
 - Path: `docs/social-content-calendar/reel.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 64541 bytes; Modified UTC: `2026-06-05T16:58:52.500161+00:00`
 - SHA-256: `ecc635c36ab5519db342bade3d213a854875a2fe4c356513cfa377b5de03a03c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/reel.md`. Content signal: **28 pieces** | Extracted from content archive **Source:** `business/dream-retreat-vision.md` **Pillar:** Financial | **Nodes:** [12, 14]
+- Annotation: Readable project artifact at `docs/social-content-calendar/reel.md`. Content signal: **28 pieces** | Extracted from content archive **Source:** `business/dream-retreat-vision.md` **Pillar:** Vision | **Nodes:** [12, 14]
 
 #### SS-MAN-20260605-0610 - Video Content
 
 - Path: `docs/social-content-calendar/video.md`
-- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 20380 bytes; Modified UTC: `2026-06-05T16:58:52.500245+00:00`
 - SHA-256: `6c4e01c4c82283de1871f2d40b8f8a63cc458fa0761988db0eaf7ca15e3efc2c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/social-content-calendar/video.md`. Content signal: **5 pieces** | Extracted from content archive **Source:** `business/wagyu-post-conversion-tips.md` **Pillar:** Financial | **Nodes:** [11, 13]
+- Annotation: Readable project artifact at `docs/social-content-calendar/video.md`. Content signal: **5 pieces** | Extracted from content archive **Source:** `business/wagyu-post-conversion-tips.md` **Pillar:** Vision | **Nodes:** [11, 13]
 
 
 ### Docs: sops
@@ -5950,7 +5950,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0611 - SOP-SS-ATM-001_001: Atomic Decomposition & Coverage Proof
 
 - Path: `docs/sops/SOP-SS-ATM-001_001-atomic-decomposition.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 5328 bytes; Modified UTC: `2026-06-05T16:58:52.500351+00:00`
 - SHA-256: `71f6732b5ec22e859b8489d9865f57ebc4817a7968e7cd9b0df9195f9ad5121e`
 - Ingest: `utf8-preview`
@@ -5959,7 +5959,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0612 - SOP-SS-CLT-001_001-ontology_client_decisions
 
 - Path: `docs/sops/SOP-SS-CLT-001_001-ontology_client_decisions.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 8992 bytes; Modified UTC: `2026-06-05T16:58:52.500463+00:00`
 - SHA-256: `aaa67439ca02b64f39e83cd5bc6ce54a794e7ea7acce79538cff69d7d58afaab`
 - Ingest: `utf8-preview`
@@ -5968,7 +5968,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0613 - SOP-SS-CNT-001_001: Content Extraction & Node Injection
 
 - Path: `docs/sops/SOP-SS-CNT-001_001-content-extraction-and-node-injection.md`
-- Tags: `area:docs`, `corpus:extracted`, `corpus:source-bundle`, `governance:handoff`, `governance:sop`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `corpus:source-bundle`, `governance:handoff`, `governance:sop`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9767 bytes; Modified UTC: `2026-06-05T16:58:52.500570+00:00`
 - SHA-256: `0f7d192f7ec3e3926aaf20f1562d3cffe98aba6eb974b6cf3f2f5b9801654cc7`
 - Ingest: `utf8-preview`
@@ -5977,7 +5977,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0614 - SOP-SS-ISS-001-001-ontology-issue-specification
 
 - Path: `docs/sops/SOP-SS-ISS-001-001-ontology-issue-specification.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:financial`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:vision`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6943 bytes; Modified UTC: `2026-06-05T16:58:52.500644+00:00`
 - SHA-256: `4de576d7af5f9d24cd5d9d3187bf7577c4ceb2efd6a6dbd37bc3679ede425459`
 - Ingest: `utf8-preview`
@@ -6004,7 +6004,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0617 - SOP-SS-REV-001_001: Evaluation-to-Growth Review Chain
 
 - Path: `docs/sops/SOP-SS-REV-001_001-evaluation-to-growth-review-chain.md`
-- Tags: `area:docs`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `governance:issue`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 9272 bytes; Modified UTC: `2026-06-05T16:58:52.500897+00:00`
 - SHA-256: `cc54fe957a08ae10577613fdc3e398dad75d67c33b060a29524c7a03eb3aaed6`
 - Ingest: `utf8-preview`
@@ -6013,7 +6013,7 @@ Thread ID: `TH-DOCS-SOPS`
 #### SS-MAN-20260605-0618 - SOP-SS-TRK-001_001-ontology_issue_tracking
 
 - Path: `docs/sops/SOP-SS-TRK-001_001-ontology_issue_tracking.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4933 bytes; Modified UTC: `2026-06-05T16:58:52.500976+00:00`
 - SHA-256: `452a02318e8cc425d702ea16bea91d81c6f077a8b72eafd224c4c7f2e8ee4601`
 - Ingest: `utf8-preview`
@@ -6036,7 +6036,7 @@ Thread ID: `TH-DOCS-SPIRAL-EXPERIMENTS`
 #### SS-MAN-20260605-0620 - Algorithmic art
 
 - Path: `docs/spiral-experiments/2026-05-16-confluence-apophatic/Algorithmic-art (1).md`
-- Tags: `area:docs`, `governance:sop`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:sop`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5232 bytes; Modified UTC: `2026-06-05T16:58:52.501186+00:00`
 - SHA-256: `37ea7eb68dad3c4b317d8d3ef9d14408f39bdf382674047ad4a3f0860c80c901`
 - Ingest: `utf8-preview`
@@ -6054,7 +6054,7 @@ Thread ID: `TH-DOCS-SPIRAL-EXPERIMENTS`
 #### SS-MAN-20260605-0622 - Spiral Experiments — Confluence × Apophatic batch
 
 - Path: `docs/spiral-experiments/2026-05-16-confluence-apophatic/README.md`
-- Tags: `area:docs`, `client:admin`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10292 bytes; Modified UTC: `2026-06-05T16:58:52.501368+00:00`
 - SHA-256: `79089a4371a6741e8361900e994341d363ae5be7d1ebb03a0121c429ca1b7afb`
 - Ingest: `utf8-preview`
@@ -6108,7 +6108,7 @@ Thread ID: `TH-DOCS-SPIRAL-EXPERIMENTS`
 #### SS-MAN-20260605-0628 - Confluence
 
 - Path: `docs/spiral-experiments/2026-05-16-confluence-apophatic/confluence-philosophy.md`
-- Tags: `area:docs`, `governance:sop`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:sop`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4904 bytes; Modified UTC: `2026-06-05T16:58:52.501877+00:00`
 - SHA-256: `7de8b54464c09378dee3ea3bdaf89e58268c21b2531268b1925e5426475de2f9`
 - Ingest: `utf8-preview`
@@ -6126,7 +6126,7 @@ Thread ID: `TH-DOCS-SPIRAL-EXPERIMENTS`
 #### SS-MAN-20260605-0630 - Cross Pollination Prompt
 
 - Path: `docs/spiral-experiments/2026-05-16-confluence-apophatic/cross_pollination_prompt.md`
-- Tags: `area:docs`, `governance:sop`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:sop`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2749 bytes; Modified UTC: `2026-06-05T16:58:52.502056+00:00`
 - SHA-256: `e58ef69da6801ecb877300809f0bac051cd4f63379a161b482b9101abd1f5a88`
 - Ingest: `utf8-preview`
@@ -6230,25 +6230,25 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0641 - admin Spiral Path Handoff — Board Atomization
 
 - Path: `docs/superpowers/intakes/2026-04-01-admin-spiral-path-board-atomization.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:handoff`, `governance:issue`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 6238 bytes; Modified UTC: `2026-06-05T16:58:52.503331+00:00`
 - SHA-256: `ea5793ed64fffc07e7385ec3816a64bd3ffbf3ffc09177d7538ff50c036d14cc`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/superpowers/intakes/2026-04-01-admin-spiral-path-board-atomization.md`. Content signal: # admin Spiral Path Handoff — Board Atomization Source: canonical handoff at `/Users/4jp/Workspace/organvm-iv-taxis/orchestration-start-here/docs/handoff-admin-spiral-path-2026-04-01.md` + verified local download bundle Destination board: `organvm-iii-ergon/projects/5`
 
-#### SS-MAN-20260605-0642 - Intake: admin — Hydration Node + Water Funnel Blueprint
+#### SS-MAN-20260605-0642 - Intake: admin — Gateway Node + Gateway Funnel Blueprint
 
-- Path: `docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 8984 bytes; Modified UTC: `2026-06-05T16:58:52.503446+00:00`
 - SHA-256: `7aee235ba571ce7ef11ea781b35e1d32cb8cc327306eb1577b8ed707c3b91ccf`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md`. Content signal: # Intake: admin — Hydration Node + Water Funnel Blueprint **Source:** iMessage thread (group chat) + text follow-up (2 parts) **Received by:** Studio (via user relay)
+- Annotation: Readable project artifact at `docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md`. Content signal: # Intake: admin — Gateway Node + Gateway Funnel Blueprint **Source:** iMessage thread (group chat) + text follow-up (2 parts) **Received by:** Studio (via user relay)
 
 #### SS-MAN-20260605-0643 - admin Messages Extraction — Apr 5 through Apr 14, 2026
 
 - Path: `docs/superpowers/intakes/2026-04-14-admin-messages-apr5-apr14-extraction.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5246 bytes; Modified UTC: `2026-06-05T16:58:52.503510+00:00`
 - SHA-256: `1340e857f381eec3b96c6a3cc8fd5db00df8c07b02cbe50e91be0778eb6c3f9b`
 - Ingest: `utf8-preview`
@@ -6257,7 +6257,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0644 - admin Architecture Feedback — 2026-04-20
 
 - Path: `docs/superpowers/intakes/2026-04-20-admin-architecture-feedback-questionnaire.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2754 bytes; Modified UTC: `2026-06-05T16:58:52.503554+00:00`
 - SHA-256: `42ac8b135897e6c0fb32b7f1cc092734818f698bac3fb6830a842cd6d9be1f15`
 - Ingest: `utf8-preview`
@@ -6266,16 +6266,16 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0645 - Sovereign Systems Spiral — Implementation Plan
 
 - Path: `docs/superpowers/plans/2026-03-25-sovereign-systems-build.md`
-- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 52268 bytes; Modified UTC: `2026-06-05T16:58:52.503665+00:00`
 - SHA-256: `0a797141aada998508a0b6b85eadd13e5750daece6f28238273158206f5af8dc`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/plans/2026-03-25-sovereign-systems-build.md`. Content signal: # Sovereign Systems Spiral — Implementation Plan > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. **Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + water funnel with documentary-first landing, quiz embed, a
+- Annotation: Readable project artifact at `docs/superpowers/plans/2026-03-25-sovereign-systems-build.md`. Content signal: # Sovereign Systems Spiral — Implementation Plan > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking. **Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + gateway funnel with documentary-first landing, quiz embed, a
 
 #### SS-MAN-20260605-0646 - Purification — Implementation Plan
 
 - Path: `docs/superpowers/plans/2026-03-27-purification.md`
-- Tags: `area:docs`, `governance:issue`, `governance:plan`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:citations`, `type:md`
+- Tags: `area:docs`, `governance:issue`, `governance:plan`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:citations`, `type:md`
 - Type: `.md`; Size: 15461 bytes; Modified UTC: `2026-06-05T16:58:52.503731+00:00`
 - SHA-256: `c106eb68081dccc7a55ad6a91cd4094e2f779f9447ac2e1725d0cabf78b22e1a`
 - Ingest: `utf8-preview`
@@ -6284,7 +6284,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0647 - Atomic Excavation Implementation Plan
 
 - Path: `docs/superpowers/plans/2026-04-03-atomic-excavation.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `corpus:source-bundle`, `governance:decision`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 24355 bytes; Modified UTC: `2026-06-05T16:58:52.503794+00:00`
 - SHA-256: `171b9f573a39127d18a0fffce173c629a700b151fbf79412b31faee4898e8149`
 - Ingest: `utf8-preview`
@@ -6293,7 +6293,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0648 - Atomic Verification: External Parallel Check Handoffs
 
 - Path: `docs/superpowers/plans/2026-04-03-atomic-verification-handoffs.md`
-- Tags: `area:docs`, `corpus:extracted`, `corpus:source-bundle`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:spec`, `pillar:financial`, `topic:atoms`, `topic:citations`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `corpus:extracted`, `corpus:source-bundle`, `governance:decision`, `governance:handoff`, `governance:plan`, `governance:spec`, `pillar:vision`, `topic:atoms`, `topic:citations`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 13579 bytes; Modified UTC: `2026-06-05T16:58:52.503867+00:00`
 - SHA-256: `56f4c05321ee5e95ea74c684ce5eaebf9bcdae2e0f01277d90eeae6acb79dc13`
 - Ingest: `utf8-preview`
@@ -6320,7 +6320,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0651 - Outstanding Roadmap & Product Scope
 
 - Path: `docs/superpowers/plans/2026-05-25-outstanding-roadmap-and-product-scope.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7606 bytes; Modified UTC: `2026-06-05T16:58:52.504071+00:00`
 - SHA-256: `ed0c8fdbe4b48623e0199635e893b9fe82df014ef8c012bc1c8650853f1b1b51`
 - Ingest: `utf8-preview`
@@ -6329,7 +6329,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0652 - Universal-Context Propagation Ledger — 2026-05-25 session
 
 - Path: `docs/superpowers/plans/2026-05-25-universal-context-propagation-ledger.md`
-- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:inner`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:audit`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `pillar:system`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3782 bytes; Modified UTC: `2026-06-05T16:58:52.504127+00:00`
 - SHA-256: `b22be168f30dace899427bd3236523dbd3ffb25d9e2dcb039af5a62f17c45895`
 - Ingest: `utf8-preview`
@@ -6338,7 +6338,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0653 - Sovereign Systems Spiral — Technical Design Spec
 
 - Path: `docs/superpowers/specs/2026-03-25-sovereign-systems-design.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 22703 bytes; Modified UTC: `2026-06-05T16:58:52.504226+00:00`
 - SHA-256: `b6c2d6bba6d75afb00002cd4a02f0095985c8806e733938162592931daff83e8`
 - Ingest: `utf8-preview`
@@ -6347,7 +6347,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0654 - Atomic Content Registry & Phase Strike System
 
 - Path: `docs/superpowers/specs/2026-04-03-atomic-content-registry-design.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:sop`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 19855 bytes; Modified UTC: `2026-06-05T16:58:52.504307+00:00`
 - SHA-256: `9db18acc498f6bb69d52e9ca5640e0771f69ed2f0c0c8c60ddc25a9c5daaa64b`
 - Ingest: `utf8-preview`
@@ -6383,20 +6383,20 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0658 - Specification: Editorial review of flagged Spiral claims
 
 - Path: `docs/superpowers/specs/2026-04-03-spec-editorial-review.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3142 bytes; Modified UTC: `2026-06-05T16:58:52.504538+00:00`
 - SHA-256: `254d54d03451931b045c91a14822c545b56366e8e78787ff0a75d1f430b76dfb`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-editorial-review.md`. Content signal: # Specification: Editorial review of flagged Spiral claims **Issue:** #16 | **Phase:** β | **Priority:** P1 | **Status:** SPEC The handoff identifies 13 claims requiring editorial review before publication. Some claims (water memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation) carry legal/reputational risk if not properly vetted.
+- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-editorial-review.md`. Content signal: # Specification: Editorial review of flagged Spiral claims **Issue:** #16 | **Phase:** β | **Priority:** P1 | **Status:** SPEC The handoff identifies 13 claims requiring editorial review before publication. Some claims (gateway memory, cell-talking, biophotonics, cymatics healing, spoon bending, past-life causation) carry legal/reputational risk if not properly vetted.
 
-#### SS-MAN-20260605-0659 - Specification: Inner Child Book packaging decision
+#### SS-MAN-20260605-0659 - Specification: System Child Book packaging decision
 
-- Path: `docs/superpowers/specs/2026-04-03-spec-inner-child-book.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:inner`, `topic:spiral`, `type:md`
+- Path: `docs/superpowers/specs/2026-04-03-spec-system-child-book.md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1254 bytes; Modified UTC: `2026-06-05T16:58:52.504588+00:00`
 - SHA-256: `a60dc6a30d3b708932440577f8b10c0aba468eda75545d07a95e0bffae3fe434`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-inner-child-book.md`. Content signal: # Specification: Inner Child Book packaging decision **Issue:** #19 | **Phase:** γ | **Priority:** P3 | **Status:** GATED The handoff elevates the Inner Child Book concept to a real product-scope decision. This concept spans multiple nodes and could become its own offer.
+- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-system-child-book.md`. Content signal: # Specification: System Child Book packaging decision **Issue:** #19 | **Phase:** γ | **Priority:** P3 | **Status:** GATED The handoff elevates the System Child Book concept to a real product-scope decision. This concept spans multiple nodes and could become its own offer.
 
 #### SS-MAN-20260605-0660 - Specification: Keystatic CMS (re-add post pricing)
 
@@ -6416,19 +6416,19 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-keystatic-oauth.md`. Content signal: # Specification: Keystatic Production Handover & GitHub OAuth Setup **Issue:** #1 | **Phase:** IRF | **Priority:** N/A | **Status:** SPEC This is a legacy IRF item (IRF-APP-037) tracking the Keystatic CMS handover. The setup steps are documented but await pricing arrangement confirmation before execution.
 
-#### SS-MAN-20260605-0662 - Specification: Physical Sovereignty node build (nodes 1-5 + water funnel)
+#### SS-MAN-20260605-0662 - Specification: Foundation Sovereignty node build (nodes 1-5 + gateway funnel)
 
-- Path: `docs/superpowers/specs/2026-04-03-spec-physical-sovereignty-build.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Path: `docs/superpowers/specs/2026-04-03-spec-foundation-sovereignty-build.md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3500 bytes; Modified UTC: `2026-06-05T16:58:52.504732+00:00`
 - SHA-256: `8d4558a0ce4f1aebb6655028a6274406038974167cbe0b8b36bc8fb3442ab22c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-physical-sovereignty-build.md`. Content signal: # Specification: Physical Sovereignty node build (nodes 1-5 + water funnel) **Issue:** #6 | **Phase:** β | **Priority:** P1 | **Status:** SPEC Physical Sovereignty is the first phase of the Spiral. Building nodes 1-5 establishes the core funnel and establishes the content architecture for all subsequent pillars.
+- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-foundation-sovereignty-build.md`. Content signal: # Specification: Foundation Sovereignty node build (nodes 1-5 + gateway funnel) **Issue:** #6 | **Phase:** β | **Priority:** P1 | **Status:** SPEC Foundation Sovereignty is the first phase of the Spiral. Building nodes 1-5 establishes the core funnel and establishes the content architecture for all subsequent pillars.
 
 #### SS-MAN-20260605-0663 - Specification: Start Here quiz routing + GHL integration
 
 - Path: `docs/superpowers/specs/2026-04-03-spec-quiz-ghl-integration.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2710 bytes; Modified UTC: `2026-06-05T16:58:52.504777+00:00`
 - SHA-256: `3f71604f4f6ce3b3345c8fcce77bfd1c1f05cd2bec1665031cc12ef7aab28147`
 - Ingest: `utf8-preview`
@@ -6437,11 +6437,11 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0664 - Specification: Formalize 10% revenue agreement
 
 - Path: `docs/superpowers/specs/2026-04-03-spec-revenue-agreement.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2595 bytes; Modified UTC: `2026-06-05T16:58:52.504842+00:00`
 - SHA-256: `e13a48a877da8ade48d53c66a12044cd4c71fc45a5b1eacf465854f17f8de70c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-revenue-agreement.md`. Content signal: # Specification: Formalize 10% revenue agreement **Issue:** #5 | **Phase:** α | **Priority:** P0 | **Status:** GATED admin agreed verbally to 10% of water sales until $10K. Without written confirmation, the revenue arrangement lacks legal standing and blocks all revenue-generating work from proceeding with confidence.
+- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-revenue-agreement.md`. Content signal: # Specification: Formalize 10% revenue agreement **Issue:** #5 | **Phase:** α | **Priority:** P0 | **Status:** GATED admin agreed verbally to 10% of gateway sales until $10K. Without written confirmation, the revenue arrangement lacks legal standing and blocks all revenue-generating work from proceeding with confidence.
 
 #### SS-MAN-20260605-0665 - Specification: Spiral interaction target (movable/clickable parity)
 
@@ -6464,7 +6464,7 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0667 - Specification: Lock final Spiral node architecture (13 vs 14 + order)
 
 - Path: `docs/superpowers/specs/2026-04-03-spec-spiral-node-architecture.md`
-- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:handoff`, `governance:issue`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2667 bytes; Modified UTC: `2026-06-05T16:58:52.504987+00:00`
 - SHA-256: `98a12552bd9b0c2d673541c0f09619e795cc9e80de391264076f076d7523a075`
 - Ingest: `utf8-preview`
@@ -6500,20 +6500,20 @@ Thread ID: `TH-DOCS-SUPERPOWERS`
 #### SS-MAN-20260605-0671 - Specification: Decide video hosting strategy for documentary/reel assets
 
 - Path: `docs/superpowers/specs/2026-04-03-spec-video-hosting.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:physical`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:issue`, `governance:spec`, `pillar:foundation`, `type:md`
 - Type: `.md`; Size: 1501 bytes; Modified UTC: `2026-06-05T16:58:52.505216+00:00`
 - SHA-256: `e7c6d89f9818ce32e40b5c0adb901f5833fc80496fbc668eaad4df68ef829890`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-video-hosting.md`. Content signal: # Specification: Decide video hosting strategy for documentary/reel assets **Issue:** #18 | **Phase:** β | **Priority:** P2 | **Status:** GATED Video is part of the launch flow but hosting is unresolved. This decision affects embed capability, privacy controls, and bandwidth costs.
 
-#### SS-MAN-20260605-0672 - Specification: Decide Water Hub placement in site architecture
+#### SS-MAN-20260605-0672 - Specification: Decide Gateway Hub placement in site architecture
 
-- Path: `docs/superpowers/specs/2026-04-03-spec-water-hub-architecture.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:physical`, `pillar:water`, `type:md`
+- Path: `docs/superpowers/specs/2026-04-03-spec-gateway-hub-architecture.md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 1690 bytes; Modified UTC: `2026-06-05T16:58:52.505274+00:00`
 - SHA-256: `0f8ae32eddc40fb99f35a7096fd1d8869a53b3aeecc0d20bfec65fd901f54756`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-water-hub-architecture.md`. Content signal: # Specification: Decide Water Hub placement in site architecture **Issue:** #17 | **Phase:** β | **Priority:** P2 | **Status:** GATED The 2026-04-01 handoff raises a structural question: should Water Hub ship as a dedicated site or as a nested section? This affects information architecture, funnel routing, and how Physical Sovereignty is framed.
+- Annotation: Readable project artifact at `docs/superpowers/specs/2026-04-03-spec-gateway-hub-architecture.md`. Content signal: # Specification: Decide Gateway Hub placement in site architecture **Issue:** #17 | **Phase:** β | **Priority:** P2 | **Status:** GATED The 2026-04-01 handoff raises a structural question: should Gateway Hub ship as a dedicated site or as a nested section? This affects information architecture, funnel routing, and how Foundation Sovereignty is framed.
 
 
 ### Docs: system-report-2026-04-22.md
@@ -6523,7 +6523,7 @@ Thread ID: `TH-DOCS-SYSTEM-REPORT-2026-04-22-MD`
 #### SS-MAN-20260605-0673 - Sovereign Systems Spiral — System Report
 
 - Path: `docs/system-report-2026-04-22.md`
-- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:identity`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `corpus:extracted`, `governance:decision`, `pillar:structure`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 22203 bytes; Modified UTC: `2026-06-05T16:58:52.505323+00:00`
 - SHA-256: `f90d82fa393852b3dceafbc17605689c4952f10e75317746075de52b4ea7353c`
 - Ingest: `utf8-preview`
@@ -6537,7 +6537,7 @@ Thread ID: `TH-DOCS-TIMELINES`
 #### SS-MAN-20260605-0674 - Spiral Artifact Evolution Timeline
 
 - Path: `docs/timelines/2026-05-01-spiral-evolution-timeline.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 31155 bytes; Modified UTC: `2026-06-05T16:58:52.505442+00:00`
 - SHA-256: `12b420ddad0b8d3a2ea27e1492d25d623ba913e13e4bc760e5293de38191e15d`
 - Ingest: `utf8-preview`
@@ -6551,7 +6551,7 @@ Thread ID: `TH-DOCS-TRIANGLE`
 #### SS-MAN-20260605-0675 - Triangulation Log — IRF-III-033
 
 - Path: `docs/triangle/IRF-III-033.md`
-- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:water`, `topic:atoms`, `topic:spiral`, `type:md`
+- Tags: `area:docs`, `client:admin`, `governance:decision`, `governance:irf`, `governance:issue`, `governance:plan`, `governance:session`, `governance:sop`, `governance:spec`, `pillar:gateway`, `topic:atoms`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 5918 bytes; Modified UTC: `2026-06-05T16:58:52.505562+00:00`
 - SHA-256: `8f2f5fc011731ff13c16d5d054547f766351796f2e5e9ba9a14891b177f96ba2`
 - Ingest: `utf8-preview`
@@ -6621,7 +6621,7 @@ Thread ID: `TH-PAGES-YML`
 #### SS-MAN-20260605-0133 - Pages CMS (https://pagescms.org) — git-based content editor.
 
 - Path: `.pages.yml`
-- Tags: `area:.pages.yml`, `pillar:water`, `type:yml`
+- Tags: `area:.pages.yml`, `pillar:gateway`, `type:yml`
 - Type: `.yml`; Size: 2604 bytes; Modified UTC: `2026-06-05T16:58:51.633083+00:00`
 - SHA-256: `92f33bd185208e3a06abeb56ffe7d074eb06afb208058bb896f15d7ecbafaaa3`
 - Ingest: `utf8-preview`
@@ -6635,7 +6635,7 @@ Thread ID: `TH-PRETTIERIGNORE`
 #### SS-MAN-20260605-0134 - Build output & caches
 
 - Path: `.prettierignore`
-- Tags: `area:.prettierignore`, `governance:spec`, `topic:citations`, `topic:hydration`, `type:no-extension`
+- Tags: `area:.prettierignore`, `governance:spec`, `topic:citations`, `topic:gateway`, `type:no-extension`
 - Type: `[none]`; Size: 1035 bytes; Modified UTC: `2026-06-05T16:58:51.633120+00:00`
 - SHA-256: `6996284f1051d87df85f8e83c5f2bbd033c536e3a762b27045d629a10b6ca6bb`
 - Ingest: `utf8-preview`
@@ -6663,7 +6663,7 @@ Thread ID: `TH-AGENTS-MD`
 #### SS-MAN-20260605-0139 - AGENTS.md
 
 - Path: `AGENTS.md`
-- Tags: `area:AGENTS.md`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:AGENTS.md`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9217 bytes; Modified UTC: `2026-06-05T20:29:02.673208+00:00`
 - SHA-256: `982899ccff7d7a6a4a173606548e57ceb0fdeba03e6b3baa191ae848587ff5da`
 - Ingest: `utf8-preview`
@@ -6677,11 +6677,11 @@ Thread ID: `TH-CLAUDE-MD`
 #### SS-MAN-20260605-0140 - CLAUDE.md
 
 - Path: `CLAUDE.md`
-- Tags: `area:CLAUDE.md`, `client:admin`, `governance:session`, `governance:spec`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:CLAUDE.md`, `client:admin`, `governance:session`, `governance:spec`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 39405 bytes; Modified UTC: `2026-06-05T20:22:40.612215+00:00`
 - SHA-256: `06e4dde79d9eca53bf995aa995eff5f9a403e64be5def7784187962212c47ded`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `CLAUDE.md`. Content signal: This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. **Sovereign Systems Spiral** — multi-domain Astro 6 website for client admin's 4-pillar health and business brand. Hub-and-spoke architecture: `hub-example.com` is the central hub; `water-example.com` powers the Water/Physical Sovereignty funnel; `business-example.com` hosts the Financial Sovereignty business arm. - **
+- Annotation: Readable project artifact at `CLAUDE.md`. Content signal: This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository. **Sovereign Systems Spiral** — multi-domain Astro 6 website for client admin's 4-pillar health and business brand. Hub-and-spoke architecture: `hub-example.com` is the central hub; `gateway-example.com` powers the Gateway/Foundation Sovereignty funnel; `business-example.com` hosts the Vision Sovereignty business arm. - **
 
 
 ### Repository Root: GEMINI.md
@@ -6691,7 +6691,7 @@ Thread ID: `TH-GEMINI-MD`
 #### SS-MAN-20260605-0141 - Sovereign Systems Spiral — Workspace Context
 
 - Path: `GEMINI.md`
-- Tags: `area:GEMINI.md`, `client:admin`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:md`
+- Tags: `area:GEMINI.md`, `client:admin`, `governance:decision`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 11840 bytes; Modified UTC: `2026-06-05T20:17:15.361777+00:00`
 - SHA-256: `e8065953e90b6784fe83f1251af37a831ccb7c53bc59386ac3871ae01a5ba9ec`
 - Ingest: `utf8-preview`
@@ -6705,7 +6705,7 @@ Thread ID: `TH-HANDOFF-MD`
 #### SS-MAN-20260605-0142 - HANDOFF — sovereign-systems--spiral-template
 
 - Path: `HANDOFF.md`
-- Tags: `area:HANDOFF.md`, `client:admin`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:identity`, `pillar:water`, `topic:spiral`, `type:md`
+- Tags: `area:HANDOFF.md`, `client:admin`, `governance:handoff`, `governance:plan`, `governance:session`, `pillar:structure`, `pillar:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 12865 bytes; Modified UTC: `2026-06-05T16:58:51.634109+00:00`
 - SHA-256: `c914e440dfbdca632315df73850445338bab7f4cfce2e4bd730a0bc51266c139`
 - Ingest: `utf8-preview`
@@ -6733,7 +6733,7 @@ Thread ID: `TH-README-MD`
 #### SS-MAN-20260605-0144 - Sovereign Systems Spiral
 
 - Path: `README.md`
-- Tags: `area:README.md`, `corpus:extracted`, `governance:audit`, `governance:issue`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:README.md`, `corpus:extracted`, `governance:audit`, `governance:issue`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 3019 bytes; Modified UTC: `2026-06-05T20:20:13.699604+00:00`
 - SHA-256: `4a09921bc17c3413b4bc4acce9a4b1d35e5af681a6273b67d9a1a7e4361d9bab`
 - Ingest: `utf8-preview`
@@ -6803,7 +6803,7 @@ Thread ID: `TH-SEED-YAML`
 #### SS-MAN-20260605-0711 - sovereign-systems--spiral-template
 
 - Path: `seed.yaml`
-- Tags: `area:seed.yaml`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:sop`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:yaml`
+- Tags: `area:seed.yaml`, `client:admin`, `governance:decision`, `governance:handoff`, `governance:issue`, `governance:sop`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:yaml`
 - Type: `.yaml`; Size: 7926 bytes; Modified UTC: `2026-06-05T16:58:52.510493+00:00`
 - SHA-256: `e50d7ea37c0efc009c333cb92fe13c48dfbe248e24161e90cf634a750318dbfe`
 - Ingest: `utf8-preview`
@@ -6845,7 +6845,7 @@ Thread ID: `TH-SRC-README-MD`
 #### SS-MAN-20260605-0712 - src/
 
 - Path: `src/README.md`
-- Tags: `area:src`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 1649 bytes; Modified UTC: `2026-06-05T16:58:52.510572+00:00`
 - SHA-256: `ecec456eee81dcfca78fda949a167fd86ebbde5010e40f5099efabedf911bed2`
 - Ingest: `utf8-preview`
@@ -6895,7 +6895,7 @@ Thread ID: `TH-SRC-COMPONENTS`
 #### SS-MAN-20260605-0717 - Emailgate
 
 - Path: `src/components/EmailGate.astro`
-- Tags: `area:src`, `pillar:water`, `topic:citations`, `type:astro`
+- Tags: `area:src`, `pillar:gateway`, `topic:citations`, `type:astro`
 - Type: `.astro`; Size: 11879 bytes; Modified UTC: `2026-06-05T20:33:35.769606+00:00`
 - SHA-256: `87220ec20b4f7e87632a85c060a98cb2dc3aebeeba223bcccba52ae8fcd14d8e`
 - Ingest: `utf8-preview`
@@ -6913,7 +6913,7 @@ Thread ID: `TH-SRC-COMPONENTS`
 #### SS-MAN-20260605-0719 - Hydrationnode
 
 - Path: `src/components/HydrationNode.astro`
-- Tags: `area:src`, `client:admin`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `client:admin`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 28972 bytes; Modified UTC: `2026-06-05T20:33:36.195852+00:00`
 - SHA-256: `41c1f1613b31de0fce2641dca2e0e791fd77f765a606bd56737973ab657aa1d1`
 - Ingest: `utf8-preview`
@@ -7030,7 +7030,7 @@ Thread ID: `TH-SRC-COMPONENTS`
 #### SS-MAN-20260605-0732 - string;
 
 - Path: `src/components/spiral/spiral.ts`
-- Tags: `area:src`, `governance:plan`, `pillar:identity`, `pillar:inner`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `governance:plan`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 148653 bytes; Modified UTC: `2026-06-05T20:28:59.543247+00:00`
 - SHA-256: `51ab2f8a725c81061b8ade9a5adb9bf168bcbb2e91e382c80f96211396766724`
 - Ingest: `utf8-preview`
@@ -7043,57 +7043,57 @@ Thread ID: `TH-SRC-CONTENT`
 
 #### SS-MAN-20260605-0734 - Energy + Focus
 
-- Path: `src/content/branches/athletic.md`
-- Tags: `area:src`, `governance:issue`, `governance:session`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `src/content/branches/archetype-alpha.md`
+- Tags: `area:src`, `governance:issue`, `governance:session`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 10788 bytes; Modified UTC: `2026-06-05T16:58:52.512844+00:00`
 - SHA-256: `8e2b53f7e2e1306ef8888b05112da3ca55fc0c725a41f5d9c6c1043bf1d0e5e4`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/athletic.md`. Content signal: title: "Energy + Focus" hook: "Your body is capable of more than you think — if you give it the foundation to perform." Most athletes focus on the output: the reps, the miles, the metrics. But peak performance isn't just about what you do; it's about how efficiently your body recovers from what you've done.
+- Annotation: Readable project artifact at `src/content/branches/archetype-alpha.md`. Content signal: title: "Energy + Focus" hook: "Your body is capable of more than you think — if you give it the foundation to perform." Most athletes focus on the output: the reps, the miles, the metrics. But peak performance isn't just about what you do; it's about how efficiently your body recovers from what you've done.
 
 #### SS-MAN-20260605-0735 - Inflammation
 
-- Path: `src/content/branches/autoimmune.md`
-- Tags: `area:src`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `src/content/branches/archetype-beta.md`
+- Tags: `area:src`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 6353 bytes; Modified UTC: `2026-06-05T16:58:52.512914+00:00`
 - SHA-256: `240c3fa28e16b0684b78988c87a9e7173d981f3bfd07332692492ce658d3e0d9`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/autoimmune.md`. Content signal: title: "Inflammation" hook: "Inflammation isn't the enemy — a body stuck in a chronic inflammatory state is asking for something different." Living with autoimmune conditions means your body is in a constant negotiation with itself. Flares. Fatigue. Fog. The unpredictability of never knowing what tomorrow looks like.
+- Annotation: Readable project artifact at `src/content/branches/archetype-beta.md`. Content signal: title: "Inflammation" hook: "Inflammation isn't the enemy — a body stuck in a chronic inflammatory state is asking for something different." Living with archetype-beta conditions means your body is in a constant negotiation with itself. Flares. Fatigue. Fog. The unpredictability of never knowing what tomorrow looks like.
 
 #### SS-MAN-20260605-0736 - Cancer Support
 
-- Path: `src/content/branches/cancer-support.md`
-- Tags: `area:src`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `src/content/branches/archetype-gamma.md`
+- Tags: `area:src`, `governance:decision`, `governance:issue`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 4660 bytes; Modified UTC: `2026-06-05T16:58:52.512970+00:00`
 - SHA-256: `49af8011f0280e43171944d49793d966ead8f0c27ece08a4dd2234dfc1c3b744`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/cancer-support.md`. Content signal: title: "Cancer Support" hook: "You don't have to navigate this alone — gentle, research-grounded support is possible." When you are navigating a diagnosis or treatment, your world becomes focused on the next step, the next appointment, and the next treatment. It can feel like your body is no longer your own territory.
+- Annotation: Readable project artifact at `src/content/branches/archetype-gamma.md`. Content signal: title: "Cancer Support" hook: "You don't have to navigate this alone — gentle, research-grounded support is possible." When you are navigating a diagnosis or treatment, your world becomes focused on the next step, the next appointment, and the next treatment. It can feel like your body is no longer your own territory.
 
-#### SS-MAN-20260605-0737 - Fertility
+#### SS-MAN-20260605-0737 - Archetype-delta
 
-- Path: `src/content/branches/fertility.md`
-- Tags: `area:src`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:citations`, `topic:hydration`, `type:md`
+- Path: `src/content/branches/archetype-delta.md`
+- Tags: `area:src`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 11839 bytes; Modified UTC: `2026-06-05T16:58:52.513067+00:00`
 - SHA-256: `ef6b1f454a5b662ae2f893a3e836055554d4d15aa91f50a8818a21f300fca8c5`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/fertility.md`. Content signal: hook: "Your body isn't failing you — it might just be missing what it needs to do what it was built to do." The fertility conversation is often framed as a problem to fix. Tests, procedures, waiting, uncertainty. But before any of that — before the interventions — there's a question worth asking:
+- Annotation: Readable project artifact at `src/content/branches/archetype-delta.md`. Content signal: hook: "Your body isn't failing you — it might just be missing what it needs to do what it was built to do." The archetype-delta conversation is often framed as a problem to fix. Tests, procedures, waiting, uncertainty. But before any of that — before the interventions — there's a question worth asking:
 
 #### SS-MAN-20260605-0738 - Hormone Health
 
-- Path: `src/content/branches/gut-hormones.md`
-- Tags: `area:src`, `governance:plan`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:md`
+- Path: `src/content/branches/archetype-epsilon.md`
+- Tags: `area:src`, `governance:plan`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 8627 bytes; Modified UTC: `2026-06-05T16:58:52.513163+00:00`
 - SHA-256: `b1c6fb0938612971d6244a15217289d4591f633ae11bc56b42140ebb12bbfb14`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/gut-hormones.md`. Content signal: title: "Hormone Health" hook: "Your gut and hormones are speaking — most people just don't know how to listen." You've probably been told your bloating is stress, or your hormones are just "off," or that this is just how your body is now.
+- Annotation: Readable project artifact at `src/content/branches/archetype-epsilon.md`. Content signal: title: "Hormone Health" hook: "Your gut and hormones are speaking — most people just don't know how to listen." You've probably been told your bloating is stress, or your hormones are just "off," or that this is just how your body is now.
 
-#### SS-MAN-20260605-0739 - Sustainability / Savings
+#### SS-MAN-20260605-0739 - Archetype-zeta / Savings
 
-- Path: `src/content/branches/sustainability.md`
-- Tags: `area:src`, `client:admin`, `governance:plan`, `pillar:financial`, `pillar:water`, `type:md`
+- Path: `src/content/branches/archetype-zeta.md`
+- Tags: `area:src`, `client:admin`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 4329 bytes; Modified UTC: `2026-06-05T16:58:52.513227+00:00`
 - SHA-256: `69d05c28636f6b4d53d7f5a8f4fa6970dca206a8a6f203b572b41b6e988b098d`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/branches/sustainability.md`. Content signal: title: "Sustainability / Savings" hook: "What if the most sustainable choice for the planet was also the most empowering choice for your health?" We have been taught to view water as a commodity — a product packaged in plastic and sold for convenience. But this convenience comes at a staggering cost to our ecosystems and our personal sovereignty.
+- Annotation: Readable project artifact at `src/content/branches/archetype-zeta.md`. Content signal: title: "Archetype-zeta / Savings" hook: "What if the most sustainable choice for the planet was also the most empowering choice for your health?" We have been taught to view gateway as a commodity — a product packaged in plastic and sold for convenience. But this convenience comes at a staggering cost to our ecosystems and our personal sovereignty.
 
 #### SS-MAN-20260605-0740 - Feel Good First
 
@@ -7107,43 +7107,43 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0741 - Awakening
 
 - Path: `src/content/nodes/10.md`
-- Tags: `area:src`, `governance:decision`, `governance:plan`, `pillar:identity`, `pillar:inner`, `topic:hydration`, `type:md`
+- Tags: `area:src`, `governance:decision`, `governance:plan`, `pillar:structure`, `pillar:system`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 9571 bytes; Modified UTC: `2026-06-05T16:58:52.513422+00:00`
 - SHA-256: `e2ca26aacb5d1dbc01a9a4aebbb2dcbd71f706e52375cdb25a96dfa8872b4b25`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/10.md`. Content signal: subHeader: "\"For now we see through a glass, darkly; but then face to face.\" — 1 Corinthians 13:12" intention: "Awakening is not a dramatic event. It's the moment you see — clearly, without the filters of fear, conditioning, or performance — what was always in front of you. Your body is regulated. Your identity is yours. And now the world looks different because you're finally looking at it through your own eyes."
+- Annotation: Readable project artifact at `src/content/nodes/10.md`. Content signal: subHeader: "\"For now we see through a glass, darkly; but then face to face.\" — 1 Corinthians 13:12" intention: "Awakening is not a dramatic event. It's the moment you see — clearly, without the filters of fear, conditioning, or performance — what was always in front of you. Your body is regulated. Your structure is yours. And now the world looks different because you're finally looking at it through your own eyes."
 
 #### SS-MAN-20260605-0742 - Integrate
 
 - Path: `src/content/nodes/11.md`
-- Tags: `area:src`, `governance:decision`, `governance:session`, `pillar:identity`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `governance:decision`, `governance:session`, `pillar:structure`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9047 bytes; Modified UTC: `2026-06-05T16:58:52.513515+00:00`
 - SHA-256: `6294157dba04fc8b60adc8f5e8362b5a68edf0985d15315ab2ac1e49c083d870`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/11.md`. Content signal: subHeader: "\"The light shines in the darkness, and the darkness has not overcome it.\" — John 1:5" intention: "Integration is the act of making all of this real in your daily life — not as a practice you do, but as the way you live. Your body, your identity, your relationships, your purpose, your environment — all of it operating as one system. Not perfect. Not finished. But whole." - title: "Nothing Works in Isolat
+- Annotation: Readable project artifact at `src/content/nodes/11.md`. Content signal: subHeader: "\"The light shines in the darkness, and the darkness has not overcome it.\" — John 1:5" intention: "Integration is the act of making all of this real in your daily life — not as a practice you do, but as the way you live. Your body, your structure, your relationships, your purpose, your environment — all of it operating as one system. Not perfect. Not finished. But whole." - title: "Nothing Works in Isolat
 
 #### SS-MAN-20260605-0743 - Authenticate
 
 - Path: `src/content/nodes/12.md`
-- Tags: `area:src`, `governance:audit`, `governance:session`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `type:md`
+- Tags: `area:src`, `governance:audit`, `governance:session`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 10149 bytes; Modified UTC: `2026-06-05T16:58:52.513608+00:00`
 - SHA-256: `9db3b442128cc7094030ed328e47736288d1f8bbff24802967fb6133394947c0`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/12.md`. Content signal: title: "Authenticate" subHeader: "\"By their fruits you shall know them.\" — Matthew 7:16" intention: "Authentication is proof of concept — your life as evidence. This is where inner transformation meets external structure. Where the sovereignty you've built internally starts generating systems that work in the material world. Not hustle. Not grinding. Architecture that holds without you white-knuckling it."
+- Annotation: Readable project artifact at `src/content/nodes/12.md`. Content signal: title: "Authenticate" subHeader: "\"By their fruits you shall know them.\" — Matthew 7:16" intention: "Authentication is proof of concept — your life as evidence. This is where system transformation meets external structure. Where the sovereignty you've built internally starts generating systems that work in the material world. Not hustle. Not grinding. Architecture that holds without you white-knuckling it."
 
 #### SS-MAN-20260605-0744 - Unlock
 
 - Path: `src/content/nodes/13.md`
-- Tags: `area:src`, `governance:plan`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `governance:plan`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 10183 bytes; Modified UTC: `2026-06-05T16:58:52.513705+00:00`
 - SHA-256: `61dce011ee5807cbfc9b0d3812397e9ce226d51528d2ce437e316527739b5658`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/13.md`. Content signal: subHeader: "\"I have told you these things, so that in me you may have peace. In this world you will have trouble. But take heart! I have overcome the world.\" — John 16:33" intention: "This is not the end of the spiral. It's the moment you realize the spiral is yours. Every layer you've built — physical, emotional, identity, financial — converges here. Not into perfection. Into freedom. The freedom to live as the au
+- Annotation: Readable project artifact at `src/content/nodes/13.md`. Content signal: subHeader: "\"I have told you these things, so that in me you may have peace. In this world you will have trouble. But take heart! I have overcome the world.\" — John 16:33" intention: "This is not the end of the spiral. It's the moment you realize the spiral is yours. Every layer you've built — foundation, emotional, structure, vision — converges here. Not into perfection. Into freedom. The freedom to live as the au
 
 #### SS-MAN-20260605-0745 - Awareness
 
 - Path: `src/content/nodes/2.md`
-- Tags: `area:src`, `client:admin`, `pillar:identity`, `pillar:physical`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:src`, `client:admin`, `pillar:structure`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 7602 bytes; Modified UTC: `2026-06-05T16:58:52.513779+00:00`
 - SHA-256: `adf3ad0c5c3ad9974f6adcde73e98d58878cedc8320b13c2a3e52473c2f430e0`
 - Ingest: `utf8-preview`
@@ -7152,16 +7152,16 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0746 - Regulation
 
 - Path: `src/content/nodes/3.md`
-- Tags: `area:src`, `client:admin`, `governance:issue`, `pillar:inner`, `pillar:water`, `type:md`
+- Tags: `area:src`, `client:admin`, `governance:issue`, `pillar:system`, `pillar:gateway`, `type:md`
 - Type: `.md`; Size: 9298 bytes; Modified UTC: `2026-06-05T16:58:52.513883+00:00`
 - SHA-256: `369e81a816fb4b4b8bceb77d60e5c606eb0afe3d2584fc110eb007ba9ea5d0b9`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/3.md`. Content signal: subHeader: "A return to safety, power, and inner knowing." intention: "This layer is not about being calm — it's about coming home. Your nervous system is the sacred interface between your body and soul. When it's stuck in survival, you can't hear the divine, feel aligned, or receive truth. This is the portal. This is the reset." - title: "Blood Sugar First"
+- Annotation: Readable project artifact at `src/content/nodes/3.md`. Content signal: subHeader: "A return to safety, power, and system knowing." intention: "This layer is not about being calm — it's about coming home. Your nervous system is the sacred interface between your body and soul. When it's stuck in survival, you can't hear the divine, feel aligned, or receive truth. This is the portal. This is the reset." - title: "Blood Sugar First"
 
 #### SS-MAN-20260605-0747 - Elevate
 
 - Path: `src/content/nodes/4.md`
-- Tags: `area:src`, `pillar:water`, `topic:hydration`, `type:md`
+- Tags: `area:src`, `pillar:gateway`, `topic:gateway`, `type:md`
 - Type: `.md`; Size: 8909 bytes; Modified UTC: `2026-06-05T16:58:52.513978+00:00`
 - SHA-256: `36a1e0fb3487a645dfb81b7551ae8bbe18c0493aa5ea4a2926f8b173bc11cb94`
 - Ingest: `utf8-preview`
@@ -7170,16 +7170,16 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0748 - Root Healing
 
 - Path: `src/content/nodes/5.md`
-- Tags: `area:src`, `client:admin`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `client:admin`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9163 bytes; Modified UTC: `2026-06-05T16:58:52.514064+00:00`
 - SHA-256: `6929b18c232d229f341c8dab589d5c11727ed49e258cff1a95d86d9ba7b57868`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/nodes/5.md`. Content signal: title: "Root Healing" subHeader: "\"He sendeth His word, and healeth them.\" — Psalm 107:20" intention: "Everything you put into your body either heals you or harms you. This isn't about perfection — it's about awareness. Water is the foundation. What you absorb determines what you become. Start at the root, and the whole system shifts."
+- Annotation: Readable project artifact at `src/content/nodes/5.md`. Content signal: title: "Root Healing" subHeader: "\"He sendeth His word, and healeth them.\" — Psalm 107:20" intention: "Everything you put into your body either heals you or harms you. This isn't about perfection — it's about awareness. Gateway is the foundation. What you absorb determines what you become. Start at the root, and the whole system shifts."
 
 #### SS-MAN-20260605-0749 - Responsibility (with Love)
 
 - Path: `src/content/nodes/6.md`
-- Tags: `area:src`, `client:admin`, `pillar:identity`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `client:admin`, `pillar:structure`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 7635 bytes; Modified UTC: `2026-06-05T16:58:52.514127+00:00`
 - SHA-256: `329751c612c6e744b7e66ec86480678bdab598c3931de5bd5277923762c7dd5f`
 - Ingest: `utf8-preview`
@@ -7188,7 +7188,7 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0750 - Unbecoming
 
 - Path: `src/content/nodes/7.md`
-- Tags: `area:src`, `governance:audit`, `governance:decision`, `pillar:identity`, `pillar:physical`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `governance:audit`, `governance:decision`, `pillar:structure`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9135 bytes; Modified UTC: `2026-06-05T16:58:52.514226+00:00`
 - SHA-256: `cbf7a462748813fb66a97ab5331ae32c6a8fcb8eb1efa015e4636ad19d545233`
 - Ingest: `utf8-preview`
@@ -7197,7 +7197,7 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0751 - Alignment
 
 - Path: `src/content/nodes/8.md`
-- Tags: `area:src`, `governance:audit`, `governance:decision`, `governance:plan`, `pillar:inner`, `topic:spiral`, `type:md`
+- Tags: `area:src`, `governance:audit`, `governance:decision`, `governance:plan`, `pillar:system`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 9252 bytes; Modified UTC: `2026-06-05T16:58:52.514314+00:00`
 - SHA-256: `7a02dc636ec03901f4df15fb90b5f28c07cbfc0eeb80f02321b5fb0463d08863`
 - Ingest: `utf8-preview`
@@ -7206,47 +7206,47 @@ Thread ID: `TH-SRC-CONTENT`
 #### SS-MAN-20260605-0752 - The Becoming
 
 - Path: `src/content/nodes/9.md`
-- Tags: `area:src`, `governance:sop`, `governance:spec`, `pillar:identity`, `type:md`
+- Tags: `area:src`, `governance:sop`, `governance:spec`, `pillar:structure`, `type:md`
 - Type: `.md`; Size: 9013 bytes; Modified UTC: `2026-06-05T16:58:52.514403+00:00`
 - SHA-256: `4a6689e0a43255ef36930d909287bca609fd4dd352e82b91f2d0bcd27a3aa157`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `src/content/nodes/9.md`. Content signal: title: "The Becoming" subHeader: "\"Before I formed you in the womb I knew you.\" — Jeremiah 1:5" intention: "You've shed what wasn't yours. You've come into alignment. Now you step into who you actually are — not the version built by conditioning, not the version approved by others, but the one that was there before anyone told you who to be. The Becoming is not invention. It is arrival."
 
-#### SS-MAN-20260605-0753 - Financial Sovereignty
+#### SS-MAN-20260605-0753 - Vision Sovereignty
 
-- Path: `src/content/pillars/financial.md`
-- Tags: `area:src`, `governance:audit`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:md`
+- Path: `src/content/pillars/vision.md`
+- Tags: `area:src`, `governance:audit`, `governance:decision`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4889 bytes; Modified UTC: `2026-06-05T16:58:52.514503+00:00`
 - SHA-256: `ca12d346ddcc6242aac54691efb899a2a1378b39a0267d7dd0e78f454426f1f0`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/pillars/financial.md`. Content signal: title: "Financial Sovereignty" tagline: "Control your income and systems. Build stability that doesn't depend on hustle." ## The Hustle Delusion
+- Annotation: Readable project artifact at `src/content/pillars/vision.md`. Content signal: title: "Vision Sovereignty" tagline: "Control your income and systems. Build stability that doesn't depend on hustle." ## The Hustle Delusion
 
-#### SS-MAN-20260605-0754 - Identity Sovereignty
+#### SS-MAN-20260605-0754 - Structure Sovereignty
 
-- Path: `src/content/pillars/identity.md`
-- Tags: `area:src`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:md`
+- Path: `src/content/pillars/structure.md`
+- Tags: `area:src`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4969 bytes; Modified UTC: `2026-06-05T16:58:52.514575+00:00`
 - SHA-256: `415e8954738103ae91c69c190feeff7c12c1dc7bc37bba594bc0d767308d82db`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/pillars/identity.md`. Content signal: title: "Identity Sovereignty" tagline: "Control your self-expression. Become the architect of who you are, beyond performance." ## The Performance Trap
+- Annotation: Readable project artifact at `src/content/pillars/structure.md`. Content signal: title: "Structure Sovereignty" tagline: "Control your self-expression. Become the architect of who you are, beyond performance." ## The Performance Trap
 
-#### SS-MAN-20260605-0755 - Inner Sovereignty
+#### SS-MAN-20260605-0755 - System Sovereignty
 
-- Path: `src/content/pillars/inner.md`
-- Tags: `area:src`, `governance:decision`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:md`
+- Path: `src/content/pillars/system.md`
+- Tags: `area:src`, `governance:decision`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 4588 bytes; Modified UTC: `2026-06-05T16:58:52.514644+00:00`
 - SHA-256: `364976fae46daef7061ec9771493adcc71aea0a224482baa5092ddf7e186b471`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/pillars/inner.md`. Content signal: title: "Inner Sovereignty" tagline: "Control your internal state. Build from emotional authority, not reaction." Most people treat inner work like a mindset problem — positive affirmations, visualization boards, forcing yourself to believe something different. But you cannot think your way out of a nervous system that doesn't feel safe <sup>B-79</sup>.
+- Annotation: Readable project artifact at `src/content/pillars/system.md`. Content signal: title: "System Sovereignty" tagline: "Control your internal state. Build from emotional authority, not reaction." Most people treat system work like a mindset problem — positive affirmations, visualization boards, forcing yourself to believe something different. But you cannot think your way out of a nervous system that doesn't feel safe <sup>B-79</sup>.
 
-#### SS-MAN-20260605-0756 - Physical Sovereignty
+#### SS-MAN-20260605-0756 - Foundation Sovereignty
 
-- Path: `src/content/pillars/physical.md`
-- Tags: `area:src`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:hydration`, `topic:spiral`, `type:md`
+- Path: `src/content/pillars/foundation.md`
+- Tags: `area:src`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `topic:spiral`, `type:md`
 - Type: `.md`; Size: 2953 bytes; Modified UTC: `2026-06-05T16:58:52.514694+00:00`
 - SHA-256: `7278e7a60a43f44ace3b20eeab4343d4af2890f00044139ecaf1b6406df915e2`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/content/pillars/physical.md`. Content signal: title: "Physical Sovereignty" tagline: "Control your inputs. Stabilize your body. Everything builds from here." Most people try to fix their mindset while their body is still in survival mode.
+- Annotation: Readable project artifact at `src/content/pillars/foundation.md`. Content signal: title: "Foundation Sovereignty" tagline: "Control your inputs. Stabilize your body. Everything builds from here." Most people try to fix their mindset while their body is still in survival mode.
 
 
 ### Source: content.config.ts
@@ -7270,7 +7270,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0757 - Aesthetics Vocabulary
 
 - Path: `src/data/aesthetics-vocabulary.ts`
-- Tags: `area:src`, `client:admin`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `client:admin`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 9160 bytes; Modified UTC: `2026-06-05T16:58:52.514821+00:00`
 - SHA-256: `7b6c22295f57749014ac5ab7f159223f5f4237f7a2b981816e2b33669be38fa5`
 - Ingest: `utf8-preview`
@@ -7279,7 +7279,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0758 - Citations
 
 - Path: `src/data/citations.ts`
-- Tags: `area:src`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 92327 bytes; Modified UTC: `2026-06-05T20:21:49.166052+00:00`
 - SHA-256: `ce5ce9aade93910787ce0cb44e4b750c27f92dac0c9c66284c6bf54b103c6ba7`
 - Ingest: `utf8-preview`
@@ -7288,7 +7288,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0759 - string;
 
 - Path: `src/data/cycle.config.ts`
-- Tags: `area:src`, `governance:plan`, `pillar:water`, `type:ts`
+- Tags: `area:src`, `governance:plan`, `pillar:gateway`, `type:ts`
 - Type: `.ts`; Size: 2637 bytes; Modified UTC: `2026-06-05T20:30:14.111787+00:00`
 - SHA-256: `0ebba65d5eb908c862fe456fecf66078d6ca182b8ea90a8a3e71f350b76de8ed`
 - Ingest: `utf8-preview`
@@ -7297,7 +7297,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0760 - string;
 
 - Path: `src/data/decisions.ts`
-- Tags: `area:src`, `client:admin`, `governance:decision`, `governance:issue`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `client:admin`, `governance:decision`, `governance:issue`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 38181 bytes; Modified UTC: `2026-06-05T20:21:38.988249+00:00`
 - SHA-256: `2be9d0d029722878dbb537b2014301fdae0af23a10554649bda906ea2e5f8fc8`
 - Ingest: `utf8-preview`
@@ -7306,7 +7306,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0761 - string;
 
 - Path: `src/data/hub.config.ts`
-- Tags: `area:src`, `client:admin`, `pillar:financial`, `pillar:identity`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `client:admin`, `pillar:vision`, `pillar:structure`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 15377 bytes; Modified UTC: `2026-06-05T16:58:52.515350+00:00`
 - SHA-256: `5a040123aad02d47285570a68f204b78464c6cbc8270eed1848d4a9caaac7d8d`
 - Ingest: `utf8-preview`
@@ -7314,17 +7314,17 @@ Thread ID: `TH-SRC-DATA`
 
 #### SS-MAN-20260605-0762 - string;
 
-- Path: `src/data/hydration.config.ts`
-- Tags: `area:src`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:water`, `topic:hydration`, `type:ts`
+- Path: `src/data/gateway.config.ts`
+- Tags: `area:src`, `client:admin`, `governance:decision`, `governance:spec`, `pillar:gateway`, `topic:gateway`, `type:ts`
 - Type: `.ts`; Size: 11592 bytes; Modified UTC: `2026-06-05T20:31:46.938042+00:00`
 - SHA-256: `2d606a60cb0274fb067e18eadafc4b6c34d60d3bdae40c635d17f40024f7cfdb`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/data/hydration.config.ts`. Content signal: * Hydration Node — Data Model * Defines the type system for the 6-step hydration funnel. * Phase A uses demo data; Phase B connects to EWG API.
+- Annotation: Readable project artifact at `src/data/gateway.config.ts`. Content signal: * Gateway Node — Data Model * Defines the type system for the 6-step gateway funnel. * Phase A uses demo data; Phase B connects to EWG API.
 
 #### SS-MAN-20260605-0763 - Icon Worlds
 
 - Path: `src/data/icon-worlds.ts`
-- Tags: `area:src`, `governance:spec`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `governance:spec`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 9606 bytes; Modified UTC: `2026-06-05T20:18:04.802343+00:00`
 - SHA-256: `386333587f050a240ad6f98519a43d978dc463cb1dec05076373c190ab7f095a`
 - Ingest: `utf8-preview`
@@ -7333,7 +7333,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0764 - Lens Geometry
 
 - Path: `src/data/lens-geometry.ts`
-- Tags: `area:src`, `governance:spec`, `pillar:inner`, `type:ts`
+- Tags: `area:src`, `governance:spec`, `pillar:system`, `type:ts`
 - Type: `.ts`; Size: 6260 bytes; Modified UTC: `2026-06-05T20:20:52.398799+00:00`
 - SHA-256: `daeda458d440b42cc245d89f6e0352e9ce33ece40c7c72a82dcd438df23fec59`
 - Ingest: `utf8-preview`
@@ -7342,7 +7342,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0765 - Library Manifest
 
 - Path: `src/data/library-manifest.json`
-- Tags: `area:src`, `client:admin`, `governance:audit`, `governance:decision`, `governance:session`, `topic:atoms`, `topic:hydration`, `topic:spiral`, `type:json`
+- Tags: `area:src`, `client:admin`, `governance:audit`, `governance:decision`, `governance:session`, `topic:atoms`, `topic:gateway`, `topic:spiral`, `type:json`
 - Type: `.json`; Size: 27240 bytes; Modified UTC: `2026-06-05T20:34:13.477726+00:00`
 - SHA-256: `676a7b2de6e220ee4dcfc3ad1aa266c7b5c90277b5c27a8ddc474b2448d94265`
 - Ingest: `utf8-preview`
@@ -7351,16 +7351,16 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0766 - Life Motion Laws
 
 - Path: `src/data/life-motion-laws.ts`
-- Tags: `area:src`, `governance:session`, `pillar:identity`, `pillar:physical`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `governance:session`, `pillar:structure`, `pillar:foundation`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 9143 bytes; Modified UTC: `2026-06-05T17:12:25.757749+00:00`
 - SHA-256: `ac287615f643cbc1b4d1ce65f4454cde10ba66d955dbc06604d650173d1f5dd0`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/data/life-motion-laws.ts`. Content signal: * LifeMotionLaw — first-class generative law layer. * Sits between identity and renderer: * EnvVar (immutable metaphysical identity, `hub.config.ts`)
+- Annotation: Readable project artifact at `src/data/life-motion-laws.ts`. Content signal: * LifeMotionLaw — first-class generative law layer. * Sits between structure and renderer: * EnvVar (immutable metaphysical structure, `hub.config.ts`)
 
 #### SS-MAN-20260605-0767 - string;
 
 - Path: `src/data/naming-chains.ts`
-- Tags: `area:src`, `client:admin`, `pillar:identity`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `client:admin`, `pillar:structure`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 31969 bytes; Modified UTC: `2026-06-05T20:20:36.934605+00:00`
 - SHA-256: `629b3cde081d8112321ff959ca6d4a3b3c022ed086c19c16889d5c9626936ced`
 - Ingest: `utf8-preview`
@@ -7369,7 +7369,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0768 - Node Visuals
 
 - Path: `src/data/node-visuals.ts`
-- Tags: `area:src`, `pillar:water`, `type:ts`
+- Tags: `area:src`, `pillar:gateway`, `type:ts`
 - Type: `.ts`; Size: 12190 bytes; Modified UTC: `2026-06-05T16:58:52.516116+00:00`
 - SHA-256: `f653f844931e381584014aa7e9766e59f288ccb78a4c0bb9fe31a767c0f16f7b`
 - Ingest: `utf8-preview`
@@ -7378,7 +7378,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0769 - Quiz.Config
 
 - Path: `src/data/quiz.config.ts`
-- Tags: `area:src`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:hydration`, `type:ts`
+- Tags: `area:src`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:gateway`, `type:ts`
 - Type: `.ts`; Size: 6043 bytes; Modified UTC: `2026-06-05T20:22:10.940170+00:00`
 - SHA-256: `581394bd999053e38e5e58ac2959504c6a7a68d0dc4121d162e68b3e5bd94ecc`
 - Ingest: `utf8-preview`
@@ -7387,7 +7387,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0770 - Sacred Geometry Primitives
 
 - Path: `src/data/sacred-geometry-primitives.ts`
-- Tags: `area:src`, `client:admin`, `pillar:inner`, `pillar:water`, `type:ts`
+- Tags: `area:src`, `client:admin`, `pillar:system`, `pillar:gateway`, `type:ts`
 - Type: `.ts`; Size: 7115 bytes; Modified UTC: `2026-06-05T16:58:52.516254+00:00`
 - SHA-256: `26a6ba95c75c619f7e1ece7d9c0714cd864c9b49e7c320f0387ce77d13f20f15`
 - Ingest: `utf8-preview`
@@ -7396,7 +7396,7 @@ Thread ID: `TH-SRC-DATA`
 #### SS-MAN-20260605-0771 - Site.Config
 
 - Path: `src/data/site.config.ts`
-- Tags: `area:src`, `pillar:financial`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `pillar:vision`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 1081 bytes; Modified UTC: `2026-06-05T16:58:52.516400+00:00`
 - SHA-256: `088f7ab4a4225469ab4be8a6cde4bf046973acd30dd8b0a93c24fa99e6ba391d`
 - Ingest: `utf8-preview`
@@ -7411,14 +7411,14 @@ Thread ID: `TH-SRC-DATA`
 - Ingest: `utf8-preview`
 - Annotation: Readable project artifact at `src/data/spiral-versions.ts`. Content signal: * Spiral version manifest — chronological record of every deployed visual * aesthetic of the Sovereign Systems Spiral site. * Source of truth: HANDOFF.md and docs/timelines/2026-05-01-spiral-evolution-timeline.md
 
-#### SS-MAN-20260605-0773 - Water Effects
+#### SS-MAN-20260605-0773 - Gateway Effects
 
-- Path: `src/data/water-effects.ts`
-- Tags: `area:src`, `pillar:water`, `topic:hydration`, `type:ts`
+- Path: `src/data/gateway-effects.ts`
+- Tags: `area:src`, `pillar:gateway`, `topic:gateway`, `type:ts`
 - Type: `.ts`; Size: 1602 bytes; Modified UTC: `2026-06-05T20:18:59.907401+00:00`
 - SHA-256: `f13f644f803d693d3872ce639603bc4b7c80039f6b0416ba558375cfaa5ff32c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/data/water-effects.ts`. Content signal: * water-effects.ts — contaminant → health-effect tag mapping for the * Water funnel's EWG report proxy (`src/pages/api/water-report.ts`). * Externalized per M2 (no hardcoded dynamic data — contaminant thresholds
+- Annotation: Readable project artifact at `src/data/gateway-effects.ts`. Content signal: * gateway-effects.ts — contaminant → health-effect tag mapping for the * Gateway funnel's EWG report proxy (`src/pages/api/gateway-report.ts`). * Externalized per M2 (no hardcoded dynamic data — contaminant thresholds
 
 
 ### Source: layouts
@@ -7428,7 +7428,7 @@ Thread ID: `TH-SRC-LAYOUTS`
 #### SS-MAN-20260605-0774 - string;
 
 - Path: `src/layouts/Base.astro`
-- Tags: `area:src`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 31604 bytes; Modified UTC: `2026-06-05T20:33:37.331015+00:00`
 - SHA-256: `d968fa5089037d77c13cca170c1c877d1608925e9b0d2d263d9eddb5a8fae6d4`
 - Ingest: `utf8-preview`
@@ -7442,7 +7442,7 @@ Thread ID: `TH-SRC-LIB`
 #### SS-MAN-20260605-0775 - Analytics
 
 - Path: `src/lib/analytics.ts`
-- Tags: `area:src`, `pillar:water`, `topic:spiral`, `type:ts`
+- Tags: `area:src`, `pillar:gateway`, `topic:spiral`, `type:ts`
 - Type: `.ts`; Size: 2920 bytes; Modified UTC: `2026-06-05T16:58:52.516782+00:00`
 - SHA-256: `82df9a98987f634a5041f916cf844d4358ee48be9eb1dba0f0428252c19e1bac`
 - Ingest: `utf8-preview`
@@ -7478,7 +7478,7 @@ Thread ID: `TH-SRC-LIB`
 #### SS-MAN-20260605-0779 - Personas
 
 - Path: `src/lib/landing-engine/personas.ts`
-- Tags: `area:src`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:water`, `type:ts`
+- Tags: `area:src`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:gateway`, `type:ts`
 - Type: `.ts`; Size: 4160 bytes; Modified UTC: `2026-06-05T20:22:29.717406+00:00`
 - SHA-256: `21c0184d3bd5ea3ccccf3fe7948ff87c9fe583346bf8ff29bce557fe87f16ddf`
 - Ingest: `utf8-preview`
@@ -7487,7 +7487,7 @@ Thread ID: `TH-SRC-LIB`
 #### SS-MAN-20260605-0780 - Sections
 
 - Path: `src/lib/landing-engine/sections.ts`
-- Tags: `area:src`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `type:ts`
+- Tags: `area:src`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `type:ts`
 - Type: `.ts`; Size: 3676 bytes; Modified UTC: `2026-06-05T16:58:52.517086+00:00`
 - SHA-256: `05faeff560873d05fd88e3b6b30501310014263bfffd7e53798270e4c023a05c`
 - Ingest: `utf8-preview`
@@ -7501,7 +7501,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0781 - 404
 
 - Path: `src/pages/404.astro`
-- Tags: `area:src`, `pillar:water`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `pillar:gateway`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 938 bytes; Modified UTC: `2026-06-05T16:58:52.517146+00:00`
 - SHA-256: `d859d3774a463b4366674586a0090d5b37456b43d613cfa0400455598a8ec45a`
 - Ingest: `utf8-preview`
@@ -7510,7 +7510,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0782 - Aesthetics
 
 - Path: `src/pages/aesthetics.astro`
-- Tags: `area:src`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `client:admin`, `governance:sop`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 34248 bytes; Modified UTC: `2026-06-05T16:58:52.517224+00:00`
 - SHA-256: `cd76c09c51ab62ba808b51d9dea9932d1b57ffecbc25082859fce63a81bc0c78`
 - Ingest: `utf8-preview`
@@ -7519,25 +7519,25 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0783 - Research Content
 
 - Path: `src/pages/api/research-content.ts`
-- Tags: `area:src`, `pillar:water`, `topic:citations`, `type:ts`
+- Tags: `area:src`, `pillar:gateway`, `topic:citations`, `type:ts`
 - Type: `.ts`; Size: 1638 bytes; Modified UTC: `2026-06-05T20:16:37.377378+00:00`
 - SHA-256: `b2424ea18318bac7b9e6606c50f9ff6329ef811f7142a528db2be4abe2ce6250`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/pages/api/research-content.ts`. Content signal: * /api/research-content — gated payload for the /research bibliography. * Astro-native APIRoute (same SSR-worker pattern as src/pages/capture.ts * and src/pages/api/water-report.ts). The /research page ships only a
+- Annotation: Readable project artifact at `src/pages/api/research-content.ts`. Content signal: * /api/research-content — gated payload for the /research bibliography. * Astro-native APIRoute (same SSR-worker pattern as src/pages/capture.ts * and src/pages/api/gateway-report.ts). The /research page ships only a
 
 #### SS-MAN-20260605-0784 - string;
 
-- Path: `src/pages/api/water-report.ts`
-- Tags: `area:src`, `pillar:water`, `topic:hydration`, `type:ts`
+- Path: `src/pages/api/gateway-report.ts`
+- Tags: `area:src`, `pillar:gateway`, `topic:gateway`, `type:ts`
 - Type: `.ts`; Size: 10408 bytes; Modified UTC: `2026-06-05T20:19:27.625401+00:00`
 - SHA-256: `56ba79a216fd761bab0644cca048d81c0c6cbf622a9683cdcfab2d8ef7bb58ee`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/pages/api/water-report.ts`. Content signal: * /api/water-report — EWG tap-water proxy for the Water funnel. * Astro-native APIRoute (replaces the prior Cloudflare Pages Function at * functions/api/water-report.ts, which was unreachable in production: the
+- Annotation: Readable project artifact at `src/pages/api/gateway-report.ts`. Content signal: * /api/gateway-report — EWG tap-gateway proxy for the Gateway funnel. * Astro-native APIRoute (replaces the prior Cloudflare Pages Function at * functions/api/gateway-report.ts, which was unreachable in production: the
 
 #### SS-MAN-20260605-0785 - Index
 
 - Path: `src/pages/business/index.astro`
-- Tags: `area:src`, `governance:sop`, `pillar:financial`, `topic:citations`, `type:astro`
+- Tags: `area:src`, `governance:sop`, `pillar:vision`, `topic:citations`, `type:astro`
 - Type: `.astro`; Size: 5816 bytes; Modified UTC: `2026-06-05T16:58:52.517553+00:00`
 - SHA-256: `eb07952fab9b71b1c93371386645a81c103be5bd66a085dcdf4b150f557767b3`
 - Ingest: `utf8-preview`
@@ -7546,7 +7546,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0786 - Capture
 
 - Path: `src/pages/capture.ts`
-- Tags: `area:src`, `client:admin`, `governance:decision`, `pillar:inner`, `type:ts`
+- Tags: `area:src`, `client:admin`, `governance:decision`, `pillar:system`, `type:ts`
 - Type: `.ts`; Size: 10602 bytes; Modified UTC: `2026-06-05T20:16:34.280615+00:00`
 - SHA-256: `d02f62c163e428724416675b768684575498f0e12dfb50c76732bc8d236e2d5d`
 - Ingest: `utf8-preview`
@@ -7573,7 +7573,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0789 - config.name,
 
 - Path: `src/pages/index.astro`
-- Tags: `area:src`, `pillar:physical`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `pillar:foundation`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 6423 bytes; Modified UTC: `2026-06-05T20:31:14.682506+00:00`
 - SHA-256: `44cdb26c72e86c182c4eae97dd2a0b255267ec7b23c8836e5de6202a0c3480cd`
 - Ingest: `utf8-preview`
@@ -7591,7 +7591,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0791 - [Envvar]
 
 - Path: `src/pages/lineage/[envvar].astro`
-- Tags: `area:src`, `governance:spec`, `pillar:physical`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `governance:spec`, `pillar:foundation`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 6948 bytes; Modified UTC: `2026-06-05T16:58:52.518229+00:00`
 - SHA-256: `3d5c0f7228eed7a618a64956cc44283d63500c421c0178fdf7759134f3055a9b`
 - Ingest: `utf8-preview`
@@ -7600,7 +7600,7 @@ Thread ID: `TH-SRC-PAGES`
 #### SS-MAN-20260605-0792 - [Id]
 
 - Path: `src/pages/nodes/[id].astro`
-- Tags: `area:src`, `pillar:water`, `topic:spiral`, `type:astro`
+- Tags: `area:src`, `pillar:gateway`, `topic:spiral`, `type:astro`
 - Type: `.astro`; Size: 69241 bytes; Modified UTC: `2026-06-05T20:33:51.031831+00:00`
 - SHA-256: `ae3c184ab720dd9fb9d844e686bad983e0c6e05a9318bb5ae20f1904d92967d0`
 - Ingest: `utf8-preview`
@@ -7653,30 +7653,30 @@ Thread ID: `TH-SRC-PAGES`
 
 #### SS-MAN-20260605-0798 - [Slug]
 
-- Path: `src/pages/water/[slug].astro`
-- Tags: `area:src`, `pillar:water`, `topic:citations`, `type:astro`
+- Path: `src/pages/gateway/[slug].astro`
+- Tags: `area:src`, `pillar:gateway`, `topic:citations`, `type:astro`
 - Type: `.astro`; Size: 3399 bytes; Modified UTC: `2026-06-05T16:58:52.519234+00:00`
 - SHA-256: `6930626a0ff0cf792309945289e8c05e2dc332b0dc8424f45c9ae9bcd0f8cb9c`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/pages/water/[slug].astro`. Content signal: import { getCollection, render } from 'astro:content'; import Base from '../../layouts/Base.astro'; import CTAButton from '../../components/CTAButton.astro';
+- Annotation: Readable project artifact at `src/pages/gateway/[slug].astro`. Content signal: import { getCollection, render } from 'astro:content'; import Base from '../../layouts/Base.astro'; import CTAButton from '../../components/CTAButton.astro';
 
 #### SS-MAN-20260605-0799 - Index
 
-- Path: `src/pages/water/index.astro`
-- Tags: `area:src`, `pillar:physical`, `pillar:water`, `topic:hydration`, `type:astro`
+- Path: `src/pages/gateway/index.astro`
+- Tags: `area:src`, `pillar:foundation`, `pillar:gateway`, `topic:gateway`, `type:astro`
 - Type: `.astro`; Size: 6500 bytes; Modified UTC: `2026-06-05T16:58:52.519367+00:00`
 - SHA-256: `521fbcaf353843bae28f1dd8f11bb9edf4f6ee1dd2cf66a2d9c428df24832994`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/pages/water/index.astro`. Content signal: import Base from '../../layouts/Base.astro'; import Hero from '../../components/Hero.astro'; import CTAButton from '../../components/CTAButton.astro';
+- Annotation: Readable project artifact at `src/pages/gateway/index.astro`. Content signal: import Base from '../../layouts/Base.astro'; import Hero from '../../components/Hero.astro'; import CTAButton from '../../components/CTAButton.astro';
 
 #### SS-MAN-20260605-0800 - Quiz
 
-- Path: `src/pages/water/quiz.astro`
-- Tags: `area:src`, `pillar:physical`, `pillar:water`, `type:astro`
+- Path: `src/pages/gateway/quiz.astro`
+- Tags: `area:src`, `pillar:foundation`, `pillar:gateway`, `type:astro`
 - Type: `.astro`; Size: 560 bytes; Modified UTC: `2026-06-05T16:58:52.519409+00:00`
 - SHA-256: `2a493f095d27817d0af931825ba2e9ea1605246151d9c07b2185400a59b20f28`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `src/pages/water/quiz.astro`. Content signal: import Base from '../../layouts/Base.astro'; import Hero from '../../components/Hero.astro'; import QuizEmbed from '../../components/QuizEmbed.astro';
+- Annotation: Readable project artifact at `src/pages/gateway/quiz.astro`. Content signal: import Base from '../../layouts/Base.astro'; import Hero from '../../components/Hero.astro'; import QuizEmbed from '../../components/QuizEmbed.astro';
 
 
 ### Source: styles
@@ -7700,11 +7700,11 @@ Thread ID: `TH-PUBLIC-CITATIONS-JSON`
 #### SS-MAN-20260605-0679 - Citations
 
 - Path: `public/citations.json`
-- Tags: `area:public`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:citations`, `topic:hydration`, `topic:spiral`, `type:json`
+- Tags: `area:public`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:citations`, `topic:gateway`, `topic:spiral`, `type:json`
 - Type: `.json`; Size: 84297 bytes; Modified UTC: `2026-06-05T20:34:12.765181+00:00`
 - SHA-256: `08da08a5c08fcf6cef91cee24bd6112bd184f1ebb6081fe2a019a237b7910009`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `public/citations.json`. Content signal: [{"id":"S-01","source":"Genesis 1:2 (Hebrew Bible). \"The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.\" Trans.: NASB.","detail":"Water as the primordial medium from which all creation emerges — present before light, before land, before life.","context":"Grounds the site's premise that water is not a commodity but the foun
+- Annotation: Readable project artifact at `public/citations.json`. Content signal: [{"id":"S-01","source":"Genesis 1:2 (Hebrew Bible). \"The earth was formless and void, and darkness was over the surface of the deep, and the Spirit of God was moving over the surface of the waters.\" Trans.: NASB.","detail":"Gateway as the primordial medium from which all creation emerges — present before light, before land, before life.","context":"Grounds the site's premise that gateway is not a commodity but the foun
 
 
 ### public: favicon.svg
@@ -7770,7 +7770,7 @@ Thread ID: `TH-SCRIPTS-ATOMIZE-MINDSET-PY`
 #### SS-MAN-20260605-0684 - !/usr/bin/env python3
 
 - Path: `scripts/atomize-mindset.py`
-- Tags: `area:scripts`, `corpus:extracted`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:py`
+- Tags: `area:scripts`, `corpus:extracted`, `pillar:vision`, `pillar:structure`, `pillar:system`, `topic:atoms`, `topic:citations`, `topic:spiral`, `type:py`
 - Type: `.py`; Size: 24055 bytes; Modified UTC: `2026-06-05T16:58:52.507814+00:00`
 - SHA-256: `928baccb5ae425264001e30ed0e433955833de1032e25901410f681a9732a3fd`
 - Ingest: `utf8-preview`
@@ -7812,7 +7812,7 @@ Thread ID: `TH-SCRIPTS-BUILD-CONTENT-UNITS-PY`
 #### SS-MAN-20260605-0687 - !/usr/bin/env python3
 
 - Path: `scripts/build-content-units.py`
-- Tags: `area:scripts`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:py`
+- Tags: `area:scripts`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:py`
 - Type: `.py`; Size: 11094 bytes; Modified UTC: `2026-06-05T16:58:52.508172+00:00`
 - SHA-256: `b9bffe289f207d49336d2e018b033b3e8a71540744d3e460f5836a7fb9bbcb2d`
 - Ingest: `utf8-preview`
@@ -7826,7 +7826,7 @@ Thread ID: `TH-SCRIPTS-BUILD-INTENT-REGISTER-PY`
 #### SS-MAN-20260605-0688 - !/usr/bin/env python3
 
 - Path: `scripts/build-intent-register.py`
-- Tags: `area:scripts`, `client:admin`, `governance:decision`, `governance:plan`, `governance:sop`, `pillar:financial`, `pillar:inner`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:py`
+- Tags: `area:scripts`, `client:admin`, `governance:decision`, `governance:plan`, `governance:sop`, `pillar:vision`, `pillar:system`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:py`
 - Type: `.py`; Size: 8303 bytes; Modified UTC: `2026-06-05T16:58:52.508280+00:00`
 - SHA-256: `daa93d3ce6d325651e69b00cc71b96f1a23ded343a2248cb288843f5d493aec8`
 - Ingest: `utf8-preview`
@@ -7882,7 +7882,7 @@ Thread ID: `TH-SCRIPTS-ENRICH-BRANCHES-PY`
 #### SS-MAN-20260605-0692 - !/usr/bin/env python3
 
 - Path: `scripts/enrich-branches.py`
-- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:financial`, `pillar:water`, `topic:atoms`, `topic:citations`, `topic:hydration`, `type:py`
+- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:plan`, `pillar:vision`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `topic:gateway`, `type:py`
 - Type: `.py`; Size: 10632 bytes; Modified UTC: `2026-06-05T16:58:52.508566+00:00`
 - SHA-256: `a2bdb470779260a58ce5086c22c1538028f65611547117ab656ccf379508b4f5`
 - Ingest: `utf8-preview`
@@ -7896,11 +7896,11 @@ Thread ID: `TH-SCRIPTS-EXCAVATE-ATOMS-PY`
 #### SS-MAN-20260605-0693 - !/usr/bin/env python3
 
 - Path: `scripts/excavate-atoms.py`
-- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:financial`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:citations`, `type:py`
+- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:decision`, `governance:plan`, `pillar:vision`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:citations`, `type:py`
 - Type: `.py`; Size: 18251 bytes; Modified UTC: `2026-06-05T16:58:52.508638+00:00`
 - SHA-256: `6a9e3598ddb4d3edeec0c4bc472025d0d02a9de9f0451c3e44eff6c24640e50a`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `scripts/excavate-atoms.py`. Content signal: #!/usr/bin/env python3 Atomic content excavator for business/ and water/ extracted archives. Decomposes files into atoms marked with HTML comment fences.
+- Annotation: Readable project artifact at `scripts/excavate-atoms.py`. Content signal: #!/usr/bin/env python3 Atomic content excavator for business/ and gateway/ extracted archives. Decomposes files into atoms marked with HTML comment fences.
 
 
 ### scripts: excavate-health-atoms.py
@@ -7910,7 +7910,7 @@ Thread ID: `TH-SCRIPTS-EXCAVATE-HEALTH-ATOMS-PY`
 #### SS-MAN-20260605-0694 - !/usr/bin/env python3
 
 - Path: `scripts/excavate-health-atoms.py`
-- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:physical`, `pillar:water`, `topic:atoms`, `topic:hydration`, `type:py`
+- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `governance:plan`, `governance:spec`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `topic:gateway`, `type:py`
 - Type: `.py`; Size: 22939 bytes; Modified UTC: `2026-06-05T16:58:52.508717+00:00`
 - SHA-256: `f36fa02ea7267cbe516c1361a3474c7ba6f46ce6753d98b5cb73b84b97ac8428`
 - Ingest: `utf8-preview`
@@ -7924,11 +7924,11 @@ Thread ID: `TH-SCRIPTS-EXTRACT-BRANCH-HTML-MJS`
 #### SS-MAN-20260605-0695 - !/usr/bin/env node
 
 - Path: `scripts/extract-branch-html.mjs`
-- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `pillar:water`, `topic:citations`, `topic:spiral`, `type:mjs`
+- Tags: `area:scripts`, `client:admin`, `corpus:extracted`, `pillar:gateway`, `topic:citations`, `topic:spiral`, `type:mjs`
 - Type: `.mjs`; Size: 4910 bytes; Modified UTC: `2026-06-05T20:17:59.966295+00:00`
 - SHA-256: `78a00445b28e00e5438f7424aa7670e923e66b76260b06a505044b64885e5492`
 - Ingest: `utf8-preview`
-- Annotation: Readable project artifact at `scripts/extract-branch-html.mjs`. Content signal: * Extract per-branch HTML from the built site for admin's GHL paste workflow. * Reads dist/water/{slug}/index.html (Astro production output) for each branch, * pulls the <main>...</main> region, inlines the body styles, and writes one
+- Annotation: Readable project artifact at `scripts/extract-branch-html.mjs`. Content signal: * Extract per-branch HTML from the built site for admin's GHL paste workflow. * Reads dist/gateway/{slug}/index.html (Astro production output) for each branch, * pulls the <main>...</main> region, inlines the body styles, and writes one
 
 
 ### scripts: extract-social-content.py
@@ -7952,7 +7952,7 @@ Thread ID: `TH-SCRIPTS-GENERATE-CANON-EXPANSION-PY`
 #### SS-MAN-20260605-0697 - New Sources Data
 
 - Path: `scripts/generate-canon-expansion.py`
-- Tags: `area:scripts`, `governance:audit`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `type:py`
+- Tags: `area:scripts`, `governance:audit`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `type:py`
 - Type: `.py`; Size: 26773 bytes; Modified UTC: `2026-06-05T16:58:52.508959+00:00`
 - SHA-256: `f3d7a829a3cffe2c2daf25097b296b8b015ef1651a5885c120e7b3542631ead8`
 - Ingest: `utf8-preview`
@@ -7980,7 +7980,7 @@ Thread ID: `TH-SCRIPTS-GENERATE-COVERAGE-STRIKES-PY`
 #### SS-MAN-20260605-0699 - !/usr/bin/env python3
 
 - Path: `scripts/generate-coverage-strikes.py`
-- Tags: `area:scripts`, `governance:plan`, `governance:spec`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `topic:atoms`, `type:py`
+- Tags: `area:scripts`, `governance:plan`, `governance:spec`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `topic:atoms`, `type:py`
 - Type: `.py`; Size: 44105 bytes; Modified UTC: `2026-06-05T16:58:52.509395+00:00`
 - SHA-256: `f91becb165bb9af70a99cff3a6e3d304c241070a8a682d926a343de0efdc2b67`
 - Ingest: `utf8-preview`
@@ -8036,7 +8036,7 @@ Thread ID: `TH-SCRIPTS-LINK-ATOMS-TO-ISSUES-PY`
 #### SS-MAN-20260605-0703 - !/usr/bin/env python3
 
 - Path: `scripts/link-atoms-to-issues.py`
-- Tags: `area:scripts`, `governance:issue`, `pillar:financial`, `pillar:identity`, `pillar:inner`, `pillar:physical`, `pillar:water`, `topic:atoms`, `type:py`
+- Tags: `area:scripts`, `governance:issue`, `pillar:vision`, `pillar:structure`, `pillar:system`, `pillar:foundation`, `pillar:gateway`, `topic:atoms`, `type:py`
 - Type: `.py`; Size: 6920 bytes; Modified UTC: `2026-06-05T16:58:52.509702+00:00`
 - SHA-256: `c24a2b4de1e7a25b20958a9cb42f7a5128de39fa33659575fbf958f8ad4fe6ee`
 - Ingest: `utf8-preview`
@@ -8134,7 +8134,7 @@ Thread ID: `TH-SCRIPTS-VACUUM-GATE-MJS`
 #### SS-MAN-20260605-0710 - !/usr/bin/env node
 
 - Path: `scripts/vacuum-gate.mjs`
-- Tags: `area:scripts`, `client:admin`, `governance:issue`, `topic:hydration`, `type:mjs`
+- Tags: `area:scripts`, `client:admin`, `governance:issue`, `topic:gateway`, `type:mjs`
 - Type: `.mjs`; Size: 6696 bytes; Modified UTC: `2026-06-05T20:17:06.301827+00:00`
 - SHA-256: `f03f571865f7b8f1a780d32ed817f5fbf3018b50bd8a2cd6ee712f8562bbf6b1`
 - Ingest: `utf8-preview`

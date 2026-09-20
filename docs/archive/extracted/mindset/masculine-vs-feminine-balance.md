@@ -16,7 +16,7 @@ source_file: "ChatGPT-Masculine vs Feminine Balance.txt"
 source_folder: "mindset"
 nodes: [5, 1, 13]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Okays I just stopped working, which would be like 10+ hours of m
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -105,7 +105,7 @@ context_above: "Yes—working for 10+ hours is definitely deep in your masculine
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -129,7 +129,7 @@ context_above: "Yes please! Or maybe a way to help me check in and see what’s 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -188,7 +188,7 @@ context_above: "Ooh yes. You’re already so attuned—this isn’t about findin
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -212,7 +212,7 @@ context_above: "Ah yes please that would be so great, maybe one for my wall and 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -245,7 +245,7 @@ context_above: "Here you go! Let me know if you’d like a second version with a
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -269,7 +269,7 @@ context_above: "Thank you so much!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [5, 1, 13]
-pillar: Inner
+pillar: System
 build_state: N/A
 editorial: CLEAN
 tier: CONTEXT

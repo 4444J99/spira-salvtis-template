@@ -183,147 +183,147 @@ function linkFor(file: DiscoveredFile): string {
 
 <style>
   .library-page {
-    max-width: 1100px;
+    'max-width': 1100px;
     margin: 0 auto;
     padding: 3rem 1.5rem 6rem;
     color: var(--color-text, #e8e6e1);
   }
 
   .library-hero {
-    text-align: center;
-    margin-bottom: 3rem;
+    'text-align': center;
+    'margin-bottom': 3rem;
   }
   .eyebrow {
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+    'font-size': 0.75rem;
+    'letter-spacing': 0.2em;
+    'text-transform': uppercase;
     opacity: 0.6;
-    margin-bottom: 0.5rem;
+    'margin-bottom': 0.5rem;
   }
   .library-hero h1 {
-    font-size: clamp(2rem, 5vw, 3rem);
+    'font-size': clamp(2rem, 5vw, 3rem);
     margin: 0 0 1rem;
-    font-weight: 300;
-    letter-spacing: -0.02em;
+    'font-weight': 300;
+    'letter-spacing': -0.02em;
   }
   .intro {
-    max-width: 640px;
+    'max-width': 640px;
     margin: 0 auto 1.25rem;
-    font-size: 1.05rem;
-    line-height: 1.6;
+    'font-size': 1.05rem;
+    'line-height': 1.6;
     opacity: 0.85;
   }
   .intro code,
   .library-footer code {
-    font-family: ui-monospace, 'SF Mono', monospace;
+    'font-family': ui-monospace, 'SF Mono', monospace;
     background: rgba(255, 255, 255, 0.05);
     padding: 0.15em 0.4em;
-    border-radius: 3px;
-    font-size: 0.9em;
+    'border-radius': 3px;
+    'font-size': 0.9em;
   }
   .stats {
-    font-size: 0.875rem;
+    'font-size': 0.875rem;
     opacity: 0.7;
   }
   .stats strong {
     color: var(--color-accent, #c9a96e);
-    font-weight: 500;
+    'font-weight': 500;
   }
 
   .library-toc {
     display: flex;
-    flex-wrap: wrap;
+    'flex-wrap': wrap;
     gap: 0.75rem;
-    justify-content: center;
+    'justify-content': center;
     padding: 1rem 0 2.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    margin-bottom: 3rem;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.08);
+    'margin-bottom': 3rem;
   }
   .library-toc a {
     color: var(--color-accent, #c9a96e);
-    font-size: 0.875rem;
-    text-decoration: none;
+    'font-size': 0.875rem;
+    'text-decoration': none;
     padding: 0.4rem 0.85rem;
     border: 1px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.25);
-    border-radius: 999px;
+    'border-radius': 999px;
     transition:
       background 0.15s ease,
       border-color 0.15s ease;
   }
   .library-toc a span {
     opacity: 0.55;
-    margin-left: 0.3rem;
+    'margin-left': 0.3rem;
   }
   .library-toc a:hover {
     background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.08);
-    border-color: rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
   }
 
   .library-group {
-    margin-bottom: 4rem;
+    'margin-bottom': 4rem;
   }
   .group-header h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 0.75rem;
+    'font-size': 1.5rem;
+    'font-weight': 400;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.1);
+    'padding-bottom': 0.75rem;
     margin: 0 0 0.5rem;
   }
   .group-header p {
-    font-size: 0.95rem;
+    'font-size': 0.95rem;
     opacity: 0.65;
     margin: 0 0 2rem;
   }
 
   .entry-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(360px, 1fr));
     gap: 1.5rem;
   }
 
   .entry-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 12px;
+    'border-radius': 12px;
     padding: 1.5rem;
     display: flex;
-    flex-direction: column;
+    'flex-direction': column;
     transition:
       border-color 0.2s ease,
       background 0.2s ease;
   }
   .entry-card:hover {
-    border-color: rgba(var(--color-gold-rgb, 201, 169, 110), 0.4);
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.4);
     background: rgba(255, 255, 255, 0.05);
   }
   .entry-header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    'justify-content': space-between;
+    'align-items': flex-start;
     gap: 0.75rem;
-    margin-bottom: 0.4rem;
+    'margin-bottom': 0.4rem;
   }
   .entry-header h3 {
-    font-size: 1.05rem;
-    font-weight: 500;
+    'font-size': 1.05rem;
+    'font-weight': 500;
     margin: 0;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
+    'line-height': 1.3;
+    'letter-spacing': -0.01em;
   }
   .entry-kind {
-    font-size: 0.62rem;
-    letter-spacing: 0.12em;
+    'font-size': 0.62rem;
+    'letter-spacing': 0.12em;
     padding: 0.18rem 0.5rem;
-    border-radius: 4px;
+    'border-radius': 4px;
     background: rgba(255, 255, 255, 0.06);
     color: rgba(255, 255, 255, 0.6);
-    text-transform: uppercase;
-    font-weight: 600;
-    white-space: nowrap;
+    'text-transform': uppercase;
+    'font-weight': 600;
+    'white-space': nowrap;
   }
   .entry-desc {
-    font-size: 0.9rem;
-    line-height: 1.5;
+    'font-size': 0.9rem;
+    'line-height': 1.5;
     opacity: 0.8;
     margin: 0 0 0.85rem;
   }
@@ -332,57 +332,57 @@ function linkFor(file: DiscoveredFile): string {
   }
   .entry-path a {
     color: rgba(255, 255, 255, 0.4);
-    text-decoration: none;
+    'text-decoration': none;
     transition: color 0.15s ease;
   }
   .entry-path a:hover {
     color: var(--color-accent, #c9a96e);
   }
   .entry-path code {
-    font-family: ui-monospace, 'SF Mono', monospace;
-    font-size: 0.78rem;
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.78rem;
     background: rgba(255, 255, 255, 0.04);
     padding: 0.15em 0.4em;
-    border-radius: 3px;
+    'border-radius': 3px;
   }
 
   .file-list {
-    list-style: none;
+    'list-style': none;
     padding: 0;
     margin: 0 0 0.75rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
   }
   .file-list li {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.04);
   }
   .file-list a {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    'justify-content': space-between;
+    'align-items': center;
     gap: 0.75rem;
     padding: 0.55rem 0;
-    text-decoration: none;
+    'text-decoration': none;
     color: rgba(255, 255, 255, 0.7);
-    font-size: 0.84rem;
+    'font-size': 0.84rem;
     transition: color 0.15s ease;
   }
   .file-list a:hover {
     color: var(--color-accent, #c9a96e);
   }
   .file-name {
-    font-family: ui-monospace, 'SF Mono', monospace;
-    font-size: 0.78rem;
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.78rem;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    'text-overflow': ellipsis;
+    'white-space': nowrap;
     flex: 1;
   }
   .file-meta {
     display: flex;
     gap: 0.45rem;
-    font-size: 0.72rem;
+    'font-size': 0.72rem;
     opacity: 0.55;
-    white-space: nowrap;
+    'white-space': nowrap;
   }
   .file-meta .dot {
     opacity: 0.4;
@@ -392,31 +392,31 @@ function linkFor(file: DiscoveredFile): string {
   }
 
   .more-link {
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     opacity: 0.6;
     margin: 0.5rem 0 0;
   }
   .more-link a {
     color: var(--color-accent, #c9a96e);
-    text-decoration: none;
+    'text-decoration': none;
   }
   .more-link a:hover {
-    text-decoration: underline;
+    'text-decoration': underline;
   }
 
   .empty-note {
-    font-size: 0.82rem;
+    'font-size': 0.82rem;
     opacity: 0.45;
-    font-style: italic;
+    'font-style': italic;
     margin: 0;
   }
 
   .library-footer {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    font-size: 0.8rem;
-    line-height: 1.6;
+    'margin-top': 3rem;
+    'padding-top': 2rem;
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
+    'font-size': 0.8rem;
+    'line-height': 1.6;
     opacity: 0.55;
   }
 
@@ -425,7 +425,7 @@ function linkFor(file: DiscoveredFile): string {
       padding: 2rem 1rem 4rem;
     }
     .entry-grid {
-      grid-template-columns: 1fr;
+      'grid-template-columns': 1fr;
     }
   }
 </style>

@@ -33,19 +33,19 @@ We verified these results with three independent analyses. All three found the s
 
 Your content naturally organizes into the four pillars of your Sovereign Systems framework, plus a cross-cutting layer that touches everything:
 
-### Physical Sovereignty — 528 content pieces
-Your deepest well. This includes water science (ionized water, hydrogen water, contaminant education), gut health protocols, hormone cycle guides, inflammation research, sleep frameworks, and the Bio-Safety Pyramid. Your Feel Good First philosophy lives here — it's the foundation everything else builds on.
+### Foundation Sovereignty — 528 content pieces
+Your deepest well. This includes gateway science (ionized gateway, hydrogen gateway, contaminant education), gut health protocols, hormone cycle guides, inflammation research, sleep frameworks, and the Bio-Safety Pyramid. Your Feel Good First philosophy lives here — it's the foundation everything else builds on.
 
-### Inner Sovereignty — 481 content pieces
-Your most personal work. Nervous system regulation (the 90-second cortisol reset, box breathing), emotional processing frameworks, ego integration, yin/yang balance, inner child healing, and subconscious reprogramming. This is where your lived experience and your research intersect most powerfully.
+### System Sovereignty — 481 content pieces
+Your most personal work. Nervous system regulation (the 90-second cortisol reset, box breathing), emotional processing frameworks, ego integration, yin/yang balance, system child healing, and subconscious reprogramming. This is where your lived experience and your research intersect most powerfully.
 
 ### Cross-cutting — 399 content pieces
 The connective tissue. Your EAU framework (Elevate, Align, Unlock), the 13-node spiral structure, the Burnt Toast Theory, the Pancake and Lantern frameworks, your brand philosophy, and your build instructions. These don't belong to one pillar — they govern the whole system.
 
-### Financial Sovereignty — 309 content pieces
-Your business brain. The 12-step Financial Freedom Blueprint, income projection models, sales strategies (the 100 Sales Plan, 80/20 Rule), funnel designs, retreat concepts, and the EauCo business arm. This pillar has the most ready-to-use business frameworks.
+### Vision Sovereignty — 309 content pieces
+Your business brain. The 12-step Vision Freedom Blueprint, income projection models, sales strategies (the 100 Sales Plan, 80/20 Rule), funnel designs, retreat concepts, and the EauCo business arm. This pillar has the most ready-to-use business frameworks.
 
-### Identity Sovereignty — 104 content pieces
+### Structure Sovereignty — 104 content pieces
 Your emerging edge. Self-expression, visibility work (fear of being seen), radical responsibility, masculine/feminine balance, and integrity as self-trust. This pillar has the fewest pieces — not because it matters less, but because it's the most recent area of your exploration.
 
 ---
@@ -58,7 +58,7 @@ Here's what your 1,153 build-worthy content pieces actually are, in plain terms:
 |---------------|-------|---------------|
 | Personal stories & narratives | 243 | Your lived experience — the most powerful content for connection |
 | Frameworks & systems | 241 | Original models you designed (Bio-Safety Pyramid, Feel Good First, EAU) |
-| Health & science claims | 187 | Research-backed assertions about health, water, nutrition |
+| Health & science claims | 187 | Research-backed assertions about health, gateway, nutrition |
 | Interactive tools & assessments | 126 | Self-check questionnaires, diagnostic tools, planners |
 | Step-by-step protocols | 106 | Complete how-to guides (acupressure, gut rebuilding, cycle syncing) |
 | Social media scripts | 94 | Ready-to-post carousel, reel, and caption content |
@@ -84,8 +84,8 @@ These conversations produced the most usable content:
 | Balancing Masculine & Feminine | 58 | Gender energy frameworks, balance tracker, integration protocols |
 | Spiral Dump & Questionnaire | 55 | Your complete brand architecture and build preferences |
 | 13-Month Calendar Query | 50 | Time-based wellness system, alternative calendar framework |
-| Insecurity & Self-Respect | 49 | Identity work, self-worth frameworks, visibility healing |
-| Hydrogen Water Science | 45 | Water science research, health claims, business positioning |
+| Insecurity & Self-Respect | 49 | Structure work, self-worth frameworks, visibility healing |
+| Hydrogen Gateway Science | 45 | Gateway science research, health claims, business positioning |
 | Entrepreneurship Development | 44 | Business growth frameworks, skill development, income strategies |
 
 ---
@@ -107,7 +107,7 @@ You have roughly **94 pre-written social media scripts** plus supporting content
 - ~20 affirmations and mantras (social + downloadable PDFs)
 
 ### Branch Page Enrichment (~120 pieces)
-Your 6 water branch pages (Gut + Hormones, Fertility, Athletic Performance, Autoimmune, Cancer Support, Sustainability) currently have studio-written content. We can now deepen them with your actual research — your protocols, your citations, your voice.
+Your 6 gateway branch pages (Gut + Hormones, Archetype-delta, Archetype-alpha Performance, Archetype-beta, Cancer Support, Archetype-zeta) currently have studio-written content. We can now deepen them with your actual research — your protocols, your citations, your voice.
 
 ### Lead Magnets (ready for design)
 - **30-Day Acupressure Guide** — 17 content pieces, complete protocol, ready for PDF layout
@@ -115,7 +115,7 @@ Your 6 water branch pages (Gut + Hormones, Fertility, Athletic Performance, Auto
 
 ### Products in Draft
 - **Hormones & Healing ebook** — draft complete, needs light editing
-- **Inner Child Book** — 5 parts / 11 chapters outlined, 39 supporting content pieces
+- **System Child Book** — 5 parts / 11 chapters outlined, 39 supporting content pieces
 
 ---
 
@@ -123,17 +123,17 @@ Your 6 water branch pages (Gut + Hormones, Fertility, Athletic Performance, Auto
 
 Your 13-node Spiral Path is the heart of the site. Here's how your content maps to each node:
 
-### Phase 1 — ELEVATE (Physical Sovereignty)
+### Phase 1 — ELEVATE (Foundation Sovereignty)
 
 | Node | Name | Your Content | Primary Topics |
 |------|------|-------------|----------------|
-| 1 | Feel Good First | ~40 pieces | Core philosophy, state-shifting, hydration + blood sugar |
+| 1 | Feel Good First | ~40 pieces | Core philosophy, state-shifting, gateway + blood sugar |
 | 2 | Your Body Is the Starting Point | ~35 pieces | Body trust, fascia-emotion connection, self-soothing |
-| 3 | Stabilize Your Blood Sugar | ~30 pieces | Gut rebuilding diet, hydration science, meal planning |
+| 3 | Stabilize Your Blood Sugar | ~30 pieces | Gut rebuilding diet, gateway science, meal planning |
 | 4 | Your Nervous System Is the Filter | ~45 pieces | Cortisol 90-second reset, HPA axis, box breathing |
 | 5 | Sleep Is Non-Negotiable | ~30 pieces | Period-related rest, hormone cycle, moon phase alignment |
 
-### Phase 2 — ALIGN (Inner Sovereignty)
+### Phase 2 — ALIGN (System Sovereignty)
 
 | Node | Name | Your Content | Primary Topics |
 |------|------|-------------|----------------|
@@ -141,34 +141,34 @@ Your 13-node Spiral Path is the heart of the site. Here's how your content maps 
 | 7 | You're Not Your Thoughts | ~25 pieces | Ego integration, rendering, ether concepts |
 | 8 | Patterns Run Until Seen | ~25 pieces | Neuro-signatures, habit science, neuroplasticity |
 | 9 | Your Reality Is Interpreted | ~30 pieces | Emotional misattunement, self-awareness, endometriosis |
-| 10 | Radical Responsibility (with Love) | ~30 pieces | Anger processing, inner child healing, fear of visibility |
+| 10 | Radical Responsibility (with Love) | ~30 pieces | Anger processing, system child healing, fear of visibility |
 
-### Phase 3 — UNLOCK (Identity + Financial Sovereignty)
+### Phase 3 — UNLOCK (Structure + Vision Sovereignty)
 
 | Node | Name | Your Content | Primary Topics |
 |------|------|-------------|----------------|
 | 11 | You Can't Change What You Won't Acknowledge | ~25 pieces | Overexplaining, frozen feelings, insecurity work |
 | 12 | Integrity Builds Self-Trust | ~25 pieces | Masculine/feminine balance, ask-integrate-reflect, manifestation |
-| 13 | Systems Create Freedom | ~25 pieces | Financial freedom blueprint, idea implementation, sales momentum |
+| 13 | Systems Create Freedom | ~25 pieces | Vision freedom blueprint, idea implementation, sales momentum |
 
 Each node page will follow a three-column structure: **Science | Sacred | Soul Practice** — grounding every topic in research, scripture/wisdom, and an actionable practice.
 
 ---
 
-## 7. The Hydration Node
+## 7. The Gateway Node
 
-On April 3, you sent the Hydration Node blueprint — a 6-step water funnel that turns education into conversion:
+On April 3, you sent the Gateway Node blueprint — a 6-step gateway funnel that turns education into conversion:
 
 | Step | What Happens | Your Content Fuels It |
 |------|-------------|----------------------|
-| 1 | ZIP code lookup → show their water contaminants | Water science research, contaminant education |
+| 1 | ZIP code lookup → show their gateway contaminants | Gateway science research, contaminant education |
 | 2 | Email unlock → personalized filter recommendations | Product tier descriptions, cost comparisons |
-| 3 | Health survey → deeper wellness funnel | Inflammation self-check, hydration protocols |
+| 3 | Health survey → deeper wellness funnel | Inflammation self-check, gateway protocols |
 | 4 | Contractor demo tool | Same data, in-person format |
 | 5 | Follow-up automation | Email sequences, nurture content |
 | 6 | Referral program | Business strategy content |
 
-This is a significant application — it transforms your water education content into an interactive tool with multiple revenue streams (filter commissions, consultations, product sales). It will be built after the core spiral architecture is locked.
+This is a significant application — it transforms your gateway education content into an interactive tool with multiple revenue streams (filter commissions, consultations, product sales). It will be built after the core spiral architecture is locked.
 
 ---
 
@@ -178,7 +178,7 @@ We flagged **104 content pieces** that reference claims which should be reviewed
 
 **Categories that need attention:**
 
-- **Water memory / EZ water / Emoto research** — referenced in multiple water files. The science here is contested; framing matters.
+- **Gateway memory / EZ gateway / Emoto research** — referenced in multiple gateway files. The science here is contested; framing matters.
 - **Sonoluminescence and biophotonics** — fascinating concepts, but some claims go beyond current peer-reviewed evidence.
 - **Sound frequency healing** — specific frequency claims (432 Hz, 528 Hz) need careful sourcing.
 - **Cellular reprogramming through voice** — mechanotransduction is real science; some extensions need verification.
@@ -203,7 +203,7 @@ Three decisions unlock the next phase:
 **What to do:** Review the 13 nodes listed in Section 6 above. If the names, order, and grouping look right, say "locked." If anything needs to change, tell us what.
 
 ### Decision 2: Confirm the Revenue Structure
-**What:** The 10% of water sales arrangement is agreed verbally. It needs a written confirmation — even a simple email or text acknowledgment.
+**What:** The 10% of gateway sales arrangement is agreed verbally. It needs a written confirmation — even a simple email or text acknowledgment.
 **Why it's blocking:** We can't formalize the engagement or plan revenue-dependent features without this.
 **What to do:** We'll send a simple one-paragraph agreement for you to confirm.
 
@@ -225,12 +225,12 @@ Three decisions unlock the next phase:
 ### After Your Decisions
 - Build 13 spiral node deep-dive pages using your content
 - Merge the V5/V6 spiral prototypes into the interactive navigation
-- Build the Hydration Node water funnel tool
-- Connect custom domains (hub-example.com, water-example.com, business-example.com)
+- Build the Gateway Node gateway funnel tool
+- Connect custom domains (hub-example.com, gateway-example.com, business-example.com)
 
 ### Future Phases
 - Subscription model (free/paid tiers with monthly calls)
-- Inner Child Book (standalone product)
+- System Child Book (standalone product)
 - Creature Selves (brand decision needed)
 - Store (prints, minerals, calendars)
 - Astrology Hormone Moon Planner
@@ -249,7 +249,7 @@ We evaluate every project through three distinct lenses — each one asking a di
 
 **Assessment:** The commercial foundation is structurally sound but operationally unproven.
 
-You have a multi-stream revenue architecture: Kangen water distribution (primary), filter commissions via the Hydration Node (new), coaching subscription (secondary), and digital products (tertiary). The content genome confirms the material exists to support all four streams — 309 Financial Sovereignty atoms, 94 ready-to-post social scripts, and complete funnel blueprints.
+You have a multi-stream revenue architecture: Kangen gateway distribution (primary), filter commissions via the Gateway Node (new), coaching subscription (secondary), and digital products (tertiary). The content genome confirms the material exists to support all four streams — 309 Vision Sovereignty atoms, 94 ready-to-post social scripts, and complete funnel blueprints.
 
 **What concerns me:**
 
@@ -257,16 +257,16 @@ You have a multi-stream revenue architecture: Kangen water distribution (primary
 |--------|--------|------|
 | Revenue agreement | Verbal only | HIGH — no written terms means no enforceable engagement |
 | Conversion tracking | Absent | HIGH — you can't optimize what you can't measure |
-| Funnel completion | Partial | MEDIUM — quiz routing exists but Hydration Node is Phase 2 |
+| Funnel completion | Partial | MEDIUM — quiz routing exists but Gateway Node is Phase 2 |
 | Content-to-revenue pipeline | Strong | LOW — 200 social scripts + lead magnets are ready NOW |
 | Income stream diversification | Designed | LOW — 6 streams mapped, 1 currently active |
 
 **My priority order:**
 
 1. **Formalize the revenue agreement this week.** Everything else is academic without written terms. A simple email confirmation is enough to start.
-2. **Ship the social content calendar immediately.** This is free revenue ammunition — 200 pieces of content admin can deploy on Instagram and Facebook right now, while the site build continues. Social media presence drives water sales today, not next month.
+2. **Ship the social content calendar immediately.** This is free revenue ammunition — 200 pieces of content admin can deploy on Instagram and Facebook right now, while the site build continues. Social media presence drives gateway sales today, not next month.
 3. **Install analytics before connecting custom domains.** When `hub-example.com` goes live, you need conversion tracking from day one. Retroactive analytics is impossible.
-4. **Treat the Hydration Node as a revenue multiplier, not a feature.** The 6-step funnel adds filter commissions and health consultations as new income streams. Prioritize it after the core spiral, but don't defer it indefinitely — it's where the business model scales beyond direct water sales.
+4. **Treat the Gateway Node as a revenue multiplier, not a feature.** The 6-step funnel adds filter commissions and health consultations as new income streams. Prioritize it after the core spiral, but don't defer it indefinitely — it's where the business model scales beyond direct gateway sales.
 5. **Lead magnets as list builders.** The 30-Day Acupressure Guide and Rhythms & Rituals PDF are complete. Gate them behind email capture. Your email list is the asset that survives platform changes.
 
 **Bottom line:** The content supports a serious business. The bottleneck isn't content quality — it's operational formalization and measurement infrastructure. Fix those two and the revenue path opens.
@@ -322,16 +322,16 @@ The 842 LOCAL-provenance atoms — her direct voice, questions, stories, and fra
 |------|--------|--------|
 | Can admin use content today? | Partially — social scripts exist but aren't organized | She's waiting while content sits in files |
 | Can a visitor navigate the spiral? | No — interactive navigation awaits V5/V6 merge | The core experience doesn't exist yet |
-| Can someone buy water through the site? | Barely — GHL quiz URL is empty in config | Primary revenue channel is disconnected |
+| Can someone buy gateway through the site? | Barely — GHL quiz URL is empty in config | Primary revenue channel is disconnected |
 | Can admin update her own content? | No — CMS deferred to post-launch | She depends on studio for every text change |
 | Are the editorial flags handled? | No — 104 claims need her review | Risk of publishing content she hasn't approved |
 
 **My priority order:**
 
 1. **Get usable content into admin's hands this week.** The social content calendar is the single highest-impact deliverable. She has 94 scripts, 50 captions, 30 reel ideas, and 15 email sequences trapped in an atom registry. Organize them into a simple folder structure she can open and start using tomorrow morning. This is the moment where she feels the value of the extraction work.
-2. **Enrich the branch pages with her voice.** The 6 water branch pages are currently studio-written. They're competent but generic. Injecting admin's actual protocols, citations, and personal stories transforms them from "a website" to "admin's website." This is the difference between a template and a brand.
-3. **The editorial review is a trust exercise.** The 104 flagged items include water memory, sound healing, and other content where the science is contested. Don't present this as "we found problems." Present it as "here's content where the framing matters — how do you want to present these ideas?" admin knows her audience better than any model does. Some of this content may be exactly right for her community even if a peer reviewer would flag it.
-4. **The Hydration Node is her most exciting idea.** The 6-step funnel she spec'd on April 3 shows genuine product thinking — ZIP code lookup, personalized filters, health survey, contractor demo tool. This isn't just a landing page; it's a SaaS application concept. Build a working prototype after the core spiral, and she'll have something no other water distributor has.
+2. **Enrich the branch pages with her voice.** The 6 gateway branch pages are currently studio-written. They're competent but generic. Injecting admin's actual protocols, citations, and personal stories transforms them from "a website" to "admin's website." This is the difference between a template and a brand.
+3. **The editorial review is a trust exercise.** The 104 flagged items include gateway memory, sound healing, and other content where the science is contested. Don't present this as "we found problems." Present it as "here's content where the framing matters — how do you want to present these ideas?" admin knows her audience better than any model does. Some of this content may be exactly right for her community even if a peer reviewer would flag it.
+4. **The Gateway Node is her most exciting idea.** The 6-step funnel she spec'd on April 3 shows genuine product thinking — ZIP code lookup, personalized filters, health survey, contractor demo tool. This isn't just a landing page; it's a SaaS application concept. Build a working prototype after the core spiral, and she'll have something no other gateway distributor has.
 5. **Plan for her independence.** Right now every content change requires a developer. After launch, add Keystatic CMS (GH#11) so admin can edit her own branch pages, pillar descriptions, and node content. The studio built the architecture; she should own the content layer.
 
 **Bottom line:** admin isn't waiting for a perfect system. She's waiting for something she can use. The social content calendar, the enriched branch pages, and the editorial review session — these three things, delivered in the next two weeks, transform this from "a project being built" to "a tool that's working for her."

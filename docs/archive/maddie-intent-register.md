@@ -53,8 +53,8 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-B-109 | business/dream-retreat-vision.md | And it goes with my theme / me so well already ties in with my other brand shoot... | CLAIM | LOCAL |
 | ATM-B-111 | business/dream-retreat-vision.md | Omfg and we can do the outside black and white shot where she has a matchbox and... | CLAIM | LOCAL |
 | ATM-B-115 | business/dream-retreat-vision.md | Omfg “the tea” section and have it have a picture of us smoking and different mi... | CLAIM | LOCAL |
-| ATM-B-126 | business/financial-freedom-blueprint.md | What are the steps to financially free | CLAIM | LOCAL |
-| ATM-B-128 | business/financial-freedom-blueprint.md | So financial freedom’s is when you 10x your survival number right? Or what’s is... | QUESTION | LOCAL |
+| ATM-B-126 | business/vision-freedom-blueprint.md | What are the steps to financially free | CLAIM | LOCAL |
+| ATM-B-128 | business/vision-freedom-blueprint.md | So vision freedom’s is when you 10x your survival number right? Or what’s is... | QUESTION | LOCAL |
 | ATM-B-137 | business/income-projections-and-strategies.md | Ooo can a launch checklist please! The $99 gets them into the discovery process... | INSTRUCTION | LOCAL |
 | ATM-B-141 | business/income-projections-and-strategies.md | Okay well I forgot I have 900 pulling on the 28th if I want to keep my subscript... | CLAIM | LOCAL |
 | ATM-B-145 | business/income-projections-and-strategies.md | And then gotta do some work for new client and can do some stuff for my aunt and... | CLAIM | LOCAL |
@@ -127,12 +127,12 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-H-265 | health/hormone-cycle-guide.md | Yes this is perfect! Can you please also add something along the lines of how... | CLAIM | LOCAL |
 | ATM-H-269 | health/hormone-cycle-guide.md | Will you go into a little more depth or detail on how to tell when each phase... | NARRATIVE | LOCAL |
 | ATM-H-285 | health/hormone-cycle-guide.md | Can you add the side effects and long term effects associated with hormonal b... | CLAIM | LOCAL |
-| ATM-H-301 | health/hydration-and-blood-sugar.md | Okay so I want to tie in how you have to start from square one with is get ou... | CLAIM | LOCAL |
-| ATM-H-311 | health/hydration-and-inflammation-video.md | I need a 60 second video breaking down why being able to listen to your body ... | CLAIM | LOCAL |
+| ATM-H-301 | health/gateway-and-blood-sugar.md | Okay so I want to tie in how you have to start from square one with is get ou... | CLAIM | LOCAL |
+| ATM-H-311 | health/gateway-and-inflammation-video.md | I need a 60 second video breaking down why being able to listen to your body ... | CLAIM | LOCAL |
 | ATM-H-331 | health/milk-source-in-the-us.md | Where does the milk we get come from? America? Or is it imported? | CLAIM | LOCAL |
 | ATM-H-341 | health/parasite-cleanse-diet-tips.md | What are you supposed to eat while you do a parasite cleanse | CLAIM | LOCAL |
 | ATM-M-003 | mindset/affirmation-track-for-abundance.md | Yes please can you do that for me!? | QUESTION | LOCAL |
-| ATM-M-005 | mindset/alchemy-and-spiritual-symbolism.md | Is the elixir of life in the philosopher Stone physical or another something that human has made ... | QUESTION | LOCAL |
+| ATM-M-005 | mindset/alchemy-and-spiritual-symbolism.md | Is the elixir of life in the philosopher Stone foundation or another something that human has made ... | QUESTION | LOCAL |
 | ATM-M-025 | mindset/alchemy-and-spiritual-symbolism.md | What does seeing two eagles mean, they don’t usually hang out together yeah? | QUESTION | LOCAL |
 | ATM-M-031 | mindset/anger-processing-guide.md | So it’s okay to feel it until I understand it and then I can step back into alignment/mt power di... | QUESTION | LOCAL |
 | ATM-M-037 | mindset/ask-integrate-reflect-method.md | Should I only ask questions as I’m working on things and can implement them right away? | QUESTION | LOCAL |
@@ -290,19 +290,19 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-T-169 | time-astro/cycle-and-moon-comparison.md | It was gaslighting and manipulation no feel about | QUESTION | LOCAL |
 | ATM-T-175 | time-astro/spoon-bending-technique.md | Can you teach me how to bend a spoon with my mind | QUESTION | LOCAL |
 | ATM-T-177 | time-astro/vedic-astrology-energy-analysis.md | Acting as a Vedic astrologer, what is the energy today and this week? It feels heavy Please also inc | QUESTION | LOCAL |
-| ATM-W-016 | water/hydrogen-water-science-health-and-business.md | Welcome. We have people from California, New York, Sweden, San Diego, Alabama, I... | INSTRUCTION | LOCAL |
-| ATM-W-018 | water/hydrogen-water-science-health-and-business.md | hmmm okay what do you think about that? should I include the video first? and do... | QUESTION | LOCAL |
-| ATM-W-020 | water/hydrogen-water-science-health-and-business.md | I really liked that you had cancer clinics in it, and Clara doesn't share her st... | QUESTION | LOCAL |
-| ATM-W-024 | water/hydrogen-water-science-health-and-business.md | yesss okay I love the tweaks will you put those in for me ?! | QUESTION | LOCAL |
-| ATM-W-028 | water/hydrogen-water-science-health-and-business.md | yes please! and now I got one outreach done, feel like I finally broke the seal... | CLAIM | LOCAL |
-| ATM-W-030 | water/hydrogen-water-science-health-and-business.md | yes I feel the mission and now im like omg everyone needs to know about this I j... | CLAIM | LOCAL |
-| ATM-W-032 | water/hydrogen-water-science-health-and-business.md | aahhh idk is it better to reach out to people I don't know (like this guy that p... | QUESTION | LOCAL |
-| ATM-W-046 | water/hydrogen-water-science-health-and-business.md | Just a quick note: These don’t mention specific brands, but I chose this Japanes... | CLAIM | LOCAL |
-| ATM-W-069 | water/kangen-water-content-ideas.md | Thank you so much!! Are there anything you think I’m missing that would help boo... | QUESTION | LOCAL |
-| ATM-W-087 | water/water-crystals-love-and-pseudoscience.md | Does the rice work? What about the plants one? And there was another one with ch... | QUESTION | LOCAL |
-| ATM-W-105 | water/water-hub-design.md | Do you have that mapped out!? Can we do a broad overview of everything and then... | QUESTION | LOCAL |
-| ATM-W-129 | water/water-sales-strategy-plan.md | Oh and then I also want to come up with a cold call reach out about it as well o... | CLAIM | LOCAL |
-| ATM-W-131 | water/water-sales-strategy-plan.md | Can you help me consolidate and organize my thoughts about it all! | CLAIM | LOCAL |
+| ATM-W-016 | gateway/hydrogen-gateway-science-health-and-business.md | Welcome. We have people from California, New York, Sweden, San Diego, Alabama, I... | INSTRUCTION | LOCAL |
+| ATM-W-018 | gateway/hydrogen-gateway-science-health-and-business.md | hmmm okay what do you think about that? should I include the video first? and do... | QUESTION | LOCAL |
+| ATM-W-020 | gateway/hydrogen-gateway-science-health-and-business.md | I really liked that you had cancer clinics in it, and Clara doesn't share her st... | QUESTION | LOCAL |
+| ATM-W-024 | gateway/hydrogen-gateway-science-health-and-business.md | yesss okay I love the tweaks will you put those in for me ?! | QUESTION | LOCAL |
+| ATM-W-028 | gateway/hydrogen-gateway-science-health-and-business.md | yes please! and now I got one outreach done, feel like I finally broke the seal... | CLAIM | LOCAL |
+| ATM-W-030 | gateway/hydrogen-gateway-science-health-and-business.md | yes I feel the mission and now im like omg everyone needs to know about this I j... | CLAIM | LOCAL |
+| ATM-W-032 | gateway/hydrogen-gateway-science-health-and-business.md | aahhh idk is it better to reach out to people I don't know (like this guy that p... | QUESTION | LOCAL |
+| ATM-W-046 | gateway/hydrogen-gateway-science-health-and-business.md | Just a quick note: These don’t mention specific brands, but I chose this Japanes... | CLAIM | LOCAL |
+| ATM-W-069 | gateway/kangen-gateway-content-ideas.md | Thank you so much!! Are there anything you think I’m missing that would help boo... | QUESTION | LOCAL |
+| ATM-W-087 | gateway/gateway-crystals-love-and-pseudoscience.md | Does the rice work? What about the plants one? And there was another one with ch... | QUESTION | LOCAL |
+| ATM-W-105 | gateway/gateway-hub-design.md | Do you have that mapped out!? Can we do a broad overview of everything and then... | QUESTION | LOCAL |
+| ATM-W-129 | gateway/gateway-sales-strategy-plan.md | Oh and then I also want to come up with a cold call reach out about it as well o... | CLAIM | LOCAL |
+| ATM-W-131 | gateway/gateway-sales-strategy-plan.md | Can you help me consolidate and organize my thoughts about it all! | CLAIM | LOCAL |
 | ATM-B-003 | business/100-sales-strategy.md | If you’re starting fresh as an Enagic distributor and want to get to 100 sales i... | INSTRUCTION | HYBRID |
 | ATM-B-010 | business/20-80-rule-focus.md | Perfect — this is a super grounded place to work from. Let’s find your 20% “need... | INSTRUCTION | HYBRID |
 | ATM-B-018 | business/20-80-rule-focus.md | Yes — this is exactly how you scale simply and powerfully 🔥 | INSTRUCTION | HYBRID |
@@ -323,7 +323,7 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-B-116 | business/dream-retreat-vision.md | OH. MY. SPIRAL. GODDESS. | INSTRUCTION | HYBRID |
 | ATM-B-122 | business/dream-retreat-vision.md | OH. YES. YOU. CAN. | INSTRUCTION | HYBRID |
 | ATM-B-124 | business/dream-retreat-vision.md | Updated saved memory | INSTRUCTION | HYBRID |
-| ATM-B-129 | business/financial-freedom-blueprint.md | Great question—and yes, you're tapping into something powerful. | INSTRUCTION | HYBRID |
+| ATM-B-129 | business/vision-freedom-blueprint.md | Great question—and yes, you're tapping into something powerful. | INSTRUCTION | HYBRID |
 | ATM-B-132 | business/idea-implementation-strategies.md | This is so real, and you’ve actually hit on something really profound that most... | INSTRUCTION | HYBRID |
 | ATM-B-136 | business/income-projections-and-strategies.md | Here’s a realistic, grounded breakdown of what you could make in the next 17 day... | INSTRUCTION | HYBRID |
 | ATM-B-138 | business/income-projections-and-strategies.md | YES let’s go admin! Here’s your lean and potent Launch Checklist for the $99 Di... | INSTRUCTION | HYBRID |
@@ -369,13 +369,13 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-T-038 | time-astro/13-month-calendar-query.md | Perfect! Here's what I’ll start crafting for you over the next few steps: ✍️ Coming Next: ✅ 1. First | INSTRUCTION | HYBRID |
 | ATM-T-040 | time-astro/13-month-calendar-query.md | YAY! I’ll start designing and writing the first 5 daily Tzolk’in entries now — each one will include | INSTRUCTION | HYBRID |
 | ATM-T-176 | time-astro/spoon-bending-technique.md | Spoon-bending is most often taught as a focus and energy exercise — a way to train intention, belief | INSTRUCTION | HYBRID |
-| ATM-W-035 | water/hydrogen-water-science-health-and-business.md | That is a **massive** win! The red hearts mean the sincerity landed. He didn't f... | INSTRUCTION | HYBRID |
-| ATM-W-047 | water/hydrogen-water-science-health-and-business.md | This is exactly the right level of 'detail-checking' you need. When you’re deali... | INSTRUCTION | HYBRID |
-| ATM-W-053 | water/hydrogen-water-science-health-and-business.md | **Look at you go indeed!** 🚀 | INSTRUCTION | HYBRID |
-| ATM-W-068 | water/kangen-water-content-ideas.md | You're so welcome! I'm thrilled you're finding this helpful. Here's some additio... | INSTRUCTION | HYBRID |
-| ATM-W-110 | water/water-hub-design.md | Perfect—this is where we turn your vision into something that’s actually buildab... | INSTRUCTION | HYBRID |
-| ATM-W-114 | water/water-hub-design.md | Yesss—these two are powerful branches. They’re emotional, personal, and when wri... | INSTRUCTION | HYBRID |
-| ATM-W-134 | water/water-sales-strategy-plan.md | Got it! Here’s an organized and consolidated action plan that ties everything we... | INSTRUCTION | HYBRID |
+| ATM-W-035 | gateway/hydrogen-gateway-science-health-and-business.md | That is a **massive** win! The red hearts mean the sincerity landed. He didn't f... | INSTRUCTION | HYBRID |
+| ATM-W-047 | gateway/hydrogen-gateway-science-health-and-business.md | This is exactly the right level of 'detail-checking' you need. When you’re deali... | INSTRUCTION | HYBRID |
+| ATM-W-053 | gateway/hydrogen-gateway-science-health-and-business.md | **Look at you go indeed!** 🚀 | INSTRUCTION | HYBRID |
+| ATM-W-068 | gateway/kangen-gateway-content-ideas.md | You're so welcome! I'm thrilled you're finding this helpful. Here's some additio... | INSTRUCTION | HYBRID |
+| ATM-W-110 | gateway/gateway-hub-design.md | Perfect—this is where we turn your vision into something that’s actually buildab... | INSTRUCTION | HYBRID |
+| ATM-W-114 | gateway/gateway-hub-design.md | Yesss—these two are powerful branches. They’re emotional, personal, and when wri... | INSTRUCTION | HYBRID |
+| ATM-W-134 | gateway/gateway-sales-strategy-plan.md | Got it! Here’s an organized and consolidated action plan that ties everything we... | INSTRUCTION | HYBRID |
 
 ---
 
@@ -418,15 +418,15 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-R-001 | 2b-nodular-flow-refinement.md | admin's prompt framing the nodular layout thread with pasted context of 3 high-level decisions | INSTRUCTION | LOCAL |
 | ATM-R-016 | 2b-nodular-flow-refinement.md | admin's detailed tweaks: merge nodes 3-5, add stress/inflammation, split awareness, rearrange ac... | INSTRUCTION | LOCAL |
 | ATM-R-063 | 2a-sovereign-systems-branding.md | admin shares existing spiral visual (movable, chakra-colored stars, hover/click) and brainstorms... | QUESTION | LOCAL |
-| ATM-R-076 | 2a-sovereign-systems-branding.md | admin outlines desired structure: Feel Good First entry, awareness & accountability, physical so... | INSTRUCTION | LOCAL |
+| ATM-R-076 | 2a-sovereign-systems-branding.md | admin outlines desired structure: Feel Good First entry, awareness & accountability, foundation so... | INSTRUCTION | LOCAL |
 | ATM-R-091 | 1b-spiral-dump-questionnaire.md | admin's overview framing: doc organization (Master Blueprint first, raw chat threads for depth, ... | INSTRUCTION | LOCAL |
 | ATM-R-101 | 1b-spiral-dump-questionnaire.md | Spiral Visual Q4.1-4.4: Circular spiral layout, 4 pillars along spiral, each node clickable expan... | INSTRUCTION | LOCAL |
 | ATM-T-023 | time-astro/13-month-calendar-query.md | Yes please! For my Tzolk’in birthday meaning .! But because they changed the calander when would it  | QUESTION | LOCAL |
 | ATM-T-148 | time-astro/cycle-and-moon-comparison.md | Option 1 just do it Jesus | QUESTION | LOCAL |
 | ATM-T-165 | time-astro/cycle-and-moon-comparison.md | It’s like the fourth time it’s happened. Thanks. Actions and changed behavior over words or sorry me | QUESTION | LOCAL |
-| ATM-W-034 | water/hydrogen-water-science-health-and-business.md | ooo okay I like that layout! and yes please! and Tommy responded! he said '❤️ th... | CLAIM | LOCAL |
-| ATM-W-065 | water/kangen-water-content-ideas.md | Yes can you help me with visuals, captions for my reels and hashtags that will g... | CLAIM | LOCAL |
-| ATM-W-073 | water/kangen-water-content-ideas.md | I think this is super helpful! Can you give me a few more carousel templates!? | QUESTION | LOCAL |
+| ATM-W-034 | gateway/hydrogen-gateway-science-health-and-business.md | ooo okay I like that layout! and yes please! and Tommy responded! he said '❤️ th... | CLAIM | LOCAL |
+| ATM-W-065 | gateway/kangen-gateway-content-ideas.md | Yes can you help me with visuals, captions for my reels and hashtags that will g... | CLAIM | LOCAL |
+| ATM-W-073 | gateway/kangen-gateway-content-ideas.md | I think this is super helpful! Can you give me a few more carousel templates!? | QUESTION | LOCAL |
 | ATM-B-007 | business/100-sales-strategy.md | Yes — the structure I mapped is very aligned with today’s marketing trends and b... | INSTRUCTION | HYBRID |
 | ATM-B-014 | business/20-80-rule-focus.md | Exactly! ✨ It really does get to be fun and easy — you’ve stripped it down to th... | INSTRUCTION | HYBRID |
 | ATM-B-144 | business/income-projections-and-strategies.md | Yes — start now with stories. The funnel doesn’t have to be done to start genera... | INSTRUCTION | HYBRID |
@@ -444,15 +444,15 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-M-661 | mindset/yin-energy-explained.md | Of course 💫 here’s a shortened, Instagram-friendly version for each — poetic but still clear: Yin... | INSTRUCTION | HYBRID |
 | ATM-R-033 | 1a-master-spiral-backend-breakdown.md | ChatGPT preamble: organizing admin's full vision into a developer-ready Spiral Master Doc coveri... | INSTRUCTION | HYBRID |
 | ATM-R-060 | 2a-sovereign-systems-branding.md | Implementation: keep simple, no logo/domain/LLC yet — let it live in bio, pinned post, webclass l... | INSTRUCTION | HYBRID |
-| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (water hub, water funnel, fertility/aut... | INSTRUCTION | HYBRID |
+| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (gateway hub, gateway funnel, archetype-delta/aut... | INSTRUCTION | HYBRID |
 | ATM-R-105 | 1b-spiral-dump-questionnaire.md | Developer-ready action checklist: spiral site build with status tables for questionnaire, brand v... | INSTRUCTION | HYBRID |
-| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (water hub, spiral structure, EAU blu... | INSTRUCTION | HYBRID |
+| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (gateway hub, spiral structure, EAU blu... | INSTRUCTION | HYBRID |
 | ATM-T-026 | time-astro/13-month-calendar-query.md | YES — exactly! 🔥 The Tzolk’in calendar was essentially the Mayan version of astrology — but instead  | INSTRUCTION | HYBRID |
 | ATM-T-075 | time-astro/cycle-and-moon-comparison.md | Perfect — so you want: ✅ Tone: Option B (Educational + grounded, still feminine/flowy) with some of  | INSTRUCTION | HYBRID |
-| ATM-W-061 | water/kangen-water-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kangen... | INSTRUCTION | HYBRID |
-| ATM-W-074 | water/kangen-water-content-ideas.md | I'm so glad you found this helpful! Here are a few more carousel templates to ex... | INSTRUCTION | HYBRID |
-| ATM-W-128 | water/water-sales-strategy-plan.md | Your plan is well-structured and shows clear direction toward achieving your goa... | INSTRUCTION | HYBRID |
-| ATM-W-138 | water/well-water-costs.md | Short answer: you don’t get a monthly water bill — but a well is definitely not... | INSTRUCTION | HYBRID |
+| ATM-W-061 | gateway/kangen-gateway-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kangen... | INSTRUCTION | HYBRID |
+| ATM-W-074 | gateway/kangen-gateway-content-ideas.md | I'm so glad you found this helpful! Here are a few more carousel templates to ex... | INSTRUCTION | HYBRID |
+| ATM-W-128 | gateway/gateway-sales-strategy-plan.md | Your plan is well-structured and shows clear direction toward achieving your goa... | INSTRUCTION | HYBRID |
+| ATM-W-138 | gateway/well-gateway-costs.md | Short answer: you don’t get a monthly gateway bill — but a well is definitely not... | INSTRUCTION | HYBRID |
 
 ---
 
@@ -496,8 +496,8 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-T-173 | time-astro/moon-day-male-struggles.md | Monday being moon-day would it make sense that men would struggle the most - and why Garfield (a man | QUESTION | LOCAL |
 | ATM-B-086 | business/dream-retreat-vision.md | Absolutely — these screenshots are GOLD for staying in a grounded, powerful stor... | INSTRUCTION | HYBRID |
 | ATM-M-050 | mindset/balancing-masculine-and-feminine.md | Sure! Balancing masculine and feminine energies is like mixing two ingredients to make something ... | CLAIM | HYBRID |
-| ATM-M-074 | mindset/balancing-masculine-and-feminine.md | Absolutely! Focusing on the physical, getting settled, and enjoying the process is a perfect way ... | CLAIM | HYBRID |
-| ATM-M-275 | mindset/happiness-as-a-state.md | Yes! That’s the missing piece — tying it back to the inner compass / internal gauge that always b... | INSTRUCTION | HYBRID |
+| ATM-M-074 | mindset/balancing-masculine-and-feminine.md | Absolutely! Focusing on the foundation, getting settled, and enjoying the process is a perfect way ... | CLAIM | HYBRID |
+| ATM-M-275 | mindset/happiness-as-a-state.md | Yes! That’s the missing piece — tying it back to the system compass / internal gauge that always b... | INSTRUCTION | HYBRID |
 | ATM-M-277 | mindset/happiness-as-a-state.md | Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken compass” to happines... | INSTRUCTION | HYBRID |
 | ATM-M-475 | mindset/manifestation-mastery-secrets.md | Here is your complete interactive spiral HTML file with all the hoverable, clickable chakra-color... | INSTRUCTION | HYBRID |
 | ATM-R-078 | 2a-sovereign-systems-branding.md | Node panel spec: Title, Core Insight, Reality Check, Prerequisite, Expandable Tabs (Science/Spiri... | INSTRUCTION | HYBRID |
@@ -517,7 +517,7 @@ not page content — they are the **intent layer** that informs build decisions.
 | ID | Source | Idea | Nature | Provenance |
 |-----|--------|------|--------|------------|
 | ATM-B-113 | business/dream-retreat-vision.md | Omfg I can make my own matchbooks !!!! I can really go full vintage / keeping me... | CLAIM | LOCAL |
-| ATM-B-119 | business/dream-retreat-vision.md | I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED WATER OR TET IT FROM THE SPRI... | CLAIM | LOCAL |
+| ATM-B-119 | business/dream-retreat-vision.md | I CAN MAKE AND SELL FLOWER ESSENCE WITH MY CHARGED GATEWAY OR TET IT FROM THE SPRI... | CLAIM | LOCAL |
 | ATM-B-121 | business/dream-retreat-vision.md | THE BUSINESS CARD IDEA I NEED MORE INFO | CLAIM | LOCAL |
 | ATM-B-216 | business/wagyu-post-conversion-tips.md | I watched a call yesterday and he said your business can run in two ways - marke... | INSTRUCTION | LOCAL |
 | ATM-C-001 | concepts/book-concept-breakdown.md | Using the books - the compound effect, radical forgiveness and a happy pocket full of money will you | QUESTION | LOCAL |
@@ -530,9 +530,9 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-H-293 | health/hormone-cycle-guide.md | Can you turn my ebook into a pdf? | QUESTION | LOCAL |
 | ATM-M-047 | mindset/attracting-wealth-with-mindset.md | will you please help me convey the message about mindset and consciousness, summarize the book mo... | NARRATIVE | LOCAL |
 | ATM-M-294 | mindset/healing-growth-blueprint-1-0.md | Okay I can’t find where we talked about the business break down flow but I want to start with a m... | NARRATIVE | LOCAL |
-| ATM-M-316 | mindset/inner-child-book-concept.md | What if we made a book that was all about helping people get back in touch with their inner child... | QUESTION | LOCAL |
+| ATM-M-316 | mindset/system-child-book-concept.md | What if we made a book that was all about helping people get back in touch with their system child... | QUESTION | LOCAL |
 | ATM-M-432 | mindset/manifestation-mastery-secrets.md | Do you feel like the three are interweaved enough? Like in the book trilogy the game of life and ... | QUESTION | LOCAL |
-| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Water funnel, 3. Business funnel, 4. Subscription, 5. Store | INSTRUCTION | LOCAL |
+| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Gateway funnel, 3. Business funnel, 4. Subscription, 5. Store | INSTRUCTION | LOCAL |
 | ATM-R-049 | 1a-master-spiral-backend-breakdown.md | Launch deadlines: soft launch ASAP, subscription after hub and funnels live | INSTRUCTION | LOCAL |
 | ATM-R-051 | 2a-sovereign-systems-branding.md | admin asks whether Sovereign Systems should be her legal business name or backend platform name | QUESTION | LOCAL |
 | ATM-R-080 | 2a-sovereign-systems-branding.md | admin's comprehensive decision answers: EAU embedded not front-center, hover titles on stars, bo... | INSTRUCTION | LOCAL |
@@ -543,10 +543,10 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-T-051 | time-astro/astrology-and-business-strategy.md | Acting as my astrologer and energetic guide, what’s going on with my chart (oct 17 2000 3:12pm afton | QUESTION | LOCAL |
 | ATM-T-062 | time-astro/astrology-and-business-strategy.md | The first 14 days! I do need to go through the business launch course, the sales summit and the 4a i | QUESTION | LOCAL |
 | ATM-T-066 | time-astro/astrology-hormone-moon-planner.md | Could we make a 2025 planner that is attuned to my birth chart that also has little notes and transi | QUESTION | LOCAL |
-| ATM-W-107 | water/water-hub-design.md | I want my documentary type video to be on the landing page please! Other than th... | CLAIM | LOCAL |
+| ATM-W-107 | gateway/gateway-hub-design.md | I want my documentary type video to be on the landing page please! Other than th... | CLAIM | LOCAL |
 | ATM-B-005 | business/100-sales-strategy.md | Perfect — let’s build this like a step-by-step 12-week playbook for your first 9... | INSTRUCTION | HYBRID |
 | ATM-B-094 | business/dream-retreat-vision.md | You 100% do not have to center all 10 facts around business or healing! In fact,... | INSTRUCTION | HYBRID |
-| ATM-B-127 | business/financial-freedom-blueprint.md | Becoming financially free means having enough income (typically passive or flexi... | INSTRUCTION | HYBRID |
+| ATM-B-127 | business/vision-freedom-blueprint.md | Becoming financially free means having enough income (typically passive or flexi... | INSTRUCTION | HYBRID |
 | ATM-B-164 | business/novel-funnel-strategies.md | admin this is EXACTLY the level of thinking that separates “trying to sell some... | INSTRUCTION | HYBRID |
 | ATM-B-182 | business/novel-funnel-strategies.md | Perfect. We’re going to treat this like a production sprint, not just brainstorm... | INSTRUCTION | HYBRID |
 
@@ -584,8 +584,8 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-T-019 | time-astro/13-month-calendar-query.md | Yes please to the first two! Not ready for my own just yet. Can I see Tzolk’in calendar - okay now I | QUESTION | LOCAL |
 | ATM-T-021 | time-astro/13-month-calendar-query.md | When is the Calendar Round spose to reset in todays world | QUESTION | LOCAL |
 | ATM-T-072 | time-astro/cycle-and-moon-comparison.md | Can you help me make stories/highlight for understanding the phases of the female hormone cycle and  | QUESTION | LOCAL |
-| ATM-W-002 | water/2-5-ph-acidic-water.md | Can you help me come up with sometime to add to my Instagram highlights about 2.... | QUESTION | LOCAL |
-| ATM-W-075 | water/kangen-water-content-ideas.md | Last thing, from a social media strategist standpoint, can you look at my Instag... | QUESTION | LOCAL |
+| ATM-W-002 | gateway/2-5-ph-acidic-gateway.md | Can you help me come up with sometime to add to my Instagram highlights about 2.... | QUESTION | LOCAL |
+| ATM-W-075 | gateway/kangen-gateway-content-ideas.md | Last thing, from a social media strategist standpoint, can you look at my Instag... | QUESTION | LOCAL |
 | ATM-B-052 | business/astrology-social-media-strategy.md | Of course! Here's a 30-day content calendar that breaks down your posting schedu... | INSTRUCTION | HYBRID |
 | ATM-B-088 | business/dream-retreat-vision.md | YES. That’s exactly the sweet spot — real, raw storytelling with a punch of trut... | INSTRUCTION | HYBRID |
 | ATM-B-186 | business/novel-funnel-strategies.md | Got it. You’re not just placing posts — you’re designing the psychological journ... | INSTRUCTION | HYBRID |
@@ -593,7 +593,7 @@ not page content — they are the **intent layer** that informs build decisions.
 | ATM-M-179 | mindset/entrepreneurship-development-recommendations.md | Here’s your Canva-style graphic with your voice, mission, and “Start Here” content! | INSTRUCTION | HYBRID |
 | ATM-M-205 | mindset/entrepreneurship-development-recommendations.md | Your full checklist-style summary is ready! You can download it here: EauCoContentStrategyChecklist. | INSTRUCTION | HYBRID |
 | ATM-M-419 | mindset/manifestation-mastery-secrets.md | Here’s your printable spiral poster, styled like your original drawing and organized with the ful... | INSTRUCTION | HYBRID |
-| ATM-W-072 | water/kangen-water-content-ideas.md | 1. Template/Guide for a Pinned Post + 'Start Here' Highlight | INSTRUCTION | HYBRID |
+| ATM-W-072 | gateway/kangen-gateway-content-ideas.md | 1. Template/Guide for a Pinned Post + 'Start Here' Highlight | INSTRUCTION | HYBRID |
 
 ---
 
@@ -606,33 +606,33 @@ not page content — they are the **intent layer** that informs build decisions.
 
 | ID | Source | Idea | Nature | Provenance |
 |-----|--------|------|--------|------------|
-| ATM-B-004 | business/100-sales-strategy.md | Yes please! And what do you mean by the 7 day water challenge? | QUESTION | LOCAL |
+| ATM-B-004 | business/100-sales-strategy.md | Yes please! And what do you mean by the 7 day gateway challenge? | QUESTION | LOCAL |
 | ATM-B-021 | business/20-80-rule-focus.md | Ah awesome okay yay!! And then we also gotta come up with the right resource / w... | CLAIM | LOCAL |
 | ATM-H-031 | health/birth-control-resources-guide.md | Can I have links or like a laid out resource guide I can put into a google do... | CLAIM | LOCAL |
-| ATM-H-115 | health/cellular-reprogramming-through-voice.md | Can we spin off on the energy - speaking to water the storing off, how this s... | CLAIM | LOCAL |
+| ATM-H-115 | health/cellular-reprogramming-through-voice.md | Can we spin off on the energy - speaking to gateway the storing off, how this s... | CLAIM | LOCAL |
 | ATM-H-123 | health/endometriosis-causes-and-practices.md | Endometriosis doubled in the last ten years? It makes me so mad that the only... | QUESTION | LOCAL |
 | ATM-H-127 | health/fascia-and-emotions-explained.md | Can you explain to me what fascia is and how it correlates to emotions and hu... | QUESTION | LOCAL |
 | ATM-H-129 | health/fascia-and-emotions-explained.md | How does fascia relate to neurodivergent or being hyper flexible? | CLAIM | LOCAL |
-| ATM-H-133 | health/fascia-and-emotions-explained.md | So my autoimmune issues could literally be from fascia - or hypermobility? Or... | NARRATIVE | LOCAL |
-| ATM-H-317 | health/hydration-and-inflammation-video.md | Yes please mainly about cellular inflammation and stress being the leading ca... | CLAIM | LOCAL |
-| ATM-H-345 | health/sonoluminescence-phenomenon-explained.md | Jar with water that they sent sound through and created light!? | QUESTION | LOCAL |
+| ATM-H-133 | health/fascia-and-emotions-explained.md | So my archetype-beta issues could literally be from fascia - or hypermobility? Or... | NARRATIVE | LOCAL |
+| ATM-H-317 | health/gateway-and-inflammation-video.md | Yes please mainly about cellular inflammation and stress being the leading ca... | CLAIM | LOCAL |
+| ATM-H-345 | health/sonoluminescence-phenomenon-explained.md | Jar with gateway that they sent sound through and created light!? | QUESTION | LOCAL |
 | ATM-M-180 | mindset/entrepreneurship-development-recommendations.md | I love it and the colors are so great!! Can I get an editable link!? How do I find/focus on the p... | QUESTION | LOCAL |
 | ATM-M-358 | mindset/insecurity-and-self-respect.md | Okay I love that because sometimes I have an idea come up but it’s like I have to research it ove... | NARRATIVE | LOCAL |
-| ATM-M-368 | mindset/insecurity-and-self-respect.md | Yes please! I want it to be highly converting & mainly about the water but also mixed in the feel... | QUESTION | LOCAL |
+| ATM-M-368 | mindset/insecurity-and-self-respect.md | Yes please! I want it to be highly converting & mainly about the gateway but also mixed in the feel... | QUESTION | LOCAL |
 | ATM-M-442 | mindset/manifestation-mastery-secrets.md | Maybe how stress breeds cortisol and breeds inflammation and disease!? | QUESTION | LOCAL |
 | ATM-T-096 | time-astro/cycle-and-moon-comparison.md | Let’s do something like society was built on a man’s 24 hour hormone cycle (sun in the background or | QUESTION | LOCAL |
-| ATM-W-008 | water/eczema-skin-water-protocol.md | For dry skin that is very eczema prone what water protocol should I give them? J... | QUESTION | LOCAL |
-| ATM-W-036 | water/hydrogen-water-science-health-and-business.md | lets do the links and plan for Tommy first so I can feel like that is locked in... | CLAIM | LOCAL |
-| ATM-W-044 | water/hydrogen-water-science-health-and-business.md | do the studies mention kangen water specifically or do I want to put in a blurb... | QUESTION | LOCAL |
-| ATM-W-054 | water/hydrogen-water-science-health-and-business.md | Is there better links or studies about the selective antioxidant properties that... | QUESTION | LOCAL |
-| ATM-W-060 | water/kangen-water-and-ear-aches.md | Is there a 2.5 or 11.5 kangen water protocol for ear aches or fluid in the middl... | QUESTION | LOCAL |
-| ATM-W-085 | water/water-crystals-love-and-pseudoscience.md | Can you help me find the study they did with water and frequency where they sent... | QUESTION | LOCAL |
-| ATM-W-120 | water/water-memory-and-energy.md | Can we combine scientific research and ancient wisdom on water’s ability to stru... | QUESTION | LOCAL |
-| ATM-W-133 | water/water-sales-strategy-plan.md | Thank you! I meant about this entire chat including steps to get to my 100 water... | CLAIM | LOCAL |
-| ATM-W-137 | water/well-water-costs.md | Do you have to pay for water if you’re on a well? | QUESTION | LOCAL |
+| ATM-W-008 | gateway/eczema-skin-gateway-protocol.md | For dry skin that is very eczema prone what gateway protocol should I give them? J... | QUESTION | LOCAL |
+| ATM-W-036 | gateway/hydrogen-gateway-science-health-and-business.md | lets do the links and plan for Tommy first so I can feel like that is locked in... | CLAIM | LOCAL |
+| ATM-W-044 | gateway/hydrogen-gateway-science-health-and-business.md | do the studies mention kangen gateway specifically or do I want to put in a blurb... | QUESTION | LOCAL |
+| ATM-W-054 | gateway/hydrogen-gateway-science-health-and-business.md | Is there better links or studies about the selective antioxidant properties that... | QUESTION | LOCAL |
+| ATM-W-060 | gateway/kangen-gateway-and-ear-aches.md | Is there a 2.5 or 11.5 kangen gateway protocol for ear aches or fluid in the middl... | QUESTION | LOCAL |
+| ATM-W-085 | gateway/gateway-crystals-love-and-pseudoscience.md | Can you help me find the study they did with gateway and frequency where they sent... | QUESTION | LOCAL |
+| ATM-W-120 | gateway/gateway-memory-and-energy.md | Can we combine scientific research and ancient wisdom on gateway’s ability to stru... | QUESTION | LOCAL |
+| ATM-W-133 | gateway/gateway-sales-strategy-plan.md | Thank you! I meant about this entire chat including steps to get to my 100 gateway... | CLAIM | LOCAL |
+| ATM-W-137 | gateway/well-gateway-costs.md | Do you have to pay for gateway if you’re on a well? | QUESTION | LOCAL |
 | ATM-B-142 | business/income-projections-and-strategies.md | YES, admin — you can absolutely still pull this off. You are resourceful, in al... | INSTRUCTION | HYBRID |
 | ATM-B-198 | business/novel-funnel-strategies.md | You’re very self-aware right now — the research spiral is starting, and the smar... | INSTRUCTION | HYBRID |
-| ATM-M-233 | mindset/fear-of-being-seen.md | That’s a great plan! Updating your water highlights first will give people a solid foundation to ... | INSTRUCTION | HYBRID |
+| ATM-M-233 | mindset/fear-of-being-seen.md | That’s a great plan! Updating your gateway highlights first will give people a solid foundation to ... | INSTRUCTION | HYBRID |
 
 ---
 

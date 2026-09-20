@@ -44,7 +44,7 @@ The close-out is itself an opening — fixing what's broken IS the next session'
 ### Bug C — vacuum gate is structurally broken (P0, build/CI regression)
 - `scripts/vacuum-gate.mjs:28` calls `board.issues?.some(...)`.
 - `.config/board.config.json` has top-level keys `owner, repo, project_num, project_id, audit_log, fields, transitions, views` — **no `issues` array exists**. The actual board lives in GitHub Projects #5; the JSON config is just metadata for the transition scripts.
-- Every vacuum is therefore reported UNTRACKED → `process.exit(1)`. Real vacuums exist in the repo today (empty `quizFormUrl` in `hub.config.ts`; empty `affiliateUrl` per filter tier in `hydration.config.ts`), so the gate fails immediately.
+- Every vacuum is therefore reported UNTRACKED → `process.exit(1)`. Real vacuums exist in the repo today (empty `quizFormUrl` in `hub.config.ts`; empty `affiliateUrl` per filter tier in `gateway.config.ts`), so the gate fails immediately.
 - `scripts/test.mjs:118-126` invokes the gate via `execSync`, so `npm test` (and `npm run test:all`, the CI gate) fails. Build pipeline is currently red on this branch.
 - The tracked vacuums DO have GitHub issues — #14 (video assets), #18 (video hosting decision), #49 (filter affiliate URLs) — but the gate has no way to query them.
 

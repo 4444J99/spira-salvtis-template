@@ -53,8 +53,8 @@ def load_registry():
                     if val == "[]":
                         val = []
                     elif val.startswith("[") and val.endswith("]"):
-                        inner = val[1:-1]
-                        val = [int(x.strip()) for x in inner.split(",") if x.strip()]
+                        system = val[1:-1]
+                        val = [int(x.strip()) for x in system.split(",") if x.strip()]
                     else:
                         val = []
 
@@ -85,8 +85,8 @@ TOPIC_PATTERNS = {
         r"(pricing|revenue|income|business|funnel|lead magnet|landing page)",
     ],
     "Health & Science Queries": [
-        r"(cortisol|hormone|gut|water|kangen|hydrogen|alkaline|inflammation)",
-        r"(acupressure|fascia|endometriosis|autoimmune|neurodivergence|hEDS)",
+        r"(cortisol|hormone|gut|gateway|kangen|hydrogen|alkaline|inflammation)",
+        r"(acupressure|fascia|endometriosis|archetype-beta|neurodivergence|hEDS)",
         r"(research|study|source|resource|link|citation|evidence)",
     ],
     "Spiritual & Framework Queries": [

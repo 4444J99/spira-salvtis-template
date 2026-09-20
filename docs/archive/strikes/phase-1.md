@@ -17,7 +17,7 @@ These define the structural skeleton of the spiral system.
 | ATM-R-003 | 2b-nodular-flow-refinement.md | Maslow placement: background logic only, light visual in Feel Good First node | HYBRID | FRAMEWORK | MISSING |
 | ATM-R-004 | 2b-nodular-flow-refinement.md | Node hover/click UX pattern: title on hover, full panel on click | HYBRID | INSTRUCTION | MISSING |
 | ATM-R-005 | 2b-nodular-flow-refinement.md | Node page content structure: each node is a mini chapter with truth, science,... | HYBRID | MODEL | MISSING |
-| ATM-R-019 | 2b-nodular-flow-refinement.md | Refined Phase 4 UNLOCK: Systems Create Freedom, Identity & Authentic Expressi... | HYBRID | FRAMEWORK | MISSING |
+| ATM-R-019 | 2b-nodular-flow-refinement.md | Refined Phase 4 UNLOCK: Systems Create Freedom, Structure & Authentic Expressi... | HYBRID | FRAMEWORK | MISSING |
 | ATM-R-022 | 2b-nodular-flow-refinement.md | Node 9 refined: 'Naming & Claiming Your Truth' — distinct from Radical Respon... | HYBRID | FRAMEWORK | MISSING |
 | ATM-R-031 | 2b-nodular-flow-refinement.md | New Align node: 'Boundaries & Choice' — your yes is your power, practical ste... | HYBRID | FRAMEWORK | MISSING |
 | ATM-R-082 | 2a-sovereign-systems-branding.md | Node UX locked: hover shows title (clean, minimal), click opens full layered ... | HYBRID | MODEL | MISSING |
@@ -39,7 +39,7 @@ These define the structural skeleton of the spiral system.
 | ATM-R-014 | 2b-nodular-flow-refinement.md | Designer instructions: spiral interaction UX (hover/click) and node panel com... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-015 | 2b-nodular-flow-refinement.md | Below-spiral section spec: Sovereign Systems + EAU breakdown; V1 assessment a... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-018 | 2b-nodular-flow-refinement.md | Refined Phase 2 ALIGN: Awareness split (5a/5b), Patterns, Reality Interpreted... | HYBRID | FRAMEWORK | PARTIAL |
-| ATM-R-020 | 2b-nodular-flow-refinement.md | Simplified gravity map: Entry → Physical → Mental → Accountability → Unlock, ... | HYBRID | MODEL | PARTIAL |
+| ATM-R-020 | 2b-nodular-flow-refinement.md | Simplified gravity map: Entry → Foundation → Mental → Accountability → Unlock, ... | HYBRID | MODEL | PARTIAL |
 | ATM-R-024 | 2b-nodular-flow-refinement.md | Designer-ready spiral visual concept: Green/Blue/Gold color coding for Elevat... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-026 | 2b-nodular-flow-refinement.md | Locked base: Elevate = Feel Good First + Awareness + Body + Stabilize + Stres... | HYBRID | FRAMEWORK | PARTIAL |
 | ATM-R-032 | 2b-nodular-flow-refinement.md | Final updated 13-node layout: Elevate (1-6 with Energy & Flow), Align (7-10 w... | HYBRID | FRAMEWORK | PARTIAL |
@@ -47,12 +47,12 @@ These define the structural skeleton of the spiral system.
 | ATM-R-035 | 1a-master-spiral-backend-breakdown.md | Brand Vision: EAU core framework, mission/vibe statement, Feel Good First phi... | HYBRID | FRAMEWORK | PARTIAL |
 | ATM-R-036 | 1a-master-spiral-backend-breakdown.md | Foundational theories/assessments table: 11 frameworks mapped to pillars (Bur... | HYBRID | FRAMEWORK | PARTIAL |
 | ATM-R-037 | 1a-master-spiral-backend-breakdown.md | Spiral architecture: site overview (interactive hub), pillar routing table (P... | HYBRID | MODEL | PARTIAL |
-| ATM-R-039 | 1a-master-spiral-backend-breakdown.md | Inner Sovereignty content: nervous system, emotional processing, subconscious... | HYBRID | FRAMEWORK | PARTIAL |
-| ATM-R-040 | 1a-master-spiral-backend-breakdown.md | Identity Sovereignty content: self-worth, beliefs, confidence, ego awakening,... | HYBRID | FRAMEWORK | PARTIAL |
-| ATM-R-041 | 1a-master-spiral-backend-breakdown.md | Financial Sovereignty content: business as self-expression, sales, content cr... | HYBRID | FRAMEWORK | PARTIAL |
-| ATM-R-043 | 1a-master-spiral-backend-breakdown.md | Three funnel flows: Water (Physical→GHL→email→purchase), Business (Financial→... | HYBRID | MODEL | PARTIAL |
+| ATM-R-039 | 1a-master-spiral-backend-breakdown.md | System Sovereignty content: nervous system, emotional processing, subconscious... | HYBRID | FRAMEWORK | PARTIAL |
+| ATM-R-040 | 1a-master-spiral-backend-breakdown.md | Structure Sovereignty content: self-worth, beliefs, confidence, ego awakening,... | HYBRID | FRAMEWORK | PARTIAL |
+| ATM-R-041 | 1a-master-spiral-backend-breakdown.md | Vision Sovereignty content: business as self-expression, sales, content cr... | HYBRID | FRAMEWORK | PARTIAL |
+| ATM-R-043 | 1a-master-spiral-backend-breakdown.md | Three funnel flows: Gateway (Foundation→GHL→email→purchase), Business (Vision→... | HYBRID | MODEL | PARTIAL |
 | ATM-R-044 | 1a-master-spiral-backend-breakdown.md | Homepage UX: first-time user sees interactive spiral with quiz prompt, clean ... | HYBRID | INSTRUCTION | PARTIAL |
-| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Water funnel, 3. Business funnel, 4. ... | LOCAL | INSTRUCTION | PARTIAL |
+| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Gateway funnel, 3. Business funnel, 4. ... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-049 | 1a-master-spiral-backend-breakdown.md | Launch deadlines: soft launch ASAP, subscription after hub and funnels live | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-050 | 1a-master-spiral-backend-breakdown.md | Closing summary: this doc shows Anthony what exists, what to build, and where... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-064 | 2a-sovereign-systems-branding.md | Keep the spiral as core — splitting into 4 categories loses the magic; admin... | HYBRID | FRAMEWORK | PARTIAL |
@@ -73,9 +73,9 @@ These define the structural skeleton of the spiral system.
 | ATM-R-091 | 1b-spiral-dump-questionnaire.md | admin's overview framing: doc organization (Master Blueprint first, raw chat... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-092 | 1b-spiral-dump-questionnaire.md | Big picture vision detail: interactive spiral with 4 pillars, each pillar edu... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-093 | 1b-spiral-dump-questionnaire.md | Architecture Q1.1: Hub site (hub-example.com) holds spiral, pillar overviews... | LOCAL | FRAMEWORK | PARTIAL |
-| ATM-R-094 | 1b-spiral-dump-questionnaire.md | Architecture Q1.2-1.3: Physical Sovereignty lands on site page then CTA to GH... | LOCAL | FRAMEWORK | PARTIAL |
+| ATM-R-094 | 1b-spiral-dump-questionnaire.md | Architecture Q1.2-1.3: Foundation Sovereignty lands on site page then CTA to GH... | LOCAL | FRAMEWORK | PARTIAL |
 | ATM-R-095 | 1b-spiral-dump-questionnaire.md | Architecture Q1.4: Pages list — Home/Spiral Hub, 4 sovereignty pages, Start H... | LOCAL | FRAMEWORK | PARTIAL |
-| ATM-R-097 | 1b-spiral-dump-questionnaire.md | Content Q2.2: Topics per pillar — Inner (hydration, detox, nutrition, inflamm... | LOCAL | FRAMEWORK | PARTIAL |
+| ATM-R-097 | 1b-spiral-dump-questionnaire.md | Content Q2.2: Topics per pillar — System (gateway, detox, nutrition, inflamm... | LOCAL | FRAMEWORK | PARTIAL |
 | ATM-R-099 | 1b-spiral-dump-questionnaire.md | UX Q3.1-3.4: First thing = interactive spiral with quiz prompt; free depth be... | LOCAL | MODEL | PARTIAL |
 | ATM-R-101 | 1b-spiral-dump-questionnaire.md | Spiral Visual Q4.1-4.4: Circular spiral layout, 4 pillars along spiral, each ... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-105 | 1b-spiral-dump-questionnaire.md | Developer-ready action checklist: spiral site build with status tables for qu... | HYBRID | INSTRUCTION | PARTIAL |
@@ -86,8 +86,8 @@ These define the structural skeleton of the spiral system.
 | ATM-R-053 | 2a-sovereign-systems-branding.md | Option B recommended: Sovereign Systems as backend platform name — GHL worksp... | HYBRID | FRAMEWORK | N/A |
 | ATM-R-056 | 2a-sovereign-systems-branding.md | Internal vs public strategy: use internally immediately, soft-launch as philo... | HYBRID | FRAMEWORK | N/A |
 | ATM-R-060 | 2a-sovereign-systems-branding.md | Implementation: keep simple, no logo/domain/LLC yet — let it live in bio, pin... | HYBRID | INSTRUCTION | N/A |
-| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (water hub, water f... | HYBRID | INSTRUCTION | N/A |
-| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (water hub, spira... | HYBRID | INSTRUCTION | N/A |
+| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (gateway hub, gateway f... | HYBRID | INSTRUCTION | N/A |
+| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (gateway hub, spira... | HYBRID | INSTRUCTION | N/A |
 
 ---
 
@@ -99,11 +99,11 @@ before they can advance to any build state.
 | ID | Source | Idea | Provenance | Nature | Build State |
 |-----|--------|------|------------|--------|-------------|
 | ATM-M-012 | mindset/alchemy-and-spiritual-symbolism.md | I’m going to answer this clearly, grounded, and step-by-step, without turning... | HYBRID | PROTOCOL | MISSING |
-| ATM-M-016 | mindset/alchemy-and-spiritual-symbolism.md | PART IV — WATER, FREQUENCY & COHERENCE Alchemy obsessed over water for a reas... | HYBRID | FRAMEWORK | MISSING |
+| ATM-M-016 | mindset/alchemy-and-spiritual-symbolism.md | PART IV — GATEWAY, FREQUENCY & COHERENCE Alchemy obsessed over gateway for a reas... | HYBRID | FRAMEWORK | MISSING |
 | ATM-M-049 | mindset/balancing-masculine-and-feminine.md | “As someone who understands the laws of the universe, quantum physics, all th... | LOCAL | NARRATIVE | MISSING |
 | ATM-M-075 | mindset/balancing-masculine-and-feminine.md | “Okay, but how does that tie into the 3D versus 5D, like, awakening and shift... | LOCAL | QUESTION | MISSING |
-| ATM-M-076 | mindset/balancing-masculine-and-feminine.md | Think of it like this: the 3D focuses on physical, tangible aspects, like set... | HYBRID | PROTOCOL | MISSING |
-| ATM-M-078 | mindset/balancing-masculine-and-feminine.md | Exactly! The 3D experience—our physical reality—is like the foundation. By ta... | HYBRID | PROTOCOL | MISSING |
+| ATM-M-076 | mindset/balancing-masculine-and-feminine.md | Think of it like this: the 3D focuses on foundation, tangible aspects, like set... | HYBRID | PROTOCOL | MISSING |
+| ATM-M-078 | mindset/balancing-masculine-and-feminine.md | Exactly! The 3D experience—our foundation reality—is like the foundation. By ta... | HYBRID | PROTOCOL | MISSING |
 | ATM-M-081 | mindset/balancing-masculine-and-feminine.md | “In a way, is the awakening and the shift we're going through right now, from... | LOCAL | QUESTION | MISSING |
 | ATM-M-083 | mindset/balancing-masculine-and-feminine.md | “Would you say that 3D is like the masculine and the 5D is like the feminine,... | LOCAL | QUESTION | MISSING |
 | ATM-M-084 | mindset/balancing-masculine-and-feminine.md | It's more about a shift in consciousness than a direct comparison to masculin... | HYBRID | CLAIM | MISSING |
@@ -140,8 +140,8 @@ before they can advance to any build state.
 | ATM-M-639 | mindset/vibration-frequency-exploration.md | Yes — this is a really intriguing theory, and you're not alone in thinking th... | HYBRID | PROTOCOL | MISSING |
 | ATM-M-641 | mindset/vibration-frequency-exploration.md | Great question. The piezoelectric effect is a real and powerful phenomenon — ... | HYBRID | PROTOCOL | MISSING |
 | ATM-M-651 | mindset/visionary-life-breakdown.md | Absolutely, admin. Here is a vivid, poetic, soul-aligned Week in the Life of... | HYBRID | FRAMEWORK | MISSING |
-| ATM-W-084 | water/water-crystals-love-and-pseudoscience.md | **Exported:** 3/31/2026 14:02:25 | LOCAL | CLAIM | MISSING |
-| ATM-H-115 | health/cellular-reprogramming-through-voice.md | Can we spin off on the energy - speaking to water the storing off, how this s... | LOCAL | CLAIM | PARTIAL |
+| ATM-W-084 | gateway/gateway-crystals-love-and-pseudoscience.md | **Exported:** 3/31/2026 14:02:25 | LOCAL | CLAIM | MISSING |
+| ATM-H-115 | health/cellular-reprogramming-through-voice.md | Can we spin off on the energy - speaking to gateway the storing off, how this s... | LOCAL | CLAIM | PARTIAL |
 | ATM-H-116 | health/cellular-reprogramming-through-voice.md | This is where the 'woo' meets the 'watt.' As a physicist, I don't see you as ... | HYBRID | PROTOCOL | PARTIAL |
 | ATM-H-256 | health/heroines-healing-journey.md | Absolutely — you’re right, the first version had a poetic flow, clear stage t... | HYBRID | CITATION | PARTIAL |
 | ATM-H-260 | health/heroines-healing-journey.md | Yes! What we’ve created now absolutely includes everything from this original... | HYBRID | SCRIPT | PARTIAL |
@@ -194,12 +194,12 @@ before they can advance to any build state.
 | ATM-M-493 | mindset/manifestation-mastery-secrets.md | Perfect — thanks for the clarity! So we’ll follow this structure: Final Spira... | HYBRID | FRAMEWORK | EXISTS |
 | ATM-M-501 | mindset/manifestation-mastery-secrets.md | Absolutely! Below is the full inline SVG code for your flat spiral with 13 ch... | HYBRID | PROTOCOL | EXISTS |
 | ATM-M-631 | mindset/tm-and-kundalini-energy.md | Absolutely. Let’s break down Transcendental Meditation (TM), Kundalini energy... | HYBRID | TOOL | EXISTS |
-| ATM-W-061 | water/kangen-water-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kang... | HYBRID | INSTRUCTION | EXISTS |
-| ATM-W-086 | water/water-crystals-love-and-pseudoscience.md | That is a fascinating topic that gained a lot of popularity through the 2004 ... | HYBRID | CITATION | EXISTS |
-| ATM-W-088 | water/water-crystals-love-and-pseudoscience.md | It is truly wild how these experiments capture our imagination! While they ma... | HYBRID | CITATION | EXISTS |
-| ATM-W-121 | water/water-memory-and-energy.md | Yes, it's possible to explore intersections between scientific research and a... | HYBRID | TOOL | EXISTS |
-| ATM-W-123 | water/water-retention-in-erw.md | Hi! Can you help me figure out if they talk about water retention in this vid... | HYBRID | CITATION | EXISTS |
-| ATM-W-125 | water/water-retention-in-erw.md | Does dr Micheal on YouTube who promotes enagic talk about water retention? | HYBRID | PRODUCT | EXISTS |
+| ATM-W-061 | gateway/kangen-gateway-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kang... | HYBRID | INSTRUCTION | EXISTS |
+| ATM-W-086 | gateway/gateway-crystals-love-and-pseudoscience.md | That is a fascinating topic that gained a lot of popularity through the 2004 ... | HYBRID | CITATION | EXISTS |
+| ATM-W-088 | gateway/gateway-crystals-love-and-pseudoscience.md | It is truly wild how these experiments capture our imagination! While they ma... | HYBRID | CITATION | EXISTS |
+| ATM-W-121 | gateway/gateway-memory-and-energy.md | Yes, it's possible to explore intersections between scientific research and a... | HYBRID | TOOL | EXISTS |
+| ATM-W-123 | gateway/gateway-retention-in-erw.md | Hi! Can you help me figure out if they talk about gateway retention in this vid... | HYBRID | CITATION | EXISTS |
+| ATM-W-125 | gateway/gateway-retention-in-erw.md | Does dr Micheal on YouTube who promotes enagic talk about gateway retention? | HYBRID | PRODUCT | EXISTS |
 | ATM-M-295 | mindset/healing-growth-blueprint-1-0.md | Yes, this absolutely makes sense—and it's a brilliant model. Here’s a breakdo... | HYBRID | TOOL | N/A |
 | ATM-M-303 | mindset/healing-growth-blueprint-1-0.md | Yes! Let’s spark your vision Here are a few visual puzzle map ideas—from soft... | HYBRID | FRAMEWORK | N/A |
 
@@ -232,7 +232,7 @@ or directives that need to be confirmed before build proceeds.
 | ATM-C-035 | concepts/creature-selves-resources.md | There’s a quote about how man created time, but the birds always know exactly... | LOCAL | QUESTION | MISSING |
 | ATM-C-037 | concepts/creature-selves-resources.md | There’s a poem | LOCAL | QUESTION | MISSING |
 | ATM-M-003 | mindset/affirmation-track-for-abundance.md | Yes please can you do that for me!? | LOCAL | QUESTION | MISSING |
-| ATM-M-005 | mindset/alchemy-and-spiritual-symbolism.md | Is the elixir of life in the philosopher Stone physical or another something ... | LOCAL | QUESTION | MISSING |
+| ATM-M-005 | mindset/alchemy-and-spiritual-symbolism.md | Is the elixir of life in the philosopher Stone foundation or another something ... | LOCAL | QUESTION | MISSING |
 | ATM-M-007 | mindset/alchemy-and-spiritual-symbolism.md | Also can you get me each of these men’s stories?!? And what is the master wor... | LOCAL | QUESTION | MISSING |
 | ATM-M-023 | mindset/alchemy-and-spiritual-symbolism.md | Let’s go back to alchemy and omens and so my feeling good first motto is pret... | LOCAL | QUESTION | MISSING |
 | ATM-M-025 | mindset/alchemy-and-spiritual-symbolism.md | What does seeing two eagles mean, they don’t usually hang out together yeah? | LOCAL | QUESTION | MISSING |
@@ -291,7 +291,7 @@ or directives that need to be confirmed before build proceeds.
 | ATM-M-360 | mindset/insecurity-and-self-respect.md | How do I know and frame myself correctly then? So then I would post something... | LOCAL | QUESTION | MISSING |
 | ATM-M-362 | mindset/insecurity-and-self-respect.md | I really like that layout cause then I don’t feel pressure to talk all the ti... | LOCAL | QUESTION | MISSING |
 | ATM-M-366 | mindset/insecurity-and-self-respect.md | How can I go about tackling it and getting my thoughts plans all laid out thi... | LOCAL | QUESTION | MISSING |
-| ATM-M-368 | mindset/insecurity-and-self-respect.md | Yes please! I want it to be highly converting & mainly about the water but al... | LOCAL | QUESTION | MISSING |
+| ATM-M-368 | mindset/insecurity-and-self-respect.md | Yes please! I want it to be highly converting & mainly about the gateway but al... | LOCAL | QUESTION | MISSING |
 | ATM-M-371 | mindset/insecurity-and-self-respect.md | Perfect catch — you’re right. That line is true but a little heady for a bio,... | HYBRID | INSTRUCTION | MISSING |
 | ATM-M-374 | mindset/insecurity-and-self-respect.md | I don’t like those bios they don’t sound like me or make a lot of sense like ... | LOCAL | QUESTION | MISSING |
 | ATM-M-376 | mindset/insecurity-and-self-respect.md | Okay I love that so can see that this is what I’m making my living off of, ca... | LOCAL | QUESTION | MISSING |
@@ -361,12 +361,12 @@ or directives that need to be confirmed before build proceeds.
 | ATM-T-175 | time-astro/spoon-bending-technique.md | Can you teach me how to bend a spoon with my mind | LOCAL | QUESTION | MISSING |
 | ATM-T-176 | time-astro/spoon-bending-technique.md | Spoon-bending is most often taught as a focus and energy exercise — a way to ... | HYBRID | INSTRUCTION | MISSING |
 | ATM-T-177 | time-astro/vedic-astrology-energy-analysis.md | Acting as a Vedic astrologer, what is the energy today and this week? It feel... | LOCAL | QUESTION | MISSING |
-| ATM-B-004 | business/100-sales-strategy.md | Yes please! And what do you mean by the 7 day water challenge? | LOCAL | QUESTION | PARTIAL |
+| ATM-B-004 | business/100-sales-strategy.md | Yes please! And what do you mean by the 7 day gateway challenge? | LOCAL | QUESTION | PARTIAL |
 | ATM-B-007 | business/100-sales-strategy.md | Yes — the structure I mapped is very aligned with today’s marketing trends an... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-B-010 | business/20-80-rule-focus.md | Perfect — this is a super grounded place to work from. Let’s find your 20% “n... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-B-053 | business/astrology-social-media-strategy.md | Thank you so much! Do you have any recommendations on different growth strate... | LOCAL | QUESTION | PARTIAL |
 | ATM-B-089 | business/dream-retreat-vision.md | Okay perfect yay thank you - what would 10 things you might now know by looki... | LOCAL | QUESTION | PARTIAL |
-| ATM-B-128 | business/financial-freedom-blueprint.md | So financial freedom’s is when you 10x your survival number right? Or what’s ... | LOCAL | QUESTION | PARTIAL |
+| ATM-B-128 | business/vision-freedom-blueprint.md | So vision freedom’s is when you 10x your survival number right? Or what’s ... | LOCAL | QUESTION | PARTIAL |
 | ATM-B-133 | business/idea-implementation-strategies.md | Yes please!! | HYBRID | QUESTION | PARTIAL |
 | ATM-B-137 | business/income-projections-and-strategies.md | Ooo can a launch checklist please! The $99 gets them into the discovery proce... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-B-140 | business/income-projections-and-strategies.md | Absolutely! Here's your clean, copy-pasteable LAUNCH CHECKLIST in pure checkl... | HYBRID | INSTRUCTION | PARTIAL |
@@ -379,7 +379,7 @@ or directives that need to be confirmed before build proceeds.
 | ATM-B-216 | business/wagyu-post-conversion-tips.md | I watched a call yesterday and he said your business can run in two ways - ma... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-M-260 | mindset/happiness-as-a-state.md | Okay so according to richard Davison’s four pillars - meditation exercise gra... | LOCAL | QUESTION | PARTIAL |
 | ATM-M-273 | mindset/happiness-as-a-state.md | Got it — here’s a tight pair you can use: 🔝 Short Text Above Compass (overlay... | HYBRID | INSTRUCTION | PARTIAL |
-| ATM-M-275 | mindset/happiness-as-a-state.md | Yes! That’s the missing piece — tying it back to the inner compass / internal... | HYBRID | INSTRUCTION | PARTIAL |
+| ATM-M-275 | mindset/happiness-as-a-state.md | Yes! That’s the missing piece — tying it back to the system compass / internal... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-M-277 | mindset/happiness-as-a-state.md | Yes!! That’s the exact vibe — playful but deep, tying Jack Sparrow’s “broken ... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-M-278 | mindset/happiness-as-a-state.md | Can we add this in and then the CTA to be save for next time you’re feeling o... | LOCAL | QUESTION | PARTIAL |
 | ATM-M-281 | mindset/happiness-as-a-state.md | Yes, absolutely 🤍 let’s anchor it directly in what Dr. Richard Davidson himse... | HYBRID | INSTRUCTION | PARTIAL |
@@ -394,7 +394,7 @@ or directives that need to be confirmed before build proceeds.
 | ATM-R-033 | 1a-master-spiral-backend-breakdown.md | ChatGPT preamble: organizing admin's full vision into a developer-ready Spir... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-044 | 1a-master-spiral-backend-breakdown.md | Homepage UX: first-time user sees interactive spiral with quiz prompt, clean ... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-047 | 1a-master-spiral-backend-breakdown.md | Technical open questions: GoDaddy DNS (confirmed), GHL quiz embed (TBD), vide... | LOCAL | QUESTION | PARTIAL |
-| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Water funnel, 3. Business funnel, 4. ... | LOCAL | INSTRUCTION | PARTIAL |
+| ATM-R-048 | 1a-master-spiral-backend-breakdown.md | Build priority order: 1. Spiral hub, 2. Gateway funnel, 3. Business funnel, 4. ... | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-049 | 1a-master-spiral-backend-breakdown.md | Launch deadlines: soft launch ASAP, subscription after hub and funnels live | LOCAL | INSTRUCTION | PARTIAL |
 | ATM-R-050 | 1a-master-spiral-backend-breakdown.md | Closing summary: this doc shows Anthony what exists, what to build, and where... | HYBRID | INSTRUCTION | PARTIAL |
 | ATM-R-063 | 2a-sovereign-systems-branding.md | admin shares existing spiral visual (movable, chakra-colored stars, hover/cl... | LOCAL | QUESTION | PARTIAL |
@@ -434,8 +434,8 @@ or directives that need to be confirmed before build proceeds.
 | ATM-B-116 | business/dream-retreat-vision.md | OH. MY. SPIRAL. GODDESS. | HYBRID | INSTRUCTION | EXISTS |
 | ATM-B-122 | business/dream-retreat-vision.md | OH. YES. YOU. CAN. | HYBRID | INSTRUCTION | EXISTS |
 | ATM-B-124 | business/dream-retreat-vision.md | Updated saved memory | HYBRID | INSTRUCTION | EXISTS |
-| ATM-B-127 | business/financial-freedom-blueprint.md | Becoming financially free means having enough income (typically passive or fl... | HYBRID | INSTRUCTION | EXISTS |
-| ATM-B-129 | business/financial-freedom-blueprint.md | Great question—and yes, you're tapping into something powerful. | HYBRID | INSTRUCTION | EXISTS |
+| ATM-B-127 | business/vision-freedom-blueprint.md | Becoming financially free means having enough income (typically passive or fl... | HYBRID | INSTRUCTION | EXISTS |
+| ATM-B-129 | business/vision-freedom-blueprint.md | Great question—and yes, you're tapping into something powerful. | HYBRID | INSTRUCTION | EXISTS |
 | ATM-B-132 | business/idea-implementation-strategies.md | This is so real, and you’ve actually hit on something really profound that mo... | HYBRID | INSTRUCTION | EXISTS |
 | ATM-B-136 | business/income-projections-and-strategies.md | Here’s a realistic, grounded breakdown of what you could make in the next 17 ... | HYBRID | INSTRUCTION | EXISTS |
 | ATM-B-138 | business/income-projections-and-strategies.md | YES let’s go admin! Here’s your lean and potent Launch Checklist for the $99... | HYBRID | INSTRUCTION | EXISTS |
@@ -463,12 +463,12 @@ or directives that need to be confirmed before build proceeds.
 | ATM-M-450 | mindset/manifestation-mastery-secrets.md | Hi! Using this code and the info I provided , https://gemini.google.com/app/1... | LOCAL | QUESTION | EXISTS |
 | ATM-M-470 | mindset/manifestation-mastery-secrets.md | Okay here the code for it Interactive 3D Helix Plot (V4 - Chakra Content) bod... | LOCAL | QUESTION | EXISTS |
 | ATM-M-474 | mindset/manifestation-mastery-secrets.md | Can you re put together the entire code from the one I provided and the two y... | LOCAL | QUESTION | EXISTS |
-| ATM-W-061 | water/kangen-water-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kang... | HYBRID | INSTRUCTION | EXISTS |
-| ATM-M-233 | mindset/fear-of-being-seen.md | That’s a great plan! Updating your water highlights first will give people a ... | HYBRID | INSTRUCTION | N/A |
+| ATM-W-061 | gateway/kangen-gateway-and-ear-aches.md | Short answer: there isn’t an official, medically recognized “2.5 or 11.5 Kang... | HYBRID | INSTRUCTION | EXISTS |
+| ATM-M-233 | mindset/fear-of-being-seen.md | That’s a great plan! Updating your gateway highlights first will give people a ... | HYBRID | INSTRUCTION | N/A |
 | ATM-M-300 | mindset/healing-growth-blueprint-1-0.md | Ah thank you! Yes can you break down the puzzle plan and Instagram grid for m... | LOCAL | QUESTION | N/A |
 | ATM-M-312 | mindset/healing-growth-blueprint-1-0.md | What does that poem translate too? | LOCAL | QUESTION | N/A |
 | ATM-M-313 | mindset/healing-growth-blueprint-1-0.md | Great question! The poem-like text in the bottom right corner of the image is... | HYBRID | INSTRUCTION | N/A |
-| ATM-M-316 | mindset/inner-child-book-concept.md | What if we made a book that was all about helping people get back in touch wi... | LOCAL | QUESTION | N/A |
+| ATM-M-316 | mindset/system-child-book-concept.md | What if we made a book that was all about helping people get back in touch wi... | LOCAL | QUESTION | N/A |
 | ATM-M-527 | mindset/masculine-vs-feminine-balance.md | You’re so welcome! Let me know anytime you want to make more affirmations lik... | HYBRID | INSTRUCTION | N/A |
 | ATM-M-528 | mindset/meal-planning-and-budgeting-help.md | Hi! I’m trying to meal plan and budget better, if I gave you a list of the st... | LOCAL | QUESTION | N/A |
 | ATM-M-532 | mindset/meal-planning-and-budgeting-help.md | Yes I love those ideas!! Will you help me come up with a cost efficient groce... | LOCAL | QUESTION | N/A |
@@ -486,8 +486,8 @@ or directives that need to be confirmed before build proceeds.
 | ATM-R-060 | 2a-sovereign-systems-branding.md | Implementation: keep simple, no logo/domain/LLC yet — let it live in bio, pin... | HYBRID | INSTRUCTION | N/A |
 | ATM-R-061 | 2a-sovereign-systems-branding.md | admin asks to check if anyone already owns/uses 'Sovereign Systems' as a nam... | LOCAL | QUESTION | N/A |
 | ATM-R-067 | 2a-sovereign-systems-branding.md | admin wants cohesion + interconnectedness, shares Google Doc links, asks for... | LOCAL | INSTRUCTION | N/A |
-| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (water hub, water f... | HYBRID | INSTRUCTION | N/A |
-| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (water hub, spira... | HYBRID | INSTRUCTION | N/A |
+| ATM-R-104 | 1b-spiral-dump-questionnaire.md | Chat thread pull list and Google Doc structure: MUST PULL (gateway hub, gateway f... | HYBRID | INSTRUCTION | N/A |
+| ATM-R-144 | 1b-spiral-dump-questionnaire.md | Thread organization guide: what to pull from each past chat (gateway hub, spira... | HYBRID | INSTRUCTION | N/A |
 
 ---
 

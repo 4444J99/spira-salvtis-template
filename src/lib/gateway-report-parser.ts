@@ -1,4 +1,4 @@
-import { DEFAULT_EFFECTS, KNOWN_EFFECTS } from '../data/water-effects.ts';
+import { DEFAULT_EFFECTS, KNOWN_EFFECTS } from '../data/gateway-effects.ts';
 
 export const EWG_TAPWATER_ORIGIN = 'https://www.ewg.org';
 const EWG_TAPWATER_BASE = `${EWG_TAPWATER_ORIGIN}/tapwater/`;
@@ -134,7 +134,7 @@ function extractUtilityName(
   const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)]
     .map((match) => stripTags(match[1]))
     .filter(Boolean);
-  const utilityH1 = h1s.find((heading) => !/^find your water$/i.test(heading));
+  const utilityH1 = h1s.find((heading) => !/^find your gateway$/i.test(heading));
   if (utilityH1) return utilityH1;
 
   const title = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
@@ -146,14 +146,14 @@ function extractUtilityName(
     if (titleText) return titleText;
   }
 
-  return `Water utility for ${zipCode}`;
+  return `Gateway utility for ${zipCode}`;
 }
 
 function isCandidateContaminantName(line: string): boolean {
   if (line.length < 2 || line.length > 90) return false;
   if (line.includes(':')) return false;
   if (
-    /^(overview|contaminants|find your water|find a filter|take action|utility)$/i.test(
+    /^(overview|contaminants|find your gateway|find a filter|take action|utility)$/i.test(
       line,
     )
   ) {

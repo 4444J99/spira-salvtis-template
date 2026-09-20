@@ -17,7 +17,7 @@ source_file: "ChatGPT-30 Day Acupressure Routine.txt"
 source_folder: "health"
 nodes: [2, 9, 10, 13]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: QUESTION
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "Will you help me put together a 30 day hand foot and ear acupunc
 provenance: HYBRID
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -121,9 +121,9 @@ Location: Between the thumb and index finger, in the fleshy webbing.
 Purpose: Clears mental tension and promotes self-confidence.
 
 Foot: Tai Bai (Spleen 3, SP3)
-Location: On the inner side of the foot, just behind the base of the big toe.
+Location: On the system side of the foot, just behind the base of the big toe.
 
-Purpose: Boosts self-worth and supports inner stability.
+Purpose: Boosts self-worth and supports system stability.
 
 Ear: Brain Point
 Location: Behind the ear at the top of the helix.
@@ -138,7 +138,7 @@ Key Points for Fear:
 Hand: Heart 7 (HT7)
 Location: On the wrist crease, in line with the little finger.
 
-Purpose: Soothes anxiety and fosters inner peace.
+Purpose: Soothes anxiety and fosters system peace.
 
 Foot: Liver 3 (LV3)
 Location: On the top of the foot, in the depression between the first and second toes.
@@ -200,7 +200,7 @@ context_above: "Certainly! Acupressure and acupuncture can support clearing ener
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -225,7 +225,7 @@ context_above: "Yes can we come up with a 30 day routine that flows and builds o
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -311,7 +311,7 @@ Use your somatic breathwork routine once or twice weekly to amplify energy clear
 Pair specific points with deep breathing (e.g., press K1 while exhaling fear, PC8 while inhaling confidence).
 
 Visualization Upgrade:
-Spend 1-2 minutes after each session visualizing yourself in your ideal financial and emotional state.
+Spend 1-2 minutes after each session visualizing yourself in your ideal vision and emotional state.
 
 See energy blockages melting away, and golden energy flowing freely through your hands, feet, and body.
 
@@ -347,7 +347,7 @@ context_above: "We can create a synergistic 30-day routine that flows and builds
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -372,7 +372,7 @@ context_above: "Can we make the acupuncture routine more in depth and day to day
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -414,11 +414,11 @@ Large Intestine 4 (LI4) (Hand): Relieves mental tension and emotional stagnation
 Affirmation: "I am safe, grounded, and open to receiving abundance."
 
 Day 3-4:
-Spleen 6 (SP6) (Foot): Located 3 finger widths above the inner ankle bone, it supports emotional stability.
+Spleen 6 (SP6) (Foot): Located 3 finger widths above the system ankle bone, it supports emotional stability.
 
 Shen Men (Ear): Calms stress and anxiety.
 
-Affirmation: "I release all blocks to my financial and emotional well-being."
+Affirmation: "I release all blocks to my vision and emotional well-being."
 
 Day 5-7:
 Combine K1 + SP6 + LI4 for deeper grounding.
@@ -436,7 +436,7 @@ Focus: Building self-worth and emotional resilience.
 Day 8-9:
 Heart 7 (HT7) (Hand): Calms the mind and strengthens self-belief.
 
-Spleen 3 (SP3) (Foot): Enhances confidence and inner stability.
+Spleen 3 (SP3) (Foot): Enhances confidence and system stability.
 
 Affirmation: "I trust myself and my ability to create wealth."
 
@@ -490,7 +490,7 @@ Focus: Embodying abundance, aligning with purpose, and celebrating growth.
 Day 22-23:
 Kidney 3 (K3) (Foot): Strengthens willpower and connects you to abundance.
 
-Spleen 6 (SP6) (Foot): Balances emotional and financial flow.
+Spleen 6 (SP6) (Foot): Balances emotional and vision flow.
 
 Affirmation: "Abundance flows to me effortlessly, and I am worthy of receiving it."
 
@@ -540,7 +540,7 @@ context_above: "We can make the routine more in-depth by gradually incorporating
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -565,7 +565,7 @@ context_above: "Can we make the acupuncture routine more in depth and day to day
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -734,7 +734,7 @@ context_above: "Creating a daily progression that integrates multiple acupunctur
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -759,7 +759,7 @@ context_above: "Yes maybe some affirmations and then what would you recommend fo
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -901,7 +901,7 @@ context_above: "Here’s a set of affirmations tailored to each phase of the 30-
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -926,7 +926,7 @@ context_above: "This is perfect thank you!!"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -951,7 +951,7 @@ context_above: "You're so welcome! I'm thrilled this resonates with you, and I�
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -976,7 +976,7 @@ context_above: "Can you help me turn this into a canva doc / guide with steps fo
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1131,7 +1131,7 @@ context_above: "Absolutely! I can help you organize the steps into a clear and v
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1156,7 +1156,7 @@ context_above: "Let’s do detailed descriptions for each so I can just copy and
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1376,7 +1376,7 @@ context_above: "Here are the detailed descriptions for each section, formatted s
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1404,7 +1404,7 @@ context_above: "Can you show me what you think a page should look like?"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1519,7 +1519,7 @@ context_above: "Made with the old version of image generation. New version avail
 provenance: LOCAL
 nature: SCRIPT
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1544,7 +1544,7 @@ context_above: "Should I just use the captions from above or would you recommend
 provenance: HYBRID
 nature: SCRIPT
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1641,7 +1641,7 @@ context_above: "The captions above are designed to work perfectly for Instagram 
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1666,7 +1666,7 @@ context_above: "Yay! Thank you. I absolutely love the mock up you made, can I ha
 provenance: HYBRID
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1694,7 +1694,7 @@ context_above: "Made with the old version of image generation. New version avail
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1719,7 +1719,7 @@ context_above: "Can I have ones like these"
 provenance: HYBRID
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1774,7 +1774,7 @@ context_above: "Let me create refined diagrams focused individually on hands, fe
 provenance: LOCAL
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1799,7 +1799,7 @@ context_above: "This is great thank you so much! So excited to start putting thi
 provenance: HYBRID
 nature: CLAIM
 nodes: [2, 9, 10, 13]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

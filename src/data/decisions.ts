@@ -80,9 +80,9 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Decided — logged for the record',
     effects:
-      'The handoff asked whether "Creature Selves" should be revived as a brand concept or archived. You confirmed it as your original IP — "fully locked in, can be my own cause I can\'t find anything else like it." So it stays: a live brand concept that belongs to the Identity Sovereignty pillar (your animal-wisdom / somatic-embodiment thread). Recording the call here keeps the narrative coherent and stops a half-formed idea from drifting into the build.',
+      'The handoff asked whether "Creature Selves" should be revived as a brand concept or archived. You confirmed it as your original IP — "fully locked in, can be my own cause I can\'t find anything else like it." So it stays: a live brand concept that belongs to the Structure Sovereignty pillar (your animal-wisdom / somatic-embodiment thread). Recording the call here keeps the narrative coherent and stops a half-formed idea from drifting into the build.',
     suggestion:
-      'Nothing needed from you — this just captures the decision. The concept page itself lives under Identity Sovereignty and is queued behind the launch foundation (P3), so nothing half-built shows on the site until it is ready. Send any notes, images, or lines you want in it whenever you like and I fold them in.',
+      'Nothing needed from you — this just captures the decision. The concept page itself lives under Structure Sovereignty and is queued behind the launch foundation (P3), so nothing half-built shows on the site until it is ready. Send any notes, images, or lines you want in it whenever you like and I fold them in.',
     type: 'observation',
     progress: 100,
     status: 'resolved',
@@ -93,7 +93,7 @@ export const DECISIONS: DecisionItem[] = [
       },
     ],
     notes:
-      'Disposition: KEEP as a live brand concept (not deferred, not archived). Client-confirmed original IP 2026-04-05 (#20 GATED→SPEC: "admin confirmed creature selves as original IP, locked in"). Canonical home: Identity Sovereignty pillar (animal-wisdom / somatic-embodiment thread; handoff nodes 13/14, Q10). Building the concept page is the W-040 follow-up, deferred under P3 ("bones-first") — recording the disposition here satisfies the γ.4 gate without leaking an unbuilt section into the live architecture. Source material: docs/archive/source-bundle/.../chatgpt-creature-selves-resources.txt (Partial).',
+      'Disposition: KEEP as a live brand concept (not deferred, not archived). Client-confirmed original IP 2026-04-05 (#20 GATED→SPEC: "admin confirmed creature selves as original IP, locked in"). Canonical home: Structure Sovereignty pillar (animal-wisdom / somatic-embodiment thread; handoff nodes 13/14, Q10). Building the concept page is the W-040 follow-up, deferred under P3 ("bones-first") — recording the disposition here satisfies the γ.4 gate without leaking an unbuilt section into the live architecture. Source material: docs/archive/source-bundle/.../chatgpt-creature-selves-resources.txt (Partial).',
   },
   {
     id: 'paid-tier-matrix',
@@ -173,9 +173,9 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'No rush — site works either way',
     effects:
-      'Your original architecture notes place node 2 (Awareness) under Inner Sovereignty and node 12 (Authenticate) under Identity Sovereignty. The live site has them under Physical and Financial — and the quiz scoring, spiral colors, and node pages all follow the live mapping. This is the last place your notes and the built site disagree, so settling it locks the architecture.',
+      'Your original architecture notes place node 2 (Awareness) under System Sovereignty and node 12 (Authenticate) under Structure Sovereignty. The live site has them under Foundation and Vision — and the quiz scoring, spiral colors, and node pages all follow the live mapping. This is the last place your notes and the built site disagree, so settling it locks the architecture.',
     suggestion:
-      "Keep the live mapping (Awareness → Physical as a body-awareness ELEVATE step; Authenticate → Financial as the UNLOCK move into owning your work). It's been live for weeks and the journey reads naturally. But your notes had a different intent — your call.",
+      "Keep the live mapping (Awareness → Foundation as a body-awareness ELEVATE step; Authenticate → Vision as the UNLOCK move into owning your work). It's been live for weeks and the journey reads naturally. But your notes had a different intent — your call.",
     type: 'multi',
     progress: 30,
     status: 'open',
@@ -183,7 +183,7 @@ export const DECISIONS: DecisionItem[] = [
       {
         label: 'Keep the live mapping',
         description:
-          'Awareness stays in Physical, Authenticate stays in Financial — exactly as the site works today.',
+          'Awareness stays in Foundation, Authenticate stays in Vision — exactly as the site works today.',
         consequence:
           'Nothing changes on the site; we update your architecture notes to match.',
         recommended: true,
@@ -191,7 +191,7 @@ export const DECISIONS: DecisionItem[] = [
       {
         label: 'Restore my original notes',
         description:
-          'Awareness moves to Inner, Authenticate moves to Identity.',
+          'Awareness moves to System, Authenticate moves to Structure.',
         consequence:
           'We re-map both nodes across the spiral, quiz scoring, and node pages (~1 day, no visual disruption).',
       },
@@ -215,7 +215,7 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Whenever you get a look',
     effects:
-      "Your April ask — 'the stars/nodes and name when you hover' — is now the default. Names are hidden at rest; hovering a node makes its name materialize while the node itself wakes up: it glows brighter, spins a touch faster, and its particle weather quickens in its OWN style (fire flares, water swells, crystal shimmers). On phones, names stay always-visible since there's no hover.",
+      "Your April ask — 'the stars/nodes and name when you hover' — is now the default. Names are hidden at rest; hovering a node makes its name materialize while the node itself wakes up: it glows brighter, spins a touch faster, and its particle weather quickens in its OWN style (fire flares, gateway swells, crystal shimmers). On phones, names stay always-visible since there's no hover.",
     suggestion:
       'CONFIRMED 2026-06-22 (admin #17): keep hover names + node waking up. ONE ADDITION shipped this pass — the spiral SHAPE is now more prominent (helix line opacity 0.7->0.92, bolder/wider glowing rails) and near-camera nodes read as glowing COLORED universes instead of white spiky shapes (the "disaster"); bloom raised for "a lil more glowwy." Pending admin eyeball on the preview to confirm the new boldness/glow level.',
     type: 'multi',
@@ -258,7 +258,7 @@ export const DECISIONS: DecisionItem[] = [
       },
     ],
     notes:
-      "Shipped 2026-06-03. Closes the 2026-04-19 hover-nodes ask (her single most-wanted feature). Hover excitement amplifies each node's OWN IconWorld physics rather than a generic effect. The same per-node worlds now also drive subtle ambient motion on node/pillar/water/business pages and the utility surfaces (decisions, library, timeline) — each page moves like the world it belongs to.",
+      "Shipped 2026-06-03. Closes the 2026-04-19 hover-nodes ask (her single most-wanted feature). Hover excitement amplifies each node's OWN IconWorld physics rather than a generic effect. The same per-node worlds now also drive subtle ambient motion on node/pillar/gateway/business pages and the utility surfaces (decisions, library, timeline) — each page moves like the world it belongs to.",
   },
   {
     id: 'spiral-hero-default',
@@ -410,7 +410,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "Unlocks the right fix for the missing-fluoride report — three possible fixes (~30 min, ~1-2 hr, ~45 min) depending on your answer. Without this we can't pick the right one.",
     suggestion:
-      'CLOSED / N/A 2026-06-22 (admin #1): fluoride bug closed. The water-report / contaminant funnel it lived in is no longer surfaced on the spiral (moved to GHL / water-spira-salvtis.dev per #35), so the badge bug is moot here.',
+      'CLOSED / N/A 2026-06-22 (admin #1): fluoride bug closed. The gateway-report / contaminant funnel it lived in is no longer surfaced on the spiral (moved to GHL / gateway-spira-salvtis.dev per #35), so the badge bug is moot here.',
     type: 'multi',
     progress: 100,
     status: 'resolved',
@@ -456,7 +456,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       'Currently the spiral hero quiz CTA falls back to local /quiz (the affinity quiz that scores into 1 of 13 nodes). If you want the CTA to point to your GHL form, name the URL.',
     suggestion:
-      'RESOLVED 2026-06-22 (admin #2): keep local /quiz. No book-a-call button. Affiliate/call CTAs replaced site-wide with two outbound links — water-spira-salvtis.dev (body science) + business-spira-salvtis.dev (business).',
+      'RESOLVED 2026-06-22 (admin #2): keep local /quiz. No book-a-call button. Affiliate/call CTAs replaced site-wide with two outbound links — gateway-spira-salvtis.dev (body science) + business-spira-salvtis.dev (business).',
     type: 'binary',
     progress: 100,
     status: 'resolved',
@@ -521,7 +521,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       'Two paths produce affiliate revenue but only one should be displayed to avoid attribution split. Current code uses the `/admin-wired` Multipure path; today you sent a coupon-coded path instead.',
     suggestion:
-      'CLOSED 2026-06-22 (admin #6): no affiliate water products anywhere on the spiral. Multipure removed from the surface; config preserved in hydration.config.ts only.',
+      'CLOSED 2026-06-22 (admin #6): no affiliate gateway products anywhere on the spiral. Multipure removed from the surface; config preserved in gateway.config.ts only.',
     type: 'binary',
     progress: 100,
     status: 'resolved',
@@ -531,7 +531,7 @@ export const DECISIONS: DecisionItem[] = [
         description:
           'Switch to the new path you sent today (with the coupon code visible in the URL).',
         consequence:
-          'Update the Multipure `affiliateUrl` (env `PUBLIC_AFFILIATE_MULTIPURE`, default in `hydration.config.ts`) to the new path. Strips Google Ads tracking params before saving.',
+          'Update the Multipure `affiliateUrl` (env `PUBLIC_AFFILIATE_MULTIPURE`, default in `gateway.config.ts`) to the new path. Strips Google Ads tracking params before saving.',
       },
       {
         label: 'Keep /admin-wired',
@@ -556,9 +556,9 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Before launch',
     effects:
-      'Filter tier shows "Details Coming Soon" instead of a working link. Either provide the affiliate URL or remove the tier from `hydration.config.ts`.',
+      'Filter tier shows "Details Coming Soon" instead of a working link. Either provide the affiliate URL or remove the tier from `gateway.config.ts`.',
     suggestion:
-      'CLOSED / N/A 2026-06-22 (admin #5, #6): Anespa DX removed from the spiral surface along with all affiliate water tiers. Config preserved only.',
+      'CLOSED / N/A 2026-06-22 (admin #5, #6): Anespa DX removed from the spiral surface along with all affiliate gateway tiers. Config preserved only.',
     type: 'binary',
     progress: 100,
     status: 'resolved',
@@ -572,7 +572,7 @@ export const DECISIONS: DecisionItem[] = [
         label: 'Remove the tier',
         description: "Anespa DX is not a brand you're pursuing.",
         consequence:
-          'I remove the `anespa` entry from `filterTiers` in `hydration.config.ts`. One less filter shown on the water page.',
+          'I remove the `anespa` entry from `filterTiers` in `gateway.config.ts`. One less filter shown on the gateway page.',
       },
     ],
     links: [
@@ -610,15 +610,15 @@ export const DECISIONS: DecisionItem[] = [
     ],
   },
   {
-    id: 'bottled-water-notes',
-    title: 'Bottled-water notes — send your brand breakdown',
+    id: 'bottled-gateway-notes',
+    title: 'Bottled-gateway notes — send your brand breakdown',
     category: 'client-gated',
     ownerNeeded: 'admin',
     urgencyHint: 'Whenever',
     effects:
-      "We are building a bottled-water brand section (Smart Water, Voss, Fiji, etc.), but we can't publish health/pH/sodium claims without dual-citations. You mentioned you have notes on this.",
+      "We are building a bottled-gateway brand section (Smart Gateway, Voss, Fiji, etc.), but we can't publish health/pH/sodium claims without dual-citations. You mentioned you have notes on this.",
     suggestion:
-      'UPDATED 2026-06-22 (admin #19, #29): no deep brand comparison. Just a brief 2-4 sentence bottled-water + microplastics note under the water section (Physical Sovereignty / Feel Good First). DRAFT placed on /water/ — pending admin approval before go-live.',
+      'UPDATED 2026-06-22 (admin #19, #29): no deep brand comparison. Just a brief 2-4 sentence bottled-gateway + microplastics note under the gateway section (Foundation Sovereignty / Feel Good First). DRAFT placed on /gateway/ — pending admin approval before go-live.',
     type: 'binary',
     progress: 75,
     status: 'partial',
@@ -810,9 +810,9 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'both',
     urgencyHint: 'Mapping confirmation pending',
     effects:
-      "Decides the public-vs-behind-capture content architecture. Affects: what's on /water/[slug] (currently 6 studio branches), what the public site's voice feels like, what depth library lives in GHL.",
+      "Decides the public-vs-behind-capture content architecture. Affects: what's on /gateway/[slug] (currently 6 studio branches), what the public site's voice feels like, what depth library lives in GHL.",
     suggestion:
-      'RESOLVED 2026-06-22 (admin #35): Option A — FULL swap. ALL water funnel branch content (planet, energy, cancer, how-cells-work) belongs in GHL / water-spira-salvtis.dev. The spiral LINKS OUT, it does not host deep water content. All 6 branches now visible:false (unlinked, markdown preserved); /water/ rebuilt as a foundation-first section with two outbound CTAs. Supersedes the earlier "keep 3 visible" mapping.',
+      'RESOLVED 2026-06-22 (admin #35): Option A — FULL swap. ALL gateway funnel branch content (planet, energy, cancer, how-cells-work) belongs in GHL / gateway-spira-salvtis.dev. The spiral LINKS OUT, it does not host deep gateway content. All 6 branches now visible:false (unlinked, markdown preserved); /gateway/ rebuilt as a foundation-first section with two outbound CTAs. Supersedes the earlier "keep 3 visible" mapping.',
     type: 'multi',
     progress: 100,
     status: 'resolved',
@@ -890,7 +890,7 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: '4jp',
     urgencyHint: 'When deciding tiers',
     effects:
-      "You sent a Coldstream affiliate URL today. The brand does NOT have a tier in `hydration.config.ts`. If it stays out, the affiliate revenue from your referral won't flow through the spiral. If it goes in, the filter page gets an extra tier.",
+      "You sent a Coldstream affiliate URL today. The brand does NOT have a tier in `gateway.config.ts`. If it stays out, the affiliate revenue from your referral won't flow through the spiral. If it goes in, the filter page gets an extra tier.",
     suggestion:
       "Add as new tier if it fits your filter recommendation framework. Skip if Coldstream is an experimental/alternative you don't want to promote prominently.",
     type: 'multi',
@@ -899,7 +899,7 @@ export const DECISIONS: DecisionItem[] = [
     options: [
       {
         label: 'New filter tier',
-        description: 'Add to `hydration.config.ts` as a 6th tier with the URL.',
+        description: 'Add to `gateway.config.ts` as a 6th tier with the URL.',
         consequence:
           'Spiral filter page gains a new option. Tier ordering / framing needs admin input.',
       },
@@ -928,7 +928,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       'Node 5 trim (now 3 elements: your hook + documentary + 2 buttons) needs the documentary in slot 2. Two paths: ship Node 5 now with a placeholder and swap when video is ready, OR wait to update Node 5 until the documentary is filmed and ready.',
     suggestion:
-      'CONFIRMED 2026-06-22 (admin #8, #26): ship Node 5 with placeholder, do not gate on the video. DONE — /water/ rebuilt as hook + documentary placeholder + foundation-first content + two buttons.',
+      'CONFIRMED 2026-06-22 (admin #8, #26): ship Node 5 with placeholder, do not gate on the video. DONE — /gateway/ rebuilt as hook + documentary placeholder + foundation-first content + two buttons.',
     type: 'binary',
     progress: 100,
     status: 'resolved',
@@ -991,13 +991,13 @@ export const DECISIONS: DecisionItem[] = [
     ],
   },
   {
-    id: 'inner-child-book-packaging',
-    title: 'Inner Child Book — standalone product, gated freebie, or park it?',
+    id: 'system-child-book-packaging',
+    title: 'System Child Book — standalone product, gated freebie, or park it?',
     category: 'strategic',
     ownerNeeded: 'admin',
     urgencyHint: 'No rush — nothing on the site waits on this',
     effects:
-      'Your "inner child book" idea (the 5-part somatic + inner-child + art-ritual workbook that mirrors the E•A•U Spiral) is too big to bury inside one node — it touches 7 of the 13 nodes. It needs a home: its own product, a gated freebie on the hub, or parked for later. Nothing currently on the site depends on this; it only decides where the concept goes next.',
+      'Your "system child book" idea (the 5-part somatic + system-child + art-ritual workbook that mirrors the E•A•U Spiral) is too big to bury inside one node — it touches 7 of the 13 nodes. It needs a home: its own product, a gated freebie on the hub, or parked for later. Nothing currently on the site depends on this; it only decides where the concept goes next.',
     suggestion:
       "Make it a standalone product (its own book / digital workbook with its own title + funnel), parked in the post-launch product backlog. It reads as one of your signature offers, not a page — and going standalone keeps the option to surface a gated excerpt on the hub later. We don't build it until the content layer (#31) and the free/email/paid line (#7) land; deciding now is just claiming the lane. Optional cheap step: a 'notify me' waitlist on the hub so we build to real interest.",
     type: 'multi',
@@ -1035,12 +1035,12 @@ export const DECISIONS: DecisionItem[] = [
       {
         label: 'Decision record',
         url: repoUrl(
-          'blob/main/docs/design-proposals/2026-06-18-inner-child-book-packaging-decision.md',
+          'blob/main/docs/design-proposals/2026-06-18-system-child-book-packaging-decision.md',
         ),
       },
     ],
     notes:
-      'This is the γ.3 item (GH#19). Studio recommendation recorded 2026-06-18: standalone product, post-launch scope. Held at IN-REVIEW pending admin confirm (SOP-SS-CLT-001 — never auto-resolve without her word). Concept source: docs/archive/extracted/mindset/inner-child-book-concept.md (DOC-M-16). Build depends on #31 (product pipeline) + #7 (free/email/paid boundary).',
+      'This is the γ.3 item (GH#19). Studio recommendation recorded 2026-06-18: standalone product, post-launch scope. Held at IN-REVIEW pending admin confirm (SOP-SS-CLT-001 — never auto-resolve without her word). Concept source: docs/archive/extracted/mindset/system-child-book-concept.md (DOC-M-16). Build depends on #31 (product pipeline) + #7 (free/email/paid boundary).',
   },
   {
     id: 'meta-pixel-tracking',
@@ -1150,7 +1150,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "Captures the state of admin's GHL funnel pages as of 2026-05-17 so the studio knows what page-states she's sitting on. Not actionable by studio (these are her GHL admin slugs), but useful as context for which Sovereign-side CTAs have working targets.",
     suggestion:
-      'Re-snapshot this row whenever admin sends a new GHL admin screenshot. Items: Landing live, Quiz live, Thank-you build-now, 7 branches building (athletes/fertility/gut-skin/inflammation/energy/planet/cancer), Water Hub live, Members hub live, Book-a-call calendar-URL-pending.',
+      'Re-snapshot this row whenever admin sends a new GHL admin screenshot. Items: Landing live, Quiz live, Thank-you build-now, 7 branches building (athletes/archetype-delta/gut-skin/inflammation/energy/planet/cancer), Gateway Hub live, Members hub live, Book-a-call calendar-URL-pending.',
     type: 'observation',
     // 9 of 12 slugs live/in-flight per the notes below — the bar must agree
     // with the partial status icon (was 100, flagged by the 2026-06-05
@@ -1197,7 +1197,7 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: '4jp',
     urgencyHint: 'Ship next',
     effects:
-      'Node 5 on Sovereign Spiral becomes: (a) admin\'s hook paragraph + headline, (b) the documentary, (c) two buttons — "Find out what\'s in your water" (zip dropdown + bottle-water cost breakdown) and "How it may be affecting you / What to do about it →" (deeper dive into GHL pages). Less compositing on Sovereign; water mechanics live in GHL.',
+      'Node 5 on Sovereign Spiral becomes: (a) admin\'s hook paragraph + headline, (b) the documentary, (c) two buttons — "Find out what\'s in your gateway" (zip dropdown + bottle-gateway cost breakdown) and "How it may be affecting you / What to do about it →" (deeper dive into GHL pages). Less compositing on Sovereign; gateway mechanics live in GHL.',
     suggestion:
       'Implement the 3-element layout in `src/pages/nodes/[id].astro` for nodeId=5. Documentary slot strategy resolves separately via `documentary-video` (placeholder-then-swap vs gate).',
     type: 'observation',
@@ -1207,20 +1207,20 @@ export const DECISIONS: DecisionItem[] = [
       'Layout resolved 2026-05-16 by admin (verbatim Node 5 spec in morning iMessage). Implementation work is separate (and depends on `documentary-video` for video-slot strategy) but the layout decision itself is locked.',
   },
   {
-    id: 'bottle-water-cost-breakdown-defer',
-    title: 'Bottled-water cost breakdown — pause for now',
+    id: 'bottle-gateway-cost-breakdown-defer',
+    title: 'Bottled-gateway cost breakdown — pause for now',
     category: 'urgent',
     ownerNeeded: '4jp',
     urgencyHint: 'Disable on next deploy',
     effects:
-      "Bottled-water cost breakdown page can be disabled in current state. admin wants to preserve the info (don't lose it) but defer until GHL migration is straightened out — the breakdown will likely live in GHL with the other water content, not on Sovereign.",
+      "Bottled-gateway cost breakdown page can be disabled in current state. admin wants to preserve the info (don't lose it) but defer until GHL migration is straightened out — the breakdown will likely live in GHL with the other gateway content, not on Sovereign.",
     suggestion:
-      'Hide the bottled-water cost breakdown from current routes; keep source content + config so it can be re-enabled or migrated to GHL later. Document the freeze.',
+      'Hide the bottled-gateway cost breakdown from current routes; keep source content + config so it can be re-enabled or migrated to GHL later. Document the freeze.',
     type: 'observation',
     progress: 100,
     status: 'resolved',
     notes:
-      'Resolved 2026-05-16 by admin: "all filter stuff after quiz & bottled water cost breakdown, can be disabled right now (the specific filter info and names - I don\'t want to lose it but let\'s get everything else straightened first)". Supersedes her earlier same-morning "I like the bottled water breakdown so let\'s keep that please!!" — latest wins.',
+      'Resolved 2026-05-16 by admin: "all filter stuff after quiz & bottled gateway cost breakdown, can be disabled right now (the specific filter info and names - I don\'t want to lose it but let\'s get everything else straightened first)". Supersedes her earlier same-morning "I like the bottled gateway breakdown so let\'s keep that please!!" — latest wins.',
   },
   {
     id: 'filter-recs-after-quiz-defer',
@@ -1276,17 +1276,17 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Before final HTML delivery',
     effects:
-      'admin\'s GHL table shows 7 branches (athletes, fertility, gut-skin, inflammation, energy, planet, cancer). Our Sovereign source has 6 (athletic, fertility, gut-hormones, autoimmune, cancer-support, sustainability). The "energy" slug has no source file in our repo — needs admin input on whether it maps to an existing source, lives in her existing GHL content, or needs new copy.',
+      'admin\'s GHL table shows 7 branches (athletes, archetype-delta, gut-skin, inflammation, energy, planet, cancer). Our Sovereign source has 6 (archetype-alpha, archetype-delta, archetype-epsilon, archetype-beta, archetype-gamma, archetype-zeta). The "energy" slug has no source file in our repo — needs admin input on whether it maps to an existing source, lives in her existing GHL content, or needs new copy.',
     suggestion:
-      'Confirm the 6 mappings (athletes←athletic, fertility←fertility, gut-skin←gut-hormones, inflammation←autoimmune, planet←sustainability, cancer←cancer-support) and tell me where the "energy" branch content lives.',
+      'Confirm the 6 mappings (athletes←archetype-alpha, archetype-delta←archetype-delta, gut-skin←archetype-epsilon, inflammation←archetype-beta, planet←archetype-zeta, cancer←archetype-gamma) and tell me where the "energy" branch content lives.',
     type: 'multi',
     progress: 0,
     status: 'open',
     options: [
       {
-        label: 'Maps to athletic',
+        label: 'Maps to archetype-alpha',
         description:
-          'Athletic branch = the energy branch under a different name.',
+          'Archetype-alpha branch = the energy branch under a different name.',
         consequence:
           'I rename in the export; 6 branches cover 7 slugs via alias.',
       },
@@ -1346,14 +1346,14 @@ export const DECISIONS: DecisionItem[] = [
   // ============ NEWLY SURFACED (previously only on GitHub — now on the board) ============
   {
     id: 'bottle-pricing-verify',
-    title: 'Bottled-water pricing — are the new numbers right?',
+    title: 'Bottled-gateway pricing — are the new numbers right?',
     category: 'urgent',
     ownerNeeded: 'admin',
     urgencyHint: 'Quick check — 30 seconds',
     effects:
-      "Bottle prices were previously hard-coded in the water-report config. I've externalized them to a JSON file so they can be updated without touching TypeScript. But the placeholder bottle numbers still need YOUR eyes — I don't know if the Store brand, Fiji, or Essentia prices match what you actually see. If prices are wrong, visitors see incorrect cost comparisons and the trust breaks.",
+      "Bottle prices were previously hard-coded in the gateway-report config. I've externalized them to a JSON file so they can be updated without touching TypeScript. But the placeholder bottle numbers still need YOUR eyes — I don't know if the Store brand, Fiji, or Essentia prices match what you actually see. If prices are wrong, visitors see incorrect cost comparisons and the trust breaks.",
     suggestion:
-      'Open the water-report page, look at the bottled-water cost breakdown, and mentally check: do Store brand, Fiji, and Essentia look right? If anything is off, reply with the correct price and source URL.',
+      'Open the gateway-report page, look at the bottled-gateway cost breakdown, and mentally check: do Store brand, Fiji, and Essentia look right? If anything is off, reply with the correct price and source URL.',
     type: 'multi',
     progress: 50,
     status: 'partial',
@@ -1390,18 +1390,18 @@ export const DECISIONS: DecisionItem[] = [
       },
     ],
     notes:
-      'Prices externalized to `src/data/runtime/bottled-prices.json` (commit ec32b6f). Config at `hydration.config.ts` now reads from this file. Future corrections can happen in JSON instead of TypeScript, then flow through the normal deploy — but for now, admin needs to verify the initial values.',
+      'Prices externalized to `src/data/runtime/bottled-prices.json` (commit ec32b6f). Config at `gateway.config.ts` now reads from this file. Future corrections can happen in JSON instead of TypeScript, then flow through the normal deploy — but for now, admin needs to verify the initial values.',
   },
   {
-    id: 'water-education-section',
-    title: 'Bottled-water brand education — add to site?',
+    id: 'gateway-education-section',
+    title: 'Bottled-gateway brand education — add to site?',
     category: 'client-gated',
     ownerNeeded: 'admin',
     urgencyHint: 'When ready',
     effects:
-      "The water-report page currently shows filter recommendations and costs but doesn't EDUCATE visitors about why most bottled water is just tap water in plastic, what brands are actually selling, or how your filters compare. A brand-education section (short explainer + brand-by-brand breakdown) would build trust and drive urgency toward your filters. But it's content YOU have to own — I can't write your brand's voice on this.",
+      "The gateway-report page currently shows filter recommendations and costs but doesn't EDUCATE visitors about why most bottled gateway is just tap gateway in plastic, what brands are actually selling, or how your filters compare. A brand-education section (short explainer + brand-by-brand breakdown) would build trust and drive urgency toward your filters. But it's content YOU have to own — I can't write your brand's voice on this.",
     suggestion:
-      'Three paths: (1) I write a generic "bottled water reality check" section and you review/tweak; (2) you write or record what you want said and I format it; (3) skip entirely and let the existing filter-comparison do the work. Your brand, your call.',
+      'Three paths: (1) I write a generic "bottled gateway reality check" section and you review/tweak; (2) you write or record what you want said and I format it; (3) skip entirely and let the existing filter-comparison do the work. Your brand, your call.',
     type: 'multi',
     progress: 10,
     status: 'open',
@@ -1409,7 +1409,7 @@ export const DECISIONS: DecisionItem[] = [
       {
         label: 'I draft it, you format it',
         description:
-          'You write (or voice-note) the education angle; I turn it into a polished section on the water page.',
+          'You write (or voice-note) the education angle; I turn it into a polished section on the gateway page.',
         consequence:
           'Content comes from you in your voice. I handle layout, styling, and deployment. Most authentic path.',
         recommended: true,
@@ -1417,26 +1417,26 @@ export const DECISIONS: DecisionItem[] = [
       {
         label: 'You write a generic version, I tweak',
         description:
-          'I write a factual "bottled water 101" section; you rewrite it in your voice before it goes live.',
+          'I write a factual "bottled gateway 101" section; you rewrite it in your voice before it goes live.',
         consequence:
           'Faster start. More editing passes (my draft → your rewrite → polish).',
       },
       {
         label: 'Skip — no education section',
         description:
-          'Keep the water page focused on filters + costs. No brand education.',
+          'Keep the gateway page focused on filters + costs. No brand education.',
         consequence:
           'One less page section. Filter comparison alone carries the persuasion.',
       },
     ],
     links: [
       {
-        label: 'GH#64 water education',
+        label: 'GH#64 gateway education',
         url: 'https://github.com/organvm-iii-ergon/sovereign-systems--spiral-template/issues/64',
       },
     ],
     notes:
-      'This is the "W-068" item. The content itself needs to come from admin — I can\'t write her brand voice on bottled-water critique without her direction. If she chooses Option 2 (generic draft from me + her rewrite), I can produce a neutral factual draft within a few hours.',
+      'This is the "W-068" item. The content itself needs to come from admin — I can\'t write her brand voice on bottled-gateway critique without her direction. If she chooses Option 2 (generic draft from me + her rewrite), I can produce a neutral factual draft within a few hours.',
   },
   {
     id: 'revenue-agreement',
@@ -1481,7 +1481,7 @@ export const DECISIONS: DecisionItem[] = [
       },
     ],
     notes:
-      'This is the "α.3" item. 10% of affiliate revenue from filter/water-product sales through the Sovereign Systems funnel. Not gating any launch — but cleaner to have in place BEFORE the first commission arrives rather than after.',
+      'This is the "α.3" item. 10% of affiliate revenue from filter/gateway-product sales through the Sovereign Systems funnel. Not gating any launch — but cleaner to have in place BEFORE the first commission arrives rather than after.',
   },
   {
     id: 'video-asset-access',
@@ -1536,7 +1536,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "The visual pass shipped a coordinated look across all spiral surfaces: consistent glow language, unified icon-world physics, per-node atmospherics, and the hover-name/wake interaction. You saw it. You asked for some tuning. I need your specific notes — what's working, what's not, what should change — before I can push the next refinement round.",
     suggestion:
-      'Spend 5 minutes clicking through the site: the homepage spiral, a few node pages, the water page. Note anything that feels off (too bright, too dark, too slow, too fast, wrong color, missing something). Even "I like it, ship it" is a valid answer — just tell me.',
+      'Spend 5 minutes clicking through the site: the homepage spiral, a few node pages, the gateway page. Note anything that feels off (too bright, too dark, too slow, too fast, wrong color, missing something). Even "I like it, ship it" is a valid answer — just tell me.',
     type: 'multi',
     progress: 30,
     status: 'partial',
@@ -1578,7 +1578,7 @@ export const DECISIONS: DecisionItem[] = [
     effects:
       "There's a discrepancy between the locked architecture doc and the actual site config about which spiral nodes map to which of the 4 pillars. The site treats it one way; the planning doc says another. This affects: (1) how node pages cross-link to pillar pages, (2) how the content migration to GHL maps node content, and (3) quiz results → pillar routing. Needs a single authoritative mapping.",
     suggestion:
-      "Look at the 13 spiral nodes and the 4 pillars (Physical, Inner, Identity, Financial). Tell me: which nodes feel like they belong to which pillar to YOU? There's no wrong answer — your mapping is the source of truth.",
+      "Look at the 13 spiral nodes and the 4 pillars (Foundation, System, Structure, Vision). Tell me: which nodes feel like they belong to which pillar to YOU? There's no wrong answer — your mapping is the source of truth.",
     type: 'free-text',
     progress: 10,
     status: 'open',

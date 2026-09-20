@@ -13,12 +13,12 @@ sections:
     atoms: [ATM-B-003, ATM-B-005, ATM-B-007]
 -->
 ---
-title: "90-day Enagic water sales playbook"
+title: "90-day Enagic gateway sales playbook"
 source_file: "ChatGPT-100 sales strategy.txt"
 source_folder: "business"
 nodes: [11]
 readiness: "Partial"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: STATISTIC
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "100 sales strategy"
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -91,7 +91,7 @@ context_above: "Acting as a brand new enagic salesman who just got their distrib
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -106,7 +106,7 @@ If you’re starting fresh as an Enagic distributor and want to get to 100 sales
 Step 1: Build Your Foundation (Week 1)
 
 
-Set up your funnel: Even a simple landing page with a short video (your story + water demo + CTA to book a call) can convert.
+Set up your funnel: Even a simple landing page with a short video (your story + gateway demo + CTA to book a call) can convert.
 
 Social media presence: Optimize Instagram, Facebook, LinkedIn. Use a clean bio, pinned posts, and a “Start Here” highlight so people know what you do.
 
@@ -122,9 +122,9 @@ Step 2: Content + Outreach Strategy
 Daily (non-negotiable):
 
 
-1 long-form story (Instagram/Facebook Story): share your health journey, water benefits, behind-the-scenes of your day. Stories sell the lifestyle.
+1 long-form story (Instagram/Facebook Story): share your health journey, gateway benefits, behind-the-scenes of your day. Stories sell the lifestyle.
 
-1 short-form video (Reel/TikTok): trending audio + short demo (pouring Coke into Kangen water, OR pH test, OR anti-oxidant test).
+1 short-form video (Reel/TikTok): trending audio + short demo (pouring Coke into Kangen gateway, OR pH test, OR anti-oxidant test).
 
 10+ direct messages: reach out to new followers, re-engage old contacts, or comment and connect with people in health/fitness spaces.
 
@@ -132,9 +132,9 @@ Daily (non-negotiable):
 Weekly:
 
 
-Go Live or Demo: once a week, do a water demo live or in-person (at a gym, café, or with friends).
+Go Live or Demo: once a week, do a gateway demo live or in-person (at a gym, café, or with friends).
 
-Local business outreach: target chiropractors, wellness centers, yoga studios, juice bars. Offer to set up a free water station or leave flyers/cards.
+Local business outreach: target chiropractors, wellness centers, yoga studios, juice bars. Offer to set up a free gateway station or leave flyers/cards.
 
 Facebook Groups / LinkedIn: join wellness, mom groups, or entrepreneur groups. Post tips and subtle education, then funnel interested people into calls.
 
@@ -145,7 +145,7 @@ Step 3: 90-Day Sales Pipeline
 
 Month 1 (Foundation & Storytelling): Focus on your story and building curiosity. Goal = 20–30 sales (mostly warm market).
 
-Month 2 (Expand & Demo): Run 1–2 in-person events each week. Get referrals, offer free water trials, and showcase testimonials. Goal = 30–40 sales.
+Month 2 (Expand & Demo): Run 1–2 in-person events each week. Get referrals, offer free gateway trials, and showcase testimonials. Goal = 30–40 sales.
 
 Month 3 (Scale & Ads): Start testing Facebook/Instagram ads with your best-performing Reel. Also, launch referral incentives (“Refer a friend, get $100 gift card”). Goal = 30–40 sales.
 
@@ -154,13 +154,13 @@ Month 3 (Scale & Ads): Start testing Facebook/Instagram ads with your best-perfo
 Step 4: Conversion Tactics
 
 
-Free water trial funnel: “DM me WATER and I’ll get you a free gallon.” Then follow up in 24 hours with their experience → book a call.
+Free gateway trial funnel: “DM me GATEWAY and I’ll get you a free gallon.” Then follow up in 24 hours with their experience → book a call.
 
-Curiosity posts: Use hooks like: “Why your bottled water is making you sick” or “This $4,000 machine replaced every cleaning product in my home.”
+Curiosity posts: Use hooks like: “Why your bottled gateway is making you sick” or “This $4,000 machine replaced every cleaning product in my home.”
 
 Story highlights: Before/after testimonials, FAQ, health benefits, business opportunity.
 
-Scarcity & urgency: Run a 7-day “water challenge” each month. Sign-ups get daily education + chance to buy at the end.
+Scarcity & urgency: Run a 7-day “gateway challenge” each month. Sign-ups get daily education + chance to buy at the end.
 
 
 
@@ -186,16 +186,16 @@ Even 5–10 recruits who each bring in 3–5 sales can cut your personal workloa
 
 
 
-Would you like me to map this into a week-by-week execution plan (like “Week 1 = setup + 20 DMs/day, Week 2 = launch free water trial funnel,” etc.) so you can follow it step by step?
+Would you like me to map this into a week-by-week execution plan (like “Week 1 = setup + 20 DMs/day, Week 2 = launch free gateway trial funnel,” etc.) so you can follow it step by step?
 
 
 <!-- ATM-B-003 OUT
 next: ATM-B-004
-context_below: "Yes please! And what do you mean by the 7 day water challenge?"
+context_below: "Yes please! And what do you mean by the 7 day gateway challenge?"
 -->
 
 <!-- ATM-B-004 IN
-idea: "Yes please! And what do you mean by the 7 day water challenge?"
+idea: "Yes please! And what do you mean by the 7 day gateway challenge?"
 section: "Prompt"
 position: 4
 of_total: 7
@@ -204,7 +204,7 @@ context_above: "If you’re starting fresh as an Enagic distributor and want to 
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -212,7 +212,7 @@ strike_phase: 1C
 -->
 
 ## Prompt:
-Yes please! And what do you mean by the 7 day water challenge?
+Yes please! And what do you mean by the 7 day gateway challenge?
 
 
 <!-- ATM-B-004 OUT
@@ -226,11 +226,11 @@ section: "Response"
 position: 5
 of_total: 7
 prev: ATM-B-004
-context_above: "Yes please! And what do you mean by the 7 day water challenge?"
+context_above: "Yes please! And what do you mean by the 7 day gateway challenge?"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -238,7 +238,7 @@ strike_phase: 1C
 -->
 
 ## Response:
-Perfect — let’s build this like a step-by-step 12-week playbook for your first 90 days. I’ll also explain the 7-Day Water Challenge in detail because it can be one of your strongest conversion tools.
+Perfect — let’s build this like a step-by-step 12-week playbook for your first 90 days. I’ll also explain the 7-Day Gateway Challenge in detail because it can be one of your strongest conversion tools.
 
 
 
@@ -254,11 +254,11 @@ Week 1: Foundation & Launch
 
 ✅ Order business cards + flyers.
 
-✅ Create your “Free Water” or “7-Day Challenge” sign-up form (Google Form, Typeform, or funnel page).
+✅ Create your “Free Gateway” or “7-Day Challenge” sign-up form (Google Form, Typeform, or funnel page).
 
 🎥 Post 2 reels this week (use trending audio + simple demo).
 
-💬 Reach out to your 200-name warm list. Invite them to try water or join the challenge.
+💬 Reach out to your 200-name warm list. Invite them to try gateway or join the challenge.
 
 
 
@@ -269,9 +269,9 @@ Weeks 2–3: Build Curiosity + Warm Market Push
 
 💬 10+ DMs/day (reconnect old contacts, reply to story viewers).
 
-🌊 Start your first 7-Day Water Challenge (details below).
+🌊 Start your first 7-Day Gateway Challenge (details below).
 
-🎤 Do 1 live water demo on FB/IG.
+🎤 Do 1 live gateway demo on FB/IG.
 
 🏢 Visit 2–3 local businesses with flyers/business cards.
 Target: 15–20 sales by the end of week 3.
@@ -322,21 +322,21 @@ Target: Final 20–25 sales. (Total ~100 by 90 days).
 
 
 
-🌊 The 7-Day Water Challenge
+🌊 The 7-Day Gateway Challenge
 
 
 This is your conversion machine — it creates urgency, education, and proof. Here’s how it works:
 
 
 Free Sign-Up
-Post on IG/FB: “DM me WATER to join my 7-Day Challenge. You’ll get 1 gallon/day of antioxidant water + a 7-day mini-guide.”
+Post on IG/FB: “DM me GATEWAY to join my 7-Day Challenge. You’ll get 1 gallon/day of antioxidant gateway + a 7-day mini-guide.”
 
 Collect name, phone/email, and intention (health, energy, skin, digestion, etc.).
 
-Daily Water Delivery (or Pick-Up)
+Daily Gateway Delivery (or Pick-Up)
 Give them 1 gallon/day (label jugs with your brand name + IG handle).
 
-Each day, send them a short educational text or voice note (pH, antioxidants, toxins in bottled water, etc.).
+Each day, send them a short educational text or voice note (pH, antioxidants, toxins in bottled gateway, etc.).
 
 Daily Check-In Prompts
 Day 2: “How’s your energy?”
@@ -377,7 +377,7 @@ context_above: "Perfect — let’s build this like a step-by-step 12-week playb
 provenance: LOCAL
 nature: QUESTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -403,7 +403,7 @@ context_above: "Is this fitting with today’s trends & psychology?"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -426,7 +426,7 @@ UGC vibes → Not polished commercials but “I filmed this in my kitchen” sty
 
 
 
-🌊 The 7-Day Water Challenge
+🌊 The 7-Day Gateway Challenge
 
 
 This leverages a few powerful psychological levers:
@@ -438,7 +438,7 @@ Consistency & micro-commitments → Daily check-ins make people invested. Each g
 
 Immediate proof → They feel changes (digestion, energy, skin) within a week. This bypasses skepticism faster than any fact sheet.
 
-Community/trend tie-in → Challenges are huge on social (75 Hard, Dry January, Glow Ups). You’re making water part of that cultural momentum.
+Community/trend tie-in → Challenges are huge on social (75 Hard, Dry January, Glow Ups). You’re making gateway part of that cultural momentum.
 
 
 
@@ -451,7 +451,7 @@ Curiosity-first → Instead of “Buy a $4,980 machine,” it’s “Try this fr
 
 Social proof → Every testimonial, before/after, or screenshot builds trust. Today’s buyers don’t trust companies, they trust peers.
 
-Health & self-optimization trends → Wellness, detox, gut health, and biohacking are massive. You’re plugging water into already trending conversations.
+Health & self-optimization trends → Wellness, detox, gut health, and biohacking are massive. You’re plugging gateway into already trending conversations.
 
 
 

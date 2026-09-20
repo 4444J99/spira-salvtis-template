@@ -50,8 +50,8 @@ GitHub Project Board (#5)  ← EDIT HERE (via transition-issue.sh only)
 | #38 | α | P1-high | WORK | GATED |  | Payment-rail decision required before subscription coll; Ext: admin/4jp |
 | #206 | α | P2-medium | DECISION | GATED |  | Decision-card selection needed for node-to-pillar mappi; Ext: admin/4jp |
 | #210 | α | P2-medium | WORK | GATED |  | Stripe-vs-GHL payment-rail decision required before $99; Ext: admin/4jp |
-| #62 | β | P0-blocker | BLOCKER | GATED |  | admin sends water-report badge state plus ZIP; reprodu; Ext: admin |
-| #6 | β | P1-high | WORK | CLOSED |  | Begin physical sovereignty node build |
+| #62 | β | P0-blocker | BLOCKER | GATED |  | admin sends gateway-report badge state plus ZIP; reprodu; Ext: admin |
+| #6 | β | P1-high | WORK | CLOSED |  | Begin foundation sovereignty node build |
 | #8 | β | P1-high | WORK | CLOSED |  | Spiral interaction target (blocked by #13) |
 | #9 | β | P1-high | WORK | CLOSED |  | Quiz routing + GHL integration (blocked by #14) |
 | #15 | β | P1-high | WORK | CLOSED |  | Merge V5/V6 prototypes (blocked by #13) |
@@ -63,7 +63,7 @@ GitHub Project Board (#5)  ← EDIT HERE (via transition-issue.sh only)
 | #29 | β | P1-high | WORK | CLOSED |  | Closed; historical EWG API row normalized for board par |
 | #30 | β | P1-high | DECISION | GATED |  | admin decision needed on astrology/cycle/human-design ; Ext: admin |
 | #7 | β | P2-medium | DECISION | GATED |  | Subscription boundary model decision; Ext: admin |
-| #17 | β | P2-medium | DECISION | CLOSED |  | Water Hub placement decision from admin; Ext: admin |
+| #17 | β | P2-medium | DECISION | CLOSED |  | Gateway Hub placement decision from admin; Ext: admin |
 | #18 | β | P2-medium | DECISION | GATED |  | Video hosting strategy decision; Ext: admin |
 | #22 | β | P2-medium | WORK | CLOSED |  | Triage atoms into buckets |
 | #26 | β | P2-medium | WORK | CLOSED |  | Route SCRIPT atoms to social calendar files |
@@ -73,18 +73,18 @@ GitHub Project Board (#5)  ← EDIT HERE (via transition-issue.sh only)
 | #51 | β | P2-medium | WORK | GATED |  | Provision CF_ANALYTICS_TOKEN/analytics destination befo; Ext: 4jp |
 | #61 | β | P2-medium | WORK | GATED |  | admin reviews A1 live spiral distinctness; then decide; Ext: admin |
 | #63 | β | P2-medium | WORK | GATED |  | Land schema/externalization; wait for admin store pric; Ext: admin |
-| #64 | β | P2-medium | WORK | GATED |  | admin/client approval on bottled-water claim set and c; Ext: admin |
+| #64 | β | P2-medium | WORK | GATED |  | admin/client approval on bottled-gateway claim set and c; Ext: admin |
 | #184 | β | P2-medium | WORK | GATED |  | Post-feedback tuning only after admin responds to visu; Ext: admin |
 | #211 | β | P2-medium | BLOCKER | GATED |  | Provision GHL_WEBHOOK_URL Worker secret before GHL lead; Ext: 4jp/admin |
-| #65 | β | P3-backlog | WORK | GATED |  | After W-069 stabilizes, add water-personalized-plan cap; Ext: admin |
+| #65 | β | P3-backlog | WORK | GATED |  | After W-069 stabilizes, add gateway-personalized-plan cap; Ext: admin |
 | #98 | β | P3-backlog | WORK | GATED |  | admin selects node-picker/admin direction before one-a; Ext: admin |
 | #207 | β | P3-backlog | BLOCKER | GATED |  | Client reproduction details needed before changing quiz; Ext: admin |
 | #10 | γ | P3-backlog | WORK | GATED |  | Store scaffold is live; product/pricing/payment-rail in; Ext: admin/4jp |
 | #11 | γ | P3-backlog | WORK | CLOSED |  | Keystatic CMS setup |
-| #19 | γ | P3-backlog | DECISION | GATED |  | Inner Child Book packaging decision; Ext: admin |
+| #19 | γ | P3-backlog | DECISION | GATED |  | System Child Book packaging decision; Ext: admin |
 | #20 | γ | P3-backlog | DECISION | GATED |  | admin confirms creature-selves packaging/content scope; Ext: admin |
 | #39 | γ | P3-backlog | DECISION | GATED |  | admin nonprofit/donation model decision required befor; Ext: admin |
-| #100 | γ | P3-backlog | WORK | GATED |  | admin/nonprofit visual identity decision required befo; Ext: admin |
+| #100 | γ | P3-backlog | WORK | GATED |  | admin/nonprofit visual structure decision required befo; Ext: admin |
 | #33 | ω | P1-high | WORK | CLOSED |  | Closed; board view creation row normalized for board pa |
 | #35 | ω | P2-medium | WORK | CLOSED |  | Closed; CLAUDE.md vacuum refresh row normalized for boa |
 | #12 | ω | P3-backlog | WORK | CLOSED | ✅ | Complete — citation corrected 2026-04-04 |

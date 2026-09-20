@@ -47,7 +47,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -102,7 +102,7 @@ context_above: "!media/image1.png{width='2.625in' height='1.3553412073490814in'}
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -156,7 +156,7 @@ context_above: "INTRODUCTION: Your Body Is Not Random"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -229,7 +229,7 @@ context_above: "TABLE OF CONTENTS"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -267,7 +267,7 @@ context_above: "ACTUALLY WORKS"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -305,7 +305,7 @@ context_above: "Menstrual Phase --- Days 1--5 Winter"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -326,7 +326,7 @@ Estrogen rises → creativity, optimism, energy returning.
 
 - **Biology & Chemistry:** Estrogen begins its rise as the brain signals the ovaries to mature a new follicle. Rising Estrogen increases communication between the brain\'s hemispheres, which boosts cognitive function, verbal skills, and general mood.
 
-- **Energy & Focus:** Energy begins to feel new and outward-facing. Curiosity is back, and ideas feel exciting. **Focus on:**Learning new skills, brainstorming, starting new projects, light team collaboration, and physical training.
+- **Energy & Focus:** Energy begins to feel new and outward-facing. Curiosity is back, and ideas feel exciting. **Focus on:**Learning new skills, brainstorming, starting new projects, light team collaboration, and foundation training.
 
 <!-- ATM-H-364 OUT
 next: ATM-H-365
@@ -343,7 +343,7 @@ context_above: "Follicular Phase --- Days 6--12 Spring"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -362,7 +362,7 @@ Estrogen peaks → communication, confidence, radiance, attraction.
 
 - **Biology & Chemistry:** Estrogen is at its peak, and a surge of Luteinizing Hormone (LH) triggers ovulation. Estrogen at its peak makes the brain highly social and verbal. You are biologically primed for connection and outward engagement.
 
-- **Energy & Focus:** This is your most outward, magnetic phase with peak clarity, physical strength, and a desire to connect. **Focus on:** Public speaking, presentations, difficult conversations, networking, dating, and high-intensity workouts.
+- **Energy & Focus:** This is your most outward, magnetic phase with peak clarity, foundation strength, and a desire to connect. **Focus on:** Public speaking, presentations, difficult conversations, networking, dating, and high-intensity workouts.
 
 <!-- ATM-H-365 OUT
 next: ATM-H-366
@@ -379,7 +379,7 @@ context_above: "Ovulatory Phase --- Days 13--16 Summer"
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -485,7 +485,7 @@ context_above: "Luteal Phase --- Days 17--28 Autumn"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: NOISE
@@ -600,7 +600,7 @@ context_above: "BRAIN & MOOD EFFECTS STUDIES"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -654,7 +654,7 @@ context_above: "OFF BIRTH CONTROL"
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -738,7 +738,7 @@ context_above: "HOW LONG IT TAKES TO REGULATE REAL TIMELINE"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -780,7 +780,7 @@ context_above: "A TOOL, NOT A CURE"
 provenance: LOCAL
 nature: CLAIM
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -828,7 +828,7 @@ context_above: "NON-HORMONAL OPTIONS"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: []
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -881,7 +881,7 @@ Medical Sources:
 
     - Endometriosis Symptoms and Treatment
 
-  - **Non-Hormonal Options -** Fertility Awareness Methods (FAM) Efficacy
+  - **Non-Hormonal Options -** Archetype-delta Awareness Methods (FAM) Efficacy
 
     - Copper IUD vs Hormonal IUD
 

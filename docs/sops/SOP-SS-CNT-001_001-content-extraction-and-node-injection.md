@@ -120,7 +120,7 @@ This SOP was generated during its first execution — the act of triaging produc
    extracted/health/
    extracted/mindset/
    extracted/business/
-   extracted/water/
+   extracted/gateway/
    extracted/time-astro/
    extracted/concepts/
    ```
@@ -134,7 +134,7 @@ This SOP was generated during its first execution — the act of triaging produc
    source_folder: "<category>"
    nodes: [<node numbers from handoff>]
    readiness: "<Ready|Partial|Raw|Empty>"
-   pillar: "<Physical|Inner|Identity|Financial|Cross-cutting>"
+   pillar: "<Foundation|System|Structure|Vision|Cross-cutting>"
    extracted: <date>
    ---
    ```
@@ -149,10 +149,10 @@ This SOP was generated during its first execution — the act of triaging produc
 |-------|--------|--------|
 | `title` | Handoff inventory "Topic" column | Free text |
 | `source_file` | Original filename | Exact match |
-| `source_folder` | Parent directory | health, mindset, business, water, time-astro, concepts |
+| `source_folder` | Parent directory | health, mindset, business, gateway, time-astro, concepts |
 | `nodes` | Handoff inventory "Node(s)" column | Array of integers [1-13] |
 | `readiness` | Handoff inventory "Ready?" column | Ready, Partial, Raw, Empty, Duplicate |
-| `pillar` | Derived from node range | Physical (1-5), Inner (6-9), Identity (10-12), Financial (13), Cross-cutting |
+| `pillar` | Derived from node range | Foundation (1-5), System (6-9), Identity (10-12), Vision (13), Cross-cutting |
 | `extracted` | Date of extraction | YYYY-MM-DD |
 
 ### Quality Gate
@@ -235,7 +235,7 @@ A file qualifies for injection when ALL of:
      status: "live" | "placeholder"
      order: number
      ```
-   - Body content adapted from extracted source (may require restructuring to match existing page format: Hook → Connection → Where Water Fits → Bridge → Resources → CTA)
+   - Body content adapted from extracted source (may require restructuring to match existing page format: Hook → Connection → Where Gateway Fits → Bridge → Resources → CTA)
 
 3. If updating an existing file: **additive only** — do not remove existing content, append or enhance
 

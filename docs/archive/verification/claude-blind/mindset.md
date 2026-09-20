@@ -18,7 +18,7 @@ As my highest self can you write me a 3 or 4 minute affirmation track to help my
 ATOM 2
 File: ChatGPT-Affirmation Track for Abundance.txt
 Section: Response — Affirmation Track
-Idea: Scripted affirmation track "Open to Overflow" combining nervous system regulation with specific financial goals, structured in four sections: grounding, anchoring, worthiness, gratitude
+Idea: Scripted affirmation track "Open to Overflow" combining nervous system regulation with specific vision goals, structured in four sections: grounding, anchoring, worthiness, gratitude
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
@@ -88,7 +88,7 @@ And so it is.
 ATOM 3
 File: ChatGPT-Alchemy and Spiritual Symbolism.txt
 Section: First Response
-Idea: The Philosopher's Stone and Elixir of Life operate on multiple levels simultaneously — literal/historical (physical substance), symbolic (consciousness), and the "Master Work" as wholeness integrating both
+Idea: The Philosopher's Stone and Elixir of Life operate on multiple levels simultaneously — literal/historical (foundation substance), symbolic (consciousness), and the "Master Work" as wholeness integrating both
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -97,7 +97,7 @@ Content:
 Short answer: both—and that tension is the point.
 
 1. On the literal / historical level (yes, people meant it physically)
-Early alchemists genuinely believed there was: a physical substance that could perfect matter, a liquid elixir that could heal disease and extend life, a solid stone that could transmute base metals into gold. Many spent decades in laboratories, as the text describes. But here's the key: even the most serious alchemists rarely meant "only physical." Alchemy was never just chemistry—it was sacred science.
+Early alchemists genuinely believed there was: a foundation substance that could perfect matter, a liquid elixir that could heal disease and extend life, a solid stone that could transmute base metals into gold. Many spent decades in laboratories, as the text describes. But here's the key: even the most serious alchemists rarely meant "only foundation." Alchemy was never just chemistry—it was sacred science.
 
 2. On the symbolic level
 The Philosopher's Stone (solid) → symbolizes fixed consciousness, integrated wisdom, the Self → the part of you that does not dissolve under pressure
@@ -113,10 +113,10 @@ Matter made alive (elixir)
 In modern terms: insight that doesn't vanish, healing that isn't temporary, awareness that moves through daily life
 In other words: wholeness.
 
-4. The deeper spiritual meaning (inner alchemy)
+4. The deeper spiritual meaning (system alchemy)
 The true Elixir of Life is consciousness refined through experience.
-The "gold" is not metal. The "immortality" is not endless physical life.
-It's: freedom from inner fragmentation, freedom from unconscious suffering, freedom from fear of death because the Self is known
+The "gold" is not metal. The "immortality" is not endless foundation life.
+It's: freedom from system fragmentation, freedom from unconscious suffering, freedom from fear of death because the Self is known
 ===
 
 ATOM 4
@@ -131,7 +131,7 @@ Content:
 The classic four stages (simplified but accurate):
 Nigredo (Blackening) → breakdown, confusion, loss, ego death
 Albedo (Whitening) → purification, clarity, nervous system settling → learning to observe instead of control
-Citrinitas (Yellowing) → awakening of inner light, intuition, coherence
+Citrinitas (Yellowing) → awakening of system light, intuition, coherence
 Rubedo (Reddening) → embodiment, integration, gold becomes lived
 
 The Stone is consciousness stabilized. The Elixir is that consciousness circulating through life.
@@ -144,7 +144,7 @@ The Master Work is not written because you are the manuscript. You don't find th
 ATOM 5
 File: ChatGPT-Alchemy and Spiritual Symbolism.txt
 Section: Third Response — Finding Your Own Stone and Elixir
-Idea: The Philosopher's Stone = nervous system regulation / stable inner coherence; the Elixir = hormonal and energetic circulation / vitality that flows naturally; the Stone must come first
+Idea: The Philosopher's Stone = nervous system regulation / stable system coherence; the Elixir = hormonal and energetic circulation / vitality that flows naturally; the Stone must come first
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -254,13 +254,13 @@ You don't "get more signs" by doing more. You get clearer signs by: resting, sof
 ATOM 11
 File: ChatGPT-Alchemy and Spiritual Symbolism.txt
 Section: Eagle Omen Response
-Idea: Two eagles symbolize balance between two forces, partnership, inner alignment rather than lone striving; eagles wait for thermals rather than flapping constantly — mirrors the "feel good first" learning
+Idea: Two eagles symbolize balance between two forces, partnership, system alignment rather than lone striving; eagles wait for thermals rather than flapping constantly — mirrors the "feel good first" learning
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Seeing two specifically tends to symbolize: balance between two forces, partnership, inner alignment rather than lone striving, support rather than isolation.
+Seeing two specifically tends to symbolize: balance between two forces, partnership, system alignment rather than lone striving, support rather than isolation.
 Two eagles = seeing both the big picture and your current limits at the same time. That's integration.
 
 The simplest interpretation: Lift your view, but stay grounded. Honor both rest and direction.
@@ -302,7 +302,7 @@ Editorial: CLEAN
 Content:
 Step 1: Set the Space (2 min) — Sit or lie down. Close your eyes. Place one hand on your heart, one on your belly. Take 3 slow breaths. Say softly: "I allow truth to rise. I allow energy to move. I allow myself to know."
 
-Step 2: Ask These Inner Questions — What am I angry about—and what am I angry for? Has this been fully felt yet? Am I replaying this to get relief, or to stay in control? What's underneath the anger?
+Step 2: Ask These System Questions — What am I angry about—and what am I angry for? Has this been fully felt yet? Am I replaying this to get relief, or to stay in control? What's underneath the anger?
 
 Step 3: Let the Body Decide — Place both hands on your belly or chest and ask: "Do I need to feel this more—or free this now?" Listen for a sensation, not just a thought.
 Signs to Feel It More: Tight throat or chest, tears behind the anger, sense of urgency to express.
@@ -458,7 +458,7 @@ Content:
 ATOM 23
 File: ChatGPT-Balancing Masculine and Feminine.txt
 Section: 3D vs 5D Discussion
-Idea: The 3D (physical reality, structure) requires masculine effort; the 5D (spiritual, intuitive growth) requires feminine being; both must coexist; people who are "super spiritual" get stuck thinking they don't need 3D action
+Idea: The 3D (foundation reality, structure) requires masculine effort; the 5D (spiritual, intuitive growth) requires feminine being; both must coexist; people who are "super spiritual" get stuck thinking they don't need 3D action
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
@@ -466,7 +466,7 @@ Editorial: CLEAN
 Content:
 "some people that are super spiritual can get sucked into thinking they don't have to do anything but be spiritual in order to get the life they want, but the 3D does require some effort and masculine energy"
 
-"the 3D experience—our physical reality—is like the foundation. By taking care of it, we create stability for deeper, spiritual growth—the 5D."
+"the 3D experience—our foundation reality—is like the foundation. By taking care of it, we create stability for deeper, spiritual growth—the 5D."
 ===
 
 ATOM 24
@@ -489,7 +489,7 @@ BLINDSPOTS:
 ATOM 25
 File: ChatGPT-Blindspots Gaps and Cons.txt
 Section: Gaps Assessment
-Idea: Five structural gaps: systems & completion, consistent money flow, physical restoration, team delegation, commitment vs freedom conflict
+Idea: Five structural gaps: systems & completion, consistent money flow, foundation restoration, team delegation, commitment vs freedom conflict
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -498,7 +498,7 @@ Content:
 GAPS:
 1. Systems & Completion — Having consistent support to complete and implement your vision.
 2. Consistent Money Flow — Building longer-term, layered income and backup structures.
-3. Physical Restoration — Nervous system recalibration, consistent meals/rest, regulating with pleasure not pressure.
+3. Foundation Restoration — Nervous system recalibration, consistent meals/rest, regulating with pleasure not pressure.
 4. Team Delegation — Letting people truly help you and investing in a team or trusted systems.
 5. Commitment vs Freedom Conflict — Learning how to create structure that serves your freedom instead of avoiding it altogether.
 ===
@@ -537,7 +537,7 @@ Income flows when your service is rooted in truth and solves a real need — fro
 
 Mapping:
 Emotional instability → Nervous system wisdom → Emotional regulation tools/sessions/guides
-Chronic illness + gaslighting → Holistic root-cause healing → Gut/hormone protocol, water guide
+Chronic illness + gaslighting → Holistic root-cause healing → Gut/hormone protocol, gateway guide
 Scarcity cycles → Energetic & practical money rewiring → "Feel Good First" course
 Not being heard/seen → Soul storytelling & embodiment → Helping others find their voice/brand
 Toxic dependency → Self-leadership + boundaries → Relationship reset guide
@@ -559,7 +559,7 @@ Content:
 ATOM 29
 File: ChatGPT-Blindspots Gaps and Cons.txt
 Section: Landing Page + Funnel Plan
-Idea: Three-path self-sorting landing page structure (Spiral Blueprint / Water Upgrade / Business Path) with webclass outline and $99 discovery offer
+Idea: Three-path self-sorting landing page structure (Spiral Blueprint / Gateway Upgrade / Business Path) with webclass outline and $99 discovery offer
 Provenance: HYBRID
 Nature: PRODUCT
 Editorial: CLEAN
@@ -567,13 +567,13 @@ Editorial: CLEAN
 Content:
 Landing Page: Hero with "Elevate. Align. Unlock." + three CTA buttons for self-sorting:
 "I want to feel good again" → /spiral
-"I want to detox my body" → /water
+"I want to detox my body" → /gateway
 "I want to build aligned income" → /business
 
 Webclass Flow (24 min):
 Intro: Your story + emotional hook
 Teach: 3 Pillars (Elevate, Align, Unlock)
-Share: The three things that changed my life (water, blueprint, aligned business)
+Share: The three things that changed my life (gateway, blueprint, aligned business)
 Soft Pitch: Let them self-sort with CTAs
 ===
 
@@ -608,7 +608,7 @@ ELEVATE: Theme: Awakening the Light Within. Element: Air. Archetype: The Stirrin
 Key Concepts: Feel Good First, 60 Days of Grace, Ego Awakens, Quantum Self (eyes as black holes, observer effect), Yin Leads the Way, Chicken & Robot Study.
 Affirmation: "I am not behind. I am exactly where my soul needed to stir."
 
-ALIGN: Theme: Rooting into Truth. Element: Earth. Archetype: The Initiate / The Healer / The Inner Child Coming Home.
+ALIGN: Theme: Rooting into Truth. Element: Earth. Archetype: The Initiate / The Healer / The System Child Coming Home.
 Key Concepts: Root Healing / Return to Origin, Detox as Devotion, Graceful Responsibility, Self-Love & Shadow Integration, Electromagnetic Being, Compound Effect (1% better).
 Affirmation: "I love who I was, even when she forgot who she is."
 
@@ -622,7 +622,7 @@ Cyclical Wisdom: This blueprint is not linear—it loops, spirals, breathes.
 ATOM 32
 File: ChatGPT-Ego Integration and Overcoming.txt
 Section: Core Shifts per Phase
-Idea: Three core identity shifts anchoring each EAU phase: "I am not broken—I am waking up" (Elevate), "I am not behind—I am building safety" (Align), "I am not small—I am the source" (Unlock)
+Idea: Three core structure shifts anchoring each EAU phase: "I am not broken—I am waking up" (Elevate), "I am not behind—I am building safety" (Align), "I am not small—I am the source" (Unlock)
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -643,12 +643,12 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-You are not just a physical body—you are an electromagnetic field that radiates frequency into the world. Your thoughts, emotions, words, and actions operate much like radio signals—they broadcast, attract, and shape your reality.
+You are not just a foundation body—you are an electromagnetic field that radiates frequency into the world. Your thoughts, emotions, words, and actions operate much like radio signals—they broadcast, attract, and shape your reality.
 
 Science + Spirituality + Sacred Tradition:
 Law of Attraction: Like-energy attracts like-energy.
 Quantum Observer Effect: Your focus literally changes the measurement of energy.
-Yogananda's Spiritual Magnetism: The soul acts as a magnet—your inner state calls in your outer life.
+Yogananda's Spiritual Magnetism: The soul acts as a magnet—your system state calls in your outer life.
 
 "Classic Trilogy" Keys:
 Game of Life & How to Play It: You broadcast & receive frequencies.
@@ -669,7 +669,7 @@ A Happy Pocket Full of Money by David Cameron Gikandi:
 Wealth is a state of consciousness—not just material. Wealth arises from internal abundance. Use intention, clarity, and generosity as energetic tools.
 
 Radical Forgiveness by Colin Tipping:
-Everything that happens happens for you, not to you. A five-stage system: feel victimhood fully → realize spiritual opportunity → shift perspective → release and receive healing. When you shift identity from victim to soul, you release emotional charge and realign your field.
+Everything that happens happens for you, not to you. A five-stage system: feel victimhood fully → realize spiritual opportunity → shift perspective → release and receive healing. When you shift structure from victim to soul, you release emotional charge and realign your field.
 ===
 
 ATOM 35
@@ -763,7 +763,7 @@ Editorial: CLEAN
 Content:
 Top career fields:
 1. High-Ticket Affiliate Marketing / Digital Marketing — Teaches sales, branding, storytelling, automation.
-2. Coaching & Mentorship — Forces inner work and integrity. Creates ripple effects through transformation.
+2. Coaching & Mentorship — Forces system work and integrity. Creates ripple effects through transformation.
 3. Network Marketing (the right kind) — Builds grit, team leadership, and long-term residuals.
 4. Creative Entrepreneurship — Requires tapping into authenticity and voice.
 5. Holistic Healing & Wellness (with an entrepreneurial angle)
@@ -795,17 +795,17 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-In metaphysics, ether (or aether) is often described as the "fifth element"—beyond earth, air, fire, and water. Sometimes called "quintessence." In Hindu philosophy, ether is called akasha and is seen as the element of space or the void from which all things arise.
+In metaphysics, ether (or aether) is often described as the "fifth element"—beyond earth, air, fire, and gateway. Sometimes called "quintessence." In Hindu philosophy, ether is called akasha and is seen as the element of space or the void from which all things arise.
 
 In alchemy: Sometimes equated with life force, prana, chi, or spirit. Considered the medium through which magic, thought, and energy can travel.
 
-Modern echoes: Etheric body (layer closest to physical body, soul's blueprint), Akashic Records (etheric database of all soul memories), Quantum field/Zero point energy.
+Modern echoes: Etheric body (layer closest to foundation body, soul's blueprint), Akashic Records (etheric database of all soul memories), Quantum field/Zero point energy.
 ===
 
 ATOM 43
 File: ChatGPT-Ether Concepts Explained.txt
 Section: Signs You're in Ether
-Idea: Five signs of being in an etheric state: time dissolves, heightened senses (buzzing/weightlessness), intuition drops in, dream-like awareness with symbols, emotions flow like water
+Idea: Five signs of being in an etheric state: time dissolves, heightened senses (buzzing/weightlessness), intuition drops in, dream-like awareness with symbols, emotions flow like gateway
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -816,7 +816,7 @@ Signs You're in Ether:
 2. Heightened Senses — Body may feel weightless or buzzing with soft electricity.
 3. Intuition or Knowing Drops In — You suddenly understand something you couldn't articulate before.
 4. Dream-like Awareness — You feel half here, half somewhere else. Things become more symbolic.
-5. Emotions Flow Like Water — You cry for no reason, but it feels right.
+5. Emotions Flow Like Gateway — You cry for no reason, but it feels right.
 
 Ether Feels Like: The breath between lightning and thunder. Floating in a warm ocean with no edge. Being held by something invisible but unmistakably real. "Home" without needing a place.
 ===
@@ -824,7 +824,7 @@ Ether Feels Like: The breath between lightning and thunder. Floating in a warm o
 ATOM 44
 File: ChatGPT-Ether Concepts Explained.txt
 Section: Ether + Rent Pressure
-Idea: Ether-aligned approach to financial pressure: regulate first, take one micro-aligned action, loop back into trust; "your rent is not about the money — it's about your remembrance"
+Idea: Ether-aligned approach to vision pressure: regulate first, take one micro-aligned action, loop back into trust; "your rent is not about the money — it's about your remembrance"
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -860,13 +860,13 @@ For you, with Chiron at 29° Scorpio in the 5th house, this could point to deep,
 ATOM 46
 File: ChatGPT-Fear of Being Seen.txt
 Section: Healing Visibility Wounds Protocol
-Idea: Five-layer protocol for healing fear of being seen: 1) rewire core beliefs (journaling, inner child, EFT), 2) somatic/nervous system work (breathwork before posting, mirror work), 3) work with Scorpio energy (magnetic energy > oversharing), 4) anchor in bigger purpose (service over validation), 5) lean into community
+Idea: Five-layer protocol for healing fear of being seen: 1) rewire core beliefs (journaling, system child, EFT), 2) somatic/nervous system work (breathwork before posting, mirror work), 3) work with Scorpio energy (magnetic energy > oversharing), 4) anchor in bigger purpose (service over validation), 5) lean into community
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-1. Rewire Core Beliefs — Journaling prompts: "When was the first time I felt unsafe being seen?" Inner child healing. Hypnosis, EFT tapping: "It is safe for me to be seen."
+1. Rewire Core Beliefs — Journaling prompts: "When was the first time I felt unsafe being seen?" System child healing. Hypnosis, EFT tapping: "It is safe for me to be seen."
 
 2. Somatic + Nervous System Work — Do slow, grounding breathwork before posting. Expand "visibility window" (exposure therapy approach): start with low-stakes visibility.
 
@@ -912,7 +912,7 @@ To the Part That Feels Like She's Letting Everyone Down:
 ATOM 49
 File: ChatGPT-Frozen Feelings and Support.txt
 Section: Spell + Lullaby
-Idea: Soft spell "I Let the Fullness Be Enough" (ritual with cloth, water, and incantation) plus lullaby from the universe and channeled message from higher self — "You've been inside a chrysalis, not a cage"
+Idea: Soft spell "I Let the Fullness Be Enough" (ritual with cloth, gateway, and incantation) plus lullaby from the universe and channeled message from higher self — "You've been inside a chrysalis, not a cage"
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
@@ -921,7 +921,7 @@ Content:
 Spell — "I Let the Fullness Be Enough":
 "I am not empty. I am full. I am not broken. I am whole. I am not stuck. I am still. I am not behind. I am becoming."
 "I release the need to do. I remember I already am."
-Dip fingers in water and touch forehead, then heart. Let it be a blessing.
+Dip fingers in gateway and touch forehead, then heart. Let it be a blessing.
 
 Channeling from Higher Self:
 "You've been inside a chrysalis, not a cage. This heaviness isn't wrong—it's the weight of becoming. Let yourself unravel. Let yourself sob. You are not breaking down. You are breaking open."
@@ -968,7 +968,7 @@ Connection → Connection (with self/body, others, Spirit)
 Insight → Meditation (stillness reveals truth)
 Purpose → Exercise/Movement (embodied motivation)
 
-Jack Sparrow metaphor: His compass doesn't point north — it points to what he truly wants most. Your inner compass works the same way.
+Jack Sparrow metaphor: His compass doesn't point north — it points to what he truly wants most. Your system compass works the same way.
 ===
 
 ATOM 53
@@ -982,15 +982,15 @@ Editorial: CLEAN
 Content:
 admin's prompt: "a map or blue print that walks people through everything I've learned over the last five years so they can heal and grow and shine in a condensed timeline. But like a mind map sort of, they will grade/rate/reflect each week and then see where their biggest gap is and then can click on the one they score lowest in and there will be steps / breakdown on how to grow"
 
-Structure: Week 1: Awareness, Week 2: Nervous System & Belief Rewiring, Week 3: Energy + Hormone Regulation, Week 4: Inner Child & Identity Shifts, Week 5: Integration + Creative Flow, Week 6: Expansion / Service / Overflow.
+Structure: Week 1: Awareness, Week 2: Nervous System & Belief Rewiring, Week 3: Energy + Hormone Regulation, Week 4: System Child & Structure Shifts, Week 5: Integration + Creative Flow, Week 6: Expansion / Service / Overflow.
 
 Each hub includes: Worksheets, Book & podcast recs, Your thoughts & stories, Journal prompts/rituals, Healing practices.
 ===
 
 ATOM 54
-File: ChatGPT-Inner Child Healing.txt
+File: ChatGPT-System Child Healing.txt
 Section: Pool Incident Analysis
-Idea: Witnessing a child being punished for big emotions at a pool triggered admin's inner child wound: being forced to perform emotional compliance (apologizing when not ready) = fawning response; "this is why I start to cry when I have to act a certain way but it's out of alignment with me"
+Idea: Witnessing a child being punished for big emotions at a pool triggered admin's system child wound: being forced to perform emotional compliance (apologizing when not ready) = fawning response; "this is why I start to cry when I have to act a certain way but it's out of alignment with me"
 Provenance: LOCAL
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -1004,9 +1004,9 @@ Practice: "Hey little me. I saw what happened at the pool today. I know what it'
 ===
 
 ATOM 55
-File: ChatGPT-Inner Child Healing.txt
-Section: Inner Child Poem
-Idea: Poem speaking to inner child: "You never were too much. You were just full" — permission to be loud, cry, want joy, and feel betrayed when blocked from it
+File: ChatGPT-System Child Healing.txt
+Section: System Child Poem
+Idea: Poem speaking to system child: "You never were too much. You were just full" — permission to be loud, cry, want joy, and feel betrayed when blocked from it
 Provenance: HYBRID
 Nature: SCRIPT
 Editorial: CLEAN
@@ -1039,7 +1039,7 @@ If he's aligned, you'll feel: more relaxed, not more hypervigilant; clearer, not
 ATOM 57
 File: ChatGPT-Manifestation Mastery Secrets.txt
 Section: Core Manifestation Teaching
-Idea: "Radical Self-Sovereignty Through Frequency" — five-step manifestation protocol: 1) regulate nervous system, 2) generate internal wealth (feel as if it's already done), 3) speak it into the field, 4) cleanse your channel (eat clean, drink pure water), 5) give thanks before it comes; "your eyes are literal black holes" — observer collapses wave function
+Idea: "Radical Self-Sovereignty Through Frequency" — five-step manifestation protocol: 1) regulate nervous system, 2) generate internal wealth (feel as if it's already done), 3) speak it into the field, 4) cleanse your channel (eat clean, drink pure gateway), 5) give thanks before it comes; "your eyes are literal black holes" — observer collapses wave function
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
@@ -1050,7 +1050,7 @@ Your electromagnetic field (heart + brain coherence) literally dictates what sho
 1. Regulate Your Nervous System — Your body must feel safe to receive. Fear = shutdown.
 2. Generate Internal Wealth — Close your eyes. Feel as if it's already done.
 3. Speak It Into the Field — Sound = vibration = manifestation. Say it out loud.
-4. Cleanse Your Channel — Eat clean, drink pure water, remove toxic inputs, fast from low-frequency media.
+4. Cleanse Your Channel — Eat clean, drink pure gateway, remove toxic inputs, fast from low-frequency media.
 5. Give Thanks Before It Comes — Gratitude is the quantum jump key. When you say "thank you" before you see it, you collapse timelines.
 
 Bonus: Your eyes are literal black holes. The observer collapses the wave function. YOU—by focusing on possibility, pleasure, and beauty—bring new realities into existence. You're not a consumer of reality. You're the projector.
@@ -1155,7 +1155,7 @@ Key tips: Buy frozen veggies (last longer), prep fresh veggies immediately, batc
 ATOM 64
 File: ChatGPT-Money block removal guide.txt
 Section: Six Categories of Money Blocks
-Idea: Six root categories of money/frequency blocks: 1) nervous system blocks (more money = more stress), 2) identity/self-worth blocks (undercharging), 3) childhood programming ("money is hard"), 4) ancestral/generational imprints (women + money = danger), 5) feminine/masculine polarity wounds (money = masculine structure, receiving = feminine trust), 6) frequency misalignment (wanting abundance but set to fear/lack)
+Idea: Six root categories of money/frequency blocks: 1) nervous system blocks (more money = more stress), 2) structure/self-worth blocks (undercharging), 3) childhood programming ("money is hard"), 4) ancestral/generational imprints (women + money = danger), 5) feminine/masculine polarity wounds (money = masculine structure, receiving = feminine trust), 6) frequency misalignment (wanting abundance but set to fear/lack)
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
@@ -1163,7 +1163,7 @@ Editorial: CLEAN
 Content:
 THE REAL ORIGINS OF MONEY/FREQUENCY BLOCKS:
 1. Nervous System Blocks — If your body associates "more money, more responsibility → more stress," it will subconsciously avoid abundance.
-2. Identity or Self-Worth Blocks — "Who am I to make that much?" Shows up as undercharging, self-sabotage, procrastination.
+2. Structure or Self-Worth Blocks — "Who am I to make that much?" Shows up as undercharging, self-sabotage, procrastination.
 3. Childhood Programming — Hearing: "money is hard," "rich people are greedy," or feeling your parents stressed about bills. Your subconscious stored survival > expansion.
 4. Ancestral + Generational Imprints — Especially for women: centuries of money = power = danger. Stored in the nervous system, not just the mind.
 5. Feminine/Masculine Polarity Wounds — Money has masculine energy (structure, direction, container). Receiving has feminine energy (trust, magnetism, openness). When these are imbalanced, money feels unsafe to hold.
@@ -1215,16 +1215,16 @@ Use confident language (state instead of hedge)
 ATOM 67
 File: ChatGPT-Overwhelm to Clarity.txt
 Section: Sorting Overwhelm
-Idea: admin's overwhelm brain-dump sorted into: active income (water business, aunt's work), potential income (spiral, website, business mentorship, cookies, crafts), and personal projects (road trip, coffee bar, fashion/styling, nesting); method: Stabilize → Structure → Sequence → Expand
+Idea: admin's overwhelm brain-dump sorted into: active income (gateway business, aunt's work), potential income (spiral, website, business mentorship, cookies, crafts), and personal projects (road trip, coffee bar, fashion/styling, nesting); method: Stabilize → Structure → Sequence → Expand
 Provenance: HYBRID
 Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-admin's brain dump (paraphrased): water business, spiral/website, nonprofit (EIN, 501c3, 50k grant), cookies brand (trademarking $1000), crafts/branded stuff, road trip planning, coffee bar, fashion/daily styling, organizing/decorating, morning rituals, reading, journaling, consistent eating.
+admin's brain dump (paraphrased): gateway business, spiral/website, nonprofit (EIN, 501c3, 50k grant), cookies brand (trademarking $1000), crafts/branded stuff, road trip planning, coffee bar, fashion/daily styling, organizing/decorating, morning rituals, reading, journaling, consistent eating.
 
 Sorting method: Stabilize → Structure → Sequence → Expand.
-Step 1: What Actually Pays You Right Now? Water is the stability pillar. Everything else is expansion.
+Step 1: What Actually Pays You Right Now? Gateway is the stability pillar. Everything else is expansion.
 ===
 
 ATOM 68
@@ -1262,7 +1262,7 @@ The concept: "romanticization" or "idealization" — the deeper, more challengin
 ATOM 70
 File: ChatGPT-Self-awareness and love.txt
 Section: Full Conversation
-Idea: People can only love others to the extent they love and understand themselves; admin wants to use Kyle as first test subject for her Spiral Blueprint — introducing him to her healing framework through water education first, then getting his reflection; key principle from "The Master of Love": you can't change a dog to a cat
+Idea: People can only love others to the extent they love and understand themselves; admin wants to use Kyle as first test subject for her Spiral Blueprint — introducing him to her healing framework through gateway education first, then getting his reflection; key principle from "The Master of Love": you can't change a dog to a cat
 Provenance: LOCAL
 Nature: CLAIM
 Editorial: CLEAN
@@ -1270,7 +1270,7 @@ Editorial: CLEAN
 Content:
 admin: "it all stems from self-love and self-knowing, right? And so how do I help him better love and understand himself?"
 
-Plan: "I could finish my water stuff and have him go through that to understand the healing at the root cellular level. And then as I get the spiral going, I can ask him for his reflection on it, because it's not one size fits all."
+Plan: "I could finish my gateway stuff and have him go through that to understand the healing at the root cellular level. And then as I get the spiral going, I can ask him for his reflection on it, because it's not one size fits all."
 
 From The Master of Love: "you can't change a dog to a cat. You have to accept them for who they are."
 ===
@@ -1354,7 +1354,7 @@ Key Risks: Unprepared awakening can cause spiritual crisis, emotional upheaval.
 
 CIA + Specialist Viewpoint: Consciousness can be expanded through resonance, frequency, and hemispheric synchronization. Techniques like TM create a shift from beta to theta/delta states, enabling access to Kundalini energy.
 
-Phase 1: Grounding & Nervous System Prep — Daily TM (20 min twice/day), grounding after meditation, structured water, nourishing food.
+Phase 1: Grounding & Nervous System Prep — Daily TM (20 min twice/day), grounding after meditation, structured gateway, nourishing food.
 ===
 
 ATOM 76
@@ -1379,7 +1379,7 @@ Randall Carlson's theory: Ancient civilizations may have used sound, resonance, 
 ATOM 77
 File: ChatGPT-Vision board creation guide.txt
 Section: Vision Board Brain Dump
-Idea: admin's vision board items: truck + camper, flexible travel lifestyle, own house/land, horse, financial freedom (groceries/gas without worry), selling art + monthly handwritten letter subscriptions, $10K/month goal, coffee shop, three houses, nonprofit house in Colorado, feeling healthy/aligned
+Idea: admin's vision board items: truck + camper, flexible travel lifestyle, own house/land, horse, vision freedom (groceries/gas without worry), selling art + monthly handwritten letter subscriptions, $10K/month goal, coffee shop, three houses, nonprofit house in Colorado, feeling healthy/aligned
 Provenance: LOCAL
 Nature: NARRATIVE
 Editorial: CLEAN
@@ -1387,7 +1387,7 @@ Editorial: CLEAN
 Content:
 Vision board items (brain dump): truck and camper, flexible travel, own house with specific bedroom plans, own land, horse, buying whatever without checking bank account, filling gas tank worry-free, selling art, monthly handwritten letter subscriptions (print + article + blog blurb), $10,000/month first goal, coffee shop, three homes eventually (one for nonprofit in Colorado), health and body care aesthetic.
 
-Approach: Keep specific where it matters (financial targets, art subscriptions) but leave room for "open-ended magic." Focus on feelings and vibes alongside tangible goals.
+Approach: Keep specific where it matters (vision targets, art subscriptions) but leave room for "open-ended magic." Focus on feelings and vibes alongside tangible goals.
 ===
 
 ATOM 78
@@ -1413,42 +1413,42 @@ Friday — Flowing in Legacy: $10K donor confirmed, nonprofit houses 6 residents
 ATOM 79
 File: ChatGPT-Yin energy explained.txt
 Section: Yin Energy Teaching
-Idea: Yin energy defined: receptive, intuitive, nurturing; associated with moon, water, night, subconscious; rules parasympathetic nervous system, supports rest/digestion/regeneration; when low = burnout/anxiety/dryness; when excessive = lethargy/apathy; the foundation energy from which yang arises
+Idea: Yin energy defined: receptive, intuitive, nurturing; associated with moon, gateway, night, subconscious; rules parasympathetic nervous system, supports rest/digestion/regeneration; when low = burnout/anxiety/dryness; when excessive = lethargy/apathy; the foundation energy from which yang arises
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Yin energy is receptive, intuitive, and nurturing. It's the energy of the moon, water, night, and the unseen.
-In the body: Yin rules the feminine, the parasympathetic nervous system, and inner organs. Supports rest, digestion, regeneration. When low: burned out, anxious, dry, overactive. When excessive: lethargy, apathy, emotional heaviness.
-In nature: nighttime, winter, water, the moon, earth. Movement is downward and inward.
+Yin energy is receptive, intuitive, and nurturing. It's the energy of the moon, gateway, night, and the unseen.
+In the body: Yin rules the feminine, the parasympathetic nervous system, and system organs. Supports rest, digestion, regeneration. When low: burned out, anxious, dry, overactive. When excessive: lethargy, apathy, emotional heaviness.
+In nature: nighttime, winter, gateway, the moon, earth. Movement is downward and inward.
 In relationships: empathy, patience, compassion, receptivity, ability to listen deeply and hold emotional space.
 In spiritual terms: mystery, shadow, intuition — the quiet pull of the unseen world. The void from which all creation is born.
 ===
 
 ATOM 80
-File: IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt
+File: IMPORTANT COMPONET!ChatGPT-System child book concept (1).txt
 Section: Book Concept
-Idea: Inner child + nervous system regulation art-prompt book concept — hybrid of poetry, somatic healing, workbook, and ritual; structured using E-A-U framework; five parts: Feel Good First (body), Regulation (safety+repair), Inner Child (memory+play), Return to Wonder (creativity), Future Self (integration)
+Idea: System child + nervous system regulation art-prompt book concept — hybrid of poetry, somatic healing, workbook, and ritual; structured using E-A-U framework; five parts: Feel Good First (body), Regulation (safety+repair), System Child (memory+play), Return to Wonder (creativity), Future Self (integration)
 Provenance: HYBRID
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-What if we made a book that was all about helping people get back in touch with their inner child & balance their nervous system in the process?
+What if we made a book that was all about helping people get back in touch with their system child & balance their nervous system in the process?
 
-This would be the FIRST nervous-system–based inner child art book. A healing container that walks them through the exact process you went through. Somatic & spiritual at the same time.
+This would be the FIRST nervous-system–based system child art book. A healing container that walks them through the exact process you went through. Somatic & spiritual at the same time.
 
 Structure flows like E•A•U Spiral:
 1. FEEL GOOD FIRST — Regulating the Body (grounding exercises, breathwork spirals, "Where in your body feels safe today?")
 2. NERVOUS SYSTEM REGULATION — Safety + Repair (Polyvagal 101, fight/flight/freeze/fawn, shake-it-off pages)
-3. INNER CHILD CONNECTION — Memory & Play ("Draw your childhood bedroom," "Write a letter to the version of you who tried so hard")
+3. SYSTEM CHILD CONNECTION — Memory & Play ("Draw your childhood bedroom," "Write a letter to the version of you who tried so hard")
 4. RETURN TO WONDER — Creativity & Imagination (tear pages, paint with non-dominant hand, collage)
 5. THE FUTURE SELF — Integration & Rewriting the Story (future self journaling, timeline healing)
 ===
 
 ATOM 81
-File: IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt
+File: IMPORTANT COMPONET!ChatGPT-System child book concept (1).txt
 Section: Book Title Options
 Idea: Working title options grouped by vibe: Soft+Poetic ("The Soft Return," "Tender/Wild"), Artsy+Ritual ("Rechild: A Somatic Art Journal," "Color Me Home"), Brand Energy ("Little Me x Now Me: A Spiral Journal")
 Provenance: HYBRID
@@ -1458,12 +1458,12 @@ Editorial: CLEAN
 Content:
 Title Options:
 Soft + Poetic: "The Soft Return," "For the Little One Inside," "Where the Light Found Me," "Roots, Ribbons, & Regulation," "Tender / Wild"
-Artsy + Ritual: "Rechild: A Somatic Art Journal," "Unlearn, Unbury, Become," "The Inner Child Repair Kit," "Color Me Home"
-Brand Energy: "Elevate • Align • Unfold" — The Inner Child Edition, "Return to Wonder: A Nervous System Storybook for Grown Adults," "Little Me x Now Me: A Spiral Journal"
+Artsy + Ritual: "Rechild: A Somatic Art Journal," "Unlearn, Unbury, Become," "The System Child Repair Kit," "Color Me Home"
+Brand Energy: "Elevate • Align • Unfold" — The System Child Edition, "Return to Wonder: A Nervous System Storybook for Grown Adults," "Little Me x Now Me: A Spiral Journal"
 ===
 
 ATOM 82
-File: IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt
+File: IMPORTANT COMPONET!ChatGPT-System child book concept (1).txt
 Section: Full Table of Contents
 Idea: Detailed 11-chapter table of contents with hybrid format (poetic opener + nervous system teaching + somatic exercise + journaling + art prompt + ritual + integration mantra per chapter); includes "shareable moment" pages for social media movement building
 Provenance: HYBRID
@@ -1474,25 +1474,25 @@ Content:
 Hybrid format per chapter: Poetic chapter opener → Short nervous system teaching → Somatic exercise → Journaling prompts → Art prompt or ritual page → Integration mantra.
 
 Key chapters:
-Part I — Feel Good First: "Slow Down to Feel" (inner weather map), "Softness Is Medicine" (5-4-3-2-1 grounding)
+Part I — Feel Good First: "Slow Down to Feel" (system weather map), "Softness Is Medicine" (5-4-3-2-1 grounding)
 Part II — Regulation: "Survival Mode Isn't a Personality" (fight/flight/freeze/fawn), "Safety Rehearsals" (vagal tone reset)
-Part III — Inner Child: "The First Separation" (childhood memory sketch), "Rewriting the Story" (reparenting), "Play As Prayer" ("Joy is rebellion")
-Part IV — Creativity: "Unlearning the Rules" (scribble rage release), "Build Your Inner Home" (blueprint of values)
-Part V — Future Self: "Becoming the Grown-Up You Needed" (identity embodiment), "Integration" ("Little one, we made it")
+Part III — System Child: "The First Separation" (childhood memory sketch), "Rewriting the Story" (reparenting), "Play As Prayer" ("Joy is rebellion")
+Part IV — Creativity: "Unlearning the Rules" (scribble rage release), "Build Your System Home" (blueprint of values)
+Part V — Future Self: "Becoming the Grown-Up You Needed" (structure embodiment), "Integration" ("Little one, we made it")
 
 Extras: Stickers, tear-out pages, QR code to calming audio, "Post to Instagram" icons, 30-Day Nervous System Reset.
 ===
 
 ATOM 83
-File: IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt
+File: IMPORTANT COMPONET!ChatGPT-System child book concept (1).txt
 Section: Sample Page Spreads
-Idea: Five example page spreads for the inner child book: "Meet Her Again" (photo + affirmation), "When Did You First Freeze?" (nervous system reflection), "Color Your Safety Zone" (mandala), "Say What You Needed Then" (one-sentence-per-line), "Break the Rule That Broke You" (rip/mark through old belief)
+Idea: Five example page spreads for the system child book: "Meet Her Again" (photo + affirmation), "When Did You First Freeze?" (nervous system reflection), "Color Your Safety Zone" (mandala), "Say What You Needed Then" (one-sentence-per-line), "Break the Rule That Broke You" (rip/mark through old belief)
 Provenance: HYBRID
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-Page: "Meet Her Again" — Paste a picture of inner you. Write: "She was trying her best. She's still here."
+Page: "Meet Her Again" — Paste a picture of system you. Write: "She was trying her best. She's still here."
 Page: "When Did You First Freeze?" — A nervous-system reflection with soft illustrations.
 Page: "Color Your Safety Zone" — A mandala that slowly widens outwards.
 Page: "Say What You Needed Then" — Write a one-sentence message per line.
@@ -1556,7 +1556,7 @@ Mode 2: Output / Focus — When you feel sharp + electric. Do: work sprints, fil
 
 Mode 3: Creative Play — When inspiration arrives sideways. Do: photography, cookbook vibes, branding, Pinterest, experiments, travel. This is where breakthroughs come.
 
-Mode 4: Integration — After travel, deep emotion, big creativity, or life shifts. Do: rest, reflection, slow routines, laundry, nervous system reset. Ensures sustainability.
+Mode 4: Integration — After travel, deep emotion, big creativity, or life shifts. Do: rest, reflection, slow routines, laundry, nervous system reset. Ensures archetype-zeta.
 ===
 
 ATOM 87
@@ -1619,7 +1619,7 @@ You don't need discipline. You need patterned freedom. You're not meant to fit a
 | 13 | ChatGPT-Frozen Feelings and Support.txt | 4 (ATM 47-50) |
 | 14 | ChatGPT-Happiness as a state.txt | 2 (ATM 51-52) |
 | 15 | ChatGPT-Healing Growth Blueprint 1.0 idea phase .txt | 1 (ATM 53) |
-| 16 | ChatGPT-Inner Child Healing.txt | 2 (ATM 54-55) |
+| 16 | ChatGPT-System Child Healing.txt | 2 (ATM 54-55) |
 | 17 | ChatGPT-Insecurity and Self-Respect.txt | 1 (ATM 56) |
 | 18 | ChatGPT-Manifestation Mastery Secrets.txt | 2 (ATM 57-58) |
 | 19 | ChatGPT-Masculine Feminine Balance Tracker.txt | 3 (ATM 59-61) |
@@ -1641,7 +1641,7 @@ You don't need discipline. You need patterned freedom. You're not meant to fit a
 | 35 | ChatGPT-Vision board creation guide.txt | 1 (ATM 77) |
 | 36 | ChatGPT-Visionary Life Breakdown.txt | 1 (ATM 78) |
 | 37 | ChatGPT-Yin energy explained.txt | 1 (ATM 79) |
-| 38 | IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt | 4 (ATM 80-83) |
+| 38 | IMPORTANT COMPONET!ChatGPT-System child book concept (1).txt | 4 (ATM 80-83) |
 | 39 | mindset-rhythms-and-rituals.md (extracted .docx) | 5 (ATM 84-88) |
 
 ## Provenance Distribution

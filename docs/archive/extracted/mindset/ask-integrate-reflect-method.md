@@ -16,7 +16,7 @@ source_file: "ChatGPT-Ask Integrate Reflect Method.txt"
 source_folder: "mindset"
 nodes: [3, 5, 11]
 readiness: "Partial"
-pillar: "Identity"
+pillar: "Structure"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Should I only ask questions as I’m working on things and can i
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -126,7 +126,7 @@ context_above: "That’s such a great self-awareness moment, admin. Here’s a g
 provenance: LOCAL
 nature: QUESTION
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -150,7 +150,7 @@ context_above: "Ooo I love the later list but then wouldn’t you say I get thos
 provenance: HYBRID
 nature: QUESTION
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -202,7 +202,7 @@ context_above: "Yes—and that’s such a beautiful point. You're totally right 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -226,7 +226,7 @@ context_above: "Ooo okay I like that cause sometimes I’ll go to look at someth
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -298,13 +298,13 @@ This lets you stay aligned with divine nudges without leaking energy or losing y
 Want me to help you set up a creative-ritual tracker or a spark-to-manifestation flow in Notion or on paper?
 <!-- ATM-M-042 OUT
 next: ATM-M-043
-context_below: "Yes please can we do both I have a hard time getting the ideas into tangible physical"
+context_below: "Yes please can we do both I have a hard time getting the ideas into tangible foundation"
 -->
 
 ## Prompt:
 
 <!-- ATM-M-043 IN
-idea: "Yes please can we do both I have a hard time getting the ideas into tangible physical"
+idea: "Yes please can we do both I have a hard time getting the ideas into tangible foundation"
 section: "Prompt"
 position: 7
 of_total: 10
@@ -313,13 +313,13 @@ context_above: "This is such an important reflection, and I hear the tension you
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3B
 -->
-Yes please can we do both I have a hard time getting the ideas into tangible physical
+Yes please can we do both I have a hard time getting the ideas into tangible foundation
 <!-- ATM-M-043 OUT
 next: ATM-M-044
 context_below: "Absolutely—let’s turn your sparks into soul-anchored momentum. Here’s how we’ll structure it:"
@@ -333,11 +333,11 @@ section: "Response"
 position: 8
 of_total: 10
 prev: ATM-M-043
-context_above: "Yes please can we do both I have a hard time getting the ideas into tangible physical"
+context_above: "Yes please can we do both I have a hard time getting the ideas into tangible foundation"
 provenance: HYBRID
 nature: CLAIM
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -360,7 +360,7 @@ context_above: "Absolutely—let’s turn your sparks into soul-anchored momentu
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -425,7 +425,7 @@ context_above: "PART 1: The Creative Ritual Tracker (Paper Version) You can use 
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [3, 5, 11]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

@@ -28,7 +28,7 @@ PHASE_TO_DESTINATION = {
     "2A": "node-deep-dive",
     "2B": "node-deep-dive",
     "2C": "branch-enrichment",
-    "2D": "water-funnel",
+    "2D": "gateway-funnel",
     "3A": "node-deep-dive",
     "3B": "node-deep-dive",
     "3C": "standalone-product",

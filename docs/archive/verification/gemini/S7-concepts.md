@@ -165,13 +165,13 @@ Libra Sun indicates success in partnerships, beauty, balance, and ethical sellin
 
 ATOM S7-C-016
 Section: Business Astrology
-Idea: Pluto in Aquarius (2024-2044) context for systems-based water businesses.
+Idea: Pluto in Aquarius (2024-2044) context for systems-based gateway businesses.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Pluto in Aquarius rules technology, systems, water, and decentralization. A water business fits this replacement-economy energy perfectly, focusing on infrastructure and education over hype.
+Pluto in Aquarius rules technology, systems, gateway, and decentralization. A gateway business fits this replacement-economy energy perfectly, focusing on infrastructure and education over hype.
 ===
 
 ATOM S7-C-017
@@ -186,14 +186,14 @@ You don’t need more content; you need clarity and repetition. Tighten the pitc
 ===
 
 ATOM S7-C-018
-Section: Financial Framework
-Idea: $50/month water subscription model as a recurring income bridge.
+Section: Vision Framework
+Idea: $50/month gateway subscription model as a recurring income bridge.
 Provenance: LOCAL
 Nature: PRODUCT
 Editorial: CLEAN
 ---
 Content:
-Unlimited refills for $50/month provides local access while people transition off bottled water. It generates recurring income with low nervous system load and converts to unit sales.
+Unlimited refills for $50/month provides local access while people transition off bottled gateway. It generates recurring income with low nervous system load and converts to unit sales.
 ===
 
 ATOM S7-C-019
@@ -231,13 +231,13 @@ A planner attuned to personal birth chart transitions, tracking moon phases and 
 
 ATOM S7-C-022
 Section: Goal Setting
-Idea: Setting intentions based on the four elements: Air, Fire, Earth, Water.
+Idea: Setting intentions based on the four elements: Air, Fire, Earth, Gateway.
 Provenance: HYBRID
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Goal setting by element: Air (ideas), Fire (motivation), Earth (practicality), and Water (emotions). Honors different aspects of self and creation.
+Goal setting by element: Air (ideas), Fire (motivation), Earth (practicality), and Gateway (emotions). Honors different aspects of self and creation.
 ===
 
 ATOM S7-C-023
@@ -248,7 +248,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Menstrual (New Moon/Wise Woman), Follicular (Waxing Moon/Maiden), Ovulation (Full Moon/Mother), Luteal (Waning Moon/Wild Woman). Mirroring inner and outer rhythms.
+Menstrual (New Moon/Wise Woman), Follicular (Waxing Moon/Maiden), Ovulation (Full Moon/Mother), Luteal (Waning Moon/Wild Woman). Mirroring system and outer rhythms.
 ===
 
 ATOM S7-C-024
@@ -270,7 +270,7 @@ Nature: PROTOCOL
 Editorial: CLEAN
 ---
 Content:
-Follicular support includes raw veggies, light meals, HIIT/strength building, lemon water, and vision planning. Energy and creativity rise.
+Follicular support includes raw veggies, light meals, HIIT/strength building, lemon gateway, and vision planning. Energy and creativity rise.
 ===
 
 ATOM S7-C-026
@@ -297,13 +297,13 @@ Luteal support includes root veggies, slow strength/pilates, organization, tea r
 
 ATOM S7-C-028
 Section: Health Foundations
-Idea: Square zero of health: Hydration + Blood Sugar + Nervous System Safety.
+Idea: Square zero of health: Gateway + Blood Sugar + Nervous System Safety.
 Provenance: LOCAL
 Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-You cannot regulate your nervous system if your blood sugar is crashing. Square 0 is hydration + balanced meals. Square 1 is nervous system safety. Once body feels safe, hormones can flow.
+You cannot regulate your nervous system if your blood sugar is crashing. Square 0 is gateway + balanced meals. Square 1 is nervous system safety. Once body feels safe, hormones can flow.
 ===
 
 ATOM S7-C-029
@@ -557,7 +557,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Implementation principles: Identify keystone habits, use structure/routine to create momentum ("Big Mo"), and track key metrics (spending, water, time) because "what gets measured, improves."
+Implementation principles: Identify keystone habits, use structure/routine to create momentum ("Big Mo"), and track key metrics (spending, gateway, time) because "what gets measured, improves."
 ===
 
 ATOM S7-C-052
@@ -645,7 +645,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-The Maya collapse was triggered by four overlapping crises: 1. Severe droughts failure of water systems. 2. Civil war between city-states. 3. Loss of the priest-king order. 4. Migration and external pressure (culminating in Spanish conquest).
+The Maya collapse was triggered by four overlapping crises: 1. Severe droughts failure of gateway systems. 2. Civil war between city-states. 3. Loss of the priest-king order. 4. Migration and external pressure (culminating in Spanish conquest).
 ===
 
 ATOM S7-C-060
@@ -700,7 +700,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-The Bedouin are original desert tribes of the Noah/Babel region. Their oral traditions and tribal codes (hospitality, water-rights, lineage) serve as a living remnant of the ancient Semitic world and Noahic laws.
+The Bedouin are original desert tribes of the Noah/Babel region. Their oral traditions and tribal codes (hospitality, gateway-rights, lineage) serve as a living remnant of the ancient Semitic world and Noahic laws.
 ===
 
 ATOM S7-C-065
@@ -726,13 +726,13 @@ Philosopher Christine M. Korsgaard explores how 'creatures' (humans and animals)
 
 ATOM S7-C-067
 Section: Creature Selves
-Idea: Animalism Theory: Human identity is fundamentally rooted in our biological being as animals.
+Idea: Animalism Theory: Human structure is fundamentally rooted in our biological being as animals.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
 ---
 Content:
-In metaphysical philosophy, Animalism holds that human persons are fundamentally animals; our identity is rooted in biological being rather than just psychological continuity.
+In metaphysical philosophy, Animalism holds that human persons are fundamentally animals; our structure is rooted in biological being rather than just psychological continuity.
 ===
 
 ATOM S7-C-068
@@ -798,7 +798,7 @@ Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-Oxytocin is the 'bonding' molecule, released during physical touch, eye contact, and social connection. It facilitates trust, safety, and long-term stability.
+Oxytocin is the 'bonding' molecule, released during foundation touch, eye contact, and social connection. It facilitates trust, safety, and long-term stability.
 ===
 
 ATOM S7-C-074
@@ -880,18 +880,18 @@ The CliftonStrengths assessment (formerly StrengthsFinder) identifies a person's
 
 ATOM S7-C-081
 Section: Somatic Memory
-Idea: Posture as Ancestral/Past Life Weight: A hunched back can represent the physical carrying of heavy burdens from other lifetimes.
+Idea: Posture as Ancestral/Past Life Weight: A hunched back can represent the foundation carrying of heavy burdens from other lifetimes.
 Provenance: HYBRID
 Nature: CLAIM
 Editorial: CLEAN
 ---
 Content:
-In somatic and metaphysical contexts, specific postural patterns like a hunched back (kyphosis) are often interpreted as the physical manifestation of carrying heavy ancestral burdens or 'soul-level' grief.
+In somatic and metaphysical contexts, specific postural patterns like a hunched back (kyphosis) are often interpreted as the foundation manifestation of carrying heavy ancestral burdens or 'soul-level' grief.
 ===
 
 ATOM S7-C-082
 Section: Somatic Memory
-Idea: The Heart Protection Response: Physical slouching as a defensive mechanism to close off the heart center.
+Idea: The Heart Protection Response: Foundation slouching as a defensive mechanism to close off the heart center.
 Provenance: HYBRID
 Nature: MODEL
 Editorial: CLEAN
@@ -908,7 +908,7 @@ Nature: FRAMEWORK
 Editorial: CLEAN
 ---
 Content:
-Solfeggio frequencies are used in sound healing to target specific physical and emotional layers. 528Hz is often called the 'Love' frequency or 'Transformation' frequency, associated with DNA repair.
+Solfeggio frequencies are used in sound healing to target specific foundation and emotional layers. 528Hz is often called the 'Love' frequency or 'Transformation' frequency, associated with DNA repair.
 ===
 
 ATOM S7-C-084

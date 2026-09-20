@@ -44,10 +44,10 @@ into the generated `dist/server/wrangler.json`.
 | --- | --- |
 | Committed lockfile present | ✅ `package-lock.json` (286 KB) — `npm ci` is deterministic |
 | Deploy target is Workers, not Pages | ✅ `@astrojs/cloudflare` 13.7.0 (Workers adapter); `wrangler.jsonc` documents `wrangler deploy`, NOT `pages deploy` |
-| SSR routes survive deploy | ✅ `/capture` and `/api/water-report` both carry `export const prerender = false` → bundled into the SSR Worker (not dropped as static) |
+| SSR routes survive deploy | ✅ `/capture` and `/api/gateway-report` both carry `export const prerender = false` → bundled into the SSR Worker (not dropped as static) |
 | KV binding declared | ✅ `SUBMISSIONS` namespace in `wrangler.jsonc` (capture degrades gracefully if unbound) |
 | Secrets kept out of source (M2) | ✅ `GHL_WEBHOOK_URL`, `EWG_API_KEY` set via `wrangler secret put`; affiliate URLs via `PUBLIC_AFFILIATE_*` env with safe defaults |
-| Vacuum gate consistent | ✅ `TRACKED_VACUUMS` (anespa/k8 `affiliateUrl`) matches live state — both still default to `''` in `hydration.config.ts:292-293`; no stale trackers |
+| Vacuum gate consistent | ✅ `TRACKED_VACUUMS` (anespa/k8 `affiliateUrl`) matches live state — both still default to `''` in `gateway.config.ts:292-293`; no stale trackers |
 | Local ↔ remote parity | ✅ `origin/main..main` and reverse both `0` |
 | CI gate coverage | ✅ `ci.yml` runs lint + test + check + build, then deploy, on every push/PR to `main` |
 
@@ -63,7 +63,7 @@ completeness only):
 | Enagic Anespa + K8 affiliate URLs | Tracked vacuum, GH #49 (admin pending) — `''` defaults, gate-acknowledged | Those 2 of 6 filter tiers lack a buy link; other 4 are live |
 | `GHL_WEBHOOK_URL` automation wiring | Optional capture sink; KV sink works without it | Leads persist to KV; GHL mirroring inactive until set |
 | Durable custom-event analytics sink | Noted in #221 | `[EA]` events fire client-side only |
-| Custom domains (`hub-example.com`, `water-example.com`, `business-example.com`) | DNS-level CNAME, not Astro logic | Site live on `*.workers.dev`; vanity domains pending DNS |
+| Custom domains (`hub-example.com`, `gateway-example.com`, `business-example.com`) | DNS-level CNAME, not Astro logic | Site live on `*.workers.dev`; vanity domains pending DNS |
 | Payment rail (Stripe vs GHL) | GH #229 (W-032, blocked on decision) | Paid offers deferred; free funnel unaffected |
 
 ## Verification Status — Honest Account
@@ -71,7 +71,7 @@ completeness only):
 **Run / confirmed:**
 
 - Production-path integrity table above (static inspection of config + source).
-- Vacuum-gate consistency (read `vacuum-gate.mjs` + `hydration.config.ts`;
+- Vacuum-gate consistency (read `vacuum-gate.mjs` + `gateway.config.ts`;
   trackers match live empty state — gate passes).
 - Git parity (`git rev-list`).
 
@@ -81,7 +81,7 @@ constraint the #221 audit hit with `getaddrinfo ENOTFOUND registry.npmjs.org`):*
 - `npm ci` / `npm run build` — `node_modules` absent in this worktree; install
   needs the registry.
 - Live `curl`/HTTP probe of the Worker origin and `/capture`,
-  `/api/water-report` endpoints.
+  `/api/gateway-report` endpoints.
 
 These require either CI (which runs them on every push to `main`) or a
 network-enabled shell. The path is verified *structurally*; the empirical

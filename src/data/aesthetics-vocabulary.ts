@@ -49,7 +49,7 @@ export const VOCABULARY: VocabularyTerm[] = [
     technicalName: 'SpiralNode',
     category: 'structure',
     definition:
-      'One of the thirteen positions on the spiral. Each node has its own page, its own visual identity, its own thematic environment, and its own substrate identity.',
+      'One of the thirteen positions on the spiral. Each node has its own page, its own visual structure, its own thematic environment, and its own substrate structure.',
     example:
       'Node 1 — Feel Good First — root chakra, primordial-fire substrate, Forge of Dawn world.',
     link: '/nodes/1',
@@ -60,7 +60,7 @@ export const VOCABULARY: VocabularyTerm[] = [
     technicalName: 'EnvVar',
     category: 'language',
     definition:
-      'The immutable identity of each node — the essence beneath all its surface names. Thirteen substrates: PYR, OCULUS, DYAD, PYRAMIS, HYDOR, MANDORLA, KENOSIS, SHATKONA, PADMA, BODHI, TETRAD, OKTAEDRON, ANKH.',
+      'The immutable structure of each node — the essence beneath all its surface names. Thirteen substrates: PYR, OCULUS, DYAD, PYRAMIS, HYDOR, MANDORLA, KENOSIS, SHATKONA, PADMA, BODHI, TETRAD, OKTAEDRON, ANKH.',
     example:
       'PYR (primordial fire) shows up as RA in Egyptian, Agni in Vedic, Plasma in physics, and "Feel Good First" in modern wellness — but the substrate beneath them all is one.',
     link: '/lineage/PYR',
@@ -82,7 +82,7 @@ export const VOCABULARY: VocabularyTerm[] = [
     definition:
       'The chronological lineage of names for one substrate across all seven lenses. The chain shows how the same essence has been recognized and re-named across traditions and centuries.',
     example:
-      "HYDOR's chain: Nun (Egyptian, ~2400 BCE) → Apah (Vedic, ~1500 BCE) → HYDOR (Greek, ~600 BCE) → Living Water (Christian, 1st c. CE) → H₂O (physics, 18th c.) → Root Healing (modern wellness, 2026).",
+      "HYDOR's chain: Nun (Egyptian, ~2400 BCE) → Apah (Vedic, ~1500 BCE) → HYDOR (Greek, ~600 BCE) → Living Gateway (Christian, 1st c. CE) → H₂O (physics, 18th c.) → Root Healing (modern wellness, 2026).",
     link: '/lineage/HYDOR',
     linkLabel: "See HYDOR's chain",
   },
@@ -91,9 +91,9 @@ export const VOCABULARY: VocabularyTerm[] = [
     technicalName: 'Pillar',
     category: 'structure',
     definition:
-      'One of four content categories that organize the site: Physical Sovereignty, Inner Sovereignty, Identity Sovereignty, Financial Sovereignty. Each pillar has its own color and tagline; nodes are grouped under pillars by content domain.',
+      'One of four content categories that organize the site: Foundation Sovereignty, System Sovereignty, Structure Sovereignty, Vision Sovereignty. Each pillar has its own color and tagline; nodes are grouped under pillars by content domain.',
     example:
-      'Physical Sovereignty (orange, 🌊) contains nodes 1–5 — the ELEVATE phase, bodily foundation work.',
+      'Foundation Sovereignty (orange, 🌊) contains nodes 1–5 — the ELEVATE phase, bodily foundation work.',
   },
   {
     publicName: 'Phase',
@@ -102,7 +102,7 @@ export const VOCABULARY: VocabularyTerm[] = [
     definition:
       'One of three stages of the journey arc: ELEVATE (nodes 1–5, raising from baseline), ALIGN (nodes 6–10, integrating mind and life), UNLOCK (nodes 11–13, freedom and full flow). Phases are the temporal arc; pillars are the topical categorization.',
     example:
-      'A user who scores into node 8 ("Alignment") is in the ALIGN phase, inside the Inner Sovereignty pillar.',
+      'A user who scores into node 8 ("Alignment") is in the ALIGN phase, inside the System Sovereignty pillar.',
   },
   {
     publicName: 'Vessel Mode',
@@ -139,7 +139,7 @@ export const VOCABULARY: VocabularyTerm[] = [
     technicalName: 'IconWorld',
     category: 'physics',
     definition:
-      'The complete environment that each node inhabits — its elements (fire, water, plasma, etc.), phase mix (gas/liquid/solid/plasma proportions), biology type (cosmic, organic, mineral, aquatic, lunar, volcanic, synthetic), gravity vector, particle behavior pattern, accent palette, thermal intensity, and particle size bias. Every node is its own complete world.',
+      'The complete environment that each node inhabits — its elements (fire, gateway, plasma, etc.), phase mix (gas/liquid/solid/plasma proportions), biology type (cosmic, organic, mineral, aquatic, lunar, volcanic, synthetic), gravity vector, particle behavior pattern, accent palette, thermal intensity, and particle size bias. Every node is its own complete world.',
     example:
       'Node 4 — Volcanic Pyre — fire + lava + smoke, rising particles, hot red-orange palette, gravity pointing upward (heat lift).',
   },
@@ -148,9 +148,9 @@ export const VOCABULARY: VocabularyTerm[] = [
     technicalName: 'MathPrimitive',
     category: 'physics',
     definition:
-      'The mathematical foundation of each node form: vertex count, symmetry type (radial, bilateral, crystalline, fractal), golden-ratio exponent, inner-radius ratio, rotation-per-segment, twist factor, presence of a central void, depth-to-radius ratio. The "Platonic essence" of the form — not what it looks like, but what mathematical law generates it.',
+      'The mathematical foundation of each node form: vertex count, symmetry type (radial, bilateral, crystalline, fractal), golden-ratio exponent, system-radius ratio, rotation-per-segment, twist factor, presence of a central void, depth-to-radius ratio. The "Platonic essence" of the form — not what it looks like, but what mathematical law generates it.',
     example:
-      'OCULUS: 16 vertices, radial symmetry, PHI^1, has a central void (the pupil), 0.55 inner ratio.',
+      'OCULUS: 16 vertices, radial symmetry, PHI^1, has a central void (the pupil), 0.55 system ratio.',
   },
   {
     publicName: 'Quiz Theme',

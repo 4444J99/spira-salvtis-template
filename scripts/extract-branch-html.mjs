@@ -2,7 +2,7 @@
 /**
  * Extract per-branch HTML from the built site for admin's GHL paste workflow.
  *
- * Reads dist/water/{slug}/index.html (Astro production output) for each branch,
+ * Reads dist/gateway/{slug}/index.html (Astro production output) for each branch,
  * pulls the <main>...</main> region, inlines the body styles, and writes one
  * standalone .html file per branch into docs/admin/2026-05-16-branch-html-exports/.
  *
@@ -15,7 +15,7 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const ROOT = process.cwd();
-const DIST = resolve(ROOT, 'dist/water');
+const DIST = resolve(ROOT, 'dist/gateway');
 const OUT = resolve(ROOT, 'docs/admin/2026-05-16-branch-html-exports');
 
 // Derive the branch list from the single source of truth rather than

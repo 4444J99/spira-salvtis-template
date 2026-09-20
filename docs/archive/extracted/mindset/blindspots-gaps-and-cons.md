@@ -16,7 +16,7 @@ source_file: "ChatGPT-Blindspots Gaps and Cons.txt"
 source_folder: "mindset"
 nodes: [3, 4, 10]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "intitiate protocols: my blindspots, gaps, cons about me and my p
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
@@ -124,8 +124,8 @@ You know how to bring in quick cash in alignment, but it’s not always reliable
 
 Gap: Building longer-term, layered income and backup structures (like grants, passive, or recurring revenue).
 
-Physical Restoration
-You push hard spiritually and emotionally, but sometimes your physical vessel is behind.
+Foundation Restoration
+You push hard spiritually and emotionally, but sometimes your foundation vessel is behind.
 
 Gap: Nervous system recalibration, consistent meals/rest, and regulating with pleasure not pressure.
 
@@ -210,7 +210,7 @@ context_above: "Alright admin — initiating internal protocol: 'Blindspots, Gap
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -234,7 +234,7 @@ context_above: "Yes please! I want to figure out how to blend my voids and value
 provenance: HYBRID
 nature: TOOL
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -250,7 +250,7 @@ Absolutely — let’s alchemize your voids + values into your value (what you o
 Voids → Values → Offers → Income
 
 
-Voids are the things you lacked, craved, or struggled with the most (emotional, physical, spiritual, relational, financial).
+Voids are the things you lacked, craved, or struggled with the most (emotional, foundation, spiritual, relational, vision).
 
 Values are what you’ve come to care deeply about because of those voids.
 
@@ -268,9 +268,9 @@ Income flows when your service is rooted in truth and solves a real need — fro
 
 Emotional neglect or invalidation: feeling unseen, unsupported, or like you had to do it alone
 
-Health crisis and misdiagnosis: autoimmune issues, mystery illness, gaslighting from the system
+Health crisis and misdiagnosis: archetype-beta issues, mystery illness, gaslighting from the system
 
-Financial instability: scarcity cycles, survival mode, and inconsistent income
+Vision instability: scarcity cycles, survival mode, and inconsistent income
 
 Spiritual/emotional confusion: craving truth, safety, or higher understanding
 
@@ -306,7 +306,7 @@ Self-worth rooted in divine knowing, not proving
 Now we blend your voids + values into an offer or message that creates income and impact.
 
 
-Your current ecosystem (EAU Spiral Blueprint, affiliate water biz, nonprofit work, healing guidance, etc.) is already doing this.
+Your current ecosystem (EAU Spiral Blueprint, affiliate gateway biz, nonprofit work, healing guidance, etc.) is already doing this.
 
 
 Let’s reframe it more directly for income:
@@ -315,9 +315,9 @@ Let’s reframe it more directly for income:
 
 🎤 Example Positioning Statements (Money-Making Core)
 
-“I help people who are stuck in survival mode remember how to feel good, reclaim their energy, and rebuild their lives on truth and self-worth — starting with their nervous system and water.”
+“I help people who are stuck in survival mode remember how to feel good, reclaim their energy, and rebuild their lives on truth and self-worth — starting with their nervous system and gateway.”
 “I show visionaries how to get out of the matrix, heal their bodies, align with their energy, and create a life that actually feels good — using the exact tools that saved me.”
-“I guide people through the exact spiral of healing I walked — from chaos and illness to clarity and freedom — through nervous system work, aligned action, and water.”
+“I guide people through the exact spiral of healing I walked — from chaos and illness to clarity and freedom — through nervous system work, aligned action, and gateway.”
 
 
 🧲 WHERE MONEY WANTS TO FLOW
@@ -333,7 +333,7 @@ Nervous system wisdom
 Emotional regulation tools / sessions / guides
 Chronic illness + gaslighting
 Holistic root-cause healing
-Gut/hormone protocol, water guide, healing sessions
+Gut/hormone protocol, gateway guide, healing sessions
 Scarcity cycles
 Energetic & practical money rewiring
 “Feel Good First” course or biz mentorship
@@ -352,7 +352,7 @@ Funnel creation, affiliate support, biz roadmap
 
 
 “Start Here” Mini Guide
-→ “How to Start Healing When You're Still in Survival Mode” (free lead magnet with upsell to your water product or blueprint)
+→ “How to Start Healing When You're Still in Survival Mode” (free lead magnet with upsell to your gateway product or blueprint)
 
 Your Spiral Blueprint
 → $47–$197 price point for a foundational program or ebook + optional 1:1 add-on
@@ -360,11 +360,11 @@ Your Spiral Blueprint
 1:1 'Rewire + Rise' Sessions
 → 60 min calls with energetic clearing + customized game plan ($111–$222 each)
 
-Water + Healing Business Bundle
-→ Water filter + blueprint + mini course to start their own aligned biz ($) — bonus if they enroll in biz with you
+Gateway + Healing Business Bundle
+→ Gateway filter + blueprint + mini course to start their own aligned biz ($) — bonus if they enroll in biz with you
 
 Live Masterclass Series: "The Feel Good Revolution"
-→ Teach 3 core lessons: nervous system, water, and frequency regulation → pitch your deeper offer
+→ Teach 3 core lessons: nervous system, gateway, and frequency regulation → pitch your deeper offer
 
 
 
@@ -391,13 +391,13 @@ context_above: "Absolutely — let’s alchemize your voids + values into your v
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3B
 -->
-Yes please! I want to implement even if it’s rough in the next few days at least my landing page, webclass first and then the rough spiral, but having the three different clear avenues so new leads are not confused and have as least friction as possible (can start posting my puzzle and launch insta highlights and three top posts and then schedule out my puzzle) - then I can start working on the water funnel next week and then those sales are going to be my main focus and the business and spiral will just be there for who needs it
+Yes please! I want to implement even if it’s rough in the next few days at least my landing page, webclass first and then the rough spiral, but having the three different clear avenues so new leads are not confused and have as least friction as possible (can start posting my puzzle and launch insta highlights and three top posts and then schedule out my puzzle) - then I can start working on the gateway funnel next week and then those sales are going to be my main focus and the business and spiral will just be there for who needs it
 
 
 3/3
@@ -418,7 +418,7 @@ context_above: "Yes please! I want to implement even if it’s rough in the next
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -449,7 +449,7 @@ Sections:
 🌀 3 Path Buttons →
 "I'm stuck and need to feel good first" (→ Spiral Blueprint)
 
-"I want to detox and upgrade my health" (→ Water Funnel)
+"I want to detox and upgrade my health" (→ Gateway Funnel)
 
 "I’m ready to align my life + income" (→ Business Path)
 
@@ -470,15 +470,15 @@ Goal: Introduce your story + spiral + offer in 24 mins or less
 Suggested Flow:
 
 
-Intro: Your story + why nothing was working until you shifted your nervous system + water + energy
+Intro: Your story + why nothing was working until you shifted your nervous system + gateway + energy
 
 Teach: Mini breakdown of the Spiral (3–5 key steps or points)
 
-Reveal: What helped you most (water, blueprint, biz)
+Reveal: What helped you most (gateway, blueprint, biz)
 
-Offer: “You can start where I did — here’s how…” → Link to spiral or water or both
+Offer: “You can start where I did — here’s how…” → Link to spiral or gateway or both
 
-CTA: DM you, take quiz, join waitlist, or order water
+CTA: DM you, take quiz, join waitlist, or order gateway
 
 
 
@@ -497,7 +497,7 @@ First layer: Feel Good First with mini guide
 
 Quiz or buttons to self-select where they are
 
-Upsell to Spiral Blueprint ($47–197) or water
+Upsell to Spiral Blueprint ($47–197) or gateway
 
 
 
@@ -524,7 +524,7 @@ Start Here – directs to landing page or quiz
 
 Spiral – explain E•A•U in stories
 
-Water – benefits, testimonials, story
+Gateway – benefits, testimonials, story
 
 Blueprint – your personal journey → offer
 
@@ -532,7 +532,7 @@ Biz / Freedom – for those who want time + $ freedom
 
 
 
-💧 Phase 3: WATER FUNNEL NEXT WEEK
+💧 Phase 3: GATEWAY FUNNEL NEXT WEEK
 
 
 Use testimonials, transformation posts, and story highlights
@@ -558,7 +558,7 @@ IG Puzzle posts + Highlights updated
 Day 5
 DM or email 3–5 leads to test funnel flow
 Next Week
-Focus on water funnel + story sales
+Focus on gateway funnel + story sales
 
 
 I can now:
@@ -593,7 +593,7 @@ context_above: "Perfect — let’s lay out your next few days in a way that kee
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -617,7 +617,7 @@ context_above: "Can we do the first two please!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -657,7 +657,7 @@ CTA Buttons (centered):
 
 🌿 I want to feel good again → /spiral
 
-💧 I want to detox my body → /water
+💧 I want to detox my body → /gateway
 
 🔓 I want to build aligned income → /business
 
@@ -707,14 +707,14 @@ Use 3 small blurbs/cards for each path:
 Path 1: Spiral Blueprint
 
 “Feel Good First”
-Root-level healing through nervous system regulation, frequency, water & clarity.
+Root-level healing through nervous system regulation, frequency, gateway & clarity.
 [Explore the Spiral →]
 
-Path 2: Water Upgrade
+Path 2: Gateway Upgrade
 
 “Stop Drinking Acid”
-Heal from the inside out. The cleanest, most powerful water on earth.
-[Learn About Water →]
+Heal from the inside out. The cleanest, most powerful gateway on earth.
+[Learn About Gateway →]
 
 Path 3: Business Path
 
@@ -743,7 +743,7 @@ Title:
 
 Quick story: “Not that long ago… I was bloated, burnt out, overworked and underpaid...”
 
-Emotional hook: “No one told me my nervous system was stuck. No one told me my water was hurting me. No one told me healing doesn’t happen in a straight line… it spirals.”
+Emotional hook: “No one told me my nervous system was stuck. No one told me my gateway was hurting me. No one told me healing doesn’t happen in a straight line… it spirals.”
 
 
 
@@ -769,7 +769,7 @@ Emphasize:
 
 
 “The three things that changed my life:”
-Water (cellular healing + real detox)
+Gateway (cellular healing + real detox)
 
 The Spiral Blueprint (aka my own healing map)
 
@@ -786,7 +786,7 @@ Let them self-sort:
 
 Want to feel better? → Spiral Blueprint
 
-Want to detox your body? → Water
+Want to detox your body? → Gateway
 
 Want to build soul-aligned income? → Work with me
 
@@ -814,7 +814,7 @@ context_above: "Absolutely! Let’s get your Landing Page Wireframe (Figma-style
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -841,7 +841,7 @@ context_above: "Should I mention the spiral on my business landing page or no fo
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -920,7 +920,7 @@ context_above: "Yes — that’s 100% the right call. Here’s what I recommend 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -944,7 +944,7 @@ context_above: "Can you just update my next three or four days steps"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1043,7 +1043,7 @@ Start Here
 
 Business
 
-Water
+Gateway
 
 Spiral
 
@@ -1052,7 +1052,7 @@ Q&A or You? (testimonials, story)
 Draft & schedule 3–5 puzzle posts teasing:
 The old you
 
-What changed (nervous system, water, biz)
+What changed (nervous system, gateway, biz)
 
 A bold invitation to watch the webclass
 
@@ -1086,13 +1086,13 @@ context_above: "Absolutely — here’s your updated 3–4 day execution plan ba
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
 strike_phase: 3B
 -->
-Okay then I can still be working on the spiral behind the scenes and then when it’s closer I can start to integrate it in and posting puzzles - then will work on the water funnel while that stuff is working
+Okay then I can still be working on the spiral behind the scenes and then when it’s closer I can start to integrate it in and posting puzzles - then will work on the gateway funnel while that stuff is working
 <!-- ATM-M-119 OUT
 next: ATM-M-120
 context_below: "Exactly — that’s the aligned flow. You’re building a strong front-end offer (webclass + $99 biz star..."
@@ -1110,14 +1110,14 @@ context_above: "Okay then I can still be working on the spiral behind the scenes
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [3, 4, 10]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 3B
 -->
 Exactly — that’s the aligned flow.
-You’re building a strong front-end offer (webclass + $99 biz start) while your deeper frameworks (Spiral + water funnel) simmer behind the scenes. Then you layer them in naturally — no rush, no pressure, just evolution.
+You’re building a strong front-end offer (webclass + $99 biz start) while your deeper frameworks (Spiral + gateway funnel) simmer behind the scenes. Then you layer them in naturally — no rush, no pressure, just evolution.
 
 
 
@@ -1148,7 +1148,7 @@ Start mini posts like “Feel Good First” or “Are You in Survival Mode?”
 🌀 You’ll gradually introduce this to biz clients + public as a powerful next step or root-level support tool.
 
 
-💧Next Week: Water Funnel Build
+💧Next Week: Gateway Funnel Build
 
 
 Structure page with clear:
@@ -1172,7 +1172,7 @@ Front stage now: Clean business webclass funnel
 
 Backstage: Spiral & puzzle prep
 
-Next week: Launch water funnel + stories
+Next week: Launch gateway funnel + stories
 
 
 Would you like that plug-and-play business landing page template now so you can start building right away?

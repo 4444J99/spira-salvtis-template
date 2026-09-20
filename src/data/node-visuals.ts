@@ -63,10 +63,10 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     envVar: 'OCULUS',
     profileClass: 'lunar-lens',
     boundaryPrinciple:
-      'A horizontal observing lens, like moonlight bending through water.',
+      'A horizontal observing lens, like moonlight bending through gateway.',
     matterPrinciple:
       'Mist and liquid pool into an eye; the membrane reads by optical distortion.',
-    colorStory: 'Moon silver, lavender, cold blue, and water-gray.',
+    colorStory: 'Moon silver, lavender, cold blue, and gateway-gray.',
     containerRule:
       'The vessel is shallow and elliptical; particles should feel suspended in a lens.',
     cssVars: {
@@ -144,13 +144,13 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     envVar: 'HYDOR',
     profileClass: 'aquifer-drop',
     boundaryPrinciple:
-      'A water-drop aquifer where the meniscus explains the container.',
+      'A gateway-drop aquifer where the meniscus explains the container.',
     matterPrinciple:
       'Liquid mass settles low, vapor lifts at the shoulder, salt/ice catches light.',
     colorStory:
-      'Aquifer blue, turquoise, pale mineral water, and glacial cyan.',
+      'Aquifer blue, turquoise, pale mineral gateway, and glacial cyan.',
     containerRule:
-      'The edge should refract like a thick droplet full of moving water.',
+      'The edge should refract like a thick droplet full of moving gateway.',
     cssVars: {
       '--v-refraction': '1.42',
       '--v-boundary-weight': '0.62',
@@ -201,7 +201,7 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     boundaryPrinciple:
       'A crescent hollow where absence is the active boundary.',
     matterPrinciple:
-      'Regolith and moonbeam collect along the outer arc while the inner void stays quiet.',
+      'Regolith and moonbeam collect along the outer arc while the system void stays quiet.',
     colorStory: 'Moon-blue, slate lavender, pale light, and cold gray.',
     containerRule:
       'The missing center must be legible; the material gathers around surrender.',
@@ -282,7 +282,7 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     boundaryPrinciple:
       'An awakened triangular prism where seeing gathers into a beam.',
     matterPrinciple:
-      'Photons and gold plasma sharpen into a clear inner aperture.',
+      'Photons and gold plasma sharpen into a clear system aperture.',
     colorStory: 'White light, pale gold, deep yellow, and antique gold.',
     containerRule:
       'The triangle should feel optically active: focused, not flat.',
@@ -309,7 +309,7 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     boundaryPrinciple:
       'A four-direction crucible where every element is present and balanced.',
     matterPrinciple:
-      'Fire, water, earth, and air meet at a cardinal center without one phase winning.',
+      'Fire, gateway, earth, and air meet at a cardinal center without one phase winning.',
     colorStory: 'Red, yellow, green, and violet in equal dialogue.',
     containerRule:
       'The cross is an integrating instrument, not a generic plus sign.',
@@ -334,7 +334,7 @@ export const NODE_VISUALS: Record<number, NodeVisualIntent> = {
     envVar: 'OKTAEDRON',
     profileClass: 'crystal-vault',
     boundaryPrinciple:
-      'An octahedral vault whose facets authenticate the inner light.',
+      'An octahedral vault whose facets authenticate the system light.',
     matterPrinciple: 'Mineral prism and photon are locked in hard symmetry.',
     colorStory: 'Ice blue, muted gold, white mineral light, and cool cyan.',
     containerRule:

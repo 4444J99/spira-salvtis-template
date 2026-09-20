@@ -65,7 +65,7 @@ const LENS_DESCRIPTIONS: Record<Lens, string> = {
   'greek-classical': 'Proportion, columnar, mathematical. Names anchored in geometry and natural philosophy.',
   'christian-mystical': 'Sacred heart, redemption, transformation. Names anchored in mystical theology.',
   'jungian': 'Archetype, collective unconscious. Names anchored in depth psychology.',
-  'physics-elemental': 'Matter, energy, force. Names anchored in observed physical phenomena.',
+  'physics-elemental': 'Matter, energy, force. Names anchored in observed foundation phenomena.',
   'modern-wellness': "Accessible, current, spira-salvtis specific. admin's naming layer.",
 };
 
@@ -88,17 +88,17 @@ interface PhaseRow {
 const PHASES: PhaseRow[] = [
   {
     phase: 'ELEVATE',
-    desc: 'Raise from baseline — bodily foundation, awareness, regulation. The Physical Sovereignty arc.',
+    desc: 'Raise from baseline — bodily foundation, awareness, regulation. The Foundation Sovereignty arc.',
     nodes: nodes.filter((n) => n.phase === 'ELEVATE'),
   },
   {
     phase: 'ALIGN',
-    desc: 'Integrate mind and life — responsibility, release, clarity, becoming, awakening. Inner + Identity Sovereignty.',
+    desc: 'Integrate mind and life — responsibility, release, clarity, becoming, awakening. System + Structure Sovereignty.',
     nodes: nodes.filter((n) => n.phase === 'ALIGN'),
   },
   {
     phase: 'UNLOCK',
-    desc: 'Freedom and full flow — integration, authentic expression, gifts amplified. Identity + Financial Sovereignty.',
+    desc: 'Freedom and full flow — integration, authentic expression, gifts amplified. Structure + Vision Sovereignty.',
     nodes: nodes.filter((n) => n.phase === 'UNLOCK'),
   },
 ];
@@ -327,7 +327,7 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
         Each spiral node has one immutable substrate identity (its
         <em> True Name</em>). The same essence has been recognized and re-named
         across many traditions for thousands of years; the substrate is the
-        identity beneath all those names. Click any card to see that
+        structure beneath all those names. Click any card to see that
         substrate's full chronological lineage.
       </p>
       <div class="substrate-grid">
@@ -486,7 +486,7 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
               <th>Vertices</th>
               <th>Symmetry</th>
               <th>PHI<sup>k</sup></th>
-              <th>Inner ratio</th>
+              <th>System ratio</th>
               <th>Twist</th>
               <th>Void?</th>
               <th>Depth</th>
@@ -518,7 +518,7 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
     <section id="worlds" class="section">
       <h2>Themed Worlds</h2>
       <p class="section-desc">
-        Per-node environment: elements (fire, water, plasma…), phase mix,
+        Per-node environment: elements (fire, gateway, plasma…), phase mix,
         biology, gravity vector, particle behavior, accent palette. Every node
         is its own complete world — "Halloween Town, Tomorrowland, Crystal Vault."
       </p>
@@ -579,69 +579,69 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
 
 <style>
   .aesthetics-page {
-    max-width: 1180px;
+    'max-width': 1180px;
     margin: 0 auto;
     padding: 3rem 1.5rem 6rem;
     color: var(--color-text, #e8e6e1);
-    line-height: 1.55;
+    'line-height': 1.55;
   }
 
   .hero {
-    text-align: center;
-    margin-bottom: 3rem;
+    'text-align': center;
+    'margin-bottom': 3rem;
   }
   .eyebrow {
-    font-size: 0.7rem;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
+    'font-size': 0.7rem;
+    'letter-spacing': 0.25em;
+    'text-transform': uppercase;
     opacity: 0.55;
     margin: 0 0 0.5rem;
   }
   .hero h1 {
-    font-size: clamp(2rem, 5vw, 3.25rem);
+    'font-size': clamp(2rem, 5vw, 3.25rem);
     margin: 0 0 1.25rem;
-    font-weight: 300;
-    letter-spacing: -0.02em;
+    'font-weight': 300;
+    'letter-spacing': -0.02em;
   }
   .intro, .intro-secondary {
-    max-width: 680px;
+    'max-width': 680px;
     margin: 0 auto 0.75rem;
-    font-size: 1.05rem;
+    'font-size': 1.05rem;
     opacity: 0.88;
   }
   .intro-secondary {
     opacity: 0.65;
-    font-size: 0.95rem;
+    'font-size': 0.95rem;
   }
 
   .toc {
     margin: 0 auto 4rem;
-    max-width: 720px;
+    'max-width': 720px;
     padding: 1.5rem 1.75rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 12px;
+    'border-radius': 12px;
     background: rgba(255, 255, 255, 0.02);
   }
   .toc h2 {
-    font-size: 0.75rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+    'font-size': 0.75rem;
+    'letter-spacing': 0.18em;
+    'text-transform': uppercase;
     opacity: 0.6;
     margin: 0 0 0.75rem;
-    font-weight: 600;
+    'font-weight': 600;
   }
   .toc ol {
     columns: 2;
-    column-gap: 2rem;
-    padding-left: 1.25rem;
+    'column-gap': 2rem;
+    'padding-left': 1.25rem;
     margin: 0;
-    font-size: 0.9rem;
+    'font-size': 0.9rem;
   }
   .toc li { margin: 0 0 0.35rem; }
   .toc a {
     color: var(--color-accent, #c9a96e);
-    text-decoration: none;
-    border-bottom: 1px dotted rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
+    'text-decoration': none;
+    'border-bottom': 1px dotted rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
   }
   .toc a:hover { border-bottom-style: solid; }
 
@@ -649,16 +649,16 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
     margin: 0 0 4.5rem;
   }
   .section h2 {
-    font-size: 1.5rem;
-    font-weight: 400;
+    'font-size': 1.5rem;
+    'font-weight': 400;
     margin: 0 0 0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    'padding-bottom': 0.5rem;
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.1);
   }
   .section-desc {
     margin: 0 0 2rem;
-    max-width: 760px;
-    font-size: 0.97rem;
+    'max-width': 760px;
+    'font-size': 0.97rem;
     opacity: 0.78;
   }
   .section-desc code,
@@ -676,31 +676,31 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   .chakra-hex,
   .geo-table code,
   .world-card code {
-    font-family: ui-monospace, 'SF Mono', monospace;
-    font-size: 0.86em;
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.86em;
     background: rgba(255, 255, 255, 0.06);
     padding: 0.1em 0.4em;
-    border-radius: 3px;
+    'border-radius': 3px;
   }
 
   /* ============ VOCABULARY ============ */
   .vocab-category { margin: 0 0 2.5rem; }
   .vocab-cat-header {
     display: flex;
-    align-items: center;
+    'align-items': center;
     gap: 0.75rem;
-    flex-wrap: wrap;
-    font-size: 0.95rem;
-    font-weight: 400;
+    'flex-wrap': wrap;
+    'font-size': 0.95rem;
+    'font-weight': 400;
     margin: 0 0 1rem;
   }
   .vocab-cat-badge {
-    font-size: 0.7rem;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
+    'font-size': 0.7rem;
+    'letter-spacing': 0.15em;
+    'text-transform': uppercase;
     padding: 0.25rem 0.65rem;
-    border-radius: 4px;
-    font-weight: 600;
+    'border-radius': 4px;
+    'font-weight': 600;
   }
   .vocab-cat-badge.cat-structure   { background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.18); color: var(--color-gold); }
   .vocab-cat-badge.cat-visual      { background: rgba(120, 196, 168, 0.18); color: #78c4a8; }
@@ -710,87 +710,87 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
 
   .vocab-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
   }
   .vocab-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    'border-radius': 10px;
     padding: 1.1rem 1.25rem;
   }
   .vocab-card-header { margin-bottom: 0.5rem; }
   .vocab-card-header h4 {
-    font-size: 1rem;
+    'font-size': 1rem;
     margin: 0 0 0.15rem;
-    font-weight: 500;
+    'font-weight': 500;
   }
   .tech-name {
-    font-size: 0.75rem;
+    'font-size': 0.75rem;
     opacity: 0.55;
   }
   .vocab-def {
     margin: 0 0 0.6rem;
-    font-size: 0.88rem;
+    'font-size': 0.88rem;
     opacity: 0.85;
   }
   .vocab-example {
     margin: 0 0 0.5rem;
-    font-size: 0.82rem;
+    'font-size': 0.82rem;
     opacity: 0.7;
-    padding-left: 0.6rem;
-    border-left: 2px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
+    'padding-left': 0.6rem;
+    'border-left': 2px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
   }
   .example-tag {
-    font-weight: 600;
+    'font-weight': 600;
     color: var(--color-accent, #c9a96e);
-    margin-right: 0.25rem;
+    'margin-right': 0.25rem;
   }
   .vocab-link {
     margin: 0.5rem 0 0;
-    font-size: 0.85rem;
+    'font-size': 0.85rem;
   }
   .vocab-link a {
     color: var(--color-accent, #c9a96e);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
+    'text-decoration': none;
+    'border-bottom': 1px solid currentColor;
   }
 
   /* ============ MODE CARDS (vessel + nav) ============ */
   .mode-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(280px, 1fr));
     gap: 1rem;
   }
   .mode-grid--two {
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(320px, 1fr));
   }
   .mode-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    'border-radius': 10px;
     padding: 1.25rem;
   }
   .mode-card.is-current {
-    border-color: rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
+    'border-color': rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
     background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.05);
   }
   .mode-header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    'justify-content': space-between;
+    'align-items': flex-start;
     gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    'margin-bottom': 0.5rem;
   }
   .mode-header h3 {
-    font-size: 1rem;
+    'font-size': 1rem;
     margin: 0;
-    font-weight: 500;
+    'font-weight': 500;
   }
   .mode-key { font-size: 0.7rem; opacity: 0.7; }
   .mode-desc {
     margin: 0 0 1rem;
-    font-size: 0.88rem;
+    'font-size': 0.88rem;
     opacity: 0.78;
   }
   .btn-preview {
@@ -798,17 +798,17 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
     padding: 0.4rem 0.85rem;
     background: var(--color-accent, #c9a96e);
     color: #1a1a1a;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border-radius: 5px;
-    text-decoration: none;
+    'font-size': 0.8rem;
+    'font-weight': 600;
+    'border-radius': 5px;
+    'text-decoration': none;
   }
   .btn-preview:hover { background: var(--color-gold-light); }
 
   /* ============ SUBSTRATES ============ */
   .substrate-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(220px, 1fr));
     gap: 0.85rem;
   }
   .substrate-card {
@@ -816,10 +816,10 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
     display: block;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--card-accent);
-    border-left: 4px solid var(--card-accent);
-    border-radius: 8px;
+    'border-left': 4px solid var(--card-accent);
+    'border-radius': 8px;
     padding: 1rem;
-    text-decoration: none;
+    'text-decoration': none;
     color: inherit;
     transition: background 0.15s ease, transform 0.1s ease;
   }
@@ -829,171 +829,171 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   }
   .substrate-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.3rem;
+    'justify-content': space-between;
+    'align-items': center;
+    'margin-bottom': 0.3rem;
   }
   .substrate-id {
-    font-size: 0.72rem;
+    'font-size': 0.72rem;
     opacity: 0.55;
-    font-family: ui-monospace, 'SF Mono', monospace;
+    'font-family': ui-monospace, 'SF Mono', monospace;
   }
   .substrate-glyph { font-size: 1.4rem; }
   .substrate-name {
-    font-size: 0.95rem;
+    'font-size': 0.95rem;
     margin: 0 0 0.3rem;
-    font-weight: 500;
+    'font-weight': 500;
   }
   .substrate-true-name {
     margin: 0 0 0.5rem;
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    'justify-content': space-between;
+    'align-items': center;
   }
   .substrate-chakra {
-    font-size: 0.72rem;
+    'font-size': 0.72rem;
     opacity: 0.7;
-    text-transform: lowercase;
+    'text-transform': lowercase;
   }
   .substrate-tagline {
     margin: 0 0 0.5rem;
-    font-size: 0.82rem;
+    'font-size': 0.82rem;
     opacity: 0.78;
-    line-height: 1.4;
+    'line-height': 1.4;
   }
   .substrate-meta {
     margin: 0;
-    font-size: 0.72rem;
+    'font-size': 0.72rem;
     opacity: 0.55;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    'text-transform': uppercase;
+    'letter-spacing': 0.08em;
   }
 
   /* ============ LENSES ============ */
   .lens-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(320px, 1fr));
     gap: 1rem;
   }
   .lens-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    'border-radius': 10px;
     padding: 1.25rem;
   }
   .lens-header {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 0.5rem;
+    'justify-content': space-between;
+    'align-items': baseline;
+    'margin-bottom': 0.5rem;
   }
   .lens-header h3 {
-    font-size: 1rem;
+    'font-size': 1rem;
     margin: 0;
-    font-weight: 500;
+    'font-weight': 500;
   }
   .lens-desc {
-    font-size: 0.85rem;
+    'font-size': 0.85rem;
     opacity: 0.78;
     margin: 0 0 0.85rem;
   }
   .lens-mod {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    'grid-template-columns': max-content 1fr;
     gap: 0.25rem 0.85rem;
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     margin: 0 0 0.85rem;
     padding: 0.65rem 0.85rem;
     background: rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+    'border-radius': 6px;
   }
   .lens-mod dt { opacity: 0.6; }
   .lens-mod dd { margin: 0; font-family: ui-monospace, 'SF Mono', monospace; }
   .lens-examples {
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     opacity: 0.7;
     margin: 0;
   }
   .lens-examples em {
-    font-style: italic;
+    'font-style': italic;
     color: var(--color-accent, #c9a96e);
   }
 
   /* ============ PILLARS ============ */
   .pillar-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(260px, 1fr));
     gap: 1rem;
   }
   .pillar-card {
     --card-accent: #888;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-left: 4px solid var(--card-accent);
-    border-radius: 10px;
+    'border-left': 4px solid var(--card-accent);
+    'border-radius': 10px;
     padding: 1.25rem;
   }
   .pillar-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.4rem;
+    'justify-content': space-between;
+    'align-items': center;
+    'margin-bottom': 0.4rem;
   }
   .pillar-emoji { font-size: 1.5rem; }
   .pillar-order {
-    font-size: 0.72rem;
+    'font-size': 0.72rem;
     opacity: 0.55;
-    font-family: ui-monospace, 'SF Mono', monospace;
+    'font-family': ui-monospace, 'SF Mono', monospace;
   }
   .pillar-card h3 { font-size: 1.05rem; margin: 0 0 0.3rem; font-weight: 500; }
   .pillar-tagline {
     margin: 0 0 0.7rem;
-    font-size: 0.86rem;
+    'font-size': 0.86rem;
     opacity: 0.78;
-    line-height: 1.45;
+    'line-height': 1.45;
   }
   .pillar-meta,
   .pillar-color,
   .pillar-url {
     margin: 0 0 0.35rem;
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
   }
   .pillar-url a {
     color: var(--card-accent);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
+    'text-decoration': none;
+    'border-bottom': 1px solid currentColor;
   }
   .color-swatch {
     display: inline-block;
     width: 0.85rem;
     height: 0.85rem;
-    border-radius: 3px;
-    vertical-align: middle;
-    margin-right: 0.4rem;
+    'border-radius': 3px;
+    'vertical-align': middle;
+    'margin-right': 0.4rem;
     border: 1px solid rgba(255, 255, 255, 0.15);
   }
 
   /* ============ PHASES ============ */
   .phase-band {
-    border-left: 3px solid var(--color-accent, #c9a96e);
+    'border-left': 3px solid var(--color-accent, #c9a96e);
     padding: 0 0 0 1.25rem;
     margin: 0 0 1.5rem;
   }
   .phase-band h3 {
-    font-size: 1rem;
-    letter-spacing: 0.15em;
+    'font-size': 1rem;
+    'letter-spacing': 0.15em;
     margin: 0 0 0.35rem;
-    font-weight: 600;
+    'font-weight': 600;
     color: var(--color-accent, #c9a96e);
   }
   .phase-desc {
     margin: 0 0 0.85rem;
-    font-size: 0.88rem;
+    'font-size': 0.88rem;
     opacity: 0.78;
   }
   .phase-nodes {
-    list-style: none;
+    'list-style': none;
     padding: 0;
     margin: 0;
     display: grid;
@@ -1001,66 +1001,66 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   }
   .phase-nodes li {
     display: flex;
-    align-items: center;
+    'align-items': center;
     gap: 0.6rem;
-    font-size: 0.87rem;
+    'font-size': 0.87rem;
   }
   .phase-node-color {
     display: inline-block;
     width: 0.65rem;
     height: 0.65rem;
-    border-radius: 50%;
+    'border-radius': 50%;
     flex: 0 0 auto;
   }
   .phase-nodes a {
     color: inherit;
-    text-decoration: none;
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    'text-decoration': none;
+    'border-bottom': 1px dotted rgba(255, 255, 255, 0.2);
   }
   .phase-node-meta { opacity: 0.6; font-size: 0.82rem; }
 
   /* ============ CHAKRA STRIP ============ */
   .chakra-strip {
-    list-style: none;
+    'list-style': none;
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    'grid-template-columns': repeat(auto-fit, minmax(140px, 1fr));
     gap: 0.4rem;
   }
   .chakra-step {
     --swatch: #888;
     display: grid;
-    grid-template-columns: 1.5rem 1fr;
-    grid-template-rows: auto auto;
+    'grid-template-columns': 1.5rem 1fr;
+    'grid-template-rows': auto auto;
     gap: 0.15rem 0.5rem;
     padding: 0.65rem 0.75rem;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-left: 3px solid var(--swatch);
-    border-radius: 6px;
-    align-items: center;
+    'border-left': 3px solid var(--swatch);
+    'border-radius': 6px;
+    'align-items': center;
   }
   .chakra-swatch {
-    grid-row: span 2;
+    'grid-row': span 2;
     width: 1.5rem;
     height: 1.5rem;
-    border-radius: 50%;
+    'border-radius': 50%;
     background: var(--swatch);
-    box-shadow: 0 0 8px var(--swatch);
+    'box-shadow': 0 0 8px var(--swatch);
   }
   .chakra-num {
-    font-family: ui-monospace, 'SF Mono', monospace;
-    font-size: 0.78rem;
+    'font-family': ui-monospace, 'SF Mono', monospace;
+    'font-size': 0.78rem;
     opacity: 0.7;
   }
   .chakra-label {
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     opacity: 0.85;
   }
   .chakra-hex {
-    font-size: 0.72rem;
-    grid-column: 2;
+    'font-size': 0.72rem;
+    'grid-column': 2;
     opacity: 0.55;
   }
 
@@ -1068,21 +1068,21 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   .geo-table-wrap { overflow-x: auto; }
   .geo-table {
     width: 100%;
-    border-collapse: collapse;
-    font-size: 0.85rem;
+    'border-collapse': collapse;
+    'font-size': 0.85rem;
   }
   .geo-table th,
   .geo-table td {
-    text-align: left;
+    'text-align': left;
     padding: 0.55rem 0.75rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    'border-bottom': 1px solid rgba(255, 255, 255, 0.06);
   }
   .geo-table th {
     background: rgba(255, 255, 255, 0.04);
-    font-weight: 500;
-    font-size: 0.78rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    'font-weight': 500;
+    'font-size': 0.78rem;
+    'text-transform': uppercase;
+    'letter-spacing': 0.05em;
     opacity: 0.75;
   }
   .geo-table tbody tr:hover { background: rgba(255, 255, 255, 0.02); }
@@ -1090,32 +1090,32 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   /* ============ WORLDS ============ */
   .world-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    'grid-template-columns': repeat(auto-fill, minmax(310px, 1fr));
     gap: 1rem;
   }
   .world-card {
     --card-accent: #888;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-top: 3px solid var(--card-accent);
-    border-radius: 10px;
+    'border-top': 3px solid var(--card-accent);
+    'border-radius': 10px;
     padding: 1.1rem 1.25rem;
   }
   .world-header { margin-bottom: 0.5rem; }
   .world-header h3 {
     margin: 0 0 0.15rem;
-    font-size: 1rem;
-    font-weight: 500;
+    'font-size': 1rem;
+    'font-weight': 500;
   }
   .world-node-name {
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     opacity: 0.65;
   }
   .world-meta {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    'grid-template-columns': max-content 1fr;
     gap: 0.2rem 0.75rem;
-    font-size: 0.78rem;
+    'font-size': 0.78rem;
     margin: 0 0 0.85rem;
   }
   .world-meta dt { opacity: 0.55; }
@@ -1128,34 +1128,34 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    border-radius: 4px;
+    'border-radius': 4px;
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   /* ============ FOOTER ============ */
   .aesthetics-footer {
-    margin-top: 5rem;
+    'margin-top': 5rem;
     padding: 2rem 1.75rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
+    'border-top': 1px solid rgba(255, 255, 255, 0.08);
+    'border-radius': 10px;
     background: rgba(255, 255, 255, 0.02);
   }
   .aesthetics-footer h2 {
-    font-size: 1.1rem;
+    'font-size': 1.1rem;
     margin: 0 0 1rem;
-    font-weight: 500;
-    border-bottom: none;
+    'font-weight': 500;
+    'border-bottom': none;
     padding: 0;
   }
   .aesthetics-footer ul {
     margin: 0 0 1rem;
-    padding-left: 1.25rem;
-    font-size: 0.88rem;
+    'padding-left': 1.25rem;
+    'font-size': 0.88rem;
     opacity: 0.85;
   }
   .aesthetics-footer li { margin: 0 0 0.4rem; }
   .footer-note {
-    font-size: 0.85rem;
+    'font-size': 0.85rem;
     opacity: 0.65;
     margin: 0;
   }
@@ -1164,77 +1164,77 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   .param-element { margin: 0 0 2.25rem; }
   .param-el-header {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    'align-items': center;
+    'flex-wrap': wrap;
     gap: 0.5rem 0.7rem;
     margin: 0 0 0.35rem;
-    border-bottom: none;
+    'border-bottom': none;
     padding: 0;
   }
   .param-el-name {
-    font-size: 1.05rem;
-    font-weight: 600;
+    'font-size': 1.05rem;
+    'font-weight': 600;
     color: var(--color-text, #e8e6e1);
   }
   .param-el-tech { font-size: 0.72rem; opacity: 0.5; }
   .param-cat-badge {
-    font-size: 0.62rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    'font-size': 0.62rem;
+    'text-transform': uppercase;
+    'letter-spacing': 0.1em;
     padding: 0.15rem 0.45rem;
-    border-radius: 4px;
+    'border-radius': 4px;
     border: 1px solid currentColor;
   }
   .param-cat-badge.cat-visual { color: #3dbfc4; }
   .param-cat-badge.cat-physics { color: #c9a96e; }
   .param-cat-badge.cat-structure { color: #8cc5d3; }
   .param-el-desc {
-    font-size: 0.85rem;
+    'font-size': 0.85rem;
     opacity: 0.7;
     margin: 0 0 0.85rem;
-    max-width: 72ch;
+    'max-width': 72ch;
   }
   .param-table {
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 8px;
+    'border-radius': 8px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.02);
   }
   .param-row {
     display: grid;
-    grid-template-columns: minmax(0, 2.4fr) minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1.3fr);
+    'grid-template-columns': minmax(0, 2.4fr) minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1.3fr);
     gap: 0.75rem;
     padding: 0.7rem 0.9rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    align-items: start;
-    font-size: 0.82rem;
+    'border-top': 1px solid rgba(255, 255, 255, 0.06);
+    'align-items': start;
+    'font-size': 0.82rem;
   }
   .param-row-head {
-    border-top: none;
-    font-size: 0.66rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    'border-top': none;
+    'font-size': 0.66rem;
+    'text-transform': uppercase;
+    'letter-spacing': 0.08em;
     opacity: 0.5;
   }
   .param-name { display: flex; flex-direction: column; gap: 0.18rem; font-weight: 500; }
   .param-name-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
   .param-tech { font-size: 0.7rem; opacity: 0.5; font-weight: 400; }
   .param-def-text {
-    font-size: 0.74rem;
+    'font-size': 0.74rem;
     opacity: 0.6;
-    font-weight: 400;
-    line-height: 1.35;
+    'font-weight': 400;
+    'line-height': 1.35;
   }
   .param-default code, .param-range code, .param-key code { font-size: 0.75rem; }
   .param-key code { color: var(--color-accent, #c9a96e); word-break: break-all; }
   .param-pending {
     display: inline-block;
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
+    'font-size': 0.6rem;
+    'text-transform': uppercase;
+    'letter-spacing': 0.08em;
     color: #c9a96e;
     border: 1px solid rgba(201, 169, 110, 0.4);
-    border-radius: 4px;
+    'border-radius': 4px;
     padding: 0 0.3rem;
     width: max-content;
   }
@@ -1242,7 +1242,7 @@ const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'langu
   .param-swatch {
     width: 1rem;
     height: 1rem;
-    border-radius: 3px;
+    'border-radius': 3px;
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
 

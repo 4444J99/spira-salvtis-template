@@ -21,7 +21,7 @@
 |-------|----------|-------|--------|
 | S-4 (remainder) | mindset (batch 2) | 14 | Next: S4-M-071, starting from ChatGPT-Rendering Explained.txt |
 | S-5 | business | 15 | NOT STARTED |
-| S-6 | water | 16 | NOT STARTED |
+| S-6 | gateway | 16 | NOT STARTED |
 | S-7 | time-astro + concepts | 22 | NOT STARTED |
 | S-8 | root docs (1a, 1b, 2a, 2b) | 4 | NOT STARTED |
 

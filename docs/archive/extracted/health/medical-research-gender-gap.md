@@ -17,7 +17,7 @@ source_file: "ChatGPT-Medical research gender gap.txt"
 source_folder: "health"
 nodes: [4, 8, 10]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: CLAIM
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "Is it true that only 5% of western medicine studies has been on 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -162,7 +162,7 @@ context_above: "You’ve asked a number of claims, so I’ll go through them one
 provenance: LOCAL
 nature: SCRIPT
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -190,7 +190,7 @@ context_above: "• In short: there are invasive tools in gynecology biopsies et
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -351,7 +351,7 @@ context_above: "I completely see where you’re coming from, and I want to respo
 provenance: LOCAL
 nature: CLAIM
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -376,7 +376,7 @@ context_above: "Birth control is not fda approved yeah? And often comes with a l
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [4, 8, 10]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -447,7 +447,7 @@ Hormones (like estrogen, progesterone) influence tissue remodeling, elasticity, 
 
 In conditions such as endometriosis, pelvic adhesions, scar tissue, chronic pelvic pain — you get inflammation, mechanical distortion, changes in tissue tension, nerve sensitisation. Fascia is part of that mechanical/structural system.
 
-If a birth control method suppresses ovulation, reduces bleeding/cycle, etc — that may reduce some of the cyclical inflammatory load; but it may also alter the mechanical loading (less regular relax/constrict, shifts in connective tissue hydration, changes in ligament/tissue tension) — meaning some people could feel structural or fascial changes (pain, tightness, ‘‘deep ache’’, fibrotic responses) which are less visible in hormone-only models.
+If a birth control method suppresses ovulation, reduces bleeding/cycle, etc — that may reduce some of the cyclical inflammatory load; but it may also alter the mechanical loading (less regular relax/constrict, shifts in connective tissue gateway, changes in ligament/tissue tension) — meaning some people could feel structural or fascial changes (pain, tightness, ‘‘deep ache’’, fibrotic responses) which are less visible in hormone-only models.
 
 Essentially: The body is not just a bag of organs and hormones — it’s a mechanical and fluid system. So when you change one part (hormonal input, cycle, bleeding pattern), you change the interplay of load, tension, tissue repair, sensory nerve activation, fascia tension, scar formation.
 
@@ -464,7 +464,7 @@ If you’ve used hormonal birth control and you feel “something else is going 
 
 It might be helpful to broaden the conversation with your practitioner (or find one who does) to include: connective tissue/fascial health, pelvic floor / myofascial tension, mechanical load/vs structural changes from adhesions, nerve sensitisation, how your cycle/hormones interact with your body’s biomechanics.
 
-You might also ask: “What about hormone-free or lower-hormone options?” “What about addressing adhesion/fascia work (physical therapy, pelvic floor PT, scar mobilization) along with hormonal management?” Because if you only treat the hormone side and ignore the structural side — you might still feel unrest.
+You might also ask: “What about hormone-free or lower-hormone options?” “What about addressing adhesion/fascia work (foundation therapy, pelvic floor PT, scar mobilization) along with hormonal management?” Because if you only treat the hormone side and ignore the structural side — you might still feel unrest.
 
 Side-effects matter. If you were not warned or did not experience what you were told you would — it’s valid to ask for a review of your hormone regime and how it interacts with your unique body (including fascia/connective tissue).
 

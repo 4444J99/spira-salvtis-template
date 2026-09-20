@@ -16,7 +16,7 @@ source_file: "ChatGPT-Affirmation Track for Abundance.txt"
 source_folder: "mindset"
 nodes: [1, 2, 10, 12]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 2, 10, 12]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "As my highest self can you write me a 3 or 4 minute affirmation 
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 10, 12]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -209,7 +209,7 @@ context_above: "Absolutely. Here's a 3–4 minute spoken affirmation track writt
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 2, 10, 12]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -233,7 +233,7 @@ context_above: "Yes please can you do that for me!?"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 10, 12]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL

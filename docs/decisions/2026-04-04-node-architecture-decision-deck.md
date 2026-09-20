@@ -96,7 +96,7 @@ If you want to tweak the order or rename a node, that's fine too — just tell u
 The moment you lock this:
 - #15 unblocks (V5/V6 prototype merge)
 - #8 unblocks (spiral interaction — clickable/hoverable nodes)
-- #6 unblocks (Physical Sovereignty build — nodes 1-5 + water funnel)
+- #6 unblocks (Foundation Sovereignty build — nodes 1-5 + gateway funnel)
 - We create `src/content/nodes/` with 13 Markdown files and start populating from the 241 content units already clustered
 
 This is the single biggest blocker on the board. Everything accelerates once it's locked.

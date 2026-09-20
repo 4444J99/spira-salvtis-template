@@ -17,7 +17,7 @@ All three shared folders are accessible through the Google Drive connector. No l
 | Folder | Drive folder | Status | Evidence |
 |--------|--------------|--------|----------|
 | 1 | `Content ideas from insta & ss’s` (`1-RBQ7Pi0Qka-SIZxmVam1PBktQBL1EUE`) | Accessible | Metadata read succeeded; listing read succeeded; image assets were returned. |
-| 2 | `content` (`1-D24SHI3Jp4U774nrIGesDRXXdojYUBs`) | Accessible | Metadata read succeeded; top-level listing read succeeded; nested folder listings for `Ebook`, `Post Ideas`, `Launch//Calendars`, `Branding`, `Bio//Highlights`, `Water//H2 info`, and `mindset` succeeded. |
+| 2 | `content` (`1-D24SHI3Jp4U774nrIGesDRXXdojYUBs`) | Accessible | Metadata read succeeded; top-level listing read succeeded; nested folder listings for `Ebook`, `Post Ideas`, `Launch//Calendars`, `Branding`, `Bio//Highlights`, `Gateway//H2 info`, and `mindset` succeeded. |
 | 3 | `ALL Insta screen shots ` (`1-XcYxei9tAhjzJP5XRQxXdFNRi4WYwjZ`) | Accessible | Metadata read succeeded; listing read succeeded; image assets were returned. |
 
 ## Mirror Status

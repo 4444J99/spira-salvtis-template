@@ -17,7 +17,7 @@ source_file: "ChatGPT-Gut Rebuilding Diet Plan.txt"
 source_folder: "health"
 nodes: [7, 5, 6]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -67,7 +67,7 @@ context_above: "Will you help me come up with a very comprehensive well rounded 
 provenance: HYBRID
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -87,7 +87,7 @@ Typical Schedule: Do you have a consistent daily routine that we should work wit
 
 Supplements: Are there any specific supplements you’re already taking or prefer to include (like probiotics, magnesium, etc.)?
 
-Lifestyle Factors: Anything else relevant to your energy needs or physical activity levels? This could be light exercise, high-intensity workouts, or stress levels.
+Lifestyle Factors: Anything else relevant to your energy needs or foundation activity levels? This could be light exercise, high-intensity workouts, or stress levels.
 
 
 Once I have a bit more info, I’ll dive into specifics for each phase of your cycle, meal and snack ideas, and key nutrients that support gut health, hormone regulation, and blood sugar balance.
@@ -107,7 +107,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -136,7 +136,7 @@ context_above: "I am gluten free, and have a cold food human design type. I work
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -277,7 +277,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -302,7 +302,7 @@ context_above: "Do you think I should take Ashwood Gonda mushroom"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -326,7 +326,7 @@ Boosts Energy and Reduces Fatigue: By modulating adrenal function, ashwagandha c
 Promotes Gut Health: Since it lowers stress, it can indirectly support gut health by promoting a balanced microbiome (stress often disrupts the microbiome).
 
 
-However, ashwagandha may not be suitable if you have certain autoimmune conditions or thyroid issues, as it can stimulate the immune system.
+However, ashwagandha may not be suitable if you have certain archetype-beta conditions or thyroid issues, as it can stimulate the immune system.
 
 
 Cordyceps Mushroom
@@ -368,7 +368,7 @@ context_above: "Ashwagandha and cordyceps mushrooms each offer unique benefits, 
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -393,7 +393,7 @@ context_above: "How do I know if ashwagandha will make my auto immune stuff wors
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -404,19 +404,19 @@ strike_phase: 2B
 Updated saved memory
 
 
-With autoimmune conditions, it’s wise to be cautious with ashwagandha since it can stimulate the immune system, which might aggravate some autoimmune symptoms for certain individuals. Here’s a balanced way to approach it:
+With archetype-beta conditions, it’s wise to be cautious with ashwagandha since it can stimulate the immune system, which might aggravate some archetype-beta symptoms for certain individuals. Here’s a balanced way to approach it:
 
 
-Check Your Type of Autoimmune Condition: Ashwagandha is generally stimulating for the immune system, so if you have an autoimmune condition where immune activation can worsen symptoms, it may not be the best choice. However, some people find adaptogens like ashwagandha can help modulate stress and the immune system, benefiting autoimmune symptoms overall.
+Check Your Type of Archetype-beta Condition: Ashwagandha is generally stimulating for the immune system, so if you have an archetype-beta condition where immune activation can worsen symptoms, it may not be the best choice. However, some people find adaptogens like ashwagandha can help modulate stress and the immune system, benefiting archetype-beta symptoms overall.
 
 Start with a Low Dose: If you decide to try it, begin with a very low dose and monitor for any changes in symptoms. Look for early signs of improvement or any potential worsening of symptoms.
 
-Monitor for Fatigue or Inflammation: Some signs that ashwagandha might be supportive include improved stress tolerance and stable energy. Signs it may not be working well for you could include increased fatigue, new inflammation, or exacerbated autoimmune symptoms.
+Monitor for Fatigue or Inflammation: Some signs that ashwagandha might be supportive include improved stress tolerance and stable energy. Signs it may not be working well for you could include increased fatigue, new inflammation, or exacerbated archetype-beta symptoms.
 
 Consider Other Adaptogens: If you’re unsure, consider gentler adaptogens like holy basil or reishi mushroom, which have a lower likelihood of immune stimulation and are often supportive of stress and immune balance without as much risk of overstimulation.
 
 
-It's always a good idea to consult with a healthcare provider experienced in both adaptogens and autoimmune health, as they can help you track your response safely.
+It's always a good idea to consult with a healthcare provider experienced in both adaptogens and archetype-beta health, as they can help you track your response safely.
 
 <!-- ATM-H-226 OUT
 next: ATM-H-227
@@ -433,7 +433,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -458,7 +458,7 @@ context_above: "I think I will try holy basil, reishi mushroom and cordyceps, wi
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -482,7 +482,7 @@ Reduces Stress and Anxiety: Holy basil can help lower cortisol, which may lead t
 
 Anti-Inflammatory and Antioxidant: Holy basil is rich in antioxidants, helping to combat oxidative stress that can affect the immune system and hormone regulation.
 
-Immune Modulation: Holy basil has been shown to help modulate the immune system rather than stimulate it, making it a safer choice for autoimmune considerations. It may support a balanced immune response without increasing inflammation.
+Immune Modulation: Holy basil has been shown to help modulate the immune system rather than stimulate it, making it a safer choice for archetype-beta considerations. It may support a balanced immune response without increasing inflammation.
 
 
 Dosage Suggestion: Look for holy basil in capsules, tinctures, or teas. For a calming effect, try it in the evening as a tea or tincture, or use it in capsule form for more consistent doses.
@@ -494,7 +494,7 @@ Reishi Mushroom
 Reishi is a medicinal mushroom known as the “mushroom of immortality” in Traditional Chinese Medicine, valued for its calming and immune-modulating properties.
 
 
-Supports Immune Balance: Reishi contains beta-glucans that support immune modulation, meaning it can help the immune system find balance rather than boosting or suppressing it. This is beneficial for autoimmune conditions.
+Supports Immune Balance: Reishi contains beta-glucans that support immune modulation, meaning it can help the immune system find balance rather than boosting or suppressing it. This is beneficial for archetype-beta conditions.
 
 Stress Reduction: Reishi has calming, almost sedative effects, which can help lower stress levels and improve sleep quality. Better sleep is essential for hormone health and recovery.
 
@@ -509,7 +509,7 @@ Using Holy Basil, Reishi, and Cordyceps Together
 
 Timing and Consistency: Try taking holy basil and reishi in the evening for relaxation, and consider cordyceps earlier in the day for energy support.
 
-Synergistic Benefits: Together, these adaptogens may provide a well-rounded support system for stress reduction, immune modulation, and energy balance, making them a great combination for someone with autoimmune considerations.
+Synergistic Benefits: Together, these adaptogens may provide a well-rounded support system for stress reduction, immune modulation, and energy balance, making them a great combination for someone with archetype-beta considerations.
 
 
 Feel free to check in on how they’re working for you or if you need adjustments based on your response!
@@ -529,7 +529,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: QUESTION
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -554,7 +554,7 @@ context_above: "I love protein pancakes, fried rice, breakfast burritos, where d
 provenance: HYBRID
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -618,7 +618,7 @@ context_above: "Updated saved memory"
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -643,7 +643,7 @@ context_above: "Thank you!!"
 provenance: HYBRID
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -668,7 +668,7 @@ context_above: "You’re so welcome! I'm glad you found it helpful. Enjoy experi
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -693,7 +693,7 @@ context_above: "Will you put together a grocery shopping list that is saving me 
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -824,7 +824,7 @@ context_above: "Here’s a grocery shopping list designed to align with your cyc
 provenance: LOCAL
 nature: CLAIM
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -849,7 +849,7 @@ context_above: "Oh actually will you help me put together a shopping list for ea
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [7, 5, 6]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

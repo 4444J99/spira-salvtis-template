@@ -24,13 +24,13 @@ ROOT_FILE = PROJECT_ROOT / "docs" / "archive" / "extracted" / "health-hormones-a
 
 # Build-file topics for build_state comparison
 BUILD_TOPICS = {
-    "gut-hormones": ["gut", "hormone", "microbiome", "endocrine", "bloating", "serotonin", "cortisol", "estrogen", "molecular hydrogen", "H2", "gut lining", "gut flora"],
-    "fertility": ["fertility", "conception", "pregnancy", "egg quality", "ovulation", "implantation", "reproductive", "sperm", "oocyte"],
-    "autoimmune": ["autoimmune", "inflammation", "rheumatoid", "lupus", "flare", "immune", "NF-kB", "cytokine", "IL-6", "chronic inflammation"],
-    "athletic": ["athletic", "performance", "lactate", "muscle", "endurance", "recovery", "fatigue", "exercise", "WADA"],
-    "cancer-support": ["cancer", "chemotherapy", "radiation", "tumor", "oncology", "antitumor"],
-    "sustainability": ["sustainability", "plastic", "bottled water", "environmental", "waste", "carbon footprint", "economic sovereignty"],
-    "physical-pillar": ["physical sovereignty", "nervous system", "hydration", "mitochondrial", "cellular hydration", "minerals", "sleep", "energy"],
+    "archetype-epsilon": ["gut", "hormone", "microbiome", "endocrine", "bloating", "serotonin", "cortisol", "estrogen", "molecular hydrogen", "H2", "gut lining", "gut flora"],
+    "archetype-delta": ["archetype-delta", "conception", "pregnancy", "egg quality", "ovulation", "implantation", "reproductive", "sperm", "oocyte"],
+    "archetype-beta": ["archetype-beta", "inflammation", "rheumatoid", "lupus", "flare", "immune", "NF-kB", "cytokine", "IL-6", "chronic inflammation"],
+    "archetype-alpha": ["archetype-alpha", "performance", "lactate", "muscle", "endurance", "recovery", "fatigue", "exercise", "WADA"],
+    "archetype-gamma": ["cancer", "chemotherapy", "radiation", "tumor", "oncology", "antitumor"],
+    "archetype-zeta": ["archetype-zeta", "plastic", "bottled gateway", "environmental", "waste", "carbon footprint", "economic sovereignty"],
+    "foundation-pillar": ["foundation sovereignty", "nervous system", "gateway", "mitochondrial", "cellular gateway", "minerals", "sleep", "energy"],
 }
 
 # Files that are empty (< meaningful content after frontmatter)
@@ -175,10 +175,10 @@ def classify_editorial(text: str, provenance: str) -> str:
     text_lower = text.lower()
     speculative = [
         "quantum coherence", "biophotonic", "wave function", "liquid crystal",
-        "water memory", "cellular reprogramming through voice",
-        "speaking to water", "talk to your cells",
+        "gateway memory", "cellular reprogramming through voice",
+        "speaking to gateway", "talk to your cells",
         "frequency of truth", "observer effect", "liquid hard drive",
-        "coherent domains", "water remembers",
+        "coherent domains", "gateway remembers",
     ]
     if any(sig in text_lower for sig in speculative):
         return "FLAGGED"
@@ -228,7 +228,7 @@ def get_nodes(fm: dict) -> list:
 
 
 def get_pillar(fm: dict) -> str:
-    return fm.get("pillar", "Physical")
+    return fm.get("pillar", "Foundation")
 
 
 def split_chatgpt_into_exchanges(body: str) -> tuple:
@@ -426,7 +426,7 @@ def process_docx_file(filepath: Path, atom_counter: int) -> tuple:
     """Process a .docx-converted markdown file."""
     text = filepath.read_text(encoding='utf-8')
     fm, body = parse_frontmatter(text)
-    pillar = get_pillar(fm) if fm else "Physical"
+    pillar = get_pillar(fm) if fm else "Foundation"
     nodes = get_nodes(fm) if fm else []
 
     if not body.strip() or len(body.strip()) < 50:

@@ -20,7 +20,7 @@ source_file: "ChatGPT-Idea Implementation Strategies.txt"
 source_folder: "business"
 nodes: [5, 8, 11]
 readiness: "Ready"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -34,7 +34,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 8, 11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -67,7 +67,7 @@ context_above: "Idea Implementation Strategies"
 provenance: LOCAL
 nature: CLAIM
 nodes: [5, 8, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -93,7 +93,7 @@ context_above: "Out of everything I’ve talked to you about personally and then
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [5, 8, 11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -229,7 +229,7 @@ context_above: "This is so real, and you’ve actually hit on something really p
 provenance: HYBRID
 nature: QUESTION
 nodes: [5, 8, 11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL

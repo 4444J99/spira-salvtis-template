@@ -46,9 +46,9 @@ Absolutely --- let's go full deep-dive mode. I'll take everything we've discusse
 
 - All pillars and content topics
 
-- Water, health, reset experiments, and assessments (Light & Fruit Test, 3-day reset, lymph, cacao, microdosing, fertility, autoimmune, etc.)
+- Gateway, health, reset experiments, and assessments (Light & Fruit Test, 3-day reset, lymph, cacao, microdosing, archetype-delta, archetype-beta, etc.)
 
-- Mindset & identity frameworks (Burnt Toast, Pancake, Lantern, Maslow, Radical Forgiveness, Compound Effect, 40/70 Rule, Chicken/Robot consciousness, subconscious reprogramming, Feel Good First, archetypal journey, yin/yang, etc.)
+- Mindset & structure frameworks (Burnt Toast, Pancake, Lantern, Maslow, Radical Forgiveness, Compound Effect, 40/70 Rule, Chicken/Robot consciousness, subconscious reprogramming, Feel Good First, archetypal journey, yin/yang, etc.)
 
 - Funnels, Instagram content, video library, and scripts
 
@@ -84,7 +84,7 @@ editorial: CLEAN
 tier: SIGNAL
 strike_phase: 1A
 -->
-> This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Physical, Inner, Identity, Financial).
+> This is an interactive spiral-based ecosystem designed to guide users through four pillars of sovereignty (Foundation, System, Structure, Vision).
 >
 > The site is exploratory first, conversion second.
 >
@@ -126,7 +126,7 @@ Core framework: Elevate • Align • Unlock (EAU)
 
 Mission / Vibe:
 
-- Guide people to sovereignty in mind, body, identity, and finance
+- Guide people to sovereignty in mind, body, structure, and finance
 
 - "Feel Good First" philosophy
 
@@ -165,25 +165,25 @@ Foundational Theories & Assessments:
   --------------------------------------- ---------------------------------------- ---------------------------------------------------------------------------
   Burnt Toast Theory                      awareness / start here / right on time   Boundaries / self-worth / resetting expectations
 
-  Pancake Theory                          Inner / Identity                         Layering responsibilities / prioritization / mindset
+  Pancake Theory                          System / Structure                         Layering responsibilities / prioritization / mindset
 
-  Lantern Theory                          Inner / identity                         Guidance / illumination / intuition
+  Lantern Theory                          System / structure                         Guidance / illumination / intuition
 
-  Maslow's Hierarchy of Needs             physical, Inner / Identity               Human motivation framework
+  Maslow's Hierarchy of Needs             foundation, System / Structure               Human motivation framework
 
-  The Compound Effect                     Financial / Personal                     Small consistent actions compound over time
+  The Compound Effect                     Vision / Personal                     Small consistent actions compound over time
 
-  Radical Forgiveness                     Inner / Identity                         Reframing limiting beliefs / emotional freedom
+  Radical Forgiveness                     System / Structure                         Reframing limiting beliefs / emotional freedom
 
-  40/70 Rule                              Identity / Decision-making               Taking action with 40% clarity instead of waiting for perfection
+  40/70 Rule                              Structure / Decision-making               Taking action with 40% clarity instead of waiting for perfection
 
-  Chicken / Robot Consciousness           Inner / Identity                         Awareness experiment: observing unconscious vs conscious thought patterns
+  Chicken / Robot Consciousness           System / Structure                         Awareness experiment: observing unconscious vs conscious thought patterns
 
-  Light & Fruit Test                      Physical / Inner                         Self-assessment of nutrition, energy alignment, lifestyle habits
+  Light & Fruit Test                      Foundation / System                         Self-assessment of nutrition, energy alignment, lifestyle habits
 
   Feel Good First                         All                                      Core mindset framework for all decisions and habits
 
-  Archetypal Journey / 60 Days of Grace   Inner / Identity                         Transformational program structure for self-sovereignty
+  Archetypal Journey / 60 Days of Grace   System / Structure                         Transformational program structure for self-sovereignty
   ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 (For each, paste any notes, screenshots, or original explanations from past threads here.)
@@ -195,7 +195,7 @@ context_below: "Spiral architecture: site overview and pillar routing table"
 ## **3. Spiral Architecture**
 
 <!-- ATM-R-037 IN
-idea: "Spiral architecture: site overview (interactive hub), pillar routing table (Physical→water funnel, Inner→subscription, Identity→courses, Financial→business funnel), pages list"
+idea: "Spiral architecture: site overview (interactive hub), pillar routing table (Foundation→gateway funnel, System→subscription, Structure→courses, Vision→business funnel), pages list"
 section: "Spiral Architecture"
 position: 5
 of_total: 18
@@ -223,13 +223,13 @@ Pillar Routing: roughly but explained better in doc 2a. And 2b. About the sovere
   -----------------------------------------------------------------------------------------------------------
   **Pillar**                          **Destination / Funnel**
   ----------------------------------- -----------------------------------------------------------------------
-  Physical                            Site page with info overview , talk about water to → GHL water funnel
+  Foundation                            Site page with info overview , talk about gateway to → GHL gateway funnel
 
-  Inner                               Site page with info → Subscription content
+  System                               Site page with info → Subscription content
 
-  Identity                            Site page with info → Courses / personal growth
+  Structure                            Site page with info → Courses / personal growth
 
-  Financial                           Site page with info → GHL business funnel
+  Vision                           Site page with info → GHL business funnel
   -----------------------------------------------------------------------------------------------------------
 
 Pages to include:
@@ -245,15 +245,15 @@ Spiral Visual Details:
 - Include old spiral docs/screenshots as reference
 <!-- ATM-R-037 OUT
 next: ATM-R-038
-context_below: "Physical Sovereignty pillar content breakdown"
+context_below: "Foundation Sovereignty pillar content breakdown"
 -->
 
 ## **4. Pillars & Content (sovereign systems are frame work - wont be seen visually on landing page but explained below the spiral)**
 
-### **Physical Sovereignty**
+### **Foundation Sovereignty**
 
 <!-- ATM-R-038 IN
-idea: "Physical Sovereignty content: water, blood sugar, minerals, lymph, gut, nervous system, sleep, hormones, autoimmune, tongue diagnostics, self-assessment tools"
+idea: "Foundation Sovereignty content: gateway, blood sugar, minerals, lymph, gut, nervous system, sleep, hormones, archetype-beta, tongue diagnostics, self-assessment tools"
 section: "Pillars & Content"
 position: 6
 of_total: 18
@@ -262,13 +262,13 @@ context_above: "Spiral architecture and pillar routing"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [1, 2, 3, 4, 5]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
 strike_phase: 2A
 -->
-- Water (structured, hydrogen, filtration)
+- Gateway (structured, hydrogen, filtration)
 
 - Blood sugar regulation
 
@@ -282,9 +282,9 @@ strike_phase: 2A
 
 - Sleep optimization
 
-- Hormones & fertility
+- Hormones & archetype-delta
 
-- Autoimmune root healing
+- Archetype-beta root healing
 
 - Tongue diagnostics (Chinese medicine)
 
@@ -299,22 +299,22 @@ strike_phase: 2A
   - Mood/substance choice maps
 <!-- ATM-R-038 OUT
 next: ATM-R-039
-context_below: "Inner Sovereignty pillar content and frameworks"
+context_below: "System Sovereignty pillar content and frameworks"
 -->
 
-### **Inner Sovereignty**
+### **System Sovereignty**
 
 <!-- ATM-R-039 IN
-idea: "Inner Sovereignty content: nervous system, emotional processing, subconscious reprogramming, anxiety, yin/yang, intuition + 7 frameworks"
+idea: "System Sovereignty content: nervous system, emotional processing, subconscious reprogramming, anxiety, yin/yang, intuition + 7 frameworks"
 section: "Pillars & Content"
 position: 7
 of_total: 18
 prev: ATM-R-038
-context_above: "Physical Sovereignty content breakdown"
+context_above: "Foundation Sovereignty content breakdown"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [6, 7, 8, 9]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -349,22 +349,22 @@ strike_phase: 1A
   - Chicken / Robot Consciousness experiment
 <!-- ATM-R-039 OUT
 next: ATM-R-040
-context_below: "Identity Sovereignty pillar content"
+context_below: "Structure Sovereignty pillar content"
 -->
 
-### **Identity Sovereignty**
+### **Structure Sovereignty**
 
 <!-- ATM-R-040 IN
-idea: "Identity Sovereignty content: self-worth, beliefs, confidence, ego awakening, personal responsibility + decision frameworks"
+idea: "Structure Sovereignty content: self-worth, beliefs, confidence, ego awakening, personal responsibility + decision frameworks"
 section: "Pillars & Content"
 position: 8
 of_total: 18
 prev: ATM-R-039
-context_above: "Inner Sovereignty content and frameworks"
+context_above: "System Sovereignty content and frameworks"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [10, 11, 12]
-pillar: Identity
+pillar: Structure
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -391,22 +391,22 @@ strike_phase: 1A
   - Lantern Theory
 <!-- ATM-R-040 OUT
 next: ATM-R-041
-context_below: "Financial Sovereignty pillar content"
+context_below: "Vision Sovereignty pillar content"
 -->
 
-### **Financial Sovereignty**
+### **Vision Sovereignty**
 
 <!-- ATM-R-041 IN
-idea: "Financial Sovereignty content: business as self-expression, sales, content creation, brand building, wealth energetics, funnel systems + frameworks"
+idea: "Vision Sovereignty content: business as self-expression, sales, content creation, brand building, wealth energetics, funnel systems + frameworks"
 section: "Pillars & Content"
 position: 9
 of_total: 18
 prev: ATM-R-040
-context_above: "Identity Sovereignty content"
+context_above: "Structure Sovereignty content"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -435,12 +435,12 @@ context_below: "Content inventory: what exists and what's still needed"
 -->
 
 <!-- ATM-R-042 IN
-idea: "Content inventory: existing assets (reels, water demos, healing story, funnel scripts, EAU notes) and needed content (pillar pages, modules, subscription library, landing video)"
+idea: "Content inventory: existing assets (reels, gateway demos, healing story, funnel scripts, EAU notes) and needed content (pillar pages, modules, subscription library, landing video)"
 section: "Pillars & Content"
 position: 10
 of_total: 18
 prev: ATM-R-041
-context_above: "Financial Sovereignty content"
+context_above: "Vision Sovereignty content"
 provenance: HYBRID
 nature: PRODUCT
 nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
@@ -454,7 +454,7 @@ Content Already Created:
 
 - Instagram reels (educational/storytelling)
 
-- Water demo videos
+- Gateway demo videos
 
 - Personal healing story
 
@@ -475,13 +475,13 @@ Content Still Needed:
 This is in depth but will all fall under the nodes/13 stars we laid out in the modular doc 2b.
 <!-- ATM-R-042 OUT
 next: ATM-R-043
-context_below: "Funnel flows: water, business, subscription"
+context_below: "Funnel flows: gateway, business, subscription"
 -->
 
 ## **5. Funnels & Lead Flows**
 
 <!-- ATM-R-043 IN
-idea: "Three funnel flows: Water (Physical→GHL→email→purchase), Business (Financial→GHL→guidance), Subscription (Inner→hub→exclusive content); free vs paid access gates"
+idea: "Three funnel flows: Gateway (Foundation→GHL→email→purchase), Business (Vision→GHL→guidance), Subscription (System→hub→exclusive content); free vs paid access gates"
 section: "Funnels & Lead Flows"
 position: 11
 of_total: 18
@@ -496,11 +496,11 @@ editorial: CLEAN
 tier: SIGNAL
 strike_phase: 1A
 -->
-Water Funnel: CTA from Physical pillar → GHL funnel → lead capture → email sequence → purchase
+Gateway Funnel: CTA from Foundation pillar → GHL funnel → lead capture → email sequence → purchase
 
-Business Funnel: CTA from Financial pillar → GHL funnel → lead capture → guidance / education
+Business Funnel: CTA from Vision pillar → GHL funnel → lead capture → guidance / education
 
-Subscription Flow: CTA from Inner pillar → subscription hub → exclusive videos / calls / product perks
+Subscription Flow: CTA from System pillar → subscription hub → exclusive videos / calls / product perks
 
 Free vs Paid Access:
 
@@ -557,7 +557,7 @@ context_below: "Instagram reels and video library content plan"
 ## **7. Instagram & Content Library**
 
 <!-- ATM-R-045 IN
-idea: "Instagram & video content library: reels/scripts to pull, water demos, personal story clips, educational content from drive"
+idea: "Instagram & video content library: reels/scripts to pull, gateway demos, personal story clips, educational content from drive"
 section: "Instagram & Content Library"
 position: 13
 of_total: 18
@@ -566,7 +566,7 @@ context_above: "Homepage spiral UX"
 provenance: HYBRID
 nature: PRODUCT
 nodes: [1, 2, 3, 4, 5]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -580,7 +580,7 @@ Reels & Scripts: (working on this!
 
 Video Library:
 
-- Water demos (down the line!)
+- Gateway demos (down the line!)
 
 - Personal story clips (can please give me prompts or spots to best plug in? Was thinking this could be after they subscribe idk though)
 
@@ -604,7 +604,7 @@ context_above: "Instagram & video content library"
 provenance: HYBRID
 nature: PRODUCT
 nodes: [13]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -655,7 +655,7 @@ context_below: "Build priority order and launch timeline"
 ## **10. Timeline / Priorities**
 
 <!-- ATM-R-048 IN
-idea: "Build priority order: 1. Spiral hub, 2. Water funnel, 3. Business funnel, 4. Subscription, 5. Store"
+idea: "Build priority order: 1. Spiral hub, 2. Gateway funnel, 3. Business funnel, 4. Subscription, 5. Store"
 section: "Timeline / Priorities"
 position: 16
 of_total: 18
@@ -672,7 +672,7 @@ strike_phase: 1A
 -->
 1.  Spiral hub live & polished
 
-2.  Water funnel connected
+2.  Gateway funnel connected
 
 3.  Business funnel connected
 

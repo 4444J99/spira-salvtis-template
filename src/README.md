@@ -9,8 +9,8 @@ Astro 5 source code. Zero JS by default — everything is static unless explicit
 | `components/` | Astro components (.astro files) |
 | `components/spiral/` | Canvas spiral visualization (vanilla TS, no deps) |
 | `content/` | Markdown content collections (branches + pillars) |
-| `content/branches/` | 6 water branch deep-dives (gut, fertility, athletic, autoimmune, cancer, sustainability) |
-| `content/pillars/` | 4 sovereignty pillars (physical, inner, identity, financial) |
+| `content/branches/` | 6 gateway branch deep-dives (gut, archetype-delta, archetype-alpha, archetype-beta, cancer, archetype-zeta) |
+| `content/pillars/` | 4 sovereignty pillars (foundation, system, structure, vision) |
 | `data/` | TypeScript data files (hub config, citations) |
 | `layouts/` | Base HTML layout |
 | `pages/` | Route definitions (file-based routing) |
@@ -22,7 +22,7 @@ Astro 5 source code. Zero JS by default — everything is static unless explicit
 |-----------|---------|
 | `SpiralIsland.astro` | Canvas spiral wrapper (boot deferred via requestIdleCallback; render loop pauses off-screen / when tab hidden; bloom is a dynamic chunk) |
 | `EmailGate.astro` | Email capture gate — unlocks gated content |
-| `HydrationNode.astro` | Water funnel interactive tool |
+| `HydrationNode.astro` | Gateway funnel interactive tool |
 | `PillarCard.astro` | 4-pillar grid cards on homepage |
 | `BranchSection.astro` | Branch explorer cards |
 | `CTAButton.astro` | Styled call-to-action buttons |

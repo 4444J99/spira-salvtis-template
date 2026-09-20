@@ -52,15 +52,15 @@ telos: >-
 
 pragma: >-
   Hub-and-spoke Astro 5 site deployed to Cloudflare Pages. 29 pages across 3
-  domains (hub-example.com, water-example.com, business-example.com). 13-node
+  domains (hub-example.com, gateway-example.com, business-example.com). 13-node
   golden-angle spiral visualization renders in Three.js with IconWorlds
   physics (cohesion vs chaos regimes) operational. 6-step HydrationNode funnel
   with EWG API integration operational. Email capture and quiz routing live.
   Client IP boundary enforced (content = client's, code = studio's). Pricing
-  agreed in principle at 10% of water sales until $10K; written formalization
+  agreed in principle at 10% of gateway sales until $10K; written formalization
   still pending in GH#5. 65-want atomization complete; 22 of 48 in-scope wants
   addressed. Architectural misalignment corrected: site is now spiral-first,
-  water scoped to mini version. Content genome processed: 1,022 merge groups,
+  gateway scoped to mini version. Content genome processed: 1,022 merge groups,
   241 content units, 104 flagged atoms dispositioned. 32 issues closed,
   15 remain. No case study written. Deployed via local wrangler due to GH#52.
 
@@ -68,7 +68,7 @@ praxis: >-
   (1) Formalize the written revenue agreement tracked in GH#5. (2) Media
   access (#14) and get GHL quiz URL from admin. (3) ~~V5/V6 merge completed
   (#15 CLOSED)~~ — spiral rewritten with 13-node golden-angle layout and
-  IconWorlds physics wiring. (4) ~~Physical Sovereignty phase built (#6 CLOSED)~~
+  IconWorlds physics wiring. (4) ~~Foundation Sovereignty phase built (#6 CLOSED)~~
   — 5 nodes live with content. (5) Resolve subscription boundaries (#7) and
   video hosting strategy (#18). (6) Connect hub-example.com custom domain
   (GH#3 BLOCKED on DNS). (7) Rotate CLAUDE_API_TOKEN to unblock CI (GH#52).
@@ -134,7 +134,7 @@ polis:
       The ethical question is not "can one person do this" but "does the system
       degrade the person or the client?" Current evidence: no corners cut on
       client deliverables, no burnout indicators, no quality regression across
-      sessions. But sustainability proof requires observing a full engagement
+      sessions. But archetype-zeta proof requires observing a full engagement
       cycle through launch and post-launch maintenance. The 145-repo system
       context is load-bearing only at the governance layer (seed.yaml, CLAUDE.md,
       dispatch protocol) — it does not impose execution burden on per-project
@@ -146,5 +146,5 @@ metadata:
   description: "Sovereign Systems Spiral — hub-and-spoke website for admin's 4-pillar brand"
   domains:
     - hub-example.com
-    - water-example.com
+    - gateway-example.com
     - business-example.com

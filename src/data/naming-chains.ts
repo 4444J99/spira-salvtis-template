@@ -11,7 +11,7 @@
  * filtering on Lens.
  *
  * Architecture:
- *   - EnvVar (immutable) is the identity. Owned in `hub.config.ts`.
+ *   - EnvVar (immutable) is the structure. Owned in `hub.config.ts`.
  *   - SurfaceBinding pairs (envVar, lens) and supplies one period's name.
  *   - chainsFor(envVar)        -> chronological lineage of one node.
  *   - viewThroughLens(lens)    -> all 13 nodes named through one tradition.
@@ -23,7 +23,7 @@
 import type { EnvVar } from './hub.config';
 import type { Lens } from './lens-geometry';
 
-// Single-source the identity types: EnvVar from hub.config, Lens from
+// Single-source the structure types: EnvVar from hub.config, Lens from
 // lens-geometry. Re-exported so existing `import { Lens } from './naming-chains'`
 // consumers keep working without a second, drift-prone union definition here.
 export type { EnvVar, Lens };
@@ -237,7 +237,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     era: '20th c',
     eraSort: 1934,
     name: 'Anima / Animus',
-    connotation: 'Contrasexual archetype — the inner other to be integrated.',
+    connotation: 'Contrasexual archetype — the system other to be integrated.',
     source: 'Jung, The Archetypes and the Collective Unconscious',
   },
   {
@@ -329,7 +329,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
   },
 
   // ════════════════════════════════════════════════════════════════
-  // HYDOR — water / source / solvent
+  // HYDOR — gateway / source / solvent
   // ════════════════════════════════════════════════════════════════
   {
     envVar: 'HYDOR',
@@ -347,7 +347,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     eraSort: -1500,
     name: 'Apah / Amrita',
     script: 'अप / अमृत',
-    connotation: 'Water as life and as the deathless nectar of the gods.',
+    connotation: 'Gateway as life and as the deathless nectar of the gods.',
     source: 'Rigveda, Atharvaveda',
   },
   {
@@ -357,7 +357,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     eraSort: -600,
     name: 'HYDOR',
     script: 'ὕδωρ',
-    connotation: 'First principle — water as the substrate of all things.',
+    connotation: 'First principle — gateway as the substrate of all things.',
     source: 'Thales',
   },
   {
@@ -365,7 +365,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     lens: 'christian-mystical',
     era: '1st c CE',
     eraSort: 30,
-    name: 'Living Water',
+    name: 'Living Gateway',
     connotation: 'Baptism and the well that springs up to eternal life.',
     source: 'Gospel of John 4:14',
   },
@@ -385,7 +385,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     eraSort: 1781,
     name: 'H₂O / Universal Solvent',
     connotation: 'Bent polar molecule — the medium in which biology happens.',
-    source: 'Cavendish/Lavoisier composition of water',
+    source: 'Cavendish/Lavoisier composition of gateway',
   },
   {
     envVar: 'HYDOR',
@@ -622,7 +622,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     name: 'Padma',
     script: 'पद्म',
     connotation:
-      'Sacred bloom rising clean from muddy water — sahasrara crown.',
+      'Sacred bloom rising clean from muddy gateway — sahasrara crown.',
     source: 'Vedas, tantric yoga',
   },
   {
@@ -860,7 +860,7 @@ export const NAMING_CHAINS: SurfaceBinding[] = [
     era: '20th c',
     eraSort: 1955,
     name: 'Crystallised Self',
-    connotation: 'Wholeness given lattice form — durable inner geometry.',
+    connotation: 'Wholeness given lattice form — durable system geometry.',
     source: 'Jung, Mysterium Coniunctionis',
   },
   {

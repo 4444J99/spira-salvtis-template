@@ -18,7 +18,7 @@ This template is designed around an "Ideal Forms" 3-tier architecture to securel
 
 2. **The Corpus / Operation**
    - **Nature:** Strictly Private
-   - **Contents:** Client transcripts, financial agreements, raw research, and decision logs.
+   - **Contents:** Client transcripts, vision agreements, raw research, and decision logs.
 
 3. **The Live Deployment (Content Injector)**
    - **Nature:** Private or Public

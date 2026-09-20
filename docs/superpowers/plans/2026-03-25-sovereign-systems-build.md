@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + water funnel with documentary-first landing, quiz embed, and 6 branch pages — deployed to Netlify.
+**Goal:** Build the full Sovereign Systems Spiral website — hub with interactive spiral + gateway funnel with documentary-first landing, quiz embed, and 6 branch pages — deployed to Netlify.
 
 **Architecture:** Single Astro 5 codebase serving three domains via subdirectory routing. Content in Markdown collections. Spiral rendered as vanilla canvas with Perlin noise (desktop) / CSS float list (mobile). GHL quiz embedded via iframe. All site topology defined in one `hub.config.ts` file.
 
@@ -34,13 +34,13 @@
 | `src/components/spiral/spiral.ts` | Vanilla canvas orbital animation with Perlin noise |
 | `src/components/spiral/SpiralIsland.astro` | Astro island wrapper (desktop only via client:media) |
 | `src/components/spiral/SpiralFallback.astro` | Mobile CSS float list |
-| `src/components/MiniSpiral.astro` | Smaller spiral for water explore page |
+| `src/components/MiniSpiral.astro` | Smaller spiral for gateway explore page |
 | `src/pages/index.astro` | Hub landing page |
 | `src/pages/pillars/[slug].astro` | Dynamic pillar pages |
-| `src/pages/water/index.astro` | Water landing page |
-| `src/pages/water/quiz.astro` | Quiz page with GHL embed |
-| `src/pages/water/explore.astro` | Water branch explorer |
-| `src/pages/water/[slug].astro` | Dynamic branch pages |
+| `src/pages/gateway/index.astro` | Gateway landing page |
+| `src/pages/gateway/quiz.astro` | Quiz page with GHL embed |
+| `src/pages/gateway/explore.astro` | Gateway branch explorer |
+| `src/pages/gateway/[slug].astro` | Dynamic branch pages |
 | `src/pages/business/index.astro` | Business pillar placeholder |
 | `src/content/branches/*.md` | 6 branch content files |
 | `src/content/pillars/*.md` | 4 pillar content files |
@@ -167,7 +167,7 @@ export interface HubConfig {
   branches: Branch[];
   domains: {
     hub: string;
-    water: string;
+    gateway: string;
     business: string;
   };
   ghl: {
@@ -178,41 +178,41 @@ export interface HubConfig {
 
 export const config: HubConfig = {
   name: 'Sovereign Systems Spiral',
-  tagline: 'Rebuilding life from the foundation up — stabilizing the body, strengthening inner authority, refining identity, and installing financial systems.',
+  tagline: 'Rebuilding life from the foundation up — stabilizing the body, strengthening system authority, refining structure, and installing vision systems.',
   pillars: [
     {
-      name: 'Physical Sovereignty',
-      slug: 'physical',
+      name: 'Foundation Sovereignty',
+      slug: 'foundation',
       emoji: '\u{1F30A}',
       tagline: 'Control your inputs. Stabilize your body.',
       color: '#119a9e',
-      url: '/water/',
+      url: '/gateway/',
       status: 'live',
       order: 1,
     },
     {
-      name: 'Inner Sovereignty',
-      slug: 'inner',
+      name: 'System Sovereignty',
+      slug: 'system',
       emoji: '\u{1F54A}',
       tagline: 'Control your internal state.',
       color: '#8cc5d3',
-      url: '/pillars/inner',
+      url: '/pillars/system',
       status: 'coming-soon',
       order: 2,
     },
     {
-      name: 'Identity Sovereignty',
-      slug: 'identity',
+      name: 'Structure Sovereignty',
+      slug: 'structure',
       emoji: '\u{2728}',
       tagline: 'Control your self-expression.',
       color: '#c9a96e',
-      url: '/pillars/identity',
+      url: '/pillars/structure',
       status: 'coming-soon',
       order: 3,
     },
     {
-      name: 'Financial Sovereignty',
-      slug: 'financial',
+      name: 'Vision Sovereignty',
+      slug: 'vision',
       emoji: '\u{1F4A0}',
       tagline: 'Control your income and systems.',
       color: '#3dbfc4',
@@ -222,21 +222,21 @@ export const config: HubConfig = {
     },
   ],
   branches: [
-    { name: 'Gut + Hormones', slug: 'gut-hormones', emoji: '\u{1F33F}', order: 1 },
-    { name: 'Fertility', slug: 'fertility', emoji: '\u{1F90D}', order: 2 },
-    { name: 'Athletic Performance', slug: 'athletic', emoji: '\u{1F4AA}', order: 3 },
-    { name: 'Inflammation / Autoimmune', slug: 'autoimmune', emoji: '\u{1F525}', order: 4 },
-    { name: 'Cancer Support', slug: 'cancer-support', emoji: '\u{1F397}', order: 5 },
-    { name: 'Sustainability / Savings', slug: 'sustainability', emoji: '\u{1F30E}', order: 6 },
+    { name: 'Gut + Hormones', slug: 'archetype-epsilon', emoji: '\u{1F33F}', order: 1 },
+    { name: 'Archetype-delta', slug: 'archetype-delta', emoji: '\u{1F90D}', order: 2 },
+    { name: 'Archetype-alpha Performance', slug: 'archetype-alpha', emoji: '\u{1F4AA}', order: 3 },
+    { name: 'Inflammation / Archetype-beta', slug: 'archetype-beta', emoji: '\u{1F525}', order: 4 },
+    { name: 'Cancer Support', slug: 'archetype-gamma', emoji: '\u{1F397}', order: 5 },
+    { name: 'Archetype-zeta / Savings', slug: 'archetype-zeta', emoji: '\u{1F30E}', order: 6 },
   ],
   domains: {
     hub: 'hub-example.com',
-    water: 'water-example.com',
+    gateway: 'gateway-example.com',
     business: 'business-example.com',
   },
   ghl: {
     quizFormUrl: 'https://placeholder.ghl.com/form/quiz',
-    productUrl: 'https://water-example.com',
+    productUrl: 'https://gateway-example.com',
   },
 };
 ```
@@ -304,26 +304,26 @@ git add -A && git commit -m "feat: scaffold Astro project with Tailwind, color s
 ## Task 2: Content Markdown Files
 
 **Files:**
-- Create: `src/content/branches/gut-hormones.md`
-- Create: `src/content/branches/fertility.md`
-- Create: `src/content/branches/autoimmune.md`
-- Create: `src/content/branches/athletic.md`
-- Create: `src/content/branches/cancer-support.md`
-- Create: `src/content/branches/sustainability.md`
-- Create: `src/content/pillars/physical.md`
-- Create: `src/content/pillars/inner.md`
-- Create: `src/content/pillars/identity.md`
-- Create: `src/content/pillars/financial.md`
+- Create: `src/content/branches/archetype-epsilon.md`
+- Create: `src/content/branches/archetype-delta.md`
+- Create: `src/content/branches/archetype-beta.md`
+- Create: `src/content/branches/archetype-alpha.md`
+- Create: `src/content/branches/archetype-gamma.md`
+- Create: `src/content/branches/archetype-zeta.md`
+- Create: `src/content/pillars/foundation.md`
+- Create: `src/content/pillars/system.md`
+- Create: `src/content/pillars/structure.md`
+- Create: `src/content/pillars/vision.md`
 
-**Source:** Branch copy for gut-hormones, fertility, and autoimmune comes from the ChatGPT "Novel Funnel Strategies" transcript at `/Users/4jp/Desktop/ChatGPT-Novel Funnel Strategies.md`. Search for the section headers (e.g., "GUT + HORMONES BRANCH PAGE", "FERTILITY BRANCH PAGE", "AUTOIMMUNE BRANCH PAGE"). The user's inline handoff message also contains this copy. Extract the 6-section structure (Hook, Connection, Where Water Fits, Bridge, Resources, CTA) from each.
+**Source:** Branch copy for archetype-epsilon, archetype-delta, and archetype-beta comes from the ChatGPT "Novel Funnel Strategies" transcript at `/Users/4jp/Desktop/ChatGPT-Novel Funnel Strategies.md`. Search for the section headers (e.g., "GUT + HORMONES BRANCH PAGE", "ARCHETYPE-DELTA BRANCH PAGE", "ARCHETYPE-BETA BRANCH PAGE"). The user's inline handoff message also contains this copy. Extract the 6-section structure (Hook, Connection, Where Gateway Fits, Bridge, Resources, CTA) from each.
 
-Pillar content for physical and inner comes from the ChatGPT spec's "THE BACKBONE (Strategic Structure)" section (~line 1600-1700).
+Pillar content for foundation and system comes from the ChatGPT spec's "THE BACKBONE (Strategic Structure)" section (~line 1600-1700).
 
 - [ ] **Step 1: Write the 3 live branch pages**
 
-Read the ChatGPT spec to extract the exact copy for each branch. Write each `.md` file with frontmatter matching the schema and body using `## Hook`, `## Connection`, `## Where Water Fits`, `## Bridge`, `## Resources`, `## CTA` headings.
+Read the ChatGPT spec to extract the exact copy for each branch. Write each `.md` file with frontmatter matching the schema and body using `## Hook`, `## Connection`, `## Where Gateway Fits`, `## Bridge`, `## Resources`, `## CTA` headings.
 
-Example structure for `src/content/branches/gut-hormones.md`:
+Example structure for `src/content/branches/archetype-epsilon.md`:
 
 ```markdown
 ---
@@ -345,7 +345,7 @@ If your gut is off, everything feels off...
 
 [Body text about what's happening in the body]
 
-## Where Water Fits
+## Where Gateway Fits
 
 [Hydrogen benefits, grounded]
 
@@ -359,18 +359,18 @@ If your gut is off, everything feels off...
 
 ## CTA
 
-Start with your water.
+Start with your gateway.
 ```
 
-Repeat for `fertility.md` and `autoimmune.md` with their respective copy from the spec.
+Repeat for `archetype-delta.md` and `archetype-beta.md` with their respective copy from the spec.
 
 - [ ] **Step 2: Write the 3 placeholder branch pages**
 
-`src/content/branches/athletic.md`:
+`src/content/branches/archetype-alpha.md`:
 
 ```markdown
 ---
-title: "Athletic Performance"
+title: "Archetype-alpha Performance"
 emoji: "\U0001F4AA"
 hook: "Your body is capable of more than you think."
 status: placeholder
@@ -384,9 +384,9 @@ Your body is capable of more than you think.
 
 ## Connection
 
-This branch is growing. We're preparing content about how water quality impacts athletic performance, recovery, and endurance.
+This branch is growing. We're preparing content about how gateway quality impacts archetype-alpha performance, recovery, and endurance.
 
-## Where Water Fits
+## Where Gateway Fits
 
 Coming soon.
 
@@ -400,10 +400,10 @@ Check back soon.
 
 ## CTA
 
-Start with your water.
+Start with your gateway.
 ```
 
-`src/content/branches/cancer-support.md`:
+`src/content/branches/archetype-gamma.md`:
 
 ```markdown
 ---
@@ -421,9 +421,9 @@ You don't have to navigate this alone.
 
 ## Connection
 
-This is a space for gentle exploration. We're preparing resources about how water quality can support the body during difficult times.
+This is a space for gentle exploration. We're preparing resources about how gateway quality can support the body during difficult times.
 
-## Where Water Fits
+## Where Gateway Fits
 
 Coming soon.
 
@@ -440,13 +440,13 @@ There is no pressure here.
 Explore gently.
 ```
 
-`src/content/branches/sustainability.md`:
+`src/content/branches/archetype-zeta.md`:
 
 ```markdown
 ---
-title: "Sustainability / Savings"
+title: "Archetype-zeta / Savings"
 emoji: "\U0001F30E"
-hook: "What if better water also meant less waste and lower costs?"
+hook: "What if better gateway also meant less waste and lower costs?"
 status: placeholder
 tone: standard
 order: 6
@@ -454,13 +454,13 @@ order: 6
 
 ## Hook
 
-What if better water also meant less waste and lower costs?
+What if better gateway also meant less waste and lower costs?
 
 ## Connection
 
-This branch is growing. We're preparing content about the environmental and financial impact of water choices.
+This branch is growing. We're preparing content about the environmental and vision impact of gateway choices.
 
-## Where Water Fits
+## Where Gateway Fits
 
 Coming soon.
 
@@ -474,16 +474,16 @@ Check back soon.
 
 ## CTA
 
-Start with your water.
+Start with your gateway.
 ```
 
 - [ ] **Step 3: Write the 4 pillar pages**
 
-`src/content/pillars/physical.md`:
+`src/content/pillars/foundation.md`:
 
 ```markdown
 ---
-title: "Physical Sovereignty"
+title: "Foundation Sovereignty"
 emoji: "\U0001F30A"
 tagline: "Control your inputs. Stabilize your body."
 status: live
@@ -492,11 +492,11 @@ order: 1
 
 ## Overview
 
-Physical Sovereignty is the foundation of the Sovereign Systems Spiral. Everything starts here.
+Foundation Sovereignty is the foundation of the Sovereign Systems Spiral. Everything starts here.
 
 ## What This Means
 
-- Water quality and hydration
+- Gateway quality and gateway
 - Nervous system regulation
 - Inflammation management
 - Energy optimization
@@ -505,18 +505,18 @@ Physical Sovereignty is the foundation of the Sovereign Systems Spiral. Everythi
 
 ## Why It's First
 
-You cannot build income on an unstable body. You cannot refine identity while your nervous system is in survival mode. Physical sovereignty creates the platform everything else stands on.
+You cannot build income on an unstable body. You cannot refine structure while your nervous system is in survival mode. Foundation sovereignty creates the platform everything else stands on.
 
 ## Start Here
 
-The water pillar is your entry point. Take the quiz to find where your body needs support most.
+The gateway pillar is your entry point. Take the quiz to find where your body needs support most.
 ```
 
-`src/content/pillars/inner.md`:
+`src/content/pillars/system.md`:
 
 ```markdown
 ---
-title: "Inner Sovereignty"
+title: "System Sovereignty"
 emoji: "\U0001F54A"
 tagline: "Control your internal state."
 status: live
@@ -525,7 +525,7 @@ order: 2
 
 ## Overview
 
-Inner Sovereignty is the second layer — regulating your emotional and nervous system state so you can make clear decisions.
+System Sovereignty is the second layer — regulating your emotional and nervous system state so you can make clear decisions.
 
 ## What This Means
 
@@ -537,14 +537,14 @@ Inner Sovereignty is the second layer — regulating your emotional and nervous 
 
 ## Why It's Second
 
-Once your body is stable, your inner state becomes accessible. You can't regulate what you can't feel. Physical stability unlocks emotional clarity.
+Once your body is stable, your system state becomes accessible. You can't regulate what you can't feel. Foundation stability unlocks emotional clarity.
 ```
 
-`src/content/pillars/identity.md`:
+`src/content/pillars/structure.md`:
 
 ```markdown
 ---
-title: "Identity Sovereignty"
+title: "Structure Sovereignty"
 emoji: "\u2728"
 tagline: "Control your self-expression."
 status: placeholder
@@ -553,14 +553,14 @@ order: 3
 
 ## Overview
 
-This pillar is coming soon. Identity Sovereignty covers fashion evolution, personal brand, voice, standards, and environment design.
+This pillar is coming soon. Structure Sovereignty covers fashion evolution, personal brand, voice, standards, and environment design.
 ```
 
-`src/content/pillars/financial.md`:
+`src/content/pillars/vision.md`:
 
 ```markdown
 ---
-title: "Financial Sovereignty"
+title: "Vision Sovereignty"
 emoji: "\U0001F4A0"
 tagline: "Control your income and systems."
 status: placeholder
@@ -569,7 +569,7 @@ order: 4
 
 ## Overview
 
-This pillar is coming soon. Financial Sovereignty covers skill-based income, backend funnels, tracking, automation, lead flow, and sales process.
+This pillar is coming soon. Vision Sovereignty covers skill-based income, backend funnels, tracking, automation, lead flow, and sales process.
 ```
 
 - [ ] **Step 4: Verify content collections parse**
@@ -637,9 +637,9 @@ const { title, description = config.tagline } = Astro.props;
         {config.name}
       </a>
       <div class="flex gap-6 text-sm">
-        <a href="/water/" class="text-text-body hover:text-ocean-500 transition-colors">Water</a>
-        <a href="/water/quiz" class="text-text-body hover:text-ocean-500 transition-colors">Quiz</a>
-        <a href="/water/explore" class="text-text-body hover:text-ocean-500 transition-colors">Explore</a>
+        <a href="/gateway/" class="text-text-body hover:text-ocean-500 transition-colors">Gateway</a>
+        <a href="/gateway/quiz" class="text-text-body hover:text-ocean-500 transition-colors">Quiz</a>
+        <a href="/gateway/explore" class="text-text-body hover:text-ocean-500 transition-colors">Explore</a>
       </div>
     </nav>
 
@@ -869,7 +869,7 @@ import CTAButton from '../components/CTAButton.astro';
 
 <Base title="Home">
   <Hero heading="Sovereign Systems Spiral" subtext="Structure on the outside. Spiral growth on the inside.">
-    <CTAButton href="/water/" label="Start at the root" />
+    <CTAButton href="/gateway/" label="Start at the root" />
   </Hero>
 </Base>
 ```
@@ -899,20 +899,20 @@ git add src/layouts/ src/components/ src/pages/index.astro && git commit -m "fea
 
 ---
 
-## Task 4: Water Funnel Pages
+## Task 4: Gateway Funnel Pages
 
 **Files:**
-- Create: `src/pages/water/index.astro`
-- Create: `src/pages/water/quiz.astro`
-- Create: `src/pages/water/explore.astro`
-- Create: `src/pages/water/[slug].astro`
+- Create: `src/pages/gateway/index.astro`
+- Create: `src/pages/gateway/quiz.astro`
+- Create: `src/pages/gateway/explore.astro`
+- Create: `src/pages/gateway/[slug].astro`
 - Create: `src/components/MiniSpiral.astro`
 
 **Depends on:** Tasks 1, 2, 3
 
-- [ ] **Step 1: Write water landing page**
+- [ ] **Step 1: Write gateway landing page**
 
-`src/pages/water/index.astro`:
+`src/pages/gateway/index.astro`:
 
 ```astro
 ---
@@ -922,22 +922,22 @@ import VideoEmbed from '../../components/VideoEmbed.astro';
 import CTAButton from '../../components/CTAButton.astro';
 ---
 
-<Base title="The Water Hub" description="A simple shift that impacted my health, energy, and everything I thought I knew about healing.">
+<Base title="The Gateway Hub" description="A simple shift that impacted my health, energy, and everything I thought I knew about healing.">
   <Hero
-    heading="Water changed everything for me."
+    heading="Gateway changed everything for me."
     subtext="A simple shift that impacted my health, energy, and everything I thought I knew about healing."
   />
 
   <!-- Documentary -->
   <section class="px-6 py-16 bg-white">
-    <VideoEmbed placeholder={true} title="My Water Story" />
+    <VideoEmbed placeholder={true} title="My Gateway Story" />
   </section>
 
   <!-- Post-video grounding -->
   <section class="px-6 py-12 max-w-2xl mx-auto text-center">
     <h2 class="font-heading text-2xl mb-4">What you just watched</h2>
     <p class="text-text-body font-light leading-relaxed">
-      This is my story — how changing my water changed my health, my energy, and eventually my entire life.
+      This is my story — how changing my gateway changed my health, my energy, and eventually my entire life.
       If you made it this far, you probably feel something too.
     </p>
   </section>
@@ -955,10 +955,10 @@ import CTAButton from '../../components/CTAButton.astro';
           </p>
         </div>
         <div>
-          <h3 class="font-heading text-lg mb-2">Why hydration isn't just water anymore</h3>
+          <h3 class="font-heading text-lg mb-2">Why gateway isn't just gateway anymore</h3>
           <p class="text-text-body font-light text-sm leading-relaxed">
-            Most tap and bottled water has been stripped of minerals and structure.
-            True hydration means giving your cells what they actually need to function.
+            Most tap and bottled gateway has been stripped of minerals and structure.
+            True gateway means giving your cells what they actually need to function.
           </p>
         </div>
       </div>
@@ -968,10 +968,10 @@ import CTAButton from '../../components/CTAButton.astro';
   <!-- CTAs -->
   <section class="px-6 py-16 text-center space-y-6">
     <div>
-      <CTAButton href="/water/quiz" label="Find what your body actually needs" />
+      <CTAButton href="/gateway/quiz" label="Find what your body actually needs" />
     </div>
     <div>
-      <CTAButton href="/water/explore" label="Explore by category" variant="secondary" />
+      <CTAButton href="/gateway/explore" label="Explore by category" variant="secondary" />
     </div>
     <p class="text-text-muted text-sm font-light italic mt-8">
       If something in you is curious... follow that.
@@ -982,7 +982,7 @@ import CTAButton from '../../components/CTAButton.astro';
 
 - [ ] **Step 2: Write quiz page**
 
-`src/pages/water/quiz.astro`:
+`src/pages/gateway/quiz.astro`:
 
 ```astro
 ---
@@ -1017,12 +1017,12 @@ const { branches } = config;
 <div class="max-w-md mx-auto">
   <div class="text-center mb-8">
     <div class="text-3xl mb-2">{'\u{1F30A}'}</div>
-    <h3 class="font-heading text-xl">The Water Hub</h3>
+    <h3 class="font-heading text-xl">The Gateway Hub</h3>
   </div>
   <div class="grid grid-cols-2 gap-4">
     {branches.map((branch) => (
       <a
-        href={`/water/${branch.slug}`}
+        href={`/gateway/${branch.slug}`}
         class="block p-4 rounded-lg border border-ocean-200 hover:border-ocean-400 bg-white hover:shadow-sm transition-all text-center"
       >
         <div class="text-2xl mb-1">{branch.emoji}</div>
@@ -1033,9 +1033,9 @@ const { branches } = config;
 </div>
 ```
 
-- [ ] **Step 4: Write water explore page**
+- [ ] **Step 4: Write gateway explore page**
 
-`src/pages/water/explore.astro`:
+`src/pages/gateway/explore.astro`:
 
 ```astro
 ---
@@ -1045,7 +1045,7 @@ import MiniSpiral from '../../components/MiniSpiral.astro';
 import CTAButton from '../../components/CTAButton.astro';
 ---
 
-<Base title="Explore the Water Hub">
+<Base title="Explore the Gateway Hub">
   <Hero
     heading="Explore by category"
     subtext="Everyone's body tells a different story. Find where yours wants to start."
@@ -1057,14 +1057,14 @@ import CTAButton from '../../components/CTAButton.astro';
 
   <section class="px-6 py-8 text-center">
     <p class="text-text-muted text-sm mb-4">Not sure where to start?</p>
-    <CTAButton href="/water/quiz" label="Take the quiz instead" variant="secondary" />
+    <CTAButton href="/gateway/quiz" label="Take the quiz instead" variant="secondary" />
   </section>
 </Base>
 ```
 
 - [ ] **Step 5: Write dynamic branch page**
 
-`src/pages/water/[slug].astro`:
+`src/pages/gateway/[slug].astro`:
 
 ```astro
 ---
@@ -1087,7 +1087,7 @@ const { branch } = Astro.props;
 const { Content, headings } = await branch.render();
 const { title, emoji, status, tone } = branch.data;
 const accentColor = tone === 'soft' ? 'ocean-200' : 'ocean-500';
-const ctaText = tone === 'soft' ? 'Explore gently' : 'Start with your water';
+const ctaText = tone === 'soft' ? 'Explore gently' : 'Start with your gateway';
 ---
 
 <Base title={title}>
@@ -1108,7 +1108,7 @@ const ctaText = tone === 'soft' ? 'Explore gently' : 'Start with your water';
   <section class="px-6 py-12 text-center border-t border-ocean-100">
     <CTAButton href={config.ghl.productUrl} label={ctaText} />
     <div class="mt-4">
-      <CTAButton href="/water/explore" label="Explore other branches" variant="secondary" />
+      <CTAButton href="/gateway/explore" label="Explore other branches" variant="secondary" />
     </div>
   </section>
 </Base>
@@ -1121,22 +1121,22 @@ npm run build
 ```
 
 Expected: Build generates pages:
-- `/water/index.html`
-- `/water/quiz/index.html`
-- `/water/explore/index.html`
-- `/water/gut-hormones/index.html`
-- `/water/fertility/index.html`
-- `/water/autoimmune/index.html`
-- `/water/athletic/index.html`
-- `/water/cancer-support/index.html`
-- `/water/sustainability/index.html`
+- `/gateway/index.html`
+- `/gateway/quiz/index.html`
+- `/gateway/explore/index.html`
+- `/gateway/archetype-epsilon/index.html`
+- `/gateway/archetype-delta/index.html`
+- `/gateway/archetype-beta/index.html`
+- `/gateway/archetype-alpha/index.html`
+- `/gateway/archetype-gamma/index.html`
+- `/gateway/archetype-zeta/index.html`
 
-Total: 9 water pages + 1 index = 10 pages.
+Total: 9 gateway pages + 1 index = 10 pages.
 
 - [ ] **Step 7: Commit**
 
 ```bash
-git add src/pages/water/ src/components/MiniSpiral.astro && git commit -m "feat: water funnel — landing page, quiz embed, explore page, 6 dynamic branch pages"
+git add src/pages/gateway/ src/components/MiniSpiral.astro && git commit -m "feat: gateway funnel — landing page, quiz embed, explore page, 6 dynamic branch pages"
 ```
 
 ---
@@ -1199,9 +1199,9 @@ import { config } from '../data/hub.config';
   <section class="px-6 py-16 text-center">
     <h2 class="font-heading text-2xl mb-4">Start at the root</h2>
     <p class="text-text-body font-light mb-6 max-w-md mx-auto">
-      Physical sovereignty is the foundation. Everything else builds from here.
+      Foundation sovereignty is the foundation. Everything else builds from here.
     </p>
-    <CTAButton href="/water/" label="Explore the water pillar" />
+    <CTAButton href="/gateway/" label="Explore the gateway pillar" />
   </section>
 </Base>
 ```
@@ -1262,9 +1262,9 @@ import ComingSoon from '../../components/ComingSoon.astro';
 import CTAButton from '../../components/CTAButton.astro';
 ---
 
-<Base title="Financial Sovereignty">
+<Base title="Vision Sovereignty">
   <ComingSoon
-    title="Financial Sovereignty"
+    title="Vision Sovereignty"
     emoji={'\u{1F4A0}'}
     message="The business pillar is being built. Start with your foundation first."
   />
@@ -1282,9 +1282,9 @@ npm run build
 
 Expected: Build generates all pages. Total should be ~16 pages:
 - `/index.html` (hub)
-- `/water/index.html` + 5 water pages
-- `/water/gut-hormones/`, `/water/fertility/`, `/water/autoimmune/`, `/water/athletic/`, `/water/cancer-support/`, `/water/sustainability/`
-- `/pillars/physical/`, `/pillars/inner/`, `/pillars/identity/`, `/pillars/financial/`
+- `/gateway/index.html` + 5 gateway pages
+- `/gateway/archetype-epsilon/`, `/gateway/archetype-delta/`, `/gateway/archetype-beta/`, `/gateway/archetype-alpha/`, `/gateway/archetype-gamma/`, `/gateway/archetype-zeta/`
+- `/pillars/foundation/`, `/pillars/system/`, `/pillars/structure/`, `/pillars/vision/`
 - `/business/index.html`
 
 - [ ] **Step 5: Commit**
@@ -1726,8 +1726,8 @@ git add src/components/spiral/ src/pages/index.astro && git commit -m "feat: int
 
 # Multi-domain redirects (activate when custom domains are connected)
 # [[redirects]]
-#   from = "https://water-example.com/*"
-#   to = "/water/:splat"
+#   from = "https://gateway-example.com/*"
+#   to = "/gateway/:splat"
 #   status = 200
 
 # [[redirects]]
@@ -1764,7 +1764,7 @@ metadata:
   description: "Sovereign Systems Spiral — hub-and-spoke website for admin's 4-pillar brand"
   domains:
     - hub-example.com
-    - water-example.com
+    - gateway-example.com
     - business-example.com
 ```
 
@@ -1777,7 +1777,7 @@ metadata:
 
 ## What This Is
 
-Sovereign Systems Spiral — a multi-domain static website for a client (admin). Hub-and-spoke architecture: interactive spiral at hub-example.com, water funnel at water-example.com, business placeholder at business-example.com.
+Sovereign Systems Spiral — a multi-domain static website for a client (admin). Hub-and-spoke architecture: interactive spiral at hub-example.com, gateway funnel at gateway-example.com, business placeholder at business-example.com.
 
 ## Tech Stack
 
@@ -1794,7 +1794,7 @@ npm run preview      # Preview production build
 ## Key Files
 
 - \`src/data/hub.config.ts\` — Site topology (pillars, branches, domains, GHL URLs)
-- \`src/content/branches/*.md\` — Water branch page content (client IP)
+- \`src/content/branches/*.md\` — Gateway branch page content (client IP)
 - \`src/content/pillars/*.md\` — Pillar page content (client IP)
 - \`src/components/spiral/spiral.ts\` — Canvas spiral animation
 - \`content.config.ts\` — Content collection schemas
@@ -1834,8 +1834,8 @@ Note the deployed URL. It will be something like `https://sovereign-systems-spir
 
 Open the Netlify URL in browser. Verify:
 - Hub page loads with spiral animation (desktop)
-- Nav links work: Water, Quiz, Explore
-- Water landing page renders with video placeholder
+- Nav links work: Gateway, Quiz, Explore
+- Gateway landing page renders with video placeholder
 - Branch pages render (3 with content, 3 with ComingSoon)
 - Pillar pages render (2 with content, 2 with ComingSoon)
 - Business page shows placeholder
@@ -1891,7 +1891,7 @@ To connect your real domains, you need to update DNS records. Here are the exact
 5. In Netlify → Domain Settings → Add custom domain → hub-example.com
 6. Wait 5-30 minutes for DNS propagation
 
-## 2. water-example.com (LeadConnector)
+## 2. gateway-example.com (LeadConnector)
 
 1. Log in to your domain registrar (wherever you bought this domain — may be GoDaddy, Namecheap, etc.)
 2. Update the DNS records the same way as above, pointing to the Netlify site
@@ -1919,7 +1919,7 @@ git add docs/domain-setup.md && git commit -m "docs: domain connection instructi
 After all tasks are complete:
 
 - [ ] `npm run build` succeeds with 0 errors
-- [ ] All pages render: hub (1) + water (9) + pillars (4) + business (1) = 15 pages
+- [ ] All pages render: hub (1) + gateway (9) + pillars (4) + business (1) = 15 pages
 - [ ] Spiral canvas animates on desktop, float list on mobile
 - [ ] All navigation links resolve (no 404s)
 - [ ] GHL quiz embed loads (may show placeholder URL until client provides real one)

@@ -37,10 +37,10 @@
 | `src/components/ResearchAccordion.astro` | Fix "113" → dynamic count |
 | `src/pages/research.astro` | Fix "113" → dynamic count |
 | `docs/corpus-canon.md` | Fix header count + ranges |
-| `src/content/pillars/inner.md` | Fix dead link /hub → / |
-| `src/content/branches/sustainability.md` | Capitalize "but" |
+| `src/content/pillars/system.md` | Fix dead link /hub → / |
+| `src/content/branches/archetype-zeta.md` | Capitalize "but" |
 | `src/pages/pillars/[slug].astro` | Add ResearchAccordion + VerticalSpine |
-| `src/pages/water/explore.astro` | Change fetch URL from /api/capture to /.netlify/functions/capture |
+| `src/pages/gateway/explore.astro` | Change fetch URL from /api/capture to /.netlify/functions/capture |
 | `src/components/VerticalSpine.astro` | Throttle scroll listener with rAF |
 | `src/pages/business/index.astro` | Replace placeholder URL with "coming soon" CTA |
 | `GEMINI.md` | Fix content.config.ts path reference |
@@ -113,7 +113,7 @@ CMS deferred until pricing resolved (tracked in Issue #1)."
 
 **Files:**
 - Create: `netlify/functions/capture.ts`
-- Modify: `src/pages/water/explore.astro`
+- Modify: `src/pages/gateway/explore.astro`
 - Modify: `netlify.toml`
 
 - [ ] **Step 1: Create functions directory and capture function**
@@ -172,7 +172,7 @@ export default async (request: Request, context: Context) => {
 
 - [ ] **Step 2: Update explore.astro fetch URL**
 
-In `src/pages/water/explore.astro`, change:
+In `src/pages/gateway/explore.astro`, change:
 ```js
 const res = await fetch('/api/capture', {
 ```
@@ -214,8 +214,8 @@ GHL webhook forwarding via GHL_WEBHOOK_URL env var."
 - Modify: `src/components/ResearchAccordion.astro`
 - Modify: `src/pages/research.astro`
 - Modify: `docs/corpus-canon.md`
-- Modify: `src/content/pillars/inner.md`
-- Modify: `src/content/branches/sustainability.md`
+- Modify: `src/content/pillars/system.md`
+- Modify: `src/content/branches/archetype-zeta.md`
 - Modify: `GEMINI.md`
 
 - [ ] **Step 1: Fix stale "113" in ResearchAccordion.astro**
@@ -264,11 +264,11 @@ Then in the subtitle:
 Change line 7 from `**Total entries:** 113` to `**Total entries:** 263`.
 Update ID ranges to reflect actual content (S-01 through S-110, B-01 through B-153).
 
-- [ ] **Step 4: Fix dead link in inner.md**
+- [ ] **Step 4: Fix dead link in system.md**
 
 Change line 77 from `[Understand the full framework →](/hub)` to `[Understand the full framework →](/)`.
 
-- [ ] **Step 5: Fix sustainability.md capitalization**
+- [ ] **Step 5: Fix archetype-zeta.md capitalization**
 
 Find the lowercase "but" at start of sentence and capitalize it.
 
@@ -282,8 +282,8 @@ Change reference to `content.config.ts` to `src/content.config.ts`.
 git add -A && git commit -m "fix: resolve all content issues — stale counts, dead links, copyediting
 
 - Remove hardcoded 113 counts (now dynamic from citations.length)
-- Fix /hub dead link → / in inner.md
-- Capitalize 'but' in sustainability.md
+- Fix /hub dead link → / in system.md
+- Capitalize 'but' in archetype-zeta.md
 - Fix GEMINI.md content.config.ts path"
 ```
 
@@ -533,14 +533,14 @@ After all tasks:
 - [ ] `npm run build` succeeds with 0 errors, output mode `static`
 - [ ] No React, Keystatic, or @astrojs/netlify in `node_modules`
 - [ ] Client JS bundle < 10KB total
-- [ ] 18 pages generated (hub + 6 branches + 4 pillars + business + quiz + explore + research + water landing)
+- [ ] 18 pages generated (hub + 6 branches + 4 pillars + business + quiz + explore + research + gateway landing)
 - [ ] OG image exists at `/og-default.svg` and resolves
 - [ ] Twitter meta uses `name` not `property`
 - [ ] No "113" anywhere in rendered output (grep dist/)
-- [ ] `/hub` link doesn't exist (inner.md links to `/`)
+- [ ] `/hub` link doesn't exist (system.md links to `/`)
 - [ ] All pillar pages have ResearchAccordion
 - [ ] VerticalSpine scroll doesn't cause jank
 - [ ] Business page shows "Application opening soon" not a fake URL
-- [ ] Email gate on /water/explore works (client-side + Netlify Function)
+- [ ] Email gate on /gateway/explore works (client-side + Netlify Function)
 - [ ] Netlify deploy succeeds
 - [ ] `git status` clean, pushed to origin

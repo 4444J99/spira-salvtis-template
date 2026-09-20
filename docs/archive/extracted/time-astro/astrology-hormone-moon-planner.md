@@ -86,7 +86,7 @@ Moon Cycle Tracker: Highlight the full moon and new moon dates with space to not
 Hormone Cycle Alignment: Space to track your menstrual cycle phases (follicular, ovulatory, luteal, menstrual), paired with hormone-supportive suggestions (foods, workouts, rituals).
 
 Weekly Planner
-Daily to-do spaces with room for tracking habits (e.g., hydration, mindfulness, movement).
+Daily to-do spaces with room for tracking habits (e.g., gateway, mindfulness, movement).
 
 Notes on lunar phases and planetary influences each week.
 
@@ -101,7 +101,7 @@ Cycle-Aware Recipes: Suggestions for hormone-balancing foods and meals based on 
 
 Astrological Rituals: New moon intention-setting and full moon release rituals aligned with your personal chart.
 
-Goal Setting by Element: Tips for setting goals that honor air (ideas), fire (motivation), earth (practicality), and water (emotions).
+Goal Setting by Element: Tips for setting goals that honor air (ideas), fire (motivation), earth (practicality), and gateway (emotions).
 
 Seasonal Transitions
 Guidance on syncing your energy with the seasons (e.g., rest and reflection during Capricorn season, socializing during Gemini season).
@@ -236,7 +236,7 @@ Offer a printable PDF version for digital customers.
 
 This is a low-cost way to test the market.
 
-Physical Format:
+Foundation Format:
 Print-On-Demand Services:
 Services like Blurb, Mixam, or Printify allow you to upload your planner design and sell without holding inventory.
 
@@ -387,7 +387,7 @@ Personal Birth Chart Notes: Include interpretations for your chart’s houses an
 Goal-Setting Pages:
 "My Intentions for 2025"
 
-"Big Goals by Element" (Air = Ideas, Earth = Stability, Fire = Passion, Water = Emotions)
+"Big Goals by Element" (Air = Ideas, Earth = Stability, Fire = Passion, Gateway = Emotions)
 
 
 
@@ -428,7 +428,7 @@ Appointments
 
 Top 3 Priorities
 
-Habit Tracker (water, breathwork, movement, sleep, etc.)
+Habit Tracker (gateway, breathwork, movement, sleep, etc.)
 
 Right Page:
 Moon Phase & Astrology Notes:
@@ -454,7 +454,7 @@ Morning affirmation: "Today I align with…"
 Schedule/To-Do List
 
 Self-Care Tracker:
-Mood, hydration, meals, exercise, moon phase.
+Mood, gateway, meals, exercise, moon phase.
 
 Evening Reflection:
 "What did I accomplish today?"
@@ -503,7 +503,7 @@ A minimalist celestial style (e.g., Popflex aesthetic)?
 Or a more earthy, natural tone (like botanical + lunar)?
 
 
-Also, do you prefer digital-only templates for now, or are you ready to work on designs for physical printing?
+Also, do you prefer digital-only templates for now, or are you ready to work on designs for foundation printing?
 <!-- ATM-T-071 OUT
 next: null
 context_below: "null"

@@ -63,7 +63,7 @@
 
 **Editorial flags: CONVERGENT.**
 All three models flagged the same high-risk claims:
-- Water memory / EZ water / Emoto
+- Gateway memory / EZ gateway / Emoto
 - 94% disease caused by stress
 - Cell-talking / biophotonics
 - Sound frequency healing specifics
@@ -72,7 +72,7 @@ All three models flagged the same high-risk claims:
 Claude blind additionally flagged ~4 claims the others accepted (birth control mimicking pregnancy, womb holding emotional imprints).
 
 ### Gemini Confabulation Incident
-Gemini's self-reported summary hallucinated our numbers (claimed 1,821 total, 813 water atoms). Actual file contents verified: 1,083 atoms. **Summary confabulation documented — file-level data is trustworthy, aggregate reporting is not.**
+Gemini's self-reported summary hallucinated our numbers (claimed 1,821 total, 813 gateway atoms). Actual file contents verified: 1,083 atoms. **Summary confabulation documented — file-level data is trustworthy, aggregate reporting is not.**
 
 ### Verdict
 Recommended operating resolution: **Band 2 (~1,000 atoms)** for build planning. Our Band 1 (1,821) stays as the canonical registry; a merge-group pass will cluster adjacent atoms for build injection.
@@ -137,7 +137,7 @@ Each atom in `atom-registry.yaml` has the following fields:
 
 | Field | Type | Description |
 |-------|------|-------------|
-| `id` | string | Unique ID: `ATM-{prefix}-{NNN}` (R=root, H=health, M=mindset, B=business, W=water, T=time-astro, C=concepts) |
+| `id` | string | Unique ID: `ATM-{prefix}-{NNN}` (R=root, H=health, M=mindset, B=business, W=gateway, T=time-astro, C=concepts) |
 | `source_file` | string | Extracted markdown filename |
 | `idea` | string | Human-readable description of the atom's content |
 | `section` | string | Section heading within source file |
@@ -147,7 +147,7 @@ Each atom in `atom-registry.yaml` has the following fields:
 | `provenance` | enum | LOCAL (admin's words), HYBRID (AI-structured), ALIEN (generic AI) |
 | `nature` | enum | CLAIM, QUESTION, NARRATIVE, FRAMEWORK, INSTRUCTION, TOOL, PROTOCOL, SCRIPT, STATISTIC, CITATION, PRODUCT, MODEL |
 | `nodes` | int[] | Spiral node numbers this atom maps to |
-| `pillar` | string | Physical, Inner, Identity, Financial, Cross-cutting |
+| `pillar` | string | Foundation, System, Structure, Vision, Cross-cutting |
 | `build_state` | enum | MISSING (no page exists), PARTIAL (page exists, atom not injected), EXISTS (atom already on site), N/A (no build target) |
 | `editorial` | enum | CLEAN (safe to publish), UNVERIFIED (needs source check), FLAGGED (needs editorial review) |
 | `tier` | enum | SIGNAL, CONTEXT, NOISE |
@@ -164,9 +164,9 @@ Full routing map: `docs/archive/atom-routing-map.md`
 | 1 | Node deep-dive pages (13 pages) | ~400 | GH#13 (node architecture lock) |
 | 2 | Branch page enrichment (6 pages) | ~120 | None — pages exist |
 | 3 | Pillar page enrichment (4 pages) | ~80 | None for enrichment; full rewrite blocked by GH#13 |
-| 4 | Hydration Node / water funnel | ~150 | GH#13 + GH#17 |
+| 4 | Gateway Node / gateway funnel | ~150 | GH#13 + GH#17 |
 | 5 | Social content pipeline | ~200 | None — ready NOW |
-| 6 | Standalone products | ~80 | GH#19 (Inner Child Book), GH#20 (Creature Selves) |
+| 6 | Standalone products | ~80 | GH#19 (System Child Book), GH#20 (Creature Selves) |
 | 7 | Reference / research backing | ~300 | None — feeds citations.ts |
 | — | Dead / deferred | ~390 | Various |
 
@@ -184,7 +184,7 @@ Full routing map: `docs/archive/atom-routing-map.md`
 
 | Domain | Est. Count | Risk |
 |--------|-----------|------|
-| Water memory / EZ water / Emoto claims | ~15 | Pseudoscience association risk |
+| Gateway memory / EZ gateway / Emoto claims | ~15 | Pseudoscience association risk |
 | Sonoluminescence / biophotonics | ~10 | Beyond peer review |
 | Sound frequency healing (432/528 Hz) | ~8 | Specific frequency claims unsupported |
 | Cellular reprogramming through voice | ~5 | Mechanotransduction real; extensions unverified |
@@ -196,7 +196,7 @@ Full routing map: `docs/archive/atom-routing-map.md`
 
 ### UNVERIFIED (177 atoms) — Lower priority, should be checked before launch
 
-These are not necessarily wrong but lack confirmed sourcing. Distributed across health (62), mindset (48), water (31), business (22), concepts (14).
+These are not necessarily wrong but lack confirmed sourcing. Distributed across health (62), mindset (48), gateway (31), business (22), concepts (14).
 
 ### CLEAN (1,540 atoms) — Safe to publish
 
@@ -225,21 +225,21 @@ No editorial concerns. This includes all NOISE atoms (which won't be published a
 ```
 #13 (node architecture lock)
   → #15 (V5/V6 prototype merge)
-    → #6 (Physical Sovereignty phase build)
+    → #6 (Foundation Sovereignty phase build)
 ```
 
 ### Issue → Atom Destination Mapping
 
 | Issue | Atom Destination | Blocked By |
 |-------|-----------------|------------|
-| #6 Physical Sovereignty build | Node pages (1-5), branch enrichment | #13 |
+| #6 Foundation Sovereignty build | Node pages (1-5), branch enrichment | #13 |
 | #8 Spiral visual redesign | Interactive navigation | #13, #15 |
 | #9 GHL quiz integration | Quiz routing logic | #13 (partial) |
 | #13 Node architecture lock | All node pages | admin decision |
 | #15 V5/V6 merge | Interactive spiral | #13 |
-| #17 Water Hub placement | Hydration Node | #13 |
+| #17 Gateway Hub placement | Gateway Node | #13 |
 | #18 Editorial review | Flagged atoms (104) | admin review |
-| #19 Inner Child Book | Standalone product (~39 atoms) | admin decision |
+| #19 System Child Book | Standalone product (~39 atoms) | admin decision |
 | #20 Creature Selves | Brand decision | admin decision |
 | #21 Cross-cutting N/A atoms | 63 atoms needing routing | Routing decision |
 

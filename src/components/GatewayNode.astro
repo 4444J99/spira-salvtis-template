@@ -5,15 +5,15 @@
  * Phase A: Static UI with demo data. Steps 1-2 interactive, 3-6 preview.
  * Architecture-agnostic: works as embedded component or standalone page.
  *
- * Step 1: ZIP + water source → contaminant report (free)
+ * Step 1: ZIP + gateway source → contaminant report (free)
  * Step 2: Email gate → filter recommendations (email-gated)
  * Steps 3-6: Post-conversion deep content (preview only in Phase A)
  *
- * @see docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md
- * @see src/data/hydration.config.ts
+ * @see docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md
+ * @see src/data/gateway.config.ts
  */
 
-import { hydrationConfig, priceRangeLabel } from '../data/hydration.config';
+import { hydrationConfig, priceRangeLabel } from '../data/gateway.config';
 import { config as hubConfig } from '../data/hub.config';
 
 const { steps, filterTiers, costData } = hydrationConfig;
@@ -21,26 +21,26 @@ const filterTiersJson = JSON.stringify(filterTiers);
 
 /**
  * Per admin 2026-05-16: "I want the spiral to be all spiral... just the
- * touch of the water." The "what's in my water" + "how much you're spending"
+ * touch of the gateway." The "what's in my gateway" + "how much you're spending"
  * surfaces stay; filter recommendations + email gate are routed to her
- * GHL water hub instead. Flip back to true to re-enable on-spiral filters.
+ * GHL gateway hub instead. Flip back to true to re-enable on-spiral filters.
  */
 const SHOW_FILTER_FUNNEL = false;
-const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.water}`;
+const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.gateway}`;
 ---
 
-<section class="hydration-node w-full max-w-3xl mx-auto px-4 py-16" data-filter-tiers={filterTiersJson}>
+<section class="gateway-node w-full max-w-3xl mx-auto px-4 py-16" data-filter-tiers={filterTiersJson}>
   <!-- Header -->
   <div class="text-center mb-16">
     <p class="text-ocean-400 text-[11px] uppercase tracking-[0.25em] font-medium mb-4">
-      Physical Sovereignty
+      Foundation Sovereignty
     </p>
     <h2 class="font-heading text-[36px] sm:text-[44px] font-light text-white leading-[1.15] mb-6">
-      What's Really In<br />Your Water?
+      What's Really In<br />Your Gateway?
     </h2>
     <p class="text-white/40 text-[16px] font-light max-w-lg mx-auto leading-relaxed">
       Enter your ZIP code. See your contaminants. Get matched to the right filter.
-      No guessing, no generic advice — just your water, your data, your solution.
+      No guessing, no generic advice — just your gateway, your data, your solution.
     </p>
   </div>
 
@@ -90,13 +90,13 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
         </div>
 
         <div>
-          <label class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2">Water Source</label>
+          <label class="text-white/40 text-[11px] uppercase tracking-[0.15em] block mb-2">Gateway Source</label>
           <div class="grid grid-cols-2 gap-2">
             <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="tap">
-              🚰 Tap Water
+              🚰 Tap Gateway
             </button>
             <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="well">
-              🪨 Well Water
+              🪨 Well Gateway
             </button>
             <button type="button" class="source-btn bg-white/5 border border-white/10 rounded-lg py-3 text-white/50 text-[13px] hover:border-ocean-400 hover:text-white transition-all" data-source="bottled">
               🧴 Bottled
@@ -112,7 +112,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
           type="submit"
           class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px] mt-4"
         >
-          Check My Water →
+          Check My Gateway →
         </button>
       </form>
     </div>
@@ -123,7 +123,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
     <div class="glass-card p-8 sm:p-10">
       <div class="flex items-center justify-between mb-6">
         <h3 class="font-heading text-[20px] font-light text-white">
-          Your Water Report
+          Your Gateway Report
           <span class="text-white/20 text-[14px] font-light" id="result-utility"></span>
         </h3>
         <span class="text-[10px] uppercase tracking-[0.15em] text-white/25" id="result-badge">Loading...</span>
@@ -159,7 +159,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
 
       <!-- Cost comparison -->
       <div class="mb-8">
-        <h4 class="text-white/50 text-[11px] uppercase tracking-[0.15em] mb-4">What You're Spending on Bottled Water</h4>
+        <h4 class="text-white/50 text-[11px] uppercase tracking-[0.15em] mb-4">What You're Spending on Bottled Gateway</h4>
         <div class="space-y-2">
           {costData.map((brand) => (
             <div class="flex items-center justify-between py-2">
@@ -201,7 +201,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
         ) : (
           <>
             <p class="text-white/35 text-[14px] mb-4">
-              Ready for the full water protocol — filter matches, reports, and the deeper system?
+              Ready for the full gateway protocol — filter matches, reports, and the deeper system?
             </p>
             <a
               href={ghlWaterUrl}
@@ -210,7 +210,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
               data-ea-action="water_funnel_to_ghl"
               class="inline-block bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
             >
-              Continue at the Water Hub →
+              Continue at the Gateway Hub →
             </a>
           </>
         )}
@@ -243,18 +243,18 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
       </div>
 
       <form id="email-form" class="space-y-4 max-w-sm mx-auto">
-        <label for="hydration-name" class="sr-only">Your name</label>
+        <label for="gateway-name" class="sr-only">Your name</label>
         <input
-          id="hydration-name"
+          id="gateway-name"
           name="name"
           type="text"
           placeholder="Your name"
           required
           class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[15px]"
         />
-        <label for="hydration-email" class="sr-only">Email address</label>
+        <label for="gateway-email" class="sr-only">Email address</label>
         <input
-          id="hydration-email"
+          id="gateway-email"
           name="email"
           type="email"
           placeholder="your@email.com"
@@ -340,10 +340,10 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
 </section>
 
 <script>
-  import type { FilterTier, WaterReport } from '../data/hydration.config';
+  import type { FilterTier, WaterReport } from '../data/gateway.config';
   import { trackEvent } from '../lib/analytics';
 
-  // --- Water source selection ---
+  // --- Gateway source selection ---
   const sourceBtns = document.querySelectorAll('.source-btn');
   const sourceInput = document.getElementById('source-input') as HTMLInputElement;
 
@@ -475,7 +475,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
       return;
     }
 
-    // Analytics: water funnel entry
+    // Analytics: gateway funnel entry
     trackEvent({ action: 'water_funnel_entry' });
 
     // Show results panel with loading state
@@ -488,7 +488,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
 
     // Fetch real data from EWG proxy
     try {
-      const response = await fetch('/api/water-report', {
+      const response = await fetch('/api/gateway-report', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ zipCode: zipInput.value, waterSource: sourceInput.value }),
@@ -515,7 +515,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
     } catch {
       // Network or parse failure. Surface explicitly so an absent fluoride
       // row in this fallback list is never mistaken for "your utility doesn't
-      // report fluoride." See docs/decisions/2026-05-01-water-report-fluoride-bug-diagnosis.md
+      // report fluoride." See docs/decisions/2026-05-01-gateway-report-fluoride-bug-diagnosis.md
       const totalEl = document.getElementById('result-total');
       const healthEl = document.getElementById('result-exceed-health');
       const legalEl = document.getElementById('result-exceed-legal');
@@ -563,7 +563,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
         body: JSON.stringify({
           name: formData.get('name'),
           email: formData.get('email'),
-          source: 'hydration-node',
+          source: 'gateway-node',
         }),
       });
     } catch {
@@ -571,7 +571,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
     }
 
     // Analytics: email gate completed
-    trackEvent({ action: 'email_gate_submit', page: 'hydration-node' });
+    trackEvent({ action: 'email_gate_submit', page: 'gateway-node' });
 
     // Show filter recommendations
     emailForm.closest('.glass-card')?.classList.add('hidden');
@@ -585,7 +585,7 @@ const ghlWaterUrl = hubConfig.ghl.productUrl || `https://${hubConfig.domains.wat
 
   // --- Filter matching (client-side) ---
   function matchFiltersToReport(contaminants: Array<{ name: string; exceedsHealth?: boolean; exceedsLegal?: boolean }>) {
-    const section = document.querySelector('.hydration-node');
+    const section = document.querySelector('.gateway-node');
     const tiersJson = section?.getAttribute('data-filter-tiers');
     if (!tiersJson) return;
 

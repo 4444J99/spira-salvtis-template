@@ -5,7 +5,7 @@
 ## Context
 
 ### Why This Matters
-admin agreed verbally to 10% of water sales until $10K. Without written confirmation, the revenue arrangement lacks legal standing and blocks all revenue-generating work from proceeding with confidence.
+admin agreed verbally to 10% of gateway sales until $10K. Without written confirmation, the revenue arrangement lacks legal standing and blocks all revenue-generating work from proceeding with confidence.
 
 ### Dependencies
 - **Blocked by:** None
@@ -27,7 +27,7 @@ admin agreed verbally to 10% of water sales until $10K. Without written confirma
 - Revenue tracking systems (future)
 
 ### Boundaries
-- Terms: 10% of water sales, 12 months, $10K cap
+- Terms: 10% of gateway sales, 12 months, $10K cap
 
 ## Output
 
@@ -35,7 +35,7 @@ admin agreed verbally to 10% of water sales until $10K. Without written confirma
 Written/text confirmation from admin with explicit terms
 
 ### Success Criteria
-- [ ] Text/email received with "10% of water sales"
+- [ ] Text/email received with "10% of gateway sales"
 - [ ] Text/email received with "12 months" (or explicit duration)
 - [ ] Text/email received with "$10,000" cap (or explicit amount)
 - [ ] Terms documented in `docs/handoff-admin-spiral-path-2026-04-01.md`
@@ -46,7 +46,7 @@ Text message, email, or documented call with explicit terms stated by admin
 
 ## Gate
 
-**Gate Criterion:** Both parties have explicit text record of: 10% of water sales, 12 months, until $10K cap
+**Gate Criterion:** Both parties have explicit text record of: 10% of gateway sales, 12 months, until $10K cap
 
 **Approver:** admin (client) + Studio
 
@@ -84,8 +84,8 @@ Text message, email, or documented call with explicit terms stated by admin
 ### Template for Request
 > Hi admin,
 > 
-> To formalize our water sales agreement, could you send a quick text confirming:
-> - 10% of water sales
+> To formalize our gateway sales agreement, could you send a quick text confirming:
+> - 10% of gateway sales
 > - For 12 months
 > - Up to $10,000 total
 > 

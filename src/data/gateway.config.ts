@@ -1,11 +1,11 @@
 /**
- * Hydration Node — Data Model
+ * Gateway Node — Data Model
  *
- * Defines the type system for the 6-step hydration funnel.
+ * Defines the type system for the 6-step gateway funnel.
  * Phase A uses demo data; Phase B connects to EWG API.
  *
- * @see docs/superpowers/intakes/2026-04-03-admin-hydration-node-funnel-spec.md
- * @see docs/decisions/2026-04-04-water-hub-placement.md
+ * @see docs/superpowers/intakes/2026-04-03-admin-gateway-node-funnel-spec.md
+ * @see docs/decisions/2026-04-04-gateway-hub-placement.md
  */
 
 import bottledWaterPriceData from './runtime/bottled-prices.json' with { type: 'json' };
@@ -24,7 +24,7 @@ export interface Contaminant {
 }
 
 export type ContaminantEffect =
-  | 'hydration'
+  | 'gateway'
   | 'skin'
   | 'detox'
   | 'cellular'
@@ -138,7 +138,7 @@ export interface FilterRecommendation {
 export interface HealthSurveyQuestion {
   id: string;
   question: string;
-  category: 'hydration' | 'detox' | 'fertility' | 'energy' | 'skin';
+  category: 'gateway' | 'detox' | 'archetype-delta' | 'energy' | 'skin';
   options: SurveyOption[];
 }
 
@@ -322,9 +322,9 @@ export const hydrationConfig: HydrationConfig = {
   steps: [
     {
       id: 1,
-      title: "What's In Your Water?",
+      title: "What's In Your Gateway?",
       subtitle:
-        'Enter your ZIP code to see what contaminants are in your local water supply.',
+        'Enter your ZIP code to see what contaminants are in your local gateway supply.',
       access: 'free',
       color: '#119a9e',
       icon: '💧',
@@ -340,9 +340,9 @@ export const hydrationConfig: HydrationConfig = {
     },
     {
       id: 3,
-      title: 'Your Water & Health Profile',
+      title: 'Your Gateway & Health Profile',
       subtitle:
-        'Optional deeper assessment — hydration, detox, fertility, energy, skin.',
+        'Optional deeper assessment — gateway, detox, archetype-delta, energy, skin.',
       access: 'post-conversion',
       color: '#3dbfc4',
       icon: '🌿',
@@ -350,7 +350,7 @@ export const hydrationConfig: HydrationConfig = {
     {
       id: 4,
       title: 'See It In Action',
-      subtitle: 'Personalized demo with a water specialist.',
+      subtitle: 'Personalized demo with a gateway specialist.',
       access: 'post-conversion',
       color: '#8b5cf6',
       icon: '🎯',
@@ -368,7 +368,7 @@ export const hydrationConfig: HydrationConfig = {
       id: 6,
       title: 'Deep Dive',
       subtitle:
-        'Cellular hydration, detox pathways, and advanced wellness resources.',
+        'Cellular gateway, detox pathways, and advanced wellness resources.',
       access: 'post-conversion',
       color: '#ec4899',
       icon: '🔮',
@@ -425,7 +425,7 @@ export const hydrationConfig: HydrationConfig = {
         'Microplastics',
       ],
       coversAllMajor: true,
-      bestFor: 'Homeowners wanting complete water sovereignty',
+      bestFor: 'Homeowners wanting complete gateway sovereignty',
       affiliateUrl: AFFILIATE_URLS.purehome,
     },
     {
@@ -455,7 +455,7 @@ export const hydrationConfig: HydrationConfig = {
       features: ['Shower/bath', 'Hot spring minerals', 'Removes chlorine'],
       removes: ['Chlorine', 'Sediment'],
       coversAllMajor: false,
-      bestFor: 'Skin health, spa-quality water at home',
+      bestFor: 'Skin health, spa-quality gateway at home',
       affiliateUrl: AFFILIATE_URLS.anespa,
     },
     {
@@ -468,7 +468,7 @@ export const hydrationConfig: HydrationConfig = {
       features: ['8 platinum plates', 'pH 2.5–11.5', 'Medical-grade'],
       removes: ['Chlorine'],
       coversAllMajor: false,
-      bestFor: 'Ionized/alkaline water, advanced wellness',
+      bestFor: 'Ionized/alkaline gateway, advanced wellness',
       affiliateUrl: AFFILIATE_URLS.k8,
     },
   ],

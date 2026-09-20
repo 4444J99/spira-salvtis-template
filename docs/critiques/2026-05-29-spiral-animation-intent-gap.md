@@ -32,7 +32,7 @@ The implementation-plan prompt that encodes admin's exact requirements:
 > 1. "Each orb should spin" — VISIBLE spinning, not 0.06 rad/s
 > 2. "The orbs should orbit the spiral"
 > 3. "Around each orb and the spiral itself, there should be sprites and animations" — floating particles, motes, wisps
-> 4. "Universal, water-like, air-like, gas-like" — the whole scene should feel fluid and atmospheric
+> 4. "Universal, gateway-like, air-like, gas-like" — the whole scene should feel fluid and atmospheric
 > 5. "Always different" — never-repeating motion
 > 6. The spiral should be truly infinite — no visible start or end point
 

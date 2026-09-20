@@ -27,21 +27,21 @@ Verified via: git (deploy command byte-identical across the migration), local bu
 
 ## Fix applied this session
 
-1. **Restored production (manual):** `wrangler pages deploy dist/client --project-name sovereign-systems-spiral --branch main`. Site is live again — verified 200 on `/`, `/water/`, `/business/`, `/quiz`, `/research`, `/nodes/1`, `/pillars/physical`.
+1. **Restored production (manual):** `wrangler pages deploy dist/client --project-name sovereign-systems-spiral --branch main`. Site is live again — verified 200 on `/`, `/gateway/`, `/business/`, `/quiz`, `/research`, `/nodes/1`, `/pillars/foundation`.
 2. **Patched the root cause (UNCOMMITTED):** `package.json` `deploy` script `dist` → `dist/client`. **This must land on `main`** — until it does, the next `npm run deploy` from `main` re-breaks the site.
 
 ## Topology discovered (was not previously documented)
 
 - **`hub-example.com` is NOT on Cloudflare** — DNS (GoDaddy nameservers `domaincontrol.com`) points the apex at GoDaddy Website Builder (`76.223.105.230`, `13.248.243.5`), serving a GoDaddy template titled "Mayan Calendar." The custom-domain connection (carry-forward #3 / GH#3) was never done for the hub. Fixing it needs owner GoDaddy access.
-- **`water-example.com` / `business-example.com` are served from a DIFFERENT Cloudflare account** — they are NOT in this account's zones (`ivi374iviorf.org`, `ivixivi.xyz`, `ivviiviivvi.xyz`) and NOT custom domains on the `sovereign-systems-spiral` project. So this repo's Pages project is **dev/staging on this account**; prod for the live funnels deploys elsewhere. **Deploying this repo does not update the live funnels** — reconcile where prod actually builds from.
+- **`gateway-example.com` / `business-example.com` are served from a DIFFERENT Cloudflare account** — they are NOT in this account's zones (`ivi374iviorf.org`, `ivixivi.xyz`, `ivviiviivvi.xyz`) and NOT custom domains on the `sovereign-systems-spiral` project. So this repo's Pages project is **dev/staging on this account**; prod for the live funnels deploys elsewhere. **Deploying this repo does not update the live funnels** — reconcile where prod actually builds from.
 
 ## Open decision (architecture)
 
-The v13 build is a **Workers** artifact, but the repo deploys to a **Pages** project. Three paths to restore the 2 SSR endpoints (`/capture` lead-capture, `/api/water-report` EWG proxy), which do NOT work on a static Pages deploy:
+The v13 build is a **Workers** artifact, but the repo deploys to a **Pages** project. Three paths to restore the 2 SSR endpoints (`/capture` lead-capture, `/api/gateway-report` EWG proxy), which do NOT work on a static Pages deploy:
 
 | Path | Keeps `pages.dev` URL? | SSR? | Notes |
 | --- | --- | --- | --- |
-| Stay on Pages (current) | yes | no | quiz still renders (capture is fire-and-forget); water funnel falls back to demo data |
+| Stay on Pages (current) | yes | no | quiz still renders (capture is fire-and-forget); gateway funnel falls back to demo data |
 | Switch to Workers | no → `*.workers.dev` | yes | `wrangler deploy --config dist/server/wrangler.json`; also wire the `SUBMISSIONS` KV binding (generated `wrangler.json` has `kv_namespaces: []`) |
 | Investigate Pages-SSR | likely | likely | check whether adapter v13 can emit a Pages `_worker.js`; uncertain, needs research |
 
@@ -53,7 +53,7 @@ From the #112 audit (`docs/critiques/2026-05-26-astro6-migration-correctness-aud
 
 - **HIGH** `EmailGate.astro:26-32,95-134` — soft gate protects nothing: gated `<slot/>` server-rendered into a `hidden` div (in page source), unlock is client-side `localStorage`, unlocks even on `/capture` failure. `/research` is readable via view-source.
 - **HIGH** `decisions.astro:27` — `const to = 'padavano.anthony@gmail.com'` hardcoded personal email on a client-facing page (PII + M2).
-- **HIGH** `hydration.config.ts:272,290,306` — affiliate URLs (`ionfaucet.com/admin-spiral`, `multipure.com/admin-wired`, `purehome.co/admin`) hardcoded inline (M2; revenue-linked).
+- **HIGH** `gateway.config.ts:272,290,306` — affiliate URLs (`ionfaucet.com/admin-spiral`, `multipure.com/admin-wired`, `purehome.co/admin`) hardcoded inline (M2; revenue-linked).
 - **MED** `Base.astro:712` — citation tooltip built as HTML string → `innerHTML` (XSS sink; studio-controlled data, low exploitability).
 - `capture.ts` reviewed directly: **solid** (email validation + length caps, quizNodeId bounds, IP de-id, 5s webhook timeout, isolated sinks). One gap: **no rate-limit** on an unauthenticated public KV-write endpoint (matches the prior handoff's review backlog).
 
@@ -64,13 +64,13 @@ From the #112 audit (`docs/critiques/2026-05-26-astro6-migration-correctness-aud
 3. **Stale docs** — CLAUDE.md ("Deploy Configuration") and AGENTS.md still say `wrangler pages deploy dist` and "adapter generates `_worker.js`"; both now inaccurate post-v13. Fix bases (#6).
 4. **CLAUDE.md autogen tail staleness (IRF-OPS-050)** — still RED (44d as of this session); `claude-md-autogen-gate` refuses session-DONE. Host-scope; unblock procedure in `.claude/plans/2026-05-17-handoff-irf-ops-050-unblock.md`. Refresh path itself has a tracked bug (IRF-OPS-051). Bypassed for this outage-fix session per the tracked-bug-bypass precedent.
 5. **`hub-example.com` custom-domain connection** — owner GoDaddy task (repoint apex from GoDaddy Website Builder to Cloudflare Pages; mirror what the siblings already do).
-6. **Reconcile prod hosting** — where do `water-example.com` / `business-example.com` actually build/deploy from (separate CF account)?
+6. **Reconcile prod hosting** — where do `gateway-example.com` / `business-example.com` actually build/deploy from (separate CF account)?
 7. **Triple-reference the deploy regression** — file IRF + GH issue for the `dist`→`dist/client` regression so it's traceable (currently 1/3).
 8. Prior-handoff carry-forwards still open: GitHub history exposure (4 relocated `docs/internal/` files); client-gated items awaiting admin (#49/#58/#62, custom domains #3, GATED #5/#7/#14/#18/#19); "anesoa" quiz UX bug.
 
 ## Verification (this session)
 
-- Live URL re-curled: `/` and all major routes 200; SSR endpoints `/capture` 405, `/api/water-report` 404 (expected on static deploy).
+- Live URL re-curled: `/` and all major routes 200; SSR endpoints `/capture` 405, `/api/gateway-report` 404 (expected on static deploy).
 - `dist/client` built from `HEAD` (`83a5bff`); only incidental build artifacts (`package-lock.json` 0-line, `src/data/library-manifest.json` regen) reverted to keep the fix atomic.
 - Cloudflare API confirmed: project `sovereign-systems-spiral`, canonical deploy = latest `main`, `domains: [pages.dev only]`.
 

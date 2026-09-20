@@ -9,17 +9,17 @@ import BusinessRhythm from '../../components/BusinessRhythm.astro';
 import { config } from '../../data/hub.config';
 import { nonprofitConfig } from '../../data/nonprofit.config';
 
-const financialPillar = config.pillars.find((p) => p.slug === 'financial');
+const financialPillar = config.pillars.find((p) => p.slug === 'vision');
 const citationIds = financialPillar?.citationIds || [];
-// Business hub inherits the financial pillar's lead-node world (M2: derived).
-const leadNodeId = config.nodes.find((n) => n.pillarSlug === 'financial')?.id;
+// Business hub inherits the vision pillar's lead-node world (M2: derived).
+const leadNodeId = config.nodes.find((n) => n.pillarSlug === 'vision')?.id;
 ---
 
-<Base title="Financial Sovereignty — Business Hub">
+<Base title="Vision Sovereignty — Business Hub">
   <Hero
     heading="Stability that scales."
     subtext="Build a business that supports your life, rather than consuming it. Systems, scale, and sovereign income."
-    section="Financial Sovereignty"
+    section="Vision Sovereignty"
   >
     {leadNodeId && <WorldMotif slot="backdrop" nodeId={leadNodeId} />}
     <CTAButton href="/business/dp" label="$99 DP Sign-Up" />
@@ -54,7 +54,7 @@ const leadNodeId = config.nodes.find((n) => n.pillarSlug === 'financial')?.id;
       </h2>
       <p class="text-white/45 text-[17px] font-light leading-[1.9] mb-8">
         We have been taught that success requires sacrifice — of your health,
-        your time, and your presence. We believe that true financial sovereignty
+        your time, and your presence. We believe that true vision sovereignty
         is the opposite: it is the result of installing systems that protect
         those very assets.
       </p>

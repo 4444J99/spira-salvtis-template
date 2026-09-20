@@ -18,7 +18,7 @@ source_file: "ChatGPT-Credit Report Review Guide.txt"
 source_folder: "business"
 nodes: [6, 10]
 readiness: "Raw"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 10]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -65,7 +65,7 @@ context_above: "Credit Report Review Guide"
 provenance: LOCAL
 nature: CLAIM
 nodes: [6, 10]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -91,7 +91,7 @@ context_above: "How do you see what’s on or hurting your credit to try to get 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [6, 10]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT

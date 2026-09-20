@@ -15,17 +15,17 @@ sections:
     atoms: [ATM-W-106, ATM-W-108, ATM-W-110, ATM-W-112, ATM-W-114]
 -->
 ---
-title: "Full Water Hub architecture: quiz, 5 branches"
-source_file: "ChatGPT-Water hub design.txt"
-source_folder: "water"
+title: "Full Gateway Hub architecture: quiz, 5 branches"
+source_file: "ChatGPT-Gateway hub design.txt"
+source_folder: "gateway"
 nodes: [11, 12]
 readiness: "Partial"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-089 IN
-idea: "Water hub design"
+idea: "Gateway hub design"
 section: "Main"
 position: 1
 of_total: 26
@@ -34,7 +34,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -43,7 +43,7 @@ strike_phase: 2C
 
 
 
-Water hub design
+Gateway hub design
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 3/25/2026 11:41:12
@@ -63,11 +63,11 @@ section: "Prompt-Response"
 position: 2
 of_total: 26
 prev: ATM-W-089
-context_above: "Water hub design"
+context_above: "Gateway hub design"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“okay, so branching off my sovereign systems, the first thing I want to focus on is that first pillar and my water hub. So when I talk to someone or when I, they go to the water hub, I want them to come to a short, like 10-minute documentary of my story, the transformation, and what water is, why it's so important. And then from there, we could have maybe a little snippet of my water demo and a little breakdown blurb below of why water is so important, something like that. You know, just a really clean landing page. And then the call to action will be to take the quiz, and within the quiz, we can get a better idea on, you know, why they're there and what they're interested in and be able to track who they are. And then after they take the quiz and submit it, then it can send them wherever they want. I want this to be a mini version of like my spiral and pillars, right? So it will, the main stem will be the water hub itself. It's already done by Lacey, but then it'll have branches or spirals off of it that go over athletes, fertility, autoimmune disease, inflammation, cancer, you know, and it can even branch further from there. But then the quiz will send them what to where they, you know, it's very you-centric, it's very them. So if they are struggling with fertility, it'll send them to the fertility sector or branch. And so then it's all just about the fertility and molecular hydrogen effects with that. And then from that, they can go back and look at the other branches or they can go look through the main funnel. And...”
+“okay, so branching off my sovereign systems, the first thing I want to focus on is that first pillar and my gateway hub. So when I talk to someone or when I, they go to the gateway hub, I want them to come to a short, like 10-minute documentary of my story, the transformation, and what gateway is, why it's so important. And then from there, we could have maybe a little snippet of my gateway demo and a little breakdown blurb below of why gateway is so important, something like that. You know, just a really clean landing page. And then the call to action will be to take the quiz, and within the quiz, we can get a better idea on, you know, why they're there and what they're interested in and be able to track who they are. And then after they take the quiz and submit it, then it can send them wherever they want. I want this to be a mini version of like my spiral and pillars, right? So it will, the main stem will be the gateway hub itself. It's already done by Lacey, but then it'll have branches or spirals off of it that go over athletes, archetype-delta, archetype-beta disease, inflammation, cancer, you know, and it can even branch further from there. But then the quiz will send them what to where they, you know, it's very you-centric, it's very them. So if they are struggling with archetype-delta, it'll send them to the archetype-delta sector or branch. And so then it's all just about the archetype-delta and molecular hydrogen effects with that. And then from that, they can go back and look at the other branches or they can go look through the main funnel. And...”
 
 
 01:51
@@ -100,7 +100,7 @@ context_above: "“okay, so branching off my sovereign systems, the first thing 
 provenance: HYBRID
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -108,14 +108,14 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Then at the end of the branches and each of, and the end of the main funnel or main water hub have the call to action, which goes to my website, which they can purchase themselves.”
+“Then at the end of the branches and each of, and the end of the main funnel or main gateway hub have the call to action, which goes to my website, which they can purchase themselves.”
 
 
 00:11
 
 
 ## Response:
-Yes, exactly! That way, no matter which branch they take—whether it’s fertility, athletics, or something else—they still end up back at your site to purchase. I think that will keep it super cohesive. And having that quiz as a personalized gateway is perfect for tailoring each user’s path. Do you have any ideas on how to keep that quiz super engaging or easy for them?
+Yes, exactly! That way, no matter which branch they take—whether it’s archetype-delta, athletics, or something else—they still end up back at your site to purchase. I think that will keep it super cohesive. And having that quiz as a personalized gateway is perfect for tailoring each user’s path. Do you have any ideas on how to keep that quiz super engaging or easy for them?
 
 
 <!-- ATM-W-091 OUT
@@ -133,7 +133,7 @@ context_above: "“Then at the end of the branches and each of, and the end of t
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -141,7 +141,7 @@ strike_phase: 2D
 -->
 
 ## Prompt:
-“That's what I was kind of hoping you would help me set up. I'm doing this in GHL, so I want it to be easily trackable and not make a mess of things. And then I'm also gonna have to duplicate at some point or create an extra landing page for my downline that ties into my water hub. So I need help with the branches. I think we should pick four or five to start and then come up with a quiz that...”
+“That's what I was kind of hoping you would help me set up. I'm doing this in GHL, so I want it to be easily trackable and not make a mess of things. And then I'm also gonna have to duplicate at some point or create an extra landing page for my downline that ties into my gateway hub. So I need help with the branches. I think we should pick four or five to start and then come up with a quiz that...”
 
 
 00:26
@@ -166,7 +166,7 @@ context_above: "“That's what I was kind of hoping you would help me set up. I'
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -181,7 +181,7 @@ strike_phase: 2D
 
 
 ## Response:
-Exactly! So, I think we should pick those key branches based on what you've seen your audience gravitate toward. So maybe start with, like, fertility, athletics, autoimmune health, inflammation, and maybe mental clarity. Then we can keep the quiz concise—like, a few key questions that help us zero in on their top concern. Once we have those branches mapped out, I can help you set up the GHL workflows so it stays organized. Does that sound like a solid plan?
+Exactly! So, I think we should pick those key branches based on what you've seen your audience gravitate toward. So maybe start with, like, archetype-delta, athletics, archetype-beta health, inflammation, and maybe mental clarity. Then we can keep the quiz concise—like, a few key questions that help us zero in on their top concern. Once we have those branches mapped out, I can help you set up the GHL workflows so it stays organized. Does that sound like a solid plan?
 
 
 <!-- ATM-W-093 OUT
@@ -199,7 +199,7 @@ context_above: "“we'll meet at the correct spot.”"
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -232,7 +232,7 @@ context_above: "“Yeah, that's awesome. Instead of the mind clarity, let's go, 
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -240,14 +240,14 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Okay, so then should we build the quiz right now, or should we just, can you just build a rough backbone of the quiz and how we could track or tell where to send them depending on the branch or what their focus is? And then we can add the two focuses of if they're just interested in molecular hydrogen, send them to the top of the main funnel with the demo and the breakdown of everything. Or if they're interested in cancer stuff, then we should also, they can just go to the H2 in cancer videos right now, but we could also add a branch there that gets into the more specific types because I know, like with thyroid and their eight-day radiation protocol, you cannot drink the water. Um, but all the other cancers that I know of, you do. It is beneficial and a lot allowed to consume the water during treatment.”
+“Okay, so then should we build the quiz right now, or should we just, can you just build a rough backbone of the quiz and how we could track or tell where to send them depending on the branch or what their focus is? And then we can add the two focuses of if they're just interested in molecular hydrogen, send them to the top of the main funnel with the demo and the breakdown of everything. Or if they're interested in cancer stuff, then we should also, they can just go to the H2 in cancer videos right now, but we could also add a branch there that gets into the more specific types because I know, like with thyroid and their eight-day radiation protocol, you cannot drink the gateway. Um, but all the other cancers that I know of, you do. It is beneficial and a lot allowed to consume the gateway during treatment.”
 
 
 01:00
 
 
 ## Response:
-Yes, absolutely. I can lay out a simple structure for you right now. So, we’ll have, like, a handful of core questions—maybe three to five—focused on their top concern: things like "What’s your biggest health goal right now?" or "Which area do you most connect with?" Then, depending on their answers, we can tag them with a score or a category—like fertility, autoimmune, cancer, etc.—and in the backend, we just map each tag to a specific follow-up page. Then, for that special H2 and cancer branch, we can add a sub-question or a follow-up screen that narrows down if it’s thyroid or other cancers. Does that sound like the kind of backbone we want to build first?
+Yes, absolutely. I can lay out a simple structure for you right now. So, we’ll have, like, a handful of core questions—maybe three to five—focused on their top concern: things like "What’s your biggest health goal right now?" or "Which area do you most connect with?" Then, depending on their answers, we can tag them with a score or a category—like archetype-delta, archetype-beta, cancer, etc.—and in the backend, we just map each tag to a specific follow-up page. Then, for that special H2 and cancer branch, we can add a sub-question or a follow-up screen that narrows down if it’s thyroid or other cancers. Does that sound like the kind of backbone we want to build first?
 
 
 <!-- ATM-W-095 OUT
@@ -265,7 +265,7 @@ context_above: "“Okay, so then should we build the quiz right now, or should w
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -280,7 +280,7 @@ strike_phase: 2D
 
 
 ## Response:
-Absolutely! So top to bottom, it’ll look like this: First, we have the main landing page on your Water Hub. From there, they watch your 10-minute documentary about your story, the transformation, and the importance of water. After that, we embed a short snippet of your water demo and a brief breakdown text about why water is so critical. Then, we guide them to the quiz. The quiz will have a few key questions, like their top health goal, current focus area, or biggest struggle. Based on their answers, we tag them—like fertility, athletics, autoimmune, cancer, etc. If they pick a general interest in molecular hydrogen, they go back to the top of the funnel with that demo. If they choose cancer, they go to a cancer resource page. And from there, each branch has its own CTA at the end, directing them to your website to purchase. I’ll keep it simple but trackable in GHL, so each tag feeds into a specific workflow. Does that give you a good clear picture?
+Absolutely! So top to bottom, it’ll look like this: First, we have the main landing page on your Gateway Hub. From there, they watch your 10-minute documentary about your story, the transformation, and the importance of gateway. After that, we embed a short snippet of your gateway demo and a brief breakdown text about why gateway is so critical. Then, we guide them to the quiz. The quiz will have a few key questions, like their top health goal, current focus area, or biggest struggle. Based on their answers, we tag them—like archetype-delta, athletics, archetype-beta, cancer, etc. If they pick a general interest in molecular hydrogen, they go back to the top of the funnel with that demo. If they choose cancer, they go to a cancer resource page. And from there, each branch has its own CTA at the end, directing them to your website to purchase. I’ll keep it simple but trackable in GHL, so each tag feeds into a specific workflow. Does that give you a good clear picture?
 
 
 <!-- ATM-W-096 OUT
@@ -298,7 +298,7 @@ context_above: "“Yes, that is perfect. And then instead of sub-questions for t
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -313,7 +313,7 @@ strike_phase: 2D
 
 
 ## Response:
-Yeah, great question! So, I’d say when you plug this into a visual builder—like GHL or something similar—definitely keep the questions really concise. You might ask things like: "What’s your biggest health focus right now?" (multiple choice: fertility, athletic performance, etc.), "Have you heard of molecular hydrogen before?" (yes/no), and maybe a question like, "What is your top health goal in the next 6 months?" Keep them short, and be sure each answer option triggers a tag or a workflow step. Once you get them in, we’ll just test the flow to make sure each branch is leading exactly where you want. Sound good?
+Yeah, great question! So, I’d say when you plug this into a visual builder—like GHL or something similar—definitely keep the questions really concise. You might ask things like: "What’s your biggest health focus right now?" (multiple choice: archetype-delta, archetype-alpha performance, etc.), "Have you heard of molecular hydrogen before?" (yes/no), and maybe a question like, "What is your top health goal in the next 6 months?" Keep them short, and be sure each answer option triggers a tag or a workflow step. Once you get them in, we’ll just test the flow to make sure each branch is leading exactly where you want. Sound good?
 
 
 <!-- ATM-W-097 OUT
@@ -331,7 +331,7 @@ context_above: "“Yes, that's awesome. Thank you. And then if I was going to pl
 provenance: HYBRID
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -339,14 +339,14 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-“Okay, awesome. Can we also add in, like, if their interest is saving money or not spending money on plastic, planet sustainability, stuff like that mentioned, or is that too broad right now? And then I was just saying, sorry, do you have any questions for me, or is there anything I missed to ensure optimal build?”
+“Okay, awesome. Can we also add in, like, if their interest is saving money or not spending money on plastic, planet archetype-zeta, stuff like that mentioned, or is that too broad right now? And then I was just saying, sorry, do you have any questions for me, or is there anything I missed to ensure optimal build?”
 
 
 00:26
 
 
 ## Response:
-Ooh, I love that addition! I think we can definitely include a question or two about sustainability or cost savings—it's super aligned with your mission. So, maybe a question like, "Is reducing plastic waste or saving money a priority for you?" Then they can select yes or no, and we just add another branch based on that. As for other things, I think you've been super thorough. The only other thing I’d suggest is making sure you have a clear thank-you page or confirmation screen at the end so they know their results are in and what's next. But yeah, I think you're all set!
+Ooh, I love that addition! I think we can definitely include a question or two about archetype-zeta or cost savings—it's super aligned with your mission. So, maybe a question like, "Is reducing plastic waste or saving money a priority for you?" Then they can select yes or no, and we just add another branch based on that. As for other things, I think you've been super thorough. The only other thing I’d suggest is making sure you have a clear thank-you page or confirmation screen at the end so they know their results are in and what's next. But yeah, I think you're all set!
 
 
 <!-- ATM-W-098 OUT
@@ -364,7 +364,7 @@ context_above: "“Okay, awesome. Can we also add in, like, if their interest is
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -397,7 +397,7 @@ context_above: "“Okay, so we should add in after they take the quiz, it kind o
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -405,14 +405,14 @@ strike_phase: 2D
 -->
 
 ## Prompt:
-“Yeah, I think that would kind of be perfect because then it sticks with my brand of the pillars and the spiral. For the water specifically, the pillar would be the main water hub that's already up and running, and then I can just add the spiral around it in a sense with the branches of, as I learn and add and have resources about fertility, athletes, autoimmune, inflammation, cancer, all of that stuff, and then those branches can just kind of grow, but it'll be very cohesive and fun to explore, I think.”
+“Yeah, I think that would kind of be perfect because then it sticks with my brand of the pillars and the spiral. For the gateway specifically, the pillar would be the main gateway hub that's already up and running, and then I can just add the spiral around it in a sense with the branches of, as I learn and add and have resources about archetype-delta, athletes, archetype-beta, inflammation, cancer, all of that stuff, and then those branches can just kind of grow, but it'll be very cohesive and fun to explore, I think.”
 
 
 00:36
 
 
 ## Response:
-Exactly! I think that’s going to be really powerful. You’ll have this anchor in the Water Hub, and then that spiral will let people visually follow their interests. Once we have the structure, we can keep adding branches as you grow, and it’ll always feel aligned. So yeah, we can map that out next and start building the quiz flow inside GHL, so everything stays connected. I’m really excited!
+Exactly! I think that’s going to be really powerful. You’ll have this anchor in the Gateway Hub, and then that spiral will let people visually follow their interests. Once we have the structure, we can keep adding branches as you grow, and it’ll always feel aligned. So yeah, we can map that out next and start building the quiz flow inside GHL, so everything stays connected. I’m really excited!
 
 
 <!-- ATM-W-100 OUT
@@ -430,7 +430,7 @@ context_above: "“Yeah, I think that would kind of be perfect because then it s
 provenance: HYBRID
 nature: QUESTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -463,7 +463,7 @@ context_above: "“Okay, awesome, yeah, let's map that out, please.”"
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -496,7 +496,7 @@ context_above: "“Yes, please.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -529,7 +529,7 @@ context_above: "“Yay, thank you. I'm excited to see it.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -562,7 +562,7 @@ context_above: "“Well, thank you.”"
 provenance: LOCAL
 nature: QUESTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -588,7 +588,7 @@ context_above: "Do you have that mapped out!? Can we do a broad overview of ever
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -600,10 +600,10 @@ Yes — this is where it starts to click into something real. I mapped your whol
 
 
 
-🌊 YOUR WATER HUB ECOSYSTEM (WEBSITE FIRST)
+🌊 YOUR GATEWAY HUB ECOSYSTEM (WEBSITE FIRST)
 
 
-1. MAIN ENTRY: “THE WATER HUB” (Your Pillar)
+1. MAIN ENTRY: “THE GATEWAY HUB” (Your Pillar)
 
 
 This is your anchor page — clean, emotional, powerful.
@@ -612,7 +612,7 @@ This is your anchor page — clean, emotional, powerful.
 Above the fold:
 
 
-Headline: “Water changed everything for me — here’s why”
+Headline: “Gateway changed everything for me — here’s why”
 
 Subheadline: transformation + curiosity gap
 
@@ -629,7 +629,7 @@ Then:
 🧠 Simple breakdown:
 What is molecular hydrogen?
 
-Why water matters (quick, non-overwhelming)
+Why gateway matters (quick, non-overwhelming)
 
 
 👉 CTA:
@@ -646,7 +646,7 @@ This is where your brand becomes different.
 Imagine:
 
 
-Center = Water Hub
+Center = Gateway Hub
 
 Branching outward = categories (they can click OR arrive via quiz)
 
@@ -659,14 +659,14 @@ Keep it focused + expandable:
 
 🌿 Gut + Hormone Balance
 
-🤍 Fertility
+🤍 Archetype-delta
 
-💪 Athletic Performance
+💪 Archetype-alpha Performance
 
-🔥 Inflammation / Autoimmune
+🔥 Inflammation / Archetype-beta
 
 🎗️ Cancer Support
-(+ optional 6th: 🌎 Sustainability / Cost Savings)
+(+ optional 6th: 🌎 Archetype-zeta / Cost Savings)
 
 
 
@@ -690,7 +690,7 @@ Example: “Gut + Hormones”
 
 Gut ↔ hormones ↔ inflammation connection
 
-Where water fits in
+Where gateway fits in
 
 
 3. Hydrogen angle
@@ -698,7 +698,7 @@ Where water fits in
 
 Anti-inflammatory
 
-Cellular hydration
+Cellular gateway
 
 Oxidative stress support
 
@@ -714,7 +714,7 @@ Optional deeper dives later
 
 
 5. CTA (always the same):
-👉 “Start with the water → Shop / Learn More”
+👉 “Start with the gateway → Shop / Learn More”
 
 
 
@@ -751,11 +751,11 @@ Links like:
 
 
 CTA stays soft but clear:
-👉 “Explore water options”
+👉 “Explore gateway options”
 
 
 
-🌎 BONUS BRANCH: SUSTAINABILITY / SAVING MONEY
+🌎 BONUS BRANCH: ARCHETYPE-ZETA / SAVING MONEY
 
 
 This is actually a hidden conversion driver.
@@ -778,7 +778,7 @@ Environmental impact
 
 
 CTA:
-👉 “Switch your water system”
+👉 “Switch your gateway system”
 
 
 
@@ -796,11 +796,11 @@ Q1: What brought you here today?
 
 Gut / hormones
 
-Fertility
+Archetype-delta
 
-Athletic performance
+Archetype-alpha performance
 
-Autoimmune / inflammation
+Archetype-beta / inflammation
 
 Cancer support
 
@@ -846,21 +846,21 @@ Ready
 
 Gut → Gut branch
 
-Fertility → Fertility branch
+Archetype-delta → Archetype-delta branch
 
 Athlete → Athlete branch
 
-Autoimmune → Inflammation branch
+Archetype-beta → Inflammation branch
 
 Cancer → Cancer resource hub
 
-Curious → BACK to main water hub (education first)
+Curious → BACK to main gateway hub (education first)
 
 
 Overlay Tagging (for later GHL):
 
 
-“Sustainability interest”
+“Archetype-zeta interest”
 
 “High intent”
 
@@ -874,19 +874,19 @@ Overlay Tagging (for later GHL):
 Path A (most people):
 
 
-Water Hub → Quiz → Branch → CTA → Purchase
+Gateway Hub → Quiz → Branch → CTA → Purchase
 
 
 Path B (explorers):
 
 
-Water Hub → Spiral browsing → Multiple branches → CTA
+Gateway Hub → Spiral browsing → Multiple branches → CTA
 
 
 Path C (research-heavy):
 
 
-Water Hub → Cancer / Deep dive → Resources → CTA
+Gateway Hub → Cancer / Deep dive → Resources → CTA
 
 
 
@@ -971,9 +971,9 @@ Not:
 But:
 
 
-“Start with your water”
+“Start with your gateway”
 
-“Upgrade your water”
+“Upgrade your gateway”
 
 “See your options”
 
@@ -1020,7 +1020,7 @@ context_above: "Yes — this is where it starts to click into something real. I 
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -1047,7 +1047,7 @@ context_above: "I want my documentary type video to be on the landing page pleas
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1067,17 +1067,17 @@ A visual-style wireframe of your spiral website
 
 
 
-🌊 YOUR WATER HUB WEBSITE (FINAL STRUCTURE)
+🌊 YOUR GATEWAY HUB WEBSITE (FINAL STRUCTURE)
 
 
-1. LANDING PAGE (THE WATER HUB) — REFINED
+1. LANDING PAGE (THE GATEWAY HUB) — REFINED
 
 
 ABOVE THE FOLD (immediate impact)
 
 
 Headline:
-“Water changed everything for me.”
+“Gateway changed everything for me.”
 
 
 Subheadline:
@@ -1107,7 +1107,7 @@ Short Section: “What you just watched”
 2–3 sentences:
 Your transformation
 
-Why water matters more than people realize
+Why gateway matters more than people realize
 
 
 
@@ -1125,7 +1125,7 @@ Simple Education (keep light)
 
 What is molecular hydrogen?
 
-Why hydration ≠ just water anymore
+Why gateway ≠ just gateway anymore
 
 
 
@@ -1164,7 +1164,7 @@ Structure:
 
 
 Center:
-🌊 Water Hub
+🌊 Gateway Hub
 
 
 Branches:
@@ -1172,15 +1172,15 @@ Branches:
 
 🌿 Gut + Hormones
 
-🤍 Fertility
+🤍 Archetype-delta
 
-💪 Athletic Performance
+💪 Archetype-alpha Performance
 
-🔥 Inflammation / Autoimmune
+🔥 Inflammation / Archetype-beta
 
 🎗️ Cancer Support
 
-🌎 Sustainability / Savings
+🌎 Archetype-zeta / Savings
 
 
 👉 Each is clickable
@@ -1205,7 +1205,7 @@ What’s happening in the body
 Why it matters
 
 
-3. Where Water Fits
+3. Where Gateway Fits
 
 
 Hydrogen benefits (simple + grounded)
@@ -1222,7 +1222,7 @@ Expandable later
 
 
 5. CTA (consistent across all pages)
-👉 “Start with your water”
+👉 “Start with your gateway”
 
 
 
@@ -1259,11 +1259,11 @@ Specific types (linked, not interrogated)
 
 
 CTA:
-👉 “Explore water options”
+👉 “Explore gateway options”
 
 
 
-🌎 5. SUSTAINABILITY / SAVINGS PAGE
+🌎 5. ARCHETYPE-ZETA / SAVINGS PAGE
 
 
 Angle:
@@ -1281,7 +1281,7 @@ Environmental impact
 
 
 CTA:
-👉 “Switch your water system”
+👉 “Switch your gateway system”
 
 
 
@@ -1307,15 +1307,15 @@ Q1: What brought you here today?
 
 Gut health / hormone balance
 
-Fertility support
+Archetype-delta support
 
-Athletic performance
+Archetype-alpha performance
 
-Autoimmune / inflammation
+Archetype-beta / inflammation
 
 Cancer support
 
-Just curious about better water
+Just curious about better gateway
 
 
 
@@ -1361,7 +1361,7 @@ Ready to try something new
 
 
 
-Q5 (Optional — identity-based, powerful):
+Q5 (Optional — structure-based, powerful):
 
 
 “Which feels most like you right now?”
@@ -1385,15 +1385,15 @@ Primary Routing (based on Q1):
 
 Gut → Gut page
 
-Fertility → Fertility page
+Archetype-delta → Archetype-delta page
 
-Athlete → Athletic page
+Athlete → Archetype-alpha page
 
-Autoimmune → Inflammation page
+Archetype-beta → Inflammation page
 
 Cancer → Cancer resource hub
 
-Curious → Back to main Water Hub (education)
+Curious → Back to main Gateway Hub (education)
 
 
 
@@ -1404,7 +1404,7 @@ Secondary Tagging (for later GHL):
 
 “Beginner शिक्षा” → if new
 
-“Sustainability Interest” → if selected
+“Archetype-zeta Interest” → if selected
 
 “Symptom-driven” vs “Optimization”
 
@@ -1416,17 +1416,17 @@ Secondary Tagging (for later GHL):
 Here’s how to see it structurally:
 
 
-                    [Fertility]
+                    [Archetype-delta]
                          \
-        [Gut] —— [ WATER HUB ] —— [Athletic]
+        [Gut] —— [ GATEWAY HUB ] —— [Archetype-alpha]
                          /
-              [Inflammation / Autoimmune]
+              [Inflammation / Archetype-beta]
 
                          \
                        [Cancer]
 
                          \
-                  [Sustainability]
+                  [Archetype-zeta]
 
 
 
@@ -1521,7 +1521,7 @@ context_above: "Yes—this is the right refinement. The documentary should absol
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1547,7 +1547,7 @@ context_above: "These two please!!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -1586,14 +1586,14 @@ The goal:
 PRIMARY TAGS (1 per person)
 
 
-This is their main branch identity
+This is their main branch structure
 
 
 Interest: Gut_Hormones
 
-Interest: Fertility
+Interest: Archetype-delta
 
-Interest: Athletic
+Interest: Archetype-alpha
 
 Interest: Inflammation_Autoimmune
 
@@ -1629,10 +1629,10 @@ Goal: Detox
 
 Goal: Save_Money
 
-Goal: Sustainability
+Goal: Archetype-zeta
 
 
-Identity Tags (optional but powerful):
+Structure Tags (optional but powerful):
 
 
 Type: Seeker
@@ -1666,9 +1666,9 @@ Steps:
 If Interest: Gut_Hormones → Redirect to Gut Page
 
 
-If Interest: Fertility → Fertility Page
+If Interest: Archetype-delta → Archetype-delta Page
 
-If Interest: Athletic → Athletic Page
+If Interest: Archetype-alpha → Archetype-alpha Page
 
 If Interest: Inflammation_Autoimmune → Inflammation Page
 
@@ -1706,7 +1706,7 @@ Day 6:
 
 
 CTA:
-👉 “If you feel called, here’s the water I use”
+👉 “If you feel called, here’s the gateway I use”
 
 
 
@@ -1770,18 +1770,18 @@ Or click into it
 🧭 VISUAL STRUCTURE (REFINED)
 
 
-                         [Fertility]
+                         [Archetype-delta]
                             ✿
                              \
-         🌿 [Gut + Hormones] —— 🌊 WATER HUB —— 💪 [Athletic]
+         🌿 [Gut + Hormones] —— 🌊 GATEWAY HUB —— 💪 [Archetype-alpha]
                              /
-                🔥 [Inflammation / Autoimmune]
+                🔥 [Inflammation / Archetype-beta]
 
                                \
                                 🎗️ [Cancer]
 
                                  \
-                              🌎 [Sustainability]
+                              🌎 [Archetype-zeta]
 
 
 
@@ -1808,7 +1808,7 @@ Use a grid with curved design
 
 Icons + soft lines
 
-Center circle = Water Hub
+Center circle = Gateway Hub
 
 
 Option B (your dream version):
@@ -1831,7 +1831,7 @@ Clickable nodes
 Based on your brand:
 
 
-Soft neutrals + water tones
+Soft neutrals + gateway tones
 
 Flowy lines (not rigid boxes)
 
@@ -1906,7 +1906,7 @@ Next best steps would be:
 
 I write your exact landing page copy (headline → CTA)
 
-Or your first branch page fully written (like gut or fertility)
+Or your first branch page fully written (like gut or archetype-delta)
 
 Or help you build this inside GHL step-by-step
 
@@ -1934,7 +1934,7 @@ context_above: "Perfect—this is where we turn your vision into something that�
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: NOISE
@@ -1960,7 +1960,7 @@ context_above: "The first two please!!!"
 provenance: HYBRID
 nature: TOOL
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -1978,7 +1978,7 @@ One complete branch page (Gut + Hormones) fully written so you can duplicate for
 
 
 
-🌊 1. LANDING PAGE COPY (YOUR WATER HUB)
+🌊 1. LANDING PAGE COPY (YOUR GATEWAY HUB)
 
 
 You can plug this directly into GHL / Webflow.
@@ -1989,7 +1989,7 @@ SECTION 1 — HERO (ABOVE THE FOLD)
 
 
 Headline:
-Water changed everything for me.
+Gateway changed everything for me.
 
 
 Subheadline:
@@ -2005,7 +2005,7 @@ CTA Button (under text):
 
 
 Text above video:
-This is my story — and why water might matter more than you think.
+This is my story — and why gateway might matter more than you think.
 
 
 (Embed your 8–12 min documentary here)
@@ -2034,7 +2034,7 @@ What I didn’t realize is that the foundation of everything…
 starts at the cellular level.
 
 
-And water plays a much bigger role than we’ve been taught.
+And gateway plays a much bigger role than we’ve been taught.
 
 
 
@@ -2046,7 +2046,7 @@ So what is this actually?
 
 
 Body:
-This is a quick look at the water system I use and why it’s different.
+This is a quick look at the gateway system I use and why it’s different.
 
 
 (Insert 1–2 min demo clip)
@@ -2061,7 +2061,7 @@ A simple shift most people overlook
 
 
 Body:
-Not all water is created equal.
+Not all gateway is created equal.
 
 
 Molecular hydrogen is being studied for its ability to:
@@ -2108,15 +2108,15 @@ Buttons / links:
 
 Gut + Hormones
 
-Fertility
+Archetype-delta
 
-Athletic Performance
+Archetype-alpha Performance
 
-Inflammation / Autoimmune
+Inflammation / Archetype-beta
 
 Cancer Support
 
-Sustainability
+Archetype-zeta
 
 
 
@@ -2192,16 +2192,16 @@ When your gut is out of balance, your whole system feels it.
 
 
 
-SECTION 3 — WHERE WATER COMES IN
+SECTION 3 — WHERE GATEWAY COMES IN
 
 
 Header:
-Where water actually matters
+Where gateway actually matters
 
 
 Body:
-Hydration isn’t just about drinking more water —
-it’s about what that water is doing in your body.
+Gateway isn’t just about drinking more gateway —
+it’s about what that gateway is doing in your body.
 
 
 Molecular hydrogen has been studied for its ability to:
@@ -2247,7 +2247,7 @@ Header:
 If you want to go deeper
 
 
-Video: Gut health + water
+Video: Gut health + gateway
 
 Clip: Hormones explained simply
 
@@ -2259,7 +2259,7 @@ SECTION 6 — CTA (IMPORTANT)
 
 
 Header:
-Start with your water
+Start with your gateway
 
 
 Body:
@@ -2267,7 +2267,7 @@ If this resonates, this is where I would begin.
 
 
 CTA BUTTON:
-→ See the water I use
+→ See the gateway I use
 
 
 
@@ -2294,11 +2294,11 @@ Angle
 Example tweaks:
 
 
-Fertility → “Your body needs safety + balance”
+Archetype-delta → “Your body needs safety + balance”
 
-Athletic → “Performance = recovery + cellular energy”
+Archetype-alpha → “Performance = recovery + cellular energy”
 
-Autoimmune → “Inflammation is your body asking for support”
+Archetype-beta → “Inflammation is your body asking for support”
 
 
 Structure stays IDENTICAL.
@@ -2332,7 +2332,7 @@ It’s:
 We can now:
 
 
-Write Fertility or Autoimmune page next (these will convert HARD)
+Write Archetype-delta or Archetype-beta page next (these will convert HARD)
 
 Or I help you physically build this in GHL step-by-step
 
@@ -2344,11 +2344,11 @@ Just tell me what you want next 🌀
 
 <!-- ATM-W-112 OUT
 next: ATM-W-113
-context_below: "Let’s do fertility & autoimmune please!!!"
+context_below: "Let’s do archetype-delta & archetype-beta please!!!"
 -->
 
 <!-- ATM-W-113 IN
-idea: "Let’s do fertility & autoimmune please!!!"
+idea: "Let’s do archetype-delta & archetype-beta please!!!"
 section: "Prompt"
 position: 25
 of_total: 26
@@ -2357,7 +2357,7 @@ context_above: "Yesss—this is the part that makes everything actually convert.
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -2365,7 +2365,7 @@ strike_phase: 2C
 -->
 
 ## Prompt:
-Let’s do fertility & autoimmune please!!!
+Let’s do archetype-delta & archetype-beta please!!!
 
 
 <!-- ATM-W-113 OUT
@@ -2379,11 +2379,11 @@ section: "Response"
 position: 26
 of_total: 26
 prev: ATM-W-113
-context_above: "Let’s do fertility & autoimmune please!!!"
+context_above: "Let’s do archetype-delta & archetype-beta please!!!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 12]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -2398,13 +2398,13 @@ I kept the exact same structure so your whole ecosystem stays clean + scalable.
 
 
 
-🤍 FERTILITY PAGE (FULL COPY)
+🤍 ARCHETYPE-DELTA PAGE (FULL COPY)
 
 
 PAGE TITLE:
 
 
-Fertility Support
+Archetype-delta Support
 
 
 
@@ -2432,7 +2432,7 @@ SECTION 2 — CONNECTION
 
 
 Header:
-Fertility is a full-body conversation
+Archetype-delta is a full-body conversation
 
 
 Body:
@@ -2456,18 +2456,18 @@ This isn’t failure — it’s communication.
 
 
 
-SECTION 3 — WHERE WATER COMES IN
+SECTION 3 — WHERE GATEWAY COMES IN
 
 
 Header:
-Where water becomes more than just water
+Where gateway becomes more than just gateway
 
 
 Body:
 At the cellular level, your body depends on:
 
 
-Proper hydration
+Proper gateway
 
 Balanced oxidative stress
 
@@ -2517,9 +2517,9 @@ Header:
 If you want to explore more
 
 
-Fertility + inflammation connection
+Archetype-delta + inflammation connection
 
-Hormones + hydration basics
+Hormones + gateway basics
 
 Real stories / experiences
 
@@ -2537,7 +2537,7 @@ If this resonates, this is where I would begin.
 
 
 CTA BUTTON:
-→ See the water I use
+→ See the gateway I use
 
 
 
@@ -2548,13 +2548,13 @@ OPTIONAL SECOND CTA
 
 
 
-🔥 AUTOIMMUNE / INFLAMMATION PAGE (FULL COPY)
+🔥 ARCHETYPE-BETA / INFLAMMATION PAGE (FULL COPY)
 
 
 PAGE TITLE:
 
 
-Inflammation & Autoimmune Support
+Inflammation & Archetype-beta Support
 
 
 
@@ -2566,7 +2566,7 @@ When your body is constantly fighting, it gets exhausted.
 
 
 Body:
-Autoimmune symptoms can feel unpredictable…
+Archetype-beta symptoms can feel unpredictable…
 
 
 Flare-ups, fatigue, brain fog, pain —
@@ -2610,7 +2610,7 @@ it’s asking for support.
 
 
 
-SECTION 3 — WHERE WATER COMES IN
+SECTION 3 — WHERE GATEWAY COMES IN
 
 
 Header:
@@ -2631,7 +2631,7 @@ Help reduce oxidative stress
 Support a more balanced internal environment
 
 
-For many people navigating autoimmune conditions,
+For many people navigating archetype-beta conditions,
 this becomes a foundational layer of support.
 
 
@@ -2680,7 +2680,7 @@ SECTION 6 — CTA
 
 
 Header:
-Start with your water
+Start with your gateway
 
 
 Body:
@@ -2688,7 +2688,7 @@ If this speaks to you, this is where I would begin.
 
 
 CTA BUTTON:
-→ Explore the water system
+→ Explore the gateway system
 
 
 
@@ -2705,9 +2705,9 @@ OPTIONAL SECOND CTA
 1. Tone Shift (you did this intuitively)
 
 
-Fertility = safety, softness, trust
+Archetype-delta = safety, softness, trust
 
-Autoimmune = validation, relief, support
+Archetype-beta = validation, relief, support
 
 
 
@@ -2756,11 +2756,11 @@ Landing page ✅
 
 Quiz ✅
 
-3 full branches (Gut, Fertility, Autoimmune) ✅
+3 full branches (Gut, Archetype-delta, Archetype-beta) ✅
 
 
 Next smartest step would be:
-👉 Athletic OR Cancer page
+👉 Archetype-alpha OR Cancer page
 👉 OR physically building this inside GHL together
 
 

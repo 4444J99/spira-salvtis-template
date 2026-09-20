@@ -57,8 +57,8 @@ curl -sS -X POST http://localhost:8788/capture \
     "source": "spiral_quiz",
     "quizNodeId": 7,
     "quizScore": 82,
-    "quizPath": "ALIGN|inner|state-shifting,baseline;witness,awareness;release,unwiring",
-    "selectedPillar": "inner",
+    "quizPath": "ALIGN|system|state-shifting,baseline;witness,awareness;release,unwiring",
+    "selectedPillar": "system",
     "selectedPhase": "ALIGN"
   }'
 ```
@@ -101,14 +101,14 @@ Each node has three themes (chosen for non-overlap and self-evidence). Quiz Q3-Q
 | 2 OCULUS — Awareness | witness, awareness, signal-reading | third-eye |
 | 3 DYAD — Regulation | regulation, balance, calm | sacral |
 | 4 PYRAMIS — Elevate | elevation, beyond-baseline, knowing-better | solar-plexus |
-| 5 HYDOR — Root Healing | foundation, hydration, root-cause | sacral |
+| 5 HYDOR — Root Healing | foundation, gateway, root-cause | sacral |
 | 6 MANDORLA — Responsibility (with Love) | ownership, gentleness, choice | heart |
 | 7 KENOSIS — Unbecoming | release, reclaim, unwiring | throat |
 | 8 SHATKONA — Alignment | clarity, intention, coherence | third-eye |
 | 9 PADMA — The Becoming | becoming, life-fueling, power | heart |
 | 10 BODHI — Awakening | awakening, what-now, post-awakening | crown |
 | 11 TETRAD — Integrate | integration, wholeness, pulling-together | root-crown |
-| 12 OKTAEDRON — Authenticate | expression, identity, loud-pride | throat |
+| 12 OKTAEDRON — Authenticate | expression, structure, loud-pride | throat |
 | 13 ANKH — Unlock | freedom, gifts-amplified, full-flow | crown |
 
 ---

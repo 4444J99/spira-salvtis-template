@@ -16,7 +16,7 @@ source_file: "ChatGPT-Masculine Feminine Balance Tracker.txt"
 source_folder: "mindset"
 nodes: [5, 3, 11]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -65,7 +65,7 @@ context_above: "Can you help me come up with a list of masculine based and femin
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -106,7 +106,7 @@ Researching or learning a new system
 Feminine-Based Daily Tasks (Being, Flow, Nourishment)
 
 
-These are centered on receiving, feeling, and restoring your inner world.
+These are centered on receiving, feeling, and restoring your system world.
 
 
 Taking a walk with no destination
@@ -186,7 +186,7 @@ context_above: "Absolutely, admin — this is such a powerful step toward honori
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -210,7 +210,7 @@ context_above: "Ooo yes please I think this is so great, i definitely had a lot 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -256,7 +256,7 @@ context_above: "Yes, exactly — and I’m so glad this clicked. You are not lol
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -280,7 +280,7 @@ context_above: "Softer wirh a little color or illustration would be so great tha
 provenance: HYBRID
 nature: TOOL
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -310,7 +310,7 @@ context_above: "Here’s your Masculine / Feminine Flow Tracker PDF, styled soft
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -334,7 +334,7 @@ context_above: "What does a chaotic fridge or closet mean in fueng shui"
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -347,9 +347,9 @@ In Feng Shui, a chaotic fridge or closet reflects more than just mess — it sym
 Fridge (Nourishment & Self-Care)
 
 
-Cluttered or expired food can suggest neglected self-care, unresolved emotions, or holding onto outdated beliefs about nourishment (both physical and emotional).
+Cluttered or expired food can suggest neglected self-care, unresolved emotions, or holding onto outdated beliefs about nourishment (both foundation and emotional).
 
-A disorganized fridge may represent a chaotic inner world — confusion around what fuels you, poor digestion (energetic and physical), or an inability to "process" life.
+A disorganized fridge may represent a chaotic system world — confusion around what fuels you, poor digestion (energetic and foundation), or an inability to "process" life.
 
 If the fridge is overly stuffed: you may be trying to control or overcompensate due to scarcity mindset or fear of lack.
 
@@ -361,7 +361,7 @@ Remedy: Clear out expired items, organize by freshness, and put nourishing foods
 
 
 
-Closet (Identity & Emotional Baggage)
+Closet (Structure & Emotional Baggage)
 
 
 Messy or overstuffed closets often reflect emotional clutter or an outdated self-image you’re afraid to release. Think of it as a metaphor for: "Who am I holding onto?"
@@ -395,7 +395,7 @@ context_above: "In Feng Shui, a chaotic fridge or closet reflects more than just
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -419,7 +419,7 @@ context_above: "Yesss that would be great, main focus on career/purpose, health 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -456,7 +456,7 @@ context_above: "Here you go! Here’s your personalized Mini Feng Shui Checklist
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -480,7 +480,7 @@ context_above: "Is your money corner the left most corner you can see from the f
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -540,7 +540,7 @@ context_above: "Great question — and this is a super common point of confusion
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -564,7 +564,7 @@ context_above: "What does sleeping in the money corner of your room mean?"
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 3, 11]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -581,7 +581,7 @@ Energetic Alignment: You’re physically resting in the space associated with we
 
 Manifestation Amplifier: If the space is clean, intentional, and high-vibe, it can boost your ability to attract opportunities, income, and clarity around purpose.
 
-Spiritual Wealth Support: Not just financial — this corner can amplify feelings of richness in love, creativity, resources, and joy.
+Spiritual Wealth Support: Not just vision — this corner can amplify feelings of richness in love, creativity, resources, and joy.
 
 
 
@@ -591,7 +591,7 @@ But it comes with a caveat:
 If the energy in that corner is stagnant, cluttered, dusty, or filled with broken or forgotten items — it can have the opposite effect:
 
 
-You may feel financial anxiety, blocked creativity, or scarcity mindsets brewing at night.
+You may feel vision anxiety, blocked creativity, or scarcity mindsets brewing at night.
 
 You might subconsciously associate rest with worry or lack.
 

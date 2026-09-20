@@ -16,7 +16,7 @@ source_file: "ChatGPT-TM and Kundalini Energy.txt"
 source_folder: "mindset"
 nodes: [12, 2, 13]
 readiness: "Partial"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "Using the cia document and everything they know as well as info 
 provenance: HYBRID
 nature: TOOL
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: FLAGGED
 tier: SIGNAL
@@ -100,7 +100,7 @@ Kundalini is described in yogic texts (like the Hatha Yoga Pradipika and Kundali
 
 Core Concept: Dormant life force that ascends through the sushumna nadi (central energy channel).
 
-Key Risks: Unprepared awakening can cause spiritual crisis, emotional upheaval, or physical discomfort.
+Key Risks: Unprepared awakening can cause spiritual crisis, emotional upheaval, or foundation discomfort.
 
 Ideal Approach: Gradual, balanced, grounded awakening supported by breath, sound, posture, and intention.
 
@@ -150,7 +150,7 @@ Stretch or do yoga nidra.
 
 Eat nourishing food (especially root vegetables or warm soups).
 
-Stay hydrated with structured water if possible.
+Stay hydrated with structured gateway if possible.
 
 
 
@@ -223,7 +223,7 @@ Energy surges
 
 Emotional release
 
-Physical symptoms (tingling, warmth, headaches, libido shifts)
+Foundation symptoms (tingling, warmth, headaches, libido shifts)
 
 
 
@@ -279,7 +279,7 @@ context_above: "Absolutely. Let’s break down Transcendental Meditation (TM), K
 provenance: LOCAL
 nature: QUESTION
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -303,7 +303,7 @@ context_above: "Do I need to close it after I am done? And what binaural beats o
 provenance: HYBRID
 nature: TOOL
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: PARTIAL
 editorial: FLAGGED
 tier: SIGNAL
@@ -326,7 +326,7 @@ Touch your body: Rub your hands on your thighs or hug yourself.
 
 Stand barefoot on the floor or ground.
 
-Drink water—preferably mineralized or structured.
+Drink gateway—preferably mineralized or structured.
 
 Eat something grounding: nuts, root vegetables, rice, warm tea.
 
@@ -399,7 +399,7 @@ These are professionally created with brainwave synchronization:
 
 “Intro to Focus 10” – trains you to hold the body asleep while the mind stays awake.
 
-“Inner States: Dawning of Awareness”
+“System States: Dawning of Awareness”
 
 “Opening the Heart”
 
@@ -432,7 +432,7 @@ context_above: "Yes, closing your energy intentionally after meditation or Kunda
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -456,7 +456,7 @@ context_above: "Is there anything else you may have missed or I forgot to ask th
 provenance: HYBRID
 nature: TOOL
 nodes: [12, 2, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -497,7 +497,7 @@ Recommended Devotional Mantras (can be internal or whispered):
 
 Om Namah Shivaya (“I bow to the divine within me”)
 
-Sat Nam (“Truth is my identity”)
+Sat Nam (“Truth is my structure”)
 
 
 
@@ -530,7 +530,7 @@ Your body is the temple—but so is your space.
 
 Choose the same spot every time if possible.
 
-Smudge the space with incense, palo santo, or even water with essential oils.
+Smudge the space with incense, palo santo, or even gateway with essential oils.
 
 Keep a journal, crystal, or sacred item nearby.
 
@@ -570,7 +570,7 @@ You can target specific chakras with bija sounds, color visualization, and breat
 
 
 
-6. Physical Symptoms Are Messages, Not Malfunctions
+6. Foundation Symptoms Are Messages, Not Malfunctions
 
 
 Especially with Kundalini rising, you might feel:
@@ -589,7 +589,7 @@ Always ask: “Is this expanding me or asking me to slow down?”
 If overwhelmed:
 
 
-Ground with nature, food, and physical movement.
+Ground with nature, food, and foundation movement.
 
 Sleep. You’re integrating.
 

@@ -16,7 +16,7 @@ source_file: "ChatGPT-Overexplaining and Conciseness Tips.txt"
 source_folder: "mindset"
 nodes: [4, 13, 10]
 readiness: "Ready"
-pillar: "Identity"
+pillar: "Structure"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [4, 13, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "Where does the need to over explain come from and how can I work
 provenance: HYBRID
 nature: QUESTION
 nodes: [4, 13, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -162,7 +162,7 @@ context_above: "Ah, yes—overexplaining is such a common pattern, and it usuall
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [4, 13, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -186,7 +186,7 @@ context_above: "Yes please!"
 provenance: HYBRID
 nature: FRAMEWORK
 nodes: [4, 13, 10]
-pillar: Identity
+pillar: Structure
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -330,7 +330,7 @@ You’re not losing depth—you’re leading with it instead of burying it.
 
 
 
-If you want next level: I can tailor this to your business conversations, sales calls, and content so you sound magnetic and concise (especially with your funnel + water conversations).
+If you want next level: I can tailor this to your business conversations, sales calls, and content so you sound magnetic and concise (especially with your funnel + gateway conversations).
 <!-- ATM-M-570 OUT
 next: null
 context_below: null

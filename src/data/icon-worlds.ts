@@ -19,7 +19,7 @@ export type Element =
   | 'fire'
   | 'lava'
   | 'smoke'
-  | 'water'
+  | 'gateway'
   | 'ice'
   | 'vapor'
   | 'salt'
@@ -88,7 +88,7 @@ export const ICON_WORLDS: Record<number, IconWorld> = {
   2: {
     id: 2,
     themeName: 'Lunar Observatorium',
-    elements: ['mist', 'light', 'water'],
+    elements: ['mist', 'light', 'gateway'],
     phaseMix: { gas: 0.3, liquid: 0.55, solid: 0.15, plasma: 0.0 },
     biology: 'aquatic',
     gravity: { x: 0, y: 0, z: 0 }, // zero-g — observation
@@ -124,10 +124,10 @@ export const ICON_WORLDS: Record<number, IconWorld> = {
   5: {
     id: 5,
     themeName: 'Aquarium',
-    elements: ['water', 'ice', 'vapor', 'salt'],
+    elements: ['gateway', 'ice', 'vapor', 'salt'],
     phaseMix: { gas: 0.25, liquid: 0.65, solid: 0.1, plasma: 0.0 },
     biology: 'aquatic',
-    gravity: { x: 0, y: -0.1, z: 0 }, // mild downward (water settles)
+    gravity: { x: 0, y: -0.1, z: 0 }, // mild downward (gateway settles)
     particleBehavior: 'tidal',
     accentPalette: [0x3da9f5, 0x4ed1c5, 0xa0e6f0, 0x5ab8d6],
     thermalAmpMul: 0.85,
@@ -196,7 +196,7 @@ export const ICON_WORLDS: Record<number, IconWorld> = {
   11: {
     id: 11,
     themeName: 'Cardinal Forge',
-    elements: ['fire', 'water', 'earth', 'air'],
+    elements: ['fire', 'gateway', 'earth', 'air'],
     phaseMix: { gas: 0.25, liquid: 0.25, solid: 0.25, plasma: 0.25 },
     biology: 'synthetic',
     gravity: { x: 0, y: 0, z: 0 }, // 4-axis balanced

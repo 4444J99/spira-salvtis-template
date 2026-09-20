@@ -12,16 +12,16 @@ sections:
 -->
 ---
 title: "Image request (label)"
-source_file: "ChatGPT-Plastic Water Label Design.txt"
+source_file: "ChatGPT-Plastic Gateway Label Design.txt"
 source_folder: "business"
 nodes: [7]
 readiness: "Raw"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-B-203 IN
-idea: "Plastic Water Label Design"
+idea: "Plastic Gateway Label Design"
 section: "Main"
 position: 1
 of_total: 2
@@ -30,7 +30,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [7]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -39,7 +39,7 @@ strike_phase: 4A
 
 
 
-Plastic Water Label Design
+Plastic Gateway Label Design
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 7/13/2025 8:13:41
@@ -50,20 +50,20 @@ Link: https://chatgpt.com/g/g-p-681675945c108191aebfa81457898ccd-business/c/6873
 
 <!-- ATM-B-203 OUT
 next: ATM-B-204
-context_below: "Can you make me an image of bottled water but the label has the ingredients list..."
+context_below: "Can you make me an image of bottled gateway but the label has the ingredients list..."
 -->
 
 <!-- ATM-B-204 IN
-idea: "Can you make me an image of bottled water but the label has the ingredients list..."
+idea: "Can you make me an image of bottled gateway but the label has the ingredients list..."
 section: "Prompt-Response"
 position: 2
 of_total: 2
 prev: ATM-B-203
-context_above: "Plastic Water Label Design"
+context_above: "Plastic Gateway Label Design"
 provenance: HYBRID
 nature: STATISTIC
 nodes: [7]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -71,7 +71,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Can you make me an image of bottled water but the label has the ingredients list and it’s what actually is in plastic water - could have how often it’s tested and how long it sits in the sun before being consumed
+Can you make me an image of bottled gateway but the label has the ingredients list and it’s what actually is in plastic gateway - could have how often it’s tested and how long it sits in the sun before being consumed
 
 
 ## Response:

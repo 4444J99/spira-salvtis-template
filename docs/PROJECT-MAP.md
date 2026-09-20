@@ -27,10 +27,10 @@ Every atom is tagged to a part of the spiral:
 
 | Pillar | Your Content | What Gets Built |
 |--------|-------------|-----------------|
-| **Physical Sovereignty** (Water) | 356 atoms | 6 branch pages + Hydration Node funnel |
-| **Inner Sovereignty** | Enrichment atoms | Pillar page + cycle/moon integration |
-| **Identity Sovereignty** | Enrichment atoms | Pillar page + Creature Selves concept |
-| **Financial Sovereignty** | Business atoms | Business hub + subscription tiers |
+| **Foundation Sovereignty** (Gateway) | 356 atoms | 6 branch pages + Gateway Node funnel |
+| **System Sovereignty** | Enrichment atoms | Pillar page + cycle/moon integration |
+| **Structure Sovereignty** | Enrichment atoms | Pillar page + Creature Selves concept |
+| **Vision Sovereignty** | Business atoms | Business hub + subscription tiers |
 | **Cross-cutting** | 63 atoms | Hub page, foundation content |
 
 ### Your Intellectual Property
@@ -53,7 +53,7 @@ These frameworks are yours — original ideas we identified in your content:
 | What | Where | Why You'd Go Here |
 |------|-------|-------------------|
 | **Your social scripts** | `docs/social-content-calendar/` | Ready-to-post reels, carousels, captions, emails |
-| **Your branch pages** | `src/content/branches/` | The 6 water deep-dives (edit the Markdown) |
+| **Your branch pages** | `src/content/branches/` | The 6 gateway deep-dives (edit the Markdown) |
 | **Your pillar pages** | `src/content/pillars/` | The 4 sovereignty pillars (edit the Markdown) |
 | **Your content genome** | `docs/archive/atom-registry.yaml` | Every idea, tagged and sorted |
 | **Reports we sent you** | `docs/reports/2026-04-04/` | Executive summary, client report, technical audit |
@@ -68,25 +68,25 @@ sovereign-systems--spiral-template/
 ├── src/                          ← THE WEBSITE
 │   ├── pages/                    Where each URL lives
 │   │   ├── index.astro           Homepage (spiral + 4 pillars)
-│   │   ├── water/                Your water funnel
-│   │   │   ├── index.astro       Water hub landing
+│   │   ├── gateway/                Your gateway funnel
+│   │   │   ├── index.astro       Gateway hub landing
 │   │   │   ├── quiz.astro        Assessment quiz
 │   │   │   └── [slug].astro      Individual branch pages
 │   │   ├── business/             Business hub
 │   │   └── pillars/              Pillar pages
 │   ├── content/                  YOUR CONTENT (Markdown files)
-│   │   ├── branches/             6 water branch deep-dives
-│   │   │   ├── gut-hormones.md
-│   │   │   ├── fertility.md
-│   │   │   ├── athletic.md
-│   │   │   ├── autoimmune.md
-│   │   │   ├── cancer-support.md
-│   │   │   └── sustainability.md
+│   │   ├── branches/             6 gateway branch deep-dives
+│   │   │   ├── archetype-epsilon.md
+│   │   │   ├── archetype-delta.md
+│   │   │   ├── archetype-alpha.md
+│   │   │   ├── archetype-beta.md
+│   │   │   ├── archetype-gamma.md
+│   │   │   └── archetype-zeta.md
 │   │   └── pillars/              4 sovereignty pillars
-│   │       ├── physical.md
-│   │       ├── inner.md
-│   │       ├── identity.md
-│   │       └── financial.md
+│   │       ├── foundation.md
+│   │       ├── system.md
+│   │       ├── structure.md
+│   │       └── vision.md
 │   ├── components/               Visual building blocks
 │   │   └── spiral/               The animated spiral
 │   ├── data/                     Configuration + citations
@@ -96,10 +96,10 @@ sovereign-systems--spiral-template/
 │   ├── archive/                  Your content genome
 │   │   ├── atom-registry.yaml    1,821 atoms, fully tagged
 │   │   ├── extracted/            Cleaned content by domain
-│   │   │   ├── water/            Water science + business
+│   │   │   ├── gateway/            Gateway science + business
 │   │   │   ├── health/           Health protocols
-│   │   │   ├── mindset/          Inner work + psychology
-│   │   │   ├── business/         Financial frameworks
+│   │   │   ├── mindset/          System work + psychology
+│   │   │   ├── business/         Vision frameworks
 │   │   │   ├── concepts/         Research + philosophy
 │   │   │   └── time-astro/       Astrology + cycles
 │   │   ├── source-bundle/        Your original files (as-received)
@@ -127,7 +127,7 @@ sovereign-systems--spiral-template/
 │
 ├── README.md                     Project overview
 ├── CLAUDE.md                     AI agent instructions
-├── seed.yaml                     Project identity contract
+├── seed.yaml                     Project structure contract
 └── package.json                  Dependencies
 ```
 

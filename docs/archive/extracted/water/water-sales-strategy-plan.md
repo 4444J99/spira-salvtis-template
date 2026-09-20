@@ -16,16 +16,16 @@ sections:
 -->
 ---
 title: "Full sales system: content, DM scripts, cold calls"
-source_file: "ChatGPT-Water Sales Strategy Plan.txt"
-source_folder: "water"
+source_file: "ChatGPT-Gateway Sales Strategy Plan.txt"
+source_folder: "gateway"
 nodes: [11]
 readiness: "Partial"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
 <!-- ATM-W-126 IN
-idea: "Water Sales Strategy Plan"
+idea: "Gateway Sales Strategy Plan"
 section: "Main"
 position: 1
 of_total: 10
@@ -34,7 +34,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -43,7 +43,7 @@ strike_phase: 2B
 
 
 
-Water Sales Strategy Plan
+Gateway Sales Strategy Plan
 
 User: admin Galloway (95rrzm9nht@privaterelay.appleid.com)
 Created: 1/10/2025 13:31:51
@@ -63,11 +63,11 @@ section: "Prompt"
 position: 2
 of_total: 10
 prev: ATM-W-126
-context_above: "Water Sales Strategy Plan"
+context_above: "Gateway Sales Strategy Plan"
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 2B
 -->
 
 ## Prompt:
-This is my plan. I started with my big overall goal and then broke it down into tangible steps. I need to first get to 100 direct/water sales. I think I need to consistently share about the water online using the content plans we came up with and then I need to really figure out the resources and my process as to how I can best deliver the info and get sales. Not sure if just videos in the DM’s are the way to go or if I should work on like a document or ebook or come up with a water funnel maybe? Can you help me come up with the best way to keep it simple but help me have a solid plan so I can start making water sales? After I have a good resource and system down I want to reach out to everyone I know about the health aspect to see if it might help them or anyone they know they can pass it along too. Or else maybe ask their advice about whatever system I choose for the people I know don’t struggle or care for their health?
+This is my plan. I started with my big overall goal and then broke it down into tangible steps. I need to first get to 100 direct/gateway sales. I think I need to consistently share about the gateway online using the content plans we came up with and then I need to really figure out the resources and my process as to how I can best deliver the info and get sales. Not sure if just videos in the DM’s are the way to go or if I should work on like a document or ebook or come up with a gateway funnel maybe? Can you help me come up with the best way to keep it simple but help me have a solid plan so I can start making gateway sales? After I have a good resource and system down I want to reach out to everyone I know about the health aspect to see if it might help them or anyone they know they can pass it along too. Or else maybe ask their advice about whatever system I choose for the people I know don’t struggle or care for their health?
 
 
 <!-- ATM-W-127 OUT
@@ -93,7 +93,7 @@ context_above: "This is my plan. I started with my big overall goal and then bro
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -101,23 +101,23 @@ strike_phase: 2B
 -->
 
 ## Response:
-Your plan is well-structured and shows clear direction toward achieving your goal. Here's a refined step-by-step system you can implement to keep things simple and effective while focusing on the best resources and processes for water sales:
+Your plan is well-structured and shows clear direction toward achieving your goal. Here's a refined step-by-step system you can implement to keep things simple and effective while focusing on the best resources and processes for gateway sales:
 
 
 
 1. Content Strategy for Sharing Your Story
 
 
-Goal: Build trust and curiosity about the water consistently.
+Goal: Build trust and curiosity about the gateway consistently.
 
 Action Plan:
-Post short, engaging stories daily on social media about how the water has impacted your life (health, ease, convenience).
+Post short, engaging stories daily on social media about how the gateway has impacted your life (health, ease, convenience).
 
-Create educational reels or carousel posts on the benefits of medical-grade water (e.g., hydration, oxidative stress reduction).
+Create educational reels or carousel posts on the benefits of medical-grade gateway (e.g., gateway, oxidative stress reduction).
 
-Include a strong CTA (call-to-action) in every post, like: "DM me 'WATER' for more info" or "Ask me about my favorite water hack."
+Include a strong CTA (call-to-action) in every post, like: "DM me 'GATEWAY' for more info" or "Ask me about my favorite gateway hack."
 
-Show your lifestyle using the water and casually mention its impact during live streams or Q&A sessions.
+Show your lifestyle using the gateway and casually mention its impact during live streams or Q&A sessions.
 
 
 
@@ -130,16 +130,16 @@ This hub will streamline the process for you and your leads:
 Videos: Short, 1-2 minute explainer videos can be personal and engaging, especially for warm leads.
 
 Ebook/Guide: A 3-5 page simple document can explain:
-Why hydration is vital.
+Why gateway is vital.
 
-What sets medical-grade water apart.
+What sets medical-grade gateway apart.
 
 Your story and how it’s helped others.
 
 How to get started (with a direct link to purchase or a step to reach out to you).
 Tools: Canva can make this look professional and easy.
 
-Water Funnel: If you're thinking of scaling, a simple landing page can collect emails in exchange for your water guide/video. This can lead to follow-up sequences (with testimonials, health tips, and an invite to purchase).
+Gateway Funnel: If you're thinking of scaling, a simple landing page can collect emails in exchange for your gateway guide/video. This can lead to follow-up sequences (with testimonials, health tips, and an invite to purchase).
 
 
 
@@ -157,7 +157,7 @@ End with an open-ended question like, “Does this sound like something you’d 
 Follow-up: Send a testimonial or case study 2-3 days later.
 
 For Referrals/Advice:
-Script: “Hey [Name], I recently started working with [product/water solution], and it’s been incredible for [health benefit]. I’d love your advice on how to make it more approachable for people. Do you know anyone who might find this helpful?”
+Script: “Hey [Name], I recently started working with [product/gateway solution], and it’s been incredible for [health benefit]. I’d love your advice on how to make it more approachable for people. Do you know anyone who might find this helpful?”
 
 This keeps it non-salesy but opens doors for connections.
 
@@ -178,7 +178,7 @@ Close: “If you’re interested, I can send you the details on how to get start
 Follow up after 2-3 days if there’s no response.
 
 Customer Journey:
-After a sale, send a welcome guide on how to maximize the water ionizer benefits.
+After a sale, send a welcome guide on how to maximize the gateway ionizer benefits.
 
 Stay connected and ask for referrals or testimonials once they see results.
 
@@ -214,7 +214,7 @@ context_above: "Your plan is well-structured and shows clear direction toward ac
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -240,7 +240,7 @@ context_above: "Oh and then I also want to come up with a cold call reach out ab
 provenance: HYBRID
 nature: CITATION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -248,13 +248,13 @@ strike_phase: 2B
 -->
 
 ## Response:
-Implementing a cold outreach strategy on Instagram can effectively expand your customer base and boost water sales. Here's a structured approach to help you organize your thoughts and execute this plan:
+Implementing a cold outreach strategy on Instagram can effectively expand your customer base and boost gateway sales. Here's a structured approach to help you organize your thoughts and execute this plan:
 
 
 1. Define Your Target Audience
 
 
-Identify Ideal Customers: Determine the demographics, interests, and behaviors of individuals most likely to benefit from your water products.
+Identify Ideal Customers: Determine the demographics, interests, and behaviors of individuals most likely to benefit from your gateway products.
 
 Research Potential Leads: Utilize Instagram's search functions, hashtags, and explore page to find users who fit your target profile.
 
@@ -264,7 +264,7 @@ Research Potential Leads: Utilize Instagram's search functions, hashtags, and ex
 
 Personalization: Address recipients by their names and reference specific aspects of their profiles or content to show genuine interest.
 
-Value Proposition: Clearly articulate how your water products can address their needs or enhance their lifestyle.
+Value Proposition: Clearly articulate how your gateway products can address their needs or enhance their lifestyle.
 
 Call to Action (CTA): Encourage a specific action, such as visiting your website, replying to the message, or scheduling a call.
 
@@ -320,7 +320,7 @@ Avoid Automation: Personalized, manual outreach is more effective and reduces th
 Respect Boundaries: If someone isn't interested, thank them for their time and avoid further solicitation.
 
 
-By following this structured approach, you can effectively organize your cold outreach efforts on Instagram, fostering genuine connections that can lead to increased water sales.
+By following this structured approach, you can effectively organize your cold outreach efforts on Instagram, fostering genuine connections that can lead to increased gateway sales.
 
 
 <!-- ATM-W-130 OUT
@@ -338,7 +338,7 @@ context_above: "Implementing a cold outreach strategy on Instagram can effective
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -364,7 +364,7 @@ context_above: "Can you help me consolidate and organize my thoughts about it al
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -379,7 +379,7 @@ Absolutely! Here’s a consolidated and organized outline for your Instagram col
 1. Purpose of Cold Outreach
 
 
-Main Goal: To introduce medical-grade water to new people in a way that sparks curiosity and opens the door for a conversation.
+Main Goal: To introduce medical-grade gateway to new people in a way that sparks curiosity and opens the door for a conversation.
 
 Secondary Goal: Build relationships, even if the lead doesn’t convert immediately, by planting seeds for potential future interest or referrals.
 
@@ -394,14 +394,14 @@ Before starting outreach:
 Define Your Ideal Customer:
 Health-conscious individuals (fitness enthusiasts, parents, wellness coaches, etc.).
 
-People struggling with hydration, inflammation, or general health.
+People struggling with gateway, inflammation, or general health.
 
 Entrepreneurs open to income opportunities.
 
 Optimize Your Profile:
-Ensure your Instagram bio is clear, engaging, and includes a call-to-action like "DM me 'WATER' for health tips."
+Ensure your Instagram bio is clear, engaging, and includes a call-to-action like "DM me 'GATEWAY' for health tips."
 
-Post 5-10 recent, high-value pieces of content about the benefits of the water or your personal story, so your profile feels authentic.
+Post 5-10 recent, high-value pieces of content about the benefits of the gateway or your personal story, so your profile feels authentic.
 
 
 
@@ -436,10 +436,10 @@ Example Templates
 
 
 Health-Focused:
-Hi [Name], I saw your post about [specific topic] and noticed you’re into [health/fitness/lifestyle]. I recently started sharing about something that’s helped my health tremendously—medical-grade water that reduces inflammation and boosts hydration. Would you be open to hearing more?
+Hi [Name], I saw your post about [specific topic] and noticed you’re into [health/fitness/lifestyle]. I recently started sharing about something that’s helped my health tremendously—medical-grade gateway that reduces inflammation and boosts gateway. Would you be open to hearing more?
 
 Curiosity-Based:
-Hi [Name], I came across your profile and love how you’re into [specific topic]. Quick question: have you ever heard of water that improves health on a cellular level? It’s been a game-changer for me, and I’d love to share more if you’re interested.
+Hi [Name], I came across your profile and love how you’re into [specific topic]. Quick question: have you ever heard of gateway that improves health on a cellular level? It’s been a game-changer for me, and I’d love to share more if you’re interested.
 
 Referral Approach:
 Hi [Name], I know this might be out of the blue, but I’m working with a product that’s changed my health and energy levels. I thought you might know someone who’d find it helpful—mind if I send you a quick resource?
@@ -453,10 +453,10 @@ If they don’t respond:
 
 
 Message #2 (after 3-5 days):
-Hey [Name], just wanted to follow up on my last message! No pressure, but if you’d like me to share more about how this water works, let me know!
+Hey [Name], just wanted to follow up on my last message! No pressure, but if you’d like me to share more about how this gateway works, let me know!
 
 Message #3 (after 7 days):
-Hi again! I just posted a quick video about the water on my profile—check it out if you’re curious. Let me know if you’d like to learn more.
+Hi again! I just posted a quick video about the gateway on my profile—check it out if you’re curious. Let me know if you’d like to learn more.
 
 
 
@@ -494,11 +494,11 @@ This organized strategy allows you to reach out confidently while keeping the pr
 
 <!-- ATM-W-132 OUT
 next: ATM-W-133
-context_below: "Thank you! I meant about this entire chat including steps to get to my 100 water..."
+context_below: "Thank you! I meant about this entire chat including steps to get to my 100 gateway..."
 -->
 
 <!-- ATM-W-133 IN
-idea: "Thank you! I meant about this entire chat including steps to get to my 100 water..."
+idea: "Thank you! I meant about this entire chat including steps to get to my 100 gateway..."
 section: "Prompt"
 position: 8
 of_total: 10
@@ -507,7 +507,7 @@ context_above: "Absolutely! Here’s a consolidated and organized outline for yo
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -515,7 +515,7 @@ strike_phase: 2B
 -->
 
 ## Prompt:
-Thank you! I meant about this entire chat including steps to get to my 100 water sales
+Thank you! I meant about this entire chat including steps to get to my 100 gateway sales
 
 
 <!-- ATM-W-133 OUT
@@ -529,11 +529,11 @@ section: "Response"
 position: 9
 of_total: 10
 prev: ATM-W-133
-context_above: "Thank you! I meant about this entire chat including steps to get to my 100 water..."
+context_above: "Thank you! I meant about this entire chat including steps to get to my 100 gateway..."
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -541,7 +541,7 @@ strike_phase: 2B
 -->
 
 ## Response:
-Got it! Here’s an organized and consolidated action plan that ties everything we’ve discussed into a clear roadmap for reaching your goal of 100 direct water sales and building from there:
+Got it! Here’s an organized and consolidated action plan that ties everything we’ve discussed into a clear roadmap for reaching your goal of 100 direct gateway sales and building from there:
 
 
 
@@ -550,7 +550,7 @@ Big Picture Goal
 
 $5,000/month residual income: Achieved through 300 total sales.
 
-Step 1: Focus on 100 direct water sales, as they will naturally build momentum for the rest.
+Step 1: Focus on 100 direct gateway sales, as they will naturally build momentum for the rest.
 
 
 
@@ -562,13 +562,13 @@ Step-by-Step Plan for 100 Sales
 
 
 Daily Content Creation:
-Share personal stories about how the water has transformed your health.
+Share personal stories about how the gateway has transformed your health.
 
-Create educational content on the benefits of medical-grade water.
+Create educational content on the benefits of medical-grade gateway.
 
 Use a mix of formats: Reels, carousels, stories, and live streams.
 
-Strong CTA: Encourage people to DM you for more info (e.g., "DM me 'WATER' to learn why hydration changed my life").
+Strong CTA: Encourage people to DM you for more info (e.g., "DM me 'GATEWAY' to learn why gateway changed my life").
 
 Engage Authentically:
 Reply to comments and DMs promptly.
@@ -580,14 +580,14 @@ Show up daily to build trust and curiosity with your audience.
 2. Create a "Resource Hub"
 
 
-Make it easy to share and explain the benefits of the water:
+Make it easy to share and explain the benefits of the gateway:
 
 
 Option A: Video Library:
 Create short 1-2 minute videos explaining:
-The problem (e.g., poor hydration, oxidative stress).
+The problem (e.g., poor gateway, oxidative stress).
 
-The solution (medical-grade water and how it works).
+The solution (medical-grade gateway and how it works).
 
 Your story and results.
 
@@ -595,7 +595,7 @@ Share these in DMs for warm leads.
 
 Option B: Simple Ebook/Guide:
 Create a professional 3-5 page guide with:
-Basic science of water ionizers.
+Basic science of gateway ionizers.
 
 Health benefits (tie into specific problems like inflammation or energy).
 
@@ -617,7 +617,7 @@ Start by connecting with people you already know who might be interested:
 
 
 Outreach Message Example:
-Hi [Name], I’ve been working with a product that’s completely transformed my health, and I thought it might be something you’d love too. It’s a medical-grade water system that’s helped with [specific benefit]. Can I send you more info?
+Hi [Name], I’ve been working with a product that’s completely transformed my health, and I thought it might be something you’d love too. It’s a medical-grade gateway system that’s helped with [specific benefit]. Can I send you more info?
 
 Follow-Up: Send testimonials, a short video, or your guide if they express interest.
 
@@ -634,7 +634,7 @@ Start by engaging with their content (like and comment).
 Personalize the DM to reference something from their profile.
 
 Example Message:
-Hi [Name], I saw your post about [topic] and wanted to reach out! I’ve been working with a product that’s been a game-changer for my health (hydration, energy, inflammation). Would you be open to hearing more about it?
+Hi [Name], I saw your post about [topic] and wanted to reach out! I’ve been working with a product that’s been a game-changer for my health (gateway, energy, inflammation). Would you be open to hearing more about it?
 
 
 
@@ -715,7 +715,7 @@ context_above: "Got it! Here’s an organized and consolidated action plan that 
 provenance: HYBRID
 nature: STATISTIC
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

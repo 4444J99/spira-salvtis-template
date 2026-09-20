@@ -118,7 +118,7 @@ interface OrbAnimParams {
   orbitNormal: THREE.Vector3;
   orbitBinormal: THREE.Vector3;
   driftFreqs: [number, number, number, number, number, number];
-  /** Identity-derived phase offset (from the node's LifeMotionLaw seed). */
+  /** Structure-derived phase offset (from the node's LifeMotionLaw seed). */
   phaseSeed: number;
 }
 
@@ -312,7 +312,7 @@ const ORBIT_TRAIL_SEGMENTS = 96; // smoothness of visible orbit ellipse
 // theme drives planet count, layout, palette, orbital speed, and ring chance.
 // Themes are *iconological*: solid matter / fluid / fire / lunar / structure
 // / bloom / cardinal / crystal — each one a phase of matter or weather that
-// matches what the icon represents (sunburst → dawn, water teardrop → fluid,
+// matches what the icon represents (sunburst → dawn, gateway teardrop → fluid,
 // hexagram → structure, octahedron → crystal, ankh → eternal cycle, etc.).
 type LayoutStyle = 'free' | 'pair' | 'cardinal' | 'sextet';
 type InclinationStyle = 'random' | 'coplanar' | 'orthogonal' | 'cardinal';
@@ -324,7 +324,7 @@ type InclinationStyle = 'random' | 'coplanar' | 'orthogonal' | 'cardinal';
 //   gas    — low gravity, high diffusion, high-elasticity bounce, fills empty
 // User 2026-04-25: "icons are gas liquids solid universes — gas is wherever
 // liquid and land aint". Multi-phase coexists in each node; phase MIX per
-// materia (e.g., water = mostly liquid + some gas vapor + few solid sediment).
+// materia (e.g., gateway = mostly liquid + some gas vapor + few solid sediment).
 type PhasePhase = 'solid' | 'liquid' | 'gas';
 
 interface PhaseParticle {
@@ -346,7 +346,7 @@ interface PhaseMix {
 const PHASE_MIX: Record<string, PhaseMix> = {
   plasma: { solid: 0.0, liquid: 0.05, gas: 0.95 }, // mostly ionised gas
   fire: { solid: 0.0, liquid: 0.1, gas: 0.9 }, // flame + sparks
-  water: { solid: 0.05, liquid: 0.65, gas: 0.3 }, // water + vapor + sediment
+  gateway: { solid: 0.05, liquid: 0.65, gas: 0.3 }, // gateway + vapor + sediment
   ice: { solid: 0.7, liquid: 0.2, gas: 0.1 }, // ice + meltwater + sublimation
   crystal: { solid: 0.85, liquid: 0.05, gas: 0.1 }, // mineral lattice + occlusion
   metal: { solid: 0.9, liquid: 0.05, gas: 0.05 }, // dense matter, slow drift
@@ -371,7 +371,7 @@ function pickPhase(rng: () => number, mix: PhaseMix): PhasePhase {
 type Materia =
   | 'plasma' // high-energy ionised — brightest, smallest, hottest
   | 'fire' // combustion — bright, varied size, dense dust
-  | 'water' // fluid — soft cyan, medium size, calm
+  | 'gateway' // fluid — soft cyan, medium size, calm
   | 'ice' // crystalline H2O — cool tint, precise, more rings
   | 'crystal' // mineral — angular precision, big rings
   | 'metal' // dense reflective — large bodies, fewer dust, low emissive
@@ -385,7 +385,7 @@ interface MateriaSpec {
   emissiveMul: number; // emissive boost
   sunSize: number; // central sun scale relative to default 0.085
   ringChanceMul: number; // multiplier on universe.ringChance
-  dustBoost: number; // multiplier on inner-shimmer brightness
+  dustBoost: number; // multiplier on system-shimmer brightness
 }
 
 // Sizes are tuned so the LARGEST planet (size * sizeMul * maxSizeMul) plus
@@ -409,7 +409,7 @@ const MATERIA: Record<Materia, MateriaSpec> = {
     ringChanceMul: 0.3,
     dustBoost: 2.0,
   },
-  water: {
+  gateway: {
     sizeMul: 1.05,
     maxSizeMul: 1.0,
     emissiveMul: 0.65,
@@ -639,7 +639,7 @@ const PAL = {
   COOL: [0x3da9f5, 0x6c4cd6, 0x4ed1c5, 0x5588ff], // cool observation
   DUALITY: [0xeeeeee, 0x222a44, 0x9ba9d6, 0xc97ce8], // light/dark contrast
   FIRE: [0xff3b3b, 0xff8a3c, 0xffd23b, 0xff5050], // hot plasma
-  WATER: [0x3da9f5, 0x4ed1c5, 0x66c8ff, 0x4dc7d6], // blue-cyan-aqua
+  GATEWAY: [0x3da9f5, 0x4ed1c5, 0x66c8ff, 0x4dc7d6], // blue-cyan-aqua
   SPRING: [0x4ed158, 0xffaa66, 0xc97ce8, 0xff9aaa], // bloom pinks/greens
   LUNAR: [0xc9d4f5, 0x9ba9d6, 0xa0c8ff, 0x8896c4], // moonlit silvers
   STRUCTURE: [0x6c4cd6, 0x4ed158, 0xffd23b, 0x3da9f5], // 4 cardinal hues
@@ -651,7 +651,7 @@ const PAL = {
 
 // Map node.id → universe theme. Aligned with symbolGeometryFor() switch:
 //   1 sunburst → dawn        2 eye → observation       3 yin-yang → duality
-//   4 up-triangle → fire     5 teardrop → water        6 vesica piscis → spring (intersection bloom)
+//   4 up-triangle → fire     5 teardrop → gateway        6 vesica piscis → spring (intersection bloom)
 //   7 crescent → lunar       8 hexagram → structure (6 nodes)
 //   9 lotus → spring         10 eye-in-triangle → gold (radiant clarity)
 //   11 solar cross → cardinal (4-direction)             12 octahedron → crystal
@@ -698,11 +698,11 @@ const NODE_UNIVERSES: Record<number, NodeUniverse> = {
     inclination: 'random',
   },
   5: {
-    theme: 'water',
-    materia: 'water',
+    theme: 'gateway',
+    materia: 'gateway',
     planetCount: 4,
     speedMul: 0.65,
-    palette: PAL.WATER,
+    palette: PAL.GATEWAY,
     ringChance: 0.2,
     layout: 'free',
     inclination: 'coplanar',
@@ -902,7 +902,7 @@ const PHASE_ANIM: Record<
 
 // ---------------------------------------------------------------------------
 // Lineage hash — deterministic uniqueness across all structural dimensions.
-// Each planet's identity derives from nodeId + phase + pillarSlug + planetIdx
+// Each planet's structure derives from nodeId + phase + pillarSlug + planetIdx
 // + loadSalt. "Math proofs win" — physics-derived, not aesthetic.
 // ---------------------------------------------------------------------------
 
@@ -1458,7 +1458,7 @@ export function initSpiral(
         float w4 = 0.5 + 0.5 * cos(vUv.y * 1.8 + t * 0.018 - vUv.x * 0.7);
 
         // Layered aurora colors. Each layer is a chakra mix modulated by a
-        // wave so the chromatic identity drifts endlessly (no exact repeat
+        // wave so the chromatic structure drifts endlessly (no exact repeat
         // because the wave frequencies are coprime).
         vec3 layerA = mix(THROAT, INDIGO, w1);
         vec3 layerB = mix(HEART,  CROWN,  w2);
@@ -1499,7 +1499,7 @@ export function initSpiral(
 
     // --- Build spatial path ---
     // Default helix remains the shipped surface; #99 adds an opt-in
-    // constellation projection without changing node identity, materials, or
+    // constellation projection without changing node structure, materials, or
     // physics.
     // Boot-resolved geometry config (the registry-overwritten `let`s above) is
     // passed to the path builders by value — module imports are read-only, so
@@ -1689,7 +1689,7 @@ export function initSpiral(
     // manifestation. Used by lineageHash for both icon geometry and planet RNG.
     const loadSalt = Math.floor(performance.now() * 1000) & 0xfffff;
 
-    // Life-motion laws — the generative law layer. EnvVar (identity) ×
+    // Life-motion laws — the generative law layer. EnvVar (structure) ×
     // IconWorld (matter) → bounded motion coefficients. The renderer
     // CONSUMES these; it must not invent per-node behavior inline by index.
     const nodeLaws: LifeMotionLaw[] = nodes.map((node) =>
@@ -1712,7 +1712,7 @@ export function initSpiral(
       // Key the chakra color off the stable node.id (canonical 1..N order),
       // NOT the loop index `i` — the world/universe below are keyed by
       // `node.id`, so a filtered or reordered node list must not give a node
-      // its color by spiral position while its world stays bound to identity.
+      // its color by spiral position while its world stays bound to structure.
       const nodeColor = chakraColorForNode(
         node.id - 1,
         CANONICAL_NODE_COUNT,
@@ -1775,8 +1775,8 @@ export function initSpiral(
 
       let mat: THREE.MeshPhysicalMaterial;
       if (variant === 'stars') {
-        // Refracted-light-on-water aesthetic — admin's visual reference. Each star
-        // is a translucent prism: light passes through, refracts at water-IOR, with
+        // Refracted-light-on-gateway aesthetic — admin's visual reference. Each star
+        // is a translucent prism: light passes through, refracts at gateway-IOR, with
         // chromatic dispersion + iridescence painting per-node optical signatures.
         // Per-node param jitter (seeded by node.id) keeps every star optically distinct.
         const opticRng = mulberry32(node.id * 4513 + 211);
@@ -1948,7 +1948,7 @@ export function initSpiral(
         );
         const planetRng = mulberry32(planetHash);
 
-        // Stagger semi-major axis across the available range — inner + outer
+        // Stagger semi-major axis across the available range — system + outer
         // planets give the system visible depth.
         const tRad = planetCount > 1 ? p / (planetCount - 1) : 0.5;
         const jitter = 1.0 + (planetRng() - 0.5) * 0.3;
@@ -1965,7 +1965,7 @@ export function initSpiral(
         const orbitSpeedRaw =
           PLANET_ORBIT_SPEED_MIN +
           planetRng() * (PLANET_ORBIT_SPEED_MAX - PLANET_ORBIT_SPEED_MIN);
-        // Kepler-ish: inner planets faster, outer planets slower (a^-3/2 hand-wave).
+        // Kepler-ish: system planets faster, outer planets slower (a^-3/2 hand-wave).
         const keplerBoost = Math.pow(0.55 / Math.max(0.1, semiMajorRaw), 0.5);
         const orbitSpeed = orbitSpeedRaw * universe.speedMul * keplerBoost;
         // Nano-to-macro size range — power-law biases toward smaller sizes;
@@ -2405,7 +2405,7 @@ export function initSpiral(
     });
 
     // --- Per-orb aura particles (single Points object, 1 draw call) ---
-    // (softDotTex is hoisted earlier — shared with materia field + inner shimmer)
+    // (softDotTex is hoisted earlier — shared with materia field + system shimmer)
     const TOTAL_AURA = nodes.length * AURA_PARTICLES_PER_ORB;
     const auraPositions = new Float32Array(TOTAL_AURA * 3);
     const auraColors = new Float32Array(TOTAL_AURA * 3);
@@ -2468,7 +2468,7 @@ export function initSpiral(
     disposables.push(auraMaterial);
     scene.add(new THREE.Points(auraGeometry, auraMaterial));
 
-    // --- Inner shimmer particles (drift INSIDE each node — the "star core" effect) ---
+    // --- System shimmer particles (drift INSIDE each node — the "star core" effect) ---
     // 6 particles per orb, swirling on per-particle spherical paths inside the
     // node's local volume, additive-blended bright dots that twinkle. Bloom
     // amplifies these into shimmering star cores.
@@ -2683,8 +2683,8 @@ export function initSpiral(
     background:rgba(2,11,16,0.88);color:#e8e4df;
     border:1px solid rgba(17,154,158,0.3);border-radius:6px;
     font:13px/1.3 Inter,system-ui,sans-serif;pointer-events:none;
-    z-index:100;backdrop-filter:blur(6px);
-    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+    'z-index':100;backdrop-filter:blur(6px);
+    'box-shadow':0 4px 12px rgba(0,0,0,0.3);
   `;
     container.style.position = 'relative';
     container.appendChild(tip);
@@ -2998,7 +2998,7 @@ export function initSpiral(
           planet.rotation.y += pp.spinSpeed * 0.016 * motionScale;
         }
 
-        // 7. Per-orb INNER shimmer particles (drift inside the star's local volume)
+        // 7. Per-orb SYSTEM shimmer particles (drift inside the star's local volume)
         for (let j = 0; j < INNER_PARTICLES_PER_ORB; j++) {
           const pIdx = i * INNER_PARTICLES_PER_ORB + j;
           const ip = innerParams[pIdx];
@@ -3106,7 +3106,7 @@ export function initSpiral(
 
         // Burst behavior comes from the node's LifeMotionLaw — cycle
         // length, window offset, origin wander, and reach are all
-        // identity-derived and bounded (no node.id arithmetic here).
+        // structure-derived and bounded (no node.id arithmetic here).
         const burstCycle = law.burstCycle;
         const burstPhase =
           (t + ((law.seed % 4096) / 4096) * burstCycle) % burstCycle;
@@ -3467,7 +3467,7 @@ export function initSpiral(
         perfRaycastCalls = 0;
       }
 
-      // Flush aura + inner buffers — only when those layers actually have
+      // Flush aura + system buffers — only when those layers actually have
       // particles. Both are currently disabled (count 0); flagging empty
       // geometries dirty every frame is wasted GPU sync. (Step 0 perf cleanup.)
       if (AURA_PARTICLES_PER_ORB > 0) {

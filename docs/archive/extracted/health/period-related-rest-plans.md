@@ -17,7 +17,7 @@ source_file: "ChatGPT-Period related rest plans.txt"
 source_folder: "health"
 nodes: [5, 4]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 4]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -67,7 +67,7 @@ context_above: "What’s a good way to say I can’t do anything today because I
 provenance: HYBRID
 nature: MODEL
 nodes: [5, 4]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

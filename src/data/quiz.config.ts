@@ -35,7 +35,7 @@ export const quizQuestions: QuizQuestion[] = [
       },
       {
         value: 'ALIGN',
-        text: "I'm ready to do the inner work — patterns, identity, alignment.",
+        text: "I'm ready to do the system work — patterns, structure, alignment.",
       },
       {
         value: 'UNLOCK',
@@ -54,26 +54,26 @@ export const quizQuestions: QuizQuestion[] = [
     subtitle: 'The one that pulls you, not the one you think you should pick.',
     answers: [
       {
-        value: 'physical',
-        text: 'Physical',
-        sublabel: 'body, energy, hydration, sleep',
+        value: 'foundation',
+        text: 'Foundation',
+        sublabel: 'body, energy, gateway, sleep',
         emoji: '🌊',
       },
       {
-        value: 'inner',
-        text: 'Inner',
+        value: 'system',
+        text: 'System',
         sublabel: 'emotions, regulation, awareness',
         emoji: '🕊️',
       },
       {
-        value: 'identity',
-        text: 'Identity',
+        value: 'structure',
+        text: 'Structure',
         sublabel: 'who I am, how I show up',
         emoji: '✨',
       },
       {
-        value: 'financial',
-        text: 'Financial',
+        value: 'vision',
+        text: 'Vision',
         sublabel: 'sovereignty over time + money',
         emoji: '💠',
       },
@@ -110,7 +110,7 @@ export const quizQuestions: QuizQuestion[] = [
     subtitle: 'The thing under the thing.',
     answers: [
       {
-        value: 'foundation,hydration,root-cause',
+        value: 'foundation,gateway,root-cause',
         text: "Energy and absorption — my body's basic systems.",
       },
       {
@@ -142,7 +142,7 @@ export const quizQuestions: QuizQuestion[] = [
         text: "I notice patterns but can't change them yet.",
       },
       {
-        value: 'expression,identity,loud-pride',
+        value: 'expression,structure,loud-pride',
         text: "I'm awake but unsure what to do with it.",
       },
       {

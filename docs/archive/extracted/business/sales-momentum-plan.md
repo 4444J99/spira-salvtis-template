@@ -20,7 +20,7 @@ source_file: "ChatGPT-Sales momentum plan.txt"
 source_folder: "business"
 nodes: [11]
 readiness: "Partial"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -34,7 +34,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -54,11 +54,11 @@ Link: https://chatgpt.com/c/69133d02-0bd8-8325-8499-01dd837aded5
 
 <!-- ATM-B-205 OUT
 next: ATM-B-206
-context_below: "Ahhh okay I really just gotta start cranking out the water sales I’m so ready"
+context_below: "Ahhh okay I really just gotta start cranking out the gateway sales I’m so ready"
 -->
 
 <!-- ATM-B-206 IN
-idea: "Ahhh okay I really just gotta start cranking out the water sales I’m so ready"
+idea: "Ahhh okay I really just gotta start cranking out the gateway sales I’m so ready"
 section: "Prompt-Response"
 position: 2
 of_total: 4
@@ -67,7 +67,7 @@ context_above: "Sales momentum plan"
 provenance: HYBRID
 nature: CLAIM
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -75,7 +75,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Ahhh okay I really just gotta start cranking out the water sales I’m so ready
+Ahhh okay I really just gotta start cranking out the gateway sales I’m so ready
 
 
 ## Response:
@@ -87,9 +87,9 @@ Let’s channel that readiness into something tangible:
 
 Quick daily target: How many convos or DMs will you open today? (Even 3–5 a day compounds fast.)
 
-Momentum post: Let’s make a story or short Reel that re-energizes your audience — something like:“I’m done overthinking. Water changed my life and it’s time more people knew why. If you’ve been curious — now’s your sign.”
+Momentum post: Let’s make a story or short Reel that re-energizes your audience — something like:“I’m done overthinking. Gateway changed my life and it’s time more people knew why. If you’ve been curious — now’s your sign.”
 
-Follow-up plan: Re-engage everyone who ever showed interest — even if it’s been weeks. You can open with:“Hey! I’m circling back because a lot of people have been asking again about the water lately and I thought of you…”
+Follow-up plan: Re-engage everyone who ever showed interest — even if it’s been weeks. You can open with:“Hey! I’m circling back because a lot of people have been asking again about the gateway lately and I thought of you…”
 
 
 Would you like me to help you map out a 3-day sales push plan (stories, posts, DMs + follow-up flow) so you can move that momentum into results starting today?
@@ -106,11 +106,11 @@ section: "Prompt"
 position: 3
 of_total: 4
 prev: ATM-B-206
-context_above: "Ahhh okay I really just gotta start cranking out the water sales I’m so ready"
+context_above: "Ahhh okay I really just gotta start cranking out the gateway sales I’m so ready"
 provenance: LOCAL
 nature: TOOL
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -118,7 +118,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Just need a clean and clear structure to follow and then have things or place to send them and then strong follow up structure & need to be posting about it more. And I have this and my content plan all ready to go I just don’t know how to activate or maybe today isn’t for activation yet idk I still need to finish setting up GHL and then set up the water funnel and biz hub
+Just need a clean and clear structure to follow and then have things or place to send them and then strong follow up structure & need to be posting about it more. And I have this and my content plan all ready to go I just don’t know how to activate or maybe today isn’t for activation yet idk I still need to finish setting up GHL and then set up the gateway funnel and biz hub
 
 
 <!-- ATM-B-207 OUT
@@ -136,7 +136,7 @@ context_above: "Just need a clean and clear structure to follow and then have th
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -165,7 +165,7 @@ GHL Setup
 
 ✅ Confirm that name/email fields + tags are set correctly for the funnel
 
-Water Funnel Setup
+Gateway Funnel Setup
 Upload your landing page video (teaser or full)
 
 Add your logo, branding, and “Submit before continuing” note
@@ -191,11 +191,11 @@ Start with soft activation — showing what you’re doing, not pitching yet.
 Structure:
 
 
-Day 1: Post a story: “Rebuilding everything behind the scenes — I’m so close to relaunching this water project and it feels surreal.”
+Day 1: Post a story: “Rebuilding everything behind the scenes — I’m so close to relaunching this gateway project and it feels surreal.”
 
-Day 2: Post a Reel: your face + caption like “Water literally changed my life. This time, I’m doing it right — systems, flow, freedom.”
+Day 2: Post a Reel: your face + caption like “Gateway literally changed my life. This time, I’m doing it right — systems, flow, freedom.”
 
-Day 3: Start outreach — 5–10 warm DMs using something like:“Hey [Name]! You popped into my mind when I was finishing my water hub today. Are you still curious about the health side or business side of the water?”
+Day 3: Start outreach — 5–10 warm DMs using something like:“Hey [Name]! You popped into my mind when I was finishing my gateway hub today. Are you still curious about the health side or business side of the gateway?”
 
 
 

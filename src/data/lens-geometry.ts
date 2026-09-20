@@ -30,7 +30,7 @@ export interface LensModulation {
   symmetryOverride?: 'radial' | 'bilateral' | 'crystalline' | 'fractal';
   /** Scale modifier from this lens's perspective */
   scaleMul: number;
-  /** Inner radius shift (negative = darker/core, positive = brighter) */
+  /** System radius shift (negative = darker/core, positive = brighter) */
   innerShift: number;
   /** Rotation offset from lens perspective */
   rotationOffset: number;
@@ -183,7 +183,7 @@ export function defaultLensForEnvVar(envVar: EnvVar): Lens {
     DYAD: 'greek-classical',
     // Pyramid → physics (fire element)
     PYRAMIS: 'physics-elemental',
-    // Water → physics
+    // Gateway → physics
     HYDOR: 'physics-elemental',
     // Mandorla → sanskrit
     MANDORLA: 'sanskrit-vedic',

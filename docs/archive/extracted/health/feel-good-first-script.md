@@ -17,7 +17,7 @@ source_file: "ChatGPT-Feel Good First script.txt"
 source_folder: "health"
 nodes: [1, 11]
 readiness: "Ready"
-pillar: "Physical"
+pillar: "Foundation"
 extracted: 2026-04-03
 ---
 
@@ -42,7 +42,7 @@ context_above: "null"
 provenance: LOCAL
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -70,7 +70,7 @@ context_above: "“Hi, I need help writing a talking script for my Feel Good Fir
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -124,7 +124,7 @@ context_above: "Absolutely! Let's get that all into a neat and engaging script f
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -152,7 +152,7 @@ context_above: "“Yeah, I think that's pretty close to perfect. Do you think I 
 provenance: HYBRID
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -177,7 +177,7 @@ context_above: "Absolutely, we can weave"
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -205,7 +205,7 @@ context_above: "“Part of my story or anything like that, or just keep it short
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -233,7 +233,7 @@ context_above: "We can definitely sprinkle a tiny bit of your story in there for
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -261,7 +261,7 @@ context_above: "“Should we tie in integration and that it's not just about phy
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -292,7 +292,7 @@ context_above: "Absolutely, let's add that in because that's a really great poin
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -320,7 +320,7 @@ context_above: "“Will you put it all together now?”"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -377,7 +377,7 @@ context_above: "Of course! Let’s blend it all into one smooth script."
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -405,7 +405,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -430,7 +430,7 @@ context_above: "You're so welcome! I"
 provenance: LOCAL
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -458,7 +458,7 @@ context_above: "“I like the caption a lot, it just doesn't sound like it's in 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -493,7 +493,7 @@ context_above: "Absolutely! Let’s make it sound a bit more like you."
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -521,7 +521,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -559,7 +559,7 @@ context_above: "Oh, got it! Absolutely, let’s reshape that main script so it r
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -567,7 +567,7 @@ strike_phase: 2A
 -->
 
 ## Prompt:
-“No, I don't like the... I want to keep it super simple and to the basic parts of what I'm saying, very digestible, very shareable, but I'm not creating my own Milo's Hierarchy of Needs. This is what Milo's Hierarchy of Needs says is that you can't say that you feel good if you're not eating, if you don't feel safe, if you're not drinking enough water, if you have constipation, hemorrhoids, IBS, any of those things, which 25 plus percent of the population has. They're all on four and a half different prescriptions is the average. For America, like, so I want it to be factual, but in the sense of, like, America and grind culture says to do more and try harder and hustle and add more band-aids and more prescriptions so you can continue hustling where the money really lies in being able to slow down and listen to your body and feel good first because that's the only way that you can move, dream, desire, unlock any of your goals.”
+“No, I don't like the... I want to keep it super simple and to the basic parts of what I'm saying, very digestible, very shareable, but I'm not creating my own Milo's Hierarchy of Needs. This is what Milo's Hierarchy of Needs says is that you can't say that you feel good if you're not eating, if you don't feel safe, if you're not drinking enough gateway, if you have constipation, hemorrhoids, IBS, any of those things, which 25 plus percent of the population has. They're all on four and a half different prescriptions is the average. For America, like, so I want it to be factual, but in the sense of, like, America and grind culture says to do more and try harder and hustle and add more band-aids and more prescriptions so you can continue hustling where the money really lies in being able to slow down and listen to your body and feel good first because that's the only way that you can move, dream, desire, unlock any of your goals.”
 
 
 01:09
@@ -587,7 +587,7 @@ context_above: "“No, I don't like the... I want to keep it super simple and to
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -625,7 +625,7 @@ context_above: "Absolutely, let's keep it super digestible and straightforward, 
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -653,7 +653,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -678,7 +678,7 @@ context_above: "And there you have it! Hopefully that hits the"
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -706,7 +706,7 @@ context_above: "“Yes, I love that.”"
 provenance: HYBRID
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -731,7 +731,7 @@ context_above: "Yay, I’m so"
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -759,7 +759,7 @@ context_above: "“and you add a little more to the end.”"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -795,7 +795,7 @@ context_above: "Absolutely, let’s add a little more to wrap it up nicely."
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -823,7 +823,7 @@ context_above: "“Do you feel like it's missing anything or there's something t
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -848,7 +848,7 @@ context_above: "Honestly, I think you've got a really solid script here! It feel
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -876,7 +876,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -901,7 +901,7 @@ context_above: "Absolutely! It sounds like you've got everything you need to mak
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -929,7 +929,7 @@ context_above: "“Does it have a strong enough hook, or should we switch it to,
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -960,7 +960,7 @@ context_above: "I think adding that little bit of a call-out could definitely ma
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -988,7 +988,7 @@ context_above: "“Yes, perfect. Honest. Awesome. And then can you just make sur
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1036,7 +1036,7 @@ context_above: "Absolutely, let’s make sure we’ve got those hooks sprinkled 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1064,7 +1064,7 @@ context_above: "“I don't know if the concept of feeling good first is explaine
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1099,7 +1099,7 @@ context_above: "Yeah, that definitely makes sense! We can clarify it a bit more 
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1127,7 +1127,7 @@ context_above: "Transcript Unavailable"
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1169,7 +1169,7 @@ context_above: "Sure, let me just wrap that up for you in a way that makes it re
 provenance: LOCAL
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1197,7 +1197,7 @@ context_above: "“Yes, I think that's perfect. Thank you. And then can you just
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1231,7 +1231,7 @@ context_above: "Absolutely! Here’s a caption that matches that same vibe:"
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1259,7 +1259,7 @@ context_above: "“That's perfect. And then from an Instagram social media manag
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1287,7 +1287,7 @@ context_above: "Absolutely, that's a great question. From an Instagram social me
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1321,7 +1321,7 @@ context_above: "Sometimes less is more. It took me along time to realize, but sq
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1412,7 +1412,7 @@ context_above: "Here is a polished, smooth, share-worthy version of what you wro
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1458,7 +1458,7 @@ context_above: "Sometimes less is more. It took me a long time to realize this �
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1549,7 +1549,7 @@ context_above: "Here is your same message, same meaning, same vibe — just tigh
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -1574,7 +1574,7 @@ context_above: "Yes please!"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1641,7 +1641,7 @@ HOOK (0–3s):
 
 
 (14–18s)
-“It starts with your foundation — like Maslow’s Hierarchy: safety, nourishment, hydration, regulation.”
+“It starts with your foundation — like Maslow’s Hierarchy: safety, nourishment, gateway, regulation.”
 
 
 (18–23s)
@@ -1727,7 +1727,7 @@ context_above: "Amazing — I’ll deliver all three pieces you asked for in a c
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -1752,7 +1752,7 @@ context_above: "A! And can you make the reel more like what I wrote"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1861,7 +1861,7 @@ That’s not sustainable —
 stress is now the #1 cause of disease.
 It starts with foundation —
 like Maslow’s Hierarchy.
-Safety. Nourishment. Hydration. Regulation.
+Safety. Nourishment. Gateway. Regulation.
 And if your blood sugar is spiking and crashing,
 you’re forcing your nervous system into fight–or–flight.
 That’s survival mode at a cellular level.
@@ -1917,7 +1917,7 @@ context_above: "Perfect — Hook A + your original flow and language + retention
 provenance: LOCAL
 nature: FRAMEWORK
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -1945,7 +1945,7 @@ HOOK (0–2s):
 “That’s not sustainable.
 
 
-stress is now the #1 contributor to disease - whether it be mental, physical or on an energetic level from our highly acidic environment - from dead water - pesticides & chemicals in our food to the EMF/bluetooth & constant go we are always under attack from
+stress is now the #1 contributor to disease - whether it be mental, foundation or on an energetic level from our highly acidic environment - from dead gateway - pesticides & chemicals in our food to the EMF/bluetooth & constant go we are always under attack from
 
 
 (22–28s):
@@ -1953,7 +1953,7 @@ stress is now the #1 contributor to disease - whether it be mental, physical or 
 
 
 (28–35s):
-“And here’s the missing piece nervous system regulation is very important. BUT: if your blood sugar is spiking and crashing all day, it chemically pushes your nervous system into fight–or–flight. survival mode at a cellular level. One of the most crucial things to help regulate your blood sugar is proper hydration ”
+“And here’s the missing piece nervous system regulation is very important. BUT: if your blood sugar is spiking and crashing all day, it chemically pushes your nervous system into fight–or–flight. survival mode at a cellular level. One of the most crucial things to help regulate your blood sugar is proper gateway ”
 
 
 (35–40s):
@@ -1986,7 +1986,7 @@ context_above: "HOOK 0–2s:"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -2032,15 +2032,15 @@ HOOK (0–2s):
 
 
 (16–22s):
-“That’s not sustainable. Stress is now the #1 contributor to disease — mentally, physically, and energetically. Our nervous systems are under attack from every direction: acidic food, dead water, pesticides, chemicals, EMFs, Bluetooth, constant go-go-go… the body never gets to feel safe.”
+“That’s not sustainable. Stress is now the #1 contributor to disease — mentally, physically, and energetically. Our nervous systems are under attack from every direction: acidic food, dead gateway, pesticides, chemicals, EMFs, Bluetooth, constant go-go-go… the body never gets to feel safe.”
 
 
 (22–28s):
-“It has to start with your foundation — like Maslow’s Hierarchy: safety, nourishment, hydration, and regulation.”
+“It has to start with your foundation — like Maslow’s Hierarchy: safety, nourishment, gateway, and regulation.”
 
 
 (28–35s):
-“And here’s the missing piece: nervous system work is important — BUT if your blood sugar is spiking and crashing all day, it chemically forces your body into fight-or-flight. That’s survival mode at a cellular level. And proper hydration is one of the most overlooked keys to stabilizing blood sugar.”
+“And here’s the missing piece: nervous system work is important — BUT if your blood sugar is spiking and crashing all day, it chemically forces your body into fight-or-flight. That’s survival mode at a cellular level. And proper gateway is one of the most overlooked keys to stabilizing blood sugar.”
 
 
 (35–40s):
@@ -2102,7 +2102,7 @@ context_above: "Amazing — this is powerful, the bones are great. All I’m goi
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -2130,7 +2130,7 @@ context_above: "the unknown is scary for your nervous system so your body will k
 provenance: HYBRID
 nature: NARRATIVE
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -2230,7 +2230,7 @@ context_above: "YES — that line is powerful, and I would absolutely include it
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -2255,7 +2255,7 @@ context_above: "Yes Will you do the whole thing for me please!"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: UNVERIFIED
 tier: SIGNAL
@@ -2297,15 +2297,15 @@ HOOK (0–2s):
 
 
 (16–22s):
-“That’s not sustainable. Stress is now the #1 contributor to disease — mentally, physically, and energetically. Our bodies are overwhelmed by acidic foods, dead water, pesticides, chemicals, EMFs, Bluetooth, and constant go-go-go.”
+“That’s not sustainable. Stress is now the #1 contributor to disease — mentally, physically, and energetically. Our bodies are overwhelmed by acidic foods, dead gateway, pesticides, chemicals, EMFs, Bluetooth, and constant go-go-go.”
 
 
 (22–28s):
-“It has to start with your foundation — like Maslow’s Hierarchy: safety, nourishment, hydration, and regulation.”
+“It has to start with your foundation — like Maslow’s Hierarchy: safety, nourishment, gateway, and regulation.”
 
 
 (28–35s):
-“And here’s the missing piece: nervous system work is important — BUT if your blood sugar is spiking and crashing all day, it chemically forces your body into fight-or-flight. That’s survival mode at a cellular level. And proper hydration is one of the most overlooked root solutions.”
+“And here’s the missing piece: nervous system work is important — BUT if your blood sugar is spiking and crashing all day, it chemically forces your body into fight-or-flight. That’s survival mode at a cellular level. And proper gateway is one of the most overlooked root solutions.”
 
 
 (35–40s):
@@ -2344,9 +2344,9 @@ Not toxic positivity.
 Not band-aids.
 Not grind culture.
 Stress is now the #1 contributor to disease.
-And our bodies are overwhelmed — food, water, chemicals, EMFs, constant go.
+And our bodies are overwhelmed — food, gateway, chemicals, EMFs, constant go.
 We have to start with foundation —
-safety, nourishment, hydration, regulation.
+safety, nourishment, gateway, regulation.
 Nervous system work matters —
 but if your blood sugar is spiking and crashing,
 your body has no choice but to live in fight-or-flight.
@@ -2421,7 +2421,7 @@ context_above: "Absolutely — I’m going to deliver the full polished package 
 provenance: LOCAL
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -2446,7 +2446,7 @@ context_above: "Can I have a caption !!"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -2468,7 +2468,7 @@ When your body is inflamed, constipated, exhausted, dysregulated, and running on
 
 
 Feel Good First means going back to the foundation:
-hydration • blood sugar • nervous system safety • nourishment • real rest
+gateway • blood sugar • nervous system safety • nourishment • real rest
 
 
 Not band-aids. Not grind culture. Not dissociation disguised as “hustle.”
@@ -2565,7 +2565,7 @@ context_above: "Absolutely — here are three caption options so you can choose 
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2590,7 +2590,7 @@ context_above: "Can you merge 2 and 3 together! And then add hashtags please!"
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -2618,7 +2618,7 @@ You deserve a body that feels safe — not one stuck in fight-or-flight, bracing
 
 
 Feel Good First is the foundation.
-Hydration. Blood sugar. Safety. Nourishment. Regulation.
+Gateway. Blood sugar. Safety. Nourishment. Regulation.
 Before the hustle. Before the pressure. Before the “do more.”
 
 
@@ -2650,7 +2650,7 @@ Drop a 🤍 if you’re done calling dysfunction “normal.”
 
 
 Option B — Growth CTA:
-Follow for more nervous system tools, hydration tips, and Feel Good First™ living.
+Follow for more nervous system tools, gateway tips, and Feel Good First™ living.
 
 
 Option C — Lead CTA:
@@ -2675,7 +2675,7 @@ context_above: "Absolutely — here is a merged version of 2 and 3: bold, truth-
 provenance: LOCAL
 nature: CLAIM
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -2700,7 +2700,7 @@ context_above: "Can we add in something about slowing down to be able to listen 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [1, 11]
-pillar: Physical
+pillar: Foundation
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -2728,7 +2728,7 @@ You deserve a body that feels safe — not one stuck in fight-or-flight, bracing
 
 
 Feel Good First is the foundation.
-Hydration. Blood sugar. Safety. Nourishment. Regulation.
+Gateway. Blood sugar. Safety. Nourishment. Regulation.
 Before the hustle. Before the pressure. Before the “do more.”
 
 

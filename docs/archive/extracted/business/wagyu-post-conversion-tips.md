@@ -13,12 +13,12 @@ sections:
     atoms: [ATM-B-211, ATM-B-213, ATM-B-215, ATM-B-217, ATM-B-219]
 -->
 ---
-title: "3 FB caption templates for water"
+title: "3 FB caption templates for gateway"
 source_file: "ChatGPT-Wagyu Post Conversion Tips.txt"
 source_folder: "business"
 nodes: [11, 13]
 readiness: "Ready"
-pillar: "Financial"
+pillar: "Vision"
 extracted: 2026-04-03
 ---
 
@@ -32,7 +32,7 @@ context_above: null
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: NOISE
@@ -65,7 +65,7 @@ context_above: "Wagyu Post Conversion Tips"
 provenance: LOCAL
 nature: QUESTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -73,7 +73,7 @@ strike_phase: 1C
 -->
 
 ## Prompt:
-I want to post about the wagyu on my personal Facebook page and then just mention the water / upleveling their health - how do I do this in a way that will convert? A flier or just a quick post maybe idk
+I want to post about the wagyu on my personal Facebook page and then just mention the gateway / upleveling their health - how do I do this in a way that will convert? A flier or just a quick post maybe idk
 
 
 <!-- ATM-B-210 OUT
@@ -91,7 +91,7 @@ context_above: "I want to post about the wagyu on my personal Facebook page and 
 provenance: HYBRID
 nature: SCRIPT
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -101,7 +101,7 @@ strike_phase: 4A
 ## Response:
 This is a great instinct, and the key is:
 👉 lead with lifestyle + pleasure, not “offer.”
-👉 let the wagyu be the hook, and the water be the quiet upgrade.
+👉 let the wagyu be the hook, and the gateway be the quiet upgrade.
 
 
 On a personal Facebook page, a quick post will convert better than a flier. Flyers feel salesy and break the social contract there. You want curiosity, DMs, and replies.
@@ -126,7 +126,7 @@ Start with sensory pleasure (wagyu)
 
 Soft lifestyle upgrade (quality, intention, nourishment)
 
-Casual mention of water as a standard, not a pitch
+Casual mention of gateway as a standard, not a pitch
 
 Open-ended CTA that invites conversation
 
@@ -144,7 +144,7 @@ Finally cooked the wagyu I picked up and… I get the hype.
 The marbling, the flavor, how satisfying it feels to eat food that’s actually nourishing.
 
 
-I’ve been really intentional lately about up-leveling what I put in my body — not restriction, just quality. Better food, better water, better baseline.
+I’ve been really intentional lately about up-leveling what I put in my body — not restriction, just quality. Better food, better gateway, better baseline.
 
 
 It’s wild how small upgrades compound into feeling noticeably better.
@@ -159,7 +159,7 @@ You’re not selling anything
 
 You’re positioning yourself as someone living well
 
-People DM asking what wagyu / what water
+People DM asking what wagyu / what gateway
 
 
 
@@ -171,7 +171,7 @@ Caption:
 There’s something different about eating food that hasn’t been stripped of everything.
 
 
-Wagyu, mineral-rich water, simple meals — my body responds immediately. Less inflammation, better digestion, more energy.
+Wagyu, mineral-rich gateway, simple meals — my body responds immediately. Less inflammation, better digestion, more energy.
 
 
 I used to think “healthy” meant complicated. Turns out it just means clean inputs.
@@ -196,7 +196,7 @@ Caption:
 This is what “taking care of myself” looks like these days.
 
 
-Not dieting. Not extremes. Just higher-quality food and water and listening to my body.
+Not dieting. Not extremes. Just higher-quality food and gateway and listening to my body.
 
 
 It’s crazy how much better life feels when your baseline health is supported.
@@ -222,7 +222,7 @@ What NOT to do (important)
 ❌ Don’t post a flier on your personal page
 
 
-You’re not selling water.
+You’re not selling gateway.
 You’re normalizing a higher standard.
 
 
@@ -249,7 +249,7 @@ If you want, next we can:
 
 Write exact DM replies once people ask
 
-Create a Story follow-up that softly bridges to water
+Create a Story follow-up that softly bridges to gateway
 
 Turn this into a weekly lifestyle post format you can reuse
 
@@ -272,7 +272,7 @@ context_above: "This is a great instinct, and the key is:"
 provenance: LOCAL
 nature: QUESTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -298,7 +298,7 @@ context_above: "I like 3! They all sounds good though, but I haven’t had the w
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -335,10 +335,10 @@ Option 3 (Adjusted – Honest & Magnetic)
 This is what “taking care of myself” looks like these days.
 
 
-Not dieting. Not extremes. Just choosing higher-quality food and water and being intentional about what I bring into my life and my body.
+Not dieting. Not extremes. Just choosing higher-quality food and gateway and being intentional about what I bring into my life and my body.
 
 
-I’m excited to be offering access to things I personally believe in — food that’s sourced well, water that actually supports health, and a more elevated baseline overall.
+I’m excited to be offering access to things I personally believe in — food that’s sourced well, gateway that actually supports health, and a more elevated baseline overall.
 
 
 If you’re in a season of wanting to feel better without doing more… I get it.
@@ -394,7 +394,7 @@ That response actually builds trust instead of breaking it.
 One More Thing (important energetically)
 
 
-You already do this with water:
+You already do this with gateway:
 
 
 You didn’t need a chemistry degree to share it
@@ -423,7 +423,7 @@ Tighten this into a shorter FB caption
 
 Write Story slides that follow this post
 
-Create a DM flow for wagyu → water → health upgrade
+Create a DM flow for wagyu → gateway → health upgrade
 
 
 You’re doing this correctly.
@@ -444,7 +444,7 @@ context_above: "Love that you chose #3 — that tone fits your personal page per
 provenance: LOCAL
 nature: CLAIM
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -452,7 +452,7 @@ strike_phase: 4A
 -->
 
 ## Prompt:
-Ugh okay I got overwhelmed yesterday and didn’t do much. What will ensure 3 water sales in the next ten days and how do I go about tackling it while still keeping it simple/staying on top of it
+Ugh okay I got overwhelmed yesterday and didn’t do much. What will ensure 3 gateway sales in the next ten days and how do I go about tackling it while still keeping it simple/staying on top of it
 
 
 <!-- ATM-B-214 OUT
@@ -470,7 +470,7 @@ context_above: "Ugh okay I got overwhelmed yesterday and didn’t do much. What 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -486,14 +486,14 @@ You don’t need a new strategy.
 You need focus, repetition, and containment.
 
 
-Below is a very realistic, simple plan that gives you the highest probability of 3 water sales in 10 days without burning out.
+Below is a very realistic, simple plan that gives you the highest probability of 3 gateway sales in 10 days without burning out.
 
 
 
 The Truth (important reframe)
 
 
-3 water sales will not come from:
+3 gateway sales will not come from:
 
 
 more thinking
@@ -525,7 +525,7 @@ It’s a conversation volume + follow-up problem.
 The Only Goal (next 10 days)
 
 
-Start 15–20 real conversations about water.
+Start 15–20 real conversations about gateway.
 
 
 That’s it.
@@ -559,7 +559,7 @@ Just normalizing higher standards.
 Examples you can rotate:
 
 
-food + water
+food + gateway
 
 energy / inflammation
 
@@ -592,7 +592,7 @@ people who’ve asked health questions ever
 
 Script (copy/paste, do not customize emotionally):
 
-Hey 🤍 random but I thought of you — I’ve been helping a few people improve their water lately and it’s made a bigger difference than I expected.
+Hey 🤍 random but I thought of you — I’ve been helping a few people improve their gateway lately and it’s made a bigger difference than I expected.
 
 
 No pressure at all, but would you want to see if it could be supportive for you?
@@ -634,7 +634,7 @@ You are executing, not evaluating.
 How This Actually Converts (psychology)
 
 
-People buy water when:
+People buy gateway when:
 
 
 they trust you
@@ -729,7 +729,7 @@ Your nervous system sells before your words do.
 So your real job each day is:
 
 
-drink your own good water
+drink your own good gateway
 
 eat
 
@@ -776,7 +776,7 @@ context_above: "First — pause."
 provenance: LOCAL
 nature: INSTRUCTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: CONTEXT
@@ -802,7 +802,7 @@ context_above: "I watched a call yesterday and he said your business can run in 
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -828,7 +828,7 @@ First: Reframe (this removes pressure)
 You are not:
 
 
-“selling water”
+“selling gateway”
 
 “closing people”
 
@@ -901,7 +901,7 @@ Post Type A: Lifestyle / Standard
 
 food
 
-water
+gateway
 
 “taking care of myself looks like…”
 
@@ -926,7 +926,7 @@ energy
 👉 This gives you permission to DM people
 
 
-Post Type C: Identity Shift
+Post Type C: Structure Shift
 
 
 “I’m in a season of simplifying”
@@ -988,7 +988,7 @@ People you already know or have interacted with.
 
 Script (copy/paste):
 
-Hey 🤍 random but I thought of you — I’ve been helping a few people improve their water lately and it’s made a bigger difference than I expected.
+Hey 🤍 random but I thought of you — I’ve been helping a few people improve their gateway lately and it’s made a bigger difference than I expected.
 
 
 No pressure at all, but would you want to see if it could be supportive for you?
@@ -1144,7 +1144,7 @@ context_above: "Yes — your thinking here is 100% correct, and you’re finally
 provenance: LOCAL
 nature: CITATION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: PARTIAL
 editorial: CLEAN
 tier: SIGNAL
@@ -1155,7 +1155,7 @@ strike_phase: 4A
 I do wanna be posting on my stories every day too!
 
 
-And that’s where I can show lifestyle and variety but I need to more or less start repeating myself over and over again. So need to get clear on my message that I’m going to repeat which is around healing at the root - balance and listing to your own cycles and needs - doing less of what’s unaligned but around the water. I need three transition posts to start - one about the book the alchemist I have quotes/pictures from when I read that I want to post and then two others that Segway me nicely and then need the 9 water / health posts that then I can leave stagnant - I want to do these all today (12) have them laid out so then I can just post it in the morning, post on my stories throughout the day and then find my ten people. That is doable.
+And that’s where I can show lifestyle and variety but I need to more or less start repeating myself over and over again. So need to get clear on my message that I’m going to repeat which is around healing at the root - balance and listing to your own cycles and needs - doing less of what’s unaligned but around the gateway. I need three transition posts to start - one about the book the alchemist I have quotes/pictures from when I read that I want to post and then two others that Segway me nicely and then need the 9 gateway / health posts that then I can leave stagnant - I want to do these all today (12) have them laid out so then I can just post it in the morning, post on my stories throughout the day and then find my ten people. That is doable.
 
 
 <!-- ATM-B-218 OUT
@@ -1173,7 +1173,7 @@ context_above: "I do wanna be posting on my stories every day too!"
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [11, 13]
-pillar: Financial
+pillar: Vision
 build_state: EXISTS
 editorial: CLEAN
 tier: CONTEXT
@@ -1196,7 +1196,7 @@ Everything you post funnels back to one truth, said 100 ways:
 Healing happens at the root.
 Your body already knows what it needs.
 Most people are exhausted because they’re forcing instead of listening.
-Water is the foundation that makes listening possible.
+Gateway is the foundation that makes listening possible.
 
 That’s it.
 If a post doesn’t point back to that, it’s extra.
@@ -1234,7 +1234,7 @@ Purpose: normalize your standards
 Examples:
 
 
-your water
+your gateway
 
 your food
 
@@ -1293,7 +1293,7 @@ Text starters:
 
 
 
-🔹 Story Type 3: SOFT BRIDGE TO WATER (evening)
+🔹 Story Type 3: SOFT BRIDGE TO GATEWAY (evening)
 
 
 Purpose: connect the dots without pitching
@@ -1302,7 +1302,7 @@ Purpose: connect the dots without pitching
 Examples:
 
 
-pouring water
+pouring gateway
 
 refilling a bottle
 
@@ -1312,7 +1312,7 @@ a glass by your bed
 Text overlays:
 
 
-“Water is the foundation.”
+“Gateway is the foundation.”
 
 “You can’t heal on empty.”
 
@@ -1329,11 +1329,11 @@ Just repetition.
 PART 2: THE 3 TRANSITION POSTS (we’ll draft them now)
 
 
-These are to reset your grid narrative and move people mentally toward water.
+These are to reset your grid narrative and move people mentally toward gateway.
 
 
 
-🔸 TRANSITION POST 1: The Alchemist (identity + philosophy)
+🔸 TRANSITION POST 1: The Alchemist (structure + philosophy)
 
 
 Visual:
@@ -1364,7 +1364,7 @@ I’m in a season of returning to the root.
 
 
 Visual:
-You / nature / water / simple moment
+You / nature / gateway / simple moment
 
 
 Caption:
@@ -1380,7 +1380,7 @@ Most people don’t need another protocol — they need a cleaner foundation.
 
 This is the lens I see health through now.
 
-👉 This pre-frames water without naming it yet.
+👉 This pre-frames gateway without naming it yet.
 
 
 
@@ -1407,11 +1407,11 @@ Clean inputs. Less noise. More alignment.
 
 This is what I help people reconnect with.
 
-👉 NOW your audience is ready for water posts.
+👉 NOW your audience is ready for gateway posts.
 
 
 
-PART 3: THE 9 WATER / HEALTH POSTS (STAGNANT GRID)
+PART 3: THE 9 GATEWAY / HEALTH POSTS (STAGNANT GRID)
 
 
 These do not need to be perfect. They just need to exist.
@@ -1420,7 +1420,7 @@ These do not need to be perfect. They just need to exist.
 Your 9-post themes (simple + repeatable):
 
 
-1️⃣ Water is the foundation
+1️⃣ Gateway is the foundation
 
 You can’t heal on dehydrated, depleted cells.
 
@@ -1442,7 +1442,7 @@ Your body can’t listen through noise.
 
 6️⃣ Nervous system support
 
-Water impacts more than hydration.
+Gateway impacts more than gateway.
 
 7️⃣ Cycles & intuition
 

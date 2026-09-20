@@ -20,7 +20,7 @@ not around it, through it, or outside it.
 ## Completed Work
 
 - Fixed `src/components/spiral/spiral.ts` so node interiors are contained:
-  - disabled legacy external planet/aura/inner particles
+  - disabled legacy external planet/aura/system particles
   - disabled camera zoom dolly
   - stopped hybrid vessel fills from drawing large translucent slabs
   - grouped mesh, boundary mesh, field points, trails, and interiors under the vessel transform

@@ -16,7 +16,7 @@ source_file: "ChatGPT-Shift Your Mindset.txt"
 source_folder: "mindset"
 nodes: [1, 4]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: QUESTION
 nodes: [1, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -76,7 +76,7 @@ context_above: "please help me make a compelling caption for my instagram reel, 
 provenance: HYBRID
 nature: QUESTION
 nodes: [1, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -103,7 +103,7 @@ context_above: "Mindset matters more than I ever realized. Your thoughts become 
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [1, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -127,7 +127,7 @@ context_above: "it can be a little bit longer"
 provenance: HYBRID
 nature: QUESTION
 nodes: [1, 4]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

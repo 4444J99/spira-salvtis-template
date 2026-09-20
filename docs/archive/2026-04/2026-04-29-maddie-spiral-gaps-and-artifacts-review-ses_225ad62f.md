@@ -852,7 +852,7 @@ I found the files in ~/Downloads - they're not in the workspace tree. Let me rea
 70: 
 71: *Listed directory [nodes](file:///Users/4jp/Workspace/organvm/sovereign-systems--spiral-template/src/pages/nodes) *
 72: 
-73: *Listed directory [water](file:///Users/4jp/Workspace/organvm/sovereign-systems--spiral-template/src/pages/water) *
+73: *Listed directory [gateway](file:///Users/4jp/Workspace/organvm/sovereign-systems--spiral-template/src/pages/gateway) *
 74: 
 75: *Listed directory [business](file:///Users/4jp/Workspace/organvm/sovereign-systems--spiral-template/src/pages/business) *
 76: 
@@ -895,7 +895,7 @@ I found the files in ~/Downloads - they're not in the workspace tree. Let me rea
 113: - **Node 11 is in ALIGN in code but UNLOCK in admin's spec** (phase mismatch)
 114: - **Emoji duplicates**: Node 6 = ⚖️ (should be 🕊️), Node 11 = 💠 (should be 🚧)
 115: - **Taglines in config** are summaries, not admin's actual "first lines"
-116: - **Domain DNS** for `business-example.com` and `water-example.com` — status unknown
+116: - **Domain DNS** for `business-example.com` and `gateway-example.com` — status unknown
 117: 
 118: What do you want to attack first?
 119: 
@@ -942,7 +942,7 @@ I found the files in ~/Downloads - they're not in the workspace tree. Let me rea
 160:    - Node 11: moved from `ALIGN` → `UNLOCK`, emoji 💠 → 🚧
 161:    - All 13 taglines replaced with admin's actual first-lines
 162: 
-163: 2. **`src/content/nodes/5.md`** — Created from scratch (~100 lines). Full frontmatter (steps, practiceTable, reflectionPrompts, closingLine) + rich body prose covering water, inflammation, absorption, and non-negotiables. Links to `/water/` funnel.
+163: 2. **`src/content/nodes/5.md`** — Created from scratch (~100 lines). Full frontmatter (steps, practiceTable, reflectionPrompts, closingLine) + rich body prose covering gateway, inflammation, absorption, and non-negotiables. Links to `/gateway/` funnel.
 164: 
 165: 3. **Build verified** — `npm run build` passes clean, all 13 node pages render.
 166: 
@@ -1085,7 +1085,7 @@ I found the files in ~/Downloads - they're not in the workspace tree. Let me rea
 303: **Both geometry variants (`stars` and `symbols`) are invisible.** Line 1651 sets `mesh.visible = false` on every node mesh. What the user actually sees is **600 materia particles per node** bouncing inside the invisible mesh's raycast boundary — the shape emerges from particle containment, not from rendering the mesh.
 304: 
 305: This means:
-306: - The **refracted-light-on-water** material (transmission, dispersion, IOR) admin specifically asked for — **exists but renders to nothing**
+306: - The **refracted-light-on-gateway** material (transmission, dispersion, IOR) admin specifically asked for — **exists but renders to nothing**
 307: - The **13 hand-coded sacred symbols** (`symbolGeometryFor()`) — **dead code, never called**
 308: - The default variant uses **Proposal C** (math primitives × lenses), not Proposal A's sacred shapes — **also invisible**
 309: 
@@ -1093,7 +1093,7 @@ I found the files in ~/Downloads - they're not in the workspace tree. Let me rea
 311: 
 312: | # | What admin asked | What renders |
 313: |---|-------------------|-------------|
-314: | 1 | "Stars that look like refracted light on water" | Particle clouds shaped by invisible mesh boundaries |
+314: | 1 | "Stars that look like refracted light on gateway" | Particle clouds shaped by invisible mesh boundaries |
 315: | 2 | "Each symbol from a different religion" | Dead code — `symbolGeometryFor()` is never invoked |
 316: | 3 | "Name pops up in center or under on hover" | Name is **always visible** below; hover shows **tagline** at cursor position |
 317: | 4 | Container as "transparent vessel / ghost outline" | Container fully hidden, not translucent |

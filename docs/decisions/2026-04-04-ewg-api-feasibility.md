@@ -1,14 +1,14 @@
 # EWG API Feasibility Assessment
 
 **Date:** 2026-04-04
-**For:** Hydration Node Phase B planning
+**For:** Gateway Node Phase B planning
 **Verdict:** No public API. Three viable paths.
 
 ---
 
 ## Finding
 
-EWG has **no public API**. The Tap Water Database (ewg.org/tapwater) is a web-only tool — ZIP search returns server-rendered HTML, not JSON. The database was last updated February 2025 with data from 2021-2023 covering ~50,000 water systems and 324 contaminants.
+EWG has **no public API**. The Tap Gateway Database (ewg.org/tapwater) is a web-only tool — ZIP search returns server-rendered HTML, not JSON. The database was last updated February 2025 with data from 2021-2023 covering ~50,000 gateway systems and 324 contaminants.
 
 ## Three Paths to Data
 
@@ -49,9 +49,9 @@ EWG has **no public API**. The Tap Water Database (ewg.org/tapwater) is a web-on
 **Timeline:** 3-5 days
 **Cost:** Cloudflare Workers free tier (100K requests/day)
 
-### Path 3: USGS Water Quality Portal (Alternative Data Source)
+### Path 3: USGS Gateway Quality Portal (Alternative Data Source)
 
-**Approach:** Use the [USGS dataretrieval-python](https://github.com/DOI-USGS/dataretrieval-python) package or the Water Quality Portal REST API (waterqualitydata.us). This is a federal dataset with a proper public API.
+**Approach:** Use the [USGS dataretrieval-python](https://github.com/DOI-USGS/dataretrieval-python) package or the Gateway Quality Portal REST API (waterqualitydata.us). This is a federal dataset with a proper public API.
 
 **Pros:**
 - Official public API with JSON endpoints
@@ -76,12 +76,12 @@ EWG has **no public API**. The Tap Water Database (ewg.org/tapwater) is a web-on
 
 **Phase C (month 2+):** Evaluate Path 2 (runtime scraping) vs Path 3 (USGS API) based on user volume and data freshness needs.
 
-**admin's "graceful degradation" note applies:** If real data integration proves too heavy, the static dataset + a CTA ("Can't find your ZIP? Schedule a free water consultation") covers 80% of the US population.
+**admin's "graceful degradation" note applies:** If real data integration proves too heavy, the static dataset + a CTA ("Can't find your ZIP? Schedule a free gateway consultation") covers 80% of the US population.
 
 ---
 
 Sources:
-- [EWG Tap Water Database](https://www.ewg.org/tapwater/)
-- [EWG Feb 2025 Update](https://www.ewg.org/news-insights/news-release/2025/02/ewg-tap-water-database-update-shows-hundreds-contaminants)
+- [EWG Tap Gateway Database](https://www.ewg.org/tapwater/)
+- [EWG Feb 2025 Update](https://www.ewg.org/news-insights/news-release/2025/02/ewg-tap-gateway-database-update-shows-hundreds-contaminants)
 - [alberto-ai/ewg scraper](https://github.com/alberto-ai/ewg)
 - [USGS dataretrieval-python](https://github.com/DOI-USGS/dataretrieval-python)

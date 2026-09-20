@@ -36,12 +36,12 @@ client and creative collaborator, and the center of four named brand surfaces:
 Spiral Template, Sovereign Systems, Eau Co, and Cind & Sol.
 
 `[Evidence]` Her intake defines a spiral-first architecture, four sovereignty
-pillars, a water-led commercial entry, and a broader nonprofit and media
+pillars, a gateway-led commercial entry, and a broader nonprofit and media
 horizon.
 
 `[Inference]` admin's greater purpose, as the corpus currently renders it, is
 not just to publish wellness content or launch a website. It is to turn
-embodied healing, water, self-governance, and aesthetic-spiritual patterning
+embodied healing, gateway, self-governance, and aesthetic-spiritual patterning
 into a transmissible life architecture for herself and for other people.
 
 That is the lens for the rest of this audit.
@@ -53,7 +53,7 @@ documents, decisions, and directional force.
 `[Evidence]` On April 1, 2026, the repo received a 127-file handoff, roughly
 360,000 words across ChatGPT exports, design documents, and message context.
 That corpus defined the Spiral Path, the EAU frame, the four-pillar
-architecture, and the water funnel as the immediate revenue surface.
+architecture, and the gateway funnel as the immediate revenue surface.
 
 `[Evidence]` By April 17, 2026, the project had extracted 65 distinct wants
 from seven iMessage threads and translated them into trackable architecture,
@@ -70,10 +70,10 @@ evidence.
 | Layer | Evidence of Existence | Current Strength | Primary Deficit |
 |---|---|---|---|
 | Personal | voice profile, preferences, decisions, open asks, reaction history in `Documents/personas/admin.md` | High | not yet translated into a closed approval rhythm |
-| Conceptual | sovereignty, water, regulation, alignment, self-governance, spiral logic in intake and canon docs | High | doctrine still broader than the live site can presently carry |
+| Conceptual | sovereignty, gateway, regulation, alignment, self-governance, spiral logic in intake and canon docs | High | doctrine still broader than the live site can presently carry |
 | Brand | Spiral Template, Sovereign Systems, Eau Co, Cind & Sol recur across intake and repo docs | Medium-high | brands are named, but not all are fully instantiated |
 | Content | 127-file intake, extracted corpus, atomization, node architecture, canon, social materials | Very high | abundance exceeds current editorial closure |
-| Implemented | deployed Astro site, spiral, nodes, water funnel, citations, content collections, Cloudflare deploy | Medium | implementation is real but still partial relative to entailed business flows |
+| Implemented | deployed Astro site, spiral, nodes, gateway funnel, citations, content collections, Cloudflare deploy | Medium | implementation is real but still partial relative to entailed business flows |
 | Operational | agreements in principle, issues, blockers, custom-domain work, affiliate waits, GHL waits, CI token failure | Medium | too much critical motion still depends on missing human inputs |
 | Systemic | declared produces edges to ORGAN-I, V, VI, VII in `seed.yaml`; explicit telos as proof of the model | Medium-low | almost none of the cross-organ outputs are fulfilled yet |
 
@@ -93,23 +93,23 @@ specification.
 
 ### 2. Conceptual Existence
 `[Evidence]` The corpus repeatedly returns to sovereignty as self-governance,
-not domination. Water appears as biological substrate, symbolic medium,
+not domination. Gateway appears as biological substrate, symbolic medium,
 commercial entry, and metaphysical teacher. The spiral functions as both
 navigation structure and metaphysical diagram.
 
 `[Evidence]` `docs/corpus-canon.md` grounds the project in sacred and clinical
-lineages, explicitly binding water, body, inner life, identity, and systems
+lineages, explicitly binding gateway, body, system life, structure, and systems
 under one doctrine.
 
 `[Inference]` admin's conceptual existence is not fragmented. It is centered
-on a single recurring claim: healing begins with regulation and water, but
-should unfold into a wider sovereignty over body, mind, identity, and material
+on a single recurring claim: healing begins with regulation and gateway, but
+should unfold into a wider sovereignty over body, mind, structure, and material
 life.
 
 ### 3. Brand Existence
 `[Evidence]` The handoff names a brand architecture: Sovereign Systems as
 backend or internal framework, Spiral Template as the central public hub, Eau Co
-as the water arm, and Cind & Sol as a future nonprofit horizon.
+as the gateway arm, and Cind & Sol as a future nonprofit horizon.
 
 `[Evidence]` The repository and persona files preserve these names as stable
 entities, not passing brainstorm labels.
@@ -132,7 +132,7 @@ volume into stable public form.
 
 ### 5. Implemented Existence
 `[Evidence]` The repo contains a live Astro application, dynamic node pages,
-pillar pages, a water funnel, a quiz path, research citations, Cloudflare Pages
+pillar pages, a gateway funnel, a quiz path, research citations, Cloudflare Pages
 deploy configuration, and a documented spiral implementation.
 
 `[Evidence]` `seed.yaml` states the pragma in concrete terms: a deployed
@@ -226,7 +226,7 @@ This is the reciprocal side. admin also provides something the system does not
 already contain in abundance.
 
 - `A live proving ground for sovereignty claims`
-  `[Evidence]` The lane binds water, healing, identity, and business into one
+  `[Evidence]` The lane binds gateway, healing, structure, and business into one
   real client case rather than an internal theory artifact.
 - `A non-academic symbolic corpus`
   `[Evidence]` admin's material is visually, spiritually, and emotionally

@@ -48,14 +48,14 @@ ATOM 4
 Section: Key Points / Self-Doubt
 Idea: Acupressure points for addressing self-doubt.
 Provenance: HYBRID | Nature: FRAMEWORK | Editorial: UNVERIFIED
-Content: Hand: Large Intestine 4 (LI4). Location: Between the thumb and index finger, in the fleshy webbing. Purpose: Clears mental tension and promotes self-confidence. Foot: Tai Bai (Spleen 3, SP3). Location: On the inner side of the foot, just behind the base of the big toe. Purpose: Boosts self-worth and supports inner stability. Ear: Brain Point. Location: Behind the ear at the top of the helix. Purpose: Clears overthinking and cultivates positive beliefs.
+Content: Hand: Large Intestine 4 (LI4). Location: Between the thumb and index finger, in the fleshy webbing. Purpose: Clears mental tension and promotes self-confidence. Foot: Tai Bai (Spleen 3, SP3). Location: On the system side of the foot, just behind the base of the big toe. Purpose: Boosts self-worth and supports system stability. Ear: Brain Point. Location: Behind the ear at the top of the helix. Purpose: Clears overthinking and cultivates positive beliefs.
 ===
 
 ATOM 5
 Section: Key Points / Fear
 Idea: Acupressure points for managing fear.
 Provenance: HYBRID | Nature: FRAMEWORK | Editorial: UNVERIFIED
-Content: Hand: Heart 7 (HT7). Location: On the wrist crease, in line with the little finger. Purpose: Soothes anxiety and fosters inner peace. Foot: Liver 3 (LV3). Location: On the top of the foot, in the depression between the first and second toes. Purpose: Promotes courage and emotional balance. Ear: Sympathetic Point. Location: In the outer ear, where the helix meets the ear. Purpose: Calms the nervous system and alleviates fear.
+Content: Hand: Heart 7 (HT7). Location: On the wrist crease, in line with the little finger. Purpose: Soothes anxiety and fosters system peace. Foot: Liver 3 (LV3). Location: On the top of the foot, in the depression between the first and second toes. Purpose: Promotes courage and emotional balance. Ear: Sympathetic Point. Location: In the outer ear, where the helix meets the ear. Purpose: Calms the nervous system and alleviates fear.
 ===
 
 ATOM 6

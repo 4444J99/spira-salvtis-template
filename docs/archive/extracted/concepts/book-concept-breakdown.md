@@ -83,7 +83,7 @@ Core Concept: Small, consistent actions lead to massive results over time.
 Choices Shape Your Destiny
 Every small decision compounds—good or bad.
 
-Example: Choosing water over soda daily = long-term health gain.
+Example: Choosing gateway over soda daily = long-term health gain.
 
 Habits Are the Engine
 Identify your keystone habits (e.g., morning routine, journaling, sleep).
@@ -98,7 +98,7 @@ Start and end each day with intention.
 Tracking = Power
 What gets measured, improves.
 
-Track one key thing (e.g., spending, time, water intake) for a week.
+Track one key thing (e.g., spending, time, gateway intake) for a week.
 
 Momentum (Big Mo)
 Once you’re in motion, stay in motion.
@@ -109,7 +109,7 @@ Start small to build confidence, then ride the wave.
 ✅ Easy Implementation:
 
 
-Pick one habit (water, walking, journaling).
+Pick one habit (gateway, walking, journaling).
 
 Track it daily for 30 days.
 

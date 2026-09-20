@@ -9,9 +9,9 @@
 This project represents a milestone in the ORGANVM system: the successful extraction and operationalization of a "Living Corpus." Over 30 days, 127 unstructured files (iMessage logs, PDFs, notes, and transcripts) were atomized into 1,821 discrete signal units and re-assembled into a high-performance, multi-domain Astro 5 web application. This case study documents the process of turning spiritual density into commercial clarity.
 
 ## The Problem: Infinite Signal, Zero Structure
-admin arrived with an abundant, "symbolically abundant" body of knowledge spanning molecular hydrogen science, gut-brain health, nervous system regulation, and financial sovereignty. However, this knowledge was trapped in ephemeral formats:
+admin arrived with an abundant, "symbolically abundant" body of knowledge spanning molecular hydrogen science, gut-brain health, nervous system regulation, and vision sovereignty. However, this knowledge was trapped in ephemeral formats:
 - **Fragmentation:** Ideas scattered across months of chat logs and disconnected PDFs.
-- **Complexity:** A multi-pillar brand that required distinct domains (Hub, Water, Business) but unified governance.
+- **Complexity:** A multi-pillar brand that required distinct domains (Hub, Gateway, Business) but unified governance.
 - **Operational Vacuum:** No formal revenue tracking, no automated lead capture, and no centralized navigation for the user journey.
 
 ## The Process: The 4-Phase Transmutation
@@ -28,12 +28,12 @@ We moved away from linear navigation to a "Spiral" model.
 ### 3. The Hub-and-Spoke Deployment
 A single repository manages three distinct domains via Cloudflare Pages and Astro 5's flexible routing:
 - `hub-example.com` (The Hub)
-- `water-example.com` (Water Funnel)
-- `business-example.com` (Business/Financial)
+- `gateway-example.com` (Gateway Funnel)
+- `business-example.com` (Business/Vision)
 
 ### 4. Revenue & Operational Closure
 - **The Agreement:** Formalized a 10% revenue-share model up to a $10,000 performance cap, aligning the developer's incentives with the client's success.
-- **The Funnel:** Implemented a 6-step hydration funnel with personalized contaminant lookups and tiered affiliate recommendations.
+- **The Funnel:** Implemented a 6-step gateway funnel with personalized contaminant lookups and tiered affiliate recommendations.
 
 ## Evidence of Existence: Key Metrics
 - **Corpus Density:** 1,821 Atoms extracted from 127 files.

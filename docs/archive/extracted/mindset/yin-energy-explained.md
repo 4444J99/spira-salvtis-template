@@ -16,7 +16,7 @@ source_file: "ChatGPT-Yin energy explained.txt"
 source_folder: "mindset"
 nodes: [5, 13]
 readiness: "Ready"
-pillar: "Inner"
+pillar: "System"
 extracted: 2026-04-03
 ---
 
@@ -41,7 +41,7 @@ context_above: null
 provenance: LOCAL
 nature: NARRATIVE
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL
@@ -65,7 +65,7 @@ context_above: "What is yin energy all about"
 provenance: HYBRID
 nature: PROTOCOL
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: EXISTS
 editorial: CLEAN
 tier: SIGNAL
@@ -81,14 +81,14 @@ Here’s a deeper breakdown of what Yin is all about:
 🌙 Core Essence
 
 
-Yin energy is receptive, intuitive, and nurturing. It’s the energy of the moon, water, night, and the unseen — the realm of the subconscious and the soul. Yin draws inward; it restores, cools, and replenishes. It’s the pause that allows growth, the silence between notes in a song.
+Yin energy is receptive, intuitive, and nurturing. It’s the energy of the moon, gateway, night, and the unseen — the realm of the subconscious and the soul. Yin draws inward; it restores, cools, and replenishes. It’s the pause that allows growth, the silence between notes in a song.
 
 
 
 🧘‍♀️ In the Body
 
 
-Yin rules the feminine, the parasympathetic nervous system, and the inner organs.
+Yin rules the feminine, the parasympathetic nervous system, and the system organs.
 
 It supports rest, digestion, and regeneration.
 
@@ -103,9 +103,9 @@ When Yin is excessive, there can be lethargy, apathy, or emotional heaviness.
 🌿 In Nature
 
 
-Yin corresponds with nighttime, winter, water, the moon, and earth.
+Yin corresponds with nighttime, winter, gateway, the moon, and earth.
 
-Its movement is downward and inward — like roots burrowing into soil or water flowing to the sea.
+Its movement is downward and inward — like roots burrowing into soil or gateway flowing to the sea.
 
 It’s the foundation energy from which Yang (action) arises.
 
@@ -159,7 +159,7 @@ context_above: "Yin energy is one half of the ancient Taoist principle of Yin an
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -183,7 +183,7 @@ context_above: "Can you shorten this into sometime to write on my Instagram post
 provenance: HYBRID
 nature: INSTRUCTION
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -197,7 +197,7 @@ Of course 💫 here’s a shortened, Instagram-friendly version for each — poe
 
 
 Yin is the moon within us — soft, intuitive, and still.
-It’s rest, reflection, water, and the unseen.
+It’s rest, reflection, gateway, and the unseen.
 The energy that heals through quiet, replenishes through surrender,
 and reminds us that slowing down is power.
 
@@ -231,7 +231,7 @@ context_above: "Of course 💫 here’s a shortened, Instagram-friendly version 
 provenance: LOCAL
 nature: QUESTION
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: CONTEXT
@@ -255,7 +255,7 @@ context_above: "Can we just do a call to action or question maybe throw in the a
 provenance: HYBRID
 nature: QUESTION
 nodes: [5, 13]
-pillar: Inner
+pillar: System
 build_state: MISSING
 editorial: CLEAN
 tier: SIGNAL

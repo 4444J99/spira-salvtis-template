@@ -13,7 +13,7 @@
 | Branding/Architecture | 8 | architecture | Sovereign Systems naming, strategy, internal vs public |
 | Book Concept (Parts I-V) | 10 | standalone-product | admin's hybrid book outline — separate product track |
 | Social Media Planning | 9 | social-content | Instagram grid, spiral imagery, content strategy |
-| Health/Diet/Grocery | 6 | branch-enrichment | Physical pillar content routed to appropriate branches |
+| Health/Diet/Grocery | 6 | branch-enrichment | Foundation pillar content routed to appropriate branches |
 | CONTEXT-tier (intent only) | 28 | archive | Decision markers — inform SOP-SS-CLT-001, not build content |
 | Remaining SIGNAL | 2 | reference | Resource links and diagnostic questions |
 | **Total** | **63** | | |
@@ -29,7 +29,7 @@ ATM-R-052, ATM-R-053, ATM-R-054, ATM-R-056, ATM-R-057, ATM-R-062, ATM-R-028, ATM
 
 ### Standalone Product (10 atoms)
 ATM-M-317 through ATM-M-324, ATM-M-295, ATM-M-301
-- Hybrid book outline: Parts I-V (Feel Good First → Regulation → Inner Child → Creativity → Future Self)
+- Hybrid book outline: Parts I-V (Feel Good First → Regulation → System Child → Creativity → Future Self)
 - Puzzle-piece concept for content delivery
 - Route to standalone-product (linked to GH#19 packaging decision)
 
@@ -42,7 +42,7 @@ ATM-M-304 through ATM-M-315, ATM-M-318, ATM-M-319
 ### Branch Enrichment (6 atoms)
 ATM-M-296, ATM-M-298, ATM-M-299, ATM-M-530, ATM-M-531, ATM-M-533
 - Grocery lists, cost-efficient meal planning, health content
-- Route to Physical pillar branches (gut-hormones, athletic)
+- Route to Foundation pillar branches (archetype-epsilon, archetype-alpha)
 
 ### Archive (28 CONTEXT atoms)
 All 28 CONTEXT-tier N/A atoms.
