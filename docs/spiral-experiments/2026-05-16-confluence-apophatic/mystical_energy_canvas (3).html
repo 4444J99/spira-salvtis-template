@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Algorithmic Sacred Geometry: The Complete Synthesis</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{overflow:hidden;font-family:'Courier New',monospace;background:#000;color:#fff}
+.universe{position:relative;width:100vw;height:100vh;background:#000}
+canvas{position:absolute;top:0;left:0}
+#substrateLayer{z-index:1;opacity:0.4}
+#geometryLayer{z-index:2;opacity:0.5}
+#lsystemLayer{z-index:3;opacity:0.7}
+#particleLayer{z-index:4}
+#attractorLayer{z-index:5}
+#quantumLayer{z-index:6;mix-blend-mode:screen}
+
+.control-panel{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.9);padding:20px;border-radius:15px;border:1px solid rgba(138,43,226,0.4);display:flex;flex-direction:column;gap:12px;min-width:520px;max-width:90vw;backdrop-filter:blur(15px);box-shadow:0 0 40px rgba(138,43,226,0.2);z-index:100}
+.algorithm-tabs{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:8px}
+.algo-tab{padding:8px 4px;font-size:9px;background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.15);border-radius:6px;cursor:pointer;transition:all 0.3s;text-transform:uppercase;letter-spacing:0.5px;font-weight:bold}
+.algo-tab:hover{background:rgba(138,43,226,0.3);color:white}
+.algo-tab.active{background:linear-gradient(135deg,#667eea,#764ba2);color:white;border-color:#8A2BE2;box-shadow:0 0 15px rgba(138,43,226,0.5)}
+.control-row{display:flex;gap:15px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.control-group{display:flex;flex-direction:column;gap:3px;flex:1;min-width:80px}
+.control-group label{color:rgba(255,255,255,0.7);font-size:9px;text-transform:uppercase;letter-spacing:0.5px}
+.control-group input[type="range"]{width:100%;height:3px;background:rgba(255,255,255,0.2);border-radius:2px;outline:none;-webkit-appearance:none}
+.control-group input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:12px;height:12px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:50%;cursor:pointer;box-shadow:0 0 8px rgba(138,43,226,0.6)}
+.value-display{color:#FFD700;font-weight:bold;font-size:10px;text-align:right}
+.action-row{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.action-btn{background:linear-gradient(135deg,#667eea,#764ba2);border:none;color:white;padding:8px 14px;border-radius:6px;cursor:pointer;font-size:10px;font-weight:bold;text-transform:uppercase;letter-spacing:0.5px;transition:all 0.3s}
+.action-btn:hover{transform:scale(1.05);box-shadow:0 0 15px rgba(102,126,234,0.6)}
+.action-btn.danger{background:linear-gradient(135deg,#e74c3c,#c0392b)}
+.action-btn.warning{background:linear-gradient(135deg,#f39c12,#e67e22)}
+
+.metrics-panel{position:absolute;top:20px;left:20px;background:rgba(0,0,0,0.9);padding:18px;border-radius:10px;border:1px solid rgba(65,105,225,0.4);color:rgba(255,255,255,0.9);font-size:10px;max-width:280px;backdrop-filter:blur(15px);box-shadow:0 0 30px rgba(65,105,225,0.15);z-index:100}
+.metrics-panel h3{margin-bottom:10px;color:#4169E1;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;border-bottom:1px solid rgba(65,105,225,0.3);padding-bottom:6px}
+.metric{margin:5px 0;display:flex;justify-content:space-between;padding:3px 0;font-size:10px}
+.metric-value{color:#8A2BE2;font-weight:bold;font-family:'Courier New',monospace}
+.metric-bar{width:100%;height:3px;background:rgba(255,255,255,0.1);border-radius:2px;margin-top:2px;overflow:hidden}
+.metric-bar-fill{height:100%;background:linear-gradient(90deg,#4169E1,#8A2BE2,#FFD700);transition:width 0.3s}
+.algo-section{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1)}
+.algo-section h4{color:#FFD700;font-size:10px;margin-bottom:6px;text-transform:uppercase}
+.algo-list{font-size:9px;color:rgba(255,255,255,0.6);line-height:1.6}
+.algo-list .active-algo{color:#00FF88;font-weight:bold}
+
+.info-overlay{position:absolute;top:20px;right:20px;background:rgba(0,0,0,0.9);padding:15px;border-radius:10px;border:1px solid rgba(255,215,0,0.3);color:rgba(255,255,255,0.9);font-size:10px;max-width:260px;backdrop-filter:blur(15px);z-index:100}
+.info-overlay h3{color:#FFD700;font-size:11px;margin-bottom:8px;text-transform:uppercase;letter-spacing:1px}
+.info-overlay p{font-size:10px;line-height:1.5;color:rgba(255,255,255,0.7);margin:4px 0}
+.info-overlay .formula{font-family:'Courier New',monospace;color:#00FFFF;font-size:9px;background:rgba(0,255,255,0.05);padding:4px 6px;border-radius:4px;margin:4px 0;border-left:2px solid #00FFFF}
+
+.fps-counter{position:absolute;bottom:20px;right:20px;background:rgba(0,0,0,0.85);padding:8px 12px;border-radius:6px;border:1px solid rgba(0,255,136,0.3);color:#00FF88;font-size:10px;font-family:'Courier New',monospace;backdrop-filter:blur(10px);z-index:100}
+.title-overlay{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;pointer-events:none;z-index:99;opacity:0.05;font-size:120px;font-weight:bold;background:linear-gradient(135deg,#667eea,#764ba2,#FFD700);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-family:serif;letter-spacing:20px;text-transform:uppercase}
+</style>
+</head>
+<body>
+<div class="universe">
+<canvas id="substrateLayer"></canvas>
+<canvas id="geometryLayer"></canvas>
+<canvas id="lsystemLayer"></canvas>
+<canvas id="particleLayer"></canvas>
+<canvas id="attractorLayer"></canvas>
+<canvas id="quantumLayer"></canvas>
+
+<div class="title-overlay">ॐ</div>
+
+<div class="metrics-panel">
+<h3>⚛ System Metrics</h3>
+<div class="metric"><span>Agents:</span><span class="metric-value" id="m_agents">0</span></div>
+<div class="metric"><span>L-System Depth:</span><span class="metric-value" id="m_lsys">0</span></div>
+<div class="metric"><span>CA Live Cells:</span><span class="metric-value" id="m_ca">0</span></div>
+<div class="metric"><span>Generation:</span><span class="metric-value" id="m_gen">0</span></div>
+<div class="metric"><span>Entropy:</span><span class="metric-value" id="m_entropy">0.00</span></div>
+<div class="metric-bar"><div class="metric-bar-fill" id="b_entropy" style="width:0%"></div></div>
+<div class="metric"><span>Coherence:</span><span class="metric-value" id="m_coherence">0%</span></div>
+<div class="metric-bar"><div class="metric-bar-fill" id="b_coherence" style="width:0%"></div></div>
+<div class="metric"><span>Emergence:</span><span class="metric-value" id="m_emergence">0.00</span></div>
+<div class="metric-bar"><div class="metric-bar-fill" id="b_emergence" style="width:0%"></div></div>
+<div class="metric"><span>Fitness (avg):</span><span class="metric-value" id="m_fitness">0.00</span></div>
+<div class="metric"><span>Quantum Phase:</span><span class="metric-value" id="m_quantum">0.00</span></div>
+
+<div class="algo-section">
+<h4>Active Algorithms</h4>
+<div class="algo-list" id="algoList">
+<div class="active-algo">▸ Perlin Noise Flow Field</div>
+<div class="active-algo">▸ Boids Flocking (Reynolds)</div>
+<div class="active-algo">▸ Strange Attractor Dynamics</div>
+<div>▸ L-System Fractal Growth</div>
+<div>▸ Cellular Automata (Conway)</div>
+<div>▸ Reaction-Diffusion (Gray-Scott)</div>
+<div>▸ Genetic Algorithm Evolution</div>
+<div>▸ Quantum Superposition Field</div>
+<div>▸ Voronoi Spatial Partition</div>
+<div>▸ Fibonacci Spiral (φ=1.618)</div>
+</div>
+</div>
+</div>
+
+<div class="info-overlay" id="infoOverlay">
+<h3 id="infoTitle">⚡ Emergence Mode</h3>
+<p id="infoDesc">All algorithms active. Watch self-organization arise from local rules.</p>
+<div class="formula" id="infoFormula">Σ(local_rules) → global_pattern</div>
+</div>
+
+<div class="fps-counter" id="fpsCounter">FPS: 60 | Frame: 0</div>
+
+<div class="control-panel">
+<div class="algorithm-tabs">
+<button class="algo-tab active" data-mode="all">⚛ All Systems</button>
+<button class="algo-tab" data-mode="lsystem">🌿 L-System</button>
+<button class="algo-tab" data-mode="ca">⬜ Conway</button>
+<button class="algo-tab" data-mode="reaction">🧬 Turing</button>
+<button class="algo-tab" data-mode="genetic">🧠 Genetic</button>
+<button class="algo-tab" data-mode="quantum">🌀 Quantum</button>
+</div>
+
+<div class="control-row">
+<div class="control-group">
+<label>Agents <span class="value-display" id="popValue">144</span></label>
+<input type="range" id="population" min="10" max="500" value="144">
+</div>
+<div class="control-group">
+<label>Attraction <span class="value-display" id="attractValue">50</span></label>
+<input type="range" id="attraction" min="0" max="100" value="50">
+</div>
+<div class="control-group">
+<label>Turbulence <span class="value-display" id="turbValue">30</span></label>
+<input type="range" id="turbulence" min="0" max="100" value="30">
+</div>
+<div class="control-group">
+<label>Cohesion <span class="value-display" id="cohesionValue">40</span></label>
+<input type="range" id="cohesion" min="0" max="100" value="40">
+</div>
+</div>
+
+<div class="control-row">
+<div class="control-group">
+<label>L-Depth <span class="value-display" id="lDepthValue">4</span></label>
+<input type="range" id="lDepth" min="1" max="6" value="4">
+</div>
+<div class="control-group">
+<label>CA Rate <span class="value-display" id="caRateValue">10</span></label>
+<input type="range" id="caRate" min="1" max="30" value="10">
+</div>
+<div class="control-group">
+<label>Mutation <span class="value-display" id="mutValue">5</span></label>
+<input type="range" id="mutation" min="0" max="50" value="5">
+</div>
+<div class="control-group">
+<label>Quantum <span class="value-display" id="qValue">30</span></label>
+<input type="range" id="quantum" min="0" max="100" value="30">
+</div>
+</div>
+
+<div class="action-row">
+<button class="action-btn" id="toggleFlow">⏸ Pause</button>
+<button class="action-btn warning" id="resetSystem">⟳ Regenerate</button>
+<button class="action-btn" id="exportFrame">📸 Capture</button>
+<button class="action-btn" id="toggleTrails">✨ Trails</button>
+<button class="action-btn" id="evolveBtn">🧬 Evolve</button>
+<button class="action-btn" id="seedBtn">🌱 Seed</button>
+<button class="action-btn danger" id="entangleBtn">🌀 Entangle</button>
+</div>
+</div>
+</div>
+
+<script>
+const PHI=1.618033988749895;
+const TAU=Math.PI*2;
+
+// Canvas setup
+const layers={
+substrate:document.getElementById('substrateLayer'),
+geometry:document.getElementById('geometryLayer'),
+lsystem:document.getElementById('lsystemLayer'),
+particle:document.getElementById('particleLayer'),
+attractor:document.getElementById('attractorLayer'),
+quantum:document.getElementById('quantumLayer')
+};
+const ctx={};
+Object.keys(layers).forEach(k=>{
+ctx[k]=layers[k].getContext('2d');
+});
+
+function resizeCanvases(){
+Object.values(layers).forEach(c=>{
+c.width=window.innerWidth;
+c.height=window.innerHeight;
+});
+}
+resizeCanvases();
+
+// ============================================
+// PERLIN NOISE
+// ============================================
+class PerlinNoise{
+constructor(){this.gradients={};this.memory={}}
+randVect(){const t=Math.random()*TAU;return{x:Math.cos(t),y:Math.sin(t)}}
+dotGrid(x,y,vx,vy){
+const key=`${vx},${vy}`;
+let g=this.gradients[key]||(this.gradients[key]=this.randVect());
+return(x-vx)*g.x+(y-vy)*g.y;
+}
+smooth(x){return 6*x**5-15*x**4+10*x**3}
+interp(x,a,b){return a+this.smooth(x)*(b-a)}
+get(x,y){
+const key=`${Math.floor(x*100)},${Math.floor(y*100)}`;
+if(this.memory[key])return this.memory[key];
+const xf=Math.floor(x),yf=Math.floor(y);
+const tl=this.dotGrid(x,y,xf,yf),tr=this.dotGrid(x,y,xf+1,yf);
+const bl=this.dotGrid(x,y,xf,yf+1),br=this.dotGrid(x,y,xf+1,yf+1);
+const xt=this.interp(x-xf,tl,tr),xb=this.interp(x-xf,bl,br);
+const v=this.interp(y-yf,xt,xb);
+if(Object.keys(this.memory).length<10000)this.memory[key]=v;
+return v;
+}
+}
+const perlin=new PerlinNoise();
+
+// ============================================
+// L-SYSTEM (Lindenmayer)
+// ============================================
+class LSystem{
+constructor(){
+this.axiom='F';
+this.rules={
+'F':'F[+F]F[-F][F]',
+'+':'+',
+'-':'-',
+'[':'[',
+']':']'
+};
+this.angle=Math.PI/7;
+this.length=8;
+this.string=this.axiom;
+this.iterations=0;
+}
+iterate(){
+let result='';
+for(let c of this.string){
+result+=this.rules[c]||c;
+}
+this.string=result;
+this.iterations++;
+}
+generate(depth){
+this.string=this.axiom;
+this.iterations=0;
+for(let i=0;i<depth;i++){
+if(this.string.length<50000)this.iterate();
+}
+}
+draw(ctx,startX,startY,initialAngle=-Math.PI/2){
+const stack=[];
+let x=startX,y=startY,angle=initialAngle;
+let depth=0;
+const len=this.length*Math.pow(0.7,Math.max(0,this.iterations-3));
+
+ctx.lineWidth=1;
+for(let c of this.string){
+switch(c){
+case 'F':
+const nx=x+Math.cos(angle)*len;
+const ny=y+Math.sin(angle)*len;
+const alpha=Math.max(0.1,0.8-depth*0.1);
+const hue=(depth*30+this.iterations*40)%360;
+ctx.strokeStyle=`hsla(${hue},80%,60%,${alpha})`;
+ctx.beginPath();
+ctx.moveTo(x,y);
+ctx.lineTo(nx,ny);
+ctx.stroke();
+// Glow nodes at branch points
+if(Math.random()<0.05){
+ctx.fillStyle=`hsla(${hue},100%,70%,0.6)`;
+ctx.beginPath();
+ctx.arc(nx,ny,1.5,0,TAU);
+ctx.fill();
+}
+x=nx;y=ny;
+break;
+case '+':angle+=this.angle;break;
+case '-':angle-=this.angle;break;
+case '[':stack.push({x,y,angle,depth});depth++;break;
+case ']':const s=stack.pop();if(s){x=s.x;y=s.y;angle=s.angle;depth=s.depth}break;
+}
+}
+}
+}
+const lsystem=new LSystem();
+
+// ============================================
+// CELLULAR AUTOMATA (Conway's Game of Life)
+// ============================================
+class CellularAutomata{
+constructor(width,height,cellSize=8){
+this.cellSize=cellSize;
+this.cols=Math.ceil(width/cellSize);
+this.rows=Math.ceil(height/cellSize);
+this.grid=this.createGrid();
+this.generation=0;
+this.updateInterval=10;
+this.lastUpdate=0;
+}
+createGrid(){
+const grid=[];
+for(let y=0;y<this.rows;y++){
+grid[y]=[];
+for(let x=0;x<this.cols;x++){
+grid[y][x]=Math.random()<0.15?1:0;
+}
+}
+return grid;
+}
+countNeighbors(x,y){
+let count=0;
+for(let dy=-1;dy<=1;dy++){
+for(let dx=-1;dx<=1;dx++){
+if(dx===0&&dy===0)continue;
+const nx=(x+dx+this.cols)%this.cols;
+const ny=(y+dy+this.rows)%this.rows;
+count+=this.grid[ny][nx];
+}
+}
+return count;
+}
+step(){
+const newGrid=[];
+for(let y=0;y<this.rows;y++){
+newGrid[y]=[];
+for(let x=0;x<this.cols;x++){
+const neighbors=this.countNeighbors(x,y);
+const cell=this.grid[y][x];
+if(cell===1){
+newGrid[y][x]=(neighbors===2||neighbors===3)?1:0;
+}else{
+newGrid[y][x]=neighbors===3?1:0;
+}
+}
+}
+this.grid=newGrid;
+this.generation++;
+}
+draw(ctx){
+ctx.clearRect(0,0,layers.substrate.width,layers.substrate.height);
+let liveCount=0;
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+if(this.grid[y][x]===1){
+liveCount++;
+const px=x*this.cellSize;
+const py=y*this.cellSize;
+const hue=(this.generation*2+x+y)%360;
+ctx.fillStyle=`hsla(${hue},60%,40%,0.5)`;
+ctx.fillRect(px,py,this.cellSize-1,this.cellSize-1);
+// Glow effect
+ctx.fillStyle=`hsla(${hue},80%,60%,0.2)`;
+ctx.fillRect(px-1,py-1,this.cellSize+1,this.cellSize+1);
+}
+}
+}
+return liveCount;
+}
+seedPattern(x,y,pattern='glider'){
+const patterns={
+glider:[[0,1,0],[0,0,1],[1,1,1]],
+blinker:[[1,1,1]],
+pulsar:[
+[0,0,1,1,1,0,0,0,1,1,1,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[0,0,1,1,1,0,0,0,1,1,1,0,0],
+[0,0,0,0,0,0,0,0,0,0,0,0,0],
+[0,0,1,1,1,0,0,0,1,1,1,0,0],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[1,0,0,0,0,1,0,1,0,0,0,0,1],
+[0,0,0,0,0,0,0,0,0,0,0,0,0],
+[0,0,1,1,1,0,0,0,1,1,1,0,0]
+]
+};
+const p=patterns[pattern];
+const gx=Math.floor(x/this.cellSize);
+const gy=Math.floor(y/this.cellSize);
+p.forEach((row,dy)=>{
+row.forEach((cell,dx)=>{
+const nx=(gx+dx)%this.cols;
+const ny=(gy+dy)%this.rows;
+if(nx>=0&&ny>=0&&this.grid[ny])this.grid[ny][nx]=cell;
+});
+});
+}
+}
+let ca=null;
+
+// ============================================
+// REACTION-DIFFUSION (Gray-Scott)
+// ============================================
+class ReactionDiffusion{
+constructor(width,height,scale=4){
+this.scale=scale;
+this.cols=Math.ceil(width/scale);
+this.rows=Math.ceil(height/scale);
+this.grid=this.createGrid();
+this.next=this.createGrid();
+this.dA=1.0;
+this.dB=0.5;
+this.feed=0.055;
+this.kill=0.062;
+this.dt=1;
+}
+createGrid(){
+const g=[];
+for(let y=0;y<this.rows;y++){
+g[y]=[];
+for(let x=0;x<this.cols;x++){
+g[y][x]={a:1,b:0};
+}
+}
+// Seed with disturbances
+for(let i=0;i<20;i++){
+const cx=Math.floor(Math.random()*this.cols);
+const cy=Math.floor(Math.random()*this.rows);
+for(let dy=-3;dy<=3;dy++){
+for(let dx=-3;dx<=3;dx++){
+const nx=cx+dx,ny=cy+dy;
+if(nx>=0&&nx<this.cols&&ny>=0&&ny<this.rows){
+g[ny][nx].b=1;
+}
+}
+}
+}
+return g;
+}
+laplace(grid,x,y,prop){
+let sum=-grid[y][x][prop];
+const neighbors=[[1,0],[-1,0],[0,1],[0,-1]];
+neighbors.forEach(([dx,dy])=>{
+const nx=(x+dx+this.cols)%this.cols;
+const ny=(y+dy+this.rows)%this.rows;
+sum+=grid[ny][nx][prop]*0.2;
+});
+const diagonals=[[1,1],[-1,1],[1,-1],[-1,-1]];
+diagonals.forEach(([dx,dy])=>{
+const nx=(x+dx+this.cols)%this.cols;
+const ny=(y+dy+this.rows)%this.rows;
+sum+=grid[ny][nx][prop]*0.05;
+});
+return sum;
+}
+step(){
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+const a=this.grid[y][x].a;
+const b=this.grid[y][x].b;
+const lapA=this.laplace(this.grid,x,y,'a');
+const lapB=this.laplace(this.grid,x,y,'b');
+const abb=a*b*b;
+this.next[y][x].a=Math.max(0,Math.min(1,a+(this.dA*lapA-abb+this.feed*(1-a))*this.dt));
+this.next[y][x].b=Math.max(0,Math.min(1,b+(this.dB*lapB+abb-(this.kill+this.feed)*b)*this.dt));
+}
+}
+[this.grid,this.next]=[this.next,this.grid];
+}
+draw(ctx){
+const imgData=ctx.createImageData(layers.substrate.width,layers.substrate.height);
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+const cell=this.grid[y][x];
+const val=Math.floor((cell.a-cell.b)*255);
+const r=Math.max(0,Math.min(255,val*0.5));
+const g=Math.max(0,Math.min(255,val*0.3+50));
+const b=Math.max(0,Math.min(255,255-val));
+for(let dy=0;dy<this.scale;dy++){
+for(let dx=0;dx<this.scale;dx++){
+const px=x*this.scale+dx;
+const py=y*this.scale+dy;
+if(px<imgData.width&&py<imgData.height){
+const i=(py*imgData.width+px)*4;
+imgData.data[i]=r;
+imgData.data[i+1]=g;
+imgData.data[i+2]=b;
+imgData.data[i+3]=80;
+}
+}
+}
+}
+}
+ctx.putImageData(imgData,0,0);
+}
+}
+let rd=null;
+
+// ============================================
+// STRANGE ATTRACTORS
+// ============================================
+class StrangeAttractor{
+constructor(x,y,symbol){
+this.x=x;this.y=y;
+this.baseX=x;this.baseY=y;
+this.symbol=symbol;
+this.strength=0.5;
+this.radius=150;
+this.phase=Math.random()*TAU;
+this.entangled=null;
+}
+update(time){
+this.phase+=0.01;
+this.strength=0.5+Math.sin(this.phase)*0.3;
+// Slight oscillation
+this.x=this.baseX+Math.sin(time*0.001+this.phase)*5;
+this.y=this.baseY+Math.cos(time*0.0015+this.phase)*5;
+}
+attract(agent){
+const dx=this.x-agent.x;
+const dy=this.y-agent.y;
+const dist=Math.hypot(dx,dy);
+if(dist<this.radius&&dist>1){
+const force=(this.strength*config.attractionStrength)/(dist*dist)*10;
+return{x:(dx/dist)*force,y:(dy/dist)*force};
+}
+return{x:0,y:0};
+}
+draw(ctx){
+ctx.save();
+ctx.translate(this.x,this.y);
+const isTop=this.y<layers.attractor.height/2;
+ctx.shadowColor=isTop?'#4169E1':'#8A2BE2';
+ctx.shadowBlur=30*this.strength;
+ctx.font='42px serif';
+ctx.textAlign='center';
+ctx.textBaseline='middle';
+ctx.fillStyle='rgba(255,255,255,0.95)';
+ctx.fillText(this.symbol,0,0);
+ctx.restore();
+
+// Influence radius
+ctx.beginPath();
+ctx.arc(this.x,this.y,this.radius*this.strength,0,TAU);
+ctx.strokeStyle=this.y<layers.attractor.height/2?'rgba(65,105,225,0.15)':'rgba(138,43,226,0.15)';
+ctx.lineWidth=1;
+ctx.stroke();
+
+// Entanglement visualization
+if(this.entangled){
+ctx.beginPath();
+ctx.moveTo(this.x,this.y);
+ctx.lineTo(this.entangled.x,this.entangled.y);
+const gradient=ctx.createLinearGradient(this.x,this.y,this.entangled.x,this.entangled.y);
+gradient.addColorStop(0,`hsla(${time%360},80%,60%,0.4)`);
+gradient.addColorStop(0.5,`hsla(${(time+120)%360},80%,60%,0.6)`);
+gradient.addColorStop(1,`hsla(${(time+240)%360},80%,60%,0.4)`);
+ctx.strokeStyle=gradient;
+ctx.lineWidth=2;
+ctx.setLineDash([5,5]);
+ctx.stroke();
+ctx.setLineDash([]);
+}
+}
+}
+
+// ============================================
+// GENETIC AGENT (with evolution)
+// ============================================
+class Agent{
+constructor(x,y,genome=null){
+this.x=x;this.y=y;
+this.vx=(Math.random()-0.5)*2;
+this.vy=(Math.random()-0.5)*2;
+this.ax=0;this.ay=0;
+this.maxSpeed=3;
+// Genome: evolvable parameters
+this.genome=genome||{
+attractWeight:Math.random()*2,
+cohesionWeight:Math.random()*2,
+alignWeight:Math.random()*2,
+separationWeight:Math.random()*2,
+flowWeight:Math.random()*2,
+hueShift:Math.random()*5,
+size:1+Math.random()*2
+};
+this.hue=Math.random()*360;
+this.size=this.genome.size;
+this.trail=[];
+this.fitness=0;
+this.age=0;
+this.maxAge=300+Math.random()*200;
+}
+applyForce(fx,fy){this.ax+=fx;this.ay+=fy}
+
+flowFieldForce(time){
+const scale=0.005;
+const nx=perlin.get(this.x*scale,time*0.0001);
+const ny=perlin.get(this.y*scale+1000,time*0.0001);
+const angle=nx*TAU*2;
+const strength=ny*config.turbulence*0.01*this.genome.flowWeight;
+return{x:Math.cos(angle)*strength,y:Math.sin(angle)*strength};
+}
+
+flocking(agents){
+const perception=50;
+let neighbors=0,avgVx=0,avgVy=0,avgPx=0,avgPy=0,sepX=0,sepY=0;
+for(let i=0;i<agents.length;i++){
+const other=agents[i];
+if(other===this)continue;
+const dx=this.x-other.x,dy=this.y-other.y;
+const dist=Math.hypot(dx,dy);
+if(dist<perception&&dist>0){
+neighbors++;
+avgVx+=other.vx;avgVy+=other.vy;
+avgPx+=other.x;avgPy+=other.y;
+sepX+=dx/dist;sepY+=dy/dist;
+}
+}
+if(neighbors>0){
+const cf=config.cohesion*0.001;
+avgVx/=neighbors;avgVy/=neighbors;
+avgPx/=neighbors;avgPy/=neighbors;
+this.applyForce((avgVx-this.vx)*0.05*cf*this.genome.alignWeight,(avgVy-this.vy)*0.05*cf*this.genome.alignWeight);
+this.applyForce((avgPx-this.x)*0.001*cf*this.genome.cohesionWeight,(avgPy-this.y)*0.001*cf*this.genome.cohesionWeight);
+this.applyForce(sepX*0.02*this.genome.separationWeight,sepY*0.02*this.genome.separationWeight);
+}
+}
+
+update(time,agents,attractors){
+const flow=this.flowFieldForce(time);
+this.applyForce(flow.x,flow.y);
+this.flocking(agents);
+
+// Attractors with genetic weight
+attractors.forEach(att=>{
+const f=att.attract(this);
+this.applyForce(f.x*this.genome.attractWeight*0.1,f.y*this.genome.attractWeight*0.1);
+// Fitness: reward for being near attractors
+const dist=Math.hypot(att.x-this.x,att.y-this.y);
+if(dist<att.radius)this.fitness+=(att.radius-dist)/att.radius*0.01;
+});
+
+this.vx+=this.ax;this.vy+=this.ay;
+const speed=Math.hypot(this.vx,this.vy);
+if(speed>this.maxSpeed){
+this.vx=(this.vx/speed)*this.maxSpeed;
+this.vy=(this.vy/speed)*this.maxSpeed;
+}
+this.x+=this.vx;this.y+=this.vy;
+
+if(config.showTrails){
+this.trail.push({x:this.x,y:this.y});
+if(this.trail.length>15)this.trail.shift();
+}else{
+this.trail=[];
+}
+
+this.ax=0;this.ay=0;
+this.hue=(this.hue+this.genome.hueShift)%360;
+this.age++;
+
+// Wrap
+if(this.x<0)this.x=layers.particle.width;
+if(this.x>layers.particle.width)this.x=0;
+if(this.y<0)this.y=layers.particle.height;
+if(this.y>layers.particle.height)this.y=0;
+}
+
+draw(ctx){
+if(config.showTrails&&this.trail.length>1){
+ctx.beginPath();
+ctx.moveTo(this.trail[0].x,this.trail[0].y);
+for(let i=1;i<this.trail.length;i++){
+ctx.lineTo(this.trail[i].x,this.trail[i].y);
+}
+ctx.strokeStyle=`hsla(${this.hue},80%,60%,0.3)`;
+ctx.lineWidth=this.size*0.4;
+ctx.stroke();
+}
+
+const grad=ctx.createRadialGradient(this.x,this.y,0,this.x,this.y,this.size*3);
+grad.addColorStop(0,`hsla(${this.hue},100%,80%,0.9)`);
+grad.addColorStop(0.5,`hsla(${this.hue},100%,60%,0.5)`);
+grad.addColorStop(1,`hsla(${this.hue},100%,40%,0)`);
+ctx.fillStyle=grad;
+ctx.beginPath();
+ctx.arc(this.x,this.y,this.size*3,0,TAU);
+ctx.fill();
+}
+}
+
+// Genetic algorithm evolution
+function evolvePopulation(agents){
+agents.sort((a,b)=>b.fitness-a.fitness);
+const survivors=agents.slice(0,Math.floor(agents.length/2));
+const offspring=[];
+for(let i=0;i<agents.length-survivors.length;i++){
+const p1=survivors[Math.floor(Math.random()*survivors.length)];
+const p2=survivors[Math.floor(Math.random()*survivors.length)];
+const childGenome={};
+Object.keys(p1.genome).forEach(key=>{
+childGenome[key]=Math.random()<0.5?p1.genome[key]:p2.genome[key];
+if(Math.random()<config.mutationRate*0.01){
+childGenome[key]*=(0.8+Math.random()*0.4);
+}
+});
+offspring.push(new Agent(Math.random()*layers.particle.width,Math.random()*layers.particle.height,childGenome));
+}
+return[...survivors.map(s=>{
+s.fitness=0;
+return s;
+}),...offspring];
+}
+
+// ============================================
+// QUANTUM FIELD (Superposition + Entanglement)
+// ============================================
+class QuantumField{
+constructor(){
+this.particles=[];
+this.entanglements=[];
+}
+addQuantumParticle(x,y){
+this.particles.push({
+x,y,
+states:[
+{x:x-30,y:y-30,phase:0},
+{x:x+30,y:y-30,phase:TAU/3},
+{x:x-30,y:y+30,phase:2*TAU/3},
+{x:x+30,y:y+30,phase:Math.PI}
+],
+collapsed:false,
+phase:Math.random()*TAU
+});
+}
+update(time){
+this.particles.forEach(p=>{
+p.phase+=0.02;
+p.states.forEach(s=>{
+s.phase+=0.05;
+});
+});
+}
+draw(ctx){
+ctx.globalCompositeOperation='screen';
+this.particles.forEach(p=>{
+if(p.collapsed){
+ctx.fillStyle=`hsla(${time%360},100%,70%,0.5)`;
+ctx.beginPath();
+ctx.arc(p.x,p.y,3,0,TAU);
+ctx.fill();
+}else{
+// Show superposition
+p.states.forEach((s,i)=>{
+const alpha=0.3*(0.5+Math.sin(s.phase)*0.5);
+const hue=(time+i*90)%360;
+const grad=ctx.createRadialGradient(s.x,s.y,0,s.x,s.y,15);
+grad.addColorStop(0,`hsla(${hue},100%,60%,${alpha})`);
+grad.addColorStop(1,`hsla(${hue},100%,60%,0)`);
+ctx.fillStyle=grad;
+ctx.beginPath();
+ctx.arc(s.x,s.y,15,0,TAU);
+ctx.fill();
+});
+// Probability wave
+ctx.strokeStyle=`hsla(${time%360},60%,50%,0.2)`;
+ctx.lineWidth=1;
+ctx.beginPath();
+ctx.arc(p.x,p.y,40+Math.sin(p.phase)*10,0,TAU);
+ctx.stroke();
+}
+});
+ctx.globalCompositeOperation='source-over';
+}
+}
+const quantumField=new QuantumField();
+
+// ============================================
+// SACRED GEOMETRY
+// ============================================
+function drawSacredGeometry(){
+const ctx=layers.geometry.getContext('2d');
+ctx.clearRect(0,0,layers.geometry.width,layers.geometry.height);
+const cx=layers.geometry.width/2;
+const cy=layers.geometry.height/2;
+
+// Flower of Life
+const r=40;
+const positions=[{x:cx,y:cy}];
+for(let i=0;i<6;i++){
+const a=(i/6)*TAU;
+positions.push({x:cx+Math.cos(a)*r,y:cy+Math.sin(a)*r});
+}
+positions.forEach(p=>{
+ctx.beginPath();
+ctx.arc(p.x,p.y,r,0,TAU);
+ctx.strokeStyle='rgba(255,255,255,0.08)';
+ctx.lineWidth=0.5;
+ctx.stroke();
+});
+
+// Metatron's Cube
+const mcPoints=[];
+for(let i=0;i<6;i++){
+const a=(i/6)*TAU;
+mcPoints.push({x:cx+Math.cos(a)*120,y:cy+Math.sin(a)*120});
+}
+mcPoints.push({x:cx,y:cy});
+for(let i=0;i<mcPoints.length;i++){
+for(let j=i+1;j<mcPoints.length;j++){
+ctx.beginPath();
+ctx.moveTo(mcPoints[i].x,mcPoints[i].y);
+ctx.lineTo(mcPoints[j].x,mcPoints[j].y);
+ctx.strokeStyle='rgba(138,43,226,0.1)';
+ctx.lineWidth=0.5;
+ctx.stroke();
+}
+}
+
+// Fibonacci Spiral
+ctx.beginPath();
+for(let i=0;i<=1080;i++){
+const a=i*(Math.PI/180);
+const rad=3*Math.pow(PHI,a/TAU);
+const x=cx+Math.cos(a)*rad;
+const y=cy+Math.sin(a)*rad;
+if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);
+if(rad>500)break;
+}
+ctx.strokeStyle='rgba(65,105,225,0.2)';
+ctx.lineWidth=1;
+ctx.stroke();
+}
+
+// ============================================
+// CONFIG & STATE
+// ============================================
+const config={
+population:144,
+attractionStrength:50,
+turbulence:30,
+cohesion:40,
+lDepth:4,
+caRate:10,
+mutationRate:5,
+quantumStrength:30,
+isPaused:false,
+showTrails:true,
+mode:'all',
+activeAlgorithms:{
+perlin:true,
+boids:true,
+attractors:true,
+lsystem:true,
+ca:true,
+reaction:false,
+genetic:true,
+quantum:true
+}
+};
+
+let agents=[];
+let attractors=[];
+let time=0;
+let frameCount=0;
+let lastTime=performance.now();
+let fps=60;
+let generation=0;
+
+// ============================================
+// INITIALIZATION
+// ============================================
+function initializeSystem(){
+agents=[];
+attractors=[];
+generation=0;
+
+const cx=layers.particle.width/2;
+const cy=layers.particle.height/2;
+const spacing=Math.min(280,layers.particle.width/4);
+
+const symbols=['✠','☾','☸','ॐ','✠','☾'];
+const positions=[
+{x:cx-spacing,y:layers.particle.height*0.2},
+{x:cx,y:layers.particle.height*0.2},
+{x:cx+spacing,y:layers.particle.height*0.2},
+{x:cx-spacing,y:layers.particle.height*0.8},
+{x:cx,y:layers.particle.height*0.8},
+{x:cx+spacing,y:layers.particle.height*0.8}
+];
+
+positions.forEach((p,i)=>{
+attractors.push(new StrangeAttractor(p.x,p.y,symbols[i]));
+});
+
+for(let i=0;i<config.population;i++){
+agents.push(new Agent(Math.random()*layers.particle.width,Math.random()*layers.particle.height));
+}
+
+// Reset systems
+lsystem.generate(config.lDepth);
+ca=new CellularAutomata(layers.substrate.width,layers.substrate.height,8);
+rd=new ReactionDiffusion(layers.substrate.width,layers.substrate.height,6);
+
+// Quantum particles
+quantumField.particles=[];
+for(let i=0;i<8;i++){
+quantumField.addQuantumParticle(
+Math.random()*layers.particle.width,
+Math.random()*layers.particle.height
+);
+}
+
+drawSacredGeometry();
+drawLSystem();
+}
+
+function drawLSystem(){
+const ctx=layers.lsystem.getContext('2d');
+ctx.clearRect(0,0,layers.lsystem.width,layers.lsystem.height);
+// Draw L-system from each attractor
+attractors.forEach((att,i)=>{
+const angle=att.y<layers.lsystem.height/2?Math.PI/2:-Math.PI/2;
+lsystem.draw(ctx,att.x,att.y,angle);
+});
+}
+
+// ============================================
+// METRICS
+// ============================================
+function calculateMetrics(){
+let totalDist=0,count=0;
+const sample=Math.min(agents.length,30);
+for(let i=0;i<sample;i++){
+for(let j=i+1;j<sample;j++){
+totalDist+=Math.hypot(agents[i].x-agents[j].x,agents[i].y-agents[j].y);
+count++;
+}
+}
+const entropy=count>0?(totalDist/count)/100:0;
+
+let avgSpeed=0;
+agents.forEach(a=>avgSpeed+=Math.hypot(a.vx,a.vy));
+avgSpeed/=agents.length||1;
+let variance=0;
+agents.forEach(a=>{
+const sp=Math.hypot(a.vx,a.vy);
+variance+=(sp-avgSpeed)**2;
+});
+variance/=agents.length||1;
+const coherence=Math.max(0,100-variance*10);
+
+let cluster=0;
+attractors.forEach(att=>{
+agents.forEach(ag=>{
+const d=Math.hypot(ag.x-att.x,ag.y-att.y);
+if(d<att.radius)cluster+=(att.radius-d)/att.radius;
+});
+});
+const emergence=(cluster/(agents.length||1));
+
+let avgFit=0;
+agents.forEach(a=>avgFit+=a.fitness);
+avgFit/=agents.length||1;
+
+return{entropy,coherence,emergence,avgFitness:avgFit};
+}
+
+// ============================================
+// ANIMATION LOOP
+// ============================================
+function animate(){
+if(!config.isPaused){
+// Substrate layer (CA or RD)
+if(config.activeAlgorithms.ca&&time%config.caRate===0){
+ca.step();
+}
+if(config.activeAlgorithms.reaction){
+for(let i=0;i<5;i++)rd.step();
+}
+
+const subCtx=ctx.substrate;
+subCtx.clearRect(0,0,layers.substrate.width,layers.substrate.height);
+let liveCells=0;
+if(config.activeAlgorithms.ca){
+liveCells=ca.draw(subCtx);
+}
+if(config.activeAlgorithms.reaction){
+rd.draw(subCtx);
+}
+
+// L-system regenerate occasionally
+if(time%180===0&&config.activeAlgorithms.lsystem){
+drawLSystem();
+}
+
+// Particles with fade
+ctx.particle.fillStyle='rgba(0,0,0,0.12)';
+ctx.particle.fillRect(0,0,layers.particle.width,layers.particle.height);
+
+// Attractors
+ctx.attractor.clearRect(0,0,layers.attractor.width,layers.attractor.height);
+attractors.forEach(att=>{
+att.update(time);
+att.draw(ctx.attractor);
+});
+
+// Agents
+agents.forEach(agent=>{
+agent.update(time,agents,attractors);
+agent.draw(ctx.particle);
+});
+
+// Quantum
+ctx.quantum.clearRect(0,0,layers.quantum.width,layers.quantum.height);
+if(config.activeAlgorithms.quantum){
+quantumField.update(time);
+quantumField.draw(ctx.quantum);
+}
+
+// Update metrics
+const m=calculateMetrics();
+document.getElementById('m_agents').textContent=agents.length;
+document.getElementById('m_lsys').textContent=lsystem.iterations;
+document.getElementById('m_ca').textContent=liveCells;
+document.getElementById('m_gen').textContent=generation;
+document.getElementById('m_entropy').textContent=m.entropy.toFixed(2);
+document.getElementById('m_coherence').textContent=m.coherence.toFixed(0)+'%';
+document.getElementById('m_emergence').textContent=m.emergence.toFixed(2);
+document.getElementById('m_fitness').textContent=m.avgFitness.toFixed(2);
+document.getElementById('m_quantum').textContent=(quantumField.particles.length>0?quantumField.particles[0].phase.toFixed(2):'0.00');
+
+document.getElementById('b_entropy').style.width=Math.min(100,m.entropy*10)+'%';
+document.getElementById('b_coherence').style.width=m.coherence+'%';
+document.getElementById('b_emergence').style.width=Math.min(100,m.emergence*20)+'%';
+
+time++;
+
+// Auto-evolve every 500 frames
+if(time%500===0&&config.activeAlgorithms.genetic){
+agents=evolvePopulation(agents);
+generation++;
+}
+}
+
+frameCount++;
+const now=performance.now();
+if(now-lastTime>=1000){
+fps=frameCount;
+document.getElementById('fpsCounter').textContent=`FPS: ${fps} | Frame: ${time}`;
+frameCount=0;
+lastTime=now;
+}
+
+requestAnimationFrame(animate);
+}
+
+// ============================================
+// CONTROLS
+// ============================================
+document.getElementById('population').addEventListener('input',e=>{
+config.population=parseInt(e.target.value);
+document.getElementById('popValue').textContent=config.population;
+while(agents.length<config.population){
+agents.push(new Agent(Math.random()*layers.particle.width,Math.random()*layers.particle.height));
+}
+while(agents.length>config.population)agents.pop();
+});
+document.getElementById('attraction').addEventListener('input',e=>{
+config.attractionStrength=parseInt(e.target.value);
+document.getElementById('attractValue').textContent=config.attractionStrength;
+});
+document.getElementById('turbulence').addEventListener('input',e=>{
+config.turbulence=parseInt(e.target.value);
+document.getElementById('turbValue').textContent=config.turbulence;
+});
+document.getElementById('cohesion').addEventListener('input',e=>{
+config.cohesion=parseInt(e.target.value);
+document.getElementById('cohesionValue').textContent=config.cohesion;
+});
+document.getElementById('lDepth').addEventListener('input',e=>{
+config.lDepth=parseInt(e.target.value);
+document.getElementById('lDepthValue').textContent=config.lDepth;
+lsystem.generate(config.lDepth);
+drawLSystem();
+});
+document.getElementById('caRate').addEventListener('input',e=>{
+config.caRate=parseInt(e.target.value);
+document.getElementById('caRateValue').textContent=config.caRate;
+});
+document.getElementById('mutation').addEventListener('input',e=>{
+config.mutationRate=parseInt(e.target.value);
+document.getElementById('mutValue').textContent=config.mutationRate;
+});
+document.getElementById('quantum').addEventListener('input',e=>{
+config.quantumStrength=parseInt(e.target.value);
+document.getElementById('qValue').textContent=config.quantumStrength;
+});
+
+document.getElementById('toggleFlow').addEventListener('click',e=>{
+config.isPaused=!config.isPaused;
+e.target.textContent=config.isPaused?'▶ Resume':'⏸ Pause';
+});
+document.getElementById('resetSystem').addEventListener('click',()=>{
+initializeSystem();
+});
+document.getElementById('toggleTrails').addEventListener('click',e=>{
+config.showTrails=!config.showTrails;
+e.target.textContent=config.showTrails?'✨ Hide Trails':'✨ Show Trails';
+});
+document.getElementById('exportFrame').addEventListener('click',()=>{
+// Composite all layers
+const composite=document.createElement('canvas');
+composite.width=layers.particle.width;
+composite.height=layers.particle.height;
+const cCtx=composite.getContext('2d');
+cCtx.fillStyle='#000';
+cCtx.fillRect(0,0,composite.width,composite.height);
+Object.values(layers).forEach(l=>cCtx.drawImage(l,0,0));
+const link=document.createElement('a');
+link.download=`sacred-geometry-${Date.now()}.png`;
+link.href=composite.toDataURL();
+link.click();
+});
+document.getElementById('evolveBtn').addEventListener('click',()=>{
+agents=evolvePopulation(agents);
+generation++;
+});
+document.getElementById('seedBtn').addEventListener('click',()=>{
+if(ca){
+const x=Math.random()*layers.substrate.width;
+const y=Math.random()*layers.substrate.height;
+ca.seedPattern(x,y,'pulsar');
+}
+quantumField.addQuantumParticle(
+Math.random()*layers.particle.width,
+Math.random()*layers.particle.height
+);
+});
+document.getElementById('entangleBtn').addEventListener('click',()=>{
+// Entangle attractors
+for(let i=0;i<attractors.length;i++){
+attractors[i].entangled=attractors[(i+3)%attractors.length];
+}
+// Collapse quantum particles
+quantumField.particles.forEach(p=>{
+p.collapsed=!p.collapsed;
+});
+});
+
+// Algorithm mode tabs
+const modeInfo={
+all:{title:'⚛ All Systems Active',desc:'Every algorithm running simultaneously. Watch emergence arise from their interaction.',formula:'Σ(perlin + boids + attractors + L-system + CA + quantum) → consciousness'},
+lsystem:{title:'🌿 L-System Focus',desc:'Lindenmayer systems generate fractal branching structures from simple recursive rules.',formula:'F → F[+F]F[-F][F]'},
+ca:{title:'⬜ Conway\'s Game of Life',desc:'Cellular automaton with three rules creating universal computation.',formula:'birth: n=3 | survive: n∈{2,3} | death: otherwise'},
+reaction:{title:'🧬 Reaction-Diffusion',desc:'Gray-Scott model produces Turing patterns - morphogenesis equations.',formula:'∂u/∂t = Du∇²u - uv² + F(1-u)'},
+genetic:{title:'🧠 Genetic Algorithm',desc:'Agents evolve through selection, crossover, and mutation toward higher fitness.',formula:'fitness × reproduction × mutation → adaptation'},
+quantum:{title:'🌀 Quantum Field',desc:'Superposition states collapse upon observation. Entanglement creates non-local correlations.',formula:'|ψ⟩ = α|0⟩ + β|1⟩ until observed'}
+};
+
+document.querySelectorAll('.algo-tab').forEach(tab=>{
+tab.addEventListener('click',e=>{
+document.querySelectorAll('.algo-tab').forEach(t=>t.classList.remove('active'));
+e.target.classList.add('active');
+config.mode=e.target.dataset.mode;
+
+const info=modeInfo[config.mode];
+document.getElementById('infoTitle').textContent=info.title;
+document.getElementById('infoDesc').textContent=info.desc;
+document.getElementById('infoFormula').textContent=info.formula;
+
+// Toggle algorithm activity
+if(config.mode==='all'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=true);
+config.activeAlgorithms.reaction=false; // Heavy, off by default
+}else if(config.mode==='reaction'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=false);
+config.activeAlgorithms.reaction=true;
+config.activeAlgorithms.attractors=true;
+config.activeAlgorithms.boids=true;
+}else if(config.mode==='lsystem'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=false);
+config.activeAlgorithms.lsystem=true;
+config.activeAlgorithms.attractors=true;
+drawLSystem();
+}else if(config.mode==='ca'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=false);
+config.activeAlgorithms.ca=true;
+config.activeAlgorithms.attractors=true;
+}else if(config.mode==='genetic'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=true);
+config.activeAlgorithms.reaction=false;
+}else if(config.mode==='quantum'){
+Object.keys(config.activeAlgorithms).forEach(k=>config.activeAlgorithms[k]=false);
+config.activeAlgorithms.quantum=true;
+config.activeAlgorithms.attractors=true;
+}
+
+// Update algo list display
+document.querySelectorAll('#algoList div').forEach((d,i)=>{
+const keys=['perlin','boids','attractors','lsystem','ca','reaction','genetic','quantum','attractors','attractors'];
+if(keys[i]&&config.activeAlgorithms[keys[i]]){
+d.classList.add('active-algo');
+}else{
+d.classList.remove('active-algo');
+}
+});
+});
+});
+
+window.addEventListener('resize',()=>{
+resizeCanvases();
+initializeSystem();
+});
+
+// Click to seed
+layers.quantum.addEventListener('click',(e)=>{
+quantumField.addQuantumParticle(e.clientX,e.clientY);
+if(ca)ca.seedPattern(e.clientX,e.clientY,Math.random()<0.5?'glider':'pulsar');
+});
+
+initializeSystem();
+animate();
+</script>
+</body>
+</html>

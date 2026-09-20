@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PF-005 · The Twelvefold Confluence</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --anthropic-dark: #141413;
+            --anthropic-light: #faf9f5;
+            --anthropic-mid-gray: #b0aea5;
+            --anthropic-light-gray: #e8e6dc;
+            --anthropic-orange: #d97757;
+            --anthropic-blue: #6a9bcc;
+            --anthropic-green: #788c5d;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, var(--anthropic-light) 0%, #f5f3ee 100%);
+            min-height: 100vh;
+            color: var(--anthropic-dark);
+        }
+
+        .container { display: flex; min-height: 100vh; padding: 20px; gap: 20px; }
+
+        .sidebar {
+            width: 320px;
+            flex-shrink: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(20, 20, 19, 0.1);
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        .sidebar h1 {
+            font-family: 'Lora', serif;
+            font-size: 22px;
+            font-weight: 500;
+            color: var(--anthropic-dark);
+            margin-bottom: 6px;
+        }
+
+        .sidebar .subtitle {
+            color: var(--anthropic-mid-gray);
+            font-size: 13px;
+            margin-bottom: 28px;
+            line-height: 1.5;
+            font-style: italic;
+            font-family: 'Lora', serif;
+        }
+
+        .control-section { margin-bottom: 28px; }
+
+        .control-section h3 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--anthropic-dark);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .control-section h3::before {
+            content: '•';
+            color: var(--anthropic-orange);
+            font-weight: bold;
+        }
+
+        .seed-input {
+            width: 100%;
+            background: var(--anthropic-light);
+            padding: 12px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin-bottom: 12px;
+            border: 1px solid var(--anthropic-light-gray);
+            text-align: center;
+        }
+
+        .seed-input:focus {
+            outline: none;
+            border-color: var(--anthropic-orange);
+            box-shadow: 0 0 0 2px rgba(217, 119, 87, 0.1);
+            background: white;
+        }
+
+        .seed-controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .regen-button { margin-bottom: 0; }
+
+        .control-group { margin-bottom: 18px; }
+
+        .control-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--anthropic-dark);
+            margin-bottom: 8px;
+        }
+
+        .slider-container { display: flex; align-items: center; gap: 12px; }
+
+        .slider-container input[type="range"] {
+            flex: 1;
+            height: 4px;
+            background: var(--anthropic-light-gray);
+            border-radius: 2px;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        .slider-container input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 16px; height: 16px;
+            background: var(--anthropic-orange);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .slider-container input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            background: #c86641;
+        }
+
+        .slider-container input[type="range"]::-moz-range-thumb {
+            width: 16px; height: 16px;
+            background: var(--anthropic-orange);
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+        }
+
+        .value-display {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: var(--anthropic-mid-gray);
+            min-width: 56px;
+            text-align: right;
+        }
+
+        .color-group { margin-bottom: 14px; }
+
+        .color-group label {
+            display: block;
+            font-size: 12px;
+            color: var(--anthropic-mid-gray);
+            margin-bottom: 4px;
+        }
+
+        .color-picker-container { display: flex; align-items: center; gap: 8px; }
+
+        .color-picker-container input[type="color"] {
+            width: 32px; height: 32px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background: none;
+            padding: 0;
+        }
+
+        .color-value {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: var(--anthropic-mid-gray);
+        }
+
+        .button {
+            background: var(--anthropic-orange);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            width: 100%;
+        }
+
+        .button:hover { background: #c86641; transform: translateY(-1px); }
+        .button:active { transform: translateY(0); }
+        .button.secondary { background: var(--anthropic-blue); }
+        .button.secondary:hover { background: #5a8bb8; }
+        .button.tertiary { background: var(--anthropic-green); }
+        .button.tertiary:hover { background: #6b7b52; }
+
+        .button-row { display: flex; gap: 8px; }
+        .button-row .button { flex: 1; }
+
+        .canvas-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 0;
+        }
+
+        #canvas-container {
+            width: 100%;
+            max-width: 1000px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(20, 20, 19, 0.1);
+            background: #faf9f5;
+        }
+
+        #canvas-container canvas {
+            display: block;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--anthropic-mid-gray);
+            padding: 100px;
+        }
+
+        .legend {
+            font-size: 11px;
+            color: var(--anthropic-mid-gray);
+            margin-top: 16px;
+            line-height: 1.6;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            border-top: 1px solid var(--anthropic-light-gray);
+            padding-top: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .canvas-area { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>The Twelvefold Confluence</h1>
+            <div class="subtitle">PF-005 · interfaith sacred geometry. Twelve spheres, six loops, one hundred forty-four lanes.</div>
+
+            <div class="control-section">
+                <h3>Seed</h3>
+                <input type="number" id="seed-input" class="seed-input" value="7777" onchange="updateSeed()">
+                <div class="seed-controls">
+                    <button class="button secondary" onclick="previousSeed()">← Prev</button>
+                    <button class="button secondary" onclick="nextSeed()">Next →</button>
+                </div>
+                <button class="button tertiary regen-button" onclick="randomSeedAndUpdate()">↻ Random</button>
+            </div>
+
+            <div class="control-section">
+                <h3>Lattice</h3>
+
+                <div class="control-group">
+                    <label>Particle Stream (144 lanes)</label>
+                    <div class="slider-container">
+                        <input type="range" id="particleCount" min="100" max="2400" step="50" value="1200" oninput="updateParam('particleCount', this.value)">
+                        <span class="value-display" id="particleCount-value">1200</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Flow Tempo</label>
+                    <div class="slider-container">
+                        <input type="range" id="speed" min="0.001" max="0.020" step="0.001" value="0.006" oninput="updateParam('speed', this.value)">
+                        <span class="value-display" id="speed-value">0.006</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Lane Curvature</label>
+                    <div class="slider-container">
+                        <input type="range" id="laneCurvature" min="0" max="0.8" step="0.02" value="0.32" oninput="updateParam('laneCurvature', this.value)">
+                        <span class="value-display" id="laneCurvature-value">0.32</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Trail Persistence</label>
+                    <div class="slider-container">
+                        <input type="range" id="trailFade" min="4" max="40" step="1" value="14" oninput="updateParam('trailFade', this.value)">
+                        <span class="value-display" id="trailFade-value">14</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Triad Balance (ascending ↔ descending)</label>
+                    <div class="slider-container">
+                        <input type="range" id="triadBalance" min="0" max="1" step="0.02" value="0.5" oninput="updateParam('triadBalance', this.value)">
+                        <span class="value-display" id="triadBalance-value">0.50</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Hexagram Trace</label>
+                    <div class="slider-container">
+                        <input type="range" id="loopOpacity" min="0" max="0.4" step="0.01" value="0.12" oninput="updateParam('loopOpacity', this.value)">
+                        <span class="value-display" id="loopOpacity-value">0.12</span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>Sphere Radius</label>
+                    <div class="slider-container">
+                        <input type="range" id="sphereRadius" min="6" max="28" step="1" value="14" oninput="updateParam('sphereRadius', this.value)">
+                        <span class="value-display" id="sphereRadius-value">14</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Triads</h3>
+
+                <div class="color-group">
+                    <label>Ascending (warm)</label>
+                    <div class="color-picker-container">
+                        <input type="color" id="color1" value="#d97757" onchange="updateColor('color1', this.value)">
+                        <span class="color-value" id="color1-value">#d97757</span>
+                    </div>
+                </div>
+
+                <div class="color-group">
+                    <label>Descending (cool)</label>
+                    <div class="color-picker-container">
+                        <input type="color" id="color2" value="#6a9bcc" onchange="updateColor('color2', this.value)">
+                        <span class="color-value" id="color2-value">#6a9bcc</span>
+                    </div>
+                </div>
+
+                <div class="color-group">
+                    <label>Bridge (the middle ground)</label>
+                    <div class="color-picker-container">
+                        <input type="color" id="color3" value="#788c5d" onchange="updateColor('color3', this.value)">
+                        <span class="color-value" id="color3-value">#788c5d</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Actions</h3>
+                <div class="button-row">
+                    <button class="button" onclick="resetParameters()">Reset</button>
+                    <button class="button secondary" onclick="downloadPNG()">Download</button>
+                </div>
+            </div>
+
+            <div class="legend">
+                Twelve spheres at the vertices and inner intersections of a dual triad — Shatkona, Mogen David, the pir's diagram. Each particle traverses one of 144 directed lanes. Crossings between triads bend toward the bridge color in transit. Same seed, same lattice.
+            </div>
+        </div>
+
+        <div class="canvas-area">
+            <div id="canvas-container">
+                <div class="loading">Initializing the lattice…</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ═══════════════════════════════════════════════════════════════════════
+        // THE TWELVEFOLD CONFLUENCE — PARAMETERS
+        // ═══════════════════════════════════════════════════════════════════════
+
+        let params = {
+            seed: 7777,
+            particleCount: 1200,
+            speed: 0.006,
+            laneCurvature: 0.32,
+            trailFade: 14,
+            triadBalance: 0.5,
+            loopOpacity: 0.12,
+            sphereRadius: 14,
+            colorPalette: ['#d97757', '#6a9bcc', '#788c5d']
+        };
+
+        let defaultParams = JSON.parse(JSON.stringify(params));
+
+        // ═══════════════════════════════════════════════════════════════════════
+        // STATE
+        // ═══════════════════════════════════════════════════════════════════════
+
+        let spheres = [];           // 12 fixed nodes
+        let lanes = [];             // 144 lane geometries (12 × 12)
+        let particles = [];
+        let ascendingIndices = [];
+        let descendingIndices = [];
+        let bgColor;
+
+        // ═══════════════════════════════════════════════════════════════════════
+        // SETUP
+        // ═══════════════════════════════════════════════════════════════════════
+
+        function setup() {
+            let canvas = createCanvas(1200, 1200);
+            canvas.parent('canvas-container');
+            initializeSystem();
+            let loading = document.querySelector('.loading');
+            if (loading) loading.style.display = 'none';
+        }
+
+        function initializeSystem() {
+            randomSeed(params.seed);
+            noiseSeed(params.seed);
+            bgColor = color(250, 249, 245);
+
+            setupSpheres();
+            setupLanes();
+            spawnParticles();
+
+            background(bgColor);
+        }
+
+        function setupSpheres() {
+            spheres = [];
+            let cx = width / 2;
+            let cy = height / 2;
+            let R = min(width, height) * 0.36;
+            let r = R / sqrt(3); // inner hexagon radius (intersection points)
+
+            // ASCENDING TRIANGLE (3 outer vertices, pointing up)
+            for (let i = 0; i < 3; i++) {
+                let a = -HALF_PI + i * TWO_PI / 3;
+                spheres.push({
+                    x: cx + R * cos(a),
+                    y: cy + R * sin(a),
+                    triad: 'ascending',
+                    isOuter: true,
+                    phase: random(TWO_PI)
+                });
+            }
+
+            // DESCENDING TRIANGLE (3 outer vertices, pointing down)
+            for (let i = 0; i < 3; i++) {
+                let a = HALF_PI + i * TWO_PI / 3;
+                spheres.push({
+                    x: cx + R * cos(a),
+                    y: cy + R * sin(a),
+                    triad: 'descending',
+                    isOuter: true,
+                    phase: random(TWO_PI)
+                });
+            }
+
+            // INNER HEXAGON (6 intersection points — alternating triad allegiance)
+            for (let i = 0; i < 6; i++) {
+                let a = -HALF_PI + PI / 6 + i * PI / 3;
+                spheres.push({
+                    x: cx + r * cos(a),
+                    y: cy + r * sin(a),
+                    triad: (i % 2 === 0) ? 'ascending' : 'descending',
+                    isOuter: false,
+                    phase: random(TWO_PI)
+                });
+            }
+
+            ascendingIndices = [];
+            descendingIndices = [];
+            for (let i = 0; i < 12; i++) {
+                if (spheres[i].triad === 'ascending') ascendingIndices.push(i);
+                else descendingIndices.push(i);
+            }
+        }
+
+        function setupLanes() {
+            lanes = [];
+            // 144 lanes = 12 × 12 directed pairs (including self-loops)
+            for (let i = 0; i < 12; i++) {
+                for (let j = 0; j < 12; j++) {
+                    let s1 = spheres[i];
+                    let s2 = spheres[j];
+
+                    if (i === j) {
+                        // SELF-LOOP: small circular orbit around the sphere
+                        let orbitR = 18 + noise(i * 0.7) * 12;
+                        let orbitPhase = noise(i * 0.7, 99) * TWO_PI;
+                        lanes.push({
+                            type: 'self',
+                            cx: s1.x, cy: s1.y,
+                            radius: orbitR,
+                            phase: orbitPhase
+                        });
+                    } else {
+                        // BEZIER LANE between two spheres
+                        let mx = (s1.x + s2.x) / 2;
+                        let my = (s1.y + s2.y) / 2;
+                        let dx = s2.x - s1.x;
+                        let dy = s2.y - s1.y;
+                        let dist = sqrt(dx * dx + dy * dy);
+                        // perpendicular direction
+                        let px = -dy / dist;
+                        let py = dx / dist;
+                        // seeded curvature variation per lane
+                        let curveSign = (noise(i * 0.31, j * 0.37) - 0.5) * 2;
+                        let offset = curveSign * params.laneCurvature * dist;
+                        // two control points for smooth Bezier
+                        let t1 = 0.33, t2 = 0.66;
+                        let m1x = s1.x + (s2.x - s1.x) * t1;
+                        let m1y = s1.y + (s2.y - s1.y) * t1;
+                        let m2x = s1.x + (s2.x - s1.x) * t2;
+                        let m2y = s1.y + (s2.y - s1.y) * t2;
+                        lanes.push({
+                            type: 'bezier',
+                            x1: s1.x, y1: s1.y,
+                            x2: s2.x, y2: s2.y,
+                            cp1x: m1x + px * offset,
+                            cp1y: m1y + py * offset,
+                            cp2x: m2x + px * offset,
+                            cp2y: m2y + py * offset
+                        });
+                    }
+                }
+            }
+        }
+
+        function spawnParticles() {
+            particles = [];
+            for (let k = 0; k < params.particleCount; k++) {
+                particles.push(new Particle(true));
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════════════════
+        // PARTICLE
+        // ═══════════════════════════════════════════════════════════════════════
+
+        class Particle {
+            constructor(staggered = false) {
+                this.choose();
+                this.t = staggered ? random() : 0;
+            }
+
+            choose() {
+                // Choose origin with triad balance bias
+                let originPool = (random() < params.triadBalance) ? ascendingIndices : descendingIndices;
+                let origin = originPool[floor(random(originPool.length))];
+
+                // Destination: any of 12 (including same — self-loop)
+                let dest;
+                let r = random();
+                if (r < 0.08) {
+                    dest = origin; // ~8% chance of self-loop visit
+                } else {
+                    dest = floor(random(12));
+                }
+
+                this.origin = origin;
+                this.dest = dest;
+                this.laneIdx = origin * 12 + dest;
+                this.lane = lanes[this.laneIdx];
+                this.originTriad = spheres[origin].triad;
+                this.destTriad = spheres[dest].triad;
+                this.crossesTriad = (this.originTriad !== this.destTriad);
+                this.speedMult = 0.7 + random() * 0.7;
+                // Six-loop tempo modulation: tiny per-particle phase offset
+                this.tempoPhase = random(TWO_PI);
+            }
+
+            update() {
+                // Six-loop temporal phasing: speed gently modulated by which "loop" the lane belongs to
+                let loopMod = 1 + 0.15 * sin(frameCount * 0.008 + this.tempoPhase + this.laneIdx * 0.13);
+                this.t += params.speed * this.speedMult * loopMod;
+                if (this.t >= 1) {
+                    this.choose();
+                    this.t = 0;
+                }
+            }
+
+            position() {
+                if (this.lane.type === 'self') {
+                    let angle = this.lane.phase + this.t * TWO_PI;
+                    return {
+                        x: this.lane.cx + this.lane.radius * cos(angle),
+                        y: this.lane.cy + this.lane.radius * sin(angle)
+                    };
+                } else {
+                    let x = bezierPoint(this.lane.x1, this.lane.cp1x, this.lane.cp2x, this.lane.x2, this.t);
+                    let y = bezierPoint(this.lane.y1, this.lane.cp1y, this.lane.cp2y, this.lane.y2, this.t);
+                    return { x, y };
+                }
+            }
+
+            draw() {
+                let p = this.position();
+
+                // Color logic: bend toward bridge color when crossing triads mid-transit
+                let col;
+                if (this.crossesTriad) {
+                    let bendFactor = sin(this.t * PI); // peaks at t=0.5
+                    let startCol = (this.originTriad === 'ascending')
+                        ? color(params.colorPalette[0]) : color(params.colorPalette[1]);
+                    let endCol = (this.destTriad === 'ascending')
+                        ? color(params.colorPalette[0]) : color(params.colorPalette[1]);
+                    let bridgeCol = color(params.colorPalette[2]);
+                    // First half: blend origin → bridge; second half: bridge → dest
+                    if (this.t < 0.5) {
+                        col = lerpColor(startCol, bridgeCol, this.t * 2 * 0.7);
+                    } else {
+                        col = lerpColor(bridgeCol, endCol, (this.t - 0.5) * 2 * 0.7 + 0.3);
+                    }
+                } else {
+                    col = (this.originTriad === 'ascending')
+                        ? color(params.colorPalette[0]) : color(params.colorPalette[1]);
+                }
+
+                noStroke();
+                col.setAlpha(200);
+                fill(col);
+                circle(p.x, p.y, 2.6);
+
+                // Soft halo
+                col.setAlpha(40);
+                fill(col);
+                circle(p.x, p.y, 6);
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════════════════
+        // DRAW
+        // ═══════════════════════════════════════════════════════════════════════
+
+        function draw() {
+            // Fade for trails — translucent background overlay
+            let fadeAmt = 255 / params.trailFade;
+            noStroke();
+            fill(red(bgColor), green(bgColor), blue(bgColor), fadeAmt);
+            rect(0, 0, width, height);
+
+            drawHexagramTrace();
+            drawSpheres(true); // halos first
+
+            // Update + draw particles
+            for (let p of particles) {
+                p.update();
+                p.draw();
+            }
+
+            drawSpheres(false); // cores on top
+        }
+
+        function drawHexagramTrace() {
+            // Six loops = six triangle edges, faintly inscribed
+            let traceCol = color(20, 20, 19);
+            traceCol.setAlpha(params.loopOpacity * 255);
+            stroke(traceCol);
+            strokeWeight(0.8);
+            noFill();
+
+            // Ascending triangle: outer spheres 0, 1, 2
+            beginShape();
+            for (let i = 0; i < 3; i++) vertex(spheres[i].x, spheres[i].y);
+            endShape(CLOSE);
+
+            // Descending triangle: outer spheres 3, 4, 5
+            beginShape();
+            for (let i = 3; i < 6; i++) vertex(spheres[i].x, spheres[i].y);
+            endShape(CLOSE);
+
+            // Inner hexagon — even fainter
+            let innerCol = color(20, 20, 19);
+            innerCol.setAlpha(params.loopOpacity * 255 * 0.5);
+            stroke(innerCol);
+            beginShape();
+            for (let i = 6; i < 12; i++) vertex(spheres[i].x, spheres[i].y);
+            endShape(CLOSE);
+        }
+
+        function drawSpheres(halosOnly) {
+            for (let i = 0; i < spheres.length; i++) {
+                let s = spheres[i];
+                let pulse = 1 + 0.18 * sin(frameCount * 0.018 + s.phase);
+                let r = (s.isOuter ? params.sphereRadius : params.sphereRadius * 0.75) * pulse;
+                let col = (s.triad === 'ascending')
+                    ? color(params.colorPalette[0]) : color(params.colorPalette[1]);
+
+                if (halosOnly) {
+                    // Wide outer halo
+                    col.setAlpha(18);
+                    fill(col);
+                    noStroke();
+                    circle(s.x, s.y, r * 5);
+                    col.setAlpha(35);
+                    fill(col);
+                    circle(s.x, s.y, r * 3);
+                } else {
+                    // Core
+                    noStroke();
+                    col.setAlpha(255);
+                    fill(col);
+                    circle(s.x, s.y, r);
+                    // Inner highlight
+                    fill(255, 255, 255, 220);
+                    circle(s.x, s.y, r * 0.4);
+                }
+            }
+        }
+
+        // ═══════════════════════════════════════════════════════════════════════
+        // UI HANDLERS
+        // ═══════════════════════════════════════════════════════════════════════
+
+        function updateParam(name, value) {
+            let v = parseFloat(value);
+            params[name] = v;
+            // Display
+            let display = document.getElementById(name + '-value');
+            if (display) {
+                if (name === 'speed' || name === 'laneCurvature' || name === 'triadBalance' || name === 'loopOpacity') {
+                    display.textContent = v.toFixed(name === 'speed' ? 3 : 2);
+                } else {
+                    display.textContent = v;
+                }
+            }
+            // Some params need lane/particle rebuild
+            if (name === 'laneCurvature') {
+                setupLanes();
+            }
+            if (name === 'particleCount') {
+                // Add or remove without full reset
+                while (particles.length < params.particleCount) particles.push(new Particle(true));
+                while (particles.length > params.particleCount) particles.pop();
+            }
+        }
+
+        function updateColor(id, value) {
+            let idx = (id === 'color1') ? 0 : (id === 'color2') ? 1 : 2;
+            params.colorPalette[idx] = value;
+            document.getElementById(id + '-value').textContent = value;
+        }
+
+        function updateSeedDisplay() {
+            document.getElementById('seed-input').value = params.seed;
+        }
+
+        function updateSeed() {
+            let input = document.getElementById('seed-input');
+            let newSeed = parseInt(input.value);
+            if (newSeed && newSeed > 0) {
+                params.seed = newSeed;
+                initializeSystem();
+            } else {
+                updateSeedDisplay();
+            }
+        }
+
+        function previousSeed() {
+            params.seed = Math.max(1, params.seed - 1);
+            updateSeedDisplay();
+            initializeSystem();
+        }
+
+        function nextSeed() {
+            params.seed = params.seed + 1;
+            updateSeedDisplay();
+            initializeSystem();
+        }
+
+        function randomSeedAndUpdate() {
+            params.seed = Math.floor(Math.random() * 999999) + 1;
+            updateSeedDisplay();
+            initializeSystem();
+        }
+
+        function resetParameters() {
+            params = JSON.parse(JSON.stringify(defaultParams));
+            // Update all sliders / displays
+            const sliderIds = ['particleCount','speed','laneCurvature','trailFade','triadBalance','loopOpacity','sphereRadius'];
+            sliderIds.forEach(id => {
+                document.getElementById(id).value = params[id];
+                let disp = document.getElementById(id + '-value');
+                if (id === 'speed' || id === 'laneCurvature' || id === 'triadBalance' || id === 'loopOpacity') {
+                    disp.textContent = params[id].toFixed(id === 'speed' ? 3 : 2);
+                } else {
+                    disp.textContent = params[id];
+                }
+            });
+            document.getElementById('color1').value = params.colorPalette[0];
+            document.getElementById('color1-value').textContent = params.colorPalette[0];
+            document.getElementById('color2').value = params.colorPalette[1];
+            document.getElementById('color2-value').textContent = params.colorPalette[1];
+            document.getElementById('color3').value = params.colorPalette[2];
+            document.getElementById('color3-value').textContent = params.colorPalette[2];
+            updateSeedDisplay();
+            initializeSystem();
+        }
+
+        function downloadPNG() {
+            saveCanvas('pf-005-twelvefold-seed-' + params.seed, 'png');
+        }
+
+        window.addEventListener('load', function() {
+            updateSeedDisplay();
+        });
+    </script>
+</body>
+</html>

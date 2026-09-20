@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>Sacred Synthesis</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#000;color:#fff;width:100%;height:100%;position:fixed}
+.stage{position:fixed;inset:0;background:#000}
+canvas{position:absolute;top:0;left:0;width:100%;height:100%}
+#L_substrate{z-index:1;opacity:0.5}
+#L_karma{z-index:2;opacity:0.6;mix-blend-mode:screen}
+#L_geometry{z-index:3;opacity:0.35}
+#L_lsystem{z-index:4;opacity:0.7}
+#L_particle{z-index:5}
+#L_attractor{z-index:6}
+#L_quantum{z-index:7;mix-blend-mode:screen}
+#L_ui{z-index:8;pointer-events:none}
+
+/* Top bar */
+.topbar{position:fixed;top:env(safe-area-inset-top,0);left:0;right:0;padding:12px 14px;display:flex;justify-content:space-between;align-items:center;z-index:50;pointer-events:none}
+.stage-pill{pointer-events:auto;background:rgba(0,0,0,0.7);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,215,0,0.3);border-radius:999px;padding:8px 14px;display:flex;align-items:center;gap:8px;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;font-weight:600;max-width:60vw}
+.stage-pill .dot{width:8px;height:8px;border-radius:50%;background:#FFD700;box-shadow:0 0 12px #FFD700;flex-shrink:0;animation:pulse 2s infinite}
+.stage-pill .label{color:#FFD700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+
+.fab{pointer-events:auto;width:46px;height:46px;border-radius:50%;background:rgba(0,0,0,0.75);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(138,43,226,0.4);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:20px;transition:transform 0.2s;flex-shrink:0}
+.fab:active{transform:scale(0.92)}
+.fab.metrics{margin-right:8px}
+
+/* Mini metrics chips */
+.chip-row{position:fixed;top:calc(env(safe-area-inset-top,0) + 68px);left:14px;right:14px;display:flex;gap:6px;overflow-x:auto;z-index:40;padding-bottom:4px;scrollbar-width:none}
+.chip-row::-webkit-scrollbar{display:none}
+.chip{background:rgba(0,0,0,0.65);backdrop-filter:blur(15px);-webkit-backdrop-filter:blur(15px);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:6px 10px;font-size:10px;display:flex;flex-direction:column;align-items:flex-start;gap:1px;flex-shrink:0;min-width:62px}
+.chip .k{color:rgba(255,255,255,0.5);font-size:8px;text-transform:uppercase;letter-spacing:0.5px}
+.chip .v{color:#fff;font-weight:700;font-size:11px;font-family:'SF Mono','Menlo',monospace}
+.chip.gold .v{color:#FFD700}
+.chip.violet .v{color:#B886FF}
+.chip.cyan .v{color:#5EEAD4}
+
+/* Stage banner */
+.stage-banner{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.85);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);border:1px solid rgba(255,215,0,0.5);border-radius:20px;padding:24px 32px;text-align:center;z-index:60;opacity:0;pointer-events:none;transition:opacity 0.6s;max-width:80vw}
+.stage-banner.show{opacity:1}
+.stage-banner .glyph{font-size:48px;margin-bottom:8px;display:block}
+.stage-banner .name{font-size:14px;letter-spacing:4px;color:#FFD700;text-transform:uppercase;font-weight:700;margin-bottom:6px}
+.stage-banner .desc{font-size:11px;color:rgba(255,255,255,0.7);line-height:1.5;letter-spacing:0.3px;max-width:280px}
+
+/* Bottom sheet */
+.sheet-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.4);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:99;opacity:0;pointer-events:none;transition:opacity 0.3s}
+.sheet-backdrop.open{opacity:1;pointer-events:auto}
+
+.sheet{position:fixed;bottom:0;left:0;right:0;background:rgba(10,10,15,0.95);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);border-top:1px solid rgba(138,43,226,0.3);border-radius:24px 24px 0 0;z-index:100;transform:translateY(100%);transition:transform 0.35s cubic-bezier(0.32,0.72,0,1);padding-bottom:env(safe-area-inset-bottom,16px);max-height:85vh;overflow:hidden;display:flex;flex-direction:column}
+.sheet.open{transform:translateY(0)}
+.sheet-handle{width:36px;height:4px;background:rgba(255,255,255,0.3);border-radius:2px;margin:10px auto 6px;flex-shrink:0}
+.sheet-header{display:flex;justify-content:space-between;align-items:center;padding:8px 18px 14px;border-bottom:1px solid rgba(255,255,255,0.08);flex-shrink:0}
+.sheet-title{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff;display:flex;align-items:center;gap:8px}
+.sheet-title .icon{color:#B886FF}
+.sheet-close{background:rgba(255,255,255,0.08);border:none;color:#fff;width:30px;height:30px;border-radius:50%;font-size:16px;cursor:pointer}
+
+.sheet-tabs{display:flex;gap:6px;padding:14px 18px 12px;overflow-x:auto;scrollbar-width:none;flex-shrink:0;border-bottom:1px solid rgba(255,255,255,0.05)}
+.sheet-tabs::-webkit-scrollbar{display:none}
+.tab{flex-shrink:0;padding:8px 14px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:999px;color:rgba(255,255,255,0.7);font-size:11px;font-weight:600;cursor:pointer;white-space:nowrap;transition:all 0.2s;letter-spacing:0.3px}
+.tab.active{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;border-color:transparent;box-shadow:0 4px 16px rgba(102,126,234,0.4)}
+
+.sheet-body{flex:1;overflow-y:auto;padding:18px;-webkit-overflow-scrolling:touch}
+.sheet-body::-webkit-scrollbar{width:4px}
+.sheet-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);border-radius:2px}
+
+.tab-panel{display:none}
+.tab-panel.active{display:block;animation:fadeIn 0.25s}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+.slider-group{margin-bottom:18px}
+.slider-label{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;font-size:11px;color:rgba(255,255,255,0.7);text-transform:uppercase;letter-spacing:0.8px;font-weight:600}
+.slider-label .val{color:#FFD700;font-family:'SF Mono','Menlo',monospace;font-size:12px}
+input[type="range"]{width:100%;height:28px;-webkit-appearance:none;appearance:none;background:transparent;cursor:pointer}
+input[type="range"]::-webkit-slider-runnable-track{height:4px;background:rgba(255,255,255,0.12);border-radius:2px}
+input[type="range"]::-moz-range-track{height:4px;background:rgba(255,255,255,0.12);border-radius:2px}
+input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:50%;margin-top:-9px;box-shadow:0 2px 12px rgba(138,43,226,0.5);border:2px solid rgba(255,255,255,0.9)}
+input[type="range"]::-moz-range-thumb{width:22px;height:22px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:50%;border:2px solid rgba(255,255,255,0.9);box-shadow:0 2px 12px rgba(138,43,226,0.5)}
+
+.action-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:8px}
+.btn{padding:14px;border-radius:12px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.05);color:#fff;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;letter-spacing:0.3px;transition:all 0.15s}
+.btn:active{transform:scale(0.96)}
+.btn.primary{background:linear-gradient(135deg,#667eea,#764ba2);border-color:transparent}
+.btn.gold{background:linear-gradient(135deg,#f59e0b,#d97706);border-color:transparent}
+.btn.danger{background:linear-gradient(135deg,#dc2626,#991b1b);border-color:transparent}
+.btn.full{grid-column:1/-1}
+
+.info-card{background:rgba(102,126,234,0.08);border:1px solid rgba(102,126,234,0.2);border-radius:12px;padding:14px;margin-bottom:14px}
+.info-card .t{color:#B886FF;font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:700;margin-bottom:6px}
+.info-card .d{color:rgba(255,255,255,0.75);font-size:12px;line-height:1.55}
+.info-card .f{font-family:'SF Mono','Menlo',monospace;color:#5EEAD4;font-size:10px;background:rgba(94,234,212,0.08);padding:6px 8px;border-radius:6px;margin-top:8px;border-left:2px solid #5EEAD4;display:block;overflow-x:auto;white-space:nowrap}
+
+.algo-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:12px}
+.algo-row:last-child{border-bottom:none}
+.algo-name{color:rgba(255,255,255,0.85);display:flex;align-items:center;gap:8px}
+.toggle{position:relative;width:36px;height:20px;background:rgba(255,255,255,0.15);border-radius:10px;cursor:pointer;transition:background 0.2s;flex-shrink:0}
+.toggle.on{background:linear-gradient(135deg,#667eea,#764ba2)}
+.toggle::after{content:'';position:absolute;top:2px;left:2px;width:16px;height:16px;background:#fff;border-radius:50%;transition:transform 0.2s}
+.toggle.on::after{transform:translateX(16px)}
+
+.metrics-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.metric-cell{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:12px}
+.metric-cell .k{color:rgba(255,255,255,0.5);font-size:9px;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;font-weight:600}
+.metric-cell .v{color:#FFD700;font-size:20px;font-weight:700;font-family:'SF Mono','Menlo',monospace;line-height:1}
+.metric-cell .bar{height:3px;background:rgba(255,255,255,0.1);border-radius:2px;margin-top:8px;overflow:hidden}
+.metric-cell .bar > div{height:100%;background:linear-gradient(90deg,#667eea,#FFD700);transition:width 0.4s}
+
+/* Wide screen adjustments */
+@media (min-width:768px){
+.sheet{max-width:480px;left:auto;right:20px;bottom:20px;border-radius:24px;border:1px solid rgba(138,43,226,0.3)}
+.topbar{padding:20px}
+.chip-row{justify-content:flex-start;flex-wrap:wrap}
+}
+
+.compass{position:fixed;bottom:18px;left:18px;z-index:50;background:rgba(0,0,0,0.7);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px 12px;font-size:10px;color:rgba(255,255,255,0.6);font-family:'SF Mono','Menlo',monospace;pointer-events:none;letter-spacing:0.5px}
+.compass b{color:#5EEAD4;font-weight:600}
+</style>
+</head>
+<body>
+<div class="stage">
+<canvas id="L_substrate"></canvas>
+<canvas id="L_karma"></canvas>
+<canvas id="L_geometry"></canvas>
+<canvas id="L_lsystem"></canvas>
+<canvas id="L_particle"></canvas>
+<canvas id="L_attractor"></canvas>
+<canvas id="L_quantum"></canvas>
+<canvas id="L_ui"></canvas>
+
+<!-- Top bar -->
+<div class="topbar">
+<div class="stage-pill" id="stagePill">
+<div class="dot"></div>
+<div class="label" id="stageLabel">Inquiry</div>
+</div>
+<div style="display:flex;align-items:center">
+<button class="fab metrics" id="metricsBtn" aria-label="Metrics">📊</button>
+<button class="fab" id="menuBtn" aria-label="Menu">☰</button>
+</div>
+</div>
+
+<!-- Chip row (collapsible mini metrics) -->
+<div class="chip-row" id="chipRow">
+<div class="chip"><span class="k">Agents</span><span class="v" id="c_agents">0</span></div>
+<div class="chip gold"><span class="k">Stage</span><span class="v" id="c_stage">I</span></div>
+<div class="chip violet"><span class="k">Emerge</span><span class="v" id="c_emerge">0</span></div>
+<div class="chip cyan"><span class="k">Coherence</span><span class="v" id="c_cohere">0%</span></div>
+<div class="chip"><span class="k">Karma</span><span class="v" id="c_karma">0</span></div>
+<div class="chip"><span class="k">Gen</span><span class="v" id="c_gen">0</span></div>
+<div class="chip"><span class="k">FPS</span><span class="v" id="c_fps">60</span></div>
+</div>
+
+<!-- Stage transition banner -->
+<div class="stage-banner" id="stageBanner">
+<span class="glyph" id="bannerGlyph">⊙</span>
+<div class="name" id="bannerName">Inquiry</div>
+<div class="desc" id="bannerDesc">The seeking begins. Agents disperse to explore the field.</div>
+</div>
+
+<!-- Compass -->
+<div class="compass" id="compass">stage <b>I</b> · ∂t <b>0</b></div>
+
+<!-- Bottom sheet -->
+<div class="sheet-backdrop" id="sheetBackdrop"></div>
+<div class="sheet" id="sheet">
+<div class="sheet-handle"></div>
+<div class="sheet-header">
+<div class="sheet-title"><span class="icon">⚛</span> <span id="sheetTitle">Control Panel</span></div>
+<button class="sheet-close" id="sheetClose">×</button>
+</div>
+<div class="sheet-tabs" id="sheetTabs">
+<div class="tab active" data-tab="control">Control</div>
+<div class="tab" data-tab="algo">Algorithms</div>
+<div class="tab" data-tab="metrics">Metrics</div>
+<div class="tab" data-tab="actions">Actions</div>
+<div class="tab" data-tab="modes">Modes</div>
+</div>
+
+<div class="sheet-body">
+
+<!-- Control panel -->
+<div class="tab-panel active" data-panel="control">
+<div class="slider-group">
+<div class="slider-label"><span>Agents</span><span class="val" id="popValue">144</span></div>
+<input type="range" id="population" min="10" max="400" value="144">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Attraction</span><span class="val" id="attractValue">50</span></div>
+<input type="range" id="attraction" min="0" max="100" value="50">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Turbulence</span><span class="val" id="turbValue">30</span></div>
+<input type="range" id="turbulence" min="0" max="100" value="30">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Cohesion</span><span class="val" id="cohesionValue">40</span></div>
+<input type="range" id="cohesion" min="0" max="100" value="40">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>L-System Depth</span><span class="val" id="lDepthValue">4</span></div>
+<input type="range" id="lDepth" min="1" max="6" value="4">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Karma Persistence</span><span class="val" id="karmaValue">60</span></div>
+<input type="range" id="karmaPersist" min="0" max="100" value="60">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Neural CA Rate</span><span class="val" id="caRateValue">10</span></div>
+<input type="range" id="caRate" min="1" max="30" value="10">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Mutation</span><span class="val" id="mutValue">5</span></div>
+<input type="range" id="mutation" min="0" max="50" value="5">
+</div>
+<div class="slider-group">
+<div class="slider-label"><span>Quantum Phase</span><span class="val" id="qValue">30</span></div>
+<input type="range" id="quantum" min="0" max="100" value="30">
+</div>
+</div>
+
+<!-- Algorithms -->
+<div class="tab-panel" data-panel="algo">
+<div class="info-card">
+<div class="t">Active Algorithms</div>
+<div class="d">Toggle individual systems. Disabling reduces compute; enabling all activates full emergence.</div>
+</div>
+<div class="algo-row"><span class="algo-name">🌊 Perlin Flow Field</span><div class="toggle on" data-algo="perlin"></div></div>
+<div class="algo-row"><span class="algo-name">🐦 Boids Flocking</span><div class="toggle on" data-algo="boids"></div></div>
+<div class="algo-row"><span class="algo-name">🧲 Strange Attractors</span><div class="toggle on" data-algo="attractors"></div></div>
+<div class="algo-row"><span class="algo-name">🌿 L-System Fractals</span><div class="toggle on" data-algo="lsystem"></div></div>
+<div class="algo-row"><span class="algo-name">🧠 Neural CA</span><div class="toggle on" data-algo="nca"></div></div>
+<div class="algo-row"><span class="algo-name">🌀 Karmic Trails</span><div class="toggle on" data-algo="karma"></div></div>
+<div class="algo-row"><span class="algo-name">🧬 Genetic Evolution</span><div class="toggle on" data-algo="genetic"></div></div>
+<div class="algo-row"><span class="algo-name">⚛ Quantum Field</span><div class="toggle on" data-algo="quantum"></div></div>
+</div>
+
+<!-- Metrics -->
+<div class="tab-panel" data-panel="metrics">
+<div class="metrics-grid">
+<div class="metric-cell"><div class="k">Agents</div><div class="v" id="m_agents">0</div></div>
+<div class="metric-cell"><div class="k">Generation</div><div class="v" id="m_gen">0</div></div>
+<div class="metric-cell"><div class="k">L-Iter</div><div class="v" id="m_lsys">0</div></div>
+<div class="metric-cell"><div class="k">NCA Active</div><div class="v" id="m_ca">0</div></div>
+<div class="metric-cell"><div class="k">Karma Σ</div><div class="v" id="m_karma">0</div></div>
+<div class="metric-cell"><div class="k">Quantum φ</div><div class="v" id="m_quantum">0.00</div></div>
+</div>
+<div class="metric-cell" style="margin-bottom:10px">
+<div class="k">Entropy</div><div class="v" id="m_entropy">0.00</div>
+<div class="bar"><div id="b_entropy" style="width:0%"></div></div>
+</div>
+<div class="metric-cell" style="margin-bottom:10px">
+<div class="k">Coherence</div><div class="v" id="m_coherence">0%</div>
+<div class="bar"><div id="b_coherence" style="width:0%"></div></div>
+</div>
+<div class="metric-cell" style="margin-bottom:10px">
+<div class="k">Emergence</div><div class="v" id="m_emergence">0.00</div>
+<div class="bar"><div id="b_emergence" style="width:0%"></div></div>
+</div>
+<div class="metric-cell">
+<div class="k">Fitness (avg)</div><div class="v" id="m_fitness">0.00</div>
+<div class="bar"><div id="b_fitness" style="width:0%"></div></div>
+</div>
+</div>
+
+<!-- Actions -->
+<div class="tab-panel" data-panel="actions">
+<div class="info-card">
+<div class="t">System Controls</div>
+<div class="d">Direct interventions in the emergent system. Evolve runs one generation of selection. Entangle binds attractors into non-local pairs.</div>
+</div>
+<div class="action-grid">
+<button class="btn primary full" id="toggleFlow">⏸ Pause</button>
+<button class="btn gold" id="evolveBtn">🧬 Evolve</button>
+<button class="btn primary" id="seedBtn">🌱 Seed</button>
+<button class="btn" id="toggleTrails">✨ Trails</button>
+<button class="btn" id="exportFrame">📸 Capture</button>
+<button class="btn danger full" id="entangleBtn">🌀 Entangle Attractors</button>
+<button class="btn full" id="resetSystem">⟳ Regenerate Universe</button>
+</div>
+</div>
+
+<!-- Modes (Expansive Inquiry) -->
+<div class="tab-panel" data-panel="modes">
+<div class="info-card">
+<div class="t">Expansive Inquiry Stages</div>
+<div class="d">The system advances through five stages as coherence and emergence cross thresholds. Each stage transforms agent behavior and visual register. Auto-advances or jump manually.</div>
+</div>
+<div class="action-grid">
+<button class="btn full" data-stage="0">⊙ Inquiry (Seek)</button>
+<button class="btn full" data-stage="1">◇ Reflection (Mirror)</button>
+<button class="btn full" data-stage="2">⊕ Synthesis (Weave)</button>
+<button class="btn full" data-stage="3">✦ Emergence (Bloom)</button>
+<button class="btn full" data-stage="4">∞ Transcendence (Dissolve)</button>
+<button class="btn gold full" id="autoStage">🔮 Auto-Advance: ON</button>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<script>
+'use strict';
+const PHI=1.618033988749895;
+const TAU=Math.PI*2;
+
+const layers={
+substrate:document.getElementById('L_substrate'),
+karma:document.getElementById('L_karma'),
+geometry:document.getElementById('L_geometry'),
+lsystem:document.getElementById('L_lsystem'),
+particle:document.getElementById('L_particle'),
+attractor:document.getElementById('L_attractor'),
+quantum:document.getElementById('L_quantum'),
+ui:document.getElementById('L_ui')
+};
+const ctx={};
+const DPR=Math.min(window.devicePixelRatio||1,2);
+function sizeCanvases(){
+const w=window.innerWidth,h=window.innerHeight;
+Object.entries(layers).forEach(([k,c])=>{
+c.width=w*DPR;c.height=h*DPR;
+c.style.width=w+'px';c.style.height=h+'px';
+ctx[k]=c.getContext('2d');
+ctx[k].setTransform(DPR,0,0,DPR,0,0);
+});
+}
+sizeCanvases();
+function W(){return window.innerWidth}
+function H(){return window.innerHeight}
+
+// ============================================
+// PERLIN NOISE (memoized)
+// ============================================
+class Perlin{
+constructor(){this.grad={}}
+v(){const t=Math.random()*TAU;return{x:Math.cos(t),y:Math.sin(t)}}
+d(x,y,vx,vy){
+const k=vx+','+vy;
+let g=this.grad[k]||(this.grad[k]=this.v());
+return(x-vx)*g.x+(y-vy)*g.y;
+}
+s(x){return 6*x**5-15*x**4+10*x**3}
+i(x,a,b){return a+this.s(x)*(b-a)}
+get(x,y){
+const xf=Math.floor(x),yf=Math.floor(y);
+const tl=this.d(x,y,xf,yf),tr=this.d(x,y,xf+1,yf);
+const bl=this.d(x,y,xf,yf+1),br=this.d(x,y,xf+1,yf+1);
+return this.i(y-yf,this.i(x-xf,tl,tr),this.i(x-xf,bl,br));
+}
+}
+const perlin=new Perlin();
+
+// ============================================
+// L-SYSTEM
+// ============================================
+class LSystem{
+constructor(){
+this.axiom='F';
+this.rules={F:'F[+F]F[-F][F]'};
+this.angle=Math.PI/7;
+this.length=10;
+this.string=this.axiom;
+this.iter=0;
+}
+step(){
+let r='';
+for(let c of this.string)r+=(this.rules[c]||c);
+this.string=r;
+this.iter++;
+}
+gen(d){
+this.string=this.axiom;this.iter=0;
+for(let i=0;i<d;i++)if(this.string.length<30000)this.step();
+}
+draw(c,sx,sy,a0=-Math.PI/2){
+const st=[];let x=sx,y=sy,a=a0,dp=0;
+const ln=this.length*Math.pow(0.65,Math.max(0,this.iter-3));
+c.lineWidth=1.2;
+for(let ch of this.string){
+if(ch==='F'){
+const nx=x+Math.cos(a)*ln,ny=y+Math.sin(a)*ln;
+const al=Math.max(0.1,0.8-dp*0.1);
+const hu=(dp*30+this.iter*40+stage*60)%360;
+c.strokeStyle=`hsla(${hu},80%,60%,${al})`;
+c.beginPath();c.moveTo(x,y);c.lineTo(nx,ny);c.stroke();
+x=nx;y=ny;
+}else if(ch==='+')a+=this.angle;
+else if(ch==='-')a-=this.angle;
+else if(ch==='[')st.push({x,y,a,dp:dp++});
+else if(ch===']'){const s=st.pop();if(s){x=s.x;y=s.y;a=s.a;dp=s.dp}}
+}
+}
+}
+const lsystem=new LSystem();
+
+// ============================================
+// NEURAL CELLULAR AUTOMATA (NCA)
+// Cells have a state vector. Each step applies a simple
+// "perception → update" rule that nudges cells toward
+// a target sacred symbol pattern emergent from noise.
+// ============================================
+class NeuralCA{
+constructor(w,h,cell=10){
+this.cell=cell;
+this.cols=Math.ceil(w/cell);
+this.rows=Math.ceil(h/cell);
+this.state=this.makeState();
+this.target=null;
+this.gen=0;
+// Trained-style weights: small fixed kernel that creates
+// stable patterns. Three "channels" per cell: alive(R),
+// memory(G), resonance(B).
+this.w={cohere:0.18,decay:0.96,spread:0.12,target:0.05};
+}
+makeState(){
+const s=[];
+for(let y=0;y<this.rows;y++){
+s[y]=[];
+for(let x=0;x<this.cols;x++){
+s[y][x]={r:Math.random()*0.3,g:0,b:0};
+}
+}
+return s;
+}
+setTargetFromGeometry(){
+// Target pattern: hex/star burst at center, encoding "sacred symbol"
+const t=[];
+const cx=this.cols/2,cy=this.rows/2;
+const R=Math.min(this.cols,this.rows)*0.3;
+for(let y=0;y<this.rows;y++){
+t[y]=[];
+for(let x=0;x<this.cols;x++){
+const dx=x-cx,dy=y-cy;
+const d=Math.hypot(dx,dy);
+const a=Math.atan2(dy,dx);
+// 6-fold star (Star of David / Anahata feel)
+const star=Math.cos(a*6)*0.5+0.5;
+const ring=Math.exp(-Math.pow((d-R*0.5)/8,2));
+const inner=Math.exp(-Math.pow(d/12,2));
+t[y][x]=Math.max(0,Math.min(1,inner*0.8+ring*star*0.9));
+}
+}
+this.target=t;
+}
+neighbors(x,y,prop){
+let s=0,n=0;
+for(let dy=-1;dy<=1;dy++){
+for(let dx=-1;dx<=1;dx++){
+if(dx===0&&dy===0)continue;
+const nx=(x+dx+this.cols)%this.cols;
+const ny=(y+dy+this.rows)%this.rows;
+s+=this.state[ny][nx][prop];n++;
+}
+}
+return s/n;
+}
+step(){
+if(!this.target)this.setTargetFromGeometry();
+const next=[];
+for(let y=0;y<this.rows;y++){
+next[y]=[];
+for(let x=0;x<this.cols;x++){
+const c=this.state[y][x];
+const nr=this.neighbors(x,y,'r');
+const ng=this.neighbors(x,y,'g');
+const tg=this.target[y][x];
+// "Neural" update: blend toward neighbor mean,
+// nudge toward target, decay over time.
+let r=c.r*this.w.decay+nr*this.w.spread+(tg-c.r)*this.w.target;
+let g=c.g*0.98+nr*0.04+(r>0.3?0.02:0);
+let b=c.b*0.95+Math.abs(r-tg)*0.1;
+// Threshold-based "alive"
+r=Math.max(0,Math.min(1,r+(Math.random()-0.5)*0.005));
+next[y][x]={r,g:Math.max(0,Math.min(1,g)),b:Math.max(0,Math.min(1,b))};
+}
+}
+this.state=next;
+this.gen++;
+}
+draw(c){
+let active=0;
+const cs=this.cell;
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+const s=this.state[y][x];
+if(s.r>0.1){
+active++;
+const hue=(180+s.r*120+stage*40)%360;
+const lit=Math.floor(40+s.r*40);
+const al=Math.min(0.7,s.r*0.9);
+c.fillStyle=`hsla(${hue},70%,${lit}%,${al})`;
+c.fillRect(x*cs,y*cs,cs-1,cs-1);
+}
+}
+}
+return active;
+}
+perturb(px,py,radius=3,intensity=0.8){
+const gx=Math.floor(px/this.cell);
+const gy=Math.floor(py/this.cell);
+for(let dy=-radius;dy<=radius;dy++){
+for(let dx=-radius;dx<=radius;dx++){
+const nx=(gx+dx+this.cols)%this.cols;
+const ny=(gy+dy+this.rows)%this.rows;
+if(this.state[ny]&&this.state[ny][nx]){
+const d=Math.hypot(dx,dy);
+if(d<=radius){
+this.state[ny][nx].r=Math.min(1,this.state[ny][nx].r+intensity*(1-d/radius));
+}
+}
+}
+}
+}
+seedNoise(){
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+this.state[y][x]={r:Math.random()*0.5,g:Math.random()*0.2,b:0};
+}
+}
+}
+}
+let nca=null;
+
+// ============================================
+// KARMIC TRAILS
+// A persistent field where agent paths leave influence
+// that decays slowly and affects future agent motion.
+// ============================================
+class KarmaField{
+constructor(w,h,scale=8){
+this.scale=scale;
+this.cols=Math.ceil(w/scale);
+this.rows=Math.ceil(h/scale);
+this.field=this.make();
+this.persistence=0.985;
+this.total=0;
+}
+make(){
+const f=[];
+for(let y=0;y<this.rows;y++){
+f[y]=[];
+for(let x=0;x<this.cols;x++)f[y][x]={i:0,h:Math.random()*360};
+}
+return f;
+}
+imprint(x,y,hue,intensity=0.5){
+const gx=Math.floor(x/this.scale);
+const gy=Math.floor(y/this.scale);
+for(let dy=-1;dy<=1;dy++){
+for(let dx=-1;dx<=1;dx++){
+const nx=gx+dx,ny=gy+dy;
+if(nx>=0&&nx<this.cols&&ny>=0&&ny<this.rows){
+const cell=this.field[ny][nx];
+cell.i=Math.min(1,cell.i+intensity*(dx===0&&dy===0?1:0.4));
+cell.h=cell.h*0.7+hue*0.3;
+}
+}
+}
+}
+sample(x,y){
+const gx=Math.floor(x/this.scale);
+const gy=Math.floor(y/this.scale);
+if(gx<0||gx>=this.cols||gy<0||gy>=this.rows)return{i:0,h:0};
+return this.field[gy][gx];
+}
+gradient(x,y){
+const gx=Math.floor(x/this.scale);
+const gy=Math.floor(y/this.scale);
+if(gx<1||gx>=this.cols-1||gy<1||gy>=this.rows-1)return{x:0,y:0};
+const dx=this.field[gy][gx+1].i-this.field[gy][gx-1].i;
+const dy=this.field[gy+1][gx].i-this.field[gy-1][gx].i;
+return{x:dx,y:dy};
+}
+decay(){
+let total=0;
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+this.field[y][x].i*=this.persistence;
+total+=this.field[y][x].i;
+}
+}
+this.total=total;
+}
+draw(c){
+c.clearRect(0,0,W(),H());
+const s=this.scale;
+for(let y=0;y<this.rows;y++){
+for(let x=0;x<this.cols;x++){
+const cell=this.field[y][x];
+if(cell.i>0.05){
+c.fillStyle=`hsla(${cell.h},80%,60%,${cell.i*0.4})`;
+c.fillRect(x*s,y*s,s,s);
+}
+}
+}
+}
+}
+let karma=null;
+
+// ============================================
+// STRANGE ATTRACTORS (Sacred Symbols)
+// ============================================
+const SACRED_SYMBOLS=['✠','☾','☸','ॐ','✡','☯'];
+class Attractor{
+constructor(x,y,sym){
+this.x=x;this.y=y;
+this.bx=x;this.by=y;
+this.sym=sym;
+this.strength=0.5;
+this.radius=Math.min(W(),H())*0.18;
+this.phase=Math.random()*TAU;
+this.entangled=null;
+}
+update(t){
+this.phase+=0.012;
+this.strength=0.4+Math.sin(this.phase)*0.3+stage*0.05;
+this.x=this.bx+Math.sin(t*0.001+this.phase)*8;
+this.y=this.by+Math.cos(t*0.0015+this.phase)*8;
+}
+force(ag){
+const dx=this.x-ag.x,dy=this.y-ag.y;
+const d=Math.hypot(dx,dy);
+if(d<this.radius&&d>1){
+const f=(this.strength*cfg.attract)/(d*d)*8;
+return{x:dx/d*f,y:dy/d*f};
+}
+return{x:0,y:0};
+}
+draw(c){
+c.save();
+c.translate(this.x,this.y);
+const top=this.y<H()/2;
+c.shadowColor=top?'#4169E1':'#8A2BE2';
+c.shadowBlur=22*this.strength;
+c.font=Math.max(28,Math.min(W(),H())/16)+'px serif';
+c.textAlign='center';c.textBaseline='middle';
+c.fillStyle='rgba(255,255,255,0.92)';
+c.fillText(this.sym,0,0);
+c.restore();
+c.beginPath();
+c.arc(this.x,this.y,this.radius*this.strength,0,TAU);
+c.strokeStyle=this.y<H()/2?'rgba(65,105,225,0.18)':'rgba(138,43,226,0.18)';
+c.lineWidth=1;c.stroke();
+if(this.entangled){
+c.beginPath();
+c.moveTo(this.x,this.y);
+c.lineTo(this.entangled.x,this.entangled.y);
+c.strokeStyle=`hsla(${(time*2)%360},80%,60%,0.4)`;
+c.lineWidth=1.5;c.setLineDash([6,6]);c.stroke();c.setLineDash([]);
+}
+}
+}
+
+// ============================================
+// AGENT (with genome + karma awareness)
+// ============================================
+class Agent{
+constructor(x,y,g){
+this.x=x;this.y=y;
+this.vx=(Math.random()-0.5)*2;this.vy=(Math.random()-0.5)*2;
+this.ax=0;this.ay=0;
+this.maxSpeed=2.8;
+this.genome=g||{aw:Math.random()*2,cw:Math.random()*2,lw:Math.random()*2,sw:Math.random()*2,fw:Math.random()*2,kw:Math.random()*1.5,hs:Math.random()*5,sz:1+Math.random()*1.8};
+this.hue=Math.random()*360;
+this.size=this.genome.sz;
+this.trail=[];
+this.fit=0;this.age=0;
+this.karmaContribution=0;
+}
+applyForce(fx,fy){this.ax+=fx;this.ay+=fy}
+flow(t){
+const sc=0.005;
+const nx=perlin.get(this.x*sc,t*0.0001);
+const ny=perlin.get(this.y*sc+1000,t*0.0001);
+const a=nx*TAU*2;
+const s=ny*cfg.turb*0.01*this.genome.fw;
+return{x:Math.cos(a)*s,y:Math.sin(a)*s};
+}
+flock(agents){
+const P=50;let n=0,vx=0,vy=0,px=0,py=0,sx=0,sy=0;
+for(let i=0;i<agents.length;i++){
+const o=agents[i];if(o===this)continue;
+const dx=this.x-o.x,dy=this.y-o.y;
+const d=Math.hypot(dx,dy);
+if(d<P&&d>0){
+n++;vx+=o.vx;vy+=o.vy;px+=o.x;py+=o.y;sx+=dx/d;sy+=dy/d;
+}
+}
+if(n>0){
+const cf=cfg.cohesion*0.001;
+vx/=n;vy/=n;px/=n;py/=n;
+this.applyForce((vx-this.vx)*0.05*cf*this.genome.lw,(vy-this.vy)*0.05*cf*this.genome.lw);
+this.applyForce((px-this.x)*0.001*cf*this.genome.cw,(py-this.y)*0.001*cf*this.genome.cw);
+this.applyForce(sx*0.025*this.genome.sw,sy*0.025*this.genome.sw);
+}
+}
+update(t,agents,attractors){
+const f=this.flow(t);
+this.applyForce(f.x,f.y);
+this.flock(agents);
+attractors.forEach(a=>{
+const f=a.force(this);
+this.applyForce(f.x*this.genome.aw*0.1,f.y*this.genome.aw*0.1);
+const d=Math.hypot(a.x-this.x,a.y-this.y);
+if(d<a.radius)this.fit+=(a.radius-d)/a.radius*0.01;
+});
+// Karmic influence: follow karma gradients
+if(algos.karma&&karma){
+const g=karma.gradient(this.x,this.y);
+this.applyForce(g.x*this.genome.kw*0.5,g.y*this.genome.kw*0.5);
+const k=karma.sample(this.x,this.y);
+if(k.i>0.1)this.hue=this.hue*0.95+k.h*0.05;
+}
+// Stage modifiers
+this.applyForce(...stageForce(this));
+this.vx+=this.ax;this.vy+=this.ay;
+const sp=Math.hypot(this.vx,this.vy);
+if(sp>this.maxSpeed){this.vx=this.vx/sp*this.maxSpeed;this.vy=this.vy/sp*this.maxSpeed}
+this.x+=this.vx;this.y+=this.vy;
+if(cfg.trails){
+this.trail.push({x:this.x,y:this.y});
+if(this.trail.length>12)this.trail.shift();
+}else this.trail=[];
+// Imprint karma
+if(algos.karma&&karma&&time%2===0){
+karma.imprint(this.x,this.y,this.hue,Math.hypot(this.vx,this.vy)*0.08);
+this.karmaContribution+=Math.hypot(this.vx,this.vy)*0.08;
+}
+// Perturb NCA when passing
+if(algos.nca&&nca&&Math.random()<0.005){
+nca.perturb(this.x,this.y,2,0.3);
+}
+this.ax=0;this.ay=0;
+this.hue=(this.hue+this.genome.hs)%360;
+this.age++;
+if(this.x<0)this.x=W();if(this.x>W())this.x=0;
+if(this.y<0)this.y=H();if(this.y>H())this.y=0;
+}
+draw(c){
+if(cfg.trails&&this.trail.length>1){
+c.beginPath();c.moveTo(this.trail[0].x,this.trail[0].y);
+for(let i=1;i<this.trail.length;i++)c.lineTo(this.trail[i].x,this.trail[i].y);
+c.strokeStyle=`hsla(${this.hue},80%,60%,0.28)`;
+c.lineWidth=this.size*0.4;c.stroke();
+}
+const g=c.createRadialGradient(this.x,this.y,0,this.x,this.y,this.size*3);
+g.addColorStop(0,`hsla(${this.hue},100%,80%,0.9)`);
+g.addColorStop(0.5,`hsla(${this.hue},100%,60%,0.5)`);
+g.addColorStop(1,`hsla(${this.hue},100%,40%,0)`);
+c.fillStyle=g;c.beginPath();c.arc(this.x,this.y,this.size*3,0,TAU);c.fill();
+}
+}
+
+function evolve(agents){
+agents.sort((a,b)=>b.fit-a.fit);
+const survivors=agents.slice(0,Math.floor(agents.length/2));
+const off=[];
+for(let i=0;i<agents.length-survivors.length;i++){
+const p1=survivors[Math.floor(Math.random()*survivors.length)];
+const p2=survivors[Math.floor(Math.random()*survivors.length)];
+const cg={};
+Object.keys(p1.genome).forEach(k=>{
+cg[k]=Math.random()<0.5?p1.genome[k]:p2.genome[k];
+if(Math.random()<cfg.mut*0.01)cg[k]*=(0.8+Math.random()*0.4);
+});
+off.push(new Agent(Math.random()*W(),Math.random()*H(),cg));
+}
+return[...survivors.map(s=>{s.fit=0;return s}),...off];
+}
+
+// ============================================
+// QUANTUM FIELD
+// ============================================
+class QField{
+constructor(){this.parts=[]}
+add(x,y){
+this.parts.push({
+x,y,
+states:[{x:x-25,y:y-25,phase:0},{x:x+25,y:y-25,phase:TAU/3},{x:x-25,y:y+25,phase:2*TAU/3},{x:x+25,y:y+25,phase:Math.PI}],
+collapsed:false,phase:Math.random()*TAU
+});
+}
+update(){this.parts.forEach(p=>{p.phase+=0.02;p.states.forEach(s=>s.phase+=0.05)})}
+draw(c){
+c.globalCompositeOperation='screen';
+this.parts.forEach(p=>{
+if(p.collapsed){
+c.fillStyle=`hsla(${time%360},100%,70%,0.6)`;
+c.beginPath();c.arc(p.x,p.y,3,0,TAU);c.fill();
+}else{
+p.states.forEach((s,i)=>{
+const al=0.3*(0.5+Math.sin(s.phase)*0.5);
+const h=(time+i*90)%360;
+const g=c.createRadialGradient(s.x,s.y,0,s.x,s.y,14);
+g.addColorStop(0,`hsla(${h},100%,60%,${al})`);
+g.addColorStop(1,`hsla(${h},100%,60%,0)`);
+c.fillStyle=g;c.beginPath();c.arc(s.x,s.y,14,0,TAU);c.fill();
+});
+c.strokeStyle=`hsla(${time%360},60%,50%,0.18)`;
+c.lineWidth=1;c.beginPath();c.arc(p.x,p.y,35+Math.sin(p.phase)*8,0,TAU);c.stroke();
+}
+});
+c.globalCompositeOperation='source-over';
+}
+}
+const qf=new QField();
+
+// ============================================
+// SACRED GEOMETRY
+// ============================================
+function drawGeometry(){
+const c=ctx.geometry;c.clearRect(0,0,W(),H());
+const cx=W()/2,cy=H()/2;
+const baseR=Math.min(W(),H())*0.06;
+
+// Flower of Life
+const positions=[{x:cx,y:cy}];
+for(let i=0;i<6;i++){
+const a=(i/6)*TAU;
+positions.push({x:cx+Math.cos(a)*baseR,y:cy+Math.sin(a)*baseR});
+}
+positions.forEach(p=>{
+c.beginPath();c.arc(p.x,p.y,baseR,0,TAU);
+c.strokeStyle='rgba(255,255,255,0.06)';
+c.lineWidth=0.5;c.stroke();
+});
+
+// Metatron lines
+const R=Math.min(W(),H())*0.2;
+const mp=[];
+for(let i=0;i<6;i++){
+const a=(i/6)*TAU;
+mp.push({x:cx+Math.cos(a)*R,y:cy+Math.sin(a)*R});
+}
+mp.push({x:cx,y:cy});
+for(let i=0;i<mp.length;i++){
+for(let j=i+1;j<mp.length;j++){
+c.beginPath();c.moveTo(mp[i].x,mp[i].y);c.lineTo(mp[j].x,mp[j].y);
+c.strokeStyle='rgba(138,43,226,0.08)';c.lineWidth=0.5;c.stroke();
+}
+}
+
+// Fibonacci spiral
+c.beginPath();
+for(let i=0;i<=720;i++){
+const a=i*(Math.PI/180);
+const rad=2*Math.pow(PHI,a/TAU);
+const x=cx+Math.cos(a)*rad;
+const y=cy+Math.sin(a)*rad;
+if(i===0)c.moveTo(x,y);else c.lineTo(x,y);
+if(rad>Math.max(W(),H())/1.5)break;
+}
+c.strokeStyle='rgba(65,105,225,0.18)';c.lineWidth=0.8;c.stroke();
+}
+
+function drawLSystem(){
+const c=ctx.lsystem;c.clearRect(0,0,W(),H());
+attractors.forEach(a=>{
+const ang=a.y<H()/2?Math.PI/2:-Math.PI/2;
+lsystem.draw(c,a.x,a.y,ang);
+});
+}
+
+// ============================================
+// EXPANSIVE INQUIRY STAGES
+// ============================================
+const STAGES=[
+{name:'Inquiry',glyph:'⊙',desc:'The seeking begins. Agents disperse to explore the field.',color:'#FFD700'},
+{name:'Reflection',glyph:'◇',desc:'Patterns mirror themselves. Karmic trails deepen.',color:'#5EEAD4'},
+{name:'Synthesis',glyph:'⊕',desc:'Disparate flows weave into coherent forms.',color:'#B886FF'},
+{name:'Emergence',glyph:'✦',desc:'New order blooms from local rules. Symbols crystallize.',color:'#F472B6'},
+{name:'Transcendence',glyph:'∞',desc:'The system dissolves boundaries. All becomes one.',color:'#FFFFFF'}
+];
+let stage=0;
+let autoStage=true;
+
+function stageForce(agent){
+switch(stage){
+case 0:return[(Math.random()-0.5)*0.1,(Math.random()-0.5)*0.1];
+case 1:{const cx=W()/2,cy=H()/2;return[(cx-agent.x)*0.0001*Math.sin(time*0.01),(cy-agent.y)*0.0001*Math.cos(time*0.01)]}
+case 2:return[0,0];
+case 3:{const a=Math.atan2(agent.y-H()/2,agent.x-W()/2);return[Math.cos(a+Math.PI/2)*0.15,Math.sin(a+Math.PI/2)*0.15]}
+case 4:{const cx=W()/2,cy=H()/2;const d=Math.hypot(agent.x-cx,agent.y-cy);return[(cx-agent.x)/d*0.08,(cy-agent.y)/d*0.08]}
+}
+return[0,0];
+}
+
+function setStage(n,announce=true){
+if(n===stage&&announce===false)return;
+stage=Math.max(0,Math.min(4,n));
+const s=STAGES[stage];
+document.getElementById('stageLabel').textContent=s.name;
+document.getElementById('stagePill').style.borderColor=s.color;
+document.getElementById('c_stage').textContent=['I','II','III','IV','V'][stage];
+document.getElementById('compass').innerHTML=`stage <b>${['I','II','III','IV','V'][stage]}</b> · ${s.name.toLowerCase()}`;
+if(announce){
+const b=document.getElementById('stageBanner');
+document.getElementById('bannerGlyph').textContent=s.glyph;
+document.getElementById('bannerName').textContent=s.name;
+document.getElementById('bannerDesc').textContent=s.desc;
+b.style.borderColor=s.color;
+b.classList.add('show');
+setTimeout(()=>b.classList.remove('show'),2400);
+}
+}
+
+function checkAutoStage(m){
+if(!autoStage)return;
+// Advance based on emergent metrics
+const score=m.coherence*0.4+m.emergence*30+karma.total*0.05;
+let target=0;
+if(score>30)target=1;
+if(score>60)target=2;
+if(score>90)target=3;
+if(score>130)target=4;
+if(target>stage&&time-lastStageChange>600){
+setStage(target,true);
+lastStageChange=time;
+}
+}
+let lastStageChange=0;
+
+// ============================================
+// CONFIG & STATE
+// ============================================
+const cfg={
+pop:144,attract:50,turb:30,cohesion:40,
+ldepth:4,karmaP:60,caRate:10,mut:5,quantum:30,
+paused:false,trails:true
+};
+const algos={
+perlin:true,boids:true,attractors:true,
+lsystem:true,nca:true,karma:true,
+genetic:true,quantum:true
+};
+let agents=[];
+let attractors=[];
+let time=0,gen=0,fps=60,fc=0,lt=performance.now();
+
+function init(){
+agents=[];attractors=[];gen=0;
+const cx=W()/2,cy=H()/2;
+const sp=Math.min(W()*0.32,250);
+const yT=H()*0.22,yB=H()*0.78;
+const positions=[
+{x:cx-sp,y:yT},{x:cx,y:yT},{x:cx+sp,y:yT},
+{x:cx-sp,y:yB},{x:cx,y:yB},{x:cx+sp,y:yB}
+];
+positions.forEach((p,i)=>attractors.push(new Attractor(p.x,p.y,SACRED_SYMBOLS[i])));
+for(let i=0;i<cfg.pop;i++)agents.push(new Agent(Math.random()*W(),Math.random()*H()));
+lsystem.gen(cfg.ldepth);
+nca=new NeuralCA(W(),H(),12);
+karma=new KarmaField(W(),H(),8);
+qf.parts=[];
+for(let i=0;i<6;i++)qf.add(Math.random()*W(),Math.random()*H());
+drawGeometry();
+drawLSystem();
+setStage(0,false);
+lastStageChange=0;
+}
+
+function metrics(){
+let d=0,n=0;
+const sm=Math.min(agents.length,25);
+for(let i=0;i<sm;i++)for(let j=i+1;j<sm;j++){
+d+=Math.hypot(agents[i].x-agents[j].x,agents[i].y-agents[j].y);n++;
+}
+const ent=n>0?(d/n)/100:0;
+let av=0;agents.forEach(a=>av+=Math.hypot(a.vx,a.vy));av/=agents.length||1;
+let v=0;agents.forEach(a=>v+=(Math.hypot(a.vx,a.vy)-av)**2);v/=agents.length||1;
+const coh=Math.max(0,100-v*10);
+let cl=0;
+attractors.forEach(at=>agents.forEach(ag=>{
+const d=Math.hypot(ag.x-at.x,ag.y-at.y);
+if(d<at.radius)cl+=(at.radius-d)/at.radius;
+}));
+const em=cl/(agents.length||1);
+let af=0;agents.forEach(a=>af+=a.fit);af/=agents.length||1;
+return{entropy:ent,coherence:coh,emergence:em,avgFit:af};
+}
+
+function animate(){
+if(!cfg.paused){
+// karma decay
+if(algos.karma&&karma){karma.persistence=0.985-(1-cfg.karmaP/100)*0.02;karma.decay()}
+// NCA
+if(algos.nca&&nca&&time%cfg.caRate===0)nca.step();
+
+ctx.substrate.clearRect(0,0,W(),H());
+let ncaActive=0;
+if(algos.nca&&nca)ncaActive=nca.draw(ctx.substrate);
+
+if(algos.karma&&karma)karma.draw(ctx.karma);
+else ctx.karma.clearRect(0,0,W(),H());
+
+if(time%180===0&&algos.lsystem)drawLSystem();
+
+// particle fade
+ctx.particle.fillStyle='rgba(0,0,0,0.14)';
+ctx.particle.fillRect(0,0,W(),H());
+
+// attractors
+ctx.attractor.clearRect(0,0,W(),H());
+if(algos.attractors)attractors.forEach(a=>{a.update(time);a.draw(ctx.attractor)});
+
+// agents
+if(algos.boids||algos.perlin)agents.forEach(a=>{a.update(time,agents,attractors);a.draw(ctx.particle)});
+
+// quantum
+ctx.quantum.clearRect(0,0,W(),H());
+if(algos.quantum){qf.update();qf.draw(ctx.quantum)}
+
+const m=metrics();
+
+// chips
+document.getElementById('c_agents').textContent=agents.length;
+document.getElementById('c_emerge').textContent=m.emergence.toFixed(2);
+document.getElementById('c_cohere').textContent=Math.round(m.coherence)+'%';
+document.getElementById('c_karma').textContent=Math.round(karma.total);
+document.getElementById('c_gen').textContent=gen;
+
+// full metrics
+document.getElementById('m_agents').textContent=agents.length;
+document.getElementById('m_gen').textContent=gen;
+document.getElementById('m_lsys').textContent=lsystem.iter;
+document.getElementById('m_ca').textContent=ncaActive;
+document.getElementById('m_karma').textContent=Math.round(karma.total);
+document.getElementById('m_quantum').textContent=(qf.parts[0]?qf.parts[0].phase.toFixed(2):'0.00');
+document.getElementById('m_entropy').textContent=m.entropy.toFixed(2);
+document.getElementById('m_coherence').textContent=m.coherence.toFixed(0)+'%';
+document.getElementById('m_emergence').textContent=m.emergence.toFixed(2);
+document.getElementById('m_fitness').textContent=m.avgFit.toFixed(2);
+document.getElementById('b_entropy').style.width=Math.min(100,m.entropy*10)+'%';
+document.getElementById('b_coherence').style.width=m.coherence+'%';
+document.getElementById('b_emergence').style.width=Math.min(100,m.emergence*20)+'%';
+document.getElementById('b_fitness').style.width=Math.min(100,m.avgFit*30)+'%';
+
+checkAutoStage(m);
+time++;
+if(time%500===0&&algos.genetic){agents=evolve(agents);gen++}
+}
+
+fc++;
+const now=performance.now();
+if(now-lt>=1000){
+fps=fc;
+document.getElementById('c_fps').textContent=fps;
+document.getElementById('compass').innerHTML=`stage <b>${['I','II','III','IV','V'][stage]}</b> · ∂t <b>${time}</b>`;
+fc=0;lt=now;
+}
+requestAnimationFrame(animate);
+}
+
+// ============================================
+// UI WIRING
+// ============================================
+const sheet=document.getElementById('sheet');
+const backdrop=document.getElementById('sheetBackdrop');
+function openSheet(){sheet.classList.add('open');backdrop.classList.add('open')}
+function closeSheet(){sheet.classList.remove('open');backdrop.classList.remove('open')}
+document.getElementById('menuBtn').addEventListener('click',openSheet);
+document.getElementById('metricsBtn').addEventListener('click',()=>{
+openSheet();
+document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.tab==='metrics'));
+document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.dataset.panel==='metrics'));
+});
+document.getElementById('sheetClose').addEventListener('click',closeSheet);
+backdrop.addEventListener('click',closeSheet);
+
+// Tabs
+document.querySelectorAll('.tab').forEach(t=>{
+t.addEventListener('click',()=>{
+document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+t.classList.add('active');
+document.querySelectorAll('.tab-panel').forEach(p=>p.classList.toggle('active',p.dataset.panel===t.dataset.tab));
+});
+});
+
+// Sliders
+function bindSlider(id,key,valId,fn){
+const el=document.getElementById(id);
+const vEl=document.getElementById(valId);
+el.addEventListener('input',e=>{
+const v=parseInt(e.target.value);
+cfg[key]=v;vEl.textContent=v;
+if(fn)fn(v);
+});
+}
+bindSlider('population','pop','popValue',v=>{
+while(agents.length<v)agents.push(new Agent(Math.random()*W(),Math.random()*H()));
+while(agents.length>v)agents.pop();
+});
+bindSlider('attraction','attract','attractValue');
+bindSlider('turbulence','turb','turbValue');
+bindSlider('cohesion','cohesion','cohesionValue');
+bindSlider('lDepth','ldepth','lDepthValue',v=>{lsystem.gen(v);drawLSystem()});
+bindSlider('karmaPersist','karmaP','karmaValue');
+bindSlider('caRate','caRate','caRateValue');
+bindSlider('mutation','mut','mutValue');
+bindSlider('quantum','quantum','qValue');
+
+// Toggles
+document.querySelectorAll('.toggle').forEach(t=>{
+t.addEventListener('click',()=>{
+const k=t.dataset.algo;
+t.classList.toggle('on');
+algos[k]=t.classList.contains('on');
+});
+});
+
+// Actions
+document.getElementById('toggleFlow').addEventListener('click',e=>{
+cfg.paused=!cfg.paused;
+e.target.textContent=cfg.paused?'▶ Resume':'⏸ Pause';
+});
+document.getElementById('resetSystem').addEventListener('click',()=>{init();closeSheet()});
+document.getElementById('toggleTrails').addEventListener('click',e=>{
+cfg.trails=!cfg.trails;
+e.target.textContent=cfg.trails?'✨ Hide Trails':'✨ Show Trails';
+});
+document.getElementById('exportFrame').addEventListener('click',()=>{
+const comp=document.createElement('canvas');
+comp.width=W()*DPR;comp.height=H()*DPR;
+const cc=comp.getContext('2d');
+cc.fillStyle='#000';cc.fillRect(0,0,comp.width,comp.height);
+['substrate','karma','geometry','lsystem','particle','attractor','quantum'].forEach(k=>cc.drawImage(layers[k],0,0));
+const link=document.createElement('a');
+link.download=`sacred-synthesis-${Date.now()}.png`;
+link.href=comp.toDataURL();link.click();
+});
+document.getElementById('evolveBtn').addEventListener('click',()=>{agents=evolve(agents);gen++});
+document.getElementById('seedBtn').addEventListener('click',()=>{
+if(nca)nca.perturb(Math.random()*W(),Math.random()*H(),4,1);
+qf.add(Math.random()*W(),Math.random()*H());
+});
+document.getElementById('entangleBtn').addEventListener('click',()=>{
+for(let i=0;i<attractors.length;i++)attractors[i].entangled=attractors[(i+3)%attractors.length];
+qf.parts.forEach(p=>p.collapsed=!p.collapsed);
+});
+
+// Stage buttons
+document.querySelectorAll('[data-stage]').forEach(b=>{
+b.addEventListener('click',()=>{
+autoStage=false;
+document.getElementById('autoStage').textContent='🔮 Auto-Advance: OFF';
+setStage(parseInt(b.dataset.stage));
+closeSheet();
+});
+});
+document.getElementById('autoStage').addEventListener('click',e=>{
+autoStage=!autoStage;
+e.target.textContent=autoStage?'🔮 Auto-Advance: ON':'🔮 Auto-Advance: OFF';
+});
+
+// Touch canvas
+function canvasTap(x,y){
+if(nca)nca.perturb(x,y,3,0.8);
+qf.add(x,y);
+if(karma)karma.imprint(x,y,Math.random()*360,1);
+}
+layers.ui.addEventListener('pointerdown',e=>{
+const rect=layers.ui.getBoundingClientRect();
+canvasTap(e.clientX-rect.left,e.clientY-rect.top);
+});
+
+window.addEventListener('resize',()=>{sizeCanvases();init()});
+
+// Boot
+init();
+animate();
+
+// Show initial stage banner after a beat
+setTimeout(()=>setStage(0,true),600);
+</script>
+</body>
+</html>

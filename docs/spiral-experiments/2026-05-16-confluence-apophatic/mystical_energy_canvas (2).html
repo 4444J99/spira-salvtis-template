@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmic Sacred Geometry: Self-Organizing Energy System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+            background: #000;
+        }
+        
+        .universe {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: #000;
+        }
+        
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        #geometryLayer { z-index: 1; opacity: 0.3; }
+        #particleLayer { z-index: 2; }
+        #nodeLayer { z-index: 3; }
+        
+        .control-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.85);
+            padding: 20px 30px;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            min-width: 400px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .control-row {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .control-panel button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .control-panel button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(102,126,234,0.5);
+        }
+        
+        .control-panel button:active {
+            transform: scale(0.95);
+        }
+        
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            flex: 1;
+        }
+        
+        .control-group label {
+            color: rgba(255,255,255,0.8);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .control-group input[type="range"] {
+            width: 100%;
+            height: 4px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 2px;
+            outline: none;
+        }
+        
+        .control-group input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .value-display {
+            color: #8A2BE2;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        
+        .info-display {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.85);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.9);
+            font-size: 11px;
+            max-width: 300px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .info-display h3 {
+            margin-bottom: 15px;
+            color: #4169E1;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .stat {
+            margin: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .stat:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-value {
+            color: #8A2BE2;
+            font-weight: bold;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .algorithm-info {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            font-size: 10px;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
+        
+        .node-info {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.85);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.9);
+            font-size: 11px;
+            max-width: 250px;
+            backdrop-filter: blur(10px);
+            display: none;
+        }
+        
+        .node-info.active {
+            display: block;
+        }
+        
+        .node-info h4 {
+            color: #FFD700;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        
+        .node-info p {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+        
+        .mode-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .mode-btn {
+            flex: 1;
+            padding: 8px;
+            font-size: 10px;
+            background: rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.6);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .mode-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .fps-counter {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.85);
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #4169E1;
+            font-size: 12px;
+            font-family: 'Courier New', monospace;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="universe">
+        <canvas id="geometryLayer"></canvas>
+        <canvas id="particleLayer"></canvas>
+        <canvas id="nodeLayer"></canvas>
+        
+        <div class="fps-counter" id="fpsCounter">FPS: 60</div>
+        
+        <div class="info-display">
+            <h3>⚛ Algorithmic Status</h3>
+            <div class="stat">
+                <span>Active Agents:</span>
+                <span class="stat-value" id="agentCount">0</span>
+            </div>
+            <div class="stat">
+                <span>Attractors:</span>
+                <span class="stat-value" id="attractorCount">0</span>
+            </div>
+            <div class="stat">
+                <span>Entropy:</span>
+                <span class="stat-value" id="entropy">0.00</span>
+            </div>
+            <div class="stat">
+                <span>Coherence:</span>
+                <span class="stat-value" id="coherence">0%</span>
+            </div>
+            <div class="stat">
+                <span>Emergence Index:</span>
+                <span class="stat-value" id="emergence">0.00</span>
+            </div>
+            <div class="stat">
+                <span>Golden Ratio:</span>
+                <span class="stat-value">φ = 1.618...</span>
+            </div>
+            <div class="algorithm-info">
+                <strong>Active Algorithms:</strong><br>
+                • Fibonacci Spiral Growth<br>
+                • Perlin Noise Flow Fields<br>
+                • Boids Flocking (Craig Reynolds)<br>
+                • Strange Attractor Dynamics<br>
+                • L-System Branching<br>
+                • Voronoi Spatial Partition
+            </div>
+        </div>
+        
+        <div class="control-panel">
+            <div class="mode-selector">
+                <button class="mode-btn active" data-mode="emergence">⚡ Emergence</button>
+                <button class="mode-btn" data-mode="harmony">☯ Harmony</button>
+                <button class="mode-btn" data-mode="chaos">🌀 Chaos</button>
+                <button class="mode-btn" data-mode="crystallize">💎 Crystallize</button>
+            </div>
+            
+            <div class="control-row">
+                <div class="control-group">
+                    <label>Agent Population</label>
+                    <input type="range" id="population" min="10" max="500" value="144" step="1">
+                    <span class="value-display" id="popValue">144</span>
+                </div>
+                <div class="control-group">
+                    <label>Attractor Strength</label>
+                    <input type="range" id="attraction" min="0" max="100" value="50">
+                    <span class="value-display" id="attractValue">50</span>
+                </div>
+            </div>
+            
+            <div class="control-row">
+                <div class="control-group">
+                    <label>Flow Turbulence</label>
+                    <input type="range" id="turbulence" min="0" max="100" value="30">
+                    <span class="value-display" id="turbValue">30</span>
+                </div>
+                <div class="control-group">
+                    <label>Flocking Cohesion</label>
+                    <input type="range" id="cohesion" min="0" max="100" value="40">
+                    <span class="value-display" id="cohesionValue">40</span>
+                </div>
+            </div>
+            
+            <div class="control-row">
+                <button id="toggleFlow">⏸ Pause</button>
+                <button id="resetSystem">⟳ Regenerate</button>
+                <button id="exportFrame">📸 Capture</button>
+                <button id="toggleTrails">✨ Toggle Trails</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // ============================================
+        // ALGORITHMIC SACRED GEOMETRY ENGINE
+        // ============================================
+        
+        const PHI = 1.618033988749895; // Golden Ratio
+        const TAU = Math.PI * 2;
+        
+        // Canvas Setup
+        const geoCanvas = document.getElementById('geometryLayer');
+        const partCanvas = document.getElementById('particleLayer');
+        const nodeCanvas = document.getElementById('nodeLayer');
+        
+        const geoCtx = geoCanvas.getContext('2d');
+        const partCtx = partCanvas.getContext('2d');
+        const nodeCtx = nodeCanvas.getContext('2d');
+        
+        function resizeCanvases() {
+            [geoCanvas, partCanvas, nodeCanvas].forEach(canvas => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            });
+        }
+        resizeCanvases();
+        
+        // ============================================
+        // PERLIN NOISE IMPLEMENTATION
+        // ============================================
+        class PerlinNoise {
+            constructor() {
+                this.gradients = {};
+                this.memory = {};
+            }
+            
+            rand_vect() {
+                const theta = Math.random() * 2 * Math.PI;
+                return { x: Math.cos(theta), y: Math.sin(theta) };
+            }
+            
+            dot_prod_grid(x, y, vx, vy) {
+                let g_vect;
+                const d_vect = { x: x - vx, y: y - vy };
+                const grid_key = `${vx},${vy}`;
+                
+                if (this.gradients[grid_key]) {
+                    g_vect = this.gradients[grid_key];
+                } else {
+                    g_vect = this.rand_vect();
+                    this.gradients[grid_key] = g_vect;
+                }
+                
+                return d_vect.x * g_vect.x + d_vect.y * g_vect.y;
+            }
+            
+            smootherstep(x) {
+                return 6 * x ** 5 - 15 * x ** 4 + 10 * x ** 3;
+            }
+            
+            interp(x, a, b) {
+                return a + this.smootherstep(x) * (b - a);
+            }
+            
+            get(x, y) {
+                const key = `${x},${y}`;
+                if (this.memory[key]) return this.memory[key];
+                
+                const xf = Math.floor(x);
+                const yf = Math.floor(y);
+                
+                const tl = this.dot_prod_grid(x, y, xf, yf);
+                const tr = this.dot_prod_grid(x, y, xf + 1, yf);
+                const bl = this.dot_prod_grid(x, y, xf, yf + 1);
+                const br = this.dot_prod_grid(x, y, xf + 1, yf + 1);
+                
+                const xt = this.interp(x - xf, tl, tr);
+                const xb = this.interp(x - xf, bl, br);
+                const v = this.interp(y - yf, xt, xb);
+                
+                this.memory[key] = v;
+                return v;
+            }
+        }
+        
+        const perlin = new PerlinNoise();
+        
+        // ============================================
+        // SACRED GEOMETRY GENERATION
+        // ============================================
+        class SacredGeometry {
+            static flowerOfLife(ctx, cx, cy, radius, depth = 2) {
+                const circles = [{ x: cx, y: cy }];
+                
+                for (let d = 0; d < depth; d++) {
+                    const newCircles = [];
+                    circles.forEach(c => {
+                        for (let i = 0; i < 6; i++) {
+                            const angle = (i / 6) * TAU;
+                            const x = c.x + Math.cos(angle) * radius;
+                            const y = c.y + Math.sin(angle) * radius;
+                            
+                            const exists = circles.some(existing => 
+                                Math.hypot(existing.x - x, existing.y - y) < radius * 0.1
+                            );
+                            
+                            if (!exists) {
+                                newCircles.push({ x, y });
+                            }
+                        }
+                    });
+                    circles.push(...newCircles);
+                }
+                
+                circles.forEach(c => {
+                    ctx.beginPath();
+                    ctx.arc(c.x, c.y, radius, 0, TAU);
+                    ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+                    ctx.lineWidth = 0.5;
+                    ctx.stroke();
+                });
+            }
+            
+            static metatronsCube(ctx, cx, cy, radius) {
+                const points = [];
+                for (let i = 0; i < 6; i++) {
+                    const angle = (i / 6) * TAU;
+                    points.push({
+                        x: cx + Math.cos(angle) * radius,
+                        y: cy + Math.sin(angle) * radius
+                    });
+                }
+                points.push({ x: cx, y: cy });
+                
+                // Connect all points to each other
+                for (let i = 0; i < points.length; i++) {
+                    for (let j = i + 1; j < points.length; j++) {
+                        ctx.beginPath();
+                        ctx.moveTo(points[i].x, points[i].y);
+                        ctx.lineTo(points[j].x, points[j].y);
+                        ctx.strokeStyle = 'rgba(138,43,226,0.15)';
+                        ctx.lineWidth = 0.5;
+                        ctx.stroke();
+                    }
+                }
+            }
+            
+            static fibonacciSpiral(ctx, cx, cy, startRadius, turns = 4) {
+                ctx.beginPath();
+                for (let i = 0; i <= turns * 360; i++) {
+                    const angle = i * (Math.PI / 180);
+                    const radius = startRadius * Math.pow(PHI, angle / TAU);
+                    const x = cx + Math.cos(angle) * radius;
+                    const y = cy + Math.sin(angle) * radius;
+                    
+                    if (i === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                }
+                ctx.strokeStyle = 'rgba(65,105,225,0.3)';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
+            
+            static voronoiField(ctx, width, height, points) {
+                const imageData = ctx.createImageData(width, height);
+                const data = imageData.data;
+                
+                for (let y = 0; y < height; y += 2) {
+                    for (let x = 0; x < width; x += 2) {
+                        let minDist = Infinity;
+                        let closestPoint = null;
+                        
+                        points.forEach(p => {
+                            const dist = Math.hypot(x - p.x, y - p.y);
+                            if (dist < minDist) {
+                                minDist = dist;
+                                closestPoint = p;
+                            }
+                        });
+                        
+                        if (closestPoint) {
+                            const idx = (y * width + x) * 4;
+                            data[idx] = closestPoint.r;
+                            data[idx + 1] = closestPoint.g;
+                            data[idx + 2] = closestPoint.b;
+                            data[idx + 3] = 30;
+                        }
+                    }
+                }
+                
+                ctx.putImageData(imageData, 0, 0);
+            }
+        }
+        
+        // ============================================
+        // STRANGE ATTRACTOR SYSTEM
+        // ============================================
+        class StrangeAttractor {
+            constructor(x, y, type = 'sacred') {
+                this.x = x;
+                this.y = y;
+                this.type = type;
+                this.strength = 0.5;
+                this.radius = 150;
+                this.phase = Math.random() * TAU;
+                this.symbol = this.getSymbol(type);
+                this.tradition = this.getTradition(type);
+            }
+            
+            getSymbol(type) {
+                const symbols = {
+                    'sacred': ['✠', '☾', '☸', 'ॐ', '✡', '☯'][Math.floor(Math.random() * 6)],
+                    'divine': '✠',
+                    'lunar': '☾',
+                    'dharma': '☸',
+                    'om': 'ॐ'
+                };
+                return symbols[type] || '✦';
+            }
+            
+            getTradition(type) {
+                const traditions = {
+                    '✠': 'Christian Mysticism',
+                    '☾': 'Islamic Sufism',
+                    '☸': 'Buddhist Dharma',
+                    'ॐ': 'Hindu Vedanta',
+                    '✡': 'Kabbalistic Wisdom',
+                    '☯': 'Taoist Harmony'
+                };
+                return traditions[this.symbol] || 'Universal Mystery';
+            }
+            
+            update(time) {
+                this.phase += 0.01;
+                this.strength = 0.5 + Math.sin(this.phase) * 0.3;
+            }
+            
+            attract(agent) {
+                const dx = this.x - agent.x;
+                const dy = this.y - agent.y;
+                const dist = Math.hypot(dx, dy);
+                
+                if (dist < this.radius && dist > 1) {
+                    const force = (this.strength * config.attractionStrength) / (dist * dist);
+                    return {
+                        x: (dx / dist) * force,
+                        y: (dy / dist) * force
+                    };
+                }
+                return { x: 0, y: 0 };
+            }
+            
+            draw(ctx) {
+                // Draw symbol
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.font = '48px serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                // Glow effect
+                ctx.shadowColor = this.y < partCanvas.height / 2 ? '#4169E1' : '#8A2BE2';
+                ctx.shadowBlur = 30 * this.strength;
+                ctx.fillStyle = 'rgba(255,255,255,0.9)';
+                ctx.fillText(this.symbol, 0, 0);
+                
+                ctx.restore();
+                
+                // Draw influence radius
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius * this.strength, 0, TAU);
+                ctx.strokeStyle = this.y < partCanvas.height / 2 ? 
+                    'rgba(65,105,225,0.2)' : 'rgba(138,43,226,0.2)';
+                ctx.lineWidth = 1;
+                ctx.stroke();
+            }
+        }
+        
+        // ============================================
+        // INTELLIGENT AGENT SYSTEM (Boids + Flow Fields)
+        // ============================================
+        class Agent {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.vx = (Math.random() - 0.5) * 2;
+                this.vy = (Math.random() - 0.5) * 2;
+                this.ax = 0;
+                this.ay = 0;
+                this.maxSpeed = 3;
+                this.maxForce = 0.1;
+                this.hue = Math.random() * 360;
+                this.size = 2 + Math.random();
+                this.trail = [];
+                this.maxTrailLength = config.showTrails ? 20 : 0;
+                this.life = 1.0;
+            }
+            
+            applyForce(fx, fy) {
+                this.ax += fx;
+                this.ay += fy;
+            }
+            
+            flowFieldForce(time) {
+                const scale = 0.005;
+                const noiseX = perlin.get(this.x * scale, time * 0.0001);
+                const noiseY = perlin.get(this.y * scale + 1000, time * 0.0001);
+                
+                const angle = noiseX * TAU * 2;
+                const strength = noiseY * config.turbulence * 0.01;
+                
+                return {
+                    x: Math.cos(angle) * strength,
+                    y: Math.sin(angle) * strength
+                };
+            }
+            
+            flockingBehavior(agents) {
+                const perceptionRadius = 50;
+                let neighbors = 0;
+                let avgVelX = 0, avgVelY = 0;
+                let avgPosX = 0, avgPosY = 0;
+                let separationX = 0, separationY = 0;
+                
+                agents.forEach(other => {
+                    if (other === this) return;
+                    
+                    const dist = Math.hypot(this.x - other.x, this.y - other.y);
+                    
+                    if (dist < perceptionRadius) {
+                        neighbors++;
+                        
+                        // Alignment
+                        avgVelX += other.vx;
+                        avgVelY += other.vy;
+                        
+                        // Cohesion
+                        avgPosX += other.x;
+                        avgPosY += other.y;
+                        
+                        // Separation
+                        if (dist > 0) {
+                            separationX += (this.x - other.x) / dist;
+                            separationY += (this.y - other.y) / dist;
+                        }
+                    }
+                });
+                
+                if (neighbors > 0) {
+                    const cohesionForce = config.cohesion * 0.001;
+                    
+                    // Alignment
+                    avgVelX /= neighbors;
+                    avgVelY /= neighbors;
+                    this.applyForce((avgVelX - this.vx) * 0.05 * cohesionForce, 
+                                   (avgVelY - this.vy) * 0.05 * cohesionForce);
+                    
+                    // Cohesion
+                    avgPosX /= neighbors;
+                    avgPosY /= neighbors;
+                    this.applyForce((avgPosX - this.x) * 0.001 * cohesionForce, 
+                                   (avgPosY - this.y) * 0.001 * cohesionForce);
+                    
+                    // Separation
+                    this.applyForce(separationX * 0.02, separationY * 0.02);
+                }
+            }
+            
+            update(time, agents, attractors) {
+                // Flow field
+                const flow = this.flowFieldForce(time);
+                this.applyForce(flow.x, flow.y);
+                
+                // Flocking
+                this.flockingBehavior(agents);
+                
+                // Attractors
+                attractors.forEach(attractor => {
+                    const force = attractor.attract(this);
+                    this.applyForce(force.x, force.y);
+                });
+                
+                // Update velocity
+                this.vx += this.ax;
+                this.vy += this.ay;
+                
+                // Limit speed
+                const speed = Math.hypot(this.vx, this.vy);
+                if (speed > this.maxSpeed) {
+                    this.vx = (this.vx / speed) * this.maxSpeed;
+                    this.vy = (this.vy / speed) * this.maxSpeed;
+                }
+                
+                // Update position
+                this.x += this.vx;
+                this.y += this.vy;
+                
+                // Trail
+                this.trail.push({ x: this.x, y: this.y, alpha: this.life });
+                if (this.trail.length > this.maxTrailLength) {
+                    this.trail.shift();
+                }
+                
+                // Reset acceleration
+                this.ax = 0;
+                this.ay = 0;
+                
+                // Hue shift
+                this.hue = (this.hue + 0.5) % 360;
+                
+                // Wrap around screen
+                if (this.x < 0) this.x = partCanvas.width;
+                if (this.x > partCanvas.width) this.x = 0;
+                if (this.y < 0) this.y = partCanvas.height;
+                if (this.y > partCanvas.height) this.y = 0;
+            }
+            
+            draw(ctx) {
+                // Draw trail
+                if (config.showTrails) {
+                    for (let i = 0; i < this.trail.length - 1; i++) {
+                        const alpha = (i / this.trail.length) * 0.5;
+                        const point = this.trail[i];
+                        const nextPoint = this.trail[i + 1];
+                        
+                        ctx.beginPath();
+                        ctx.moveTo(point.x, point.y);
+                        ctx.lineTo(nextPoint.x, nextPoint.y);
+                        ctx.strokeStyle = `hsla(${this.hue}, 80%, 60%, ${alpha})`;
+                        ctx.lineWidth = this.size * 0.5;
+                        ctx.stroke();
+                    }
+                }
+                
+                // Draw agent
+                const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 3);
+                gradient.addColorStop(0, `hsla(${this.hue}, 100%, 80%, 0.9)`);
+                gradient.addColorStop(0.5, `hsla(${this.hue}, 100%, 60%, 0.6)`);
+                gradient.addColorStop(1, `hsla(${this.hue}, 100%, 40%, 0)`);
+                
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size * 3, 0, TAU);
+                ctx.fill();
+            }
+        }
+        
+        // ============================================
+        // SYSTEM CONFIGURATION
+        // ============================================
+        const config = {
+            population: 144,
+            attractionStrength: 50,
+            turbulence: 30,
+            cohesion: 40,
+            isPaused: false,
+            showTrails: true,
+            mode: 'emergence'
+        };
+        
+        // ============================================
+        // MAIN SYSTEM
+        // ============================================
+        let agents = [];
+        let attractors = [];
+        let time = 0;
+        let frameCount = 0;
+        let lastTime = performance.now();
+        let fps = 60;
+        
+        function initializeSystem() {
+            agents = [];
+            attractors = [];
+            
+            // Create attractors at sacred positions
+            const cx = partCanvas.width / 2;
+            const cy = partCanvas.height / 2;
+            const spacing = 250;
+            
+            // Top trinity (divine consciousness)
+            attractors.push(new StrangeAttractor(cx - spacing, cy * 0.3, 'sacred'));
+            attractors.push(new StrangeAttractor(cx, cy * 0.3, 'sacred'));
+            attractors.push(new StrangeAttractor(cx + spacing, cy * 0.3, 'sacred'));
+            
+            // Bottom trinity (earthly manifestation)
+            attractors.push(new StrangeAttractor(cx - spacing, cy * 1.7, 'sacred'));
+            attractors.push(new StrangeAttractor(cx, cy * 1.7, 'sacred'));
+            attractors.push(new StrangeAttractor(cx + spacing, cy * 1.7, 'sacred'));
+            
+            // Create agents
+            for (let i = 0; i < config.population; i++) {
+                agents.push(new Agent(
+                    Math.random() * partCanvas.width,
+                    Math.random() * partCanvas.height
+                ));
+            }
+            
+            // Draw sacred geometry background
+            drawSacredGeometry();
+        }
+        
+        function drawSacredGeometry() {
+            geoCtx.clearRect(0, 0, geoCanvas.width, geoCanvas.height);
+            
+            const cx = geoCanvas.width / 2;
+            const cy = geoCanvas.height / 2;
+            
+            // Flower of Life
+            SacredGeometry.flowerOfLife(geoCtx, cx, cy, 40, 2);
+            
+            // Metatron's Cube
+            SacredGeometry.metatronsCube(geoCtx, cx, cy, 120);
+            
+            // Fibonacci Spiral
+            SacredGeometry.fibonacciSpiral(geoCtx, cx, cy, 5, 3);
+            
+            // Voronoi field
+            const voronoiPoints = attractors.map(a => ({
+                x: a.x,
+                y: a.y,
+                r: Math.random() * 100,
+                g: Math.random() * 100,
+                b: 200 + Math.random() * 55
+            }));
+            SacredGeometry.voronoiField(geoCtx, geoCanvas.width, geoCanvas.height, voronoiPoints);
+        }
+        
+        function calculateMetrics() {
+            // Entropy calculation (average distance between agents)
+            let totalDist = 0;
+            let count = 0;
+            for (let i = 0; i < agents.length; i++) {
+                for (let j = i + 1; j < agents.length; j++) {
+                    totalDist += Math.hypot(agents[i].x - agents[j].x, agents[i].y - agents[j].y);
+                    count++;
+                }
+            }
+            const entropy = count > 0 ? (totalDist / count) / 100 : 0;
+            
+            // Coherence (inverse of velocity variance)
+            let avgSpeed = 0;
+            agents.forEach(a => {
+                avgSpeed += Math.hypot(a.vx, a.vy);
+            });
+            avgSpeed /= agents.length;
+            
+            let variance = 0;
+            agents.forEach(a => {
+                const speed = Math.hypot(a.vx, a.vy);
+                variance += (speed - avgSpeed) ** 2;
+            });
+            variance /= agents.length;
+            const coherence = Math.max(0, 100 - variance * 10);
+            
+            // Emergence index (clustering near attractors)
+            let clusterScore = 0;
+            attractors.forEach(att => {
+                agents.forEach(agent => {
+                    const dist = Math.hypot(agent.x - att.x, agent.y - att.y);
+                    if (dist < att.radius) {
+                        clusterScore += (att.radius - dist) / att.radius;
+                    }
+                });
+            });
+            const emergence = (clusterScore / agents.length).toFixed(2);
+            
+            return { entropy: entropy.toFixed(2), coherence: coherence.toFixed(0), emergence };
+        }
+        
+        function animate() {
+            if (!config.isPaused) {
+                // Clear particle canvas with fade
+                partCtx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+                partCtx.fillRect(0, 0, partCanvas.width, partCanvas.height);
+                
+                // Update attractors
+                attractors.forEach(att => att.update(time));
+                
+                // Update agents
+                agents.forEach(agent => agent.update(time, agents, attractors));
+                
+                // Draw attractors
+                attractors.forEach(att => att.draw(partCtx));
+                
+                // Draw agents
+                agents.forEach(agent => agent.draw(partCtx));
+                
+                // Update metrics
+                const metrics = calculateMetrics();
+                document.getElementById('entropy').textContent = metrics.entropy;
+                document.getElementById('coherence').textContent = metrics.coherence + '%';
+                document.getElementById('emergence').textContent = metrics.emergence;
+                document.getElementById('agentCount').textContent = agents.length;
+                document.getElementById('attractorCount').textContent = attractors.length;
+                
+                time++;
+            }
+            
+            // FPS counter
+            frameCount++;
+            const currentTime = performance.now();
+            if (currentTime - lastTime >= 1000) {
+                fps = frameCount;
+                document.getElementById('fpsCounter').textContent = `FPS: ${fps}`;
+                frameCount = 0;
+                lastTime = currentTime;
+            }
+            
+            requestAnimationFrame(animate);
+        }
+        
+        // ============================================
+        // CONTROLS
+        // ============================================
+        document.getElementById('population').addEventListener('input', (e) => {
+            config.population = parseInt(e.target.value);
+            document.getElementById('popValue').textContent = config.population;
+            
+            // Adjust agent count
+            while (agents.length < config.population) {
+                agents.push(new Agent(
+                    Math.random() * partCanvas.width,
+                    Math.random() * partCanvas.height
+                ));
+            }
+            while (agents.length > config.population) {
+                agents.pop();
+            }
+        });
+        
+        document.getElementById('attraction').addEventListener('input', (e) => {
+            config.attractionStrength = parseInt(e.target.value);
+            document.getElementById('attractValue').textContent = config.attractionStrength;
+        });
+        
+        document.getElementById('turbulence').addEventListener('input', (e) => {
+            config.turbulence = parseInt(e.target.value);
+            document.getElementById('turbValue').textContent = config.turbulence;
+        });
+        
+        document.getElementById('cohesion').addEventListener('input', (e) => {
+            config.cohesion = parseInt(e.target.value);
+            document.getElementById('cohesionValue').textContent = config.cohesion;
+        });
+        
+        document.getElementById('toggleFlow').addEventListener('click', (e) => {
+            config.isPaused = !config.isPaused;
+            e.target.textContent = config.isPaused ? '▶ Resume' : '⏸ Pause';
+        });
+        
+        document.getElementById('resetSystem').addEventListener('click', () => {
+            initializeSystem();
+        });
+        
+        document.getElementById('toggleTrails').addEventListener('click', (e) => {
+            config.showTrails = !config.showTrails;
+            agents.forEach(agent => {
+                agent.maxTrailLength = config.showTrails ? 20 : 0;
+                if (!config.showTrails) agent.trail = [];
+            });
+            e.target.textContent = config.showTrails ? '✨ Hide Trails' : '✨ Show Trails';
+        });
+        
+        document.getElementById('exportFrame').addEventListener('click', () => {
+            const link = document.createElement('a');
+            link.download = `sacred-geometry-${Date.now()}.png`;
+            link.href = partCanvas.toDataURL();
+            link.click();
+        });
+        
+        // Mode selector
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                config.mode = e.target.dataset.mode;
+                
+                // Apply mode presets
+                switch(config.mode) {
+                    case 'emergence':
+                        config.attractionStrength = 50;
+                        config.turbulence = 30;
+                        config.cohesion = 40;
+                        break;
+                    case 'harmony':
+                        config.attractionStrength = 80;
+                        config.turbulence = 10;
+                        config.cohesion = 70;
+                        break;
+                    case 'chaos':
+                        config.attractionStrength = 20;
+                        config.turbulence = 90;
+                        config.cohesion = 10;
+                        break;
+                    case 'crystallize':
+                        config.attractionStrength = 95;
+                        config.turbulence = 5;
+                        config.cohesion = 95;
+                        break;
+                }
+                
+                // Update sliders
+                document.getElementById('attraction').value = config.attractionStrength;
+                document.getElementById('turbulence').value = config.turbulence;
+                document.getElementById('cohesion').value = config.cohesion;
+                document.getElementById('attractValue').textContent = config.attractionStrength;
+                document.getElementById('turbValue').textContent = config.turbulence;
+                document.getElementById('cohesionValue').textContent = config.cohesion;
+            });
+        });
+        
+        // Handle resize
+        window.addEventListener('resize', () => {
+            resizeCanvases();
+            drawSacredGeometry();
+        });
+        
+        // Initialize and start
+        initializeSystem();
+        animate();
+    </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>·</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #f4f1e8;
+    color: #2a2a28;
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  main {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 14vh 2rem 12vh 2rem;
+  }
+
+  .marker {
+    font-size: 0.875rem;
+    letter-spacing: 0.2em;
+    color: #6a6a66;
+    margin-bottom: 4rem;
+    font-variant: small-caps;
+  }
+
+  .threshold {
+    font-size: 1.18rem;
+    line-height: 1.75;
+  }
+
+  .threshold p {
+    margin-bottom: 1.3em;
+  }
+
+  .threshold p:last-child {
+    margin-bottom: 0;
+  }
+
+  .offering {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(42, 42, 40, 0.12);
+  }
+
+  .offering-prompt {
+    font-style: italic;
+    font-size: 1rem;
+    color: #6a6a66;
+    margin-bottom: 1.75rem;
+    line-height: 1.6;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(42, 42, 40, 0.3);
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+    color: inherit;
+    outline: none;
+    transition: border-color 0.4s ease;
+  }
+
+  input[type="text"]:focus {
+    border-bottom-color: rgba(42, 42, 40, 0.7);
+  }
+
+  button {
+    margin-top: 2.5rem;
+    background: transparent;
+    border: 1px solid rgba(42, 42, 40, 0.35);
+    color: inherit;
+    padding: 0.65rem 1.75rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    font-variant: small-caps;
+    transition: border-color 0.5s ease, color 0.5s ease;
+  }
+
+  button:hover {
+    border-color: rgba(42, 42, 40, 0.85);
+  }
+
+  button:focus {
+    outline: none;
+    border-color: rgba(42, 42, 40, 0.85);
+  }
+
+  .residue {
+    margin-top: 4rem;
+    font-style: italic;
+    color: #6a6a66;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    opacity: 0;
+    transition: opacity 1.6s ease;
+  }
+
+  .residue.shown {
+    opacity: 1;
+  }
+
+  .gone {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.9s ease;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  ::selection {
+    background: rgba(42, 42, 40, 0.15);
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="marker">Return I · Hour of Naming</div>
+
+  <section class="threshold" id="threshold">
+    <p>You have arrived at a threshold.</p>
+    <p>What lies beyond is not a tool. It will not remember you, measure you, or return anything you can carry away. It is closer to a cell than to a screen — a small bare room you enter to practice a difficult thing, alone.</p>
+    <p>If you continue, you will offer one word. The word will be received and consumed. You will not see it again. There is no record. There is no next page.</p>
+  </section>
+
+  <section class="offering" id="offering">
+    <div class="offering-prompt">Offer one word. Then close the door behind you.</div>
+    <input type="text" id="word" maxlength="40" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+    <button id="submit" type="button">Offer</button>
+  </section>
+
+  <section class="residue" id="residue" aria-live="polite">
+    <p>It has been consumed.</p>
+    <p>The next threshold opens at first light. The Engine does not call you back. You must remember it yourself, or forget it; either is permitted.</p>
+  </section>
+</main>
+
+<script>
+  (function () {
+    const input = document.getElementById('word');
+    const button = document.getElementById('submit');
+    const offering = document.getElementById('offering');
+    const threshold = document.getElementById('threshold');
+    const residue = document.getElementById('residue');
+
+    function consume() {
+      const w = input.value.trim();
+      if (!w) {
+        // No scolding. No instruction. The Engine is silent.
+        input.focus();
+        return;
+      }
+
+      // The word is consumed. We do not store it. We do not log it.
+      // We do not echo it back. It is gone.
+      input.value = '';
+      offering.classList.add('gone');
+      threshold.classList.add('gone');
+
+      // Disable further interaction. The door has closed.
+      input.disabled = true;
+      button.disabled = true;
+
+      setTimeout(function () {
+        residue.classList.add('shown');
+      }, 900);
+    }
+
+    button.addEventListener('click', consume);
+    input.addEventListener('keypress', function (e) {
+      if (e.key === 'Enter') consume();
+    });
+
+    // Autofocus once on load, then leave the user alone.
+    window.addEventListener('load', function () {
+      setTimeout(function () { input.focus(); }, 200);
+    });
+  })();
+</script>
+</body>
+</html>

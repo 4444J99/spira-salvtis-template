@@ -1,0 +1,4051 @@
+# Content Units — Phase 2 Semantic Clustering
+# Generated: 2026-04-04T15:46:44Z
+# Total units: 241
+# Total atoms: 1153
+
+units:
+  - unit_id: CU-0001
+    destination: architecture
+    source_file: "1a-master-spiral-backend-breakdown.md"
+    label: "1A Master Spiral Backend Breakdown"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-034
+      - ATM-R-035
+      - ATM-R-036
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0002
+    destination: architecture
+    source_file: "1a-master-spiral-backend-breakdown.md"
+    label: "1A Master Spiral Backend Breakdown"
+    atom_count: 7
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Financial, Identity, Inner]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-037
+      - ATM-R-039
+      - ATM-R-040
+      - ATM-R-041
+      - ATM-R-042
+      - ATM-R-043
+      - ATM-R-046
+    build_states: {PARTIAL: 6, MISSING: 1}
+    editorials: {CLEAN: 7}
+  - unit_id: CU-0003
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-093
+      - ATM-R-094
+      - ATM-R-095
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0004
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 4
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-097
+      - ATM-R-098
+      - ATM-R-099
+      - ATM-R-100
+    build_states: {PARTIAL: 3, MISSING: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0005
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Financial, Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-102
+      - ATM-R-112
+      - ATM-R-113
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0006
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12]
+    atom_ids:
+      - ATM-R-114
+      - ATM-R-115
+      - ATM-R-116
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0007
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting, Financial, Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-117
+      - ATM-R-119
+      - ATM-R-120
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0008
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-121
+      - ATM-R-125
+      - ATM-R-126
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0009
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting, Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-127
+      - ATM-R-128
+      - ATM-R-129
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0010
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting, Financial, Inner]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-130
+      - ATM-R-131
+      - ATM-R-132
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0011
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Financial, Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-133
+      - ATM-R-134
+      - ATM-R-135
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0012
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Identity, Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12]
+    atom_ids:
+      - ATM-R-136
+      - ATM-R-137
+      - ATM-R-138
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0013
+    destination: architecture
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 5
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [6, 7, 8, 9, 10, 11, 12]
+    atom_ids:
+      - ATM-R-139
+      - ATM-R-140
+      - ATM-R-141
+      - ATM-R-142
+      - ATM-R-143
+    build_states: {MISSING: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0014
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-052
+      - ATM-R-053
+      - ATM-R-054
+    build_states: {N/A: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0015
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-056
+      - ATM-R-057
+      - ATM-R-059
+    build_states: {N/A: 2, PARTIAL: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0016
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 3
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-064
+      - ATM-R-065
+      - ATM-R-066
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0017
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 4
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-068
+      - ATM-R-069
+      - ATM-R-070
+      - ATM-R-071
+    build_states: {PARTIAL: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0018
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-075
+      - ATM-R-077
+      - ATM-R-079
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0019
+    destination: architecture
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 8
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Financial, Identity, Inner]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-081
+      - ATM-R-082
+      - ATM-R-084
+      - ATM-R-085
+      - ATM-R-086
+      - ATM-R-087
+      - ATM-R-088
+      - ATM-R-090
+    build_states: {PARTIAL: 7, MISSING: 1}
+    editorials: {CLEAN: 8}
+  - unit_id: CU-0020
+    destination: architecture
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Physical]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-002
+      - ATM-R-003
+      - ATM-R-005
+    build_states: {PARTIAL: 1, MISSING: 2}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0021
+    destination: architecture
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Financial, Identity, Inner]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-007
+      - ATM-R-008
+      - ATM-R-009
+      - ATM-R-010
+    build_states: {PARTIAL: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0022
+    destination: architecture
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 5
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Financial, Inner]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-011
+      - ATM-R-012
+      - ATM-R-018
+      - ATM-R-019
+      - ATM-R-020
+    build_states: {PARTIAL: 4, MISSING: 1}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0023
+    destination: architecture
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting, Identity]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-022
+      - ATM-R-026
+      - ATM-R-031
+      - ATM-R-032
+    build_states: {MISSING: 2, PARTIAL: 2}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0024
+    destination: architecture
+    source_file: "concepts/creature-selves-resources.md"
+    label: "Creature Selves Resources"
+    atom_count: 5
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [13, 14]
+    atom_ids:
+      - ATM-C-030
+      - ATM-C-032
+      - ATM-C-034
+      - ATM-C-036
+      - ATM-C-038
+    build_states: {MISSING: 5}
+    editorials: {UNVERIFIED: 5}
+  - unit_id: CU-0025
+    destination: architecture
+    source_file: "health/cellular-reprogramming-through-voice.md"
+    label: "Cellular Reprogramming Through Voice"
+    atom_count: 2
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [2, 9, 12, 13]
+    atom_ids:
+      - ATM-H-114
+      - ATM-H-116
+    build_states: {EXISTS: 1, PARTIAL: 1}
+    editorials: {FLAGGED: 2}
+  - unit_id: CU-0026
+    destination: architecture
+    source_file: "health/heroines-healing-journey.md"
+    label: "Heroines Healing Journey"
+    atom_count: 2
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [4, 10, 11, 14]
+    atom_ids:
+      - ATM-H-256
+      - ATM-H-260
+    build_states: {PARTIAL: 2}
+    editorials: {FLAGGED: 2}
+  - unit_id: CU-0027
+    destination: architecture
+    source_file: "mindset/alchemy-and-spiritual-symbolism.md"
+    label: "Alchemy And Spiritual Symbolism"
+    atom_count: 6
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-M-006
+      - ATM-M-009
+      - ATM-M-010
+      - ATM-M-011
+      - ATM-M-012
+      - ATM-M-016
+    build_states: {EXISTS: 2, PARTIAL: 2, MISSING: 2}
+    editorials: {FLAGGED: 6}
+  - unit_id: CU-0028
+    destination: architecture
+    source_file: "mindset/anger-processing-guide.md"
+    label: "Anger Processing Guide"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [2, 3, 9]
+    atom_ids:
+      - ATM-M-028
+    build_states: {PARTIAL: 1}
+    editorials: {FLAGGED: 1}
+  - unit_id: CU-0029
+    destination: architecture
+    source_file: "mindset/balancing-masculine-and-feminine.md"
+    label: "Balancing Masculine And Feminine"
+    atom_count: 4
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [2, 3, 5]
+    atom_ids:
+      - ATM-M-049
+      - ATM-M-076
+      - ATM-M-078
+      - ATM-M-084
+    build_states: {MISSING: 4}
+    editorials: {FLAGGED: 4}
+  - unit_id: CU-0030
+    destination: architecture
+    source_file: "mindset/blindspots-gaps-and-cons.md"
+    label: "Blindspots Gaps And Cons"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-108
+      - ATM-M-110
+      - ATM-M-114
+    build_states: {PARTIAL: 1, EXISTS: 2}
+    editorials: {FLAGGED: 3}
+  - unit_id: CU-0031
+    destination: architecture
+    source_file: "mindset/ego-integration-and-overcoming.md"
+    label: "Ego Integration And Overcoming"
+    atom_count: 9
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [4, 9, 14]
+    atom_ids:
+      - ATM-M-130
+      - ATM-M-132
+      - ATM-M-134
+      - ATM-M-136
+      - ATM-M-142
+      - ATM-M-144
+      - ATM-M-146
+      - ATM-M-148
+      - ATM-M-153
+    build_states: {MISSING: 4, PARTIAL: 3, EXISTS: 2}
+    editorials: {FLAGGED: 9}
+  - unit_id: CU-0032
+    destination: architecture
+    source_file: "mindset/entrepreneurship-development-recommendations.md"
+    label: "Entrepreneurship Development Recommendations"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-M-175
+    build_states: {MISSING: 1}
+    editorials: {FLAGGED: 1}
+  - unit_id: CU-0033
+    destination: architecture
+    source_file: "mindset/ether-concepts-explained.md"
+    label: "Ether Concepts Explained"
+    atom_count: 6
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [12]
+    atom_ids:
+      - ATM-M-215
+      - ATM-M-217
+      - ATM-M-219
+      - ATM-M-221
+      - ATM-M-223
+      - ATM-M-225
+    build_states: {MISSING: 3, PARTIAL: 2, EXISTS: 1}
+    editorials: {FLAGGED: 6}
+  - unit_id: CU-0034
+    destination: architecture
+    source_file: "mindset/healing-growth-blueprint-1-0.md"
+    label: "Healing Growth Blueprint 1 0"
+    atom_count: 2
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: []
+    atom_ids:
+      - ATM-M-295
+      - ATM-M-303
+    build_states: {N/A: 2}
+    editorials: {FLAGGED: 2}
+  - unit_id: CU-0035
+    destination: architecture
+    source_file: "mindset/insecurity-and-self-respect.md"
+    label: "Insecurity And Self Respect"
+    atom_count: 4
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Identity]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-335
+      - ATM-M-336
+      - ATM-M-338
+      - ATM-M-363
+    build_states: {MISSING: 4}
+    editorials: {FLAGGED: 4}
+  - unit_id: CU-0036
+    destination: architecture
+    source_file: "mindset/manifestation-mastery-secrets.md"
+    label: "Manifestation Mastery Secrets"
+    atom_count: 32
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [1, 2, 12]
+    atom_ids:
+      - ATM-M-378
+      - ATM-M-379
+      - ATM-M-381
+      - ATM-M-383
+      - ATM-M-385
+      - ATM-M-387
+      - ATM-M-389
+      - ATM-M-391
+      - ATM-M-395
+      - ATM-M-397
+      - ATM-M-399
+      - ATM-M-401
+      - ATM-M-405
+      - ATM-M-408
+      - ATM-M-409
+      - ATM-M-411
+      - ATM-M-415
+      - ATM-M-417
+      - ATM-M-421
+      - ATM-M-427
+      - ATM-M-429
+      - ATM-M-431
+      - ATM-M-433
+      - ATM-M-435
+      - ATM-M-437
+      - ATM-M-441
+      - ATM-M-445
+      - ATM-M-447
+      - ATM-M-477
+      - ATM-M-483
+      - ATM-M-493
+      - ATM-M-501
+    build_states: {MISSING: 8, PARTIAL: 8, EXISTS: 16}
+    editorials: {FLAGGED: 32}
+  - unit_id: CU-0037
+    destination: architecture
+    source_file: "mindset/money-block-removal-guide.md"
+    label: "Money Block Removal Guide"
+    atom_count: 5
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Financial]
+    nodes: [9, 10, 12]
+    atom_ids:
+      - ATM-M-534
+      - ATM-M-535
+      - ATM-M-537
+      - ATM-M-543
+      - ATM-M-547
+    build_states: {MISSING: 5}
+    editorials: {FLAGGED: 5}
+  - unit_id: CU-0038
+    destination: architecture
+    source_file: "mindset/tm-and-kundalini-energy.md"
+    label: "Tm And Kundalini Energy"
+    atom_count: 2
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [2, 12, 13]
+    atom_ids:
+      - ATM-M-631
+      - ATM-M-633
+    build_states: {EXISTS: 1, PARTIAL: 1}
+    editorials: {FLAGGED: 2}
+  - unit_id: CU-0039
+    destination: architecture
+    source_file: "mindset/vibration-frequency-exploration.md"
+    label: "Vibration Frequency Exploration"
+    atom_count: 3
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [12]
+    atom_ids:
+      - ATM-M-637
+      - ATM-M-639
+      - ATM-M-641
+    build_states: {MISSING: 3}
+    editorials: {FLAGGED: 3}
+  - unit_id: CU-0040
+    destination: architecture
+    source_file: "mindset/visionary-life-breakdown.md"
+    label: "Visionary Life Breakdown"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [11, 12, 14]
+    atom_ids:
+      - ATM-M-651
+    build_states: {MISSING: 1}
+    editorials: {FLAGGED: 1}
+  - unit_id: CU-0041
+    destination: architecture
+    source_file: "time-astro/frequency-symbol-origins.md"
+    label: "Frequency Symbol Origins"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [12]
+    atom_ids:
+      - ATM-T-172
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0042
+    destination: architecture
+    source_file: "time-astro/vedic-astrology-energy-analysis.md"
+    label: "Vedic Astrology Energy Analysis"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [2, 3]
+    atom_ids:
+      - ATM-T-178
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0043
+    destination: architecture
+    source_file: "water/water-crystals-love-and-pseudoscience.md"
+    label: "Water Crystals Love And Pseudoscience"
+    atom_count: 3
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [12]
+    atom_ids:
+      - ATM-W-084
+      - ATM-W-086
+      - ATM-W-088
+    build_states: {MISSING: 1, EXISTS: 2}
+    editorials: {FLAGGED: 3}
+  - unit_id: CU-0044
+    destination: architecture
+    source_file: "water/water-memory-and-energy.md"
+    label: "Water Memory And Energy"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [12]
+    atom_ids:
+      - ATM-W-121
+    build_states: {EXISTS: 1}
+    editorials: {FLAGGED: 1}
+  - unit_id: CU-0045
+    destination: architecture
+    source_file: "water/water-retention-in-erw.md"
+    label: "Water Retention In Erw"
+    atom_count: 2
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [7]
+    atom_ids:
+      - ATM-W-123
+      - ATM-W-125
+    build_states: {EXISTS: 2}
+    editorials: {FLAGGED: 2}
+  - unit_id: CU-0046
+    destination: branch-enrichment
+    source_file: "health-hormones-and-healing.md"
+    label: "Health Hormones And Healing"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: []
+    atom_ids:
+      - ATM-H-359
+      - ATM-H-360
+      - ATM-H-362
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0047
+    destination: branch-enrichment
+    source_file: "health-hormones-and-healing.md"
+    label: "Health Hormones And Healing"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: []
+    atom_ids:
+      - ATM-H-366
+      - ATM-H-368
+      - ATM-H-372
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0048
+    destination: branch-enrichment
+    source_file: "health/30-day-acupressure-routine.md"
+    label: "30 Day Acupressure Routine"
+    atom_count: 9
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [2, 9, 10, 13]
+    atom_ids:
+      - ATM-H-002
+      - ATM-H-004
+      - ATM-H-006
+      - ATM-H-008
+      - ATM-H-010
+      - ATM-H-014
+      - ATM-H-016
+      - ATM-H-018
+      - ATM-H-020
+    build_states: {PARTIAL: 9}
+    editorials: {CLEAN: 9}
+  - unit_id: CU-0049
+    destination: branch-enrichment
+    source_file: "health/aerosols-and-cleaning-products.md"
+    label: "Aerosols And Cleaning Products"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-028
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0050
+    destination: branch-enrichment
+    source_file: "health/birth-control-resources-guide.md"
+    label: "Birth Control Resources Guide"
+    atom_count: 8
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-043
+      - ATM-H-046
+      - ATM-H-056
+      - ATM-H-058
+      - ATM-H-059
+      - ATM-H-060
+      - ATM-H-064
+      - ATM-H-068
+    build_states: {PARTIAL: 8}
+    editorials: {CLEAN: 7, UNVERIFIED: 1}
+  - unit_id: CU-0051
+    destination: branch-enrichment
+    source_file: "health/body-trust-and-shifts.md"
+    label: "Body Trust And Shifts"
+    atom_count: 6
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [3, 4, 5, 10]
+    atom_ids:
+      - ATM-H-069
+      - ATM-H-072
+      - ATM-H-076
+      - ATM-H-078
+      - ATM-H-080
+      - ATM-H-082
+    build_states: {PARTIAL: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0052
+    destination: branch-enrichment
+    source_file: "health/bubble-butt-fitness-guide.md"
+    label: "Bubble Butt Fitness Guide"
+    atom_count: 10
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-H-085
+      - ATM-H-086
+      - ATM-H-090
+      - ATM-H-092
+      - ATM-H-097
+      - ATM-H-098
+      - ATM-H-100
+      - ATM-H-104
+      - ATM-H-106
+      - ATM-H-112
+    build_states: {PARTIAL: 10}
+    editorials: {CLEAN: 8, UNVERIFIED: 2}
+  - unit_id: CU-0053
+    destination: branch-enrichment
+    source_file: "health/cymascope-and-healing-frequencies.md"
+    label: "Cymascope And Healing Frequencies"
+    atom_count: 1
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [9, 12, 13]
+    atom_ids:
+      - ATM-H-122
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0054
+    destination: branch-enrichment
+    source_file: "health/endometriosis-causes-and-practices.md"
+    label: "Endometriosis Causes And Practices"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [5, 7, 9]
+    atom_ids:
+      - ATM-H-124
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0055
+    destination: branch-enrichment
+    source_file: "health/fascia-and-emotions-explained.md"
+    label: "Fascia And Emotions Explained"
+    atom_count: 5
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [2, 9, 13]
+    atom_ids:
+      - ATM-H-130
+      - ATM-H-131
+      - ATM-H-138
+      - ATM-H-140
+      - ATM-H-144
+    build_states: {PARTIAL: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0056
+    destination: branch-enrichment
+    source_file: "health/fda-just-a-little-bit-carcinogens.md"
+    label: "Fda Just A Little Bit Carcinogens"
+    atom_count: 6
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-148
+      - ATM-H-150
+      - ATM-H-151
+      - ATM-H-152
+      - ATM-H-156
+      - ATM-H-158
+    build_states: {PARTIAL: 6}
+    editorials: {CLEAN: 4, UNVERIFIED: 2}
+  - unit_id: CU-0057
+    destination: branch-enrichment
+    source_file: "health/feel-good-first-script.md"
+    label: "Feel Good First Script"
+    atom_count: 5
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [1, 11]
+    atom_ids:
+      - ATM-H-159
+      - ATM-H-199
+      - ATM-H-201
+      - ATM-H-207
+      - ATM-H-209
+    build_states: {PARTIAL: 5}
+    editorials: {CLEAN: 3, UNVERIFIED: 2}
+  - unit_id: CU-0058
+    destination: branch-enrichment
+    source_file: "health/feel-good-first-script.md"
+    label: "Feel Good First Script"
+    atom_count: 11
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [1, 11]
+    atom_ids:
+      - ATM-H-160
+      - ATM-H-168
+      - ATM-H-174
+      - ATM-H-200
+      - ATM-H-202
+      - ATM-H-204
+      - ATM-H-208
+      - ATM-H-210
+      - ATM-H-212
+      - ATM-H-216
+      - ATM-H-218
+    build_states: {PARTIAL: 11}
+    editorials: {CLEAN: 6, UNVERIFIED: 5}
+  - unit_id: CU-0059
+    destination: branch-enrichment
+    source_file: "health/gut-rebuilding-diet-plan.md"
+    label: "Gut Rebuilding Diet Plan"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-220
+      - ATM-H-221
+      - ATM-H-234
+      - ATM-H-236
+    build_states: {PARTIAL: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0060
+    destination: branch-enrichment
+    source_file: "health/heds-symptoms-and-diagnosis.md"
+    label: "Heds Symptoms And Diagnosis"
+    atom_count: 2
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [3, 9, 13]
+    atom_ids:
+      - ATM-H-237
+      - ATM-H-239
+    build_states: {PARTIAL: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0061
+    destination: branch-enrichment
+    source_file: "health/heroines-healing-journey.md"
+    label: "Heroines Healing Journey"
+    atom_count: 5
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [4, 10, 11, 14]
+    atom_ids:
+      - ATM-H-248
+      - ATM-H-250
+      - ATM-H-251
+      - ATM-H-252
+      - ATM-H-259
+    build_states: {PARTIAL: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0062
+    destination: branch-enrichment
+    source_file: "health/hormone-cycle-guide.md"
+    label: "Hormone Cycle Guide"
+    atom_count: 2
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-264
+      - ATM-H-266
+    build_states: {PARTIAL: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0063
+    destination: branch-enrichment
+    source_file: "health/hydration-and-blood-sugar.md"
+    label: "Hydration And Blood Sugar"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [1, 2, 6]
+    atom_ids:
+      - ATM-H-299
+      - ATM-H-303
+      - ATM-H-306
+      - ATM-H-307
+    build_states: {PARTIAL: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0064
+    destination: branch-enrichment
+    source_file: "health/hydration-and-inflammation-video.md"
+    label: "Hydration And Inflammation Video"
+    atom_count: 5
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-312
+      - ATM-H-314
+      - ATM-H-316
+      - ATM-H-318
+      - ATM-H-320
+    build_states: {PARTIAL: 5}
+    editorials: {UNVERIFIED: 1, CLEAN: 4}
+  - unit_id: CU-0065
+    destination: branch-enrichment
+    source_file: "health/inflammation-self-check-questions.md"
+    label: "Inflammation Self Check Questions"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [3, 6]
+    atom_ids:
+      - ATM-H-323
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0066
+    destination: branch-enrichment
+    source_file: "health/medical-research-gender-gap.md"
+    label: "Medical Research Gender Gap"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [4, 8, 10]
+    atom_ids:
+      - ATM-H-325
+      - ATM-H-326
+      - ATM-H-328
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0067
+    destination: branch-enrichment
+    source_file: "health/neurodivergence-and-autoimmune-links.md"
+    label: "Neurodivergence And Autoimmune Links"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [7, 9]
+    atom_ids:
+      - ATM-H-337
+      - ATM-H-339
+      - ATM-H-340
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0068
+    destination: branch-enrichment
+    source_file: "health/sonoluminescence-phenomenon-explained.md"
+    label: "Sonoluminescence Phenomenon Explained"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [9, 12]
+    atom_ids:
+      - ATM-H-346
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0069
+    destination: branch-enrichment
+    source_file: "health/sulphur-benefits-and-history.md"
+    label: "Sulphur Benefits And History"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [6, 9, 13]
+    atom_ids:
+      - ATM-H-348
+      - ATM-H-350
+      - ATM-H-358
+    build_states: {PARTIAL: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0070
+    destination: branch-enrichment
+    source_file: "water-learn-more-about-erw.md"
+    label: "Water Learn More About Erw"
+    atom_count: 1
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Physical]
+    nodes: []
+    atom_ids:
+      - ATM-W-139
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0071
+    destination: branch-enrichment
+    source_file: "water/2-5-ph-acidic-water.md"
+    label: "2 5 Ph Acidic Water"
+    atom_count: 2
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [7, 9]
+    atom_ids:
+      - ATM-W-001
+      - ATM-W-003
+    build_states: {MISSING: 1, EXISTS: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0072
+    destination: branch-enrichment
+    source_file: "water/dissolved-hydrogen-concentration.md"
+    label: "Dissolved Hydrogen Concentration"
+    atom_count: 2
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Physical]
+    nodes: [7]
+    atom_ids:
+      - ATM-W-005
+      - ATM-W-006
+    build_states: {PARTIAL: 1, EXISTS: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0073
+    destination: branch-enrichment
+    source_file: "water/eczema-skin-water-protocol.md"
+    label: "Eczema Skin Water Protocol"
+    atom_count: 3
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [6, 9]
+    atom_ids:
+      - ATM-W-007
+      - ATM-W-009
+      - ATM-W-010
+    build_states: {MISSING: 1, EXISTS: 1, PARTIAL: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0074
+    destination: branch-enrichment
+    source_file: "water/hydrogen-water-science-health-and-business.md"
+    label: "Hydrogen Water Science Health And Business"
+    atom_count: 11
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [7, 9, 11]
+    atom_ids:
+      - ATM-W-011
+      - ATM-W-012
+      - ATM-W-014
+      - ATM-W-022
+      - ATM-W-026
+      - ATM-W-038
+      - ATM-W-040
+      - ATM-W-042
+      - ATM-W-048
+      - ATM-W-050
+      - ATM-W-052
+    build_states: {PARTIAL: 3, EXISTS: 6, MISSING: 2}
+    editorials: {CLEAN: 11}
+  - unit_id: CU-0075
+    destination: branch-enrichment
+    source_file: "water/hydrogen-water-science-health-and-business.md"
+    label: "Hydrogen Water Science Health And Business"
+    atom_count: 18
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Physical]
+    nodes: [7, 9, 11]
+    atom_ids:
+      - ATM-W-013
+      - ATM-W-015
+      - ATM-W-017
+      - ATM-W-019
+      - ATM-W-021
+      - ATM-W-023
+      - ATM-W-025
+      - ATM-W-027
+      - ATM-W-029
+      - ATM-W-031
+      - ATM-W-033
+      - ATM-W-037
+      - ATM-W-039
+      - ATM-W-041
+      - ATM-W-043
+      - ATM-W-045
+      - ATM-W-049
+      - ATM-W-051
+    build_states: {EXISTS: 18}
+    editorials: {CLEAN: 18}
+  - unit_id: CU-0076
+    destination: branch-enrichment
+    source_file: "water/ionized-water-benefits.md"
+    label: "Ionized Water Benefits"
+    atom_count: 1
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [7, 9]
+    atom_ids:
+      - ATM-W-057
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0077
+    destination: branch-enrichment
+    source_file: "water/kangen-water-content-ideas.md"
+    label: "Kangen Water Content Ideas"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-W-063
+      - ATM-W-067
+      - ATM-W-078
+    build_states: {EXISTS: 2, MISSING: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0078
+    destination: branch-enrichment
+    source_file: "water/kangen-water-content-ideas.md"
+    label: "Kangen Water Content Ideas"
+    atom_count: 5
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Physical]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-W-064
+      - ATM-W-066
+      - ATM-W-070
+      - ATM-W-077
+      - ATM-W-080
+    build_states: {EXISTS: 4, PARTIAL: 1}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0079
+    destination: branch-enrichment
+    source_file: "water/molecular-hydrogen-for-athletes.md"
+    label: "Molecular Hydrogen For Athletes"
+    atom_count: 2
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [11]
+    atom_ids:
+      - ATM-W-082
+      - ATM-W-083
+    build_states: {EXISTS: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0080
+    destination: branch-enrichment
+    source_file: "water/water-hub-design.md"
+    label: "Water Hub Design"
+    atom_count: 9
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [11, 12]
+    atom_ids:
+      - ATM-W-090
+      - ATM-W-091
+      - ATM-W-095
+      - ATM-W-098
+      - ATM-W-101
+      - ATM-W-103
+      - ATM-W-104
+      - ATM-W-106
+      - ATM-W-108
+    build_states: {EXISTS: 6, PARTIAL: 2, MISSING: 1}
+    editorials: {CLEAN: 9}
+  - unit_id: CU-0081
+    destination: branch-enrichment
+    source_file: "water/water-hub-framework-breakdown.md"
+    label: "Water Hub Framework Breakdown"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [11, 12]
+    atom_ids:
+      - ATM-W-115
+      - ATM-W-116
+      - ATM-W-117
+      - ATM-W-118
+    build_states: {MISSING: 1, EXISTS: 3}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0082
+    destination: branch-enrichment
+    source_file: "water/water-retention-in-erw.md"
+    label: "Water Retention In Erw"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Physical]
+    nodes: [7]
+    atom_ids:
+      - ATM-W-124
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0083
+    destination: node-deep-dive
+    source_file: "1a-master-spiral-backend-breakdown.md"
+    label: "1A Master Spiral Backend Breakdown"
+    atom_count: 2
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [1, 2, 3, 4, 5]
+    atom_ids:
+      - ATM-R-038
+      - ATM-R-045
+    build_states: {PARTIAL: 1, MISSING: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0084
+    destination: node-deep-dive
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [1, 2, 3, 4, 5]
+    atom_ids:
+      - ATM-R-096
+      - ATM-R-106
+      - ATM-R-107
+    build_states: {PARTIAL: 1, MISSING: 2}
+    editorials: {CLEAN: 1, UNVERIFIED: 2}
+  - unit_id: CU-0085
+    destination: node-deep-dive
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 3
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Physical]
+    nodes: [1, 2, 3, 4, 5]
+    atom_ids:
+      - ATM-R-108
+      - ATM-R-109
+      - ATM-R-110
+    build_states: {MISSING: 3}
+    editorials: {UNVERIFIED: 3}
+  - unit_id: CU-0086
+    destination: node-deep-dive
+    source_file: "1b-spiral-dump-questionnaire.md"
+    label: "1B Spiral Dump Questionnaire"
+    atom_count: 5
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Cross-cutting, Physical]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-118
+      - ATM-R-122
+      - ATM-R-123
+      - ATM-R-124
+      - ATM-R-145
+    build_states: {MISSING: 1, PARTIAL: 3, N/A: 1}
+    editorials: {CLEAN: 4, UNVERIFIED: 1}
+  - unit_id: CU-0087
+    destination: node-deep-dive
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 3
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Physical]
+    nodes: [1, 2, 3, 4, 5]
+    atom_ids:
+      - ATM-R-073
+      - ATM-R-074
+      - ATM-R-083
+    build_states: {MISSING: 2, PARTIAL: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0088
+    destination: node-deep-dive
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [1, 2, 3, 4, 5]
+    atom_ids:
+      - ATM-R-006
+      - ATM-R-013
+      - ATM-R-017
+      - ATM-R-030
+    build_states: {PARTIAL: 2, MISSING: 2}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0089
+    destination: node-deep-dive
+    source_file: "business/100-sales-strategy.md"
+    label: "100 Sales Strategy"
+    atom_count: 1
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-B-001
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0090
+    destination: node-deep-dive
+    source_file: "business/20-80-rule-focus.md"
+    label: "20 80 Rule Focus"
+    atom_count: 6
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Financial]
+    nodes: [1, 5, 11]
+    atom_ids:
+      - ATM-B-009
+      - ATM-B-019
+      - ATM-B-027
+      - ATM-B-029
+      - ATM-B-037
+      - ATM-B-039
+    build_states: {EXISTS: 3, MISSING: 1, PARTIAL: 2}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0091
+    destination: node-deep-dive
+    source_file: "business/20-80-rule-focus.md"
+    label: "20 80 Rule Focus"
+    atom_count: 3
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [1, 5, 11]
+    atom_ids:
+      - ATM-B-012
+      - ATM-B-015
+      - ATM-B-016
+    build_states: {PARTIAL: 2, MISSING: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0092
+    destination: node-deep-dive
+    source_file: "business/astrology-social-media-strategy.md"
+    label: "Astrology Social Media Strategy"
+    atom_count: 6
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Financial]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-B-044
+      - ATM-B-045
+      - ATM-B-047
+      - ATM-B-048
+      - ATM-B-050
+      - ATM-B-055
+    build_states: {EXISTS: 4, MISSING: 2}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0093
+    destination: node-deep-dive
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 17
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-060
+      - ATM-B-062
+      - ATM-B-063
+      - ATM-B-064
+      - ATM-B-065
+      - ATM-B-068
+      - ATM-B-069
+      - ATM-B-070
+      - ATM-B-071
+      - ATM-B-072
+      - ATM-B-073
+      - ATM-B-079
+      - ATM-B-080
+      - ATM-B-081
+      - ATM-B-082
+      - ATM-B-083
+      - ATM-B-084
+    build_states: {PARTIAL: 6, EXISTS: 11}
+    editorials: {CLEAN: 17}
+  - unit_id: CU-0094
+    destination: node-deep-dive
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 7
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-076
+      - ATM-B-096
+      - ATM-B-108
+      - ATM-B-112
+      - ATM-B-114
+      - ATM-B-118
+      - ATM-B-120
+    build_states: {PARTIAL: 3, EXISTS: 4}
+    editorials: {CLEAN: 7}
+  - unit_id: CU-0095
+    destination: node-deep-dive
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 4
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-099
+      - ATM-B-101
+      - ATM-B-117
+      - ATM-B-123
+    build_states: {MISSING: 3, PARTIAL: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0096
+    destination: node-deep-dive
+    source_file: "business/financial-freedom-blueprint.md"
+    label: "Financial Freedom Blueprint"
+    atom_count: 1
+    dominant_nature: MODEL
+    role: structure
+    pillars: [Financial]
+    nodes: [4, 6, 10]
+    atom_ids:
+      - ATM-B-125
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0097
+    destination: node-deep-dive
+    source_file: "business/income-projections-and-strategies.md"
+    label: "Income Projections And Strategies"
+    atom_count: 1
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [6, 11]
+    atom_ids:
+      - ATM-B-135
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0098
+    destination: node-deep-dive
+    source_file: "business/job-transition-advice.md"
+    label: "Job Transition Advice"
+    atom_count: 4
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [1, 2, 3]
+    atom_ids:
+      - ATM-B-152
+      - ATM-B-154
+      - ATM-B-155
+      - ATM-B-158
+    build_states: {PARTIAL: 3, EXISTS: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0099
+    destination: node-deep-dive
+    source_file: "business/novel-funnel-strategies.md"
+    label: "Novel Funnel Strategies"
+    atom_count: 11
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Financial]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-B-162
+      - ATM-B-170
+      - ATM-B-172
+      - ATM-B-174
+      - ATM-B-176
+      - ATM-B-178
+      - ATM-B-180
+      - ATM-B-184
+      - ATM-B-192
+      - ATM-B-196
+      - ATM-B-200
+    build_states: {EXISTS: 11}
+    editorials: {CLEAN: 11}
+  - unit_id: CU-0100
+    destination: node-deep-dive
+    source_file: "business/novel-funnel-strategies.md"
+    label: "Novel Funnel Strategies"
+    atom_count: 11
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Financial]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-B-163
+      - ATM-B-165
+      - ATM-B-167
+      - ATM-B-169
+      - ATM-B-171
+      - ATM-B-173
+      - ATM-B-181
+      - ATM-B-183
+      - ATM-B-185
+      - ATM-B-187
+      - ATM-B-199
+    build_states: {EXISTS: 4, PARTIAL: 3, MISSING: 4}
+    editorials: {CLEAN: 11}
+  - unit_id: CU-0101
+    destination: node-deep-dive
+    source_file: "business/plastic-water-label-design.md"
+    label: "Plastic Water Label Design"
+    atom_count: 1
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Financial]
+    nodes: [7]
+    atom_ids:
+      - ATM-B-204
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0102
+    destination: node-deep-dive
+    source_file: "business/sales-momentum-plan.md"
+    label: "Sales Momentum Plan"
+    atom_count: 2
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-B-206
+      - ATM-B-207
+    build_states: {EXISTS: 1, MISSING: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0103
+    destination: node-deep-dive
+    source_file: "business/wagyu-post-conversion-tips.md"
+    label: "Wagyu Post Conversion Tips"
+    atom_count: 2
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-B-211
+      - ATM-B-218
+    build_states: {EXISTS: 1, PARTIAL: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0104
+    destination: node-deep-dive
+    source_file: "concepts/book-concept-breakdown.md"
+    label: "Book Concept Breakdown"
+    atom_count: 1
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [4, 8, 10, 12]
+    atom_ids:
+      - ATM-C-002
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0105
+    destination: node-deep-dive
+    source_file: "concepts/breakdown-of-veblens-ideas.md"
+    label: "Breakdown Of Veblens Ideas"
+    atom_count: 9
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [4, 12]
+    atom_ids:
+      - ATM-C-004
+      - ATM-C-006
+      - ATM-C-008
+      - ATM-C-010
+      - ATM-C-012
+      - ATM-C-014
+      - ATM-C-016
+      - ATM-C-018
+      - ATM-C-024
+    build_states: {MISSING: 9}
+    editorials: {UNVERIFIED: 9}
+  - unit_id: CU-0106
+    destination: node-deep-dive
+    source_file: "concepts/breakdown-of-veblens-ideas.md"
+    label: "Breakdown Of Veblens Ideas"
+    atom_count: 5
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Cross-cutting]
+    nodes: [4, 12]
+    atom_ids:
+      - ATM-C-021
+      - ATM-C-022
+      - ATM-C-026
+      - ATM-C-027
+      - ATM-C-028
+    build_states: {MISSING: 5}
+    editorials: {UNVERIFIED: 5}
+  - unit_id: CU-0107
+    destination: node-deep-dive
+    source_file: "concepts/divine-feminine-flow.md"
+    label: "Divine Feminine Flow"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [1, 5, 13]
+    atom_ids:
+      - ATM-C-042
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0108
+    destination: node-deep-dive
+    source_file: "concepts/dopamine-vs-oxytocin-dynamics.md"
+    label: "Dopamine Vs Oxytocin Dynamics"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [2, 5]
+    atom_ids:
+      - ATM-C-044
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0109
+    destination: node-deep-dive
+    source_file: "concepts/dopamine-vs-oxytocin-energy.md"
+    label: "Dopamine Vs Oxytocin Energy"
+    atom_count: 10
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [3, 5]
+    atom_ids:
+      - ATM-C-046
+      - ATM-C-049
+      - ATM-C-052
+      - ATM-C-054
+      - ATM-C-056
+      - ATM-C-058
+      - ATM-C-060
+      - ATM-C-062
+      - ATM-C-064
+      - ATM-C-066
+    build_states: {MISSING: 10}
+    editorials: {UNVERIFIED: 10}
+  - unit_id: CU-0110
+    destination: node-deep-dive
+    source_file: "concepts/energy-waves-and-oscillations.md"
+    label: "Energy Waves And Oscillations"
+    atom_count: 5
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Cross-cutting]
+    nodes: [12]
+    atom_ids:
+      - ATM-C-070
+      - ATM-C-072
+      - ATM-C-074
+      - ATM-C-076
+      - ATM-C-078
+    build_states: {MISSING: 5}
+    editorials: {UNVERIFIED: 5}
+  - unit_id: CU-0111
+    destination: node-deep-dive
+    source_file: "concepts/gallup-poll-usage-today.md"
+    label: "Gallup Poll Usage Today"
+    atom_count: 2
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Cross-cutting]
+    nodes: [4]
+    atom_ids:
+      - ATM-C-080
+      - ATM-C-082
+    build_states: {MISSING: 2}
+    editorials: {UNVERIFIED: 2}
+  - unit_id: CU-0112
+    destination: node-deep-dive
+    source_file: "concepts/hunched-back-and-past-lives.md"
+    label: "Hunched Back And Past Lives"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [9, 13]
+    atom_ids:
+      - ATM-C-084
+      - ATM-C-086
+      - ATM-C-088
+      - ATM-C-090
+    build_states: {MISSING: 4}
+    editorials: {UNVERIFIED: 4}
+  - unit_id: CU-0113
+    destination: node-deep-dive
+    source_file: "concepts/sound-frequency-analysis.md"
+    label: "Sound Frequency Analysis"
+    atom_count: 2
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [2, 12]
+    atom_ids:
+      - ATM-C-092
+      - ATM-C-094
+    build_states: {MISSING: 2}
+    editorials: {UNVERIFIED: 2}
+  - unit_id: CU-0114
+    destination: node-deep-dive
+    source_file: "concepts/vision-board-creation-guide.md"
+    label: "Vision Board Creation Guide"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [10, 12]
+    atom_ids:
+      - ATM-C-100
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0115
+    destination: node-deep-dive
+    source_file: "health-hormones-and-healing.md"
+    label: "Health Hormones And Healing"
+    atom_count: 2
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: []
+    atom_ids:
+      - ATM-H-369
+      - ATM-H-370
+    build_states: {EXISTS: 1, MISSING: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0116
+    destination: node-deep-dive
+    source_file: "health/30-day-acupressure-routine.md"
+    label: "30 Day Acupressure Routine"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [2, 9, 10, 13]
+    atom_ids:
+      - ATM-H-015
+      - ATM-H-019
+      - ATM-H-025
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0117
+    destination: node-deep-dive
+    source_file: "health/30-day-acupressure-routine.md"
+    label: "30 Day Acupressure Routine"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [2, 9, 10, 13]
+    atom_ids:
+      - ATM-H-022
+      - ATM-H-024
+      - ATM-H-026
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0118
+    destination: node-deep-dive
+    source_file: "health/aerosols-and-cleaning-products.md"
+    label: "Aerosols And Cleaning Products"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-027
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0119
+    destination: node-deep-dive
+    source_file: "health/birth-control-resources-guide.md"
+    label: "Birth Control Resources Guide"
+    atom_count: 5
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-029
+      - ATM-H-037
+      - ATM-H-051
+      - ATM-H-065
+      - ATM-H-067
+    build_states: {MISSING: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0120
+    destination: node-deep-dive
+    source_file: "health/birth-control-resources-guide.md"
+    label: "Birth Control Resources Guide"
+    atom_count: 13
+    dominant_nature: STATISTIC
+    role: evidence
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-030
+      - ATM-H-032
+      - ATM-H-034
+      - ATM-H-036
+      - ATM-H-040
+      - ATM-H-042
+      - ATM-H-044
+      - ATM-H-048
+      - ATM-H-050
+      - ATM-H-052
+      - ATM-H-054
+      - ATM-H-062
+      - ATM-H-066
+    build_states: {EXISTS: 10, MISSING: 3}
+    editorials: {CLEAN: 13}
+  - unit_id: CU-0121
+    destination: node-deep-dive
+    source_file: "health/body-trust-and-shifts.md"
+    label: "Body Trust And Shifts"
+    atom_count: 6
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [3, 4, 5, 10]
+    atom_ids:
+      - ATM-H-070
+      - ATM-H-071
+      - ATM-H-073
+      - ATM-H-074
+      - ATM-H-077
+      - ATM-H-079
+    build_states: {MISSING: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0122
+    destination: node-deep-dive
+    source_file: "health/bubble-butt-fitness-guide.md"
+    label: "Bubble Butt Fitness Guide"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-H-083
+      - ATM-H-101
+      - ATM-H-103
+      - ATM-H-111
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0123
+    destination: node-deep-dive
+    source_file: "health/bubble-butt-fitness-guide.md"
+    label: "Bubble Butt Fitness Guide"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-H-084
+      - ATM-H-094
+      - ATM-H-102
+      - ATM-H-108
+    build_states: {EXISTS: 1, MISSING: 3}
+    editorials: {CLEAN: 3, UNVERIFIED: 1}
+  - unit_id: CU-0124
+    destination: node-deep-dive
+    source_file: "health/cellular-reprogramming-through-voice.md"
+    label: "Cellular Reprogramming Through Voice"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [2, 9, 12, 13]
+    atom_ids:
+      - ATM-H-113
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0125
+    destination: node-deep-dive
+    source_file: "health/chlorine-absorption-time.md"
+    label: "Chlorine Absorption Time"
+    atom_count: 2
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-117
+      - ATM-H-118
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0126
+    destination: node-deep-dive
+    source_file: "health/cortisol-stress-carousel.md"
+    label: "Cortisol Stress Carousel"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [1, 2, 8]
+    atom_ids:
+      - ATM-H-120
+    build_states: {EXISTS: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0127
+    destination: node-deep-dive
+    source_file: "health/endometriosis-causes-and-practices.md"
+    label: "Endometriosis Causes And Practices"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 7, 9]
+    atom_ids:
+      - ATM-H-125
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0128
+    destination: node-deep-dive
+    source_file: "health/fascia-and-emotions-explained.md"
+    label: "Fascia And Emotions Explained"
+    atom_count: 5
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [2, 9, 13]
+    atom_ids:
+      - ATM-H-132
+      - ATM-H-134
+      - ATM-H-136
+      - ATM-H-139
+      - ATM-H-142
+    build_states: {EXISTS: 4, MISSING: 1}
+    editorials: {CLEAN: 4, UNVERIFIED: 1}
+  - unit_id: CU-0129
+    destination: node-deep-dive
+    source_file: "health/fda-just-a-little-bit-carcinogens.md"
+    label: "Fda Just A Little Bit Carcinogens"
+    atom_count: 2
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-147
+      - ATM-H-154
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 1, UNVERIFIED: 1}
+  - unit_id: CU-0130
+    destination: node-deep-dive
+    source_file: "health/feel-good-first-script.md"
+    label: "Feel Good First Script"
+    atom_count: 16
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [1, 11]
+    atom_ids:
+      - ATM-H-161
+      - ATM-H-163
+      - ATM-H-165
+      - ATM-H-167
+      - ATM-H-171
+      - ATM-H-175
+      - ATM-H-179
+      - ATM-H-181
+      - ATM-H-183
+      - ATM-H-187
+      - ATM-H-189
+      - ATM-H-191
+      - ATM-H-195
+      - ATM-H-197
+      - ATM-H-205
+      - ATM-H-213
+    build_states: {MISSING: 16}
+    editorials: {CLEAN: 16}
+  - unit_id: CU-0131
+    destination: node-deep-dive
+    source_file: "health/feel-good-first-script.md"
+    label: "Feel Good First Script"
+    atom_count: 10
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [1, 11]
+    atom_ids:
+      - ATM-H-164
+      - ATM-H-172
+      - ATM-H-178
+      - ATM-H-180
+      - ATM-H-188
+      - ATM-H-192
+      - ATM-H-196
+      - ATM-H-198
+      - ATM-H-206
+      - ATM-H-214
+    build_states: {MISSING: 8, EXISTS: 2}
+    editorials: {CLEAN: 9, UNVERIFIED: 1}
+  - unit_id: CU-0132
+    destination: node-deep-dive
+    source_file: "health/gut-rebuilding-diet-plan.md"
+    label: "Gut Rebuilding Diet Plan"
+    atom_count: 8
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-222
+      - ATM-H-223
+      - ATM-H-224
+      - ATM-H-226
+      - ATM-H-227
+      - ATM-H-228
+      - ATM-H-230
+      - ATM-H-232
+    build_states: {EXISTS: 5, MISSING: 3}
+    editorials: {CLEAN: 8}
+  - unit_id: CU-0133
+    destination: node-deep-dive
+    source_file: "health/heds-symptoms-and-diagnosis.md"
+    label: "Heds Symptoms And Diagnosis"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [3, 9, 13]
+    atom_ids:
+      - ATM-H-238
+      - ATM-H-240
+      - ATM-H-241
+      - ATM-H-242
+    build_states: {EXISTS: 4}
+    editorials: {CLEAN: 3, UNVERIFIED: 1}
+  - unit_id: CU-0134
+    destination: node-deep-dive
+    source_file: "health/hemorrhoids-and-daily-discomfort.md"
+    label: "Hemorrhoids And Daily Discomfort"
+    atom_count: 2
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [1, 6, 8]
+    atom_ids:
+      - ATM-H-244
+      - ATM-H-246
+    build_states: {MISSING: 2}
+    editorials: {UNVERIFIED: 1, CLEAN: 1}
+  - unit_id: CU-0135
+    destination: node-deep-dive
+    source_file: "health/heroines-healing-journey.md"
+    label: "Heroines Healing Journey"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [4, 10, 11, 14]
+    atom_ids:
+      - ATM-H-249
+      - ATM-H-254
+      - ATM-H-258
+      - ATM-H-262
+    build_states: {MISSING: 2, EXISTS: 2}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0136
+    destination: node-deep-dive
+    source_file: "health/hormone-cycle-guide.md"
+    label: "Hormone Cycle Guide"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-267
+      - ATM-H-287
+      - ATM-H-289
+      - ATM-H-295
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0137
+    destination: node-deep-dive
+    source_file: "health/hormone-cycle-guide.md"
+    label: "Hormone Cycle Guide"
+    atom_count: 14
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [5, 6, 7]
+    atom_ids:
+      - ATM-H-270
+      - ATM-H-272
+      - ATM-H-274
+      - ATM-H-276
+      - ATM-H-278
+      - ATM-H-280
+      - ATM-H-282
+      - ATM-H-284
+      - ATM-H-288
+      - ATM-H-290
+      - ATM-H-292
+      - ATM-H-294
+      - ATM-H-296
+      - ATM-H-298
+    build_states: {EXISTS: 9, MISSING: 5}
+    editorials: {CLEAN: 14}
+  - unit_id: CU-0138
+    destination: node-deep-dive
+    source_file: "health/hydration-and-blood-sugar.md"
+    label: "Hydration And Blood Sugar"
+    atom_count: 6
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [1, 2, 6]
+    atom_ids:
+      - ATM-H-300
+      - ATM-H-302
+      - ATM-H-304
+      - ATM-H-305
+      - ATM-H-308
+      - ATM-H-310
+    build_states: {EXISTS: 5, MISSING: 1}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0139
+    destination: node-deep-dive
+    source_file: "health/hydration-and-inflammation-video.md"
+    label: "Hydration And Inflammation Video"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-313
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0140
+    destination: node-deep-dive
+    source_file: "health/inflammation-self-check-questions.md"
+    label: "Inflammation Self Check Questions"
+    atom_count: 3
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [3, 6]
+    atom_ids:
+      - ATM-H-321
+      - ATM-H-322
+      - ATM-H-324
+    build_states: {MISSING: 1, EXISTS: 2}
+    editorials: {CLEAN: 2, UNVERIFIED: 1}
+  - unit_id: CU-0141
+    destination: node-deep-dive
+    source_file: "health/medical-research-gender-gap.md"
+    label: "Medical Research Gender Gap"
+    atom_count: 3
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Physical]
+    nodes: [4, 8, 10]
+    atom_ids:
+      - ATM-H-327
+      - ATM-H-329
+      - ATM-H-330
+    build_states: {MISSING: 2, EXISTS: 1}
+    editorials: {UNVERIFIED: 1, CLEAN: 2}
+  - unit_id: CU-0142
+    destination: node-deep-dive
+    source_file: "health/milk-source-in-the-us.md"
+    label: "Milk Source In The Us"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 8]
+    atom_ids:
+      - ATM-H-332
+      - ATM-H-333
+      - ATM-H-334
+      - ATM-H-336
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 3, UNVERIFIED: 1}
+  - unit_id: CU-0143
+    destination: node-deep-dive
+    source_file: "health/parasite-cleanse-diet-tips.md"
+    label: "Parasite Cleanse Diet Tips"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Physical]
+    nodes: [6, 7]
+    atom_ids:
+      - ATM-H-342
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0144
+    destination: node-deep-dive
+    source_file: "health/period-related-rest-plans.md"
+    label: "Period Related Rest Plans"
+    atom_count: 2
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [4, 5]
+    atom_ids:
+      - ATM-H-343
+      - ATM-H-344
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0145
+    destination: node-deep-dive
+    source_file: "health/sulphur-benefits-and-history.md"
+    label: "Sulphur Benefits And History"
+    atom_count: 6
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Physical]
+    nodes: [6, 9, 13]
+    atom_ids:
+      - ATM-H-349
+      - ATM-H-352
+      - ATM-H-353
+      - ATM-H-354
+      - ATM-H-355
+      - ATM-H-357
+    build_states: {MISSING: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0146
+    destination: node-deep-dive
+    source_file: "mindset/affirmation-track-for-abundance.md"
+    label: "Affirmation Track For Abundance"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [1, 2, 10, 12]
+    atom_ids:
+      - ATM-M-001
+      - ATM-M-002
+      - ATM-M-004
+    build_states: {PARTIAL: 1, EXISTS: 2}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0147
+    destination: node-deep-dive
+    source_file: "mindset/alchemy-and-spiritual-symbolism.md"
+    label: "Alchemy And Spiritual Symbolism"
+    atom_count: 12
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-M-008
+      - ATM-M-013
+      - ATM-M-014
+      - ATM-M-015
+      - ATM-M-017
+      - ATM-M-018
+      - ATM-M-019
+      - ATM-M-020
+      - ATM-M-021
+      - ATM-M-022
+      - ATM-M-024
+      - ATM-M-026
+    build_states: {EXISTS: 5, PARTIAL: 4, MISSING: 3}
+    editorials: {CLEAN: 12}
+  - unit_id: CU-0148
+    destination: node-deep-dive
+    source_file: "mindset/anger-processing-guide.md"
+    label: "Anger Processing Guide"
+    atom_count: 4
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [2, 3, 9]
+    atom_ids:
+      - ATM-M-027
+      - ATM-M-029
+      - ATM-M-033
+      - ATM-M-035
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0149
+    destination: node-deep-dive
+    source_file: "mindset/anger-processing-guide.md"
+    label: "Anger Processing Guide"
+    atom_count: 4
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Inner]
+    nodes: [2, 3, 9]
+    atom_ids:
+      - ATM-M-030
+      - ATM-M-032
+      - ATM-M-034
+      - ATM-M-036
+    build_states: {MISSING: 3, PARTIAL: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0150
+    destination: node-deep-dive
+    source_file: "mindset/ask-integrate-reflect-method.md"
+    label: "Ask Integrate Reflect Method"
+    atom_count: 7
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-038
+      - ATM-M-041
+      - ATM-M-042
+      - ATM-M-043
+      - ATM-M-044
+      - ATM-M-045
+      - ATM-M-046
+    build_states: {MISSING: 7}
+    editorials: {CLEAN: 7}
+  - unit_id: CU-0151
+    destination: node-deep-dive
+    source_file: "mindset/attracting-wealth-with-mindset.md"
+    label: "Attracting Wealth With Mindset"
+    atom_count: 1
+    dominant_nature: CITATION
+    role: evidence
+    pillars: [Financial]
+    nodes: [10, 12]
+    atom_ids:
+      - ATM-M-048
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0152
+    destination: node-deep-dive
+    source_file: "mindset/balancing-masculine-and-feminine.md"
+    label: "Balancing Masculine And Feminine"
+    atom_count: 17
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Inner]
+    nodes: [2, 3, 5]
+    atom_ids:
+      - ATM-M-054
+      - ATM-M-056
+      - ATM-M-058
+      - ATM-M-060
+      - ATM-M-062
+      - ATM-M-070
+      - ATM-M-072
+      - ATM-M-080
+      - ATM-M-082
+      - ATM-M-086
+      - ATM-M-088
+      - ATM-M-090
+      - ATM-M-092
+      - ATM-M-094
+      - ATM-M-098
+      - ATM-M-100
+      - ATM-M-102
+    build_states: {MISSING: 17}
+    editorials: {CLEAN: 17}
+  - unit_id: CU-0153
+    destination: node-deep-dive
+    source_file: "mindset/balancing-masculine-and-feminine.md"
+    label: "Balancing Masculine And Feminine"
+    atom_count: 16
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [2, 3, 5]
+    atom_ids:
+      - ATM-M-057
+      - ATM-M-059
+      - ATM-M-065
+      - ATM-M-067
+      - ATM-M-071
+      - ATM-M-073
+      - ATM-M-077
+      - ATM-M-079
+      - ATM-M-087
+      - ATM-M-091
+      - ATM-M-093
+      - ATM-M-095
+      - ATM-M-097
+      - ATM-M-101
+      - ATM-M-103
+      - ATM-M-105
+    build_states: {MISSING: 16}
+    editorials: {CLEAN: 16}
+  - unit_id: CU-0154
+    destination: node-deep-dive
+    source_file: "mindset/blindspots-gaps-and-cons.md"
+    label: "Blindspots Gaps And Cons"
+    atom_count: 4
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-107
+      - ATM-M-109
+      - ATM-M-111
+      - ATM-M-115
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0155
+    destination: node-deep-dive
+    source_file: "mindset/blindspots-gaps-and-cons.md"
+    label: "Blindspots Gaps And Cons"
+    atom_count: 4
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-112
+      - ATM-M-116
+      - ATM-M-118
+      - ATM-M-120
+    build_states: {PARTIAL: 3, MISSING: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0156
+    destination: node-deep-dive
+    source_file: "mindset/ego-integration-and-overcoming.md"
+    label: "Ego Integration And Overcoming"
+    atom_count: 6
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [4, 9, 14]
+    atom_ids:
+      - ATM-M-121
+      - ATM-M-125
+      - ATM-M-139
+      - ATM-M-143
+      - ATM-M-145
+      - ATM-M-147
+    build_states: {MISSING: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0157
+    destination: node-deep-dive
+    source_file: "mindset/ego-integration-and-overcoming.md"
+    label: "Ego Integration And Overcoming"
+    atom_count: 13
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [4, 9, 14]
+    atom_ids:
+      - ATM-M-122
+      - ATM-M-124
+      - ATM-M-126
+      - ATM-M-127
+      - ATM-M-128
+      - ATM-M-129
+      - ATM-M-131
+      - ATM-M-133
+      - ATM-M-138
+      - ATM-M-140
+      - ATM-M-150
+      - ATM-M-151
+      - ATM-M-152
+    build_states: {PARTIAL: 2, EXISTS: 5, MISSING: 6}
+    editorials: {CLEAN: 13}
+  - unit_id: CU-0158
+    destination: node-deep-dive
+    source_file: "mindset/emotional-misattunement-explanation.md"
+    label: "Emotional Misattunement Explanation"
+    atom_count: 6
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [2, 3, 10]
+    atom_ids:
+      - ATM-M-155
+      - ATM-M-157
+      - ATM-M-159
+      - ATM-M-163
+      - ATM-M-167
+      - ATM-M-169
+    build_states: {EXISTS: 2, PARTIAL: 3, MISSING: 1}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0159
+    destination: node-deep-dive
+    source_file: "mindset/emotional-misattunement-explanation.md"
+    label: "Emotional Misattunement Explanation"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [2, 3, 10]
+    atom_ids:
+      - ATM-M-164
+      - ATM-M-166
+      - ATM-M-168
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0160
+    destination: node-deep-dive
+    source_file: "mindset/entrepreneurship-development-recommendations.md"
+    label: "Entrepreneurship Development Recommendations"
+    atom_count: 9
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-M-170
+      - ATM-M-182
+      - ATM-M-184
+      - ATM-M-188
+      - ATM-M-190
+      - ATM-M-202
+      - ATM-M-208
+      - ATM-M-210
+      - ATM-M-212
+    build_states: {MISSING: 9}
+    editorials: {CLEAN: 9}
+  - unit_id: CU-0161
+    destination: node-deep-dive
+    source_file: "mindset/entrepreneurship-development-recommendations.md"
+    label: "Entrepreneurship Development Recommendations"
+    atom_count: 17
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-M-171
+      - ATM-M-173
+      - ATM-M-177
+      - ATM-M-181
+      - ATM-M-183
+      - ATM-M-185
+      - ATM-M-187
+      - ATM-M-189
+      - ATM-M-191
+      - ATM-M-193
+      - ATM-M-195
+      - ATM-M-199
+      - ATM-M-203
+      - ATM-M-207
+      - ATM-M-209
+      - ATM-M-211
+      - ATM-M-213
+    build_states: {MISSING: 17}
+    editorials: {CLEAN: 17}
+  - unit_id: CU-0162
+    destination: node-deep-dive
+    source_file: "mindset/ether-concepts-explained.md"
+    label: "Ether Concepts Explained"
+    atom_count: 5
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [12]
+    atom_ids:
+      - ATM-M-214
+      - ATM-M-216
+      - ATM-M-218
+      - ATM-M-222
+      - ATM-M-224
+    build_states: {MISSING: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0163
+    destination: node-deep-dive
+    source_file: "mindset/fear-of-being-seen.md"
+    label: "Fear Of Being Seen"
+    atom_count: 3
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Identity]
+    nodes: [2, 9, 10, 13]
+    atom_ids:
+      - ATM-M-227
+      - ATM-M-229
+      - ATM-M-231
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0164
+    destination: node-deep-dive
+    source_file: "mindset/fear-of-being-seen.md"
+    label: "Fear Of Being Seen"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [2, 9, 10, 13]
+    atom_ids:
+      - ATM-M-228
+      - ATM-M-230
+      - ATM-M-232
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0165
+    destination: node-deep-dive
+    source_file: "mindset/frozen-feelings-and-support.md"
+    label: "Frozen Feelings And Support"
+    atom_count: 10
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [1, 2, 9]
+    atom_ids:
+      - ATM-M-234
+      - ATM-M-236
+      - ATM-M-240
+      - ATM-M-242
+      - ATM-M-244
+      - ATM-M-246
+      - ATM-M-248
+      - ATM-M-250
+      - ATM-M-252
+      - ATM-M-254
+    build_states: {MISSING: 10}
+    editorials: {CLEAN: 10}
+  - unit_id: CU-0166
+    destination: node-deep-dive
+    source_file: "mindset/frozen-feelings-and-support.md"
+    label: "Frozen Feelings And Support"
+    atom_count: 8
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [1, 2, 9]
+    atom_ids:
+      - ATM-M-235
+      - ATM-M-239
+      - ATM-M-241
+      - ATM-M-243
+      - ATM-M-245
+      - ATM-M-251
+      - ATM-M-253
+      - ATM-M-255
+    build_states: {PARTIAL: 2, MISSING: 6}
+    editorials: {CLEAN: 8}
+  - unit_id: CU-0167
+    destination: node-deep-dive
+    source_file: "mindset/happiness-as-a-state.md"
+    label: "Happiness As A State"
+    atom_count: 12
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [1, 8, 13]
+    atom_ids:
+      - ATM-M-257
+      - ATM-M-259
+      - ATM-M-261
+      - ATM-M-263
+      - ATM-M-265
+      - ATM-M-267
+      - ATM-M-269
+      - ATM-M-271
+      - ATM-M-279
+      - ATM-M-285
+      - ATM-M-287
+      - ATM-M-291
+    build_states: {EXISTS: 5, PARTIAL: 6, MISSING: 1}
+    editorials: {CLEAN: 12}
+  - unit_id: CU-0168
+    destination: node-deep-dive
+    source_file: "mindset/happiness-as-a-state.md"
+    label: "Happiness As A State"
+    atom_count: 11
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [1, 8, 13]
+    atom_ids:
+      - ATM-M-264
+      - ATM-M-268
+      - ATM-M-270
+      - ATM-M-274
+      - ATM-M-276
+      - ATM-M-280
+      - ATM-M-282
+      - ATM-M-284
+      - ATM-M-288
+      - ATM-M-290
+      - ATM-M-292
+    build_states: {MISSING: 11}
+    editorials: {CLEAN: 11}
+  - unit_id: CU-0169
+    destination: node-deep-dive
+    source_file: "mindset/healing-growth-blueprint-1-0.md"
+    label: "Healing Growth Blueprint 1 0"
+    atom_count: 5
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Cross-cutting]
+    nodes: []
+    atom_ids:
+      - ATM-M-296
+      - ATM-M-298
+      - ATM-M-304
+      - ATM-M-306
+      - ATM-M-310
+    build_states: {N/A: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0170
+    destination: node-deep-dive
+    source_file: "mindset/healing-growth-blueprint-1-0.md"
+    label: "Healing Growth Blueprint 1 0"
+    atom_count: 5
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: []
+    atom_ids:
+      - ATM-M-305
+      - ATM-M-307
+      - ATM-M-309
+      - ATM-M-311
+      - ATM-M-315
+    build_states: {N/A: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0171
+    destination: node-deep-dive
+    source_file: "mindset/inner-child-book-concept.md"
+    label: "Inner Child Book Concept"
+    atom_count: 8
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 5, 9, 10, 13, 14]
+    atom_ids:
+      - ATM-M-317
+      - ATM-M-318
+      - ATM-M-319
+      - ATM-M-320
+      - ATM-M-321
+      - ATM-M-322
+      - ATM-M-323
+      - ATM-M-324
+    build_states: {N/A: 8}
+    editorials: {CLEAN: 8}
+  - unit_id: CU-0172
+    destination: node-deep-dive
+    source_file: "mindset/inner-child-healing.md"
+    label: "Inner Child Healing"
+    atom_count: 4
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [2, 9, 10]
+    atom_ids:
+      - ATM-M-325
+      - ATM-M-326
+      - ATM-M-327
+      - ATM-M-328
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0173
+    destination: node-deep-dive
+    source_file: "mindset/insecurity-and-self-respect.md"
+    label: "Insecurity And Self Respect"
+    atom_count: 26
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Identity]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-330
+      - ATM-M-332
+      - ATM-M-334
+      - ATM-M-340
+      - ATM-M-342
+      - ATM-M-344
+      - ATM-M-345
+      - ATM-M-346
+      - ATM-M-347
+      - ATM-M-348
+      - ATM-M-349
+      - ATM-M-350
+      - ATM-M-352
+      - ATM-M-353
+      - ATM-M-354
+      - ATM-M-355
+      - ATM-M-356
+      - ATM-M-357
+      - ATM-M-359
+      - ATM-M-361
+      - ATM-M-365
+      - ATM-M-367
+      - ATM-M-369
+      - ATM-M-373
+      - ATM-M-375
+      - ATM-M-377
+    build_states: {MISSING: 26}
+    editorials: {CLEAN: 26}
+  - unit_id: CU-0174
+    destination: node-deep-dive
+    source_file: "mindset/insecurity-and-self-respect.md"
+    label: "Insecurity And Self Respect"
+    atom_count: 6
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [3, 4, 10]
+    atom_ids:
+      - ATM-M-331
+      - ATM-M-333
+      - ATM-M-341
+      - ATM-M-343
+      - ATM-M-364
+      - ATM-M-372
+    build_states: {MISSING: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0175
+    destination: node-deep-dive
+    source_file: "mindset/manifestation-mastery-secrets.md"
+    label: "Manifestation Mastery Secrets"
+    atom_count: 33
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [1, 2, 12]
+    atom_ids:
+      - ATM-M-382
+      - ATM-M-386
+      - ATM-M-388
+      - ATM-M-392
+      - ATM-M-400
+      - ATM-M-402
+      - ATM-M-404
+      - ATM-M-414
+      - ATM-M-416
+      - ATM-M-418
+      - ATM-M-420
+      - ATM-M-424
+      - ATM-M-426
+      - ATM-M-430
+      - ATM-M-434
+      - ATM-M-436
+      - ATM-M-446
+      - ATM-M-448
+      - ATM-M-452
+      - ATM-M-458
+      - ATM-M-462
+      - ATM-M-466
+      - ATM-M-468
+      - ATM-M-472
+      - ATM-M-476
+      - ATM-M-486
+      - ATM-M-488
+      - ATM-M-490
+      - ATM-M-492
+      - ATM-M-494
+      - ATM-M-496
+      - ATM-M-498
+      - ATM-M-502
+    build_states: {MISSING: 31, PARTIAL: 1, EXISTS: 1}
+    editorials: {CLEAN: 33}
+  - unit_id: CU-0176
+    destination: node-deep-dive
+    source_file: "mindset/manifestation-mastery-secrets.md"
+    label: "Manifestation Mastery Secrets"
+    atom_count: 24
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [1, 2, 12]
+    atom_ids:
+      - ATM-M-403
+      - ATM-M-413
+      - ATM-M-425
+      - ATM-M-439
+      - ATM-M-443
+      - ATM-M-449
+      - ATM-M-451
+      - ATM-M-453
+      - ATM-M-455
+      - ATM-M-457
+      - ATM-M-459
+      - ATM-M-463
+      - ATM-M-465
+      - ATM-M-467
+      - ATM-M-469
+      - ATM-M-473
+      - ATM-M-479
+      - ATM-M-481
+      - ATM-M-485
+      - ATM-M-487
+      - ATM-M-489
+      - ATM-M-491
+      - ATM-M-497
+      - ATM-M-499
+    build_states: {EXISTS: 9, MISSING: 13, PARTIAL: 2}
+    editorials: {CLEAN: 24}
+  - unit_id: CU-0177
+    destination: node-deep-dive
+    source_file: "mindset/masculine-feminine-balance-tracker.md"
+    label: "Masculine Feminine Balance Tracker"
+    atom_count: 6
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-507
+      - ATM-M-509
+      - ATM-M-511
+      - ATM-M-513
+      - ATM-M-517
+      - ATM-M-519
+    build_states: {PARTIAL: 2, MISSING: 4}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0178
+    destination: node-deep-dive
+    source_file: "mindset/masculine-feminine-balance-tracker.md"
+    label: "Masculine Feminine Balance Tracker"
+    atom_count: 5
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-508
+      - ATM-M-510
+      - ATM-M-512
+      - ATM-M-514
+      - ATM-M-516
+    build_states: {MISSING: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0179
+    destination: node-deep-dive
+    source_file: "mindset/masculine-vs-feminine-balance.md"
+    label: "Masculine Vs Feminine Balance"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [1, 5, 13]
+    atom_ids:
+      - ATM-M-521
+      - ATM-M-522
+      - ATM-M-526
+    build_states: {PARTIAL: 1, MISSING: 2}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0180
+    destination: node-deep-dive
+    source_file: "mindset/meal-planning-and-budgeting-help.md"
+    label: "Meal Planning And Budgeting Help"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Physical]
+    nodes: [6, 7]
+    atom_ids:
+      - ATM-M-530
+      - ATM-M-531
+      - ATM-M-533
+    build_states: {N/A: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0181
+    destination: node-deep-dive
+    source_file: "mindset/money-block-removal-guide.md"
+    label: "Money Block Removal Guide"
+    atom_count: 7
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Financial]
+    nodes: [9, 10, 12]
+    atom_ids:
+      - ATM-M-536
+      - ATM-M-540
+      - ATM-M-544
+      - ATM-M-546
+      - ATM-M-548
+      - ATM-M-553
+      - ATM-M-555
+    build_states: {MISSING: 7}
+    editorials: {CLEAN: 7}
+  - unit_id: CU-0182
+    destination: node-deep-dive
+    source_file: "mindset/money-block-removal-guide.md"
+    label: "Money Block Removal Guide"
+    atom_count: 10
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Financial]
+    nodes: [9, 10, 12]
+    atom_ids:
+      - ATM-M-539
+      - ATM-M-541
+      - ATM-M-545
+      - ATM-M-549
+      - ATM-M-550
+      - ATM-M-551
+      - ATM-M-552
+      - ATM-M-554
+      - ATM-M-556
+      - ATM-M-558
+    build_states: {MISSING: 10}
+    editorials: {CLEAN: 10}
+  - unit_id: CU-0183
+    destination: node-deep-dive
+    source_file: "mindset/neuro-signatures-and-pruning-explained.md"
+    label: "Neuro Signatures And Pruning Explained"
+    atom_count: 2
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [2, 8]
+    atom_ids:
+      - ATM-M-560
+      - ATM-M-563
+    build_states: {EXISTS: 1, MISSING: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0184
+    destination: node-deep-dive
+    source_file: "mindset/overexplaining-and-conciseness-tips.md"
+    label: "Overexplaining And Conciseness Tips"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [4, 10, 13]
+    atom_ids:
+      - ATM-M-567
+      - ATM-M-569
+      - ATM-M-570
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0185
+    destination: node-deep-dive
+    source_file: "mindset/overwhelm-to-clarity.md"
+    label: "Overwhelm To Clarity"
+    atom_count: 10
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-572
+      - ATM-M-574
+      - ATM-M-576
+      - ATM-M-578
+      - ATM-M-580
+      - ATM-M-581
+      - ATM-M-582
+      - ATM-M-583
+      - ATM-M-584
+      - ATM-M-585
+    build_states: {EXISTS: 2, PARTIAL: 3, MISSING: 5}
+    editorials: {CLEAN: 10}
+  - unit_id: CU-0186
+    destination: node-deep-dive
+    source_file: "mindset/overwhelm-to-clarity.md"
+    label: "Overwhelm To Clarity"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-573
+      - ATM-M-575
+      - ATM-M-579
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0187
+    destination: node-deep-dive
+    source_file: "mindset/rendering-explained.md"
+    label: "Rendering Explained"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Inner]
+    nodes: [12]
+    atom_ids:
+      - ATM-M-587
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0188
+    destination: node-deep-dive
+    source_file: "mindset/romanticized-reality-of-change.md"
+    label: "Romanticized Reality Of Change"
+    atom_count: 4
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [4, 14]
+    atom_ids:
+      - ATM-M-590
+      - ATM-M-592
+      - ATM-M-594
+      - ATM-M-595
+    build_states: {MISSING: 4}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0189
+    destination: node-deep-dive
+    source_file: "mindset/self-awareness-and-love.md"
+    label: "Self Awareness And Love"
+    atom_count: 11
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Identity]
+    nodes: [3, 10]
+    atom_ids:
+      - ATM-M-597
+      - ATM-M-599
+      - ATM-M-601
+      - ATM-M-603
+      - ATM-M-605
+      - ATM-M-607
+      - ATM-M-609
+      - ATM-M-611
+      - ATM-M-613
+      - ATM-M-615
+      - ATM-M-617
+    build_states: {MISSING: 11}
+    editorials: {CLEAN: 11}
+  - unit_id: CU-0190
+    destination: node-deep-dive
+    source_file: "mindset/self-awareness-and-love.md"
+    label: "Self Awareness And Love"
+    atom_count: 5
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Identity]
+    nodes: [3, 10]
+    atom_ids:
+      - ATM-M-598
+      - ATM-M-606
+      - ATM-M-612
+      - ATM-M-614
+      - ATM-M-616
+    build_states: {MISSING: 5}
+    editorials: {CLEAN: 5}
+  - unit_id: CU-0191
+    destination: node-deep-dive
+    source_file: "mindset/self-soothing-in-adulthood.md"
+    label: "Self Soothing In Adulthood"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Inner]
+    nodes: [2, 9]
+    atom_ids:
+      - ATM-M-619
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0192
+    destination: node-deep-dive
+    source_file: "mindset/shift-your-mindset.md"
+    label: "Shift Your Mindset"
+    atom_count: 1
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [1, 4]
+    atom_ids:
+      - ATM-M-622
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0193
+    destination: node-deep-dive
+    source_file: "mindset/success-and-small-habits.md"
+    label: "Success And Small Habits"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [8, 11]
+    atom_ids:
+      - ATM-M-624
+      - ATM-M-625
+      - ATM-M-627
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0194
+    destination: node-deep-dive
+    source_file: "mindset/tm-and-kundalini-energy.md"
+    label: "Tm And Kundalini Energy"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [2, 12, 13]
+    atom_ids:
+      - ATM-M-630
+      - ATM-M-634
+      - ATM-M-635
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0195
+    destination: node-deep-dive
+    source_file: "mindset/vibration-frequency-exploration.md"
+    label: "Vibration Frequency Exploration"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [12]
+    atom_ids:
+      - ATM-M-636
+      - ATM-M-638
+      - ATM-M-640
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0196
+    destination: node-deep-dive
+    source_file: "mindset/vision-board-creation-guide.md"
+    label: "Vision Board Creation Guide"
+    atom_count: 6
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Inner]
+    nodes: [11, 12]
+    atom_ids:
+      - ATM-M-643
+      - ATM-M-644
+      - ATM-M-645
+      - ATM-M-646
+      - ATM-M-647
+      - ATM-M-649
+    build_states: {MISSING: 6}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0197
+    destination: node-deep-dive
+    source_file: "mindset/visionary-life-breakdown.md"
+    label: "Visionary Life Breakdown"
+    atom_count: 3
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [11, 12, 14]
+    atom_ids:
+      - ATM-M-650
+      - ATM-M-652
+      - ATM-M-656
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0198
+    destination: node-deep-dive
+    source_file: "mindset/visionary-life-breakdown.md"
+    label: "Visionary Life Breakdown"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [11, 12, 14]
+    atom_ids:
+      - ATM-M-653
+      - ATM-M-655
+      - ATM-M-657
+    build_states: {MISSING: 2, EXISTS: 1}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0199
+    destination: node-deep-dive
+    source_file: "mindset/yin-energy-explained.md"
+    label: "Yin Energy Explained"
+    atom_count: 2
+    dominant_nature: NARRATIVE
+    role: voice
+    pillars: [Inner]
+    nodes: [5, 13]
+    atom_ids:
+      - ATM-M-658
+      - ATM-M-659
+    build_states: {MISSING: 1, EXISTS: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0200
+    destination: node-deep-dive
+    source_file: "time-astro/13-month-calendar-query.md"
+    label: "13 Month Calendar Query"
+    atom_count: 12
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [5, 12]
+    atom_ids:
+      - ATM-T-002
+      - ATM-T-004
+      - ATM-T-006
+      - ATM-T-008
+      - ATM-T-012
+      - ATM-T-014
+      - ATM-T-018
+      - ATM-T-034
+      - ATM-T-036
+      - ATM-T-042
+      - ATM-T-044
+      - ATM-T-046
+    build_states: {MISSING: 12}
+    editorials: {UNVERIFIED: 12}
+  - unit_id: CU-0201
+    destination: node-deep-dive
+    source_file: "time-astro/astrology-and-business-strategy.md"
+    label: "Astrology And Business Strategy"
+    atom_count: 3
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-T-052
+      - ATM-T-056
+      - ATM-T-063
+    build_states: {MISSING: 3}
+    editorials: {UNVERIFIED: 3}
+  - unit_id: CU-0202
+    destination: node-deep-dive
+    source_file: "time-astro/astrology-and-business-strategy.md"
+    label: "Astrology And Business Strategy"
+    atom_count: 3
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-T-053
+      - ATM-T-057
+      - ATM-T-064
+    build_states: {MISSING: 3}
+    editorials: {UNVERIFIED: 3}
+  - unit_id: CU-0203
+    destination: node-deep-dive
+    source_file: "time-astro/astrology-and-business-strategy.md"
+    label: "Astrology And Business Strategy"
+    atom_count: 3
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-T-054
+      - ATM-T-061
+      - ATM-T-065
+    build_states: {MISSING: 3}
+    editorials: {UNVERIFIED: 3}
+  - unit_id: CU-0204
+    destination: node-deep-dive
+    source_file: "time-astro/astrology-hormone-moon-planner.md"
+    label: "Astrology Hormone Moon Planner"
+    atom_count: 1
+    dominant_nature: PROTOCOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [5, 6, 12]
+    atom_ids:
+      - ATM-T-069
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0205
+    destination: node-deep-dive
+    source_file: "time-astro/cycle-and-moon-comparison.md"
+    label: "Cycle And Moon Comparison"
+    atom_count: 23
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-T-073
+      - ATM-T-077
+      - ATM-T-079
+      - ATM-T-081
+      - ATM-T-083
+      - ATM-T-085
+      - ATM-T-087
+      - ATM-T-089
+      - ATM-T-091
+      - ATM-T-145
+      - ATM-T-147
+      - ATM-T-149
+      - ATM-T-150
+      - ATM-T-152
+      - ATM-T-154
+      - ATM-T-156
+      - ATM-T-158
+      - ATM-T-160
+      - ATM-T-162
+      - ATM-T-164
+      - ATM-T-166
+      - ATM-T-168
+      - ATM-T-170
+    build_states: {MISSING: 23}
+    editorials: {UNVERIFIED: 23}
+  - unit_id: CU-0206
+    destination: node-deep-dive
+    source_file: "time-astro/moon-day-male-struggles.md"
+    label: "Moon Day Male Struggles"
+    atom_count: 1
+    dominant_nature: FRAMEWORK
+    role: structure
+    pillars: [Cross-cutting]
+    nodes: [5]
+    atom_ids:
+      - ATM-T-174
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0207
+    destination: node-deep-dive
+    source_file: "water/water-sales-strategy-plan.md"
+    label: "Water Sales Strategy Plan"
+    atom_count: 4
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-W-127
+      - ATM-W-130
+      - ATM-W-132
+      - ATM-W-135
+    build_states: {EXISTS: 2, PARTIAL: 1, MISSING: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0208
+    destination: social-content
+    source_file: "business/20-80-rule-focus.md"
+    label: "20 80 Rule Focus"
+    atom_count: 1
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Financial]
+    nodes: [1, 5, 11]
+    atom_ids:
+      - ATM-B-023
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0209
+    destination: social-content
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 1
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-066
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0210
+    destination: social-content
+    source_file: "concepts/vision-board-creation-guide.md"
+    label: "Vision Board Creation Guide"
+    atom_count: 2
+    dominant_nature: PRODUCT
+    role: asset
+    pillars: [Cross-cutting]
+    nodes: [10, 12]
+    atom_ids:
+      - ATM-C-102
+      - ATM-C-104
+    build_states: {MISSING: 2}
+    editorials: {UNVERIFIED: 2}
+  - unit_id: CU-0211
+    destination: standalone-product
+    source_file: "business/astrology-social-media-strategy.md"
+    label: "Astrology Social Media Strategy"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-B-054
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0212
+    destination: standalone-product
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 6
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-090
+      - ATM-B-098
+      - ATM-B-100
+      - ATM-B-102
+      - ATM-B-104
+      - ATM-B-106
+    build_states: {EXISTS: 4, PARTIAL: 2}
+    editorials: {CLEAN: 6}
+  - unit_id: CU-0213
+    destination: standalone-product
+    source_file: "business/income-projections-and-strategies.md"
+    label: "Income Projections And Strategies"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [6, 11]
+    atom_ids:
+      - ATM-B-148
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0214
+    destination: standalone-product
+    source_file: "business/job-transition-advice.md"
+    label: "Job Transition Advice"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Financial]
+    nodes: [1, 2, 3]
+    atom_ids:
+      - ATM-B-157
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0215
+    destination: standalone-product
+    source_file: "mindset-rhythms-and-rituals.md"
+    label: "Mindset Rhythms And Rituals"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: []
+    atom_ids:
+      - ATM-M-664
+    build_states: {N/A: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0216
+    destination: standalone-product
+    source_file: "mindset/balancing-masculine-and-feminine.md"
+    label: "Balancing Masculine And Feminine"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Inner]
+    nodes: [2, 3, 5]
+    atom_ids:
+      - ATM-M-066
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0217
+    destination: standalone-product
+    source_file: "mindset/healing-growth-blueprint-1-0.md"
+    label: "Healing Growth Blueprint 1 0"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: []
+    atom_ids:
+      - ATM-M-297
+      - ATM-M-299
+      - ATM-M-301
+    build_states: {N/A: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0218
+    destination: standalone-product
+    source_file: "mindset/masculine-vs-feminine-balance.md"
+    label: "Masculine Vs Feminine Balance"
+    atom_count: 1
+    dominant_nature: SCRIPT
+    role: deliverable
+    pillars: [Inner]
+    nodes: [1, 5, 13]
+    atom_ids:
+      - ATM-M-523
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0219
+    destination: standalone-product
+    source_file: "time-astro/13-month-calendar-query.md"
+    label: "13 Month Calendar Query"
+    atom_count: 6
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [5, 12]
+    atom_ids:
+      - ATM-T-010
+      - ATM-T-020
+      - ATM-T-030
+      - ATM-T-032
+      - ATM-T-048
+      - ATM-T-050
+    build_states: {MISSING: 6}
+    editorials: {UNVERIFIED: 6}
+  - unit_id: CU-0220
+    destination: standalone-product
+    source_file: "time-astro/astrology-and-business-strategy.md"
+    label: "Astrology And Business Strategy"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-T-059
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0221
+    destination: standalone-product
+    source_file: "time-astro/astrology-hormone-moon-planner.md"
+    label: "Astrology Hormone Moon Planner"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [5, 6, 12]
+    atom_ids:
+      - ATM-T-071
+    build_states: {MISSING: 1}
+    editorials: {UNVERIFIED: 1}
+  - unit_id: CU-0222
+    destination: standalone-product
+    source_file: "time-astro/cycle-and-moon-comparison.md"
+    label: "Cycle And Moon Comparison"
+    atom_count: 26
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Cross-cutting]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-T-093
+      - ATM-T-095
+      - ATM-T-097
+      - ATM-T-099
+      - ATM-T-101
+      - ATM-T-103
+      - ATM-T-105
+      - ATM-T-107
+      - ATM-T-109
+      - ATM-T-111
+      - ATM-T-113
+      - ATM-T-115
+      - ATM-T-117
+      - ATM-T-119
+      - ATM-T-121
+      - ATM-T-123
+      - ATM-T-125
+      - ATM-T-127
+      - ATM-T-129
+      - ATM-T-131
+      - ATM-T-133
+      - ATM-T-135
+      - ATM-T-137
+      - ATM-T-139
+      - ATM-T-141
+      - ATM-T-143
+    build_states: {MISSING: 26}
+    editorials: {UNVERIFIED: 26}
+  - unit_id: CU-0223
+    destination: unrouted
+    source_file: "2a-sovereign-systems-branding.md"
+    label: "2A Sovereign Systems Branding"
+    atom_count: 1
+    dominant_nature: CLAIM
+    role: assertion
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-062
+    build_states: {N/A: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0224
+    destination: unrouted
+    source_file: "2b-nodular-flow-refinement.md"
+    label: "2B Nodular Flow Refinement"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Cross-cutting]
+    nodes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    atom_ids:
+      - ATM-R-028
+    build_states: {N/A: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0225
+    destination: unrouted
+    source_file: "business/dream-retreat-vision.md"
+    label: "Dream Retreat Vision"
+    atom_count: 2
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Financial]
+    nodes: [12, 14]
+    atom_ids:
+      - ATM-B-061
+      - ATM-B-074
+    build_states: {MISSING: 1, EXISTS: 1}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0226
+    destination: unrouted
+    source_file: "business/idea-implementation-strategies.md"
+    label: "Idea Implementation Strategies"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Financial]
+    nodes: [5, 8, 11]
+    atom_ids:
+      - ATM-B-133
+    build_states: {PARTIAL: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0227
+    destination: unrouted
+    source_file: "mindset/ask-integrate-reflect-method.md"
+    label: "Ask Integrate Reflect Method"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Identity]
+    nodes: [3, 5, 11]
+    atom_ids:
+      - ATM-M-040
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0228
+    destination: unrouted
+    source_file: "mindset/balancing-masculine-and-feminine.md"
+    label: "Balancing Masculine And Feminine"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [2, 3, 5]
+    atom_ids:
+      - ATM-M-064
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0229
+    destination: unrouted
+    source_file: "mindset/emotional-misattunement-explanation.md"
+    label: "Emotional Misattunement Explanation"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [2, 3, 10]
+    atom_ids:
+      - ATM-M-161
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0230
+    destination: unrouted
+    source_file: "mindset/entrepreneurship-development-recommendations.md"
+    label: "Entrepreneurship Development Recommendations"
+    atom_count: 2
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Financial]
+    nodes: [11]
+    atom_ids:
+      - ATM-M-197
+      - ATM-M-201
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0231
+    destination: unrouted
+    source_file: "mindset/frozen-feelings-and-support.md"
+    label: "Frozen Feelings And Support"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [1, 2, 9]
+    atom_ids:
+      - ATM-M-237
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0232
+    destination: unrouted
+    source_file: "mindset/manifestation-mastery-secrets.md"
+    label: "Manifestation Mastery Secrets"
+    atom_count: 2
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [1, 2, 12]
+    atom_ids:
+      - ATM-M-461
+      - ATM-M-503
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0233
+    destination: unrouted
+    source_file: "mindset/neuro-signatures-and-pruning-explained.md"
+    label: "Neuro Signatures And Pruning Explained"
+    atom_count: 3
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [2, 8]
+    atom_ids:
+      - ATM-M-562
+      - ATM-M-564
+      - ATM-M-566
+    build_states: {MISSING: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0234
+    destination: unrouted
+    source_file: "mindset/overexplaining-and-conciseness-tips.md"
+    label: "Overexplaining And Conciseness Tips"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Identity]
+    nodes: [4, 10, 13]
+    atom_ids:
+      - ATM-M-568
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0235
+    destination: unrouted
+    source_file: "mindset/shift-your-mindset.md"
+    label: "Shift Your Mindset"
+    atom_count: 2
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [1, 4]
+    atom_ids:
+      - ATM-M-621
+      - ATM-M-623
+    build_states: {MISSING: 2}
+    editorials: {CLEAN: 2}
+  - unit_id: CU-0236
+    destination: unrouted
+    source_file: "mindset/yin-energy-explained.md"
+    label: "Yin Energy Explained"
+    atom_count: 1
+    dominant_nature: QUESTION
+    role: prompt
+    pillars: [Inner]
+    nodes: [5, 13]
+    atom_ids:
+      - ATM-M-663
+    build_states: {MISSING: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0237
+    destination: water-funnel
+    source_file: "health/bubble-butt-fitness-guide.md"
+    label: "Bubble Butt Fitness Guide"
+    atom_count: 4
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [5, 6, 13]
+    atom_ids:
+      - ATM-H-087
+      - ATM-H-088
+      - ATM-H-096
+      - ATM-H-105
+    build_states: {MISSING: 3, PARTIAL: 1}
+    editorials: {CLEAN: 4}
+  - unit_id: CU-0238
+    destination: water-funnel
+    source_file: "water/hydrogen-water-science-health-and-business.md"
+    label: "Hydrogen Water Science Health And Business"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [7, 9, 11]
+    atom_ids:
+      - ATM-W-055
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0239
+    destination: water-funnel
+    source_file: "water/ionized-water-benefits.md"
+    label: "Ionized Water Benefits"
+    atom_count: 1
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [7, 9]
+    atom_ids:
+      - ATM-W-058
+    build_states: {EXISTS: 1}
+    editorials: {CLEAN: 1}
+  - unit_id: CU-0240
+    destination: water-funnel
+    source_file: "water/kangen-water-content-ideas.md"
+    label: "Kangen Water Content Ideas"
+    atom_count: 3
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [11, 13]
+    atom_ids:
+      - ATM-W-071
+      - ATM-W-076
+      - ATM-W-079
+    build_states: {EXISTS: 3}
+    editorials: {CLEAN: 3}
+  - unit_id: CU-0241
+    destination: water-funnel
+    source_file: "water/water-hub-design.md"
+    label: "Water Hub Design"
+    atom_count: 9
+    dominant_nature: TOOL
+    role: actionable
+    pillars: [Physical]
+    nodes: [11, 12]
+    atom_ids:
+      - ATM-W-092
+      - ATM-W-093
+      - ATM-W-094
+      - ATM-W-096
+      - ATM-W-097
+      - ATM-W-099
+      - ATM-W-100
+      - ATM-W-102
+      - ATM-W-112
+    build_states: {PARTIAL: 3, EXISTS: 6}
+    editorials: {CLEAN: 9}

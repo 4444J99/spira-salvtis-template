@@ -1,0 +1,340 @@
+---
+/**
+ * EmailGate — wraps content behind an email capture form.
+ *
+ * Two modes:
+ *   - Slot mode (default): the gated body is provided via <slot/> and
+ *     rendered server-side. localStorage unlock reveals it client-side.
+ *     Used by pages whose gated body is rendered Markdown (pillars, water
+ *     branches) where a JSON fetch isn't practical — this is a soft gate
+ *     (analytics + friction), and the slot content is present in the HTML.
+ *   - Fetch mode (`fetchEndpoint` set): NOTHING gated is rendered
+ *     server-side. After a successful capture (or the deliberate
+ *     unlock-on-network-failure fallback), the component POSTs to
+ *     `fetchEndpoint` and renders the returned payload client-side. This
+ *     makes the gate honest: the protected body is not in the initial HTML
+ *     and is not view-source readable before unlock. Used by /research.
+ *
+ * On submit it POSTs to /capture (the universal capture sink) and unlocks
+ * client-side. Unlock state persists in localStorage so returning visitors
+ * skip the form (and, in fetch mode, re-fetch the payload without
+ * re-submitting).
+ *
+ * Usage (slot mode):
+ *   <EmailGate><div>Protected content here</div></EmailGate>
+ *
+ * Usage (fetch mode):
+ *   <EmailGate fetchEndpoint="/api/research-content" />
+ *
+ * Props:
+ *   preview        — optional teaser text shown above the gate
+ *   fetchEndpoint  — optional POST endpoint returning the gated payload as
+ *                    JSON; presence switches the component into fetch mode
+ */
+import { citations } from '../data/citations';
+
+interface Props {
+  preview?: string;
+  fetchEndpoint?: string;
+}
+
+const { preview, fetchEndpoint } = Astro.props;
+const sourceCount = citations.length;
+const isFetchMode = Boolean(fetchEndpoint);
+---
+
+<div class="email-gate-wrapper" data-fetch-endpoint={fetchEndpoint ?? ''}>
+  <!-- Gated content (hidden until unlocked) -->
+  <div
+    id="gated-content"
+    class="hidden opacity-0 transition-opacity duration-700"
+  >
+    {
+      isFetchMode ? (
+        <div id="gated-fetch-target" aria-live="polite" />
+      ) : (
+        <slot />
+      )
+    }
+  </div>
+
+  <!-- Gate form (visible until unlocked) -->
+  <div id="gate-overlay" class="py-20 px-6">
+    {
+      preview && (
+        <div class="max-w-[640px] mx-auto mb-12 text-white/35 text-[16px] font-light leading-[1.9] text-center">
+          <p>{preview}</p>
+        </div>
+      )
+    }
+    <div class="max-w-md mx-auto">
+      <div
+        class="glass-card p-10 text-center"
+        style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+      >
+        <div class="w-10 h-px bg-ocean-500/30 mx-auto mb-6"></div>
+        <h2 class="font-heading text-[26px] font-light text-white mb-3">
+          Continue reading
+        </h2>
+        <p class="text-white/35 text-[15px] font-light mb-8 leading-relaxed">
+          Enter your email to unlock the full research-backed deep dive. Backed
+          by {sourceCount} peer-reviewed and sacred sources.
+        </p>
+
+        <form id="gate-form" class="space-y-4">
+          <input
+            type="email"
+            required
+            aria-label="Email address"
+            placeholder="your@email.com"
+            class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 focus-visible:ring-2 focus-visible:ring-ocean-400/60 transition-colors text-[15px]"
+          />
+          <button
+            type="submit"
+            class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ocean-300 text-[14px]"
+          >
+            Unlock
+          </button>
+        </form>
+
+        <p class="mt-6 text-[10px] text-white/15 uppercase tracking-[0.15em]">
+          No spam. Only sovereignty.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { trackEvent } from '../lib/analytics';
+
+  const wrapper = document.querySelector<HTMLElement>('.email-gate-wrapper');
+  const content = document.getElementById('gated-content');
+  const overlay = document.getElementById('gate-overlay');
+  const form = document.getElementById('gate-form') as HTMLFormElement;
+  const fetchTarget = document.getElementById('gated-fetch-target');
+  const fetchEndpoint = wrapper?.dataset.fetchEndpoint || '';
+  const UNLOCK_KEY = 'ss_unlocked';
+
+  interface Citation {
+    id: string;
+    source: string;
+    detail: string;
+    context: string;
+  }
+
+  let fetchedOnce = false;
+
+  function reveal(): void {
+    if (overlay && content) {
+      overlay.classList.add('hidden');
+      content.classList.remove('hidden');
+      setTimeout(() => content.classList.remove('opacity-0'), 10);
+    }
+  }
+
+  // Sacred context — the labeled "Relevance" border-left block.
+  function sacredContext(context: string): HTMLElement {
+    const ctx = document.createElement('div');
+    ctx.className =
+      'text-[13px] text-ocean-400/80 leading-relaxed border-l-2 border-ocean-500/20 pl-4 py-1';
+    const label = document.createElement('span');
+    label.className =
+      'text-ocean-500/60 uppercase text-[10px] font-bold tracking-widest block mb-1';
+    label.textContent = 'Relevance';
+    const ctxText = document.createElement('span');
+    ctxText.textContent = context;
+    ctx.appendChild(label);
+    ctx.appendChild(ctxText);
+    return ctx;
+  }
+
+  // Biomedical context — link icon row, with the URL as a link (http) or a
+  // plain span otherwise.
+  function biomedicalContext(context: string): HTMLElement {
+    const row = document.createElement('div');
+    row.className =
+      'text-[13px] text-ocean-400 font-mono flex items-center gap-2';
+
+    const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    icon.setAttribute('width', '14');
+    icon.setAttribute('height', '14');
+    icon.setAttribute('viewBox', '0 0 24 24');
+    icon.setAttribute('fill', 'none');
+    icon.setAttribute('stroke', 'currentColor');
+    icon.setAttribute('stroke-width', '2');
+    icon.setAttribute('stroke-linecap', 'round');
+    icon.setAttribute('stroke-linejoin', 'round');
+    icon.setAttribute('class', 'text-ocean-500');
+    for (const d of [
+      'M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71',
+      'M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71',
+    ]) {
+      const path = document.createElementNS(
+        'http://www.w3.org/2000/svg',
+        'path',
+      );
+      path.setAttribute('d', d);
+      icon.appendChild(path);
+    }
+    row.appendChild(icon);
+
+    if (context.startsWith('http')) {
+      const link = document.createElement('a');
+      link.href = context;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.className =
+        'hover:text-ocean-300 transition-colors underline underline-offset-4 decoration-ocean-500/30';
+      link.textContent = context.replace(/^https?:\/\//, '');
+      row.appendChild(link);
+    } else {
+      const span = document.createElement('span');
+      span.textContent = context;
+      row.appendChild(span);
+    }
+    return row;
+  }
+
+  // Build a single citation card with DOM nodes + textContent — no innerHTML
+  // sink, so citation strings can never inject markup.
+  function citationCard(c: Citation, biomedical: boolean): HTMLElement {
+    const card = document.createElement('div');
+    card.className =
+      'grid md:grid-cols-[120px_1fr] gap-6 p-8 bg-ocean-500/5 border border-ocean-500/10 rounded-2xl';
+
+    const idCol = document.createElement('div');
+    idCol.className = 'text-[14px] font-mono text-ocean-500/60 font-bold';
+    idCol.textContent = c.id;
+
+    const body = document.createElement('div');
+
+    const source = document.createElement('h3');
+    source.className = 'text-[18px] font-medium text-white mb-3';
+    source.textContent = c.source;
+
+    const detail = document.createElement('p');
+    detail.className = 'text-[16px] text-white/60 leading-relaxed italic mb-4';
+    detail.textContent = `"${c.detail}"`;
+
+    body.appendChild(source);
+    body.appendChild(detail);
+    body.appendChild(
+      biomedical ? biomedicalContext(c.context) : sacredContext(c.context),
+    );
+
+    card.appendChild(idCol);
+    card.appendChild(body);
+    return card;
+  }
+
+  function sectionHeading(text: string): HTMLElement {
+    const wrap = document.createElement('div');
+    wrap.className = 'flex items-center gap-4 mb-12';
+    const rule = document.createElement('span');
+    rule.className = 'w-12 h-px bg-ocean-500/30';
+    const h2 = document.createElement('h2');
+    h2.className =
+      'font-heading text-[24px] font-light text-ocean-300 uppercase tracking-[0.2em]';
+    h2.textContent = text;
+    wrap.appendChild(rule);
+    wrap.appendChild(h2);
+    return wrap;
+  }
+
+  function renderSources(sources: Citation[]): void {
+    if (!fetchTarget) return;
+    fetchTarget.replaceChildren();
+
+    const sacred = sources.filter((c) => c.id.startsWith('S-'));
+    const biomedical = sources.filter((c) => c.id.startsWith('B-'));
+
+    const container = document.createElement('div');
+    container.className = 'space-y-24';
+
+    for (const [title, group, isBio] of [
+      ['I. Sacred & Philosophical Foundations', sacred, false],
+      ['II. Peer-Reviewed Biomedical Research', biomedical, true],
+    ] as const) {
+      const section = document.createElement('section');
+      section.appendChild(sectionHeading(title));
+      const grid = document.createElement('div');
+      grid.className = 'grid gap-12';
+      for (const c of group) grid.appendChild(citationCard(c, isBio));
+      section.appendChild(grid);
+      container.appendChild(section);
+    }
+
+    fetchTarget.appendChild(container);
+  }
+
+  async function loadGatedPayload(): Promise<void> {
+    if (!fetchEndpoint || !fetchTarget || fetchedOnce) return;
+    try {
+      const res = await fetch(fetchEndpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({}),
+      });
+      const data = (await res.json()) as { sources?: Citation[] };
+      if (Array.isArray(data.sources)) {
+        renderSources(data.sources);
+        fetchedOnce = true;
+      }
+    } catch {
+      // Surface a non-fatal note instead of a silent empty panel.
+      fetchTarget.textContent =
+        'The full bibliography could not be loaded right now. Please refresh to try again.';
+    }
+  }
+
+  async function unlock(): Promise<void> {
+    if (fetchEndpoint) await loadGatedPayload();
+    reveal();
+  }
+
+  if (localStorage.getItem(UNLOCK_KEY) === 'true') {
+    void unlock();
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const emailInput = form.querySelector(
+      'input[type="email"]',
+    ) as HTMLInputElement;
+    const button = form.querySelector(
+      'button[type="submit"]',
+    ) as HTMLButtonElement;
+    const email = emailInput.value;
+
+    if (email) {
+      const originalText = button.innerText;
+      button.innerText = 'Unlocking...';
+      button.disabled = true;
+
+      try {
+        await fetch('/capture', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, source: 'email_gate' }),
+        });
+        localStorage.setItem(UNLOCK_KEY, 'true');
+        trackEvent({
+          action: 'email_gate_submit',
+          page: window.location.pathname,
+        });
+        await unlock();
+      } catch {
+        button.innerText = originalText;
+        button.disabled = false;
+        // Still unlock on network failure — don't block the UX
+        localStorage.setItem(UNLOCK_KEY, 'true');
+        trackEvent({
+          action: 'email_gate_submit',
+          page: window.location.pathname,
+        });
+        await unlock();
+      }
+    }
+  });
+</script>

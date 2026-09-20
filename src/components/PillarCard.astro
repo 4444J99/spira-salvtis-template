@@ -1,0 +1,45 @@
+---
+import type { Pillar } from '../data/hub.config';
+
+interface Props {
+  pillar: Pillar;
+}
+
+const { pillar } = Astro.props;
+const isLive = pillar.status === 'live';
+
+// A non-live pillar is not navigable: render a non-interactive <div> rather
+// than an <a> with no href (which is neither keyboard-focusable nor removed
+// from the a11y tree). Live cards stay anchors. aria-disabled communicates
+// the dormant state on the non-interactive element.
+const Tag = isLive ? 'a' : 'div';
+const wrapperProps = isLive
+  ? { href: pillar.url }
+  : { 'aria-disabled': 'true' as const };
+---
+
+<Tag
+  {...wrapperProps}
+  class:list={[
+    'glass-card block p-8',
+    !isLive &&
+      'opacity-40 cursor-default hover:transform-none hover:shadow-none hover:bg-white/[0.02] hover:border-white/[0.05]',
+  ]}
+>
+  <div class="text-[32px] mb-4">{pillar.emoji}</div>
+  <h3 class="font-heading text-[22px] font-normal text-white mb-2">
+    {pillar.name}
+  </h3>
+  <p class="text-[14px] font-light text-white/40 leading-relaxed">
+    {pillar.tagline}
+  </p>
+  <div class="mt-5 text-[12px] font-medium tracking-wide">
+    {
+      isLive ? (
+        <span class="text-ocean-500">Explore &rarr;</span>
+      ) : (
+        <span class="text-white/20">Coming soon</span>
+      )
+    }
+  </div>
+</Tag>

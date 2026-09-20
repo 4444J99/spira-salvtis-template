@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystical Energy Canvas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            height: 100vh;
+        }
+        
+        .canvas {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(ellipse at center, #ffffff 0%, #f0f0f0 100%);
+        }
+        
+        .sacred-cube {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, rgba(255,255,255,0.9), rgba(200,200,200,0.8));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        .blue-aura {
+            box-shadow: 0 0 40px #4169E1, 0 0 80px #4169E1, 0 0 120px rgba(65,105,225,0.3);
+            animation: blueGlow 3s ease-in-out infinite alternate;
+        }
+        
+        .purple-aura {
+            box-shadow: 0 0 40px #8A2BE2, 0 0 80px #8A2BE2, 0 0 120px rgba(138,43,226,0.3);
+            animation: purpleGlow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes blueGlow {
+            0% { box-shadow: 0 0 40px #4169E1, 0 0 80px #4169E1, 0 0 120px rgba(65,105,225,0.3); }
+            100% { box-shadow: 0 0 60px #4169E1, 0 0 120px #4169E1, 0 0 180px rgba(65,105,225,0.5); }
+        }
+        
+        @keyframes purpleGlow {
+            0% { box-shadow: 0 0 40px #8A2BE2, 0 0 80px #8A2BE2, 0 0 120px rgba(138,43,226,0.3); }
+            100% { box-shadow: 0 0 60px #8A2BE2, 0 0 120px #8A2BE2, 0 0 180px rgba(138,43,226,0.5); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotateY(0deg); }
+            50% { transform: translateY(-10px) rotateY(5deg); }
+        }
+        
+        .spiral-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 300px;
+        }
+        
+        .spiral {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.7;
+        }
+        
+        .orb {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #fff 0%, #FFD700 50%, #FF6B6B 100%);
+            box-shadow: 0 0 20px rgba(255,215,0,0.8);
+            animation: orbit 8s linear infinite;
+        }
+        
+        .energy-lane {
+            position: absolute;
+            width: 2px;
+            height: 60px;
+            background: linear-gradient(180deg, 
+                #FF0080 0%, #FF4000 16.66%, #FF8000 33.33%, 
+                #FFD700 50%, #80FF00 66.66%, #00FF80 83.33%, #0080FF 100%);
+            opacity: 0.8;
+            animation: energyFlow 2s ease-in-out infinite;
+            transform-origin: top center;
+        }
+        
+        @keyframes orbit {
+            0% { transform: rotate(0deg) translateX(180px) rotate(0deg); }
+            100% { transform: rotate(360deg) translateX(180px) rotate(-360deg); }
+        }
+        
+        @keyframes energyFlow {
+            0%, 100% { transform: scaleY(1) scaleX(1); opacity: 0.8; }
+            50% { transform: scaleY(1.5) scaleX(1.2); opacity: 1; }
+        }
+        
+        .gradient-conduit {
+            position: absolute;
+            width: 4px;
+            background: linear-gradient(45deg, #4169E1, #8A2BE2, #FF1493, #00CED1);
+            animation: conduitPulse 2s ease-in-out infinite alternate;
+            opacity: 0.6;
+        }
+        
+        @keyframes conduitPulse {
+            0% { opacity: 0.6; transform: scaleX(1); }
+            100% { opacity: 1; transform: scaleX(1.5); }
+        }
+        
+        .spiritual-text {
+            position: absolute;
+            color: rgba(100, 100, 100, 0.7);
+            font-size: 14px;
+            font-style: italic;
+            animation: textGlow 4s ease-in-out infinite;
+        }
+        
+        @keyframes textGlow {
+            0%, 100% { opacity: 0.7; text-shadow: 0 0 10px rgba(100,100,100,0.3); }
+            50% { opacity: 1; text-shadow: 0 0 20px rgba(100,100,100,0.6); }
+        }
+        
+        /* Position top cubes */
+        .cube-1 { top: 50px; left: 20%; }
+        .cube-2 { top: 50px; left: 50%; }
+        .cube-3 { top: 50px; left: 80%; }
+        
+        /* Position bottom cubes */
+        .cube-4 { bottom: 50px; left: 20%; }
+        .cube-5 { bottom: 50px; left: 50%; }
+        .cube-6 { bottom: 50px; left: 80%; }
+        
+        /* Orb positions */
+        .orb-1 { animation-delay: 0s; }
+        .orb-2 { animation-delay: -0.67s; }
+        .orb-3 { animation-delay: -1.33s; }
+        .orb-4 { animation-delay: -2s; }
+        .orb-5 { animation-delay: -2.67s; }
+        .orb-6 { animation-delay: -3.33s; }
+        .orb-7 { animation-delay: -4s; }
+        .orb-8 { animation-delay: -4.67s; }
+        .orb-9 { animation-delay: -5.33s; }
+        .orb-10 { animation-delay: -6s; }
+        .orb-11 { animation-delay: -6.67s; }
+        .orb-12 { animation-delay: -7.33s; }
+    </style>
+</head>
+<body>
+    <div class="canvas">
+        <!-- Top Sacred Cubes with Blue Aura -->
+        <div class="sacred-cube blue-aura cube-1">✠</div>
+        <div class="sacred-cube blue-aura cube-2">☾</div>
+        <div class="sacred-cube blue-aura cube-3">☸</div>
+        
+        <!-- Bottom Sacred Cubes with Purple Aura -->
+        <div class="sacred-cube purple-aura cube-4">ॐ</div>
+        <div class="sacred-cube purple-aura cube-5">✠</div>
+        <div class="sacred-cube purple-aura cube-6">☾</div>
+        
+        <!-- Central Spiral with Orbiting Spheres -->
+        <div class="spiral-container">
+            <!-- Spiral Path (visual representation) -->
+            <svg class="spiral" viewBox="0 0 400 300">
+                <path d="M200,150 Q250,100 300,150 Q250,200 200,150 Q150,100 100,150 Q150,200 200,150 Q175,125 225,125 Q225,175 175,175 Q175,137.5 187.5,137.5"
+                      stroke="rgba(255,255,255,0.8)" stroke-width="3" fill="none" opacity="0.6"/>
+            </svg>
+            
+            <!-- 12 Orbiting Spheres -->
+            <div class="orb orb-1"></div>
+            <div class="orb orb-2"></div>
+            <div class="orb orb-3"></div>
+            <div class="orb orb-4"></div>
+            <div class="orb orb-5"></div>
+            <div class="orb orb-6"></div>
+            <div class="orb orb-7"></div>
+            <div class="orb orb-8"></div>
+            <div class="orb orb-9"></div>
+            <div class="orb orb-10"></div>
+            <div class="orb orb-11"></div>
+            <div class="orb orb-12"></div>
+        </div>
+        
+        <!-- Gradient Conduits -->
+        <div class="gradient-conduit" style="top: 20%; left: 30%; height: 60%; transform: rotate(15deg);"></div>
+        <div class="gradient-conduit" style="top: 20%; right: 30%; height: 60%; transform: rotate(-15deg);"></div>
+        <div class="gradient-conduit" style="top: 40%; left: 10%; width: 80%; height: 4px; transform: rotate(0deg);"></div>
+        
+        <!-- Spiritual Text Elements -->
+        <div class="spiritual-text" style="top: 20%; left: 10%;">"As above, so below"</div>
+        <div class="spiritual-text" style="bottom: 20%; right: 10%;">"Sacred geometry awakens"</div>
+        <div class="spiritual-text" style="top: 50%; left: 5%; transform: rotate(-90deg);">"Energy flows where attention goes"</div>
+        <div class="spiritual-text" style="top: 50%; right: 5%; transform: rotate(90deg);">"Unity in diversity"</div>
+    </div>
+    
+    <script>
+        // Add dynamic energy lanes to each orb
+        document.addEventListener('DOMContentLoaded', function() {
+            const orbs = document.querySelectorAll('.orb');
+            
+            orbs.forEach((orb, index) => {
+                // Create 12 energy lanes per orb
+                for(let i = 0; i < 12; i++) {
+                    const lane = document.createElement('div');
+                    lane.className = 'energy-lane';
+                    lane.style.transform = `rotate(${i * 30}deg)`;
+                    lane.style.animationDelay = `${(i * 0.1) + (index * 0.5)}s`;
+                    orb.appendChild(lane);
+                }
+            });
+            
+            // Add rainbow ripple effects
+            setInterval(() => {
+                const canvas = document.querySelector('.canvas');
+                const ripple = document.createElement('div');
+                ripple.style.position = 'absolute';
+                ripple.style.left = Math.random() * 100 + '%';
+                ripple.style.top = Math.random() * 100 + '%';
+                ripple.style.width = '4px';
+                ripple.style.height = '4px';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = `hsl(${Math.random() * 360}, 80%, 60%)`;
+                ripple.style.animation = 'rippleExpand 3s ease-out forwards';
+                ripple.style.opacity = '0.6';
+                canvas.appendChild(ripple);
+                
+                setTimeout(() => ripple.remove(), 3000);
+            }, 500);
+        });
+    </script>
+    
+    <style>
+        @keyframes rippleExpand {
+            0% { transform: scale(0); opacity: 0.8; }
+            50% { opacity: 0.4; }
+            100% { transform: scale(20); opacity: 0; }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,150 @@
+organ: III
+name: sovereign-systems--spiral-template
+tier: standard
+type: client-project
+client: admin
+status: ACTIVE
+promotion: LOCAL
+stack:
+  - astro
+  - tailwind
+  - typescript
+produces:
+  - event: client.site.deployed
+  - target: ORGAN-V
+    type: process-documentation
+    signal: case-study
+    description: "Client engagement narrative — building-in-public essay on solo-practitioner consulting model"
+  - target: ORGAN-VII
+    type: distribution-signal
+    signal: client-launch-announcement
+    description: "Launch/update announcements for POSSE distribution pipeline"
+  - target: ORGAN-VI
+    type: community-growth
+    signal: client-success-material
+    description: "Client engagement feeds community discussion and workshop material"
+  - target: ORGAN-I
+    type: research-feedback
+    signal: practice-validates-theory
+    description: "Applied consulting work generates theoretical insights on solo-practitioner model"
+  - target: ORGAN-IV
+    type: process-pattern
+    signal: xenograft-protocol
+    description: "Content extraction + atomization + verification pipeline generalizable to any organ receiving alien material"
+consumes:
+  - source: ORGAN-III/commerce--meta
+    type: governance
+    description: "Contract templates, SOPs, and client lifecycle standards"
+deploy:
+  platform: cloudflare-pages
+  project: sovereign-systems-spiral
+  url: https://sovereign-systems-spiral.pages.dev
+telos: >-
+  The first proof that one person with constitutional governance can deliver
+  enterprise-quality client work. Not a freelance website gig — a demonstration
+  that the eight-organ model produces real commercial value for real clients.
+  If sovereign-systems succeeds, it validates D-001 (the pipeline dissertation),
+  proves the consulting-to-research feedback loop (III→I), and generates the
+  case study material (III→V) that funds the next phase via grant applications.
+  The idealized form: a client engagement that simultaneously serves the client,
+  produces publishable research, feeds community engagement, and generates
+  distribution-worthy narrative — all through the same work, not as separate tasks.
+
+pragma: >-
+  Hub-and-spoke Astro 5 site deployed to Cloudflare Pages. 29 pages across 3
+  domains (hub-example.com, water-example.com, business-example.com). 13-node
+  golden-angle spiral visualization renders in Three.js with IconWorlds
+  physics (cohesion vs chaos regimes) operational. 6-step HydrationNode funnel
+  with EWG API integration operational. Email capture and quiz routing live.
+  Client IP boundary enforced (content = client's, code = studio's). Pricing
+  agreed in principle at 10% of water sales until $10K; written formalization
+  still pending in GH#5. 65-want atomization complete; 22 of 48 in-scope wants
+  addressed. Architectural misalignment corrected: site is now spiral-first,
+  water scoped to mini version. Content genome processed: 1,022 merge groups,
+  241 content units, 104 flagged atoms dispositioned. 32 issues closed,
+  15 remain. No case study written. Deployed via local wrangler due to GH#52.
+
+praxis: >-
+  (1) Formalize the written revenue agreement tracked in GH#5. (2) Media
+  access (#14) and get GHL quiz URL from admin. (3) ~~V5/V6 merge completed
+  (#15 CLOSED)~~ — spiral rewritten with 13-node golden-angle layout and
+  IconWorlds physics wiring. (4) ~~Physical Sovereignty phase built (#6 CLOSED)~~
+  — 5 nodes live with content. (5) Resolve subscription boundaries (#7) and
+  video hosting strategy (#18). (6) Connect hub-example.com custom domain
+  (GH#3 BLOCKED on DNS). (7) Rotate CLAUDE_API_TOKEN to unblock CI (GH#52).
+  (8) Produce case study (→V), distribution signal (→VII), community material
+  (→VI), and research feedback (→I). Primary risk: 9 wants BLOCKED on admin
+  inputs.
+
+receptio: >-
+  Partially received. admin has not only seen the site but supplied a 127-file
+  Spiral Path handoff that materially changed scope and confirmed ongoing
+  engagement. Pricing is agreed in principle but not yet formalized in writing.
+  The work has been received internally via the operating board, not publicly
+  via launch or audience adoption. No analytics, launch signal, or outside
+  critique yet exist. Validation would come from written client agreement, live
+  funnel usage, conversion evidence, and post-launch response from audiences
+  beyond creator and client.
+
+polis:
+  - role: business_critic
+    examines: "Commercial viability of the solo-practitioner consulting model"
+    findings: >-
+      Pricing is no longer hypothetical; there is an agreed structure,
+      but it is still operationally weak until written terms exist and
+      payment actually flows. The board now reflects the real work
+      surface: 19 issues, with architecture lock and prototype merge as
+      the actual gating work. The client IP/studio IP boundary remains
+      the strongest scaling decision in the formation.
+  - role: systems_theorist
+    examines: "Whether the eight-organ signal closure model actually produces the entailed outputs"
+    findings: >-
+      The seed.yaml declares 4 produces edges (V, VII, VI, I) and
+      1 consumes edge (III/commerce--meta). None of the produces
+      edges have been fulfilled. The theory says consulting work
+      necessarily produces research, documentation, community material,
+      and distribution. This formation is the test case. If it can't
+      produce all four, the entailment matrix is aspirational, not
+      deductive.
+  - role: rhetorician
+    examines: "The narrative coherence of the client-facing brand architecture"
+    findings: >-
+      Hub-and-spoke across 3 domains is still sound, but the April 1
+      handoff shifts the narrative center from a finished 4-pillar site
+      to the Spiral Path as the organizing experience. Tone, node
+      schema, and deep-dive structure are clearer now, but the 13-node
+      document architecture and 14-node HTML prototypes still diverge.
+      Until that architecture is locked, the spiral cannot carry the
+      brand coherently.
+  - role: practitioner
+    examines: "Whether the site functions as a tool for the client's actual business"
+    findings: >-
+      The deployed site proves the infrastructure baseline, but the
+      launch-critical experience is not done. Start Here routing,
+      prototype merge, node deep-dives, editorial review, and media
+      access all sit between the current site and a working business
+      instrument. Analytics and conversion tracking are still absent, so
+      even a live experience would remain under-measured.
+  - role: ethicist
+    examines: "The labor model — is one person serving a client while running a 127-repo system ethical and sustainable?"
+    findings: >-
+      The model is viable but unproven at duration. Four solo sessions across
+      two weeks delivered a 16-page site, 19-issue board, CI/CD pipeline, and
+      navigation overhaul — all AI-assisted with human architectural direction.
+      The ethical question is not "can one person do this" but "does the system
+      degrade the person or the client?" Current evidence: no corners cut on
+      client deliverables, no burnout indicators, no quality regression across
+      sessions. But sustainability proof requires observing a full engagement
+      cycle through launch and post-launch maintenance. The 145-repo system
+      context is load-bearing only at the governance layer (seed.yaml, CLAUDE.md,
+      dispatch protocol) — it does not impose execution burden on per-project
+      work. Risk: scope creep from system obligations (IRF, signal closure,
+      documentation symmetry) could crowd out client-facing work. The
+      feedback_client-facing-first rule exists precisely to prevent this.
+
+metadata:
+  description: "Sovereign Systems Spiral — hub-and-spoke website for admin's 4-pillar brand"
+  domains:
+    - hub-example.com
+    - water-example.com
+    - business-example.com

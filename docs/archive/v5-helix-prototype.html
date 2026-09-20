@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Helix Plot (V5 - Rich Content Modal) [FIXED]</title>
+    <!--
+      SOURCE: Client-provided prototype, received 2026-04-17
+      PURPOSE: Reference implementation for 14-node spiral path with rich modals
+      STACK: Three.js r128 + OrbitControls (CDN)
+      STATUS: Reference only — NOT deployed. Current site uses vanilla Canvas 2D spiral.
+      NOTES:
+        - 14 spiral nodes mapped to fullSpiralData array
+        - Nodes 1-2 have deep-dive content (Feel Good First, Nervous System Regulation)
+        - Nodes 3-14 show "coming soon" placeholder
+        - Chakra-colored markers along tapered helix
+        - EB Garamond + Inter typography
+        - Modal system with sections: Intention, Core Steps, Practice Table, Regulation Tools, Reflection Prompts
+    -->
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFDFB;
+            color: #333;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: grab;
+        }
+        canvas:grabbing {
+            cursor: grabbing;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            text-align: center;
+            z-index: 100;
+            display:block;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            max-width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #tooltip {
+            position: absolute;
+            display: none;
+            padding: 8px 12px;
+            background-color: rgba(0, 0, 0, 0.75);
+            color: white;
+            border-radius: 6px;
+            font-size: 14px;
+            pointer-events: none;
+            z-index: 1001;
+        }
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            overflow-y: auto;
+        }
+        .modal-content {
+            background: #FDFDFB;
+            padding: 20px 40px 40px 40px;
+            border-radius: 12px;
+            max-width: 700px;
+            width: 90%;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            position: relative;
+            transform: scale(0.9);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            margin: 40px 0;
+        }
+        .modal-overlay.visible {
+            display: flex;
+        }
+        .modal-overlay.visible .modal-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            color: #aaa;
+        }
+        .modal-close:hover {
+            color: #333;
+        }
+        .modal-body {
+            margin-top: 2rem;
+            font-family: 'Inter', sans-serif;
+            color: #4a4a4a;
+        }
+        .font-serif-display { font-family: 'EB Garamond', serif; }
+        .modal-body .sub-header {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            color: #10b981;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .modal-body .section {
+            margin-bottom: 2.5rem;
+        }
+        .modal-body .section-title {
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            color: #9ca3af;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+        .modal-body .intention-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 1px solid #e5e7eb;
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'EB Garamond', serif;
+            font-size: 1.25rem;
+            line-height: 1.6;
+        }
+        .modal-body .step-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .modal-body .step-number {
+            font-family: 'EB Garamond', serif;
+            font-size: 1.5rem;
+            color: #d1d5db;
+        }
+        .modal-body .step-content h4 {
+            font-weight: 700;
+            margin: 0 0 0.25rem 0;
+            color: #1f2937;
+        }
+        .modal-body .step-content p {
+            margin: 0;
+            line-height: 1.6;
+        }
+        .modal-body table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        .modal-body th, .modal-body td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+        .modal-body th {
+            text-transform: uppercase;
+            font-size: 0.7rem;
+            letter-spacing: 0.05em;
+            color: #6b7280;
+        }
+        .modal-body .prompt-box {
+            background-color: #f9fafb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .modal-body .prompt-box p {
+            font-family: 'EB Garamond', serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <div id="info">
+        <strong>The Spiral Path</strong><br>
+        Hover to see title, click for details. Drag to rotate.
+    </div>
+    <div id="tooltip"></div>
+    <div id="topicModal" class="modal-overlay">
+        <div class="modal-content">
+            <span id="modalClose" class="modal-close">&times;</span>
+            <div class="modal-header" style="text-align: center;">
+                 <h2 id="modalTitle" class="font-serif-display" style="font-size: 2.5rem; margin-bottom: 0.5rem;"></h2>
+            </div>
+            <div id="modalBody" class="modal-body"></div>
+        </div>
+    </div>
+    <script>
+        let scene, camera, renderer, controls;
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        const clickableMarkers = [];
+        let hoveredMarker = null;
+
+        const fullSpiralData = [
+            {
+                id: 1, title: 'Feel Good First', description: 'Shift your state first. Mood is the magnet. Beauty, music, joy, breath, dance.',
+                deepDive: {
+                    subHeader: "\u201CLet there be light.\u201D \u2014 Genesis 1:3",
+                    intention: "This isn\u2019t about fixing yourself. It\u2019s about remembering the light you came with\u2014and letting it rise again. You already have the wisdom. This spiral just helps you uncover it.",
+                    steps: [
+                        { title: "Let There Be Light", text: "This line isn\u2019t just in the Bible\u2014it\u2019s in your body. From Genesis to the Gospel of Thomas, the message is the same: the spark is already inside. Feeling good is a sacred act of return." },
+                        { title: "Why Feeling Good First Works", text: "Science + Soul agree: how you feel affects what you see. Your heart\u2019s electromagnetic field is 5,000x stronger than your brain\u2019s. Gratitude creates coherence, your brain notices solutions, and the observer effect shows that you don\u2019t just see reality\u2014you influence it. As Proverbs 23:7 says, \u201CAs a man thinketh in his heart, so is he.\u201D" },
+                        { title: "Start With 1% More Light", text: "You don\u2019t have to go from numb to ecstatic. Start with 1% better. Choose one thing that brings even the smallest spark of ease, joy, peace, beauty, or play." }
+                    ],
+                    practiceTable: [
+                        { science: "Shake for 2 min (nervous system reset)", sacred: "\u201CDance before the Lord\u201D \u2014 2 Samuel 6:14", soul: "Put on one song & let your body move" },
+                        { science: "Sunlight \u2192 serotonin & circadian reset", sacred: "\u201CWalk in the light, as He is in the light\u201D \u2014 1 John 1:7", soul: "Barefoot walk or sun gaze for 5 minutes" },
+                        { science: "Gratitude = dopamine boost", sacred: "\u201CEnter His gates with thanksgiving\u201D \u2014 Psalm 100", soul: "Say \u201Cthank you\u201D to 3 things around you" },
+                        { science: "Self-touch calms the vagus nerve", sacred: "\u201CYou are the temple of the Holy Spirit\u201D \u2014 1 Cor. 6:19", soul: "Place hand on heart. Say, \u201CI\u2019m safe now.\u201D" },
+                    ],
+                    reflectionPrompt: "\u201CWhat\u2019s something I could do right now that would feel 1% better?\u201D ...And then: \u201CThat\u2019s enough for now.\u201D",
+                    closingLine: "You don\u2019t have to be perfect to be powerful. Start with one thing that makes you feel alive. That feeling\u2026 is your opening."
+                }
+            },
+            {
+                id: 2, title: 'Nervous System Regulation', description: 'You can\u2019t receive in fight/flight. Calm body = open field. Somatic tools, breathwork, vagus support, nature.',
+                deepDive: {
+                    subHeader: "A return to safety, power, and inner knowing.",
+                    intention: "This layer is not about being calm\u2014it\u2019s about coming home. Your nervous system is the sacred interface between your body and soul. When it\u2019s stuck in survival, you can\u2019t hear the divine, feel aligned, or receive truth. This is the portal. This is the reset.",
+                    regulationTools: [
+                         { tool: "Breathwork", purpose: "Tones vagus nerve, calms anxiety", sacred: "\u201CGod breathed into him the breath of life\u201D \u2013 Gen 2:7" },
+                         { tool: "Cold water / rinse", purpose: "Resets dopamine, lowers inflammation", sacred: "Baptism / purification" },
+                         { tool: "Somatic shaking", purpose: "Releases trauma stored in fascia", sacred: "\u201CShake the dust from your feet.\u201D \u2013 Matt 10:14" },
+                         { tool: "Humming / chanting", purpose: "Activates vagus, regulates energy", sacred: "Psalms were sung\u2014not spoken" },
+                         { tool: "Grounding / barefoot", purpose: "Lowers cortisol, reconnects Earth frequency", sacred: "\u201C...you are on holy ground.\u201D \u2013 Exodus 3:5" },
+                         { tool: "Self-holding / touch", purpose: "Builds internal safety", sacred: "\u201CYour body is a temple.\u201D \u2013 1 Cor. 6:19" },
+                    ],
+                    reflectionPrompts: [
+                         "What is my body asking me to feel instead of fix?",
+                         "What sensation in my body is asking for attention?",
+                         "What did I not have space to feel before\u2026 that I can feel now?",
+                    ],
+                    finalThought: "You don\u2019t regulate to feel \u201Cbetter\u201D\u2014you regulate to feel more like you. When your nervous system feels safe, your soul remembers what it\u2019s here to do."
+                }
+            },
+            { id: 3, title: 'Check-In: Where Am I?', description: 'The 13 Questions (honest, not harsh). Map your baseline\u2014body, emotions, energy, habits, desires.' },
+            { id: 4, title: 'Radical Responsibility & Desire Clarity', description: 'You own your choices now\u2014with love. Align your energy to what you actually want.' },
+            { id: 5, title: 'Yin & Yang Balance', description: 'Honor your rhythm. Masculine holds, feminine flows. You are not meant to be linear.' },
+            { id: 6, title: 'Maslow\u2019s Energetic & Physical Needs', description: 'Clean food. Safe space. Rest. Nervous system safety isn\u2019t just mental\u2014it\u2019s environmental.' },
+            { id: 7, title: 'Mind-Gut Connection & Body Intelligence', description: 'Gut = second brain. Clear the gut \u2192 calm the mind \u2192 open the channel.' },
+            { id: 8, title: 'Compound Echo', description: 'Practice over perfection. 1% a day. Show up. Stack wins. Momentum = magnetism.' },
+            { id: 9, title: 'Root-Level Healing', description: 'Heal from the root\u2014no more band-aids. Anti-inflammatory, mineral-rich, cellular restoration.' },
+            { id: 10, title: 'Self-Worth & Identity Shift', description: 'You are not broken. You are becoming. Release shame. Rewrite roles.' },
+            { id: 11, title: 'Aligned Action + Purpose', description: 'Keep moving from aligned why, not external pressure. Know your \u201Cnorth\u201D and build around it.' },
+            { id: 12, title: 'Quantum Creation', description: 'Attention is the portal. Act as if. Anchor the version of you that already exists.' },
+            { id: 13, title: 'Embodiment & Expression', description: 'Walk it. Dress it. Move like it\u2019s yours. Coherence = manifestation.' },
+            { id: 14, title: 'Metamorphosis / Void / Rebirth', description: 'The cocoon is sacred. Let the death happen. You will emerge clearer.' },
+        ];
+
+        const chakraColors = ['#D92E2E', '#E84A3C', '#F38A34', '#FABE4D', '#FEF252', '#E5D94D', '#4CAF50', '#8BC34A', '#2196F3', '#64B5F6', '#3F51B5', '#7E57C2', '#E1BEE7', '#F8BBD0'];
+
+        function createAsteriskTexture(color) {
+            const canvas = document.createElement('canvas');
+            canvas.width = 64; canvas.height = 64;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = color;
+            ctx.font = 'bold 80px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('*', 32, 38);
+            return new THREE.CanvasTexture(canvas);
+        }
+
+        function init() {
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0xFDFDFB);
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            camera.position.set(0, 0, 18);
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.enableDamping = true;
+            controls.dampingFactor = 0.05;
+            createTaperedHelix();
+            window.addEventListener('resize', onWindowResize, false);
+            renderer.domElement.addEventListener('mousemove', onDocumentMouseMove, false);
+            renderer.domElement.addEventListener('mousedown', onDocumentMouseDown, false);
+            const modal = document.getElementById('topicModal');
+            const modalClose = document.getElementById('modalClose');
+            modalClose.addEventListener('click', hideTopicModal);
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) hideTopicModal();
+            });
+        }
+
+        function createTaperedHelix() {
+            const pathPoints = [];
+            const turns = 4.5;
+            const totalPoints = 512;
+            const height = 20;
+            for (let i = 0; i <= totalPoints; i++) {
+                const p = i / totalPoints, t = p * Math.PI*2*turns, r = 2.5 + (Math.sin(p*Math.PI)*3.5);
+                pathPoints.push(new THREE.Vector3(r*Math.cos(t), p*height-(height/2), r*Math.sin(t)));
+            }
+            const geometry = new THREE.BufferGeometry().setFromPoints(pathPoints);
+            const material = new THREE.LineBasicMaterial({ color: 0x000000, linewidth: 2 });
+            scene.add(new THREE.Line(geometry, material));
+
+            fullSpiralData.forEach((data, i) => {
+                const t_marker = (i / (fullSpiralData.length - 1));
+                const pointPosition = pathPoints[Math.floor(t_marker * totalPoints)];
+                const color = chakraColors[i % chakraColors.length];
+                const spriteMaterial = new THREE.SpriteMaterial({ map: createAsteriskTexture(color) });
+                const marker = new THREE.Sprite(spriteMaterial);
+                marker.position.copy(pointPosition);
+                marker.scale.set(0.8, 0.8, 0.8);
+                marker.userData = data;
+                scene.add(marker);
+                clickableMarkers.push(marker);
+            });
+        }
+
+        function onDocumentMouseDown(event) {
+            if (document.getElementById('topicModal').classList.contains('visible')) return;
+            event.preventDefault();
+            mouse.x = (event.clientX / renderer.domElement.clientWidth) * 2 - 1;
+            mouse.y = - (event.clientY / renderer.domElement.clientHeight) * 2 + 1;
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(clickableMarkers);
+            if (intersects.length > 0) {
+                controls.enabled = false;
+                showTopicModal(intersects[0].object.userData);
+            }
+        }
+
+        function onDocumentMouseMove(event) {
+            event.preventDefault();
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(clickableMarkers);
+            const tooltip = document.getElementById('tooltip');
+            if (intersects.length > 0) {
+                if (hoveredMarker !== intersects[0].object) {
+                    hoveredMarker = intersects[0].object;
+                    tooltip.style.display = 'block';
+                    tooltip.textContent = hoveredMarker.userData.title;
+                }
+                tooltip.style.left = (event.clientX + 15) + 'px';
+                tooltip.style.top = (event.clientY + 15) + 'px';
+                document.body.style.cursor = 'pointer';
+            } else {
+                if (hoveredMarker) {
+                    tooltip.style.display = 'none';
+                    document.body.style.cursor = 'grab';
+                }
+                hoveredMarker = null;
+            }
+        }
+
+        function showTopicModal(data) {
+            const titleEl = document.getElementById('modalTitle');
+            const bodyEl = document.getElementById('modalBody');
+            titleEl.textContent = data.title;
+            bodyEl.innerHTML = '';
+            if (data.deepDive) {
+                const content = data.deepDive;
+                let html = '';
+                if (content.subHeader) html += '<p class="sub-header">' + content.subHeader + '</p>';
+                if (content.intention) {
+                    html += '<div class="section"><div class="section-title">Intention</div><div class="intention-box">' + content.intention + '</div></div>';
+                }
+                if (content.steps && content.steps.length > 0) {
+                    html += '<div class="section"><div class="section-title">Core Steps</div>';
+                    content.steps.forEach(function(step, index) {
+                        html += '<div class="step-item"><div class="step-number">0' + (index + 1) + '</div><div class="step-content"><h4>' + step.title + '</h4><p>' + step.text + '</p></div></div>';
+                    });
+                    html += '</div>';
+                }
+                if (content.practiceTable && content.practiceTable.length > 0) {
+                    html += '<div class="section"><div class="section-title">Practice</div><table><thead><tr><th>Science</th><th>Sacred</th><th>Soul Practice</th></tr></thead><tbody>';
+                    content.practiceTable.forEach(function(row) {
+                        html += '<tr><td>' + row.science + '</td><td class="font-serif-display" style="font-style: italic;">' + row.sacred + '</td><td style="font-weight: bold; color: #10b981;">' + row.soul + '</td></tr>';
+                    });
+                    html += '</tbody></table></div>';
+                }
+                if (content.regulationTools && content.regulationTools.length > 0) {
+                    html += '<div class="section"><div class="section-title">Regulation Tools</div><table><thead><tr><th>Tool</th><th>Purpose</th><th>Sacred Mirror</th></tr></thead><tbody>';
+                    content.regulationTools.forEach(function(row) {
+                        html += '<tr><td style="font-weight: bold; color: #10b981;">' + row.tool + '</td><td>' + row.purpose + '</td><td class="font-serif-display" style="font-style: italic;">' + row.sacred + '</td></tr>';
+                    });
+                    html += '</tbody></table></div>';
+                }
+                if (content.reflectionPrompt) {
+                    html += '<div class="section"><div class="section-title">Reflection Prompt</div><div class="prompt-box"><p>"' + content.reflectionPrompt + '"</p></div></div>';
+                }
+                if (content.reflectionPrompts && content.reflectionPrompts.length > 0) {
+                    html += '<div class="section"><div class="section-title">Reflection Prompts</div><div class="prompt-box">';
+                    content.reflectionPrompts.forEach(function(prompt) {
+                        html += '<p>"' + prompt + '"</p>';
+                    });
+                    html += '</div></div>';
+                }
+                if (content.closingLine || content.finalThought) {
+                    html += '<p class="font-serif-display" style="text-align: center; font-size: 1.25rem; margin-top: 2rem;">' + (content.closingLine || content.finalThought) + '</p>';
+                }
+                bodyEl.innerHTML = html;
+            } else {
+                bodyEl.innerHTML = '<p style="text-align: center; padding: 2rem 0; font-style: italic;">Deeper content for this module is coming soon.</p>';
+            }
+            document.getElementById('topicModal').classList.add('visible');
+        }
+
+        function hideTopicModal() {
+            document.getElementById('topicModal').classList.remove('visible');
+            controls.enabled = true;
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+            if(controls.enabled) controls.update();
+            renderer.render(scene, camera);
+        }
+
+        window.onload = function() {
+            init();
+            animate();
+        };
+    </script>
+</body>
+</html>

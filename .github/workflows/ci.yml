@@ -1,0 +1,128 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  # GitHub's runner warning says Node 20-backed JS actions will be forced to
+  # Node 24 soon. Opt in now instead of carrying noisy CI drift.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  NODE_VERSION: 22
+  WORKER_DIST_ARTIFACT: worker-dist
+  WORKER_DIST_PATH: dist
+  WRANGLER_CONFIG: dist/server/wrangler.json
+
+# Only one deploy at a time — cancel in-flight deploys when a new push arrives
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      checks: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: Trunk lint (PR-scoped — modified files only)
+        uses: trunk-io/trunk-action@04ba50e7658c81db7356da96657e6e77f220bfa3 # v1.3.1
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: npm run test
+
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Upload built Worker artifact
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ${{ env.WORKER_DIST_ARTIFACT }}
+          path: ${{ env.WORKER_DIST_PATH }}
+          if-no-files-found: error
+          retention-days: 1
+
+  deploy:
+    needs: [lint, test, check, build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: Download built Worker artifact
+        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: ${{ env.WORKER_DIST_ARTIFACT }}
+          path: ${{ env.WORKER_DIST_PATH }}
+      - name: Check Cloudflare deploy configuration
+        id: cfcheck
+        # Don't hard-fail the pipeline when the deploy credential isn't set: the
+        # site can still be deployed manually (`wrangler deploy`), so a missing
+        # secret is a configuration gap, not a code failure. Emit a loud warning
+        # and skip the deploy step so CI reflects CODE health; auto-deploy resumes
+        # automatically once the secret + variable are added in repo settings.
+        run: |
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ] || [ -z "${{ vars.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::warning::Cloudflare auto-deploy SKIPPED — set CLOUDFLARE_API_TOKEN (repo Secret) and CLOUDFLARE_ACCOUNT_ID (repo Variable) to enable it. Token scopes: Workers Scripts>Edit, Workers Routes>Edit, Workers KV Storage>Edit, Account Settings>Read (create at https://dash.cloudflare.com/profile/api-tokens). Until then deploy manually with 'wrangler deploy --config dist/server/wrangler.json'."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Deploy to Cloudflare Workers
+        if: steps.cfcheck.outputs.configured == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          # @astrojs/cloudflare 13 (Astro 6) outputs Workers + Static Assets:
+          # The generated Wrangler config points at entry.mjs and binds ASSETS to
+          # dist/client. Pages deploy ships static assets only and drops SSR routes.
+          npm exec -- wrangler deploy --config "${WRANGLER_CONFIG}"

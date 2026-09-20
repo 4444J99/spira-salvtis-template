@@ -1,0 +1,110 @@
+{
+  "owner": "organvm-iii-ergon",
+  "repo": "organvm-iii-ergon/sovereign-systems--spiral-template",
+  "project_num": 5,
+  "project_id": "PVT_kwDODwtKPs4BTOQo",
+  "audit_log": "docs/audit/transitions.log",
+  "fields": {
+    "status": {
+      "id": "PVTSSF_lADODwtKPs4BTOQozhAhrJo",
+      "options": {
+        "GATED": "b3850938",
+        "SPEC": "9671ca1b",
+        "WIP": "15f40835",
+        "DONE": "b1556a18",
+        "CLOSED": "c922fd43"
+      }
+    },
+    "phase": {
+      "id": "PVTSSF_lADODwtKPs4BTOQozhA7iPM",
+      "options": {
+        "α": "9bb1e961",
+        "β": "d4315dff",
+        "γ": "6971e4dc",
+        "ω": "d68607e8",
+        "IRF": "92894588"
+      }
+    },
+    "issue_type": {
+      "id": "PVTSSF_lADODwtKPs4BTOQozhA7iQE",
+      "options": {
+        "DECISION": "fea6c0d9",
+        "WORK": "ba3e43c6",
+        "BLOCKER": "d855aec1"
+      }
+    },
+    "gate_met": {
+      "id": "PVTSSF_lADODwtKPs4BTOQozhA7iQ8",
+      "options": {
+        "Yes": "d0407a4b",
+        "No": "aed6ad7d"
+      }
+    },
+    "priority": {
+      "id": "PVTSSF_lADODwtKPs4BTOQozhAhrKU",
+      "options": {
+        "P0-blocker": "7f047ed8",
+        "P1-high": "2b7a8c20",
+        "P2-medium": "8c2aba7f",
+        "P3-backlog": "78d54d91"
+      }
+    },
+    "next_action": {
+      "id": "PVTF_lADODwtKPs4BTOQozhAhrK4"
+    },
+    "external_party": {
+      "id": "PVTF_lADODwtKPs4BTOQozhAhrLE"
+    }
+  },
+  "transitions": {
+    "GATED": ["SPEC"],
+    "SPEC": ["GATED", "WIP"],
+    "WIP": ["GATED", "DONE"],
+    "DONE": ["CLOSED", "WIP"],
+    "CLOSED": []
+  },
+  "views": [
+    {
+      "name": "All Issues",
+      "layout": "TABLE",
+      "filter": "is:issue -status:CLOSED",
+      "group": null,
+      "sort": "sort:priority-asc"
+    },
+    {
+      "name": "Client Gated",
+      "layout": "BOARD",
+      "filter": "status:GATED is:issue",
+      "group": "priority",
+      "sort": null
+    },
+    {
+      "name": "Ready to Build",
+      "layout": "TABLE",
+      "filter": "status:SPEC is:issue",
+      "group": null,
+      "sort": "sort:priority-asc"
+    },
+    {
+      "name": "Critical Path",
+      "layout": "TABLE",
+      "filter": "priority:P0-blocker,P1-high -status:CLOSED is:issue",
+      "group": null,
+      "sort": "sort:phase-asc"
+    },
+    {
+      "name": "By Phase",
+      "layout": "BOARD",
+      "filter": "is:issue -status:CLOSED",
+      "group": "phase",
+      "sort": "sort:priority-asc"
+    },
+    {
+      "name": "Completed",
+      "layout": "TABLE",
+      "filter": "status:DONE,CLOSED",
+      "group": null,
+      "sort": null
+    }
+  ]
+}

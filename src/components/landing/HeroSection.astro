@@ -1,0 +1,38 @@
+---
+import type { HeroSectionProps } from '@/lib/landing-engine/sections';
+
+interface Props {
+  data: HeroSectionProps;
+}
+
+const { data } = Astro.props;
+---
+
+<section
+  class="relative min-h-[85vh] flex flex-col items-center justify-center text-center px-6 py-24 glow-bg overflow-hidden"
+>
+  {
+    data.pillarLabel && (
+      <p class="relative text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3">
+        {data.pillarLabel}
+      </p>
+    )
+  }
+  <h1
+    class="relative font-heading text-[clamp(42px,6vw,80px)] font-light leading-[1.08] tracking-tight text-white"
+    style="text-shadow: 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.15);"
+  >
+    {data.heading}
+  </h1>
+  <p
+    class="relative mt-6 text-[17px] font-light leading-relaxed text-white/55 max-w-[640px]"
+  >
+    {data.subhead}
+  </p>
+  <a
+    href={data.ctaHref}
+    class="relative mt-10 inline-flex items-center px-8 py-4 rounded-full bg-ocean-500 text-white text-sm font-medium tracking-wide hover:bg-ocean-400 transition-colors"
+  >
+    {data.ctaLabel}
+  </a>
+</section>

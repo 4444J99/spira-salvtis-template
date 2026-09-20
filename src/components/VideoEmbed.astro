@@ -1,0 +1,86 @@
+---
+// Trusted embed hosts. Anything outside this allow-list falls back to the
+// placeholder rather than rendering an arbitrary third-party iframe.
+const ALLOWED_VIDEO_HOSTS = [
+  'www.youtube-nocookie.com',
+  'youtube-nocookie.com',
+  'www.youtube.com',
+  'youtube.com',
+  'player.vimeo.com',
+  'vimeo.com',
+];
+
+interface Props {
+  src?: string;
+  title?: string;
+  placeholder?: boolean;
+}
+
+const { src, title = 'Video', placeholder = false } = Astro.props;
+
+// Validate src against the allow-list and upgrade YouTube to its
+// privacy-enhanced (no-cookie) host. A non-allowlisted or malformed URL
+// resolves to null, which renders the placeholder instead of the iframe.
+function resolveEmbedSrc(raw?: string): string | null {
+  if (!raw) return null;
+  let url: URL;
+  try {
+    url = new URL(raw);
+  } catch {
+    return null;
+  }
+  if (url.protocol !== 'https:') return null;
+  if (!ALLOWED_VIDEO_HOSTS.includes(url.hostname)) return null;
+  // youtube.com → youtube-nocookie.com (no tracking cookies until play).
+  if (url.hostname === 'www.youtube.com' || url.hostname === 'youtube.com') {
+    url.hostname = 'www.youtube-nocookie.com';
+  }
+  return url.toString();
+}
+
+const embedSrc = resolveEmbedSrc(src);
+const showPlaceholder = placeholder || !embedSrc;
+---
+
+<div
+  class="w-full aspect-video rounded-2xl overflow-hidden relative"
+  style="background: linear-gradient(135deg, var(--ss-page-bg, var(--color-ocean-900)) 0%, var(--color-ocean-800) 52%, var(--color-ocean-700) 100%);"
+>
+  {
+    showPlaceholder ? (
+      <div class="absolute inset-0 flex flex-col items-center justify-center gap-5">
+        <div class="w-20 h-20 rounded-full border border-ocean-500/20 flex items-center justify-center bg-white/[0.03] backdrop-blur-sm">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-7 h-7 text-ocean-400 ml-1"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            role="img"
+            aria-label={`${title} — video placeholder`}
+          >
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+        <div class="text-center px-6">
+          <p class="text-white/45 text-[13px] font-light tracking-wider">
+            {title}
+          </p>
+          <p class="text-white/20 text-[11px] font-light mt-2">
+            Story slot reserved for the final client video asset.
+          </p>
+        </div>
+      </div>
+    ) : (
+      <iframe
+        src={embedSrc}
+        title={title}
+        class="w-full h-full border-0"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      />
+    )
+  }
+</div>

@@ -1,0 +1,561 @@
+{
+  "renames": [
+    {
+      "old": "docs/archive/source-bundle/1a_Master_Spiral.md",
+      "new": "docs/archive/source-bundle/1a-master-spiral.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/1b_Spiral_Dump.md",
+      "new": "docs/archive/source-bundle/1b-spiral-dump.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/2a. ChatGPT-Sovereign Systems Branding.txt",
+      "new": "docs/archive/source-bundle/2a-chatgpt-sovereign-systems-branding.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/2b. ChatGPT-Nodular Flow Refinement.txt",
+      "new": "docs/archive/source-bundle/2b-chatgpt-nodular-flow-refinement.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-2.5 pH Acidic Water.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-2-5-ph-acidic-water.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Dissolved hydrogen concentration.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-dissolved-hydrogen-concentration.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Eczema Skin Water Protocol.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-eczema-skin-water-protocol.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Ionized water benefits.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-ionized-water-benefits.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Kangen Water Content Ideas.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-kangen-water-content-ideas.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Kangen Water and Ear Aches.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-kangen-water-and-ear-aches.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Molecular Hydrogen for Athletes.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-molecular-hydrogen-for-athletes.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Water Hub Framework Breakdown.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-water-hub-framework-breakdown.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Water Memory and Energy.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-water-memory-and-energy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Water Retention in ERW.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-water-retention-in-erw.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Water Sales Strategy Plan.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-water-sales-strategy-plan.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Water hub design.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-water-hub-design.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/ChatGPT-Well Water Costs.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/water/chatgpt-well-water-costs.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/Gemini-Hydrogen Water_ Science, Health, and Business.md",
+      "new": "docs/archive/source-bundle/Spiral!!/water/gemini-hydrogen-water-science-health-and-business.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/Gemini-Water Crystals, Love, and Pseudoscience.md",
+      "new": "docs/archive/source-bundle/Spiral!!/water/gemini-water-crystals-love-and-pseudoscience.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/water/Learn_More_ERW.md",
+      "new": "docs/archive/source-bundle/Spiral!!/water/learn-more-erw.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-30 Day Acupressure Routine.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-30-day-acupressure-routine.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Aerosols and cleaning products.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-aerosols-and-cleaning-products.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Alzheimer\u2019s 373_ Increase Explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-alzheimer\u2019s-373-increase-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Birth control resources guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-birth-control-resources-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Body Trust and Shifts.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-body-trust-and-shifts.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Bubble Butt Fitness Guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-bubble-butt-fitness-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Chlorine absorption time.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-chlorine-absorption-time.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Cortisol stress carousel.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-cortisol-stress-carousel.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Cymascope and healing frequencies.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-cymascope-and-healing-frequencies.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Endometriosis causes and practices.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-endometriosis-causes-and-practices.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Fascia and emotions explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-fascia-and-emotions-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Feel Good First script.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-feel-good-first-script.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Gut Rebuilding Diet Plan.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-gut-rebuilding-diet-plan.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Hemorrhoids and Daily Discomfort.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-hemorrhoids-and-daily-discomfort.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Heroine_s Healing Journey.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-heroines-healing-journey.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Hormone Cycle Guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-hormone-cycle-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Hormones ! eating ! cycles.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-hormones-eating-cycles.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Hydration and Inflammation Video.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-hydration-and-inflammation-video.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Hydration and blood sugar.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-hydration-and-blood-sugar.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Inflammation Self-Check Questions.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-inflammation-self-check-questions.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Medical research gender gap.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-medical-research-gender-gap.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Milk source in the US.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-milk-source-in-the-us.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Neurodivergence and autoimmune links.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-neurodivergence-and-autoimmune-links.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Parasite cleanse diet tips.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-parasite-cleanse-diet-tips.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Period related rest plans.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-period-related-rest-plans.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Sonoluminescence phenomenon explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-sonoluminescence-phenomenon-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-Sulphur benefits and history.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-sulphur-benefits-and-history.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/ChatGPT-hEDS symptoms and diagnosis.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/health/chatgpt-heds-symptoms-and-diagnosis.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/Gemini-Cellular Reprogramming Through Voice.md",
+      "new": "docs/archive/source-bundle/Spiral!!/health/gemini-cellular-reprogramming-through-voice.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/Gemini-FDA_s _Just a Little Bit_ Carcinogens.md",
+      "new": "docs/archive/source-bundle/Spiral!!/health/gemini-fdas-just-a-little-bit-carcinogens.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/health/Hormones_Healing.md",
+      "new": "docs/archive/source-bundle/Spiral!!/health/hormones-healing.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-100 sales strategy.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-100-sales-strategy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-20!80 rule focus.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-2080-rule-focus.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Astrology Social Media Strategy !!!!!.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-astrology-social-media-strategy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Credit Report Review Guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-credit-report-review-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Dream retreat vision.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-dream-retreat-vision.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Financial Freedom Blueprint.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-financial-freedom-blueprint.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Idea Implementation Strategies.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-idea-implementation-strategies.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Income Projections and Strategies.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-income-projections-and-strategies.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Instagram grid visualization.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-instagram-grid-visualization.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Job Transition Advice.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-job-transition-advice.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Novel Funnel Strategies.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-novel-funnel-strategies.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Plastic Water Label Design.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-plastic-water-label-design.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Sales momentum plan.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-sales-momentum-plan.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Wagyu Post Conversion Tips.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-wagyu-post-conversion-tips.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/business/ChatGPT-Website Launch and App Timeline.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/business/chatgpt-website-launch-and-app-timeline.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Book Concept Breakdown.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-book-concept-breakdown.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Breakdown of Veblen_s ideas.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-breakdown-of-veblens-ideas.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Creature selves resources.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-creature-selves-resources.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Divine Feminine Flow.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-divine-feminine-flow.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Dopamine vs Oxytocin Dynamics.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-dopamine-vs-oxytocin-dynamics.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Dopamine vs Oxytocin Energy.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-dopamine-vs-oxytocin-energy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Energy Waves and Oscillations.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-energy-waves-and-oscillations.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Gallup Poll usage today.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-gallup-poll-usage-today.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Hunched Back and Past Lives.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-hunched-back-and-past-lives.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Idea Implementation Strategies.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-idea-implementation-strategies.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Research.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-research.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Sound Frequency Analysis.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-sound-frequency-analysis.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /ChatGPT-Vision board creation guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts to add in /chatgpt-vision-board-creation-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Affirmation Track for Abundance.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-affirmation-track-for-abundance.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Alchemy and Spiritual Symbolism.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-alchemy-and-spiritual-symbolism.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Anger Processing Guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-anger-processing-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Ask Integrate Reflect Method.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-ask-integrate-reflect-method.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Attracting Wealth with Mindset.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-attracting-wealth-with-mindset.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Balancing Masculine and Feminine.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-balancing-masculine-and-feminine.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Blindspots Gaps and Cons.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-blindspots-gaps-and-cons.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Ego Integration and Overcoming.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-ego-integration-and-overcoming.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Emotional misattunement explanation.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-emotional-misattunement-explanation.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Entrepreneurship Development Recommendations.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-entrepreneurship-development-recommendations.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Ether Concepts Explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-ether-concepts-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Fear of Being Seen.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-fear-of-being-seen.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Frozen Feelings and Support.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-frozen-feelings-and-support.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Happiness as a state.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-happiness-as-a-state.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Healing Growth Blueprint 1.0 idea phase .txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-healing-growth-blueprint-1-0-idea-phase.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Inner Child Healing.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-inner-child-healing.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Insecurity and Self-Respect.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-insecurity-and-self-respect.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Manifestation Mastery Secrets.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-manifestation-mastery-secrets.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Masculine Feminine Balance Tracker.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-masculine-feminine-balance-tracker.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Masculine vs Feminine Balance.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-masculine-vs-feminine-balance.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Meal Planning and Budgeting Help.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-meal-planning-and-budgeting-help.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Money block removal guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-money-block-removal-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Neuro-signatures and Pruning Explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-neuro-signatures-and-pruning-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Overexplaining and Conciseness Tips.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-overexplaining-and-conciseness-tips.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Overwhelm to Clarity.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-overwhelm-to-clarity.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Rendering Explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-rendering-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Romanticized Reality of Change.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-romanticized-reality-of-change.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Self-awareness and love.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-self-awareness-and-love.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Self-soothing in Adulthood.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-self-soothing-in-adulthood.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Send PDF to Kindle.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-send-pdf-to-kindle.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Shift Your Mindset.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-shift-your-mindset.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Success and small habits.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-success-and-small-habits.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-TM and Kundalini Energy.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-tm-and-kundalini-energy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Vibration Frequency Exploration.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-vibration-frequency-exploration.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Vision board creation guide.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-vision-board-creation-guide.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Visionary Life Breakdown.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-visionary-life-breakdown.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/ChatGPT-Yin energy explained.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/chatgpt-yin-energy-explained.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/IMPORTANT COMPONET!ChatGPT-Inner child book concept (1).txt",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/important-componetchatgpt-inner-child-book-concept-1.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/mindset/Rhythms_Rituals.md",
+      "new": "docs/archive/source-bundle/Spiral!!/mindset/rhythms-rituals.md"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-13 Month Calendar Query.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-13-month-calendar-query.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Astrology Hormone Moon Planner.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-astrology-hormone-moon-planner.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Astrology and business strategy.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-astrology-and-business-strategy.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Cycle and moon comparison.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-cycle-and-moon-comparison.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Frequency symbol origins.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-frequency-symbol-origins.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Moon Day Male Struggles (1).txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-moon-day-male-struggles-1.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Spoon bending technique.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-spoon-bending-technique.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Time, astrology & human design .txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-time-astrology-and-human-design.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/ChatGPT-Vedic astrology energy analysis.txt",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human design/chatgpt-vedic-astrology-energy-analysis.txt"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/concepts to add in /",
+      "new": "docs/archive/source-bundle/Spiral!!/concepts-to-add-in/"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/time-astro-human design/",
+      "new": "docs/archive/source-bundle/Spiral!!/time-astro-human-design/"
+    },
+    {
+      "old": "docs/archive/source-bundle/Spiral!!/",
+      "new": "docs/archive/source-bundle/spiral/"
+    },
+    {
+      "old": "docs/archive/source-bundle/1a. Master spiral backend breakdown.docx",
+      "new": "docs/archive/source-bundle/1a-master-spiral-backend-breakdown.docx",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/1b. Spiral dump for build & completed questionaire - 4nthony breakdown.docx",
+      "new": "docs/archive/source-bundle/1b-spiral-dump-for-build-and-completed-questionaire-4nthony-breakdown.docx",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/spiral/water/Learn More About ERW.docx",
+      "new": "docs/archive/source-bundle/spiral/water/learn-more-about-erw.docx",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/spiral/health/Hormones & Healing.docx",
+      "new": "docs/archive/source-bundle/spiral/health/hormones-and-healing.docx",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/spiral/mindset/Rhythms & Rituals not routines.docx",
+      "new": "docs/archive/source-bundle/spiral/mindset/rhythms-and-rituals-not-routines.docx",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/Screenshot 2026-04-03 at 2.06.03\u202fPM.png",
+      "new": "docs/archive/source-bundle/screenshot-2026-04-03-at-2-06-03-pm.png",
+      "method": "mv (untracked)"
+    },
+    {
+      "old": "docs/archive/source-bundle/Screenshot 2026-04-03 at 1.08.47\u202fPM.png",
+      "new": "docs/archive/source-bundle/screenshot-2026-04-03-at-1-08-47-pm.png",
+      "method": "mv (untracked)"
+    }
+  ],
+  "count": 137,
+  "date": "2026-04-14"
+}

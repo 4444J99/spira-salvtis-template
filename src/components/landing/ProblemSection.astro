@@ -1,0 +1,29 @@
+---
+import type { ProblemSectionProps } from '@/lib/landing-engine/sections';
+
+interface Props {
+  data: ProblemSectionProps;
+}
+
+const { data } = Astro.props;
+---
+
+<section class="relative px-6 py-24 max-w-[860px] mx-auto">
+  <h2
+    class="font-heading text-[clamp(28px,3.5vw,44px)] font-light text-white leading-tight"
+  >
+    {data.heading}
+  </h2>
+  <ul class="mt-10 space-y-6">
+    {
+      data.painPoints.map((point) => (
+        <li class="flex gap-4">
+          <span class="text-ocean-500 font-light shrink-0 select-none">·</span>
+          <p class="text-[17px] font-light leading-relaxed text-white/65">
+            {point}
+          </p>
+        </li>
+      ))
+    }
+  </ul>
+</section>

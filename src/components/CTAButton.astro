@@ -1,0 +1,40 @@
+---
+interface Props {
+  href: string;
+  label: string;
+  variant?: 'primary' | 'secondary';
+  // external: open in a new tab with safe rel — used for the outbound links to
+  // water-example.com / business-example.com that replace the old affiliate/book-a-call
+  // CTAs (admin 2026-06-22 #2, #35).
+  external?: boolean;
+}
+
+const { href, label, variant = 'primary', external = false } = Astro.props;
+const externalAttrs = external
+  ? { target: '_blank', rel: 'noopener noreferrer' }
+  : {};
+---
+
+{
+  variant === 'primary' ? (
+    <a
+      href={href}
+      {...externalAttrs}
+      data-ea-action="cta_click"
+      data-ea-label={label}
+      class="inline-block px-9 py-3.5 rounded-full text-[13px] font-medium tracking-wide bg-ocean-500 text-white hover:bg-ocean-400 hover:shadow-[0_8px_32px_rgba(17,154,158,0.3)] hover:-translate-y-0.5 transition-all duration-300"
+    >
+      {label}
+    </a>
+  ) : (
+    <a
+      href={href}
+      {...externalAttrs}
+      data-ea-action="cta_click"
+      data-ea-label={label}
+      class="inline-block px-9 py-3.5 rounded-full text-[13px] font-medium tracking-wide border border-ocean-400/25 text-ocean-400 hover:border-ocean-400 hover:text-white hover:bg-ocean-400/[0.08] transition-all duration-300"
+    >
+      {label}
+    </a>
+  )
+}

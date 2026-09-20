@@ -1,0 +1,1256 @@
+---
+import Base from '../layouts/Base.astro';
+import {
+  VOCABULARY,
+  vocabularyByCategory,
+  CATEGORY_LABEL,
+  CATEGORY_DESCRIPTION,
+  type VocabularyCategory,
+} from '../data/aesthetics-vocabulary';
+import { config, ui } from '../data/hub.config';
+import type { EnvVar, Phase } from '../data/hub.config';
+import { ICON_WORLDS, worldFor, hexToCss } from '../data/icon-worlds';
+import { PRIMITIVES, ALL_ENV_VARS, PHI } from '../data/sacred-geometry-primitives';
+import { LENS_MODULATION } from '../data/lens-geometry';
+import {
+  LENSES_IN_DISPLAY_ORDER,
+  viewThroughLens,
+  type Lens,
+} from '../data/naming-chains';
+import { SPIRAL_PARAMS } from '../data/spiral-params';
+
+const vocab = vocabularyByCategory();
+const nodes = config.nodes;
+const pillars = config.pillars;
+
+const VESSEL_MODES = [
+  {
+    mode: 'invisible',
+    label: 'Invisible',
+    desc: 'Mesh hidden — only the particle field is visible. Most minimal; the node reads as a glowing cloud.',
+  },
+  {
+    mode: 'visible',
+    label: 'Visible (solid mesh)',
+    desc: 'Opaque solid mesh, particle field suppressed. Most defined; the node reads as a sculpted object.',
+  },
+  {
+    mode: 'refracted-star',
+    label: 'Refracted Star',
+    desc: 'Prismatic glass-like material with light transmission and dispersion. Most jewel-like.',
+  },
+  {
+    mode: 'hybrid',
+    label: 'Hybrid (current default)',
+    desc: 'Solid mesh plus 30% particle field on top. Layered — both the form and the field, together.',
+  },
+] as const;
+
+const NAV_VARIANTS = [
+  {
+    variant: 'pillar-first',
+    label: 'Pillar-First (current default)',
+    desc: 'Nav links to the four pillar pages — emphasizes the four-pillar framework.',
+  },
+  {
+    variant: 'spiral-first',
+    label: 'Spiral-First',
+    desc: 'Nav links direct to nodes 1–13 in sequence — emphasizes the sequential journey.',
+  },
+] as const;
+
+const LENS_DESCRIPTIONS: Record<Lens, string> = {
+  'egyptian': 'Ancient, cosmic, hieroglyphic. Names anchored in solar theology and funerary tradition.',
+  'sanskrit-vedic': 'Mandala, chakra, unfolding. Names anchored in Vedic and tantric tradition.',
+  'greek-classical': 'Proportion, columnar, mathematical. Names anchored in geometry and natural philosophy.',
+  'christian-mystical': 'Sacred heart, redemption, transformation. Names anchored in mystical theology.',
+  'jungian': 'Archetype, collective unconscious. Names anchored in depth psychology.',
+  'physics-elemental': 'Matter, energy, force. Names anchored in observed physical phenomena.',
+  'modern-wellness': "Accessible, current, sovereign-systems-spiral specific. admin's naming layer.",
+};
+
+const LENS_PRETTY: Record<Lens, string> = {
+  'egyptian': 'Egyptian',
+  'sanskrit-vedic': 'Sanskrit-Vedic',
+  'greek-classical': 'Greek-Classical',
+  'christian-mystical': 'Christian-Mystical',
+  'jungian': 'Jungian',
+  'physics-elemental': 'Physics-Elemental',
+  'modern-wellness': 'Modern-Wellness',
+};
+
+interface PhaseRow {
+  phase: Phase;
+  desc: string;
+  nodes: typeof nodes;
+}
+
+const PHASES: PhaseRow[] = [
+  {
+    phase: 'ELEVATE',
+    desc: 'Raise from baseline — bodily foundation, awareness, regulation. The Physical Sovereignty arc.',
+    nodes: nodes.filter((n) => n.phase === 'ELEVATE'),
+  },
+  {
+    phase: 'ALIGN',
+    desc: 'Integrate mind and life — responsibility, release, clarity, becoming, awakening. Inner + Identity Sovereignty.',
+    nodes: nodes.filter((n) => n.phase === 'ALIGN'),
+  },
+  {
+    phase: 'UNLOCK',
+    desc: 'Freedom and full flow — integration, authentic expression, gifts amplified. Identity + Financial Sovereignty.',
+    nodes: nodes.filter((n) => n.phase === 'UNLOCK'),
+  },
+];
+
+const CATEGORIES_IN_ORDER: VocabularyCategory[] = ['structure', 'visual', 'language', 'physics'];
+---
+
+<Base
+  title="Aesthetic Manifest"
+  description="The shared vocabulary, settings, and visual qualities of the Sovereign Systems Spiral — a client+studio reference."
+>
+  <main class="aesthetics-page">
+    <header class="hero">
+      <p class="eyebrow">Internal · Client + Studio</p>
+      <h1>Aesthetic Manifest</h1>
+      <p class="intro">
+        Every named visual, structural, and linguistic quality of the Sovereign
+        Systems Spiral. This page exists so that <strong>admin</strong> (client)
+        and <strong>4jp + the studio</strong> share one vocabulary when talking
+        about specific parts of the site — and so we can change live settings
+        without redeploying.
+      </p>
+      <p class="intro-secondary">
+        Each term has a <em>public name</em> (what we use in conversation) and
+        a <em>technical name</em> in parentheses (the codebase identifier).
+        Pick whichever lands.
+      </p>
+    </header>
+
+    <nav class="toc" aria-label="Page sections">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#vocabulary">Vocabulary</a> — shared terms by category</li>
+        <li><a href="#parameters">Tunable Parameters</a> — every named knob + its URL key</li>
+        <li><a href="#vessel-modes">Vessel Modes</a> — 4 live spiral renderings</li>
+        <li><a href="#nav-variants">Nav Variants</a> — 2 navigation surfaces</li>
+        <li><a href="#substrates">The 13 Substrates</a> — True Names of each node</li>
+        <li><a href="#lenses">The 7 Lenses</a> — interpretive traditions</li>
+        <li><a href="#pillars">The 4 Pillars</a> — content categories</li>
+        <li><a href="#phases">The 3 Phases</a> — ELEVATE · ALIGN · UNLOCK</li>
+        <li><a href="#chakra-spectrum">Chakra Spectrum</a> — 13-step color map</li>
+        <li><a href="#geometry">Sacred Geometry Primitives</a> — math foundation</li>
+        <li><a href="#worlds">Themed Worlds</a> — each node's environment</li>
+      </ol>
+    </nav>
+
+    {/* ========================= VOCABULARY ========================= */}
+    <section id="vocabulary" class="section">
+      <h2>Vocabulary</h2>
+      <p class="section-desc">
+        Named primitives organized by category. Cite by public name in plain
+        conversation; cite by technical name when pointing at code.
+      </p>
+
+      {CATEGORIES_IN_ORDER.map((cat) => (
+        <div class="vocab-category">
+          <h3 class="vocab-cat-header">
+            <span class={`vocab-cat-badge cat-${cat}`}>{CATEGORY_LABEL[cat]}</span>
+            <span class="vocab-cat-desc">{CATEGORY_DESCRIPTION[cat]}</span>
+          </h3>
+          <div class="vocab-grid">
+            {vocab[cat].map((term) => (
+              <article class="vocab-card">
+                <header class="vocab-card-header">
+                  <h4>{term.publicName}</h4>
+                  {term.technicalName && (
+                    <span class="tech-name">
+                      <code>{term.technicalName}</code>
+                    </span>
+                  )}
+                </header>
+                <p class="vocab-def">{term.definition}</p>
+                {term.example && (
+                  <p class="vocab-example">
+                    <span class="example-tag">Example.</span> {term.example}
+                  </p>
+                )}
+                {term.link && (
+                  <p class="vocab-link">
+                    <a href={term.link} target="_blank" rel="noopener">
+                      {term.linkLabel || 'Open →'}
+                    </a>
+                  </p>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    {/* ===================== TUNABLE PARAMETERS ===================== */}
+    <section id="parameters" class="section">
+      <h2>Tunable Parameters</h2>
+      <p class="section-desc">
+        Every visual element of the spiral is a <strong>named, bounded knob</strong>
+        — the shared vocabulary for being specific about a look. Each row is one
+        parameter: its public name, the code identifier, its current default, and
+        its URL key. Append <code>?p.&lt;key&gt;=&lt;value&gt;</code> to any page to
+        override one, or open the live{' '}
+        <a href="/?tune=1" target="_blank" rel="noopener">Spiral Tuner ▸</a> to drag
+        them and copy a shareable link. A tuned URL fully reproduces a look. Values
+        are rendered straight from <code>src/data/spiral-params.ts</code>, so this
+        glossary can never drift from what the renderer actually reads.
+      </p>
+
+      {SPIRAL_PARAMS.map((el) => (
+        <div class="param-element">
+          <h3 class="param-el-header">
+            <span class={`param-cat-badge cat-${el.category}`}>{el.category}</span>
+            <span class="param-el-name">{el.label}</span>
+            <code class="param-el-tech">{el.technicalName}</code>
+          </h3>
+          <p class="param-el-desc">{el.description}</p>
+          <div class="param-table" role="table">
+            <div class="param-row param-row-head" role="row">
+              <span role="columnheader">Parameter</span>
+              <span role="columnheader">Default</span>
+              <span role="columnheader">Range / options</span>
+              <span role="columnheader">URL key</span>
+            </div>
+            {el.params.map((p) => (
+              <div class="param-row" role="row">
+                <span class="param-name" role="cell">
+                  <span class="param-name-row">
+                    {p.label}
+                    {p.wired === false && (
+                      <span class="param-pending">wiring pending</span>
+                    )}
+                  </span>
+                  <code class="param-tech">{p.technicalName}</code>
+                  <span class="param-def-text">{p.description}</span>
+                </span>
+                <span class="param-default" role="cell">
+                  {p.control === 'color' ? (
+                    <span class="param-swatch-wrap">
+                      <span class="param-swatch" style={`background:${p.value}`} />
+                      <code>{String(p.value)}</code>
+                    </span>
+                  ) : (
+                    <code>
+                      {String(p.value)}
+                      {p.unit ?? ''}
+                    </code>
+                  )}
+                </span>
+                <span class="param-range" role="cell">
+                  {p.control === 'range' && (
+                    <code>
+                      {p.min} – {p.max}
+                    </code>
+                  )}
+                  {p.control === 'select' && (
+                    <code>{(p.options ?? []).join(' · ')}</code>
+                  )}
+                  {p.control === 'toggle' && <code>on / off</code>}
+                  {p.control === 'color' && <code>any hex</code>}
+                </span>
+                <span class="param-key" role="cell">
+                  <code>?p.{p.key}=</code>
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    {/* ========================= VESSEL MODES ========================= */}
+    <section id="vessel-modes" class="section">
+      <h2>Vessel Modes</h2>
+      <p class="section-desc">
+        How each spiral node renders its substrate. The current default is
+        <strong>{ui.spiralVesselMode}</strong>; you can preview any other mode
+        live (no redeploy) by appending <code>?vessel=&lt;mode&gt;</code> to any
+        page URL. The querystring takes precedence client-side.
+      </p>
+      <div class="mode-grid">
+        {VESSEL_MODES.map((m) => (
+          <article class={`mode-card ${ui.spiralVesselMode === m.mode ? 'is-current' : ''}`}>
+            <header class="mode-header">
+              <h3>{m.label}</h3>
+              <code class="mode-key">?vessel={m.mode}</code>
+            </header>
+            <p class="mode-desc">{m.desc}</p>
+            <div class="mode-actions">
+              <a class="btn-preview" href={`/?vessel=${m.mode}`} target="_blank" rel="noopener">
+                Preview ▸
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    {/* ========================= NAV VARIANTS ========================= */}
+    <section id="nav-variants" class="section">
+      <h2>Nav Variants</h2>
+      <p class="section-desc">
+        Which way the top-of-page navigation points. Current default is
+        <strong>{ui.navVariant}</strong>; preview the other variant with
+        <code>?variant=&lt;variant&gt;</code> on any page URL.
+      </p>
+      <div class="mode-grid mode-grid--two">
+        {NAV_VARIANTS.map((v) => (
+          <article class={`mode-card ${ui.navVariant === v.variant ? 'is-current' : ''}`}>
+            <header class="mode-header">
+              <h3>{v.label}</h3>
+              <code class="mode-key">?variant={v.variant}</code>
+            </header>
+            <p class="mode-desc">{v.desc}</p>
+            <div class="mode-actions">
+              <a class="btn-preview" href={`/?variant=${v.variant}`} target="_blank" rel="noopener">
+                Preview ▸
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    {/* ========================= THE 13 SUBSTRATES ========================= */}
+    <section id="substrates" class="section">
+      <h2>The 13 Substrates</h2>
+      <p class="section-desc">
+        Each spiral node has one immutable substrate identity (its
+        <em> True Name</em>). The same essence has been recognized and re-named
+        across many traditions for thousands of years; the substrate is the
+        identity beneath all those names. Click any card to see that
+        substrate's full chronological lineage.
+      </p>
+      <div class="substrate-grid">
+        {nodes.map((n) => (
+          <a class="substrate-card" href={`/lineage/${n.envVar.toLowerCase()}`} style={`--card-accent: ${n.color}`}>
+            <header class="substrate-header">
+              <span class="substrate-id">#{n.id}</span>
+              <span class="substrate-glyph" aria-hidden="true">{n.emoji}</span>
+            </header>
+            <h3 class="substrate-name">{n.name}</h3>
+            <p class="substrate-true-name">
+              <code>{n.envVar}</code>
+              <span class="substrate-chakra">{n.chakra || '—'}</span>
+            </p>
+            <p class="substrate-tagline">{n.tagline}</p>
+            <p class="substrate-meta">
+              <span>{n.phase}</span> · <span>{n.pillarSlug}</span>
+            </p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* ========================= THE 7 LENSES ========================= */}
+    <section id="lenses" class="section">
+      <h2>The 7 Lenses</h2>
+      <p class="section-desc">
+        Seven interpretive traditions through which a substrate is named. The
+        lens determines which name appears for a given essence — and each lens
+        also <em>modulates</em> the generative geometry (vertex count, scale,
+        twist) of the spiral node it renders.
+      </p>
+      <div class="lens-grid">
+        {LENSES_IN_DISPLAY_ORDER.map((lens) => {
+          const mod = LENS_MODULATION[lens];
+          const examples = viewThroughLens(lens).slice(0, 3);
+          return (
+            <article class="lens-card">
+              <header class="lens-header">
+                <h3>{LENS_PRETTY[lens]}</h3>
+                <code>{lens}</code>
+              </header>
+              <p class="lens-desc">{LENS_DESCRIPTIONS[lens]}</p>
+              <dl class="lens-mod">
+                <dt>Vertices added</dt><dd>{mod.vertexAddend > 0 ? `+${mod.vertexAddend}` : mod.vertexAddend}</dd>
+                <dt>Scale ×</dt><dd>{mod.scaleMul}</dd>
+                <dt>Twist Δ</dt><dd>{mod.twistAdd > 0 ? `+${mod.twistAdd}` : mod.twistAdd}</dd>
+                <dt>Depth ×</dt><dd>{mod.depthMul}</dd>
+                {mod.fractalDepth > 0 && (<><dt>Fractal depth</dt><dd>{mod.fractalDepth}</dd></>)}
+                {mod.symmetryOverride && (<><dt>Symmetry override</dt><dd>{mod.symmetryOverride}</dd></>)}
+              </dl>
+              <p class="lens-examples">
+                <span class="example-tag">Examples.</span>
+                {examples.map((b, i) => (
+                  <>
+                    <em>{b.name}</em> ({b.envVar}){i < examples.length - 1 ? '; ' : '.'}
+                  </>
+                ))}
+              </p>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    {/* ========================= THE 4 PILLARS ========================= */}
+    <section id="pillars" class="section">
+      <h2>The 4 Pillars</h2>
+      <p class="section-desc">
+        Content categories. Pillars are the topical organization (what kind of
+        work this is); phases are the temporal arc (where in the journey).
+      </p>
+      <div class="pillar-grid">
+        {pillars.map((p) => (
+          <article class="pillar-card" style={`--card-accent: ${p.color}`}>
+            <header class="pillar-header">
+              <span class="pillar-emoji" aria-hidden="true">{p.emoji}</span>
+              <span class="pillar-order">#{p.order}</span>
+            </header>
+            <h3>{p.name}</h3>
+            <p class="pillar-tagline">{p.tagline}</p>
+            <p class="pillar-meta">
+              <code>{p.slug}</code> · <span class="status-{p.status}">{p.status}</span>
+            </p>
+            <p class="pillar-color">
+              <span class="color-swatch" style={`background:${p.color}`} aria-hidden="true"></span>
+              <code>{p.color}</code>
+            </p>
+            <p class="pillar-url">
+              <a href={p.url}>{p.url} →</a>
+            </p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    {/* ========================= THE 3 PHASES ========================= */}
+    <section id="phases" class="section">
+      <h2>The 3 Phases</h2>
+      <p class="section-desc">
+        Stages of the journey arc. Where a user lands in the spiral depends on
+        which phase they're in and which pillar they need work in.
+      </p>
+      {PHASES.map((p) => (
+        <div class="phase-band">
+          <h3>{p.phase}</h3>
+          <p class="phase-desc">{p.desc}</p>
+          <ul class="phase-nodes">
+            {p.nodes.map((n) => (
+              <li>
+                <span class="phase-node-color" style={`background:${n.color}`} aria-hidden="true"></span>
+                <a href={n.url}><strong>#{n.id}</strong> {n.name}</a>
+                <span class="phase-node-meta">— {n.tagline}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    {/* ========================= CHAKRA SPECTRUM ========================= */}
+    <section id="chakra-spectrum" class="section">
+      <h2>Chakra Spectrum</h2>
+      <p class="section-desc">
+        The thirteen-step color map applied bottom-to-top across the spiral.
+        Root (red, node 1) through crown (violet, node 13). Used in
+        <code> spiral.ts</code> via <code>chakraColorForNode</code>.
+      </p>
+      <ol class="chakra-strip">
+        {nodes.map((n) => (
+          <li class="chakra-step" style={`--swatch:${n.color}`}>
+            <span class="chakra-swatch" aria-hidden="true"></span>
+            <span class="chakra-num">#{n.id}</span>
+            <span class="chakra-label">{n.chakra || '—'}</span>
+            <code class="chakra-hex">{n.color}</code>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    {/* ========================= SACRED GEOMETRY ========================= */}
+    <section id="geometry" class="section">
+      <h2>Sacred Geometry Primitives</h2>
+      <p class="section-desc">
+        The mathematical foundation per substrate. Not "what should it look
+        like" but "what mathematical law generates it." Golden ratio
+        (φ = {PHI.toFixed(6)}) governs scale; vertex count is prime-constrained;
+        symmetry is the governing law.
+      </p>
+      <div class="geo-table-wrap">
+        <table class="geo-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Substrate</th>
+              <th>Vertices</th>
+              <th>Symmetry</th>
+              <th>PHI<sup>k</sup></th>
+              <th>Inner ratio</th>
+              <th>Twist</th>
+              <th>Void?</th>
+              <th>Depth</th>
+            </tr>
+          </thead>
+          <tbody>
+            {ALL_ENV_VARS.map((env, i) => {
+              const p = PRIMITIVES[env];
+              return (
+                <tr>
+                  <td>{i + 1}</td>
+                  <td><code>{env}</code></td>
+                  <td>{p.vertexCount}</td>
+                  <td>{p.symmetry}</td>
+                  <td>{p.phiExponent}</td>
+                  <td>{p.innerRatio}</td>
+                  <td>{p.twistFactor}</td>
+                  <td>{p.hasCentralVoid ? '✓' : '—'}</td>
+                  <td>{p.depthRatio}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {/* ========================= THEMED WORLDS ========================= */}
+    <section id="worlds" class="section">
+      <h2>Themed Worlds</h2>
+      <p class="section-desc">
+        Per-node environment: elements (fire, water, plasma…), phase mix,
+        biology, gravity vector, particle behavior, accent palette. Every node
+        is its own complete world — "Halloween Town, Tomorrowland, Crystal Vault."
+      </p>
+      <div class="world-grid">
+        {Object.entries(ICON_WORLDS).map(([id, w]) => {
+          const node = nodes.find((n) => n.id === Number(id));
+          return (
+            <article class="world-card" style={`--card-accent:${node?.color || '#888'}`}>
+              <header class="world-header">
+                <h3>#{id} · {w.themeName}</h3>
+                {node && <span class="world-node-name">{node.name}</span>}
+              </header>
+              <dl class="world-meta">
+                <dt>Elements</dt><dd>{w.elements.join(' · ')}</dd>
+                <dt>Biology</dt><dd>{w.biology}</dd>
+                <dt>Behavior</dt><dd>{w.particleBehavior}</dd>
+                <dt>Phase mix</dt><dd>
+                  gas {Math.round(w.phaseMix.gas * 100)}% ·
+                  liq {Math.round(w.phaseMix.liquid * 100)}% ·
+                  sol {Math.round(w.phaseMix.solid * 100)}% ·
+                  plasma {Math.round(w.phaseMix.plasma * 100)}%
+                </dd>
+                <dt>Gravity</dt><dd>
+                  x {w.gravity.x} · y {w.gravity.y} · z {w.gravity.z}
+                </dd>
+                <dt>Thermal ×</dt><dd>{w.thermalAmpMul}</dd>
+                <dt>Size bias</dt><dd>{w.sizeBias}</dd>
+              </dl>
+              <div class="world-palette" aria-label="Accent palette">
+                {w.accentPalette.map((c) => (
+                  <span class="palette-swatch" style={`background:${hexToCss(c)}`} title={hexToCss(c)}></span>
+                ))}
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <footer class="aesthetics-footer">
+      <h2>Editing this manifest</h2>
+      <ul>
+        <li>Add or change a vocabulary term → <code>src/data/aesthetics-vocabulary.ts</code></li>
+        <li>Add a vessel mode or change the default → <code>src/data/hub.config.ts</code> (<code>VesselMode</code>, <code>ui.spiralVesselMode</code>)</li>
+        <li>Change a node's substrate, chakra, theme tags, color → <code>src/data/hub.config.ts</code> (<code>config.nodes[]</code>)</li>
+        <li>Add a lens or change its modulation → <code>src/data/lens-geometry.ts</code></li>
+        <li>Add a tradition naming binding → <code>src/data/naming-chains.ts</code></li>
+        <li>Change a substrate's mathematical primitive → <code>src/data/sacred-geometry-primitives.ts</code></li>
+        <li>Change a themed world → <code>src/data/icon-worlds.ts</code></li>
+      </ul>
+      <p class="footer-note">
+        This page renders directly from those source files — every edit there
+        becomes visible here on the next deploy.
+      </p>
+    </footer>
+  </main>
+</Base>
+
+<style>
+  .aesthetics-page {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+    color: var(--color-text, #e8e6e1);
+    line-height: 1.55;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .eyebrow {
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin: 0 0 0.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    margin: 0 0 1.25rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+  }
+  .intro, .intro-secondary {
+    max-width: 680px;
+    margin: 0 auto 0.75rem;
+    font-size: 1.05rem;
+    opacity: 0.88;
+  }
+  .intro-secondary {
+    opacity: 0.65;
+    font-size: 0.95rem;
+  }
+
+  .toc {
+    margin: 0 auto 4rem;
+    max-width: 720px;
+    padding: 1.5rem 1.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .toc h2 {
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin: 0 0 0.75rem;
+    font-weight: 600;
+  }
+  .toc ol {
+    columns: 2;
+    column-gap: 2rem;
+    padding-left: 1.25rem;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .toc li { margin: 0 0 0.35rem; }
+  .toc a {
+    color: var(--color-accent, #c9a96e);
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
+  }
+  .toc a:hover { border-bottom-style: solid; }
+
+  .section {
+    margin: 0 0 4.5rem;
+  }
+  .section h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .section-desc {
+    margin: 0 0 2rem;
+    max-width: 760px;
+    font-size: 0.97rem;
+    opacity: 0.78;
+  }
+  .section-desc code,
+  .footer-note code,
+  .aesthetics-footer code,
+  .vocab-link code,
+  .tech-name code,
+  .vocab-def code,
+  .vocab-example code,
+  .mode-key,
+  .substrate-true-name code,
+  .pillar-meta code,
+  .pillar-color code,
+  .lens-header code,
+  .chakra-hex,
+  .geo-table code,
+  .world-card code {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: 0.86em;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+  }
+
+  /* ============ VOCABULARY ============ */
+  .vocab-category { margin: 0 0 2.5rem; }
+  .vocab-cat-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin: 0 0 1rem;
+  }
+  .vocab-cat-badge {
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.65rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .vocab-cat-badge.cat-structure   { background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.18); color: var(--color-gold); }
+  .vocab-cat-badge.cat-visual      { background: rgba(120, 196, 168, 0.18); color: #78c4a8; }
+  .vocab-cat-badge.cat-language    { background: rgba(168, 120, 196, 0.18); color: #c97ce8; }
+  .vocab-cat-badge.cat-physics     { background: rgba(196, 120, 80, 0.18);  color: #ff9a3c; }
+  .vocab-cat-desc { opacity: 0.65; font-size: 0.88rem; }
+
+  .vocab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  .vocab-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+  }
+  .vocab-card-header { margin-bottom: 0.5rem; }
+  .vocab-card-header h4 {
+    font-size: 1rem;
+    margin: 0 0 0.15rem;
+    font-weight: 500;
+  }
+  .tech-name {
+    font-size: 0.75rem;
+    opacity: 0.55;
+  }
+  .vocab-def {
+    margin: 0 0 0.6rem;
+    font-size: 0.88rem;
+    opacity: 0.85;
+  }
+  .vocab-example {
+    margin: 0 0 0.5rem;
+    font-size: 0.82rem;
+    opacity: 0.7;
+    padding-left: 0.6rem;
+    border-left: 2px solid rgba(var(--color-gold-rgb, 201, 169, 110), 0.3);
+  }
+  .example-tag {
+    font-weight: 600;
+    color: var(--color-accent, #c9a96e);
+    margin-right: 0.25rem;
+  }
+  .vocab-link {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+  }
+  .vocab-link a {
+    color: var(--color-accent, #c9a96e);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+  }
+
+  /* ============ MODE CARDS (vessel + nav) ============ */
+  .mode-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  .mode-grid--two {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .mode-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .mode-card.is-current {
+    border-color: rgba(var(--color-gold-rgb, 201, 169, 110), 0.5);
+    background: rgba(var(--color-gold-rgb, 201, 169, 110), 0.05);
+  }
+  .mode-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .mode-header h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+  }
+  .mode-key { font-size: 0.7rem; opacity: 0.7; }
+  .mode-desc {
+    margin: 0 0 1rem;
+    font-size: 0.88rem;
+    opacity: 0.78;
+  }
+  .btn-preview {
+    display: inline-block;
+    padding: 0.4rem 0.85rem;
+    background: var(--color-accent, #c9a96e);
+    color: #1a1a1a;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  .btn-preview:hover { background: var(--color-gold-light); }
+
+  /* ============ SUBSTRATES ============ */
+  .substrate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.85rem;
+  }
+  .substrate-card {
+    --card-accent: #888;
+    display: block;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--card-accent);
+    border-left: 4px solid var(--card-accent);
+    border-radius: 8px;
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease, transform 0.1s ease;
+  }
+  .substrate-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateY(-2px);
+  }
+  .substrate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.3rem;
+  }
+  .substrate-id {
+    font-size: 0.72rem;
+    opacity: 0.55;
+    font-family: ui-monospace, 'SF Mono', monospace;
+  }
+  .substrate-glyph { font-size: 1.4rem; }
+  .substrate-name {
+    font-size: 0.95rem;
+    margin: 0 0 0.3rem;
+    font-weight: 500;
+  }
+  .substrate-true-name {
+    margin: 0 0 0.5rem;
+    font-size: 0.78rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .substrate-chakra {
+    font-size: 0.72rem;
+    opacity: 0.7;
+    text-transform: lowercase;
+  }
+  .substrate-tagline {
+    margin: 0 0 0.5rem;
+    font-size: 0.82rem;
+    opacity: 0.78;
+    line-height: 1.4;
+  }
+  .substrate-meta {
+    margin: 0;
+    font-size: 0.72rem;
+    opacity: 0.55;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  /* ============ LENSES ============ */
+  .lens-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+  }
+  .lens-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .lens-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+  }
+  .lens-header h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+  }
+  .lens-desc {
+    font-size: 0.85rem;
+    opacity: 0.78;
+    margin: 0 0 0.85rem;
+  }
+  .lens-mod {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.25rem 0.85rem;
+    font-size: 0.78rem;
+    margin: 0 0 0.85rem;
+    padding: 0.65rem 0.85rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+  }
+  .lens-mod dt { opacity: 0.6; }
+  .lens-mod dd { margin: 0; font-family: ui-monospace, 'SF Mono', monospace; }
+  .lens-examples {
+    font-size: 0.78rem;
+    opacity: 0.7;
+    margin: 0;
+  }
+  .lens-examples em {
+    font-style: italic;
+    color: var(--color-accent, #c9a96e);
+  }
+
+  /* ============ PILLARS ============ */
+  .pillar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .pillar-card {
+    --card-accent: #888;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 4px solid var(--card-accent);
+    border-radius: 10px;
+    padding: 1.25rem;
+  }
+  .pillar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+  }
+  .pillar-emoji { font-size: 1.5rem; }
+  .pillar-order {
+    font-size: 0.72rem;
+    opacity: 0.55;
+    font-family: ui-monospace, 'SF Mono', monospace;
+  }
+  .pillar-card h3 { font-size: 1.05rem; margin: 0 0 0.3rem; font-weight: 500; }
+  .pillar-tagline {
+    margin: 0 0 0.7rem;
+    font-size: 0.86rem;
+    opacity: 0.78;
+    line-height: 1.45;
+  }
+  .pillar-meta,
+  .pillar-color,
+  .pillar-url {
+    margin: 0 0 0.35rem;
+    font-size: 0.78rem;
+  }
+  .pillar-url a {
+    color: var(--card-accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+  }
+  .color-swatch {
+    display: inline-block;
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  /* ============ PHASES ============ */
+  .phase-band {
+    border-left: 3px solid var(--color-accent, #c9a96e);
+    padding: 0 0 0 1.25rem;
+    margin: 0 0 1.5rem;
+  }
+  .phase-band h3 {
+    font-size: 1rem;
+    letter-spacing: 0.15em;
+    margin: 0 0 0.35rem;
+    font-weight: 600;
+    color: var(--color-accent, #c9a96e);
+  }
+  .phase-desc {
+    margin: 0 0 0.85rem;
+    font-size: 0.88rem;
+    opacity: 0.78;
+  }
+  .phase-nodes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  .phase-nodes li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.87rem;
+  }
+  .phase-node-color {
+    display: inline-block;
+    width: 0.65rem;
+    height: 0.65rem;
+    border-radius: 50%;
+    flex: 0 0 auto;
+  }
+  .phase-nodes a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  }
+  .phase-node-meta { opacity: 0.6; font-size: 0.82rem; }
+
+  /* ============ CHAKRA STRIP ============ */
+  .chakra-strip {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.4rem;
+  }
+  .chakra-step {
+    --swatch: #888;
+    display: grid;
+    grid-template-columns: 1.5rem 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.15rem 0.5rem;
+    padding: 0.65rem 0.75rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 3px solid var(--swatch);
+    border-radius: 6px;
+    align-items: center;
+  }
+  .chakra-swatch {
+    grid-row: span 2;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: var(--swatch);
+    box-shadow: 0 0 8px var(--swatch);
+  }
+  .chakra-num {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: 0.78rem;
+    opacity: 0.7;
+  }
+  .chakra-label {
+    font-size: 0.78rem;
+    opacity: 0.85;
+  }
+  .chakra-hex {
+    font-size: 0.72rem;
+    grid-column: 2;
+    opacity: 0.55;
+  }
+
+  /* ============ GEOMETRY TABLE ============ */
+  .geo-table-wrap { overflow-x: auto; }
+  .geo-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+  .geo-table th,
+  .geo-table td {
+    text-align: left;
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+  .geo-table th {
+    background: rgba(255, 255, 255, 0.04);
+    font-weight: 500;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.75;
+  }
+  .geo-table tbody tr:hover { background: rgba(255, 255, 255, 0.02); }
+
+  /* ============ WORLDS ============ */
+  .world-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 1rem;
+  }
+  .world-card {
+    --card-accent: #888;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 3px solid var(--card-accent);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+  }
+  .world-header { margin-bottom: 0.5rem; }
+  .world-header h3 {
+    margin: 0 0 0.15rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .world-node-name {
+    font-size: 0.78rem;
+    opacity: 0.65;
+  }
+  .world-meta {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.2rem 0.75rem;
+    font-size: 0.78rem;
+    margin: 0 0 0.85rem;
+  }
+  .world-meta dt { opacity: 0.55; }
+  .world-meta dd { margin: 0; }
+  .world-palette {
+    display: flex;
+    gap: 0.3rem;
+  }
+  .palette-swatch {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* ============ FOOTER ============ */
+  .aesthetics-footer {
+    margin-top: 5rem;
+    padding: 2rem 1.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .aesthetics-footer h2 {
+    font-size: 1.1rem;
+    margin: 0 0 1rem;
+    font-weight: 500;
+    border-bottom: none;
+    padding: 0;
+  }
+  .aesthetics-footer ul {
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+    font-size: 0.88rem;
+    opacity: 0.85;
+  }
+  .aesthetics-footer li { margin: 0 0 0.4rem; }
+  .footer-note {
+    font-size: 0.85rem;
+    opacity: 0.65;
+    margin: 0;
+  }
+
+  /* ============ TUNABLE PARAMETERS ============ */
+  .param-element { margin: 0 0 2.25rem; }
+  .param-el-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.7rem;
+    margin: 0 0 0.35rem;
+    border-bottom: none;
+    padding: 0;
+  }
+  .param-el-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--color-text, #e8e6e1);
+  }
+  .param-el-tech { font-size: 0.72rem; opacity: 0.5; }
+  .param-cat-badge {
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    border: 1px solid currentColor;
+  }
+  .param-cat-badge.cat-visual { color: #3dbfc4; }
+  .param-cat-badge.cat-physics { color: #c9a96e; }
+  .param-cat-badge.cat-structure { color: #8cc5d3; }
+  .param-el-desc {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin: 0 0 0.85rem;
+    max-width: 72ch;
+  }
+  .param-table {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .param-row {
+    display: grid;
+    grid-template-columns: minmax(0, 2.4fr) minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1.3fr);
+    gap: 0.75rem;
+    padding: 0.7rem 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    align-items: start;
+    font-size: 0.82rem;
+  }
+  .param-row-head {
+    border-top: none;
+    font-size: 0.66rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.5;
+  }
+  .param-name { display: flex; flex-direction: column; gap: 0.18rem; font-weight: 500; }
+  .param-name-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+  .param-tech { font-size: 0.7rem; opacity: 0.5; font-weight: 400; }
+  .param-def-text {
+    font-size: 0.74rem;
+    opacity: 0.6;
+    font-weight: 400;
+    line-height: 1.35;
+  }
+  .param-default code, .param-range code, .param-key code { font-size: 0.75rem; }
+  .param-key code { color: var(--color-accent, #c9a96e); word-break: break-all; }
+  .param-pending {
+    display: inline-block;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #c9a96e;
+    border: 1px solid rgba(201, 169, 110, 0.4);
+    border-radius: 4px;
+    padding: 0 0.3rem;
+    width: max-content;
+  }
+  .param-swatch-wrap { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .param-swatch {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  @media (max-width: 720px) {
+    .toc ol { columns: 1; }
+    .aesthetics-page { padding: 2rem 1rem 4rem; }
+    .vocab-cat-header { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
+    .param-row { grid-template-columns: 1fr; gap: 0.35rem; }
+    .param-row-head { display: none; }
+  }
+</style>

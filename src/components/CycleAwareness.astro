@@ -1,0 +1,142 @@
+---
+import {
+  cycleGuidanceForBranch,
+  cycleProtocolForBranch,
+  personalizationDimensions,
+  phaseData,
+} from '../data/cycle.config';
+
+interface Props {
+  branchSlug: string;
+  tone?: 'standard' | 'soft';
+}
+
+const { branchSlug, tone = 'standard' } = Astro.props;
+
+// Cycle copy lives in src/data/cycle.config.ts (GH #30 / GH #156).
+const guidance = cycleGuidanceForBranch(branchSlug);
+const protocol = cycleProtocolForBranch(branchSlug);
+const dimensionStatusLabel = {
+  live: 'Live now',
+  'planner-ready': 'Planner-ready',
+  'consent-gated': 'Consent-gated',
+};
+---
+
+<div
+  data-personalization-layer="cycle-awareness"
+  data-cycle-branch={branchSlug}
+  class="cycle-awareness my-12 py-10 px-6 rounded-lg"
+  style="background: linear-gradient(135deg, rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.06) 0%, rgba(var(--color-ocean-350-rgb, 140, 197, 211),0.04) 100%); border: 1px solid rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.12);"
+>
+  <div class="text-center mb-8">
+    <span class="text-3xl block mb-3">{'\u{1F319}'}</span>
+    <h3
+      class:list={[
+        'font-heading text-xl font-light mb-2',
+        tone === 'standard' ? 'text-white/80' : 'text-white/60',
+      ]}
+    >
+      Cycle + Timing Layer
+    </h3>
+    <p
+      class="text-white/35 text-sm font-light max-w-lg mx-auto leading-relaxed"
+    >
+      Your body is not the same every week. This layer maps branch guidance to
+      cycle phase, moon phase, and the future profile lenses that make the
+      spiral personal.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-xl mx-auto mb-8">
+    {
+      phaseData.map((phase) => (
+        <div
+          class="rounded-md p-4 text-center"
+          style={`background: ${phase.color}; border: 1px solid ${phase.borderColor};`}
+        >
+          <div class="text-2xl mb-1">{phase.moonEmoji}</div>
+          <div class="font-heading text-sm text-white/70 font-medium">
+            {phase.name}
+          </div>
+          <div class="text-white/35 text-xs mt-1">Days {phase.days}</div>
+          <div class="text-white/30 text-[10px] mt-1">
+            {phase.archetype}
+          </div>
+          <div class="text-white/45 text-xs italic mt-1">{phase.energy}</div>
+          <div class="text-white/25 text-[10px] mt-2">{phase.moon}</div>
+          <div class="text-white/35 text-[11px] mt-3 leading-relaxed">
+            {phase.bodyFocus}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+
+  {
+    protocol && (
+      <div
+        data-cycle-protocol={protocol.branchSlug}
+        class="max-w-2xl mx-auto grid gap-4 md:grid-cols-[1.2fr_0.8fr] mb-8"
+      >
+        <div class="rounded-md border border-white/[0.06] bg-white/[0.025] p-5">
+          <p class="text-[10px] font-medium tracking-[0.18em] uppercase text-ocean-400/70 mb-2">
+            {protocol.rhythmName}
+          </p>
+          <p class="text-white/45 text-sm leading-relaxed">{protocol.focus}</p>
+          <p class="text-white/30 text-xs leading-relaxed mt-4">
+            {protocol.protectiveBoundary}
+          </p>
+        </div>
+        <div class="rounded-md border border-white/[0.06] bg-white/[0.025] p-5">
+          <p class="text-[10px] font-medium tracking-[0.18em] uppercase text-ocean-400/70 mb-3">
+            Track for one cycle
+          </p>
+          <ul class="space-y-2">
+            {protocol.trackingSignals.slice(0, 5).map((signal) => (
+              <li class="text-white/40 text-xs leading-relaxed">{signal}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    )
+  }
+
+  <div class="text-center border-t border-white/5 pt-6 mb-8">
+    <p
+      class="text-white/30 text-xs font-light max-w-md mx-auto leading-relaxed"
+    >
+      {guidance}
+    </p>
+  </div>
+
+  <div class="max-w-3xl mx-auto grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+    {
+      personalizationDimensions.map((dimension) => (
+        <div
+          data-personalization-dimension={dimension.id}
+          data-personalization-status={dimension.status}
+          class="rounded-md border border-white/[0.05] bg-white/[0.018] p-4"
+        >
+          <div class="flex items-start justify-between gap-3 mb-2">
+            <p class="font-heading text-[15px] text-white/65 leading-tight">
+              {dimension.label}
+            </p>
+            <span class="shrink-0 rounded-[4px] border border-ocean-500/20 bg-ocean-500/10 px-2 py-1 text-[9px] font-medium uppercase tracking-[0.12em] text-ocean-300/70">
+              {dimensionStatusLabel[dimension.status]}
+            </span>
+          </div>
+          <p class="text-white/35 text-[12px] leading-relaxed">
+            {dimension.role}
+          </p>
+        </div>
+      ))
+    }
+  </div>
+
+  <p class="text-white/25 text-[11px] leading-relaxed max-w-2xl mx-auto text-center mt-6">
+    Birth-chart and Human Design personalization stay consent-gated. This
+    release ships the non-sensitive cycle/moon layer and planner scaffolding
+    without collecting birth data.
+  </p>
+</div>

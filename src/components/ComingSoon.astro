@@ -1,0 +1,19 @@
+---
+interface Props {
+  title: string;
+  emoji: string;
+  message?: string;
+}
+
+const {
+  title,
+  emoji,
+  message = 'This branch is growing. Check back soon.',
+} = Astro.props;
+---
+
+<div class="max-w-lg mx-auto text-center py-20 px-6">
+  <div class="text-5xl mb-5">{emoji}</div>
+  <h2 class="font-heading text-2xl font-light text-white/70 mb-3">{title}</h2>
+  <p class="text-white/30 font-light text-[15px]">{message}</p>
+</div>

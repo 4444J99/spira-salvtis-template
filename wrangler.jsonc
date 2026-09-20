@@ -1,0 +1,18 @@
+{
+  // Cloudflare WORKERS deploy config (Astro 6 / @astrojs/cloudflare 13 is a
+  // Workers adapter, not Pages — see #178). @astrojs/cloudflare auto-detects
+  // this file and merges it into the generated dist/server/wrangler.json, which
+  // supplies `main: entry.mjs` + the ASSETS binding (→ dist/client). Deploy with
+  // `wrangler deploy` (NOT `wrangler pages deploy`, which ships static only and
+  // drops the SSR routes /capture + /api/water-report).
+  //
+  // Secrets are intentionally NOT in source (mandate M2). Set them on the Worker:
+  //   npm exec -- wrangler secret put GHL_WEBHOOK_URL --config wrangler.jsonc
+  //   npm exec -- wrangler secret put EWG_API_KEY --config wrangler.jsonc
+  // GHL_WEBHOOK_URL is client-gated; see docs/runbooks/ghl-webhook-secret.md.
+  "name": "sovereign-systems-spiral",
+  "compatibility_date": "2026-04-15",
+  "kv_namespaces": [
+    { "binding": "SUBMISSIONS", "id": "497230d5482a4f22a65d541c6268d2f8" },
+  ],
+}

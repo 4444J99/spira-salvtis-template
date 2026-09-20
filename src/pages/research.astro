@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import EmailGate from '../components/EmailGate.astro';
+import { citations } from '../data/citations';
+
+// Only the aggregate count ships server-side — a teaser, not the corpus.
+// The annotated bibliography itself is gated behind the email capture and
+// fetched client-side from /api/research-content after unlock, so the full
+// source list never appears in the initial HTML (honest gate).
+const total = citations.length;
+---
+
+<Base title="Research Bibliography">
+  <div class="max-w-4xl mx-auto py-24 px-6">
+    <!-- Header — FREE (Layer 1) -->
+    <header class="mb-16 text-center">
+      <h1
+        class="font-heading text-[clamp(32px,5vw,56px)] font-light text-white mb-6"
+      >
+        The Sovereign Systems Canon
+      </h1>
+      <p
+        class="text-white/40 text-[18px] font-light max-w-2xl mx-auto leading-relaxed"
+      >
+        {total} sacred, philosophical, and peer-reviewed sources grounding every claim
+        in the framework.
+      </p>
+    </header>
+
+    <!-- Full bibliography — GATED (Layer 2), fetched after unlock -->
+    <EmailGate
+      fetchEndpoint="/api/research-content"
+      preview="The full annotated bibliography — every source, every finding, every link. The evidential backbone of the Sovereign Systems Spiral."
+    />
+
+    <footer class="mt-32 pt-16 border-t border-ocean-500/20 text-center">
+      <p class="text-white/20 text-[14px] italic">
+        "Truth is the foundation of all sovereignty."
+      </p>
+    </footer>
+  </div>
+</Base>

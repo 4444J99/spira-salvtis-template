@@ -1,0 +1,35 @@
+[
+  {
+    "brand": "Store brand (Safeway)",
+    "perBottle": 1.29,
+    "perCase": 5.99,
+    "perGallon": 1.19,
+    "source": "Legacy demo shelf-price placeholder; verify before publishing as current pricing.",
+    "sourceCheckedAt": null,
+    "unitVolumeOz": 16.9,
+    "monthlyVolumeAssumption": 30,
+    "trackingIssue": 63
+  },
+  {
+    "brand": "Fiji",
+    "perBottle": 2.49,
+    "perCase": 29.99,
+    "perGallon": 9.55,
+    "source": "Legacy demo shelf-price placeholder; verify before publishing as current pricing.",
+    "sourceCheckedAt": null,
+    "unitVolumeOz": 16.9,
+    "monthlyVolumeAssumption": 30,
+    "trackingIssue": 63
+  },
+  {
+    "brand": "Essentia",
+    "perBottle": 2.79,
+    "perCase": 27.99,
+    "perGallon": 10.68,
+    "source": "Legacy demo shelf-price placeholder; verify before publishing as current pricing.",
+    "sourceCheckedAt": null,
+    "unitVolumeOz": 16.9,
+    "monthlyVolumeAssumption": 30,
+    "trackingIssue": 63
+  }
+]

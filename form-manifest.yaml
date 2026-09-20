@@ -1,0 +1,11 @@
+schema_version: 0.1
+source_repo: 4444J99/sovereign-systems--elevate-align--operatio
+source_commit: db259cd32c2e3fdb7c33ea98e907f2db71f69686
+extracted: 2026-09-19
+paths:
+  - src/
+  - public/
+  - docs/
+  - scripts/
+  - package.json
+  - astro.config.mjs

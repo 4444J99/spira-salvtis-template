@@ -1,0 +1,563 @@
+---
+import Base from '../../layouts/Base.astro';
+import CTAButton from '../../components/CTAButton.astro';
+import WorldMotif from '../../components/WorldMotif.astro';
+import {
+  canAcceptDpPayment,
+  dpSignupFlow,
+} from '../../data/revenue.config';
+
+const dpFlowJson = JSON.stringify(dpSignupFlow);
+const amountLabel = `$${dpSignupFlow.amountUsd}`;
+---
+
+<Base
+  title={`${dpSignupFlow.title} - Sovereign Systems`}
+  description="The $99 Distributor Position sign-up path for the Financial Sovereignty business funnel. Checkout stays held until the Stripe-vs-GHL payment rail is approved."
+>
+  <main
+    class="dp-page"
+    data-dp-flow={dpFlowJson}
+    data-checkout-enabled={String(canAcceptDpPayment)}
+  >
+    <header class="dp-hero">
+      <WorldMotif nodeId={13} />
+      <p class="eyebrow">Financial Sovereignty - DP Pathway</p>
+      <h1>{dpSignupFlow.title}</h1>
+      {
+        canAcceptDpPayment ? (
+          <p class="intro">
+            Start the business path with the {amountLabel} Distributor Position
+            entry. Payment runs on the approved {dpSignupFlow.paymentRail} rail —
+            continue to secure checkout below.
+          </p>
+        ) : (
+          <p class="intro">
+            Start the business path with the {amountLabel} Distributor Position
+            entry. The checkout button is intentionally held until the
+            Stripe-vs-GHL payment rail is chosen; this page captures
+            ready-to-start interest now.
+          </p>
+        )
+      }
+      <div class="hero-actions">
+        {
+          canAcceptDpPayment && (
+            <a
+              class="checkout-cta"
+              href={dpSignupFlow.checkoutUrl}
+              rel="noopener"
+              data-ea-action="dp_checkout_click"
+              data-ea-label="dp_checkout"
+            >
+              Continue to {amountLabel} checkout
+            </a>
+          )
+        }
+        <CTAButton href="#dp-interest" label="Join the DP Interest List" />
+        <CTAButton
+          href="/decisions"
+          label="Review Payment Decision"
+          variant="secondary"
+        />
+        <CTAButton href="/business/" label="Business Hub" variant="secondary" />
+      </div>
+    </header>
+
+    <section class="status-strip" aria-label="DP sign-up status">
+      <div>
+        <span>Entry</span>
+        <strong>{amountLabel}</strong>
+      </div>
+      <div>
+        <span>Refund window</span>
+        <strong>{dpSignupFlow.refundWindowDays} days</strong>
+      </div>
+      <div>
+        <span>Payment rail</span>
+        <strong>{dpSignupFlow.paymentRail}</strong>
+      </div>
+      <div>
+        <span>Checkout</span>
+        <strong>{canAcceptDpPayment ? 'enabled' : 'held'}</strong>
+      </div>
+    </section>
+
+    <section class="dp-section">
+      <div class="section-heading">
+        <p class="eyebrow">What is live now</p>
+        <h2>A sign-up surface without premature checkout</h2>
+      </div>
+      <div class="detail-grid">
+        <article class="detail-panel">
+          <h3>Intent capture</h3>
+          <p>
+            Visitors who are ready for the DP path can leave name and email.
+            The contact record is saved through the same lead pipeline as the
+            quiz, water funnel, and business waitlist.
+          </p>
+        </article>
+        <article class="detail-panel">
+          <h3>Payment gate</h3>
+          {
+            canAcceptDpPayment ? (
+              <p>
+                The {dpSignupFlow.paymentRail} rail is approved. The {amountLabel} checkout
+                link renders from the configured handoff URL — one home for
+                payment state, refunds, and records.
+              </p>
+            ) : (
+              <p>
+                Stripe and GHL both remain viable. No payment link, checkout
+                copy, or purchase action renders until the rail is approved and
+                tested.
+              </p>
+            )
+          }
+        </article>
+        <article class="detail-panel">
+          <h3>Swap point</h3>
+          <p>
+            Once the rail is chosen, this route becomes the handoff point for
+            the real {amountLabel} checkout or external GHL payment page.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="flow-section" aria-labelledby="dp-flow-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Launch sequence</p>
+        <h2 id="dp-flow-heading">The build path from interest to payment</h2>
+      </div>
+      <ol class="step-list">
+        <li>
+          <span>01</span>
+          <div>
+            <h3>Collect DP interest</h3>
+            <p>Name and email are saved with the DP offer attached.</p>
+          </div>
+        </li>
+        <li>
+          <span>02</span>
+          <div>
+            <h3>Choose the rail</h3>
+            <p>
+              Approve Stripe or GHL so payment state, refunds, and records have
+              one home.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span>03</span>
+          <div>
+            <h3>Enable checkout</h3>
+            <p>
+              Replace the held state with the tested payment link and keep this
+              route as the DP entry.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="dp-interest" class="signup-panel">
+      <div>
+        <p class="eyebrow">DP interest</p>
+        <h2>Be first when the payment link opens.</h2>
+        <p>
+          This form is not a purchase. It records who wants the {amountLabel} DP
+          path so the checkout can be sent after the payment rail decision
+          clears.
+        </p>
+      </div>
+      <form id="dp-interest-form" class="dp-form">
+        <label>
+          <span>Name</span>
+          <input
+            type="text"
+            name="name"
+            autocomplete="name"
+            placeholder="Your name"
+          />
+        </label>
+        <label>
+          <span>Email</span>
+          <input
+            type="email"
+            name="email"
+            autocomplete="email"
+            placeholder="your@email.com"
+            required
+          />
+        </label>
+        <button type="submit">Join the DP Interest List</button>
+        <p
+          id="dp-interest-status"
+          class="form-status hidden"
+          aria-live="polite"
+        >
+        </p>
+      </form>
+    </section>
+  </main>
+</Base>
+
+<script>
+  import { trackEvent } from '../../lib/analytics';
+
+  const page = document.querySelector('[data-dp-flow]') as HTMLElement | null;
+  const dpFlow = page?.dataset.dpFlow ? JSON.parse(page.dataset.dpFlow) : {};
+  const form = document.getElementById(
+    'dp-interest-form',
+  ) as HTMLFormElement | null;
+  const status = document.getElementById('dp-interest-status');
+
+  form?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const name = (
+      form.querySelector('input[name="name"]') as HTMLInputElement | null
+    )?.value.trim();
+    const email = (
+      form.querySelector('input[name="email"]') as HTMLInputElement | null
+    )?.value.trim();
+    const button = form.querySelector(
+      'button[type="submit"]',
+    ) as HTMLButtonElement | null;
+
+    if (!email || !status || !button) return;
+
+    button.disabled = true;
+    button.textContent = 'Saving...';
+    status.textContent = '';
+    status.classList.add('hidden');
+
+    let ok = false;
+    try {
+      const response = await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          source: dpFlow.captureSource,
+          offerId: dpFlow.offerId,
+          offerAmountUsd: dpFlow.amountUsd,
+          paymentRail: dpFlow.paymentRail,
+          checkoutEnabled: dpFlow.checkoutEnabled,
+        }),
+      });
+      ok = response.ok;
+    } catch {
+      ok = false;
+    }
+
+    trackEvent({ action: 'dp_signup_interest_submit', ok });
+
+    if (ok) {
+      form.reset();
+      status.textContent =
+        'Saved. The DP payment link will be sent once the rail is approved.';
+    } else {
+      status.textContent =
+        "That did not go through. Give it a moment and try again.";
+    }
+
+    status.classList.remove('hidden');
+    button.disabled = false;
+    button.textContent = 'Join the DP Interest List';
+  });
+</script>
+
+<style>
+  .dp-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 6rem;
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .dp-hero {
+    position: relative;
+    min-height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    padding: 4rem 0 3rem;
+  }
+
+  .eyebrow {
+    position: relative;
+    margin: 0 0 0.65rem;
+    color: var(--color-ocean-400);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+  }
+
+  h1 {
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: clamp(2.9rem, 7vw, 5.7rem);
+    line-height: 0.98;
+    text-shadow: 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.15);
+  }
+
+  .intro {
+    position: relative;
+    max-width: 680px;
+    margin: 1.4rem auto 0;
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .hero-actions {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+  }
+
+  .status-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .status-strip div {
+    min-height: 92px;
+    padding: 1.15rem;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .status-strip span {
+    display: block;
+    color: rgba(255, 255, 255, 0.32);
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .status-strip strong {
+    display: block;
+    margin-top: 0.55rem;
+    color: var(--color-gold-light);
+    font-family: var(--font-heading);
+    font-size: clamp(1.35rem, 3vw, 1.9rem);
+    font-weight: 300;
+    line-height: 1.1;
+    text-transform: capitalize;
+  }
+
+  .dp-section,
+  .flow-section,
+  .signup-panel {
+    padding-top: 4.5rem;
+  }
+
+  .section-heading {
+    max-width: 620px;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-heading h2,
+  .signup-panel h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.06;
+  }
+
+  .detail-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .detail-panel,
+  .step-list li,
+  .signup-panel {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .detail-panel {
+    min-height: 178px;
+    padding: 1.35rem;
+  }
+
+  .detail-panel h3,
+  .step-list h3 {
+    font-size: 1.28rem;
+  }
+
+  .detail-panel p,
+  .step-list p,
+  .signup-panel p {
+    margin: 0.85rem 0 0;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .step-list {
+    display: grid;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .step-list li {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 1rem;
+    min-height: 106px;
+    padding: 1.2rem;
+  }
+
+  .step-list span {
+    color: var(--color-ocean-400);
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    line-height: 1;
+  }
+
+  .signup-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 2rem;
+    margin-top: 4.5rem;
+    padding: 2rem;
+  }
+
+  .dp-form {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .dp-form label {
+    display: grid;
+    gap: 0.4rem;
+    color: rgba(255, 255, 255, 0.36);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .dp-form input {
+    width: 100%;
+    border: 1px solid rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.16);
+    border-radius: 8px;
+    background: rgba(2, 11, 16, 0.72);
+    padding: 0.85rem 0.95rem;
+    color: white;
+    font-size: 0.92rem;
+    letter-spacing: 0;
+    outline: none;
+    transition:
+      border-color 180ms ease,
+      background 180ms ease;
+  }
+
+  .dp-form input:focus {
+    border-color: rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.56);
+    background: rgba(2, 11, 16, 0.94);
+  }
+
+  .dp-form button {
+    min-height: 48px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--color-ocean-500);
+    color: white;
+    cursor: pointer;
+    font-size: 0.86rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition:
+      background 180ms ease,
+      transform 180ms ease;
+  }
+
+  .dp-form button:hover {
+    background: var(--color-ocean-400);
+    transform: translateY(-1px);
+  }
+
+  .dp-form button:disabled {
+    cursor: wait;
+    opacity: 0.68;
+    transform: none;
+  }
+
+  .checkout-cta {
+    display: inline-block;
+    padding: 0.95rem 2.2rem;
+    border-radius: 999px;
+    background: var(--color-gold-light);
+    color: #0b1b22;
+    font-size: 0.86rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .checkout-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .form-status {
+    min-height: 22px;
+    color: var(--color-gold-light);
+    font-size: 0.82rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
+    .dp-page {
+      padding-inline: 1rem;
+    }
+
+    .status-strip,
+    .detail-grid,
+    .signup-panel {
+      grid-template-columns: 1fr;
+    }
+
+    .status-strip div {
+      min-height: 78px;
+    }
+
+    .step-list li {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

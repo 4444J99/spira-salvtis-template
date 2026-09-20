@@ -1,0 +1,94 @@
+# Pages CMS (https://pagescms.org) — git-based content editor.
+# Replaces Keystatic, which has no Astro 6 support (see
+# docs/design-proposals/2026-05-24-astro-6-migration-scope.md).
+# Connect this repo at https://app.pagescms.org to edit content via a GUI;
+# it commits straight to the Markdown files below. No build integration, no
+# self-hosted auth — Pages CMS handles GitHub OAuth itself.
+#
+# SCOPE: use this to EDIT the existing pillars/branches. The set is fixed and
+# defined in src/data/hub.config.ts, where each entry's `slug` (e.g.
+# `gut-hormones`) is intentionally decoupled from its title (e.g. "Hormone
+# Health") and drives the /pillars/[slug] and /water/[slug] routes. Adding a
+# NEW pillar/branch is therefore a code change: create the .md with the
+# intended slug as its filename AND add a matching `slug` entry to hub.config.
+# A new entry created here alone (filename derived from the title) won't match
+# a hub.config slug and will fail the content-sync check in scripts/test.mjs.
+content:
+  - name: pillars
+    label: Pillars
+    type: collection
+    path: src/content/pillars
+    filename: '{primary}.md'
+    view:
+      primary: title
+      fields:
+        - title
+        - status
+        - order
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: emoji
+        label: Emoji
+        type: string
+      - name: tagline
+        label: Tagline
+        type: string
+      - name: status
+        label: Status
+        type: select
+        options:
+          values:
+            - live
+            - placeholder
+        default: placeholder
+      - name: order
+        label: Order
+        type: number
+      - name: body
+        label: Content
+        type: rich-text
+  - name: branches
+    label: Branches
+    type: collection
+    path: src/content/branches
+    filename: '{primary}.md'
+    view:
+      primary: title
+      fields:
+        - title
+        - status
+        - order
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: emoji
+        label: Emoji
+        type: string
+      - name: hook
+        label: Hook
+        type: string
+      - name: status
+        label: Status
+        type: select
+        options:
+          values:
+            - live
+            - placeholder
+        default: placeholder
+      - name: tone
+        label: Tone
+        type: select
+        options:
+          values:
+            - standard
+            - soft
+        default: standard
+      - name: order
+        label: Order
+        type: number
+      - name: body
+        label: Content
+        type: rich-text

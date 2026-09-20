@@ -1,0 +1,220 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hero from '../../components/Hero.astro';
+import CTAButton from '../../components/CTAButton.astro';
+import VideoEmbed from '../../components/VideoEmbed.astro';
+import ResearchAccordion from '../../components/ResearchAccordion.astro';
+import WorldMotif from '../../components/WorldMotif.astro';
+import BusinessRhythm from '../../components/BusinessRhythm.astro';
+import { config } from '../../data/hub.config';
+import { nonprofitConfig } from '../../data/nonprofit.config';
+
+const financialPillar = config.pillars.find((p) => p.slug === 'financial');
+const citationIds = financialPillar?.citationIds || [];
+// Business hub inherits the financial pillar's lead-node world (M2: derived).
+const leadNodeId = config.nodes.find((n) => n.pillarSlug === 'financial')?.id;
+---
+
+<Base title="Financial Sovereignty — Business Hub">
+  <Hero
+    heading="Stability that scales."
+    subtext="Build a business that supports your life, rather than consuming it. Systems, scale, and sovereign income."
+    section="Financial Sovereignty"
+  >
+    {leadNodeId && <WorldMotif slot="backdrop" nodeId={leadNodeId} />}
+    <CTAButton href="/business/dp" label="$99 DP Sign-Up" />
+    <CTAButton
+      href="#systems"
+      label="Explore the Systems"
+      variant="secondary"
+    />
+    <CTAButton
+      href={nonprofitConfig.route}
+      label="Nonprofit Arm"
+      variant="secondary"
+    />
+    <!-- Store CTA removed (admin 2026-06-22 #6): no affiliate store on the spiral. -->
+    <CTAButton href="/" label="Return to Hub" variant="secondary" />
+  </Hero>
+
+  <!-- Grounding -->
+  <section class="py-16 px-6 bg-ocean-900">
+    <div class="max-w-3xl mx-auto">
+      <VideoEmbed placeholder={true} title="The Business of Sovereignty" />
+    </div>
+  </section>
+
+  <!-- Philosophy -->
+  <section
+    class="py-20 px-6 bg-ocean-900 text-center border-t border-white/[0.03]"
+  >
+    <div class="max-w-2xl mx-auto">
+      <h2 class="font-heading text-[32px] font-light text-white mb-6">
+        Beyond the Hustle
+      </h2>
+      <p class="text-white/45 text-[17px] font-light leading-[1.9] mb-8">
+        We have been taught that success requires sacrifice — of your health,
+        your time, and your presence. We believe that true financial sovereignty
+        is the opposite: it is the result of installing systems that protect
+        those very assets.
+      </p>
+      <div class="w-12 h-px bg-ocean-500/30 mx-auto"></div>
+    </div>
+  </section>
+
+  <section class="py-20 px-6 bg-ocean-900 border-t border-white/[0.03]">
+    <div
+      class="max-w-4xl mx-auto grid md:grid-cols-[0.9fr_1.1fr] gap-8 items-center"
+    >
+      <div>
+        <p
+          class="text-[11px] font-medium tracking-[0.2em] uppercase text-ocean-500 mb-3"
+        >
+          Sovereign giving
+        </p>
+        <h2
+          class="font-heading text-[32px] font-light text-white leading-tight"
+        >
+          Surplus becomes support.
+        </h2>
+      </div>
+      <div>
+        <p class="text-white/45 text-[15px] font-light leading-relaxed mb-6">
+          {nonprofitConfig.name} is the nonprofit arm in formation: a donation
+          interest lane and farm-to-reset model for people who need room, meals,
+          Wi-Fi, and a structured way to re-enter life.
+        </p>
+        <CTAButton
+          href={nonprofitConfig.route}
+          label="Open the Impact Model"
+          variant="secondary"
+        />
+      </div>
+    </div>
+  </section>
+
+  <BusinessRhythm />
+
+  <!-- Features -->
+  <section id="systems" class="py-24 px-6 bg-ocean-900">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
+      <div class="glass-card p-8">
+        <div class="text-3xl mb-4">⚙️</div>
+        <h3 class="font-heading text-[20px] text-white mb-3 text-gold">
+          Backend Infrastructure
+        </h3>
+        <p class="text-white/40 text-[14px] leading-relaxed">
+          The "nervous system" of your business. CRM integration, automated
+          funnels, and payment gates that work while you're offline.
+        </p>
+      </div>
+      <div class="glass-card p-8">
+        <div class="text-3xl mb-4">💎</div>
+        <h3 class="font-heading text-[20px] text-white mb-3 text-gold">
+          Skill-Based Authority
+        </h3>
+        <p class="text-white/40 text-[14px] leading-relaxed">
+          Packaging your unique expertise into high-value offers that decouple
+          your income from your hourly rate.
+        </p>
+      </div>
+      <div class="glass-card p-8">
+        <div class="text-3xl mb-4">⏳</div>
+        <h3 class="font-heading text-[20px] text-white mb-3 text-gold">
+          Time Reclamation
+        </h3>
+        <p class="text-white/40 text-[14px] leading-relaxed">
+          Moving from manual labor to systemic management. Building a platform
+          that scales without requiring more of you.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-28 px-6 glow-bg text-center">
+    <div class="relative max-w-xl mx-auto">
+      <h2
+        class="font-heading text-[clamp(32px,4vw,48px)] font-light text-white mb-6"
+      >
+        Ready to install your systems?
+      </h2>
+      <p class="text-white/40 text-[16px] font-light mb-10 leading-relaxed">
+        Let's build the infrastructure of your independence. Use the DP path if
+        you're ready for the $99 entry, or join the broader systems waitlist.
+      </p>
+      <div class="mb-6">
+        <CTAButton href="/business/dp" label="Open the DP Path" />
+      </div>
+      <form
+        id="biz-waitlist-form"
+        class="max-w-sm mx-auto space-y-3"
+        action="/capture"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="source"
+          value="business-application-waitlist"
+        />
+        <input
+          type="email"
+          name="email"
+          aria-label="Email address"
+          placeholder="your@email.com"
+          required
+          class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[14px]"
+        />
+        <button
+          type="submit"
+          class="w-full bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+        >
+          Join the Waitlist
+        </button>
+      </form>
+      <p id="biz-waitlist-status" class="mt-4 text-[11px] text-white/30 hidden">
+      </p>
+    </div>
+  </section>
+</Base>
+
+<script>
+  import { trackEvent } from '../../lib/analytics';
+
+  const form = document.getElementById('biz-waitlist-form') as HTMLFormElement;
+  const status = document.getElementById('biz-waitlist-status')!;
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = (
+      form.querySelector('input[name="email"]') as HTMLInputElement
+    ).value.trim();
+    if (!email) return;
+    // Success copy is gated on the capture actually landing — a failed or
+    // rate-limited POST must not claim "you're on the list" (silent-failure
+    // fix from the 2026-06-05 conversion baseline audit).
+    let ok = false;
+    try {
+      const resp = await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          source: 'business-application-waitlist',
+        }),
+      });
+      ok = resp.ok;
+    } catch {
+      ok = false;
+    }
+    trackEvent({ action: 'waitlist_submit', ok });
+    if (ok) {
+      form.classList.add('hidden');
+      status.textContent =
+        "You're on the list. We'll notify you when applications open.";
+    } else {
+      status.textContent =
+        "Hmm — that didn't go through. Give it a moment and try again.";
+    }
+    status.classList.remove('hidden');
+  });
+</script>

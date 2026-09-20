@@ -1,0 +1,594 @@
+---
+/**
+ * /quiz — node-placement quiz
+ *
+ * Replaces the prior pillar-picker (`config.pillars.map(...)`) with a
+ * 5-question affinity flow that places the user on one of the 13 spiral
+ * nodes via client-side scoring against the node themes/phase/pillar.
+ *
+ * Value-first contract: the user sees their node placement BEFORE the
+ * email capture. Submission to /capture is fire-and-forget — the user's
+ * UX never blocks on network. This is the "local-first / GHL-bypass"
+ * path: the result is delivered locally regardless of whether the
+ * GoHighLevel webhook is wired (or even when KV persistence is bound).
+ */
+import Base from '../layouts/Base.astro';
+import { config } from '../data/hub.config';
+import {
+  quizQuestions,
+  quizResultCopy,
+  quizCaptureCopy,
+} from '../data/quiz.config';
+
+const resultCopyJson = JSON.stringify(quizResultCopy);
+const captureCopyJson = JSON.stringify(quizCaptureCopy);
+
+// Pre-process node data for client-side scoring; only the fields the
+// quiz needs are serialized into the DOM (no internal/private fields).
+const quizNodes = config.nodes.map((n) => ({
+  id: n.id,
+  name: n.name,
+  phase: n.phase,
+  pillarSlug: n.pillarSlug,
+  emoji: n.emoji,
+  tagline: n.tagline,
+  status: n.status,
+  url: n.url,
+  themes: n.themes ?? [],
+  chakra: n.chakra,
+}));
+const nodesJson = JSON.stringify(quizNodes);
+
+const pillarChoices = config.pillars.map((p) => ({
+  slug: p.slug,
+  name: p.name,
+  emoji: p.emoji,
+}));
+const pillarsJson = JSON.stringify(pillarChoices);
+
+const questionsJson = JSON.stringify(quizQuestions);
+---
+
+<Base
+  title="Find Your Starting Point"
+  description="Five questions to place you on the spiral. Your starting point is where the work meets you, not where you think you should begin."
+>
+  <section
+    class="min-h-[80vh] flex items-center justify-center py-20 px-6 glow-bg"
+  >
+    <div
+      class="max-w-xl mx-auto w-full"
+      id="quiz-root"
+      data-nodes={nodesJson}
+      data-pillars={pillarsJson}
+      data-questions={questionsJson}
+      data-result-copy={resultCopyJson}
+      data-capture-copy={captureCopyJson}
+    >
+      <!-- Progress dots -->
+      <div
+        id="quiz-progress"
+        class="flex justify-center gap-2 mb-10"
+        aria-hidden="true"
+      >
+      </div>
+
+      <!-- Question stage (one step at a time) -->
+      <div id="quiz-stage" class="min-h-[420px]">
+        {
+          quizQuestions.map((q) => (
+            <div class="quiz-step hidden" data-step={q.step} data-axis={q.axis}>
+              <h1 class="font-heading text-[clamp(28px,4.5vw,40px)] font-light text-white mb-3 text-center">
+                {q.text}
+              </h1>
+              <p class="text-white/40 text-[14px] font-light text-center mb-8">
+                {q.subtitle}
+              </p>
+              {q.step === 2 ? (
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {q.answers.map((a) => (
+                    <button
+                      type="button"
+                      class="quiz-option glass-card p-5 text-left"
+                      data-value={a.value}
+                      aria-pressed="false"
+                    >
+                      {a.emoji && (
+                        <span class="text-2xl block mb-1">{a.emoji}</span>
+                      )}
+                      <span class="block text-white text-[15px] font-light">
+                        {a.text}
+                      </span>
+                      {a.sublabel && (
+                        <span class="block text-white/40 text-[12px] mt-1">
+                          {a.sublabel}
+                        </span>
+                      )}
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                <div class="space-y-3">
+                  {q.answers.map((a) => (
+                    <button
+                      type="button"
+                      class="quiz-option glass-card w-full p-5 text-left"
+                      data-value={a.value}
+                      aria-pressed="false"
+                    >
+                      <span class="block text-white text-[15px] font-light leading-snug">
+                        {a.text}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))
+        }
+
+        <!-- Result panel -->
+        <div class="quiz-step hidden" data-step="result">
+          <p
+            class="text-white/40 text-[12px] uppercase tracking-[0.15em] text-center mb-3"
+          >
+            {quizResultCopy.label}
+          </p>
+          <div id="result-card" class="glass-card p-8 text-center">
+            <div id="result-emoji" class="text-5xl mb-4"></div>
+            <h2
+              id="result-title"
+              class="font-heading text-[clamp(26px,4vw,36px)] font-light text-white mb-2"
+            >
+            </h2>
+            <p
+              id="result-tagline"
+              class="text-white/55 text-[15px] font-light italic mb-6"
+            >
+            </p>
+            <p
+              id="result-why"
+              class="text-white/40 text-[13px] font-light leading-relaxed mb-8 max-w-md mx-auto"
+            >
+            </p>
+            <p
+              id="result-note"
+              class="hidden text-ocean-300/70 text-[12px] font-light leading-relaxed mb-8 max-w-md mx-auto"
+            >
+            </p>
+            <a
+              id="result-cta"
+              href="/"
+              class="inline-block bg-ocean-500 hover:bg-ocean-400 text-white font-medium py-3 px-8 rounded-lg transition-all shadow-lg shadow-ocean-500/10 active:scale-[0.98] text-[14px]"
+              >Visit your node →</a
+            >
+            <!-- Change-answers affordance (GH #207): once on the result panel
+                 the back button is hidden, so without this the only
+                 interactive element is the email form — the likely source of
+                 the "tried to send an email" confusion. -->
+            <button
+              id="result-retake"
+              type="button"
+              class="block mx-auto mt-5 text-white/30 hover:text-white/60 text-[12px] uppercase tracking-[0.15em] transition-colors"
+            >
+              ← Change my answers
+            </button>
+          </div>
+
+          <!-- Optional capture (value already delivered above) -->
+          <div class="mt-10 text-center">
+            <p
+              class="text-white/35 text-[12px] uppercase tracking-[0.15em] mb-4"
+            >
+              {quizCaptureCopy.label}
+            </p>
+            <p class="text-white/30 text-[13px] font-light mb-5">
+              {quizCaptureCopy.description}
+            </p>
+            <form id="quiz-capture-form" class="space-y-3 max-w-sm mx-auto">
+              <input
+                type="text"
+                name="name"
+                aria-label={quizCaptureCopy.namePlaceholder}
+                placeholder={quizCaptureCopy.namePlaceholder}
+                class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[14px]"
+              />
+              <input
+                type="email"
+                name="email"
+                aria-label={quizCaptureCopy.emailPlaceholder}
+                placeholder={quizCaptureCopy.emailPlaceholder}
+                class="w-full bg-ocean-800/50 border border-ocean-500/20 rounded-lg px-4 py-3 text-white placeholder:text-white/20 focus:outline-none focus:border-ocean-400 transition-colors text-[14px]"
+              />
+              <button
+                type="submit"
+                class="w-full bg-transparent border border-ocean-500/30 hover:border-ocean-400 text-white/70 hover:text-white font-medium py-3 rounded-lg transition-all text-[13px]"
+                >{quizCaptureCopy.submitLabel}</button
+              >
+            </form>
+            <p
+              id="capture-status"
+              class="mt-4 text-[11px] text-white/30 hidden"
+            >
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back button (shown on Q2+) -->
+      <div class="flex justify-center mt-8">
+        <button
+          id="quiz-back"
+          type="button"
+          class="text-white/30 hover:text-white/60 text-[12px] font-light tracking-wide uppercase transition-colors hidden"
+          >&larr; Back</button
+        >
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .quiz-option {
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .quiz-option:hover {
+    transform: translateY(-1px);
+    border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.5);
+  }
+  .quiz-option.selected {
+    border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158), 1);
+    box-shadow: 0 0 20px rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.2);
+  }
+</style>
+
+<script>
+  import { trackEvent } from '../lib/analytics';
+  import type {
+    QuizQuestion,
+    QuizResultCopy,
+    QuizCaptureCopy,
+  } from '../data/quiz.config';
+
+  // ---------------------------------------------------------------
+  // Types & types-like (the script is plain JS at runtime; the
+  // type-shaped comments document the contract for human readers).
+  // ---------------------------------------------------------------
+  type Phase = 'ELEVATE' | 'ALIGN' | 'UNLOCK';
+  interface QuizNode {
+    id: number;
+    name: string;
+    phase: Phase;
+    pillarSlug: string;
+    emoji: string;
+    tagline: string;
+    status: 'live' | 'locked';
+    url: string;
+    themes: string[];
+    chakra?: string;
+  }
+  interface RankedNode {
+    node: QuizNode;
+    score: number;
+  }
+  interface ResultSelection extends RankedNode {
+    previewNode?: QuizNode;
+  }
+
+  const root = document.getElementById('quiz-root');
+  if (!root) throw new Error('quiz-root missing');
+
+  const nodes: QuizNode[] = JSON.parse(root.dataset.nodes ?? '[]');
+  const questions: QuizQuestion[] = JSON.parse(root.dataset.questions ?? '[]');
+  const resultCopy: QuizResultCopy = JSON.parse(
+    root.dataset.resultCopy ?? '{}',
+  );
+  const captureCopy: QuizCaptureCopy = JSON.parse(
+    root.dataset.captureCopy ?? '{}',
+  );
+  const TOTAL_STEPS = questions.length;
+
+  // --- State ----------------------------------------------------
+  // Each step's selected value is recorded; step 1 → phase, step 2
+  // → pillar, steps 3-5 → comma-separated theme bundles.
+  const answers: { [step: number]: string } = {};
+  let currentStep = 1;
+  let pendingAdvance: ReturnType<typeof setTimeout> | undefined;
+
+  function clearPendingAdvance() {
+    if (pendingAdvance === undefined) return;
+    clearTimeout(pendingAdvance);
+    pendingAdvance = undefined;
+  }
+
+  function hasAllAnswers() {
+    return questions.every((q) => Boolean(answers[q.step]));
+  }
+
+  // --- Progress dots --------------------------------------------
+  const progress = document.getElementById('quiz-progress')!;
+  for (let i = 0; i < TOTAL_STEPS; i++) {
+    const dot = document.createElement('span');
+    dot.className =
+      'inline-block w-2 h-2 rounded-full bg-white/15 transition-all';
+    dot.dataset.dot = String(i + 1);
+    progress.appendChild(dot);
+  }
+  function paintProgress() {
+    progress
+      .querySelectorAll<HTMLSpanElement>('span[data-dot]')
+      .forEach((d) => {
+        const n = Number(d.dataset.dot);
+        d.className =
+          'inline-block w-2 h-2 rounded-full transition-all ' +
+          (n < currentStep
+            ? 'bg-ocean-500'
+            : n === currentStep
+              ? 'bg-ocean-300 scale-125'
+              : 'bg-white/15');
+      });
+  }
+
+  // --- Step navigation ------------------------------------------
+  const stage = document.getElementById('quiz-stage')!;
+  const backBtn = document.getElementById('quiz-back') as HTMLButtonElement;
+
+  function showStep(step: number | 'result') {
+    stage.querySelectorAll<HTMLDivElement>('.quiz-step').forEach((el) => {
+      el.classList.toggle('hidden', el.dataset.step !== String(step));
+    });
+    if (step === 'result') {
+      progress.classList.add('hidden');
+      backBtn.classList.add('hidden');
+    } else {
+      progress.classList.remove('hidden');
+      currentStep = step;
+      paintProgress();
+      backBtn.classList.toggle('hidden', step === 1);
+    }
+  }
+  paintProgress();
+  showStep(1);
+
+  // --- Option clicks --------------------------------------------
+  let quizStarted = false;
+  stage.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    const opt = target.closest<HTMLButtonElement>('.quiz-option');
+    if (!opt) return;
+    const stepEl = opt.closest<HTMLDivElement>('.quiz-step');
+    if (!stepEl || !stepEl.dataset.step) return;
+    const step = stepEl.dataset.step;
+    const stepNumber = Number(step);
+    if (!Number.isFinite(stepNumber)) return;
+    const value = opt.dataset.value ?? '';
+    // Funnel-entry marker (taxonomy member was defined but never emitted —
+    // 2026-06-05 conversion baseline audit): fires once per quiz session.
+    if (!quizStarted) {
+      quizStarted = true;
+      trackEvent({ action: 'quiz_start', source: 'hub' });
+    }
+    const alreadySelected =
+      answers[stepNumber] === value && opt.classList.contains('selected');
+    clearPendingAdvance();
+    if (alreadySelected) {
+      delete answers[stepNumber];
+      opt.classList.remove('selected');
+      opt.setAttribute('aria-pressed', 'false');
+      return;
+    }
+    answers[stepNumber] = value;
+    // Visual select feedback
+    stepEl
+      .querySelectorAll<HTMLButtonElement>('.quiz-option')
+      .forEach((o) => {
+        o.classList.remove('selected');
+        o.setAttribute('aria-pressed', 'false');
+      });
+    opt.classList.add('selected');
+    opt.setAttribute('aria-pressed', 'true');
+    // Auto-advance after a brief delay so the user sees their selection register
+    pendingAdvance = setTimeout(() => {
+      pendingAdvance = undefined;
+      if (answers[stepNumber] !== value) return;
+      if (stepNumber < TOTAL_STEPS) {
+        showStep(stepNumber + 1);
+      } else if (hasAllAnswers()) {
+        showResult();
+      }
+    }, 280);
+  });
+
+  backBtn.addEventListener('click', () => {
+    clearPendingAdvance();
+    if (currentStep > 1) showStep(currentStep - 1);
+  });
+
+  // Result-panel retake (GH #207): return to the last question with all
+  // selections intact (answers object + .selected classes persist), so the
+  // user can revise any answer instead of being funneled to the email form.
+  document.getElementById('result-retake')?.addEventListener('click', () => {
+    clearPendingAdvance();
+    showStep(TOTAL_STEPS);
+  });
+
+  // --- Scoring --------------------------------------------------
+  // Phase weight: matching the user-selected phase contributes +3.
+  // 'ALL' contributes +1 to every node (no phase bias).
+  // Pillar weight: matching slug contributes +3.
+  // Theme weight: each matching theme contributes +2 (per Q3-Q5).
+  function scoreNode(node: QuizNode): number {
+    let score = 0;
+    const phaseAns = answers[1];
+    if (phaseAns === 'ALL') {
+      score += 1;
+    } else if (phaseAns === node.phase) {
+      score += 3;
+    }
+    const pillarAns = answers[2];
+    if (pillarAns === node.pillarSlug) score += 3;
+    const themeBundles = [answers[3], answers[4], answers[5]].filter(Boolean);
+    const userThemes = new Set<string>();
+    themeBundles.forEach((b) =>
+      b.split(',').forEach((t) => userThemes.add(t.trim())),
+    );
+    node.themes.forEach((t) => {
+      if (userThemes.has(t)) score += 2;
+    });
+    return score;
+  }
+
+  // Maximum possible score:
+  //   phase  = 3 (single-phase pick) or 1 (ALL → 1 added always)
+  //   pillar = 3
+  //   themes = up to 3 themes per node × 2 = 6 (if user themes hit all 3)
+  // 12 is the score ceiling (the maximum any node can reach); it is the
+  // normalization divisor — never 0, so the percent math is safe.
+  const MAX_SCORE = 12;
+
+  function rankNodes(): RankedNode[] {
+    return nodes
+      .map((node) => ({ node, score: scoreNode(node) }))
+      .sort((a, b) => b.score - a.score);
+  }
+
+  function normalizeScore(score: number): number {
+    return Math.min(100, Math.round((score / MAX_SCORE) * 100));
+  }
+
+  function selectResult(): ResultSelection | null {
+    const ranked = rankNodes();
+    const top = ranked[0];
+    if (!top) return null;
+    const routed = ranked.find(({ node }) => node.status === 'live') ?? top;
+    return {
+      ...routed,
+      previewNode:
+        top.node.status === 'locked' && top.node.id !== routed.node.id
+          ? top.node
+          : undefined,
+    };
+  }
+
+  function showResult() {
+    if (!hasAllAnswers()) return;
+    const result = selectResult();
+    if (!result) return;
+    const normalized = normalizeScore(result.score);
+    paintResult(result.node, normalized, result.previewNode);
+    showStep('result');
+    fireCapture(result.node, normalized);
+  }
+
+  function paintResult(
+    node: QuizNode,
+    score: number,
+    previewNode?: QuizNode,
+  ) {
+    document.getElementById('result-emoji')!.textContent = node.emoji;
+    document.getElementById('result-title')!.textContent =
+      `Node ${node.id} — ${node.name}`;
+    document.getElementById('result-tagline')!.textContent = node.tagline;
+    const cta = document.getElementById('result-cta') as HTMLAnchorElement;
+    cta.href = node.url;
+    const ctaTemplate =
+      node.status === 'locked'
+        ? resultCopy.ctaPreviewTemplate
+        : resultCopy.ctaVisitTemplate;
+    cta.textContent = ctaTemplate.replace('{nodeId}', String(node.id));
+    const why = document.getElementById('result-why')!;
+    const phaseHit =
+      answers[1] === node.phase || answers[1] === 'ALL'
+        ? 'phase resonance'
+        : '';
+    const pillarHit = answers[2] === node.pillarSlug ? 'pillar resonance' : '';
+    const themeNames = node.themes.join(', ');
+    const reasons =
+      [phaseHit, pillarHit].filter(Boolean).join(' + ') ||
+      resultCopy.whyReasonsFallback;
+    why.textContent = resultCopy.whyTemplate
+      .replace('{score}', String(score))
+      .replace('{reasons}', reasons)
+      .replace('{themes}', themeNames);
+    const note = document.getElementById('result-note')!;
+    if (previewNode) {
+      note.textContent = resultCopy.lockedMatchTemplate.replace(
+        '{nodeId}',
+        String(previewNode.id),
+      );
+      note.classList.remove('hidden');
+    } else {
+      note.textContent = '';
+      note.classList.add('hidden');
+    }
+  }
+
+  // --- Capture (fire-and-forget; never blocks UX) ---------------
+  function fireCapture(node: QuizNode, score: number) {
+    // Capture happens automatically when result renders if the user
+    // also fills in name+email. The capture form's submit is what
+    // actually sends — this function is just the analytics ping.
+    trackEvent({
+      action: 'quiz_complete',
+      nodeId: node.id,
+      score,
+      source: 'hub',
+    });
+  }
+
+  const captureForm = document.getElementById(
+    'quiz-capture-form',
+  ) as HTMLFormElement;
+  const captureStatus = document.getElementById('capture-status')!;
+  captureForm?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const nameInput = captureForm.querySelector(
+      'input[name="name"]',
+    ) as HTMLInputElement;
+    const emailInput = captureForm.querySelector(
+      'input[name="email"]',
+    ) as HTMLInputElement;
+    const button = captureForm.querySelector(
+      'button[type="submit"]',
+    ) as HTMLButtonElement;
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    if (!email) {
+      captureStatus.textContent = captureCopy.statusEmailNeeded;
+      captureStatus.classList.remove('hidden');
+      return;
+    }
+
+    button.textContent = captureCopy.statusSending;
+    button.disabled = true;
+
+    const result = selectResult();
+    const normalized = result ? normalizeScore(result.score) : 0;
+    const phaseAns =
+      answers[1] === 'ALL' ? null : (answers[1] as Phase | undefined);
+
+    try {
+      await fetch('/capture', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          name,
+          source: 'spiral_quiz',
+          quizNodeId: result?.node.id,
+          quizPreviewNodeId: result?.previewNode?.id,
+          quizScore: normalized,
+          quizPath: `${answers[1] ?? '?'}|${answers[2] ?? '?'}|${[3, 4, 5].map((i) => answers[i] ?? '').join(';')}`,
+          selectedPillar: answers[2],
+          selectedPhase: phaseAns ?? undefined,
+        }),
+      });
+    } catch {
+      // Fire-and-forget. Even on failure, do not unblock — user has their result.
+    }
+    button.textContent = captureCopy.statusConnected;
+    captureStatus.textContent = captureCopy.statusWelcome;
+    captureStatus.classList.remove('hidden');
+  });
+</script>

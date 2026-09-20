@@ -1,0 +1,532 @@
+---
+/**
+ * SpiralIsland — Three.js helix wrapper (all devices).
+ *
+ * Renders on both desktop and mobile. If WebGL fails, the
+ * SpiralFallback card list remains visible as a graceful degradation.
+ */
+import { config, ui } from '../../data/hub.config';
+import TunePanel from './TunePanel.astro';
+
+interface Props {
+  immersive?: boolean;
+}
+
+const { immersive = false } = Astro.props;
+const nodeWorldHref = (node: (typeof config.nodes)[number]) =>
+  node.url.startsWith('/nodes/') ? node.url : `/nodes/${node.id}`;
+const spiralNodes = config.nodes.map((node) => ({
+  ...node,
+  url: nodeWorldHref(node),
+}));
+const staticNodes = spiralNodes.map((node, index) => {
+  const turn = index / Math.max(1, spiralNodes.length - 1);
+  const theta = index * 2.399963229728653;
+  const radius = 18 + turn * 24;
+  const x = 58 + Math.cos(theta) * radius;
+  const y = 86 - turn * 72;
+  const scale = 0.74 + turn * 0.46;
+  return {
+    ...node,
+    x: `${x.toFixed(2)}%`,
+    y: `${y.toFixed(2)}%`,
+    size: `${(18 + scale * 18).toFixed(1)}px`,
+    delay: `${(index * -0.38).toFixed(2)}s`,
+  };
+});
+const hashEnvVar = (envVar: string) =>
+  Array.from(envVar).reduce(
+    (hash, char) => (hash * 33 + char.charCodeAt(0)) % 9973,
+    17,
+  );
+const railCount = 7;
+const railPaths = Array.from({ length: railCount }, (_, railIndex) => {
+  const points = staticNodes
+    .map((node, nodeIndex) => {
+      const seed = hashEnvVar(node.envVar);
+      const t = nodeIndex / Math.max(1, staticNodes.length - 1);
+      const harmonic = 1.5 + (seed % 7) * 0.17 + railIndex * 0.13;
+      const polarity = railIndex % 2 === 0 ? 1 : -1;
+      const drift =
+        Math.sin(t * Math.PI * harmonic + seed * 0.011 + railIndex) *
+        (1.4 + (seed % 5) * 0.22);
+      const fall =
+        Math.cos(t * Math.PI * (harmonic + 0.35) + seed * 0.007) *
+        0.8 *
+        polarity;
+      const x = Number.parseFloat(node.x) + drift * polarity;
+      const y = Number.parseFloat(node.y) + fall;
+      return `${x.toFixed(2)},${y.toFixed(2)}`;
+    })
+    .join(' ');
+  const seed = hashEnvVar(staticNodes[railIndex % staticNodes.length].envVar);
+  return {
+    points,
+    className: `spiral-static-field__rail spiral-static-field__rail--${railIndex % 2 === 0 ? 'rise' : 'fall'}`,
+    style: [
+      `--rail-duration:${(13 + railIndex * 1.7 + (seed % 3)).toFixed(1)}s`,
+      `--rail-delay:${(-railIndex * 1.31).toFixed(2)}s`,
+      `--rail-opacity:${(0.16 + (seed % 5) * 0.025).toFixed(3)}`,
+      `--rail-width:${(0.08 + (railIndex % 3) * 0.025).toFixed(3)}`,
+    ].join(';'),
+  };
+});
+const nodesJson = JSON.stringify(spiralNodes);
+const uiDefaults = JSON.stringify(ui);
+---
+
+<div
+  class:list={[
+    'relative w-full',
+    immersive
+      ? 'min-h-[760px] h-[calc(100vh-56px)] supports-[height:1dvh]:h-[calc(100dvh-56px)]'
+      : 'h-[calc(100vh-240px)] supports-[height:1dvh]:h-[calc(100dvh-240px)]',
+  ]}
+>
+  <div
+    id="spiral-container"
+    class="absolute inset-0 w-full h-full"
+    role="img"
+    aria-label="Interactive 3D spiral showing 13 nodes across the Elevate, Align, and Unlock phases"
+    data-nodes={nodesJson}
+    data-ui={uiDefaults}
+    data-immersive={immersive ? 'true' : 'false'}
+  >
+  </div>
+  <div
+    class:list={[
+      'spiral-static-field absolute inset-0',
+      immersive && 'spiral-static-field--immersive',
+    ]}
+    aria-hidden="true"
+  >
+    <svg
+      class="spiral-static-field__rails"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+      focusable="false"
+    >
+      {
+        railPaths.map((rail) => (
+          <polyline
+            class={rail.className}
+            points={rail.points}
+            style={rail.style}
+          />
+        ))
+      }
+    </svg>
+    <div class="spiral-static-field__axis"></div>
+    {
+      staticNodes.map((node) => (
+        <a
+          href={node.url}
+          class="spiral-static-node"
+          style={`--node-x:${node.x}; --node-y:${node.y}; --node-size:${node.size}; --node-color:${node.color}; --node-delay:${node.delay};`}
+          tabindex="-1"
+        >
+          <span class="spiral-static-node__matter" />
+          <span class="spiral-static-node__label">{node.name}</span>
+        </a>
+      ))
+    }
+  </div>
+  <nav
+    class="sr-only focus-within:not-sr-only focus-within:absolute focus-within:inset-x-4 focus-within:bottom-4 focus-within:z-20 focus-within:grid focus-within:max-h-56 focus-within:grid-cols-1 focus-within:gap-2 focus-within:overflow-auto focus-within:rounded-md focus-within:border focus-within:border-white/10 focus-within:bg-ocean-900/95 focus-within:p-4 focus-within:backdrop-blur md:focus-within:grid-cols-2"
+    aria-label="Spiral node links"
+  >
+    {
+      spiralNodes.map((node) => (
+        <a
+          href={node.url}
+          class="text-[12px] font-medium uppercase tracking-[0.12em] text-ocean-300 transition-colors focus:text-white focus:outline-none focus:ring-1 focus:ring-ocean-300/60"
+        >
+          {node.id}. {node.name}
+        </a>
+      ))
+    }
+  </nav>
+</div>
+
+{/* Internal live element tuner — only un-hides for ?tune=1 (no nav link). */}
+<TunePanel />
+
+<style>
+  .spiral-static-field {
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.74;
+    mix-blend-mode: screen;
+  }
+
+  .spiral-static-field--immersive {
+    opacity: 0.92;
+  }
+
+  .spiral-static-field__axis {
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    bottom: 8%;
+    width: 1px;
+    transform: translateX(-50%);
+    background: linear-gradient(
+      180deg,
+      transparent,
+      rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.16) 18%,
+      rgba(var(--color-gold-rgb, 201, 169, 110), 0.14) 50%,
+      rgba(var(--color-ocean-300-rgb, 125, 211, 215), 0.16) 82%,
+      transparent
+    );
+    filter: blur(0.2px);
+  }
+
+  .spiral-static-field__rails {
+    position: absolute;
+    inset: 4% 7% 5%;
+    overflow: visible;
+    opacity: 0.96;
+    /* admin 2026-06-22 #17: spiral must be immediately recognizable. Stronger,
+       wider glow so the spiral path reads boldly. */
+    filter: drop-shadow(0 0 14px rgba(80, 225, 220, 0.38));
+  }
+
+  .spiral-static-field__rail {
+    fill: none;
+    stroke: rgba(125, 230, 224, var(--rail-opacity, 0.34));
+    stroke-width: var(--rail-width, 0.2);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 5 11 1 17;
+    vector-effect: non-scaling-stroke;
+    animation: spiralRailRise var(--rail-duration, 17s) linear infinite;
+    animation-delay: var(--rail-delay, 0s);
+  }
+
+  .spiral-static-field__rail--fall {
+    stroke: rgba(230, 202, 135, 0.22);
+    stroke-dasharray: 8 15 2 12;
+    animation-name: spiralRailFall;
+  }
+
+  .spiral-static-field__rail:nth-child(3n) {
+    stroke: rgba(196, 160, 255, 0.18);
+    stroke-dasharray: 12 18;
+  }
+
+  .spiral-static-field__rail:nth-child(4n) {
+    stroke: rgba(255, 255, 255, 0.13);
+    stroke-dasharray: 2 20;
+  }
+
+  .spiral-static-node {
+    position: absolute;
+    left: var(--node-x);
+    top: var(--node-y);
+    width: var(--node-size);
+    aspect-ratio: 1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    color: var(--node-color);
+  }
+
+  .spiral-static-node__matter {
+    position: absolute;
+    inset: 0;
+    border-radius: 46% 54% 42% 58% / 58% 42% 56% 44%;
+    background:
+      radial-gradient(circle at 50% 50%, white 0 8%, transparent 16%),
+      radial-gradient(
+        circle at 50% 50%,
+        color-mix(in srgb, currentColor 88%, white 12%),
+        transparent 58%
+      ),
+      conic-gradient(
+        from 0deg,
+        color-mix(in srgb, currentColor 76%, transparent),
+        transparent 16%,
+        color-mix(in srgb, white 48%, currentColor 52%),
+        transparent 44%,
+        color-mix(in srgb, currentColor 70%, transparent),
+        transparent 76%,
+        color-mix(in srgb, white 36%, currentColor 64%)
+      );
+    box-shadow:
+      0 0 18px color-mix(in srgb, currentColor 72%, transparent),
+      0 0 48px color-mix(in srgb, currentColor 36%, transparent);
+    clip-path: polygon(
+      50% 0,
+      60% 34%,
+      95% 18%,
+      66% 46%,
+      100% 58%,
+      62% 62%,
+      70% 100%,
+      50% 68%,
+      30% 100%,
+      38% 62%,
+      0 58%,
+      34% 46%,
+      5% 18%,
+      40% 34%
+    );
+    animation: spiralStaticBreathe 5.5s ease-in-out infinite;
+    animation-delay: var(--node-delay);
+  }
+
+  .spiral-static-node__matter::before,
+  .spiral-static-node__matter::after {
+    content: '';
+    position: absolute;
+    inset: 16%;
+    border: 1px solid color-mix(in srgb, currentColor 58%, white 22%);
+    border-radius: inherit;
+    opacity: 0.56;
+  }
+
+  .spiral-static-node__matter::after {
+    inset: 30%;
+    border-style: dotted;
+    transform: rotate(45deg);
+    opacity: 0.42;
+  }
+
+  .spiral-static-node__label {
+    position: absolute;
+    top: calc(100% + 0.45rem);
+    left: 50%;
+    width: 8rem;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.38);
+    opacity: 0;
+  }
+
+  .spiral-static-field--immersive .spiral-static-node__label {
+    opacity: 0.58;
+  }
+
+  @keyframes spiralStaticBreathe {
+    0%,
+    100% {
+      transform: scale(0.92) rotate(-3deg);
+      opacity: 0.68;
+    }
+    50% {
+      transform: scale(1.08) rotate(5deg);
+      opacity: 1;
+    }
+  }
+
+  @keyframes spiralRailRise {
+    0% {
+      stroke-dashoffset: 0;
+      opacity: 0.2;
+      transform: translateY(0);
+    }
+    42% {
+      opacity: 0.62;
+    }
+    100% {
+      stroke-dashoffset: -96;
+      opacity: 0.24;
+      transform: translateY(-0.8%);
+    }
+  }
+
+  @keyframes spiralRailFall {
+    0% {
+      stroke-dashoffset: 0;
+      opacity: 0.14;
+      transform: translateY(0.7%);
+    }
+    48% {
+      opacity: 0.5;
+    }
+    100% {
+      stroke-dashoffset: 86;
+      opacity: 0.18;
+      transform: translateY(-0.5%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .spiral-static-node__matter,
+    .spiral-static-field__rail {
+      animation: none;
+    }
+  }
+</style>
+
+<script>
+  declare global {
+    interface Window {
+      __spiralCleanup?: (() => void) | null;
+      // Re-init the spiral in place (teardown + fresh boot that re-reads
+      // resolveParams from the current URL). Exposed for the ?tune panel so a
+      // knob change re-renders INSTANTLY instead of via a full, idle-deferred
+      // page reload (admin 2026-06-25: "it won't update the changes").
+      __spiralReboot?: (() => void) | null;
+    }
+  }
+
+  const VESSEL_MODES = [
+    'invisible',
+    'visible',
+    'refracted-star',
+    'hybrid',
+  ] as const;
+  type VesselMode = (typeof VESSEL_MODES)[number];
+
+  const LABEL_MODES = ['hover', 'always'] as const;
+  type LabelMode = (typeof LABEL_MODES)[number];
+
+  const SPIRAL_LAYOUTS = ['helix', 'constellation'] as const;
+  type SpiralLayout = (typeof SPIRAL_LAYOUTS)[number];
+
+  function teardown(): void {
+    if (window.__spiralCleanup) {
+      window.__spiralCleanup();
+      window.__spiralCleanup = null;
+    }
+  }
+
+  function boot(): void {
+    const container = document.getElementById('spiral-container');
+    if (!container) return;
+
+    // Kill any existing instance
+    teardown();
+
+    const raw = container.dataset.nodes;
+    if (!raw) return;
+
+    // Guard the data parse — malformed node/ui JSON is a DATA error, distinct
+    // from a WebGL/import failure. On parse failure keep the static spiral
+    // field visible (graceful degradation) rather than hiding the container as
+    // if the 3D engine itself had failed.
+    let nodes: unknown;
+    let uiDefault: {
+      spiralVesselMode?: string;
+      spiralLabelMode?: string;
+      spiralLayout?: string;
+    };
+    try {
+      nodes = JSON.parse(raw);
+      const uiRaw = container.dataset.ui;
+      uiDefault = uiRaw ? JSON.parse(uiRaw) : { spiralVesselMode: 'invisible' };
+    } catch (err) {
+      console.error('[SpiralIsland] malformed node/ui data:', err);
+      return;
+    }
+
+    import('./spiral.ts')
+      .then(({ initSpiral, resolveParams }) => {
+        // Variant switch: ?variant=stars renders generative refracted-light stars;
+        // anything else (default) renders sacred-symbol shapes per node.
+        const params = new URLSearchParams(window.location.search);
+        const variantParam = params.get('variant');
+        const variant = variantParam === 'stars' ? 'stars' : 'symbols';
+        // Vessel mode: ?vessel=visible|refracted-star|hybrid|invisible.
+        // Querystring overrides the build-time ui.spiralVesselMode default.
+        const vesselParam = params.get('vessel');
+        const vesselMode: VesselMode = VESSEL_MODES.includes(
+          vesselParam as VesselMode,
+        )
+          ? (vesselParam as VesselMode)
+          : (uiDefault.spiralVesselMode as VesselMode);
+        // Label mode: ?labels=hover|always overrides ui.spiralLabelMode.
+        // 'hover' = names materialize on hover (admin's 2026-04-19 ask);
+        // touch devices fall back to 'always' inside initSpiral.
+        const labelParam = params.get('labels');
+        const labelMode: LabelMode = LABEL_MODES.includes(
+          labelParam as LabelMode,
+        )
+          ? (labelParam as LabelMode)
+          : ((uiDefault.spiralLabelMode as LabelMode) ?? 'hover');
+        // Layout mode: ?layout=constellation switches from the shipped helix
+        // projection to admin's v2 "points as constellations" surface. Accept
+        // ?variant=constellation as a compatibility alias because the issue
+        // originally named the existing querystring pattern.
+        const layoutParam = params.get('layout');
+        const layout: SpiralLayout =
+          layoutParam === 'constellation' || variantParam === 'constellation'
+            ? 'constellation'
+            : SPIRAL_LAYOUTS.includes(layoutParam as SpiralLayout)
+              ? (layoutParam as SpiralLayout)
+              : ((uiDefault.spiralLayout as SpiralLayout) ?? 'helix');
+        container.dataset.layout = layout;
+        const cleanup = initSpiral(
+          container,
+          nodes as Parameters<typeof initSpiral>[1],
+          variant,
+          vesselMode,
+          labelMode,
+          container.dataset.immersive === 'true',
+          layout,
+          // Named element params from the Spiral Parameter Registry + any
+          // ?p.<element>.<param>= URL overrides (the live tweak mechanism).
+          resolveParams(window.location.search),
+        );
+        window.__spiralCleanup = cleanup;
+
+        // Hide fallback since 3D loaded successfully
+        const fallback = document.getElementById('spiral-fallback');
+        if (fallback) fallback.style.display = 'none';
+
+        // Hide the static CSS star field too (admin 2026-06-22): it renders 13
+        // decorative star dots as a SECOND set of stars layered over the WebGL
+        // spiral ("the background stars still ever present"). It is only meant as
+        // a pre-WebGL / no-WebGL fallback, so once the live spiral boots it must
+        // go — otherwise you see two competing sets of stars.
+        const staticField = document.querySelector('.spiral-static-field');
+        if (staticField) (staticField as HTMLElement).style.display = 'none';
+      })
+      .catch((err) => {
+        console.error('[SpiralIsland] init failed:', err);
+        // Three.js failed (no WebGL, etc.) — fallback stays visible
+        container.style.display = 'none';
+      });
+  }
+
+  // Boot deferral (perf): the spiral bundle is ~640KB (Three.js + scene) and
+  // booting it synchronously on page load blocks first paint. Defer past first
+  // paint with requestIdleCallback (timeout so it always fires, even in a
+  // backgrounded tab). The static field stays visible until WebGL takes over
+  // (unchanged behavior).
+  //
+  // NOTE: we intentionally do NOT viewport-gate the boot. On both pages the
+  // spiral is the above-the-fold hero, so an IntersectionObserver gate would add
+  // no load savings and would make boot fragile under background-tab IO
+  // throttling. Viewport-awareness belongs to the render loop's off-screen PAUSE
+  // (in spiral.ts), not to whether we boot at all.
+  function scheduleBoot(): void {
+    if (typeof window.requestIdleCallback === 'function') {
+      window.requestIdleCallback(() => boot(), { timeout: 2000 });
+    } else {
+      // Safari has no requestIdleCallback — a short timeout still yields to paint.
+      window.setTimeout(() => boot(), 200);
+    }
+  }
+
+  // Teardown triggers. astro:before-swap covers a ViewTransitions swap (none
+  // adopted today, but wired for when it is); pagehide covers full navigation
+  // and bfcache eviction so the WebGL context / RAF loop / listeners are
+  // released. astro:page-load re-arms the deferred boot after a future
+  // ViewTransitions swap so the spiral survives client-side navigation.
+  document.addEventListener('astro:before-swap', teardown);
+  window.addEventListener('pagehide', teardown);
+  document.addEventListener('astro:page-load', scheduleBoot);
+
+  // Instant in-place re-render for the ?tune panel: boot() already tears down the
+  // live instance and re-reads resolveParams(location.search), so re-invoking it
+  // applies new ?p.* params with no document reload + no requestIdleCallback lag.
+  window.__spiralReboot = () => boot();
+
+  scheduleBoot();
+</script>

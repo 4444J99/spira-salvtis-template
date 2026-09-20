@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacred Geometry Energy System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+            background: #000;
+        }
+        
+        .universe {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(ellipse at center, #1a1a2e 0%, #000000 100%);
+        }
+        
+        /* Sacred Geometry Background Layer */
+        .geometry-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.15;
+            z-index: 1;
+        }
+        
+        /* Main Energy Layer */
+        .energy-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+        
+        /* Interactive Layer */
+        .interface-layer {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            pointer-events: none;
+        }
+        
+        .interface-layer > * {
+            pointer-events: auto;
+        }
+        
+        /* Sacred Cubes - Proper 3D with perspective */
+        .sacred-node {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .sacred-node:hover {
+            transform: scale(1.1) rotateY(15deg);
+        }
+        
+        .cube-face {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            border: 2px solid rgba(255,255,255,0.3);
+            backdrop-filter: blur(10px);
+        }
+        
+        /* Cube positioning using sacred geometry */
+        .node-1 { top: 10%; left: calc(50% - 250px); }
+        .node-2 { top: 10%; left: 50%; transform: translateX(-50%); }
+        .node-3 { top: 10%; right: calc(50% - 250px); }
+        .node-4 { bottom: 10%; left: calc(50% - 250px); }
+        .node-5 { bottom: 10%; left: 50%; transform: translateX(-50%); }
+        .node-6 { bottom: 10%; right: calc(50% - 250px); }
+        
+        /* Aura effects */
+        .aura-blue {
+            animation: blueEnergy 3s ease-in-out infinite;
+        }
+        
+        .aura-purple {
+            animation: purpleEnergy 3s ease-in-out infinite;
+        }
+        
+        @keyframes blueEnergy {
+            0%, 100% {
+                filter: drop-shadow(0 0 20px #4169E1) drop-shadow(0 0 40px #4169E1) drop-shadow(0 0 60px rgba(65,105,225,0.5));
+            }
+            50% {
+                filter: drop-shadow(0 0 30px #4169E1) drop-shadow(0 0 60px #4169E1) drop-shadow(0 0 90px rgba(65,105,225,0.8));
+            }
+        }
+        
+        @keyframes purpleEnergy {
+            0%, 100% {
+                filter: drop-shadow(0 0 20px #8A2BE2) drop-shadow(0 0 40px #8A2BE2) drop-shadow(0 0 60px rgba(138,43,226,0.5));
+            }
+            50% {
+                filter: drop-shadow(0 0 30px #8A2BE2) drop-shadow(0 0 60px #8A2BE2) drop-shadow(0 0 90px rgba(138,43,226,0.8));
+            }
+        }
+        
+        /* Canvas for dynamic particles */
+        #particleCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+        
+        /* Control Panel */
+        .control-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.7);
+            padding: 15px 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .control-panel button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .control-panel button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(102,126,234,0.5);
+        }
+        
+        .control-panel label {
+            color: rgba(255,255,255,0.8);
+            font-size: 12px;
+        }
+        
+        .control-panel input[type="range"] {
+            width: 100px;
+        }
+        
+        /* Info Display */
+        .info-display {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.9);
+            font-size: 12px;
+            max-width: 250px;
+        }
+        
+        .info-display h3 {
+            margin-bottom: 10px;
+            color: #4169E1;
+            font-size: 14px;
+        }
+        
+        .stat {
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .stat-value {
+            color: #8A2BE2;
+            font-weight: bold;
+        }
+        
+        /* Spiritual Text Annotations */
+        .annotation {
+            position: absolute;
+            color: rgba(255,255,255,0.6);
+            font-size: 11px;
+            text-align: center;
+            pointer-events: none;
+            animation: textPulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes textPulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+        
+        .ann-1 { top: 5%; left: 50%; transform: translateX(-50%); }
+        .ann-2 { bottom: 5%; left: 50%; transform: translateX(-50%); }
+        .ann-3 { top: 50%; left: 2%; transform: translateY(-50%) rotate(-90deg); }
+        .ann-4 { top: 50%; right: 2%; transform: translateY(-50%) rotate(90deg); }
+        
+        /* Loading State */
+        .loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 18px;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="universe">
+        <!-- Background Sacred Geometry -->
+        <svg class="geometry-layer" id="geometryBg"></svg>
+        
+        <!-- Main Energy Canvas -->
+        <canvas id="particleCanvas" class="energy-layer"></canvas>
+        
+        <!-- Interface Layer with Sacred Nodes -->
+        <div class="interface-layer">
+            <!-- Top Trinity (Blue Aura) -->
+            <div class="sacred-node node-1 aura-blue" data-node="1" data-symbol="✠" data-tradition="Christian">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(65,105,225,0.3);">✠</div>
+            </div>
+            <div class="sacred-node node-2 aura-blue" data-node="2" data-symbol="☾" data-tradition="Islamic">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(65,105,225,0.3);">☾</div>
+            </div>
+            <div class="sacred-node node-3 aura-blue" data-node="3" data-symbol="☸" data-tradition="Buddhist">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(65,105,225,0.3);">☸</div>
+            </div>
+            
+            <!-- Bottom Trinity (Purple Aura) -->
+            <div class="sacred-node node-4 aura-purple" data-node="4" data-symbol="ॐ" data-tradition="Hindu">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(138,43,226,0.3);">ॐ</div>
+            </div>
+            <div class="sacred-node node-5 aura-purple" data-node="5" data-symbol="✠" data-tradition="Christian">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(138,43,226,0.3);">✠</div>
+            </div>
+            <div class="sacred-node node-6 aura-purple" data-node="6" data-symbol="☾" data-tradition="Islamic">
+                <div class="cube-face" style="transform: translateZ(50px); background: rgba(138,43,226,0.3);">☾</div>
+            </div>
+            
+            <!-- Spiritual Annotations -->
+            <div class="annotation ann-1">Divine Consciousness ✧ As Above</div>
+            <div class="annotation ann-2">Earthly Manifestation ✧ So Below</div>
+            <div class="annotation ann-3">Left Path ← Lunar Feminine ☾</div>
+            <div class="annotation ann-4">Solar Masculine ☉ → Right Path</div>
+        </div>
+        
+        <!-- Info Display -->
+        <div class="info-display">
+            <h3>⚛ Energy System Status</h3>
+            <div class="stat">
+                <span>Active Particles:</span>
+                <span class="stat-value" id="particleCount">0</span>
+            </div>
+            <div class="stat">
+                <span>Energy Flow:</span>
+                <span class="stat-value" id="energyFlow">0%</span>
+            </div>
+            <div class="stat">
+                <span>Spiral Loops:</span>
+                <span class="stat-value">6</span>
+            </div>
+            <div class="stat">
+                <span>Orbital Spheres:</span>
+                <span class="stat-value">12</span>
+            </div>
+            <div class="stat">
+                <span>Active Nodes:</span>
+                <span class="stat-value" id="activeNodes">6</span>
+            </div>
+        </div>
+        
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <button id="toggleFlow">⏸ Pause Flow</button>
+            <label>
+                Intensity:
+                <input type="range" id="intensity" min="1" max="100" value="50">
+            </label>
+            <label>
+                Speed:
+                <input type="range" id="speed" min="1" max="100" value="50">
+            </label>
+            <button id="resetSystem">⟳ Reset</button>
+        </div>
+    </div>
+    
+    <script>
+        // System Configuration
+        const config = {
+            particleCount: 144, // 12 orbs × 12 lanes
+            spiralLoops: 6,
+            orbitalSpheres: 12,
+            maxParticles: 1000,
+            particleSpeed: 1,
+            intensity: 50,
+            isPaused: false
+        };
+        
+        // Canvas Setup
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        // Sacred Node Positions
+        const nodes = [];
+        document.querySelectorAll('.sacred-node').forEach((node, i) => {
+            const rect = node.getBoundingClientRect();
+            nodes.push({
+                x: rect.left + rect.width / 2,
+                y: rect.top + rect.height / 2,
+                element: node,
+                symbol: node.dataset.symbol,
+                tradition: node.dataset.tradition,
+                type: i < 3 ? 'blue' : 'purple'
+            });
+        });
+        
+        // Particle System
+        class Particle {
+            constructor(startNode, targetNode, hue) {
+                this.startNode = startNode;
+                this.targetNode = targetNode;
+                this.x = startNode.x;
+                this.y = startNode.y;
+                this.hue = hue;
+                this.progress = 0;
+                this.speed = 0.002 + Math.random() * 0.003;
+                this.size = 2 + Math.random() * 2;
+                this.alpha = 0.8;
+                this.trail = [];
+            }
+            
+            update() {
+                this.progress += this.speed * (config.particleSpeed / 50) * (config.intensity / 50);
+                
+                if (this.progress >= 1) {
+                    this.progress = 0;
+                    // Swap start and target for circular flow
+                    [this.startNode, this.targetNode] = [this.targetNode, this.startNode];
+                    this.hue = (this.hue + 30) % 360;
+                }
+                
+                // Fibonacci spiral path
+                const angle = this.progress * Math.PI * 2 * config.spiralLoops;
+                const radius = 200 * Math.pow(1.618, this.progress * 2 - 1); // Golden ratio spiral
+                const spiralX = canvas.width / 2 + Math.cos(angle) * radius;
+                const spiralY = canvas.height / 2 + Math.sin(angle) * radius;
+                
+                // Interpolate between start node and spiral point
+                const t = Math.sin(this.progress * Math.PI);
+                this.x = this.startNode.x + (spiralX - this.startNode.x) * t;
+                this.y = this.startNode.y + (spiralY - this.startNode.y) * t;
+                
+                // Trail effect
+                this.trail.push({ x: this.x, y: this.y, alpha: this.alpha });
+                if (this.trail.length > 10) this.trail.shift();
+            }
+            
+            draw() {
+                // Draw trail
+                this.trail.forEach((point, i) => {
+                    const trailAlpha = (i / this.trail.length) * this.alpha * 0.5;
+                    ctx.fillStyle = `hsla(${this.hue}, 100%, 60%, ${trailAlpha})`;
+                    ctx.beginPath();
+                    ctx.arc(point.x, point.y, this.size * 0.5, 0, Math.PI * 2);
+                    ctx.fill();
+                });
+                
+                // Draw particle
+                const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 2);
+                gradient.addColorStop(0, `hsla(${this.hue}, 100%, 80%, ${this.alpha})`);
+                gradient.addColorStop(0.5, `hsla(${this.hue}, 100%, 60%, ${this.alpha * 0.6})`);
+                gradient.addColorStop(1, `hsla(${this.hue}, 100%, 40%, 0)`);
+                
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+        
+        // Orbital Sphere System
+        class OrbitalSphere {
+            constructor(index) {
+                this.index = index;
+                this.angle = (index / config.orbitalSpheres) * Math.PI * 2;
+                this.radius = 250;
+                this.speed = 0.001;
+                this.size = 12;
+                this.hue = (index / config.orbitalSpheres) * 360;
+                this.lanes = [];
+                
+                // Create 12 energy lanes per sphere
+                for (let i = 0; i < 12; i++) {
+                    this.lanes.push({
+                        angle: (i / 12) * Math.PI * 2,
+                        length: 30 + Math.random() * 20,
+                        hue: (this.hue + i * 30) % 360
+                    });
+                }
+            }
+            
+            update() {
+                this.angle += this.speed * (config.particleSpeed / 50);
+            }
+            
+            draw() {
+                const x = canvas.width / 2 + Math.cos(this.angle) * this.radius;
+                const y = canvas.height / 2 + Math.sin(this.angle) * this.radius;
+                
+                // Draw energy lanes
+                this.lanes.forEach(lane => {
+                    const laneEndX = x + Math.cos(lane.angle + this.angle) * lane.length;
+                    const laneEndY = y + Math.sin(lane.angle + this.angle) * lane.length;
+                    
+                    const gradient = ctx.createLinearGradient(x, y, laneEndX, laneEndY);
+                    gradient.addColorStop(0, `hsla(${lane.hue}, 100%, 60%, 0.8)`);
+                    gradient.addColorStop(1, `hsla(${lane.hue}, 100%, 60%, 0)`);
+                    
+                    ctx.strokeStyle = gradient;
+                    ctx.lineWidth = 2;
+                    ctx.beginPath();
+                    ctx.moveTo(x, y);
+                    ctx.lineTo(laneEndX, laneEndY);
+                    ctx.stroke();
+                });
+                
+                // Draw orbital sphere
+                const gradient = ctx.createRadialGradient(x, y, 0, x, y, this.size);
+                gradient.addColorStop(0, `hsla(${this.hue}, 100%, 90%, 1)`);
+                gradient.addColorStop(0.4, `hsla(${this.hue}, 100%, 70%, 0.8)`);
+                gradient.addColorStop(1, `hsla(${this.hue}, 100%, 50%, 0)`);
+                
+                ctx.fillStyle = gradient;
+                ctx.beginPath();
+                ctx.arc(x, y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Glow effect
+                ctx.shadowColor = `hsla(${this.hue}, 100%, 60%, 0.8)`;
+                ctx.shadowBlur = 20;
+                ctx.beginPath();
+                ctx.arc(x, y, this.size * 0.5, 0, Math.PI * 2);
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+        }
+        
+        // Initialize Systems
+        const particles = [];
+        const orbitalSpheres = [];
+        
+        // Create orbital spheres
+        for (let i = 0; i < config.orbitalSpheres; i++) {
+            orbitalSpheres.push(new OrbitalSphere(i));
+        }
+        
+        // Create particle flows between nodes
+        for (let i = 0; i < config.particleCount; i++) {
+            const startNodeIndex = Math.floor(Math.random() * 3); // Top nodes
+            const targetNodeIndex = 3 + Math.floor(Math.random() * 3); // Bottom nodes
+            const hue = (i / config.particleCount) * 360;
+            particles.push(new Particle(nodes[startNodeIndex], nodes[targetNodeIndex], hue));
+        }
+        
+        // Draw Sacred Geometry Background
+        function drawSacredGeometry() {
+            const svg = document.getElementById('geometryBg');
+            svg.setAttribute('viewBox', `0 0 ${canvas.width} ${canvas.height}`);
+            
+            // Flower of Life pattern
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const radius = 50;
+            
+            for (let i = 0; i < 6; i++) {
+                const angle = (i / 6) * Math.PI * 2;
+                const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                circle.setAttribute('cx', centerX + Math.cos(angle) * radius);
+                circle.setAttribute('cy', centerY + Math.sin(angle) * radius);
+                circle.setAttribute('r', radius);
+                circle.setAttribute('fill', 'none');
+                circle.setAttribute('stroke', 'rgba(255,255,255,0.1)');
+                circle.setAttribute('stroke-width', '1');
+                svg.appendChild(circle);
+            }
+        }
+        
+        drawSacredGeometry();
+        
+        // Animation Loop
+        function animate() {
+            if (!config.isPaused) {
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                // Update and draw orbital spheres
+                orbitalSpheres.forEach(sphere => {
+                    sphere.update();
+                    sphere.draw();
+                });
+                
+                // Draw conduits between nodes
+                ctx.strokeStyle = 'rgba(65, 105, 225, 0.2)';
+                ctx.lineWidth = 2;
+                for (let i = 0; i < 3; i++) {
+                    for (let j = 3; j < 6; j++) {
+                        ctx.beginPath();
+                        ctx.moveTo(nodes[i].x, nodes[i].y);
+                        ctx.lineTo(nodes[j].x, nodes[j].y);
+                        ctx.stroke();
+                    }
+                }
+                
+                // Update and draw particles
+                particles.forEach(particle => {
+                    particle.update();
+                    particle.draw();
+                });
+                
+                // Update stats
+                document.getElementById('particleCount').textContent = particles.length;
+                document.getElementById('energyFlow').textContent = Math.round(config.intensity) + '%';
+            }
+            
+            requestAnimationFrame(animate);
+        }
+        
+        // Controls
+        document.getElementById('toggleFlow').addEventListener('click', (e) => {
+            config.isPaused = !config.isPaused;
+            e.target.textContent = config.isPaused ? '▶ Resume Flow' : '⏸ Pause Flow';
+        });
+        
+        document.getElementById('intensity').addEventListener('input', (e) => {
+            config.intensity = parseInt(e.target.value);
+        });
+        
+        document.getElementById('speed').addEventListener('input', (e) => {
+            config.particleSpeed = parseInt(e.target.value);
+        });
+        
+        document.getElementById('resetSystem').addEventListener('click', () => {
+            particles.length = 0;
+            for (let i = 0; i < config.particleCount; i++) {
+                const startNodeIndex = Math.floor(Math.random() * 3);
+                const targetNodeIndex = 3 + Math.floor(Math.random() * 3);
+                const hue = (i / config.particleCount) * 360;
+                particles.push(new Particle(nodes[startNodeIndex], nodes[targetNodeIndex], hue));
+            }
+        });
+        
+        // Node interaction
+        document.querySelectorAll('.sacred-node').forEach(node => {
+            node.addEventListener('click', () => {
+                const tradition = node.dataset.tradition;
+                const symbol = node.dataset.symbol;
+                alert(`Sacred Node: ${symbol}\nTradition: ${tradition}\nEnergy Type: ${node.classList.contains('aura-blue') ? 'Divine Consciousness' : 'Earthly Manifestation'}`);
+            });
+        });
+        
+        // Handle resize
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            drawSacredGeometry();
+        });
+        
+        // Start animation
+        animate();
+    </script>
+</body>
+</html>

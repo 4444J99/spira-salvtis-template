@@ -1,0 +1,16 @@
+# markdownlint config — aligned with the repo's Prettier formatter.
+#
+# This repo uses Prettier (`npm run format`) as the authoritative Markdown
+# formatter; markdownlint runs only via Trunk in CI (PR-scoped, modified files).
+# A few markdownlint rules govern formatting that Prettier already owns, so they
+# contradict Prettier-canonical output and would fail CI on otherwise-clean files.
+# Disable that overlapping set so the two tools don't fight; keep every content
+# rule on.
+default: true
+# Prettier owns these (formatting/layout) — defer to it:
+MD013: false # line-length — Prettier controls wrapping (long table rows are fine)
+MD060: false # table-column-style — Prettier controls table column formatting
+# Client-facing + internal setup docs legitimately use inline HTML/emoji and
+# paste raw URLs:
+MD033: false # no-inline-html
+MD034: false # no-bare-urls (setup docs paste dashboard/console URLs directly)

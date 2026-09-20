@@ -1,0 +1,8 @@
+# Binary source files — archived locally, not tracked in git
+# Markdown extractions ARE tracked (docs/archive/extracted/)
+source-bundle/**/*.docx
+source-bundle/**/*.png
+source-bundle/**/*.jpg
+source-bundle/**/*.jpeg
+source-bundle/**/*.pdf
+source-bundle/**/*.zip

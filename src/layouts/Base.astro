@@ -1,0 +1,959 @@
+---
+import '../styles/global.css';
+import { config, ui } from '../data/hub.config';
+import type { Phase } from '../data/hub.config';
+import { worldFor, hexToCss } from '../data/icon-worlds';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+// Phase entry-node URLs for the spiral-first nav variant — one
+// representative node per phase keeps the nav at the same item
+// count as the pillar-first variant (5 items including Research).
+// Derived from the canonical node list (M2: no hardcoded URLs) — the
+// first node of each phase is the entry node, so renumbering or reordering
+// nodes propagates here automatically.
+function phaseEntry(
+  phase: Phase,
+  label: string,
+): { url: string; label: string } {
+  const node = config.nodes.find((n) => n.phase === phase);
+  return { url: node?.url ?? '/spiral', label };
+}
+const PHASE_ENTRY = {
+  ELEVATE: phaseEntry('ELEVATE', 'Elevate'),
+  ALIGN: phaseEntry('ALIGN', 'Align'),
+  UNLOCK: phaseEntry('UNLOCK', 'Unlock'),
+};
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  hideBreadcrumbs?: boolean;
+  /**
+   * Keep this page out of search indexes. Set on client-private planning
+   * surfaces (e.g. /decisions, /admin/*) that are shared with admin by direct
+   * link but should not be crawled/listed — they carry setup pathways, revenue
+   * terms, and webhook details. noindex does not block direct-link access; it
+   * only tells crawlers not to index. Paired with a sitemap filter in
+   * astro.config.mjs so these pages aren't advertised in the first place.
+   */
+  noindex?: boolean;
+}
+
+const {
+  title,
+  description = config.tagline,
+  image = '/og-default.svg',
+  hideBreadcrumbs = false,
+  noindex = false,
+} = Astro.props;
+
+const canonicalURL = new URL(
+  Astro.url.pathname,
+  Astro.site || config.domains.hub,
+);
+
+// --- Active page detection ---
+const currentPath = Astro.url.pathname;
+const isWaterSection = currentPath.startsWith('/water');
+const isStoreSection = currentPath.startsWith('/store');
+const isNonprofitSection = currentPath.startsWith('/nonprofit');
+const isHome = currentPath === '/';
+const defaultNavVariant = ui.navVariant;
+
+// Boundary-aware active test: a nav link is active for its own page and for
+// descendant routes, but NOT for sibling routes that merely share a string
+// prefix. `/nodes/1` no longer captures `/nodes/10-12`; `/water/` still
+// matches `/water/quiz` because the next char is a path separator.
+function isActiveRoute(href: string): boolean {
+  if (href === '/') return currentPath === '/';
+  const base = href.replace(/\/$/, '');
+  const path = currentPath.replace(/\/$/, '');
+  return path === base || path.startsWith(base + '/');
+}
+
+function navClass(href: string): string {
+  let active = isActiveRoute(href);
+  // Physical pillar routes to /water/, Financial pillar routes to /business/
+  if (href === '/water/' && currentPath.startsWith('/pillars/physical'))
+    active = true;
+  if (
+    href === '/business/' &&
+    (currentPath.startsWith('/pillars/financial') || isStoreSection)
+  )
+    active = true;
+  return active ? 'text-white' : 'text-ocean-400 hover:text-white';
+}
+
+// Per-tab world accent — each nav tab's hover underline carries the accent
+// of the IconWorld it leads to (lead node of the pillar / the water node),
+// derived from config (M2: never hardcoded). Teal fallback elsewhere.
+function tabAccent(href: string): string {
+  let nodeId: number | undefined;
+  if (href === '/water/') {
+    nodeId = config.nodes.find((n) => n.url === '/water/')?.id;
+  } else if (href.startsWith('/pillars/')) {
+    const slug = href.replace('/pillars/', '').replace(/\/$/, '');
+    nodeId = config.nodes.find((n) => n.pillarSlug === slug)?.id;
+  } else if (href === '/business/') {
+    nodeId = config.nodes.find((n) => n.pillarSlug === 'financial')?.id;
+  } else if (href === '/nonprofit') {
+    nodeId = 11;
+  }
+  return nodeId ? hexToCss(worldFor(nodeId).accentPalette[0]) : '#119a9e';
+}
+
+function mobileNavClass(href: string): string {
+  const active = isActiveRoute(href);
+  return active
+    ? 'text-white border-l-2 border-ocean-400 pl-3'
+    : 'text-ocean-400 active:text-white';
+}
+
+function subNavClass(href: string): string {
+  const normalized = currentPath.replace(/\/$/, '');
+  const hrefNormalized = href.replace(/\/$/, '');
+  return normalized === hrefNormalized
+    ? 'text-white'
+    : 'text-ocean-400/60 hover:text-white/70';
+}
+
+// --- Breadcrumb data ---
+type BreadcrumbItem = { label: string; href?: string };
+const breadcrumbs: BreadcrumbItem[] = [];
+
+if (!isHome) {
+  breadcrumbs.push({ label: 'Home', href: '/' });
+
+  if (isWaterSection) {
+    const subPath = currentPath.replace('/water/', '').replace(/\/$/, '');
+    if (!subPath || subPath === 'water') {
+      breadcrumbs.push({ label: 'Water' });
+    } else if (subPath === 'quiz') {
+      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: 'Quiz' });
+    } else if (subPath === 'explore') {
+      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: 'Branches' });
+    } else {
+      const branchName = config.branches.find((b) => b.slug === subPath)?.name;
+      breadcrumbs.push({ label: 'Water', href: '/water/' });
+      breadcrumbs.push({ label: branchName || subPath });
+    }
+  } else if (currentPath.startsWith('/pillars/')) {
+    const slug = currentPath.replace('/pillars/', '').replace(/\/$/, '');
+    const pillar = config.pillars.find((p) => p.slug === slug);
+    breadcrumbs.push({ label: pillar?.name || slug });
+  } else if (currentPath.startsWith('/nodes/')) {
+    const id = Number(currentPath.replace('/nodes/', '').replace(/\/$/, ''));
+    const node = config.nodes.find((n) => n.id === id);
+    breadcrumbs.push({ label: 'Spiral', href: '/spiral' });
+    breadcrumbs.push({ label: node?.name || `Node ${id}` });
+  } else if (currentPath.startsWith('/business')) {
+    if (currentPath.replace(/\/$/, '') === '/business/dp') {
+      breadcrumbs.push({ label: 'Business', href: '/business/' });
+      breadcrumbs.push({ label: 'Distributor Position' });
+    } else {
+      breadcrumbs.push({ label: 'Business' });
+    }
+  } else if (isStoreSection) {
+    breadcrumbs.push({ label: 'Store' });
+  } else if (isNonprofitSection) {
+    breadcrumbs.push({ label: 'Impact' });
+  } else if (currentPath.startsWith('/spiral')) {
+    breadcrumbs.push({ label: 'Spiral' });
+  } else if (currentPath.startsWith('/research')) {
+    breadcrumbs.push({ label: 'Research' });
+  }
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL(image, Astro.site)} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen flex flex-col bg-ocean-900 text-white/60">
+    <nav
+      aria-label="Main"
+      class="fixed top-0 left-0 right-0 z-50 bg-ocean-900/60 backdrop-blur-xl border-b border-white/[0.04]"
+      data-default-nav={defaultNavVariant}
+    >
+      <!-- Primary nav row -->
+      <div
+        class="max-w-6xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between"
+      >
+        <a
+          href="/"
+          class="font-heading text-base font-light text-white/70 hover:text-white transition-colors tracking-wide"
+        >
+          {config.name}
+        </a>
+        <!-- Desktop nav: pillar-first variant -->
+        <div
+          class:list={[
+            'hidden gap-7',
+            defaultNavVariant === 'pillar-first' ? 'md:flex' : 'md:hidden',
+          ]}
+          data-nav-variant="pillar-first"
+        >
+          <a
+            href="/spiral"
+            style={`--tab-accent: ${tabAccent('/spiral')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/spiral'),
+            ]}>Spiral</a
+          >
+          <a
+            href="/water/"
+            style={`--tab-accent: ${tabAccent('/water/')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/water/'),
+            ]}>Water</a
+          >
+          <a
+            href="/pillars/inner"
+            style={`--tab-accent: ${tabAccent('/pillars/inner')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/pillars/inner'),
+            ]}>Inner</a
+          >
+          <a
+            href="/pillars/identity"
+            style={`--tab-accent: ${tabAccent('/pillars/identity')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/pillars/identity'),
+            ]}>Identity</a
+          >
+          <a
+            href="/business/"
+            style={`--tab-accent: ${tabAccent('/business/')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/business/'),
+            ]}>Business</a
+          >
+          <a
+            href="/nonprofit"
+            style={`--tab-accent: ${tabAccent('/nonprofit')}`}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/nonprofit'),
+            ]}>Impact</a
+          >
+          <a
+            href="/research"
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/research'),
+            ]}>Research</a
+          >
+        </div>
+        <!-- Desktop nav: spiral-first variant (one entry node per phase) -->
+        <div
+          class:list={[
+            'hidden gap-7',
+            defaultNavVariant === 'spiral-first' ? 'md:flex' : 'md:hidden',
+          ]}
+          data-nav-variant="spiral-first"
+        >
+          <a
+            href="/spiral"
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/spiral'),
+            ]}>Spiral</a
+          >
+          <a
+            href={PHASE_ENTRY.ELEVATE.url}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass(PHASE_ENTRY.ELEVATE.url),
+            ]}>{PHASE_ENTRY.ELEVATE.label}</a
+          >
+          <a
+            href={PHASE_ENTRY.ALIGN.url}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass(PHASE_ENTRY.ALIGN.url),
+            ]}>{PHASE_ENTRY.ALIGN.label}</a
+          >
+          <a
+            href={PHASE_ENTRY.UNLOCK.url}
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass(PHASE_ENTRY.UNLOCK.url),
+            ]}>{PHASE_ENTRY.UNLOCK.label}</a
+          >
+          <a
+            href="/nonprofit"
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/nonprofit'),
+            ]}>Impact</a
+          >
+          <a
+            href="/research"
+            class:list={[
+              'nav-tab text-[11px] font-medium tracking-[0.15em] uppercase transition-colors',
+              navClass('/research'),
+            ]}>Research</a
+          >
+        </div>
+        <!-- Mobile hamburger -->
+        <button
+          id="nav-toggle"
+          class="md:hidden p-2 -mr-2 text-ocean-400"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <svg
+            id="nav-icon-open"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            ><line x1="4" y1="7" x2="20" y2="7"></line><line
+              x1="4"
+              y1="12"
+              x2="20"
+              y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg
+          >
+          <svg
+            id="nav-icon-close"
+            class="hidden"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            ><line x1="6" y1="6" x2="18" y2="18"></line><line
+              x1="6"
+              y1="18"
+              x2="18"
+              y2="6"></line></svg
+          >
+        </button>
+      </div>
+      <!-- Water sub-nav (desktop only, Water section pages) -->
+      {
+        isWaterSection && (
+          <div class="hidden md:block border-t border-white/[0.03]">
+            <div class="max-w-6xl mx-auto px-6 md:px-10 py-2.5 flex gap-6">
+              <a
+                href="/water/"
+                class:list={[
+                  'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
+                  subNavClass('/water/'),
+                ]}
+              >
+                Water Home
+              </a>
+              <a
+                href="/water/quiz"
+                class:list={[
+                  'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
+                  subNavClass('/water/quiz'),
+                ]}
+              >
+                Quiz
+              </a>
+              <a
+                href="/water/#branches"
+                class:list={[
+                  'text-[10px] font-medium tracking-[0.12em] uppercase transition-colors',
+                  subNavClass('/water/#branches'),
+                ]}
+              >
+                Branches
+              </a>
+            </div>
+          </div>
+        )
+      }
+      <!-- Mobile menu panel -->
+      <div
+        id="nav-menu"
+        class="hidden md:hidden border-t border-white/[0.04] bg-ocean-900/95 backdrop-blur-xl"
+      >
+        <!-- Pillar-first mobile -->
+        <div
+          class:list={[
+            'px-6 py-5 flex flex-col gap-1',
+            { hidden: ui.navVariant !== 'pillar-first' },
+          ]}
+          data-nav-variant="pillar-first"
+        >
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-1 pb-2"
+            >Water</span
+          >
+          <a
+            href="/water/"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/water/'),
+            ]}>Water Home</a
+          >
+          <a
+            href="/water/quiz"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/water/quiz'),
+            ]}>Take the Quiz</a
+          >
+          <a
+            href="/water/#branches"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/water/#branches'),
+            ]}>Explore Branches</a
+          >
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-4 pb-2"
+            >The Spiral</span
+          >
+          <a
+            href="/spiral"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/spiral'),
+            ]}>Immersive Spiral</a
+          >
+          <a
+            href="/pillars/inner"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/pillars/inner'),
+            ]}>Inner Sovereignty</a
+          >
+          <a
+            href="/pillars/identity"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/pillars/identity'),
+            ]}>Identity Sovereignty</a
+          >
+          <a
+            href="/business/"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/business/'),
+            ]}>Business</a
+          >
+          <!-- Store nav removed (admin 2026-06-22 #6): no affiliate water
+               products anywhere on the spiral. /store page preserved + delisted. -->
+          <a
+            href="/nonprofit"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/nonprofit'),
+            ]}>Impact</a
+          >
+          <a
+            href="/research"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/research'),
+            ]}>Research</a
+          >
+        </div>
+        <!-- Spiral-first mobile (phase-grouped node lists) -->
+        <div
+          class:list={[
+            'px-6 py-5 flex flex-col gap-1',
+            { hidden: ui.navVariant !== 'spiral-first' },
+          ]}
+          data-nav-variant="spiral-first"
+        >
+          <a
+            href="/spiral"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 transition-colors',
+              mobileNavClass('/spiral'),
+            ]}>Spiral</a
+          >
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-4 pb-2"
+            >Elevate (body)</span
+          >
+          {
+            config.nodes
+              .filter((n) => n.phase === 'ELEVATE')
+              .map((n) => (
+                <a
+                  href={n.url}
+                  class:list={[
+                    'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+                    mobileNavClass(n.url),
+                  ]}
+                >
+                  {n.id}. {n.name}
+                </a>
+              ))
+          }
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-4 pb-2"
+            >Align (mind + life)</span
+          >
+          {
+            config.nodes
+              .filter((n) => n.phase === 'ALIGN')
+              .map((n) => (
+                <a
+                  href={n.url}
+                  class:list={[
+                    'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+                    mobileNavClass(n.url),
+                  ]}
+                >
+                  {n.id}. {n.name}
+                </a>
+              ))
+          }
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-4 pb-2"
+            >Unlock (freedom)</span
+          >
+          {
+            config.nodes
+              .filter((n) => n.phase === 'UNLOCK')
+              .map((n) => (
+                <a
+                  href={n.url}
+                  class:list={[
+                    'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+                    mobileNavClass(n.url),
+                  ]}
+                >
+                  {n.id}. {n.name}
+                </a>
+              ))
+          }
+          <span
+            class="text-[9px] tracking-[0.2em] uppercase text-white/15 font-medium pt-4 pb-2"
+            >Learn</span
+          >
+          <a
+            href="/nonprofit"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/nonprofit'),
+            ]}>Impact</a
+          >
+          <a
+            href="/research"
+            class:list={[
+              'text-[13px] font-medium tracking-[0.12em] uppercase py-1.5 pl-4 transition-colors',
+              mobileNavClass('/research'),
+            ]}>Research</a
+          >
+        </div>
+      </div>
+    </nav>
+    <script>
+      const toggle = document.getElementById('nav-toggle');
+      const menu = document.getElementById('nav-menu');
+      const iconOpen = document.getElementById('nav-icon-open');
+      const iconClose = document.getElementById('nav-icon-close');
+      toggle?.addEventListener('click', () => {
+        const open = menu?.classList.toggle('hidden') === false;
+        iconOpen?.classList.toggle('hidden', open);
+        iconClose?.classList.toggle('hidden', !open);
+        toggle?.setAttribute('aria-expanded', String(open));
+      });
+      // Close on link tap
+      menu?.querySelectorAll('a').forEach((a) =>
+        a.addEventListener('click', () => {
+          menu.classList.add('hidden');
+          iconOpen?.classList.remove('hidden');
+          iconClose?.classList.add('hidden');
+        }),
+      );
+
+      // Querystring nav variant override (?nav=spiral-first or ?nav=pillar-first).
+      // Server-rendered the build-time default (ui.navVariant); this script
+      // swaps visible variant at runtime if the override param is present.
+      const params = new URLSearchParams(window.location.search);
+      const override = params.get('nav');
+      if (override === 'pillar-first' || override === 'spiral-first') {
+        document
+          .querySelector('[data-default-nav]')
+          ?.setAttribute('data-default-nav', override);
+        document
+          .querySelectorAll<HTMLElement>('[data-nav-variant]')
+          .forEach((el) => {
+            const active = el.dataset.navVariant === override;
+            el.classList.toggle('md:flex', active);
+            el.classList.toggle('md:hidden', !active);
+            el.classList.remove('hidden');
+          });
+      }
+    </script>
+
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-ocean-500 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg"
+      >Skip to content</a
+    >
+    <main
+      id="main-content"
+      class:list={['flex-1', isWaterSection ? 'pt-[88px]' : 'pt-[56px]']}
+    >
+      {!hideBreadcrumbs && <Breadcrumbs items={breadcrumbs} />}
+      <slot />
+    </main>
+
+    <footer class="border-t border-white/[0.03] bg-ocean-900">
+      <div class="max-w-6xl mx-auto px-6 md:px-10 py-16">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-8"
+        >
+          <!-- Brand -->
+          <div>
+            <a
+              href="/"
+              class="font-heading text-[15px] font-light text-white/50 hover:text-white/70 transition-colors"
+              >{config.name}</a
+            >
+            <p class="mt-2 text-[11px] text-white/15 tracking-[0.08em]">
+              {config.domains.hub}
+            </p>
+          </div>
+          <!-- Water -->
+          <div>
+            <p
+              class="text-[10px] tracking-[0.15em] uppercase text-white/30 font-medium mb-3"
+            >
+              Water
+            </p>
+            <div class="flex flex-col gap-2">
+              <a
+                href="/water/"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Water Home</a
+              >
+              <a
+                href="/water/quiz"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Take the Quiz</a
+              >
+              <a
+                href="/water/#branches"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Explore Branches</a
+              >
+              {
+                config.branches.map((branch) => (
+                  <a
+                    href={`/water/${branch.slug}`}
+                    class="text-[12px] text-white/15 hover:text-white/30 transition-colors pl-2"
+                  >
+                    {branch.name}
+                  </a>
+                ))
+              }
+            </div>
+          </div>
+          <!-- The Spiral -->
+          <div>
+            <p
+              class="text-[10px] tracking-[0.15em] uppercase text-white/30 font-medium mb-3"
+            >
+              The Spiral
+            </p>
+            <div class="flex flex-col gap-2">
+              {
+                config.pillars
+                  .filter(
+                    (p) => p.slug !== 'physical' && p.slug !== 'financial',
+                  )
+                  .map((pillar) => (
+                    <a
+                      href={pillar.url}
+                      class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                    >
+                      {pillar.name}
+                    </a>
+                  ))
+              }
+              <a
+                href="/business/"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Financial Sovereignty</a
+              >
+              <!-- Store link removed (admin 2026-06-22 #6) -->
+              <a
+                href="/nonprofit"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Impact</a
+              >
+            </div>
+          </div>
+          <!-- Learn -->
+          <div>
+            <p
+              class="text-[10px] tracking-[0.15em] uppercase text-white/30 font-medium mb-3"
+            >
+              Learn
+            </p>
+            <div class="flex flex-col gap-2">
+              <a
+                href="/nonprofit"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Nonprofit Arm</a
+              >
+              <a
+                href="/research"
+                class="text-[12px] text-white/20 hover:text-white/40 transition-colors"
+                >Research Bibliography</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="mt-12 pt-6 border-t border-white/[0.03] text-center">
+          <p class="text-[11px] text-white/15">
+            &copy; {new Date().getFullYear()}
+            {config.name}
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Citation tooltips — lazy-load data on first hover
+      interface Citation {
+        id: string;
+        source: string;
+        detail: string;
+        context: string;
+      }
+
+      let citations: Citation[] | null = null;
+      let tooltip: HTMLElement | null = null;
+      let activeSup: HTMLElement | null = null;
+
+      function createTooltip(): HTMLElement {
+        const el = document.createElement('div');
+        el.id = 'cite-tooltip';
+        el.style.cssText = `
+          position:fixed; z-index:9999; pointer-events:none; opacity:0;
+          transition:opacity 0.15s; max-width:320px; padding:14px 16px;
+          background:var(--color-ocean-800); border:1px solid rgba(17,154,158,0.25);
+          border-radius:10px; box-shadow:0 12px 40px rgba(0,0,0,0.5);
+          font-family:Inter,system-ui,sans-serif;
+        `;
+        document.body.appendChild(el);
+        return el;
+      }
+
+      async function loadCitations(): Promise<Citation[]> {
+        if (citations) return citations;
+        try {
+          const res = await fetch('/citations.json');
+          citations = (await res.json()) as Citation[];
+        } catch {
+          citations = [];
+        }
+        return citations;
+      }
+
+      function findCitation(id: string): Citation | undefined {
+        return citations?.find((c) => c.id === id);
+      }
+
+      // Build the tooltip body from DOM nodes + textContent — never an
+      // innerHTML string. Citation strings (source/detail/context) are
+      // studio-controlled but interpolating them into markup is an XSS sink;
+      // textContent removes the sink entirely.
+      function renderTooltip(
+        el: HTMLElement,
+        cite: Citation,
+        isBio: boolean,
+      ): void {
+        el.replaceChildren();
+
+        const label = document.createElement('div');
+        label.style.cssText =
+          'font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;color:#7dd3d7;margin-bottom:6px;';
+        label.textContent = isBio
+          ? 'Peer-Reviewed Research'
+          : 'Sacred / Philosophical Source';
+
+        const source = document.createElement('div');
+        source.style.cssText =
+          'font-size:13px;font-weight:500;color:#fff;line-height:1.4;margin-bottom:6px;';
+        source.textContent = cite.source;
+
+        const detail = document.createElement('div');
+        detail.style.cssText =
+          'font-size:12px;color:rgba(255,255,255,0.5);line-height:1.5;font-style:italic;';
+        detail.textContent = `"${cite.detail}"`;
+
+        el.appendChild(label);
+        el.appendChild(source);
+        el.appendChild(detail);
+
+        if (cite.context.startsWith('http')) {
+          const ctx = document.createElement('div');
+          ctx.style.cssText =
+            'font-size:10px;color:#3dbfc4;margin-top:8px;font-family:monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;';
+          ctx.textContent = cite.context;
+          el.appendChild(ctx);
+        }
+      }
+
+      function positionTooltip(sup: HTMLElement): void {
+        if (!tooltip) return;
+        const rect = sup.getBoundingClientRect();
+        const maxW = Math.min(320, window.innerWidth - 16);
+        tooltip.style.maxWidth = maxW + 'px';
+        let left = rect.left + rect.width / 2 - maxW / 2;
+        left = Math.max(8, Math.min(left, window.innerWidth - maxW - 8));
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = rect.top - tooltip.offsetHeight - 8 + 'px';
+        if (rect.top - tooltip.offsetHeight - 8 < 8) {
+          tooltip.style.top = rect.bottom + 8 + 'px';
+        }
+        tooltip.style.opacity = '1';
+      }
+
+      function hideTooltip(): void {
+        if (tooltip) tooltip.style.opacity = '0';
+      }
+
+      async function showForSup(sup: HTMLElement): Promise<void> {
+        const id = sup.textContent?.trim() ?? '';
+        if (!/^[SB]-\d+$/.test(id)) return;
+        await loadCitations();
+        const cite = findCitation(id);
+        if (!cite) return;
+        if (!tooltip) tooltip = createTooltip();
+        renderTooltip(tooltip, cite, id.startsWith('B-'));
+        activeSup = sup;
+        requestAnimationFrame(() => positionTooltip(sup));
+      }
+
+      // Desktop: hover
+      document.addEventListener('mouseover', (e) => {
+        if (!(e.target instanceof Element)) return;
+        const sup = e.target.closest<HTMLElement>('sup');
+        if (sup) showForSup(sup);
+      });
+      document.addEventListener('mouseout', (e) => {
+        if (e.target instanceof Element && e.target.closest('sup'))
+          hideTooltip();
+      });
+
+      // Mobile: tap to toggle
+      document.addEventListener('click', (e) => {
+        if (!(e.target instanceof Element)) {
+          if (tooltip?.style.opacity === '1') {
+            hideTooltip();
+            activeSup = null;
+          }
+          return;
+        }
+        const sup = e.target.closest<HTMLElement>('sup');
+        if (sup) {
+          e.preventDefault();
+          if (activeSup === sup && tooltip?.style.opacity === '1') {
+            hideTooltip();
+            activeSup = null;
+          } else {
+            showForSup(sup);
+          }
+        } else if (tooltip?.style.opacity === '1') {
+          hideTooltip();
+          activeSup = null;
+        }
+      });
+    </script>
+
+    {/* --- Analytics (production only) --- */}
+    {
+      import.meta.env.PROD && import.meta.env.CF_ANALYTICS_TOKEN && (
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token":"${import.meta.env.CF_ANALYTICS_TOKEN}"}`}
+        />
+      )
+    }
+    <script>
+      // Declarative click analytics: initAutoTrack() wires every
+      // [data-ea-action] element (see src/lib/analytics.ts). Production-only to
+      // keep dev consoles quiet. This logic was previously inlined here verbatim;
+      // now consolidated into the single analytics module (no duplication).
+      import { initAutoTrack } from '../lib/analytics';
+      if (import.meta.env.PROD) initAutoTrack();
+    </script>
+  </body>
+</html>
+
+<style>
+  /* Thematic tab underline — grows on hover in the destination world's
+     accent (--tab-accent set inline per tab via tabAccent(); teal fallback
+     for tabs without a world binding). Background-trick underline: zero
+     layout shift, GPU-friendly, static under reduced-motion. */
+  .nav-tab {
+    background-image: linear-gradient(
+      to right,
+      var(--tab-accent, #119a9e),
+      var(--tab-accent, #119a9e)
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    padding-bottom: 3px;
+    transition: background-size 0.4s ease;
+  }
+  .nav-tab:hover {
+    background-size: 100% 1px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .nav-tab {
+      transition: none;
+    }
+  }
+</style>
