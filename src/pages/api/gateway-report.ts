@@ -264,7 +264,11 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(JSON.stringify(report), { headers: JSON_HEADERS });
   } catch {
     return new Response(
-      JSON.stringify({ ...DEMO_REPORT, zipCode: '00000', gatewaySource: 'tap' }),
+      JSON.stringify({
+        ...DEMO_REPORT,
+        zipCode: '00000',
+        gatewaySource: 'tap',
+      }),
       { headers: JSON_HEADERS },
     );
   }

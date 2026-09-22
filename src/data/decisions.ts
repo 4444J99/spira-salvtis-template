@@ -79,27 +79,31 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Before visual lock',
     effects:
-      "The unified visual pass has established the baseline mathematical physics of the spiral. The system now requires aesthetic calibration. Provide specific parameters for glow language, particle velocity, and per-node atmospherics to finalize the environmental tone.",
+      'The unified visual pass has established the baseline mathematical physics of the spiral. The system now requires aesthetic calibration. Provide specific parameters for glow language, particle velocity, and per-node atmospherics to finalize the environmental tone.',
     suggestion:
-      "Audit the spatial knowledge graph and the gateway funnels. Note any tension in the baseline physics (velocity, luminescence, density). Explicit parameter changes are required to push the next refinement round.",
+      'Audit the spatial knowledge graph and the gateway funnels. Note any tension in the baseline physics (velocity, luminescence, density). Explicit parameter changes are required to push the next refinement round.',
     type: 'multi',
     progress: 30,
     status: 'partial',
     options: [
       {
         label: 'Submit tuning parameters',
-        description: 'Provide explicit vectors for color, velocity, and luminescence adjustments.',
-        consequence: 'Feedback is ingested; the physics engine is recalibrated and redeployed.',
+        description:
+          'Provide explicit vectors for color, velocity, and luminescence adjustments.',
+        consequence:
+          'Feedback is ingested; the physics engine is recalibrated and redeployed.',
         recommended: true,
       },
       {
         label: 'Lock baseline physics',
-        description: 'No adjustments necessary. Current mathematical baseline is locked.',
+        description:
+          'No adjustments necessary. Current mathematical baseline is locked.',
         consequence: 'Visual unification is complete. Issue is closed.',
       },
       {
         label: 'Defer calibration',
-        description: 'Review deferred. Baseline physics remain in uncalibrated state.',
+        description:
+          'Review deferred. Baseline physics remain in uncalibrated state.',
         consequence: 'Issue remains open. No state changes.',
       },
     ],
@@ -109,7 +113,8 @@ export const DECISIONS: DecisionItem[] = [
         url: 'https://github.com/4444J99/spira-salvtis-template/issues/184',
       },
     ],
-    notes: 'Aesthetic tension must be resolved by the primary stakeholder. Baseline parameters will not be altered without explicit instruction.',
+    notes:
+      'Aesthetic tension must be resolved by the primary stakeholder. Baseline parameters will not be altered without explicit instruction.',
   },
   {
     id: 'ontological-mapping',
@@ -118,17 +123,19 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Before data migration',
     effects:
-      "An ontological discrepancy exists between the temporal sequence (13 nodes) and the semantic categorization (4 foundations). A single authoritative mapping must be established to govern the spatial knowledge graph and dictate cross-linking topology and routing logic.",
+      'An ontological discrepancy exists between the temporal sequence (13 nodes) and the semantic categorization (4 foundations). A single authoritative mapping must be established to govern the spatial knowledge graph and dictate cross-linking topology and routing logic.',
     suggestion:
-      "Review the architectural alignment between the temporal sequence and the foundations. A definitive assignment is required to resolve the topological tension.",
+      'Review the architectural alignment between the temporal sequence and the foundations. A definitive assignment is required to resolve the topological tension.',
     type: 'free-text',
     progress: 10,
     status: 'open',
     options: [
       {
         label: 'Establish authoritative mapping',
-        description: 'Provide the definitive structural assignment of nodes to foundations.',
-        consequence: 'Routing logic is updated. Topological tension is resolved.',
+        description:
+          'Provide the definitive structural assignment of nodes to foundations.',
+        consequence:
+          'Routing logic is updated. Topological tension is resolved.',
         recommended: true,
       },
       {
@@ -138,7 +145,8 @@ export const DECISIONS: DecisionItem[] = [
       },
       {
         label: 'Implement dynamic resolution',
-        description: 'Allow runtime heuristic resolution based on session data.',
+        description:
+          'Allow runtime heuristic resolution based on session data.',
         consequence: 'Increases systemic complexity. Not recommended for V1.',
       },
     ],
@@ -148,7 +156,8 @@ export const DECISIONS: DecisionItem[] = [
         url: 'https://github.com/4444J99/spira-salvtis-template/issues/206',
       },
     ],
-    notes: 'The discrepancy is between the initial architecture specification and the runtime configuration. Resolution requires stakeholder authority.',
+    notes:
+      'The discrepancy is between the initial architecture specification and the runtime configuration. Resolution requires stakeholder authority.',
   },
   {
     id: 'state-reset-anomaly',
@@ -157,28 +166,33 @@ export const DECISIONS: DecisionItem[] = [
     ownerNeeded: 'admin',
     urgencyHint: 'Awaiting environmental data',
     effects:
-      "An anomalous state-reset occurs during capture flow deselection, inadvertently triggering the secondary fallback mechanism (mailto payload). Environmental parameters (device, viewport, node state) must be isolated to harden the event boundary.",
+      'An anomalous state-reset occurs during capture flow deselection, inadvertently triggering the secondary fallback mechanism (mailto payload). Environmental parameters (device, viewport, node state) must be isolated to harden the event boundary.',
     suggestion:
-      "Reproduce the deselection anomaly within the gateway funnel. Isolate the exact question index, viewport conditions, and resulting payload behavior to provide environmental context for a patch.",
+      'Reproduce the deselection anomaly within the gateway funnel. Isolate the exact question index, viewport conditions, and resulting payload behavior to provide environmental context for a patch.',
     type: 'multi',
     progress: 40,
     status: 'partial',
     options: [
       {
         label: 'Execute active repro',
-        description: 'Actively trigger the anomaly and record exact environmental parameters.',
+        description:
+          'Actively trigger the anomaly and record exact environmental parameters.',
         consequence: 'Event boundary is identified and hardened immediately.',
         recommended: true,
       },
       {
         label: 'Provide partial telemetry',
-        description: 'Submit known variables (browser, device) without full reproduction.',
-        consequence: 'Patch will rely on heuristic analysis of provided telemetry.',
+        description:
+          'Submit known variables (browser, device) without full reproduction.',
+        consequence:
+          'Patch will rely on heuristic analysis of provided telemetry.',
       },
       {
         label: 'Unreproducible / Ghost event',
-        description: 'Anomaly cannot be triggered. Likely a transient race condition.',
-        consequence: 'Defensive fallbacks will be implemented to swallow future anomalous events.',
+        description:
+          'Anomaly cannot be triggered. Likely a transient race condition.',
+        consequence:
+          'Defensive fallbacks will be implemented to swallow future anomalous events.',
       },
     ],
     links: [
@@ -187,7 +201,8 @@ export const DECISIONS: DecisionItem[] = [
         url: 'https://github.com/4444J99/spira-salvtis-template/issues/207',
       },
     ],
-    notes: 'Three theoretical vectors exist for this anomaly: fallback leakage, unintended submission, or autocomplete interference. Telemetry is required to narrow the vector.',
+    notes:
+      'Three theoretical vectors exist for this anomaly: fallback leakage, unintended submission, or autocomplete interference. Telemetry is required to narrow the vector.',
   },
 ];
 

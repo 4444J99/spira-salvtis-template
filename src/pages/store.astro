@@ -2,50 +2,602 @@
 import Base from '../layouts/Base.astro';
 import CTAButton from '../components/CTAButton.astro';
 import WorldMotif from '../components/WorldMotif.astro';
-import { config } from '../data/hub.config';
+import { storeConfig } from '../data/store.config';
+import { hydrationConfig, priceRangeLabel } from '../data/gateway.config';
 
-// Store delisted (admin 2026-06-22 #6, #25, #35 "Option A — full swap"):
-// no affiliate gateway products (Kangen, K8, Coldstream, Multipure, Anespa, or any
-// filter tiers) live on the spiral. The page + store.config.ts are PRESERVED so a
-// first-party digital/membership shelf can be re-enabled later, but it no longer
-// renders the affiliate catalog. The spiral links OUT instead.
-//   body science + gateway -> gateway-spira-salvtis.dev
-//   business side        -> business-spira-salvtis.dev
-const bodyScienceUrl = `https://${config.domains.gateway}`;
-const businessUrl = `https://${config.domains.business}`;
+// Store collections & products
+const collections = storeConfig.collections;
+
+// Supplementary sample products for non-filter collections to provide a full sandbox experience
+const digitalOffers = [
+  {
+    id: 'digital-blueprint',
+    title: 'Sovereignty Blueprint & Reflection Journal',
+    description:
+      'Interactive PDF & digital planner mapping all 13 spiral nodes and daily state-shifting protocols.',
+    collectionId: 'digital-offers',
+    priceLabel: '$47',
+    priceMin: 47,
+    provider: 'stripe',
+    purchasable: true,
+  },
+  {
+    id: 'digital-masterclass',
+    title: 'Root Healing & Gateway Science Video Series',
+    description:
+      '3-part recorded masterclass covering microplastics, mineral balances, and cellular hydration.',
+    collectionId: 'digital-offers',
+    priceLabel: '$97',
+    priceMin: 97,
+    provider: 'stripe',
+    purchasable: true,
+  },
+];
+
+const membershipOffers = [
+  {
+    id: 'sub-monthly',
+    title: 'Spiral Sovereignty Monthly Circle',
+    description:
+      'Access to bi-weekly live transmission calls, community forum, and updated node practice guides.',
+    collectionId: 'subscription',
+    priceLabel: '$33 / month',
+    priceMin: 33,
+    provider: 'ghl',
+    purchasable: true,
+  },
+  {
+    id: 'donation-reset',
+    title: 'Cind & Sol Reset Fund Donation',
+    description:
+      'Direct contribution supporting housing, clean gateway, and organic meals for reset participants.',
+    collectionId: 'donations',
+    priceLabel: '$100 (Custom)',
+    priceMin: 100,
+    provider: 'stripe',
+    purchasable: true,
+  },
+];
+
+const allProducts = [
+  ...hydrationConfig.filterTiers.map((tier) => ({
+    id: `filter-${tier.id}`,
+    title: tier.name,
+    brand: tier.brand,
+    description: `${tier.bestFor}. Removes ${tier.removes.slice(0, 3).join(', ')}.`,
+    collectionId: 'gateway-systems',
+    priceLabel: priceRangeLabel(tier),
+    priceMin: tier.priceMin,
+    provider: 'external-affiliate',
+    purchasable: true,
+  })),
+  ...digitalOffers,
+  ...membershipOffers,
+];
 ---
 
 <Base
-  title="Store — Spira salvtis"
-  description="Gateway systems and products now live on the gateway hub. The spiral links out."
+  title="Store & Sandbox — Spira salvtis"
+  description="Interactive Virtual Store & Sandbox — test simulated checkout, hardware system orders, and digital offer purchases."
 >
   <main class="store-page">
     <header class="store-hero">
       <WorldMotif nodeId={13} />
-      <p class="eyebrow">Gateway Systems</p>
-      <h1>It's moved.</h1>
+      <p class="eyebrow">Interactive Storefront & Sandbox</p>
+      <h1>Spira Store & Sandbox</h1>
       <p class="intro">
-        Gateway systems, filters, and the full body-science library now live on the
-        gateway hub — so the spiral stays focused on the journey. Head over to go
-        deeper, or explore the business side.
+        Explore hardware systems, digital guides, and sovereignty memberships.
+        Select any item below to launch the <strong
+          >Interactive Mock Checkout Sandbox</strong
+        > to test end-to-end payment flows.
       </p>
       <div class="hero-actions">
-        <CTAButton
-          href={bodyScienceUrl}
-          label="Go deeper on the body science"
-          external={true}
-        />
-        <CTAButton
-          href={businessUrl}
-          label="Interested in the business side?"
-          variant="secondary"
-          external={true}
-        />
-        <CTAButton href="/spiral" label="Back to the Spiral" variant="secondary" />
+        <CTAButton href="/spiral" label="Back to the Spiral" />
+        <CTAButton href="/gateway/" label="Gateway Hub" variant="secondary" />
+        <CTAButton href="/business/" label="Business Hub" variant="secondary" />
       </div>
     </header>
+
+    <!-- Collection Filter Tabs -->
+    <section class="mb-12">
+      <div class="flex flex-wrap gap-2 justify-center" id="collection-tabs">
+        <button
+          class="tab-btn active px-5 py-2.5 rounded-full text-[13px] font-medium border border-ocean-500/30 bg-ocean-500/20 text-white transition-all cursor-pointer"
+          data-collection="all"
+        >
+          All Items ({allProducts.length})
+        </button>
+        {
+          collections.map((col) => (
+            <button
+              class="tab-btn px-5 py-2.5 rounded-full text-[13px] font-medium border border-white/10 bg-white/5 text-white/60 hover:text-white transition-all cursor-pointer"
+              data-collection={col.id}
+            >
+              {col.title}
+            </button>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section
+      class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16"
+      id="product-grid"
+    >
+      {
+        allProducts.map((product) => (
+          <div
+            class="product-card glass-card p-6 flex flex-col justify-between border border-white/10 hover:border-ocean-500/40 transition-all"
+            data-collection={product.collectionId}
+          >
+            <div>
+              <div class="flex justify-between items-start mb-3">
+                <span class="text-[10px] uppercase tracking-[0.18em] text-ocean-400 font-medium">
+                  {product.collectionId.replace('-', ' ')}
+                </span>
+                <span class="text-[12px] font-mono text-gold-light bg-gold/10 px-2.5 py-0.5 rounded-full border border-gold/20">
+                  {product.priceLabel}
+                </span>
+              </div>
+              <h3 class="font-heading text-[22px] font-light text-white mb-2">
+                {product.title}
+              </h3>
+              <p class="text-white/45 text-[14px] leading-relaxed mb-6 font-light">
+                {product.description}
+              </p>
+            </div>
+            <button
+              class="btn-launch-sandbox w-full py-3 px-4 rounded-lg bg-ocean-500/20 hover:bg-ocean-500/40 border border-ocean-400/40 text-ocean-300 font-medium text-[13px] transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-ocean-500/10"
+              data-product-id={product.id}
+              data-product-title={product.title}
+              data-product-price={product.priceMin}
+              data-product-pricelabel={product.priceLabel}
+            >
+              <span>Test Sandbox Checkout</span>
+              <span class="text-[15px]">&rarr;</span>
+            </button>
+          </div>
+        ))
+      }
+    </section>
+
+    <!-- Saved Orders / Recent Sandbox Activity -->
+    <section
+      class="glass-card p-8 border border-white/10 mb-12"
+      id="order-history-section"
+    >
+      <div class="flex items-center justify-between mb-6 flex-wrap gap-4">
+        <div>
+          <p
+            class="text-[10px] uppercase tracking-[0.2em] text-ocean-400 font-medium mb-1"
+          >
+            Sandbox Persistence
+          </p>
+          <h2 class="font-heading text-[24px] font-light text-white">
+            Simulated Test Orders
+          </h2>
+        </div>
+        <button
+          id="btn-clear-orders"
+          class="text-[11px] uppercase tracking-[0.15em] text-white/30 hover:text-white/70 transition-colors cursor-pointer"
+        >
+          Clear History
+        </button>
+      </div>
+
+      <div id="orders-list" class="space-y-3">
+        <p class="text-white/30 text-[14px] font-light italic">
+          No sandbox test orders placed yet in this session. Click "Test Sandbox
+          Checkout" on any product above to complete a test purchase.
+        </p>
+      </div>
+    </section>
+
+    <!-- Navigation Back -->
+    <footer class="text-center pt-8 border-t border-white/[0.06]">
+      <CTAButton href="/spiral" label="Return to Spiral" variant="secondary" />
+    </footer>
   </main>
+
+  <!-- Mock Checkout Sandbox Modal -->
+  <div
+    id="checkout-modal"
+    class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden transition-opacity"
+    aria-hidden="true"
+    role="dialog"
+    aria-labelledby="modal-title"
+  >
+    <div
+      class="modal-box glass-card max-w-lg w-full p-6 sm:p-8 border border-ocean-500/30 rounded-2xl shadow-2xl relative overflow-y-auto max-h-[90vh]"
+    >
+      <button
+        id="modal-close-btn"
+        class="absolute top-5 right-5 text-white/40 hover:text-white text-xl p-2 rounded-lg hover:bg-white/10 transition-colors cursor-pointer"
+        aria-label="Close modal"
+      >
+        &times;
+      </button>
+
+      <div id="modal-step-checkout">
+        <div class="mb-6">
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-ocean-400 font-medium block mb-1"
+          >
+            Simulated Checkout Sandbox
+          </span>
+          <h2
+            id="modal-title"
+            class="font-heading text-[26px] font-light text-white"
+          >
+            Complete Test Purchase
+          </h2>
+          <p class="text-white/45 text-[13px] font-light mt-1">
+            This is a mock sandbox environment. No actual payment card will be
+            charged.
+          </p>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-xl p-4 mb-6">
+          <div class="flex justify-between items-center mb-2">
+            <span
+              id="modal-product-name"
+              class="font-medium text-white text-[15px]">Product</span
+            >
+            <span
+              id="modal-product-price"
+              class="text-gold-light font-mono text-[14px]">$0.00</span
+            >
+          </div>
+          <div
+            class="flex justify-between items-center text-[12px] text-white/40 border-t border-white/10 pt-2"
+          >
+            <span>Sandbox Mode: Demo Rail Active</span>
+            <span class="text-ocean-400 font-mono">Tax & Shipping: $0.00</span>
+          </div>
+        </div>
+
+        <form id="sandbox-checkout-form" class="space-y-4">
+          <input type="hidden" id="input-product-id" />
+          <input type="hidden" id="input-product-title" />
+          <input type="hidden" id="input-product-price" />
+
+          <div>
+            <label
+              class="block text-[11px] uppercase tracking-[0.15em] text-white/40 mb-1"
+              for="input-customer-name"
+            >
+              Customer Name
+            </label>
+            <input
+              type="text"
+              id="input-customer-name"
+              required
+              placeholder="Jane Doe"
+              value="Evaluator / Tester"
+              class="w-full bg-ocean-950/80 border border-ocean-500/20 rounded-lg px-3.5 py-2.5 text-white text-[14px] focus:outline-none focus:border-ocean-400 transition-colors"
+            />
+          </div>
+
+          <div>
+            <label
+              class="block text-[11px] uppercase tracking-[0.15em] text-white/40 mb-1"
+              for="input-customer-email"
+            >
+              Email Address
+            </label>
+            <input
+              type="email"
+              id="input-customer-email"
+              required
+              placeholder="evaluator@example.com"
+              value="evaluator@example.com"
+              class="w-full bg-ocean-950/80 border border-ocean-500/20 rounded-lg px-3.5 py-2.5 text-white text-[14px] focus:outline-none focus:border-ocean-400 transition-colors"
+            />
+          </div>
+
+          <div>
+            <label
+              class="block text-[11px] uppercase tracking-[0.15em] text-white/40 mb-1"
+              for="input-payment-rail"
+            >
+              Simulated Payment Rail
+            </label>
+            <select
+              id="input-payment-rail"
+              class="w-full bg-ocean-950/80 border border-ocean-500/20 rounded-lg px-3.5 py-2.5 text-white text-[14px] focus:outline-none focus:border-ocean-400 transition-colors cursor-pointer"
+            >
+              <option value="Stripe Sandbox"
+                >Stripe Test Mode (pm_card_visa)</option
+              >
+              <option value="GHL CRM Rail"
+                >GoHighLevel CRM Webhook Sandbox</option
+              >
+              <option value="Affiliate Vendor Handoff"
+                >Affiliate Partner Direct Handoff</option
+              >
+            </select>
+          </div>
+
+          <button
+            type="submit"
+            id="btn-submit-order"
+            class="w-full mt-2 py-3.5 px-6 rounded-lg bg-gold hover:bg-gold-light text-ocean-950 font-medium text-[14px] transition-all cursor-pointer shadow-lg shadow-gold/10"
+          >
+            Submit Sandbox Order
+          </button>
+        </form>
+      </div>
+
+      <!-- Success State -->
+      <div id="modal-step-success" class="hidden text-center py-4">
+        <div class="text-5xl mb-4 text-ocean-400">✨</div>
+        <span
+          class="text-[10px] uppercase tracking-[0.2em] text-ocean-400 font-medium block mb-1"
+        >
+          Sandbox Transaction Complete
+        </span>
+        <h2 class="font-heading text-[28px] font-light text-white mb-2">
+          Order Confirmed!
+        </h2>
+        <p class="text-white/50 text-[14px] font-light mb-6">
+          Thank you! Your simulated test purchase has been processed and saved
+          to local sandbox persistence.
+        </p>
+
+        <div
+          class="bg-white/5 border border-white/10 rounded-xl p-4 text-left text-[13px] space-y-2 mb-6"
+        >
+          <div class="flex justify-between">
+            <span class="text-white/40">Order ID:</span>
+            <span id="receipt-order-id" class="font-mono text-ocean-300"
+              >#SS-2026-0000</span
+            >
+          </div>
+          <div class="flex justify-between">
+            <span class="text-white/40">Product:</span>
+            <span id="receipt-product-title" class="text-white font-medium"
+              >Product</span
+            >
+          </div>
+          <div class="flex justify-between">
+            <span class="text-white/40">Total Charged:</span>
+            <span id="receipt-amount" class="text-gold-light font-mono"
+              >$0.00</span
+            >
+          </div>
+          <div class="flex justify-between">
+            <span class="text-white/40">Rail Used:</span>
+            <span id="receipt-rail" class="text-white/70">Stripe Sandbox</span>
+          </div>
+        </div>
+
+        <button
+          id="modal-finish-btn"
+          class="w-full py-3 px-6 rounded-lg bg-ocean-500 hover:bg-ocean-400 text-white font-medium text-[14px] transition-all cursor-pointer"
+        >
+          Close & View Orders
+        </button>
+      </div>
+    </div>
+  </div>
 </Base>
+
+<script>
+  import { trackEvent } from '../lib/analytics';
+
+  // Modal elements
+  const modal = document.getElementById('checkout-modal')!;
+  const modalCloseBtn = document.getElementById('modal-close-btn')!;
+  const modalFinishBtn = document.getElementById('modal-finish-btn')!;
+  const checkoutStep = document.getElementById('modal-step-checkout')!;
+  const successStep = document.getElementById('modal-step-success')!;
+  const form = document.getElementById(
+    'sandbox-checkout-form',
+  ) as HTMLFormElement;
+
+  // Form inputs
+  const inputId = document.getElementById(
+    'input-product-id',
+  ) as HTMLInputElement;
+  const inputTitle = document.getElementById(
+    'input-product-title',
+  ) as HTMLInputElement;
+  const inputPrice = document.getElementById(
+    'input-product-price',
+  ) as HTMLInputElement;
+  const modalProdName = document.getElementById('modal-product-name')!;
+  const modalProdPrice = document.getElementById('modal-product-price')!;
+
+  // Orders display
+  const ordersList = document.getElementById('orders-list')!;
+  const clearOrdersBtn = document.getElementById('btn-clear-orders')!;
+
+  // Open modal
+  document.querySelectorAll('.btn-launch-sandbox').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const el = btn as HTMLElement;
+      const id = el.dataset.productId || 'product-1';
+      const title = el.dataset.productTitle || 'Item';
+      const price = el.dataset.productPrice || '0';
+      const priceLabel = el.dataset.productPricelabel || `$${price}`;
+
+      inputId.value = id;
+      inputTitle.value = title;
+      inputPrice.value = price;
+      modalProdName.textContent = title;
+      modalProdPrice.textContent = priceLabel;
+
+      checkoutStep.classList.remove('hidden');
+      successStep.classList.add('hidden');
+
+      modal.classList.remove('hidden');
+      modal.setAttribute('aria-hidden', 'false');
+    });
+  });
+
+  // Close modal
+  function closeModal() {
+    modal.classList.add('hidden');
+    modal.setAttribute('aria-hidden', 'true');
+  }
+
+  modalCloseBtn?.addEventListener('click', closeModal);
+  modalFinishBtn?.addEventListener('click', closeModal);
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  // Saved Orders local storage
+  const STORAGE_KEY = 'spira_sandbox_orders';
+
+  interface SavedOrder {
+    id: string;
+    productTitle: string;
+    amount: number;
+    rail: string;
+    customerEmail: string;
+    date: string;
+  }
+
+  function getSavedOrders(): SavedOrder[] {
+    try {
+      const data = localStorage.getItem(STORAGE_KEY);
+      return data ? JSON.parse(data) : [];
+    } catch {
+      return [];
+    }
+  }
+
+  function renderOrders() {
+    const orders = getSavedOrders();
+    if (orders.length === 0) {
+      ordersList.innerHTML = `
+        <p class="text-white/30 text-[14px] font-light italic">
+          No sandbox test orders placed yet in this session. Click "Test Sandbox Checkout" on any product above to complete a test purchase.
+        </p>
+      `;
+      return;
+    }
+
+    ordersList.innerHTML = orders
+      .map(
+        (order) => `
+        <div class="p-4 rounded-xl bg-white/[0.03] border border-white/10 flex flex-wrap items-center justify-between gap-3 text-[13px]">
+          <div>
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-mono text-ocean-300 font-medium">${order.id}</span>
+              <span class="text-white font-medium">${order.productTitle}</span>
+            </div>
+            <p class="text-white/40 text-[12px]">${order.customerEmail} · ${order.rail} · ${order.date}</p>
+          </div>
+          <span class="font-mono text-gold-light font-medium bg-gold/10 px-3 py-1 rounded-full border border-gold/20">
+            $${order.amount.toFixed(2)}
+          </span>
+        </div>
+      `,
+      )
+      .join('');
+  }
+
+  // Handle Form Submit
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const emailEl = document.getElementById(
+      'input-customer-email',
+    ) as HTMLInputElement | null;
+    const email = emailEl?.value || 'evaluator@example.com';
+
+    const railSelect = document.getElementById(
+      'input-payment-rail',
+    ) as HTMLSelectElement | null;
+    const rail = railSelect?.value || 'Stripe Sandbox';
+
+    const title = inputTitle.value;
+    const amount = parseFloat(inputPrice.value) || 0;
+
+    const orderId = `#SS-2026-${Math.floor(1000 + Math.random() * 9000)}`;
+    const dateStr = new Date().toLocaleTimeString([], {
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+
+    const newOrder: SavedOrder = {
+      id: orderId,
+      productTitle: title,
+      amount,
+      rail,
+      customerEmail: email,
+      date: dateStr,
+    };
+
+    const orders = getSavedOrders();
+    orders.unshift(newOrder);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(orders));
+
+    trackEvent({
+      action: 'cta_click',
+      label: 'store_sandbox_checkout',
+      href: '/store',
+    });
+
+    // Update receipt step
+    document.getElementById('receipt-order-id')!.textContent = orderId;
+    document.getElementById('receipt-product-title')!.textContent = title;
+    document.getElementById('receipt-amount')!.textContent =
+      `$${amount.toFixed(2)}`;
+    document.getElementById('receipt-rail')!.textContent = rail;
+
+    checkoutStep.classList.add('hidden');
+    successStep.classList.remove('hidden');
+
+    renderOrders();
+  });
+
+  // Clear orders
+  clearOrdersBtn?.addEventListener('click', () => {
+    localStorage.removeItem(STORAGE_KEY);
+    renderOrders();
+  });
+
+  // Collection filtering
+  const tabs = document.querySelectorAll('#collection-tabs .tab-btn');
+  const cards = document.querySelectorAll('.product-card');
+
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const col = (tab as HTMLElement).dataset.collection;
+      tabs.forEach((t) => {
+        t.classList.remove(
+          'active',
+          'bg-ocean-500/20',
+          'border-ocean-500/30',
+          'text-white',
+        );
+        t.classList.add('bg-white/5', 'border-white/10', 'text-white/60');
+      });
+      tab.classList.add(
+        'active',
+        'bg-ocean-500/20',
+        'border-ocean-500/30',
+        'text-white',
+      );
+      tab.classList.remove('bg-white/5', 'border-white/10', 'text-white/60');
+
+      cards.forEach((card) => {
+        const cardCol = (card as HTMLElement).dataset.collection;
+        if (col === 'all' || cardCol === col) {
+          (card as HTMLElement).style.display = 'flex';
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Initial render
+  renderOrders();
+</script>
 
 <style>
   .store-page {
@@ -57,14 +609,13 @@ const businessUrl = `https://${config.domains.business}`;
 
   .store-hero {
     position: relative;
-    min-height: 54vh;
+    min-height: 48vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    text-integrate: center;
-    padding: 4rem 0 3rem;
-    margin-bottom: 2rem;
+    text-align: center;
+    padding: 3.5rem 0 2.5rem;
   }
 
   .eyebrow {
@@ -82,15 +633,15 @@ const businessUrl = `https://${config.domains.business}`;
     margin: 0;
     color: white;
     font-weight: 300;
-    font-size: clamp(2.9rem, 7vw, 5.7rem);
+    font-size: clamp(2.5rem, 6vw, 4.8rem);
     line-height: 0.98;
     text-shadow: 0 0 60px rgba(var(--color-ocean-500-rgb, 17, 154, 158), 0.15);
   }
 
   .intro {
     position: relative;
-    max-width: 650px;
-    margin: 1.4rem auto 0;
+    max-width: 680px;
+    margin: 1.2rem auto 0;
     color: rgba(255, 255, 255, 0.54);
     font-size: 1rem;
     line-height: 1.8;
@@ -102,6 +653,6 @@ const businessUrl = `https://${config.domains.business}`;
     flex-wrap: wrap;
     gap: 0.9rem;
     justify-content: center;
-    margin-top: 2.2rem;
+    margin-top: 2rem;
   }
 </style>

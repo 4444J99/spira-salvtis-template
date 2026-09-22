@@ -300,8 +300,7 @@ export function matchFiltersToContaminants(
 // `import.meta.env` is undefined) — the same pattern site.config.ts uses.
 const env = import.meta.env;
 const AFFILIATE_URLS = {
-  ionfaucet:
-    env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/demo',
+  ionfaucet: env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/demo',
   multipure:
     env?.PUBLIC_AFFILIATE_MULTIPURE ?? 'https://www.multipure.com/demo',
   purehome: env?.PUBLIC_AFFILIATE_PUREHOME ?? 'https://purehome.co/demo',

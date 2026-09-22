@@ -42,7 +42,10 @@ const businessDimensions = personalizationDimensions.filter((dimension) =>
     <div class="grid gap-4 md:grid-cols-4 mb-10">
       {
         businessRhythmStrategy.map((step) => (
-          <article class="glass-card p-5" data-business-rhythm-step={step.title}>
+          <article
+            class="glass-card p-5"
+            data-business-rhythm-step={step.title}
+          >
             <p class="font-heading text-[19px] text-white/80 mb-2">
               {step.title}
             </p>

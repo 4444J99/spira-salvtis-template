@@ -2,10 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import CTAButton from '../../components/CTAButton.astro';
 import WorldMotif from '../../components/WorldMotif.astro';
-import {
-  canAcceptDpPayment,
-  dpSignupFlow,
-} from '../../data/revenue.config';
+import { canAcceptDpPayment, dpSignupFlow } from '../../data/revenue.config';
 
 const dpFlowJson = JSON.stringify(dpSignupFlow);
 const amountLabel = `$${dpSignupFlow.amountUsd}`;
@@ -27,16 +24,16 @@ const amountLabel = `$${dpSignupFlow.amountUsd}`;
       {
         canAcceptDpPayment ? (
           <p class="intro">
-            Initialize execution protocol via the {amountLabel} Telemetry Access Vector
-            entry. Payment runs on the approved {dpSignupFlow.paymentRail} rail —
-            continue to secure checkout below.
+            Initialize execution protocol via the {amountLabel} Telemetry Access
+            Vector entry. Payment runs on the approved{' '}
+            {dpSignupFlow.paymentRail} rail — continue to secure checkout below.
           </p>
         ) : (
           <p class="intro">
-            Initialize execution protocol via the {amountLabel} Telemetry Access Vector
-            entry. The connection socket is intentionally held until the
-            bandwidth limit is established; this page captures
-            ready-to-start interest now.
+            Initialize execution protocol via the {amountLabel} Telemetry Access
+            Vector entry. The connection socket is intentionally held until the
+            bandwidth limit is established; this page captures ready-to-start
+            interest now.
           </p>
         )
       }
@@ -92,9 +89,9 @@ const amountLabel = `$${dpSignupFlow.amountUsd}`;
         <article class="detail-panel">
           <h3>Intent capture</h3>
           <p>
-            Visitors who are ready for the DP path can leave name and email.
-            The contact record is saved through the same lead pipeline as the
-            quiz, gateway funnel, and business waitlist.
+            Visitors who are ready for the DP path can leave name and email. The
+            contact record is saved through the same lead pipeline as the quiz,
+            gateway funnel, and business waitlist.
           </p>
         </article>
         <article class="detail-panel">
@@ -102,9 +99,9 @@ const amountLabel = `$${dpSignupFlow.amountUsd}`;
           {
             canAcceptDpPayment ? (
               <p>
-                The {dpSignupFlow.paymentRail} rail is approved. The {amountLabel} checkout
-                link renders from the configured handoff URL — one home for
-                payment state, refunds, and records.
+                The {dpSignupFlow.paymentRail} rail is approved. The{' '}
+                {amountLabel} checkout link renders from the configured handoff
+                URL — one home for payment state, refunds, and records.
               </p>
             ) : (
               <p>
@@ -166,9 +163,8 @@ const amountLabel = `$${dpSignupFlow.amountUsd}`;
         <p class="eyebrow">DP interest</p>
         <h2>Be first when the payment link opens.</h2>
         <p>
-          This form is not a purchase. It records who wants the {amountLabel} DP
-          path so the checkout can be sent after the payment rail decision
-          clears.
+          This form is not a purchase. It records who wants the {amountLabel} DP path
+          so the checkout can be sent after the payment rail decision clears.
         </p>
       </div>
       <form id="dp-interest-form" class="dp-form">
@@ -260,7 +256,7 @@ const amountLabel = `$${dpSignupFlow.amountUsd}`;
         'Saved. The DP payment link will be sent once the rail is approved.';
     } else {
       status.textContent =
-        "That did not go through. Give it a moment and try again.";
+        'That did not go through. Give it a moment and try again.';
     }
 
     status.classList.remove('hidden');

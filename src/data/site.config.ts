@@ -6,8 +6,7 @@ const envOrigin =
     : undefined;
 
 export const siteConfig = {
-  githubRepo:
-    'https://github.com/4444J99/spira-salvtis-template',
+  githubRepo: 'https://github.com/4444J99/spira-salvtis-template',
   cloudflare: {
     workerName: 'spira-salvtis',
     reviewOrigin: trimTrailingSlash(

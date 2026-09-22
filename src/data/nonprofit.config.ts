@@ -84,8 +84,7 @@ export const nonprofitConfig: NonprofitConfig = {
       'reintegration support',
     ],
     candidateRegions: ['Hudson Valley', 'Idaho', 'Eastern Tennessee'],
-    sourceDecision:
-      'docs/client-decisions/2026-04-17-atomized-wants.md#W-043',
+    sourceDecision: 'docs/client-decisions/2026-04-17-atomized-wants.md#W-043',
   },
   paths: [
     {

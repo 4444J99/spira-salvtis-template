@@ -134,7 +134,9 @@ function extractUtilityName(
   const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)]
     .map((match) => stripTags(match[1]))
     .filter(Boolean);
-  const utilityH1 = h1s.find((heading) => !/^find your gateway$/i.test(heading));
+  const utilityH1 = h1s.find(
+    (heading) => !/^find your gateway$/i.test(heading),
+  );
   if (utilityH1) return utilityH1;
 
   const title = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
