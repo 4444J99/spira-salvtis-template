@@ -2,10 +2,7 @@ export type NonprofitStatus = 'arm-in-formation';
 export type DonationRailStatus = 'held' | 'ready';
 export type NonprofitCaptureSource = 'nonprofit-arm-interest';
 export type NonprofitPathId =
-  | 'donor'
-  | 'host'
-  | 'volunteer'
-  | 'reset-candidate';
+  'donor' | 'host' | 'volunteer' | 'reset-candidate';
 export type NonprofitGateStatus = 'ready' | 'needs-client-input' | 'planned';
 
 export interface NonprofitPath {

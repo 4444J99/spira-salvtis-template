@@ -26,10 +26,7 @@ import { repoUrl, siteConfig, siteUrl } from './site.config';
 export type DecisionStatus = 'open' | 'partial' | 'resolved';
 export type DecisionType = 'binary' | 'multi' | 'observation' | 'free-text';
 export type DecisionCategory =
-  | 'urgent'
-  | 'client-gated'
-  | 'studio-internal'
-  | 'strategic';
+  'urgent' | 'client-gated' | 'studio-internal' | 'strategic';
 export type Owner = 'admin' | '4jp' | 'both' | 'system';
 
 export interface DecisionOption {

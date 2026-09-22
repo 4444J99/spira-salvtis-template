@@ -10,7 +10,7 @@ export const siteConfig = {
   cloudflare: {
     workerName: 'spira-salvtis',
     reviewOrigin: trimTrailingSlash(
-      envOrigin || 'https://spira-salvtis-template.workers.dev',
+      envOrigin || 'https://spira-salvtis-template.workers.dev'
     ),
     legacyPagesOrigin: 'https://spira-salvtis-template.pages.dev',
   },
