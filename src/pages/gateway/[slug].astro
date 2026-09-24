@@ -21,12 +21,11 @@ export async function getStaticPaths() {
 const { branch } = Astro.props;
 const { Content } = await render(branch);
 const { title, emoji, hook, status, tone } = branch.data;
-const ctaLabel = tone === 'soft' ? 'Explore gently' : 'Start with your gateway';
+const ctaLabel = tone === 'soft' ? 'Explore gently' : 'Take Gateway Quiz';
 
 const branchSlug = branch.id;
 const branchConfig = config.branches.find((b) => b.slug === branchSlug);
 const citationIds = branchConfig?.citationIds || [];
-const branchGhlUrl = branchConfig?.ghlUrl || config.ghl.productUrl;
 const hasCycleContent = hasCycleLayer(branchSlug);
 ---
 
@@ -78,17 +77,13 @@ const hasCycleContent = hasCycleLayer(branchSlug);
     </div>
   </section>
 
-  <!-- CTA — FREE (visible to drive conversion) -->
+  <!-- CTA — FREE (visible to drive conversion into diagnostic flow) -->
   <section class="py-20 px-6 glow-bg text-center border-t border-ocean-500/10">
     <div
       class="relative flex flex-col md:flex-row gap-4 justify-center items-center"
     >
-      <CTAButton href={branchGhlUrl} label={ctaLabel} />
-      <CTAButton
-        href="/gateway/#branches"
-        label="All Gateway Branches"
-        variant="secondary"
-      />
+      <CTAButton href="/gateway/quiz" label={ctaLabel} />
+      <CTAButton href="/store" label="Gateway Systems" variant="secondary" />
       <CTAButton href="/gateway/" label="Back to Gateway" variant="secondary" />
     </div>
   </section>

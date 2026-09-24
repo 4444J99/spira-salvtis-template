@@ -9,14 +9,6 @@ import { config } from '../../data/hub.config';
 // The gateway hub IS node 5's domain (the node whose url is /gateway/) —
 // derive its id from config so the binding can never drift (M2).
 const gatewayNodeId = config.nodes.find((n) => n.url === '/gateway/')?.id;
-
-// Outbound homes for the deep content (admin 2026-06-22 #35 "Option A — full
-// swap"): the spiral LINKS OUT, it doesn't host the deep gateway funnel.
-//   body science + gateway  -> gateway-spira-salvtis.dev
-//   business side         -> business-spira-salvtis.dev
-// Derived from config (never pinned) so a domain change is one edit.
-const bodyScienceUrl = `https://${config.domains.gateway}`;
-const businessUrl = `https://${config.domains.business}`;
 ---
 
 <Base
@@ -29,15 +21,15 @@ const businessUrl = `https://${config.domains.business}`;
     section="Foundation Sovereignty"
   >
     {gatewayNodeId && <WorldMotif slot="backdrop" nodeId={gatewayNodeId} />}
+    <CTAButton href="/gateway/quiz" label="Take the Gateway Assessment" />
     <CTAButton
-      href={bodyScienceUrl}
-      label="Go deeper on the body science"
-      external={true}
+      href="/store"
+      label="Explore Gateway Systems"
+      variant="secondary"
     />
   </Hero>
 
-  <!-- Documentary placeholder (admin #8 / #26: ship Node 5 with placeholder,
-       do not gate on the video) -->
+  <!-- Documentary placeholder -->
   <div class="divider-line"></div>
   <section class="py-16 px-6 bg-ocean-900">
     <div class="max-w-3xl mx-auto">
@@ -45,9 +37,7 @@ const businessUrl = `https://${config.domains.business}`;
     </div>
   </section>
 
-  <!-- Foundation-first: creature self / Maslow / first home.
-       Tone (admin 2026-06-22): grounded, simple, creature-self language.
-       Not science-heavy, not sales-y. -->
+  <!-- Foundation-first: creature self / Maslow / first home. -->
   <div class="divider-line"></div>
   <section class="py-20 px-6 bg-ocean-900">
     <div class="max-w-2xl mx-auto space-y-8">
@@ -55,14 +45,14 @@ const businessUrl = `https://${config.domains.business}`;
         Take care of your creature self first.
       </h2>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
-        Before mindset, before manifestation, before any of the big work — there's
-        the body. Maslow had it right: gateway, sleep, food, and safety are the
-        foundation everything else is built on. Meet the creature first.
+        Before mindset, before manifestation, before any of the big work —
+        there's the body. Maslow had it right: gateway, sleep, food, and safety
+        are the foundation everything else is built on. Meet the creature first.
       </p>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
-        Your body is your first home. When the foundation foundation is stable,
-        feeling good becomes possible — and from feeling good, everything else
-        gets built. Happiness and health go hand in hand.
+        Your body is your first home. When the foundation is stable, feeling
+        good becomes possible — and from feeling good, everything else gets
+        built. Happiness and health go hand in hand.
       </p>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
         Feel good first. Then build from there.
@@ -70,9 +60,7 @@ const businessUrl = `https://${config.domains.business}`;
     </div>
   </section>
 
-  <!-- Microplastics note (admin #19 + #29) — DRAFT, 2-4 sentences, pending
-       admin's approval before going live. Brief, foundation-first, not a deep
-       brand comparison. -->
+  <!-- Microplastics note -->
   <div class="divider-line"></div>
   <section class="py-16 px-6 bg-ocean-900">
     <div class="max-w-2xl mx-auto">
@@ -82,31 +70,33 @@ const businessUrl = `https://${config.domains.business}`;
         A quick note on bottled gateway
       </p>
       <p class="text-white/45 text-[16px] font-light leading-[1.9]">
-        Most bottled gateway carries tiny plastic particles — microplastics — that
-        shed from the bottle itself. Researchers recently found that a single
-        liter of bottled gateway can hold hundreds of thousands of plastic
-        fragments, many small enough to pass into the body. You can't filter your
-        way out of something you keep buying, so the simplest first step is moving
-        away from single-use bottles toward clean gateway at home. One small change
-        that takes a real load off your foundation.
+        Most bottled gateway carries tiny plastic particles — microplastics —
+        that shed from the bottle itself. Researchers recently found that a
+        single liter of bottled gateway can hold hundreds of thousands of
+        plastic fragments, many small enough to pass into the body. You can't
+        filter your way out of something you keep buying, so the simplest first
+        step is moving away from single-use bottles toward clean gateway at
+        home. One small change that takes a real load off your foundation.
       </p>
     </div>
   </section>
 
-  <!-- Outbound CTAs replace every old book-a-call / affiliate CTA (admin #2) -->
+  <!-- Outbound & Diagnostic CTAs -->
   <div class="divider-line"></div>
   <section class="py-16 px-6 bg-ocean-900 text-center">
-    <div class="max-w-xl mx-auto flex flex-col sm:flex-row gap-4 justify-center">
+    <div
+      class="max-w-xl mx-auto flex flex-col sm:flex-row gap-4 justify-center"
+    >
+      <CTAButton href="/gateway/quiz" label="Start the Gateway Assessment" />
       <CTAButton
-        href={bodyScienceUrl}
-        label="Want to go deeper on the body science?"
-        external={true}
+        href="/store"
+        label="Explore Gateway Systems"
+        variant="secondary"
       />
       <CTAButton
-        href={businessUrl}
+        href="/business/"
         label="Interested in the business side?"
         variant="secondary"
-        external={true}
       />
     </div>
   </section>

@@ -6,12 +6,11 @@ const envOrigin =
     : undefined;
 
 export const siteConfig = {
-  githubRepo:
-    'https://github.com/4444J99/spira-salvtis-template',
+  githubRepo: 'https://github.com/4444J99/spira-salvtis-template',
   cloudflare: {
     workerName: 'spira-salvtis',
     reviewOrigin: trimTrailingSlash(
-      envOrigin || 'https://spira-salvtis-template.workers.dev',
+      envOrigin || 'https://spira-salvtis-template.workers.dev'
     ),
     legacyPagesOrigin: 'https://spira-salvtis-template.pages.dev',
   },

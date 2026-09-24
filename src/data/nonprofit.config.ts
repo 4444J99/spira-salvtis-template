@@ -2,10 +2,7 @@ export type NonprofitStatus = 'arm-in-formation';
 export type DonationRailStatus = 'held' | 'ready';
 export type NonprofitCaptureSource = 'nonprofit-arm-interest';
 export type NonprofitPathId =
-  | 'donor'
-  | 'host'
-  | 'volunteer'
-  | 'reset-candidate';
+  'donor' | 'host' | 'volunteer' | 'reset-candidate';
 export type NonprofitGateStatus = 'ready' | 'needs-client-input' | 'planned';
 
 export interface NonprofitPath {
@@ -84,8 +81,7 @@ export const nonprofitConfig: NonprofitConfig = {
       'reintegration support',
     ],
     candidateRegions: ['Hudson Valley', 'Idaho', 'Eastern Tennessee'],
-    sourceDecision:
-      'docs/client-decisions/2026-04-17-atomized-wants.md#W-043',
+    sourceDecision: 'docs/client-decisions/2026-04-17-atomized-wants.md#W-043',
   },
   paths: [
     {
