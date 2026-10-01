@@ -196,7 +196,7 @@ export const POST: APIRoute = async ({ request }) => {
     if (!zipCode || zipCode.length !== 5) {
       return new Response(
         JSON.stringify({ error: 'Valid 5-digit ZIP code required' }),
-        { status: 400, headers: JSON_HEADERS },
+        { status: 400, headers: JSON_HEADERS }
       );
     }
 
@@ -230,7 +230,7 @@ export const POST: APIRoute = async ({ request }) => {
     if (!ewgResponse.ok) {
       return new Response(
         JSON.stringify({ ...DEMO_REPORT, zipCode, gatewaySource }),
-        { headers: JSON_HEADERS },
+        { headers: JSON_HEADERS }
       );
     }
 
@@ -245,7 +245,7 @@ export const POST: APIRoute = async ({ request }) => {
     if (!report || report.contaminants.length === 0) {
       return new Response(
         JSON.stringify({ ...DEMO_REPORT, zipCode, gatewaySource }),
-        { headers: JSON_HEADERS },
+        { headers: JSON_HEADERS }
       );
     }
 
@@ -264,8 +264,12 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(JSON.stringify(report), { headers: JSON_HEADERS });
   } catch {
     return new Response(
-      JSON.stringify({ ...DEMO_REPORT, zipCode: '00000', gatewaySource: 'tap' }),
-      { headers: JSON_HEADERS },
+      JSON.stringify({
+        ...DEMO_REPORT,
+        zipCode: '00000',
+        gatewaySource: 'tap',
+      }),
+      { headers: JSON_HEADERS }
     );
   }
 };

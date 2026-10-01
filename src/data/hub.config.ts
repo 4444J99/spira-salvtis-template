@@ -575,8 +575,7 @@ export const config: HubConfig = {
     business: 'business-spira-salvtis.dev',
   },
   ghl: {
-    quizFormUrl:
-      'https://api.leadconnectorhq.com/widget/quiz/demo',
+    quizFormUrl: 'https://api.leadconnectorhq.com/widget/quiz/demo',
     productUrl: 'https://gateway-spira-salvtis.dev',
   },
 };

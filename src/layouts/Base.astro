@@ -4,6 +4,7 @@ import { config, ui } from '../data/hub.config';
 import type { Phase } from '../data/hub.config';
 import { worldFor, hexToCss } from '../data/icon-worlds';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import DemoModal from '../components/DemoModal.astro';
 
 // Phase entry-node URLs for the spiral-first nav variant — one
 // representative node per phase keeps the nav at the same item
@@ -704,9 +705,7 @@ if (!isHome) {
             <div class="flex flex-col gap-2">
               {
                 config.pillars
-                  .filter(
-                    (p) => p.slug !== 'foundation' && p.slug !== 'vision',
-                  )
+                  .filter((p) => p.slug !== 'foundation' && p.slug !== 'vision')
                   .map((pillar) => (
                     <a
                       href={pillar.url}
@@ -928,6 +927,8 @@ if (!isHome) {
       import { initAutoTrack } from '../lib/analytics';
       if (import.meta.env.PROD) initAutoTrack();
     </script>
+
+    <DemoModal />
   </body>
 </html>
 

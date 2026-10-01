@@ -96,7 +96,7 @@ export interface FilterTier {
  * numeric bounds so the display can never drift from the math.
  */
 export function priceRangeLabel(
-  tier: Pick<FilterTier, 'priceMin' | 'priceMax'>,
+  tier: Pick<FilterTier, 'priceMin' | 'priceMax'>
 ): string {
   const fmt = (n: number) => `$${n.toLocaleString('en-US')}`;
   return tier.priceMin === tier.priceMax
@@ -109,17 +109,13 @@ export function priceRangeLabel(
  * midpoint of the tier's price band (a single number for fixed-price tiers).
  */
 export function representativePrice(
-  tier: Pick<FilterTier, 'priceMin' | 'priceMax'>,
+  tier: Pick<FilterTier, 'priceMin' | 'priceMax'>
 ): number {
   return (tier.priceMin + tier.priceMax) / 2;
 }
 
 export type FilterPosition =
-  | 'entry'
-  | 'mid-tier'
-  | 'high-end'
-  | 'upgrade-spa'
-  | 'upgrade-ionizer';
+  'entry' | 'mid-tier' | 'high-end' | 'upgrade-spa' | 'upgrade-ionizer';
 
 export interface FilterRecommendation {
   tier: FilterTier;
@@ -191,10 +187,10 @@ function roundCurrency(value: number): number {
  * null`, `trackingIssue: 63`) pending real shelf-price verification.
  */
 export function deriveLegacyGatewayCost(
-  record: LegacyGatewayCostInput,
+  record: LegacyGatewayCostInput
 ): LegacyGatewayCost {
   const monthlyEstimate = roundCurrency(
-    record.perBottle * record.monthlyVolumeAssumption,
+    record.perBottle * record.monthlyVolumeAssumption
   );
 
   return {
@@ -219,10 +215,10 @@ interface MatchContaminant {
 export function matchFiltersToContaminants(
   contaminants: MatchContaminant[],
   filters: FilterTier[] = hydrationConfig.filterTiers,
-  avgBottledMonthly = 65,
+  avgBottledMonthly = 65
 ): FilterRecommendation[] {
   const concerning = contaminants.filter(
-    (c) => c.exceedsHealth || c.exceedsLegal,
+    (c) => c.exceedsHealth || c.exceedsLegal
   );
 
   return filters
@@ -267,7 +263,7 @@ export function matchFiltersToContaminants(
         // never surface a negative "savings" figure in the UI.
         monthlySavings: Math.max(
           0,
-          Math.round(avgBottledMonthly - monthlyFilterCost),
+          Math.round(avgBottledMonthly - monthlyFilterCost)
         ),
         yearlyComparison: {
           legacyGateway: Math.round(avgBottledMonthly * 12),
@@ -300,8 +296,7 @@ export function matchFiltersToContaminants(
 // `import.meta.env` is undefined) — the same pattern site.config.ts uses.
 const env = import.meta.env;
 const AFFILIATE_URLS = {
-  ionfaucet:
-    env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/demo',
+  ionfaucet: env?.PUBLIC_AFFILIATE_IONFAUCET ?? 'https://ionfaucet.com/demo',
   multipure:
     env?.PUBLIC_AFFILIATE_MULTIPURE ?? 'https://www.multipure.com/demo',
   purehome: env?.PUBLIC_AFFILIATE_PUREHOME ?? 'https://purehome.co/demo',

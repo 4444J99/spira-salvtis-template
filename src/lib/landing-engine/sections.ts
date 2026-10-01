@@ -98,13 +98,13 @@ export const SectionBuilders = {
       vision: ['vision', 'structure', 'system'],
     };
     const anchor = pillarSlug[persona.primaryPillar] ?? 'foundation';
-    const paths = (adjacency[anchor] ?? ['foundation', 'system', 'structure']).map(
-      (slug) => ({
-        label: slug.replace('-', ' '),
-        description: `Enter through ${slug.replace('-', ' ')}.`,
-        href: `/pillars/${slug}`,
-      }),
-    );
+    const paths = (
+      adjacency[anchor] ?? ['foundation', 'system', 'structure']
+    ).map((slug) => ({
+      label: slug.replace('-', ' '),
+      description: `Enter through ${slug.replace('-', ' ')}.`,
+      href: `/pillars/${slug}`,
+    }));
     return {
       type: 'three-paths',
       heading: 'Three roads in',

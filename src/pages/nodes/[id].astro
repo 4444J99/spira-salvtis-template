@@ -57,8 +57,7 @@ const dominantMatter = phaseEntries
   .map(([name]) => name)
   .slice(0, 2)
   .join(' + ');
-const nodeWorldHref = (n: SpiralNode) =>
-  n.url.startsWith('/nodes/') ? n.url : `/nodes/${n.id}`;
+const nodeWorldHref = (n: SpiralNode) => n.url;
 const nodeActivation =
   node.pillarSlug === 'foundation'
     ? {
@@ -295,12 +294,13 @@ const nextNode =
             {data?.practiceTable && data.practiceTable.length > 0 && (
               <div class="mb-12">
                 <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-4">
-                  Practice
+                  Practice (Click to track completion)
                 </p>
                 <div class="overflow-x-auto">
                   <table class="w-full text-[13px] border-collapse">
                     <thead>
                       <tr class="border-b border-white/10">
+                        <th class="py-3 px-2 w-8" />
                         <th class="text-left py-3 px-2 text-[10px] uppercase tracking-[0.1em] text-white/25 font-medium">
                           Science
                         </th>
@@ -313,8 +313,15 @@ const nextNode =
                       </tr>
                     </thead>
                     <tbody>
-                      {data.practiceTable.map((row) => (
-                        <tr class="border-b border-white/5">
+                      {data.practiceTable.map((row, index) => (
+                        <tr class="border-b border-white/5 hover:bg-white/[0.02] transition-colors">
+                          <td class="py-3 px-2 text-center">
+                            <input
+                              type="checkbox"
+                              class="practice-checkbox accent-ocean-500 rounded cursor-pointer"
+                              data-practice-key={`practice_node_${node.id}_${index}`}
+                            />
+                          </td>
                           <td class="py-3 px-2 text-white/35 font-light">
                             {row.science}
                           </td>
@@ -377,17 +384,30 @@ const nextNode =
             {data?.reflectionPrompts && data.reflectionPrompts.length > 0 && (
               <div class="mb-12">
                 <p class="text-[10px] uppercase tracking-[0.2em] text-white/20 mb-4">
-                  Reflection
+                  Interactive Reflection Journal
                 </p>
                 <div
-                  class="glass-card p-6 sm:p-8 text-center"
+                  class="glass-card p-6 sm:p-8 text-left space-y-6"
                   style="border-color: rgba(var(--color-ocean-500-rgb, 17, 154, 158),0.08);"
                 >
-                  {data.reflectionPrompts.map((prompt: string) => (
-                    <p class="font-heading text-[18px] italic text-white/50 leading-[1.7] mb-3 last:mb-0">
-                      "{prompt}"
-                    </p>
-                  ))}
+                  {data.reflectionPrompts.map(
+                    (prompt: string, index: number) => (
+                      <div>
+                        <p class="font-heading text-[18px] italic text-white/70 leading-[1.7] mb-2">
+                          "{prompt}"
+                        </p>
+                        <textarea
+                          class="node-reflection-input w-full p-3.5 rounded-lg bg-black/40 border border-ocean-500/20 text-white text-[14px] font-light focus:outline-none focus:border-ocean-400/60 transition-colors"
+                          rows="3"
+                          data-reflection-key={`reflection_node_${node.id}_${index}`}
+                          placeholder="Write your reflections here (auto-saved)..."
+                        />
+                        <span class="reflection-saved-status text-[11px] text-ocean-400/60 block mt-1 opacity-0 transition-opacity">
+                          Saved to session
+                        </span>
+                      </div>
+                    ),
+                  )}
                 </div>
               </div>
             )}
@@ -450,7 +470,9 @@ const nextNode =
         >
           {nodeActivation.title}
         </h2>
-        <p class="mx-auto mt-4 max-w-md text-[15px] font-light leading-[1.8] text-white/42">
+        <p
+          class="mx-auto mt-4 max-w-md text-[15px] font-light leading-[1.8] text-white/42"
+        >
           {nodeActivation.body}
         </p>
         <div class="mt-8 flex flex-wrap justify-center gap-3">
@@ -557,6 +579,44 @@ const nextNode =
 
 <script is:inline>
   (() => {
+    // Interactive State Persistence for Reflection Journal and Practice Checkboxes
+    const checkboxes = document.querySelectorAll('.practice-checkbox');
+    checkboxes.forEach((cb) => {
+      const key = cb.getAttribute('data-practice-key');
+      if (!key) return;
+      const saved = localStorage.getItem(key);
+      if (saved === 'true') cb.checked = true;
+
+      cb.addEventListener('change', () => {
+        localStorage.setItem(key, cb.checked ? 'true' : 'false');
+      });
+    });
+
+    const reflections = document.querySelectorAll('.node-reflection-input');
+    reflections.forEach((area) => {
+      const key = area.getAttribute('data-reflection-key');
+      if (!key) return;
+      const saved = localStorage.getItem(key);
+      if (saved) area.value = saved;
+
+      const statusEl = area.nextElementSibling;
+
+      let timeout;
+      area.addEventListener('input', () => {
+        localStorage.setItem(key, area.value);
+        if (
+          statusEl &&
+          statusEl.classList.contains('reflection-saved-status')
+        ) {
+          statusEl.style.opacity = '1';
+          clearTimeout(timeout);
+          timeout = setTimeout(() => {
+            statusEl.style.opacity = '0';
+          }, 2000);
+        }
+      });
+    });
+
     const reducedMotion = window.matchMedia(
       '(prefers-reduced-motion: reduce)',
     ).matches;

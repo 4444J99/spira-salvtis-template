@@ -26,8 +26,7 @@ export const quizQuestions: QuizQuestion[] = [
     step: 1,
     axis: 'phase',
     text: 'Select initial topological vector:',
-    subtitle:
-      "Input is arbitrary; the architecture auto-corrects.",
+    subtitle: 'Input is arbitrary; the architecture auto-corrects.',
     answers: [
       {
         value: 'INITIATE',
@@ -35,11 +34,11 @@ export const quizQuestions: QuizQuestion[] = [
       },
       {
         value: 'INTEGRATE',
-        text: "Systemic integration. Aligning structural nodes.",
+        text: 'Systemic integration. Aligning structural nodes.',
       },
       {
         value: 'ACTIVATE',
-        text: "High-velocity execution. Expanding the boundary.",
+        text: 'High-velocity execution. Expanding the boundary.',
       },
       {
         value: 'ALL',
@@ -91,15 +90,15 @@ export const quizQuestions: QuizQuestion[] = [
       },
       {
         value: 'witness,awareness,signal-reading',
-        text: "Increased telemetry resolution.",
+        text: 'Increased telemetry resolution.',
       },
       {
         value: 'release,reclaim,unwiring',
-        text: "Garbage collection. Purging legacy logic.",
+        text: 'Garbage collection. Purging legacy logic.',
       },
       {
         value: 'becoming,life-fueling,power',
-        text: "Compiling new structural paradigms.",
+        text: 'Compiling new structural paradigms.',
       },
     ],
   },
@@ -111,7 +110,7 @@ export const quizQuestions: QuizQuestion[] = [
     answers: [
       {
         value: 'foundation,gateway,root-cause',
-        text: "Hardware optimization.",
+        text: 'Hardware optimization.',
       },
       {
         value: 'regulation,balance,calm',
@@ -135,15 +134,15 @@ export const quizQuestions: QuizQuestion[] = [
     answers: [
       {
         value: 'integration,wholeness,pulling-together',
-        text: "Infinite loops detected in execution.",
+        text: 'Infinite loops detected in execution.',
       },
       {
         value: 'awakening,what-now,post-awakening',
-        text: "Read-only access to legacy patterns.",
+        text: 'Read-only access to legacy patterns.',
       },
       {
         value: 'expression,structure,loud-pride',
-        text: "Idle state awaiting instruction set.",
+        text: 'Idle state awaiting instruction set.',
       },
       {
         // Normalized to a single node's 3-theme bundle (node 13 — Activate:
@@ -151,7 +150,7 @@ export const quizQuestions: QuizQuestion[] = [
         // the same 3 themes. The prior 6-theme bundle also pulled node 4's
         // INITIATE themes, buying double scoring weight for two funnel-end nodes.
         value: 'freedom,gifts-amplified,full-flow',
-        text: "Ready for execution.",
+        text: 'Ready for execution.',
       },
     ],
   },

@@ -46,10 +46,10 @@ function decodeHtmlEntities(value: string): string {
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')
     .replace(/&#(\d+);/g, (_, code: string) =>
-      String.fromCharCode(Number(code)),
+      String.fromCharCode(Number(code))
     )
     .replace(/&#x([0-9a-f]+);/gi, (_, code: string) =>
-      String.fromCharCode(Number.parseInt(code, 16)),
+      String.fromCharCode(Number.parseInt(code, 16))
     );
 }
 
@@ -66,7 +66,7 @@ function htmlToTextLines(html: string): string[] {
       .replace(/<style\b[\s\S]*?<\/style>/gi, '\n')
       .replace(/<br\s*\/?>/gi, '\n')
       .replace(/<\/(?:h[1-6]|p|div|li|tr|td|th|section|article)>/gi, '\n')
-      .replace(/<[^>]+>/g, '\n'),
+      .replace(/<[^>]+>/g, '\n')
   )
     .split('\n')
     .map((line) => line.replace(/\s+/g, ' ').trim())
@@ -98,7 +98,7 @@ function resolveEwgUtilityUrl(href: string): string | null {
 }
 
 export function parseEwgSearchResult(
-  html: string,
+  html: string
 ): EwgUtilitySearchResult | null {
   const utilityLinkPattern =
     /<a\b[^>]*href=["']([^"']*system\.php\?pws=[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
@@ -119,10 +119,10 @@ export function parseEwgSearchResult(
 function extractUtilityName(
   lines: string[],
   html: string,
-  zipCode: string,
+  zipCode: string
 ): string {
   const utilityLabelIndex = lines.findIndex(
-    (line) => line.toUpperCase() === 'UTILITY',
+    (line) => line.toUpperCase() === 'UTILITY'
   );
   if (utilityLabelIndex !== -1) {
     const candidate = lines
@@ -134,7 +134,9 @@ function extractUtilityName(
   const h1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)]
     .map((match) => stripTags(match[1]))
     .filter(Boolean);
-  const utilityH1 = h1s.find((heading) => !/^find your gateway$/i.test(heading));
+  const utilityH1 = h1s.find(
+    (heading) => !/^find your gateway$/i.test(heading)
+  );
   if (utilityH1) return utilityH1;
 
   const title = html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
@@ -154,7 +156,7 @@ function isCandidateContaminantName(line: string): boolean {
   if (line.includes(':')) return false;
   if (
     /^(overview|contaminants|find your gateway|find a filter|take action|utility)$/i.test(
-      line,
+      line
     )
   ) {
     return false;
@@ -163,14 +165,14 @@ function isCandidateContaminantName(line: string): boolean {
   if (/[.!?]$/.test(line)) return false;
   const isSectionLabel =
     /^(contaminants detected|exceed guidelines other detected|potential effect|how your levels compare)$/i.test(
-      line,
+      line
     );
   if (isSectionLabel) {
     return false;
   }
   if (
     /^(this utility|legal limit|no legal limit|ewg(?:'|’)?s? health guideline|no ewg health guideline|national average|state average|health risks|pollution sources|filtering options|image)$/i.test(
-      line,
+      line
     )
   ) {
     return false;
@@ -185,7 +187,7 @@ function findLabelIndex(
   lines: string[],
   startIndex: number,
   label: RegExp,
-  searchWindow: number,
+  searchWindow: number
 ): number {
   const end = Math.min(lines.length, startIndex + searchWindow);
   for (let i = startIndex; i < end; i++) {
@@ -197,7 +199,7 @@ function findLabelIndex(
 function parseMeasurementText(text: string): ParsedMeasurement {
   if (
     /^(?:none|not yet determined|no legal limit|no ewg health guideline)$/i.test(
-      text.trim(),
+      text.trim()
     )
   ) {
     return { amount: null, unit: '' };
@@ -205,7 +207,7 @@ function parseMeasurementText(text: string): ParsedMeasurement {
 
   const normalized = text.replace(/,/g, '').replace(/μ/g, 'µ');
   const match = normalized.match(
-    /(-?\d+(?:\.\d+)?)\s*(pCi\/L|ppt|ppb|ppm|mg\/L|ug\/L|µg\/L)?/i,
+    /(-?\d+(?:\.\d+)?)\s*(pCi\/L|ppt|ppb|ppm|mg\/L|ug\/L|µg\/L)?/i
   );
   if (!match) return { amount: null, unit: '' };
 
@@ -224,7 +226,7 @@ function readMeasurementAfterLabel(
   lines: string[],
   startIndex: number,
   label: RegExp,
-  searchWindow: number,
+  searchWindow: number
 ): ParsedMeasurement {
   const labelIndex = findLabelIndex(lines, startIndex, label, searchWindow);
   if (labelIndex === -1) return { amount: null, unit: '' };
@@ -246,7 +248,7 @@ function readMeasurementAfterLabel(
   ) {
     if (
       /^(this utility|legal limit|ewg(?:'|’)?s? health guideline|ewg health guideline|national average|state average|health risks|pollution sources|filtering options)$/i.test(
-        lines[i],
+        lines[i]
       )
     ) {
       continue;
@@ -265,7 +267,7 @@ function parseContaminants(lines: string[]): Contaminant[] {
   const contaminants: Contaminant[] = [];
   const seen = new Set<string>();
   const detectedIndex = lines.findIndex((line) =>
-    /^Contaminants Detected$/i.test(line),
+    /^Contaminants Detected$/i.test(line)
   );
   const startIndex = detectedIndex === -1 ? 0 : detectedIndex + 1;
 
@@ -280,7 +282,7 @@ function parseContaminants(lines: string[]): Contaminant[] {
       lines,
       thisUtilityIndex,
       /^This Utility\b/i,
-      4,
+      4
     );
     if (detected.amount === null) continue;
 
@@ -291,13 +293,13 @@ function parseContaminants(lines: string[]): Contaminant[] {
       lines,
       thisUtilityIndex + 1,
       /^(?:Legal Limit|No Legal Limit)\b/i,
-      10,
+      10
     );
     const health = readMeasurementAfterLabel(
       lines,
       thisUtilityIndex + 1,
       /^(?:EWG(?:'|’)?s? Health Guideline|EWG Health Guideline|No EWG Health Guideline|Not yet determined)\b/i,
-      10,
+      10
     );
     const unit = detected.unit || health.unit || legal.unit || 'ppb';
 
@@ -320,7 +322,7 @@ function parseContaminants(lines: string[]): Contaminant[] {
 export function parseEwgHtml(
   html: string,
   zipCode: string,
-  gatewaySource: string,
+  gatewaySource: string
 ): GatewayReport | null {
   const lines = htmlToTextLines(html);
   const contaminants = parseContaminants(lines);

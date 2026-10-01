@@ -380,12 +380,10 @@ const questionsJson = JSON.stringify(quizQuestions);
     }
     answers[stepNumber] = value;
     // Visual select feedback
-    stepEl
-      .querySelectorAll<HTMLButtonElement>('.quiz-option')
-      .forEach((o) => {
-        o.classList.remove('selected');
-        o.setAttribute('aria-pressed', 'false');
-      });
+    stepEl.querySelectorAll<HTMLButtonElement>('.quiz-option').forEach((o) => {
+      o.classList.remove('selected');
+      o.setAttribute('aria-pressed', 'false');
+    });
     opt.classList.add('selected');
     opt.setAttribute('aria-pressed', 'true');
     // Auto-advance after a brief delay so the user sees their selection register
@@ -481,11 +479,7 @@ const questionsJson = JSON.stringify(quizQuestions);
     fireCapture(result.node, normalized);
   }
 
-  function paintResult(
-    node: QuizNode,
-    score: number,
-    previewNode?: QuizNode,
-  ) {
+  function paintResult(node: QuizNode, score: number, previewNode?: QuizNode) {
     document.getElementById('result-emoji')!.textContent = node.emoji;
     document.getElementById('result-title')!.textContent =
       `Node ${node.id} — ${node.name}`;
